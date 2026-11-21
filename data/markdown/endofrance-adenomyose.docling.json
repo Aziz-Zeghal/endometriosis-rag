@@ -1,0 +1,1293 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 14825204134587426378,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/26"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/47"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/50"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/texts/53"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Qu\u2019est-ce que l'ad\u00e9nomyose ?",
+      "text": "Qu\u2019est-ce que l'ad\u00e9nomyose ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019ad\u00e9nomyose : L\u2019endom\u00e9triose interne \u00e0 l\u2019ut\u00e9rus",
+      "text": "L\u2019ad\u00e9nomyose : L\u2019endom\u00e9triose interne \u00e0 l\u2019ut\u00e9rus",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bien que l\u2019ad\u00e9nomyose soit encore peu connue, les estimations de la pr\u00e9valence varient, mais on estime qu\u2019elle peut affecter jusqu\u2019\u00e0 20-30 % des femmes ou personnes menstru\u00e9es. L\u2019ad\u00e9nomyose est une affection gyn\u00e9cologique qui a \u00e9t\u00e9 d\u00e9crite pour la premi\u00e8re fois au cours du si\u00e8cle dernier. Elle se caract\u00e9rise par la pr\u00e9sence de tissu endom\u00e9trial ectopique (glandes et stroma) \u00e0 l\u2019int\u00e9rieur du muscle ut\u00e9rin lui-m\u00eame, appel\u00e9 myom\u00e8tre, alors que l\u2019endom\u00e9triose se retrouve, en dehors de la cavit\u00e9 ut\u00e9rine, sur les organes du petit bassin, voire m\u00eame sur le diaphragme dans des formes plus rares. Historiquement, l\u2019ad\u00e9nomyose \u00e9tait associ\u00e9e aux patientes multipares (ayant eu plusieurs grossesses) de plus de 40 ans pr\u00e9sentant des saignements anormaux, conduisant souvent \u00e0 une ablation chirurgicale de l\u2019ut\u00e9rus (hyst\u00e9rectomie).",
+      "text": "Bien que l\u2019ad\u00e9nomyose soit encore peu connue, les estimations de la pr\u00e9valence varient, mais on estime qu\u2019elle peut affecter jusqu\u2019\u00e0 20-30 % des femmes ou personnes menstru\u00e9es. L\u2019ad\u00e9nomyose est une affection gyn\u00e9cologique qui a \u00e9t\u00e9 d\u00e9crite pour la premi\u00e8re fois au cours du si\u00e8cle dernier. Elle se caract\u00e9rise par la pr\u00e9sence de tissu endom\u00e9trial ectopique (glandes et stroma) \u00e0 l\u2019int\u00e9rieur du muscle ut\u00e9rin lui-m\u00eame, appel\u00e9 myom\u00e8tre, alors que l\u2019endom\u00e9triose se retrouve, en dehors de la cavit\u00e9 ut\u00e9rine, sur les organes du petit bassin, voire m\u00eame sur le diaphragme dans des formes plus rares. Historiquement, l\u2019ad\u00e9nomyose \u00e9tait associ\u00e9e aux patientes multipares (ayant eu plusieurs grossesses) de plus de 40 ans pr\u00e9sentant des saignements anormaux, conduisant souvent \u00e0 une ablation chirurgicale de l\u2019ut\u00e9rus (hyst\u00e9rectomie)."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aujourd\u2019hui, les avanc\u00e9es technologiques en imagerie m\u00e9dicale, telles que l\u2019\u00e9chographie endovaginale (EEV) ou l\u2019imagerie par r\u00e9sonance magn\u00e9tique (IRM), permettent de diagnostiquer l\u2019ad\u00e9nomyose avec une excellente sensibilit\u00e9 et sp\u00e9cificit\u00e9.",
+      "text": "Aujourd\u2019hui, les avanc\u00e9es technologiques en imagerie m\u00e9dicale, telles que l\u2019\u00e9chographie endovaginale (EEV) ou l\u2019imagerie par r\u00e9sonance magn\u00e9tique (IRM), permettent de diagnostiquer l\u2019ad\u00e9nomyose avec une excellente sensibilit\u00e9 et sp\u00e9cificit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces progr\u00e8s ont modifi\u00e9 le profil \u00e9pid\u00e9miologique de l\u2019ad\u00e9nomyose, passant d\u2019une entit\u00e9 histologique \u00e0 une entit\u00e9 clinique, diagnostiqu\u00e9e \u00e0 l\u2019aide de manifestations cliniques vari\u00e9es et de techniques d\u2019imagerie non invasives, plut\u00f4t qu\u2019\u00e0 la suite d\u2019un traitement chirurgical tel qu\u2019une ablation de l\u2019ut\u00e9rus.",
+      "text": "Ces progr\u00e8s ont modifi\u00e9 le profil \u00e9pid\u00e9miologique de l\u2019ad\u00e9nomyose, passant d\u2019une entit\u00e9 histologique \u00e0 une entit\u00e9 clinique, diagnostiqu\u00e9e \u00e0 l\u2019aide de manifestations cliniques vari\u00e9es et de techniques d\u2019imagerie non invasives, plut\u00f4t qu\u2019\u00e0 la suite d\u2019un traitement chirurgical tel qu\u2019une ablation de l\u2019ut\u00e9rus."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 ce jour, environ 30 % des femmes en \u00e2ge de procr\u00e9er, pr\u00e9sentant des saignements anormaux, des douleurs pelviennes, ou souffrant d\u2019infertilit\u00e9, re\u00e7oivent un diagnostic d\u2019ad\u00e9nomyose.",
+      "text": "\u00c0 ce jour, environ 30 % des femmes en \u00e2ge de procr\u00e9er, pr\u00e9sentant des saignements anormaux, des douleurs pelviennes, ou souffrant d\u2019infertilit\u00e9, re\u00e7oivent un diagnostic d\u2019ad\u00e9nomyose.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Des donn\u00e9es d\u2019imagerie et des constatations histologiques indiquent souvent une association de l\u2019ad\u00e9nomyose avec d\u2019autres pathologies gyn\u00e9cologiques telles que l\u2019endom\u00e9triose, les fibromes ut\u00e9rins, les polypes endom\u00e9triaux, ou encore l\u2019hyperplasie endom\u00e9triale. ",
+      "text": " Des donn\u00e9es d\u2019imagerie et des constatations histologiques indiquent souvent une association de l\u2019ad\u00e9nomyose avec d\u2019autres pathologies gyn\u00e9cologiques telles que l\u2019endom\u00e9triose, les fibromes ut\u00e9rins, les polypes endom\u00e9triaux, ou encore l\u2019hyperplasie endom\u00e9triale. "
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e9cemment, des \u00e9tudes ont r\u00e9v\u00e9l\u00e9 la pr\u00e9sence d\u2019ad\u00e9nomyose chez 30 \u00e0 60 % des personnes atteintes d\u2019endom\u00e9triose.",
+      "text": "R\u00e9cemment, des \u00e9tudes ont r\u00e9v\u00e9l\u00e9 la pr\u00e9sence d\u2019ad\u00e9nomyose chez 30 \u00e0 60 % des personnes atteintes d\u2019endom\u00e9triose.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La physiopathologie de l\u2019ad\u00e9nomyose reste peu claire, avec plusieurs th\u00e9ories propos\u00e9es au cours des derni\u00e8res ann\u00e9es, notamment le r\u00f4le potentiel des r\u00e9cepteurs aux hormones sexuelles, des mol\u00e9cules inflammatoires, des enzymes de la matrice extracellulaire*, des facteurs de croissance et du syst\u00e8me immunitaire.",
+      "text": "La physiopathologie de l\u2019ad\u00e9nomyose reste peu claire, avec plusieurs th\u00e9ories propos\u00e9es au cours des derni\u00e8res ann\u00e9es, notamment le r\u00f4le potentiel des r\u00e9cepteurs aux hormones sexuelles, des mol\u00e9cules inflammatoires, des enzymes de la matrice extracellulaire*, des facteurs de croissance et du syst\u00e8me immunitaire."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Extrait de : \u00ab\u00a0L\u2019ad\u00e9nomyose est moins r\u00e9pandue que l\u2019endom\u00e9triose\u00a0\u00bb par P. Santulli dans \u00ab\u00a0Id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose,  Editions Le Cavalier bleu, avril 2024",
+      "text": "Extrait de : \u00ab\u00a0L\u2019ad\u00e9nomyose est moins r\u00e9pandue que l\u2019endom\u00e9triose\u00a0\u00bb par P. Santulli dans \u00ab\u00a0Id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose,  Editions Le Cavalier bleu, avril 2024",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019ad\u00e9nomyose : c'est quoi ?",
+      "text": "L\u2019ad\u00e9nomyose : c'est quoi ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On parle d\u2019une anomalie de la zone de jonction entre l\u2019endom\u00e8tre (muqueuse qui tapisse l\u2019ut\u00e9rus) et le myom\u00e8tre (muscle de la paroi ut\u00e9rine) qui va laisser les cellules de l\u2019endom\u00e8tre infiltrer le myom\u00e8tre. Elle peut \u00eatre superficielle (\u00e9paississement de la zone jusqu\u2019\u00e0 12 mm) ou profonde (et douloureuse).",
+      "text": "On parle d\u2019une anomalie de la zone de jonction entre l\u2019endom\u00e8tre (muqueuse qui tapisse l\u2019ut\u00e9rus) et le myom\u00e8tre (muscle de la paroi ut\u00e9rine) qui va laisser les cellules de l\u2019endom\u00e8tre infiltrer le myom\u00e8tre. Elle peut \u00eatre superficielle (\u00e9paississement de la zone jusqu\u2019\u00e0 12 mm) ou profonde (et douloureuse)."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L'ad\u00e9nomyose peut \u00eatre :",
+      "text": "L'ad\u00e9nomyose peut \u00eatre :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certaines formes d\u2019ad\u00e9nomyose peuvent \u00eatre extr\u00eamement douloureuses et invalidantes au quotidien.",
+      "text": "Certaines formes d\u2019ad\u00e9nomyose peuvent \u00eatre extr\u00eamement douloureuses et invalidantes au quotidien."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose pelvienne et l\u2019ad\u00e9nomyose sont souvent associ\u00e9es. Mais il n\u2019y a pas de g\u00e9n\u00e9ralit\u00e9s : une femme peut avoir de l\u2019ad\u00e9nomyose sans avoir d\u2019endom\u00e9triose. Et vice versa.",
+      "text": "L\u2019endom\u00e9triose pelvienne et l\u2019ad\u00e9nomyose sont souvent associ\u00e9es. Mais il n\u2019y a pas de g\u00e9n\u00e9ralit\u00e9s : une femme peut avoir de l\u2019ad\u00e9nomyose sans avoir d\u2019endom\u00e9triose. Et vice versa."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les facteurs de risques de l\u2019ad\u00e9nomyose : comment appara\u00eet-elle ?",
+      "text": "Les facteurs de risques de l\u2019ad\u00e9nomyose : comment appara\u00eet-elle ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On rencontre le plus d\u2019ad\u00e9nomyose\u00a0",
+      "text": "On rencontre le plus d\u2019ad\u00e9nomyose\u00a0"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "chez des femmes ayant eu plusieurs enfants",
+      "text": "chez des femmes ayant eu plusieurs enfants",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", ou ayant un endom\u00e8tre (muqueuse ut\u00e9rine) tr\u00e8s d\u00e9velopp\u00e9 (on parle alors d\u2019hyperplasie endom\u00e9triale).",
+      "text": ", ou ayant un endom\u00e8tre (muqueuse ut\u00e9rine) tr\u00e8s d\u00e9velopp\u00e9 (on parle alors d\u2019hyperplasie endom\u00e9triale)."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On ne sait pas dire aujourd\u2019hui si les chirurgies ou les c\u00e9sariennes peuvent entra\u00eener de l\u2019ad\u00e9nomyose. En revanche, dans les interrogatoires des patientes ayant une ad\u00e9nomyose, on retrouve des femmes qui ont eu des placentas pr\u00e9sentant des anomalies.",
+      "text": "On ne sait pas dire aujourd\u2019hui si les chirurgies ou les c\u00e9sariennes peuvent entra\u00eener de l\u2019ad\u00e9nomyose. En revanche, dans les interrogatoires des patientes ayant une ad\u00e9nomyose, on retrouve des femmes qui ont eu des placentas pr\u00e9sentant des anomalies."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En revanche, on sait que la pose d\u2019un st\u00e9rilet n\u2019est pas un facteur de risques.",
+      "text": "En revanche, on sait que la pose d\u2019un st\u00e9rilet n\u2019est pas un facteur de risques."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "N\u00e9anmoins, cela n\u2019explique pas les cas chez les plus jeunes.",
+      "text": "N\u00e9anmoins, cela n\u2019explique pas les cas chez les plus jeunes."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de l\u2019ad\u00e9nomyose",
+      "text": "Les sympt\u00f4mes de l\u2019ad\u00e9nomyose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "M\u00e9norragies",
+      "text": "M\u00e9norragies",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " R\u00e8gles tr\u00e8s abondantes et longues (sup\u00e9rieures \u00e0 7 jours avec une perte de sang importante). Elles sont rencontr\u00e9es dans 50 % des cas d\u2019ad\u00e9nomyose.",
+      "text": " R\u00e8gles tr\u00e8s abondantes et longues (sup\u00e9rieures \u00e0 7 jours avec une perte de sang importante). Elles sont rencontr\u00e9es dans 50 % des cas d\u2019ad\u00e9nomyose."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dysm\u00e9norrh\u00e9es",
+      "text": "Dysm\u00e9norrh\u00e9es",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Douleurs li\u00e9es aux cycles. Elles concernent 30 % des femmes atteintes d\u2019ad\u00e9nomyose.",
+      "text": " Douleurs li\u00e9es aux cycles. Elles concernent 30 % des femmes atteintes d\u2019ad\u00e9nomyose."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "M\u00e9trorragies",
+      "text": "M\u00e9trorragies",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Pertes de sang en dehors de la p\u00e9riode des r\u00e8gles. Elles sont rencontr\u00e9es dans 20 % des cas d\u2019ad\u00e9nomyose.",
+      "text": " Pertes de sang en dehors de la p\u00e9riode des r\u00e8gles. Elles sont rencontr\u00e9es dans 20 % des cas d\u2019ad\u00e9nomyose."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter : l\u2019ad\u00e9nomyose ne pr\u00e9sente aucun sympt\u00f4me 2 fois sur 3.",
+      "text": "A noter : l\u2019ad\u00e9nomyose ne pr\u00e9sente aucun sympt\u00f4me 2 fois sur 3.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment d\u00e9tecter l\u2019ad\u00e9nomyose ?",
+      "text": "Comment d\u00e9tecter l\u2019ad\u00e9nomyose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019\u00e9chographie",
+      "text": "L\u2019\u00e9chographie",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Ad\u00e9nomyose et infertilit\u00e9",
+      "text": "Ad\u00e9nomyose et infertilit\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019ad\u00e9nomyose est assez souvent retrouv\u00e9e chez la femme infertile.",
+      "text": "L\u2019ad\u00e9nomyose est assez souvent retrouv\u00e9e chez la femme infertile.",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si elle est importante, cette anomalie de l\u2019endom\u00e8tre entra\u00eenerait une\u00a0",
+      "text": "Si elle est importante, cette anomalie de l\u2019endom\u00e8tre entra\u00eenerait une\u00a0"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "r\u00e9action inflammatoire qui pourrait emp\u00eacher l\u2019implantation de l\u2019embryon",
+      "text": "r\u00e9action inflammatoire qui pourrait emp\u00eacher l\u2019implantation de l\u2019embryon",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Le risque de fausse couche chez la femme porteuse d\u2019une ad\u00e9nomyose serait multipli\u00e9 par 2.",
+      "text": ". Le risque de fausse couche chez la femme porteuse d\u2019une ad\u00e9nomyose serait multipli\u00e9 par 2."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lors du bilan de procr\u00e9ation m\u00e9dicale assist\u00e9e (PMA), on fera une IRM pour \u00e9valuer la zone de jonction entre l\u2019endom\u00e8tre et le myom\u00e8tre. Son \u00e9paississement sera pr\u00e9dictif de la pr\u00e9sence ou non de l\u2019ad\u00e9nomyose et de la diminution du taux d\u2019implantation de l\u2019embryon.",
+      "text": "Lors du bilan de procr\u00e9ation m\u00e9dicale assist\u00e9e (PMA), on fera une IRM pour \u00e9valuer la zone de jonction entre l\u2019endom\u00e8tre et le myom\u00e8tre. Son \u00e9paississement sera pr\u00e9dictif de la pr\u00e9sence ou non de l\u2019ad\u00e9nomyose et de la diminution du taux d\u2019implantation de l\u2019embryon."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les analogues de la Gn RH (d\u00e9capeptyl, \u00e9nantone\u2026) pr\u00e9sentent un int\u00e9r\u00eat car ils agissent bien sur l\u2019ad\u00e9nomyose et favorisent les chances de grossesse apr\u00e8s 3 \u00e0 6 mois de traitement.",
+      "text": "Les analogues de la Gn RH (d\u00e9capeptyl, \u00e9nantone\u2026) pr\u00e9sentent un int\u00e9r\u00eat car ils agissent bien sur l\u2019ad\u00e9nomyose et favorisent les chances de grossesse apr\u00e8s 3 \u00e0 6 mois de traitement."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les traitements de l\u2019ad\u00e9nomyose",
+      "text": "Les traitements de l\u2019ad\u00e9nomyose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019",
+      "text": "L\u2019"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "embolisation des art\u00e8res ut\u00e9rines",
+      "text": "embolisation des art\u00e8res ut\u00e9rines",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " appara\u00eet comme un traitement conservateur qui pr\u00e9serve la fertilit\u00e9. Toutefois, chez pr\u00e8s de 50 % des femmes trait\u00e9es, on constate un retour des sympt\u00f4mes dans les 2 ans. Cette op\u00e9ration consiste \u00e0 inclure des petites billes de gel dans les art\u00e8res ut\u00e9rines afin de diminuer l\u2019intensit\u00e9 des m\u00e9norragies. Cette technique est aussi utilis\u00e9e dans le cas des h\u00e9morragies de la d\u00e9livrance apr\u00e8s des accouchements.",
+      "text": " appara\u00eet comme un traitement conservateur qui pr\u00e9serve la fertilit\u00e9. Toutefois, chez pr\u00e8s de 50 % des femmes trait\u00e9es, on constate un retour des sympt\u00f4mes dans les 2 ans. Cette op\u00e9ration consiste \u00e0 inclure des petites billes de gel dans les art\u00e8res ut\u00e9rines afin de diminuer l\u2019intensit\u00e9 des m\u00e9norragies. Cette technique est aussi utilis\u00e9e dans le cas des h\u00e9morragies de la d\u00e9livrance apr\u00e8s des accouchements."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En l\u2019absence de d\u00e9sir de grossesse, le traitement consistera \u00e0 soulager les m\u00e9norragies, puis comme pour l\u2019endom\u00e9triose, \u00e0 emp\u00eacher la stimulation hormonale des tissus endom\u00e9triaux :",
+      "text": "En l\u2019absence de d\u00e9sir de grossesse, le traitement consistera \u00e0 soulager les m\u00e9norragies, puis comme pour l\u2019endom\u00e9triose, \u00e0 emp\u00eacher la stimulation hormonale des tissus endom\u00e9triaux :"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "GnRH + add back therapy*",
+      "text": "GnRH + add back therapy*",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: ce traitement agit en diminuant l\u2019\u00e9paississement de la zone jonctionnelle, du volume ut\u00e9rin et des sympt\u00f4mes associ\u00e9s (dysm\u00e9norrh\u00e9e, m\u00e9norragies).",
+      "text": "\u00a0: ce traitement agit en diminuant l\u2019\u00e9paississement de la zone jonctionnelle, du volume ut\u00e9rin et des sympt\u00f4mes associ\u00e9s (dysm\u00e9norrh\u00e9e, m\u00e9norragies)."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "DIU hormonal",
+      "text": "DIU hormonal",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(type Mir\u00e9na)\u00a0; ce traitement diminue les m\u00e9norragies, le volume ut\u00e9rin et corrige l\u2019an\u00e9mie. Il peut \u00eatre administr\u00e9 pour 3 ans.",
+      "text": "\u00a0(type Mir\u00e9na)\u00a0; ce traitement diminue les m\u00e9norragies, le volume ut\u00e9rin et corrige l\u2019an\u00e9mie. Il peut \u00eatre administr\u00e9 pour 3 ans."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Progestatif en continu",
+      "text": "Progestatif en continu",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", qui permet une atrophie de l\u2019endom\u00e8tre.",
+      "text": ", qui permet une atrophie de l\u2019endom\u00e8tre."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "*l\u2019add-back therapy consiste \u00e0 r\u00e9introduire un peu d\u2019oestrog\u00e8nes\u00a0: suffisamment pour pallier les effets secondaires g\u00e9n\u00e9r\u00e9s par l\u2019analogue Gn RH (m\u00e9nopause artificielle) mais insuffisamment pour agir sur les cellules (hormono d\u00e9pendantes \u00e0 l\u2019\u0153strog\u00e8ne). L\u2019add-back therapy est un vrai confort durant les cures de m\u00e9nopause artificielle.",
+      "text": "*l\u2019add-back therapy consiste \u00e0 r\u00e9introduire un peu d\u2019oestrog\u00e8nes\u00a0: suffisamment pour pallier les effets secondaires g\u00e9n\u00e9r\u00e9s par l\u2019analogue Gn RH (m\u00e9nopause artificielle) mais insuffisamment pour agir sur les cellules (hormono d\u00e9pendantes \u00e0 l\u2019\u0153strog\u00e8ne). L\u2019add-back therapy est un vrai confort durant les cures de m\u00e9nopause artificielle.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le\u00a0",
+      "text": "Le\u00a0"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "traitement radical consiste en l\u2019hyst\u00e9rectomie",
+      "text": "traitement radical consiste en l\u2019hyst\u00e9rectomie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(ablation de l\u2019ut\u00e9rus). A noter que s\u2019il y a une endom\u00e9triose associ\u00e9e, l\u2019hyst\u00e9rectomie seule ne sera pas suffisante.",
+      "text": "\u00a0(ablation de l\u2019ut\u00e9rus). A noter que s\u2019il y a une endom\u00e9triose associ\u00e9e, l\u2019hyst\u00e9rectomie seule ne sera pas suffisante."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter\u00a0: on ne traite que les femmes symptomatiques (si douleurs, saignements importants).",
+      "text": "A noter\u00a0: on ne traite que les femmes symptomatiques (si douleurs, saignements importants).",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e9dig\u00e9 \u00e0 partir des expos\u00e9s du Pr Herv\u00e9 Fernandez, du Dr Brigitte Clavier, du Dr C\u00e9cile Martin lors du congr\u00e8s Rouendom\u00e9triose de f\u00e9vrier 2016",
+      "text": "R\u00e9dig\u00e9 \u00e0 partir des expos\u00e9s du Pr Herv\u00e9 Fernandez, du Dr Brigitte Clavier, du Dr C\u00e9cile Martin lors du congr\u00e8s Rouendom\u00e9triose de f\u00e9vrier 2016",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,324 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 14757479043046685381,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Qu\u2019est-ce que le temps partiel th\u00e9rapeutique ?",
+      "text": "Qu\u2019est-ce que le temps partiel th\u00e9rapeutique ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 07/03/2024",
+      "text": "Publi\u00e9 le 07/03/2024"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les personnes qui ont souffert d\u2019une maladie peuvent demander \u00e0 reprendre leur activit\u00e9 professionnelle \u00e0 temps partiel sans perte de salaire. C\u2019est le \u00ab temps partiel th\u00e9rapeutique \u00bb, une adaptation utile lorsqu\u2019on veut reprendre le travail \u00e0 son rythme. R\u00e9ponses aux questions les plus couramment pos\u00e9es sur ce dispositif.",
+      "text": "Les personnes qui ont souffert d\u2019une maladie peuvent demander \u00e0 reprendre leur activit\u00e9 professionnelle \u00e0 temps partiel sans perte de salaire. C\u2019est le \u00ab temps partiel th\u00e9rapeutique \u00bb, une adaptation utile lorsqu\u2019on veut reprendre le travail \u00e0 son rythme. R\u00e9ponses aux questions les plus couramment pos\u00e9es sur ce dispositif."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le temps partiel th\u00e9rapeutique, sans perte de salaire",
+      "text": "Le temps partiel th\u00e9rapeutique, sans perte de salaire",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Reprendre le travail, oui, mais progressivement. \u00bb Cette demande souvent formul\u00e9e apr\u00e8s une maladie peut se concr\u00e9tiser gr\u00e2ce au temps partiel th\u00e9rapeutique (souvent improprement appel\u00e9 \u00ab mi-temps th\u00e9rapeutique \u00bb).",
+      "text": "\u00ab Reprendre le travail, oui, mais progressivement. \u00bb Cette demande souvent formul\u00e9e apr\u00e8s une maladie peut se concr\u00e9tiser gr\u00e2ce au temps partiel th\u00e9rapeutique (souvent improprement appel\u00e9 \u00ab mi-temps th\u00e9rapeutique \u00bb)."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le temps partiel th\u00e9rapeutique (TPT) est une formule de reprise du travail qui permet de travailler \u00e0 temps partiel sans perte de salaire. Mi-temps, deux-tiers temps, quatre-cinqui\u00e8mes, les options sont vari\u00e9es. Mais dans tous les cas de figure, la nouvelle charge de travail doit \u00eatre adapt\u00e9e \u00e0 la dur\u00e9e effective de travail. Pas question de faire un mi-temps avec son ancienne charge de travail ! Donc le TPT doit forc\u00e9ment s\u2019accompagner d\u2019une red\u00e9finition du poste. Mais il ne doit pas devenir un \u00ab placard \u00bb : le salari\u00e9 doit garder des responsabilit\u00e9s \u00e0 hauteur de ses comp\u00e9tences. Seule la charge de travail est r\u00e9duite.",
+      "text": "Le temps partiel th\u00e9rapeutique (TPT) est une formule de reprise du travail qui permet de travailler \u00e0 temps partiel sans perte de salaire. Mi-temps, deux-tiers temps, quatre-cinqui\u00e8mes, les options sont vari\u00e9es. Mais dans tous les cas de figure, la nouvelle charge de travail doit \u00eatre adapt\u00e9e \u00e0 la dur\u00e9e effective de travail. Pas question de faire un mi-temps avec son ancienne charge de travail ! Donc le TPT doit forc\u00e9ment s\u2019accompagner d\u2019une red\u00e9finition du poste. Mais il ne doit pas devenir un \u00ab placard \u00bb : le salari\u00e9 doit garder des responsabilit\u00e9s \u00e0 hauteur de ses comp\u00e9tences. Seule la charge de travail est r\u00e9duite."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Avantages et les inconv\u00e9nients du temps partiel th\u00e9rapeutique",
+      "text": "Avantages et les inconv\u00e9nients du temps partiel th\u00e9rapeutique",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le temps partiel th\u00e9rapeutique permet de reprendre une activit\u00e9 professionnelle en accord avec ses capacit\u00e9s physiques et psychiques, progressivement. De plus, il permet de se m\u00e9nager du temps pour les soins de suivi, le repos, les loisirs, etc. Plut\u00f4t que reprendre \u00e0 plein temps et compter sur ses RTT pour son suivi m\u00e9dical (ce qui n\u2019est jamais une bonne id\u00e9e), le salari\u00e9 dispose d\u2019une partie de son temps pour se r\u00e9adapter, recouvrer ses forces et prendre soin de lui.",
+      "text": "Le temps partiel th\u00e9rapeutique permet de reprendre une activit\u00e9 professionnelle en accord avec ses capacit\u00e9s physiques et psychiques, progressivement. De plus, il permet de se m\u00e9nager du temps pour les soins de suivi, le repos, les loisirs, etc. Plut\u00f4t que reprendre \u00e0 plein temps et compter sur ses RTT pour son suivi m\u00e9dical (ce qui n\u2019est jamais une bonne id\u00e9e), le salari\u00e9 dispose d\u2019une partie de son temps pour se r\u00e9adapter, recouvrer ses forces et prendre soin de lui."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bien pens\u00e9 et suffisamment adapt\u00e9, le TPT a peu d\u2019inconv\u00e9nients, \u00e0 condition que le poste soit red\u00e9fini \u00e0 hauteur des comp\u00e9tences et des limites du salari\u00e9.",
+      "text": "Bien pens\u00e9 et suffisamment adapt\u00e9, le TPT a peu d\u2019inconv\u00e9nients, \u00e0 condition que le poste soit red\u00e9fini \u00e0 hauteur des comp\u00e9tences et des limites du salari\u00e9."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Demander un temps partiel th\u00e9rapeutique",
+      "text": "Demander un temps partiel th\u00e9rapeutique",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une demande de TPT peut \u00eatre faite apr\u00e8s un arr\u00eat de travail (le cas le plus courant), mais \u00e9galement apr\u00e8s une reprise du travail \u00e0 plein temps qui a \u00e9chou\u00e9 du fait des limites physiques et psychiques du salari\u00e9. Il n\u2019y a pas de honte \u00e0 demander ce dispositif apr\u00e8s quelques semaines de retour au poste de travail \u00e0 temps complet. La demande de temps partiel th\u00e9rapeutique est faite par le m\u00e9decin traitant. Pour d\u00e9finir les modalit\u00e9s de ce TPT, il peut \u00e9galement \u00eatre utile d\u2019associer le m\u00e9decin du travail \u00e0 la d\u00e9marche. La demande pr\u00e9cise le pourcentage d\u2019activit\u00e9 (mi-temps, quatre-cinqui\u00e8mes, etc.).",
+      "text": "Une demande de TPT peut \u00eatre faite apr\u00e8s un arr\u00eat de travail (le cas le plus courant), mais \u00e9galement apr\u00e8s une reprise du travail \u00e0 plein temps qui a \u00e9chou\u00e9 du fait des limites physiques et psychiques du salari\u00e9. Il n\u2019y a pas de honte \u00e0 demander ce dispositif apr\u00e8s quelques semaines de retour au poste de travail \u00e0 temps complet. La demande de temps partiel th\u00e9rapeutique est faite par le m\u00e9decin traitant. Pour d\u00e9finir les modalit\u00e9s de ce TPT, il peut \u00e9galement \u00eatre utile d\u2019associer le m\u00e9decin du travail \u00e0 la d\u00e9marche. La demande pr\u00e9cise le pourcentage d\u2019activit\u00e9 (mi-temps, quatre-cinqui\u00e8mes, etc.)."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le salari\u00e9 adresse cette demande \u00e0 sa Caisse primaire d\u2019assurance maladie et \u00e0 son employeur. Celui-ci peut refuser, mais il doit justifier son refus de mani\u00e8re document\u00e9e, ouvrant ainsi la porte \u00e0 une seconde demande, plus adapt\u00e9e aux contraintes de l\u2019entreprise. La reprise \u00e0 temps partiel th\u00e9rapeutique est possible apr\u00e8s accord du m\u00e9decin du travail (qui fixe si besoin des pr\u00e9conisations \u00e0 l'employeur), de l'employeur et du m\u00e9decin-conseil de la S\u00e9curit\u00e9 sociale (l\u2019absence de r\u00e9ponse de sa part vaut pour accord). En cas d'avis favorable \u00e0 la reprise du travail, le salari\u00e9 et l'employeur s'accordent sur la r\u00e9partition des heures de travail.",
+      "text": "Le salari\u00e9 adresse cette demande \u00e0 sa Caisse primaire d\u2019assurance maladie et \u00e0 son employeur. Celui-ci peut refuser, mais il doit justifier son refus de mani\u00e8re document\u00e9e, ouvrant ainsi la porte \u00e0 une seconde demande, plus adapt\u00e9e aux contraintes de l\u2019entreprise. La reprise \u00e0 temps partiel th\u00e9rapeutique est possible apr\u00e8s accord du m\u00e9decin du travail (qui fixe si besoin des pr\u00e9conisations \u00e0 l'employeur), de l'employeur et du m\u00e9decin-conseil de la S\u00e9curit\u00e9 sociale (l\u2019absence de r\u00e9ponse de sa part vaut pour accord). En cas d'avis favorable \u00e0 la reprise du travail, le salari\u00e9 et l'employeur s'accordent sur la r\u00e9partition des heures de travail."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Plus besoin d\u2019un arr\u00eat de travail \u00e0 temps complet pour b\u00e9n\u00e9ficier d\u2019un TPT",
+      "text": "Plus besoin d\u2019un arr\u00eat de travail \u00e0 temps complet pour b\u00e9n\u00e9ficier d\u2019un TPT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis le 1er janvier 2019, il n\u2019est plus n\u00e9cessaire d\u2019avoir b\u00e9n\u00e9fici\u00e9 d\u2019un arr\u00eat de travail indemnis\u00e9 \u00e0 temps complet pour demander un temps partiel th\u00e9rapeutique, \u00e0 condition de souffrir d\u2019une affection longue dur\u00e9e (ALD, la plupart des maladies chroniques ou des cancers, par exemple). Il suffit d\u2019avoir \u00e9t\u00e9 en arr\u00eat de travail au moins une journ\u00e9e. Ce dispositif peut ainsi d\u00e9sormais succ\u00e9der \u00e0 une activit\u00e9 professionnelle \u00e0 temps complet, pour peu qu\u2019on souffre d\u2019une ALD (ou d\u2019une maladie professionnelle, ou d\u2019un accident du travail) et qu\u2019on ait \u00e9t\u00e9 arr\u00eat\u00e9 au moins une journ\u00e9e.",
+      "text": "Depuis le 1er janvier 2019, il n\u2019est plus n\u00e9cessaire d\u2019avoir b\u00e9n\u00e9fici\u00e9 d\u2019un arr\u00eat de travail indemnis\u00e9 \u00e0 temps complet pour demander un temps partiel th\u00e9rapeutique, \u00e0 condition de souffrir d\u2019une affection longue dur\u00e9e (ALD, la plupart des maladies chroniques ou des cancers, par exemple). Il suffit d\u2019avoir \u00e9t\u00e9 en arr\u00eat de travail au moins une journ\u00e9e. Ce dispositif peut ainsi d\u00e9sormais succ\u00e9der \u00e0 une activit\u00e9 professionnelle \u00e0 temps complet, pour peu qu\u2019on souffre d\u2019une ALD (ou d\u2019une maladie professionnelle, ou d\u2019un accident du travail) et qu\u2019on ait \u00e9t\u00e9 arr\u00eat\u00e9 au moins une journ\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qui paie le salaire pendant le temps partiel th\u00e9rapeutique ?",
+      "text": "Qui paie le salaire pendant le temps partiel th\u00e9rapeutique ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pendant un temps partiel th\u00e9rapeutique, le salari\u00e9 per\u00e7oit l\u2019int\u00e9gralit\u00e9 de son salaire. L\u2019employeur y contribue au pro rata du temps pass\u00e9 dans l\u2019entreprise (par exemple, la moiti\u00e9 dans le cas d\u2019un mi-temps) et la S\u00e9curit\u00e9 sociale contribue le compl\u00e9ment. Chez les personnes qui ont un contrat de pr\u00e9voyance g\u00e9n\u00e9reux, il arrive qu\u2019une somme suppl\u00e9mentaire soit vers\u00e9e par ce contrat.",
+      "text": "Pendant un temps partiel th\u00e9rapeutique, le salari\u00e9 per\u00e7oit l\u2019int\u00e9gralit\u00e9 de son salaire. L\u2019employeur y contribue au pro rata du temps pass\u00e9 dans l\u2019entreprise (par exemple, la moiti\u00e9 dans le cas d\u2019un mi-temps) et la S\u00e9curit\u00e9 sociale contribue le compl\u00e9ment. Chez les personnes qui ont un contrat de pr\u00e9voyance g\u00e9n\u00e9reux, il arrive qu\u2019une somme suppl\u00e9mentaire soit vers\u00e9e par ce contrat."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelle est la dur\u00e9e maximale d\u2019un temps partiel th\u00e9rapeutique ?",
+      "text": "Quelle est la dur\u00e9e maximale d\u2019un temps partiel th\u00e9rapeutique ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour la S\u00e9curit\u00e9 sociale, le TPT est une forme particuli\u00e8re d\u2019arr\u00eat de travail qui vient s\u2019ajouter aux 3 ann\u00e9es maximum d\u2019indemnit\u00e9s journali\u00e8res pr\u00e9vues dans le cadre des arr\u00eats de travail \u00e0 temps complet. La dur\u00e9e maximale d\u2019un TPT est fix\u00e9e \u00e0 une ann\u00e9e au-del\u00e0 de ces 3 ann\u00e9es fix\u00e9es par la loi. Mais si ces 3 ann\u00e9es n\u2019ont pas \u00e9t\u00e9 \u00ab consomm\u00e9es \u00bb, le TPT peut durer plus d\u2019un an, tant que la dur\u00e9e totale (indemnit\u00e9s journali\u00e8res + TPT) reste inf\u00e9rieure \u00e0 4 ans. \u00c0 la fin du TPT, il est pr\u00e9f\u00e9rable de solliciter une visite de reprise du travail avec le m\u00e9decin du travail afin d\u2019envisager une reprise \u00e0 temps plein dans de bonnes conditions.",
+      "text": "Pour la S\u00e9curit\u00e9 sociale, le TPT est une forme particuli\u00e8re d\u2019arr\u00eat de travail qui vient s\u2019ajouter aux 3 ann\u00e9es maximum d\u2019indemnit\u00e9s journali\u00e8res pr\u00e9vues dans le cadre des arr\u00eats de travail \u00e0 temps complet. La dur\u00e9e maximale d\u2019un TPT est fix\u00e9e \u00e0 une ann\u00e9e au-del\u00e0 de ces 3 ann\u00e9es fix\u00e9es par la loi. Mais si ces 3 ann\u00e9es n\u2019ont pas \u00e9t\u00e9 \u00ab consomm\u00e9es \u00bb, le TPT peut durer plus d\u2019un an, tant que la dur\u00e9e totale (indemnit\u00e9s journali\u00e8res + TPT) reste inf\u00e9rieure \u00e0 4 ans. \u00c0 la fin du TPT, il est pr\u00e9f\u00e9rable de solliciter une visite de reprise du travail avec le m\u00e9decin du travail afin d\u2019envisager une reprise \u00e0 temps plein dans de bonnes conditions."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

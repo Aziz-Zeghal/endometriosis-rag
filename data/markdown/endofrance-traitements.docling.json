@@ -1,0 +1,1512 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 17185222936918600030,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Les traitements de l\u2019endom\u00e9triose",
+      "text": "Les traitements de l\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nous rappelons que les informations contenues sur ce site n\u2019ont qu\u2019une valeur d\u2019information g\u00e9n\u00e9rale. Elles ne sauraient se substituer \u00e0 une consultation m\u00e9dicale. Chaque cas d\u2019endom\u00e9triose est unique et c\u2019est en accord avec votre m\u00e9decin que les d\u00e9cisions doivent se prendre.",
+      "text": "Nous rappelons que les informations contenues sur ce site n\u2019ont qu\u2019une valeur d\u2019information g\u00e9n\u00e9rale. Elles ne sauraient se substituer \u00e0 une consultation m\u00e9dicale. Chaque cas d\u2019endom\u00e9triose est unique et c\u2019est en accord avec votre m\u00e9decin que les d\u00e9cisions doivent se prendre."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quels sont les principaux traitements de l\u2019endom\u00e9triose ?",
+      "text": "Quels sont les principaux traitements de l\u2019endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il ",
+      "text": "Il "
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "n\u2019existe pas aujourd\u2019hui de traitements d\u00e9finitifs de l\u2019endom\u00e9triose,",
+      "text": "n\u2019existe pas aujourd\u2019hui de traitements d\u00e9finitifs de l\u2019endom\u00e9triose,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " m\u00eame si l\u2019hormonoth\u00e9rapie et/ou la chirurgie peuvent endiguer l\u2019\u00e9volution de cette maladie durant plusieurs ann\u00e9es ",
+      "text": " m\u00eame si l\u2019hormonoth\u00e9rapie et/ou la chirurgie peuvent endiguer l\u2019\u00e9volution de cette maladie durant plusieurs ann\u00e9es "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "selon les cas",
+      "text": "selon les cas",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe des cas ",
+      "text": "Il existe des cas "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019endom\u00e9triose superficielle",
+      "text": "d\u2019endom\u00e9triose superficielle",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui ne n\u00e9cessitent aucun traitement particulier. En effet, il arrive que ",
+      "text": " qui ne n\u00e9cessitent aucun traitement particulier. En effet, il arrive que "
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dans 1/3 des cas,",
+      "text": "dans 1/3 des cas,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " des l\u00e9sions superficielles vont r\u00e9gresser gr\u00e2ce \u00e0 quelques mois de traitement, ou m\u00eame spontan\u00e9ment sans traitement. Ainsi, certaines personnes atteintes d\u2019endom\u00e9triose superficielle pourront trouver un \u00e9quilibre gr\u00e2ce aux ",
+      "text": " des l\u00e9sions superficielles vont r\u00e9gresser gr\u00e2ce \u00e0 quelques mois de traitement, ou m\u00eame spontan\u00e9ment sans traitement. Ainsi, certaines personnes atteintes d\u2019endom\u00e9triose superficielle pourront trouver un \u00e9quilibre gr\u00e2ce aux "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decines compl\u00e9mentaires",
+      "text": "m\u00e9decines compl\u00e9mentaires",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", sans traitement, avec une hygi\u00e8ne de vie adapt\u00e9e . La Haute autorit\u00e9 de sant\u00e9 (HAS) et le Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (CNGOF) recommandent parmi les th\u00e9rapies, compl\u00e9mentaires aux traitements m\u00e9dicamenteux, l\u2019ost\u00e9pathie, la kin\u00e9sith\u00e9rapie, la relaxation (auto hypnose, sophrologie), l\u2019activit\u00e9 physique adapt\u00e9e comme le yoga. La HAS et le CNGOF indiquent qu\u2019il n\u2019y a aucune preuve dans la litt\u00e9rature scientifique, que l\u2019alimentation a un impact sur l\u2019endom\u00e9triose. Il appartient \u00e0 chaque personne atteinte qui le souhaite, de tester et de voir ce qui lui convient. D\u00e8s lors que les sympt\u00f4mes deviennent importants et g\u00eanent la qualit\u00e9 de vie, un avis m\u00e9dical pourrait \u00eatre pris afin de v\u00e9rifier une potentielle \u00e9volution des l\u00e9sions.",
+      "text": ", sans traitement, avec une hygi\u00e8ne de vie adapt\u00e9e . La Haute autorit\u00e9 de sant\u00e9 (HAS) et le Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (CNGOF) recommandent parmi les th\u00e9rapies, compl\u00e9mentaires aux traitements m\u00e9dicamenteux, l\u2019ost\u00e9pathie, la kin\u00e9sith\u00e9rapie, la relaxation (auto hypnose, sophrologie), l\u2019activit\u00e9 physique adapt\u00e9e comme le yoga. La HAS et le CNGOF indiquent qu\u2019il n\u2019y a aucune preuve dans la litt\u00e9rature scientifique, que l\u2019alimentation a un impact sur l\u2019endom\u00e9triose. Il appartient \u00e0 chaque personne atteinte qui le souhaite, de tester et de voir ce qui lui convient. D\u00e8s lors que les sympt\u00f4mes deviennent importants et g\u00eanent la qualit\u00e9 de vie, un avis m\u00e9dical pourrait \u00eatre pris afin de v\u00e9rifier une potentielle \u00e9volution des l\u00e9sions."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour en savoir plus lire la page soulager les douleurs.",
+      "text": "Pour en savoir plus lire la page soulager les douleurs.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans 2/3 des cas,",
+      "text": "Dans 2/3 des cas,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " l\u2019endom\u00e9triose \u00e9volue et parfois dans des formes s\u00e9v\u00e8res, invalidantes pour le quotidien. Un suivi m\u00e9dical aupr\u00e8s d\u2019experts (nos b\u00e9n\u00e9voles r\u00e9gionales peuvent vous orienter) est souvent n\u00e9cessaire pour une prise en charge multimodale et adapt\u00e9e \u00e0 chaque personne, en fonction de ses souhaits (d\u00e9sir de grossesse ou non) et du retentissement de la maladie sur sa qualit\u00e9 de vie .",
+      "text": " l\u2019endom\u00e9triose \u00e9volue et parfois dans des formes s\u00e9v\u00e8res, invalidantes pour le quotidien. Un suivi m\u00e9dical aupr\u00e8s d\u2019experts (nos b\u00e9n\u00e9voles r\u00e9gionales peuvent vous orienter) est souvent n\u00e9cessaire pour une prise en charge multimodale et adapt\u00e9e \u00e0 chaque personne, en fonction de ses souhaits (d\u00e9sir de grossesse ou non) et du retentissement de la maladie sur sa qualit\u00e9 de vie ."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose diminue et dispara\u00eet g\u00e9n\u00e9ralement apr\u00e8s la m\u00e9nopause, mais doit tout de m\u00eame \u00eatre surveill\u00e9e surtout quand des traitements hormonaux de substitution sont mis en place. Il existe de rares cas de r\u00e9cidive \u00e0 la m\u00e9nopause.",
+      "text": "L\u2019endom\u00e9triose diminue et dispara\u00eet g\u00e9n\u00e9ralement apr\u00e8s la m\u00e9nopause, mais doit tout de m\u00eame \u00eatre surveill\u00e9e surtout quand des traitements hormonaux de substitution sont mis en place. Il existe de rares cas de r\u00e9cidive \u00e0 la m\u00e9nopause."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il n\u2019existe pas \u00ab\u00a0une\u00a0\u00bb mais \u00ab\u00a0des\u00a0\u00bb endom\u00e9trioses",
+      "text": "Il n\u2019existe pas \u00ab\u00a0une\u00a0\u00bb mais \u00ab\u00a0des\u00a0\u00bb endom\u00e9trioses",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Chaque personne est unique et r\u00e9agit diff\u00e9remment aux traitements m\u00e9dicamenteux, chirurgicaux et aux techniques non m\u00e9dicamenteuses et compl\u00e9mentaires.",
+      "text": ". Chaque personne est unique et r\u00e9agit diff\u00e9remment aux traitements m\u00e9dicamenteux, chirurgicaux et aux techniques non m\u00e9dicamenteuses et compl\u00e9mentaires."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La prise en charge de l\u2019endom\u00e9triose : une alliance th\u00e9rapeutique",
+      "text": "La prise en charge de l\u2019endom\u00e9triose : une alliance th\u00e9rapeutique",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Selon les recommandations de la Haute autorit\u00e9 de sant\u00e9 et le Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (RCP HAS/CNGOF 2017), la prise en charge de l\u2019endom\u00e9triose consiste \u00e0 pr\u00e9server la qualit\u00e9 de vie et la fertilit\u00e9 si l\u2019on souhaite avoir des enfants.",
+      "text": "Selon les recommandations de la Haute autorit\u00e9 de sant\u00e9 et le Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (RCP HAS/CNGOF 2017), la prise en charge de l\u2019endom\u00e9triose consiste \u00e0 pr\u00e9server la qualit\u00e9 de vie et la fertilit\u00e9 si l\u2019on souhaite avoir des enfants."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ainsi la prise en charge r\u00e9side en une alliance th\u00e9rapeutique entre :",
+      "text": "Ainsi la prise en charge r\u00e9side en une alliance th\u00e9rapeutique entre :"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le traitement m\u00e9dicamenteux en 1e intention (antalgique / hormonal)",
+      "text": "le traitement m\u00e9dicamenteux en 1e intention (antalgique / hormonal)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la chirurgie en 2e intention et en cas d\u2019\u00e9chec des traitements m\u00e9dicamenteux,",
+      "text": "la chirurgie en 2e intention et en cas d\u2019\u00e9chec des traitements m\u00e9dicamenteux,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les soins de support qui visent \u00e0 accompagner le traitement m\u00e9dical, \u00e0 g\u00e9rer la douleur et \u00e0 mieux vivre la maladie au quotidien.",
+      "text": "les soins de support qui visent \u00e0 accompagner le traitement m\u00e9dical, \u00e0 g\u00e9rer la douleur et \u00e0 mieux vivre la maladie au quotidien.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Soins de support recommand\u00e9s par la HAS et le CNGOF (on les appelle aussi les techniques non m\u00e9dicamenteuses) :",
+      "text": "Soins de support recommand\u00e9s par la HAS et le CNGOF (on les appelle aussi les techniques non m\u00e9dicamenteuses) :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019ost\u00e9opathie (pour g\u00e9rer le corps dans son ensemble, car nous \u00ab compensons \u00bb quand une zone est douloureuse),",
+      "text": "l\u2019ost\u00e9opathie (pour g\u00e9rer le corps dans son ensemble, car nous \u00ab compensons \u00bb quand une zone est douloureuse),",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le yoga et plus g\u00e9n\u00e9ralement le sport adapt\u00e9 qui permet un rel\u00e2chement musculaire, le d\u00e9veloppement d\u2019endorphines et une meilleure gestion du stress,",
+      "text": "le yoga et plus g\u00e9n\u00e9ralement le sport adapt\u00e9 qui permet un rel\u00e2chement musculaire, le d\u00e9veloppement d\u2019endorphines et une meilleure gestion du stress,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019acupuncture, qui peut agir sur les douleurs, la fatigue chronique, l\u2019anxi\u00e9t\u00e9,",
+      "text": "l\u2019acupuncture, qui peut agir sur les douleurs, la fatigue chronique, l\u2019anxi\u00e9t\u00e9,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la relaxation de type Jacobson : m\u00e9ditation, sophrologie, hypnose ou auto-hypnose (il est important de s\u2019entra\u00eener d\u2019abord avec un professionnel form\u00e9 et comp\u00e9tent),",
+      "text": "la relaxation de type Jacobson : m\u00e9ditation, sophrologie, hypnose ou auto-hypnose (il est important de s\u2019entra\u00eener d\u2019abord avec un professionnel form\u00e9 et comp\u00e9tent),",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les cures thermales dont nous parlons sur la page d\u00e9di\u00e9e,",
+      "text": "les cures thermales dont nous parlons sur la page d\u00e9di\u00e9e,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la neurostimulation transcutan\u00e9e (le TENS).",
+      "text": "la neurostimulation transcutan\u00e9e (le TENS).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Quand la douleur est devenue chronique, rencontrer un algologue ou un m\u00e9decin de la douleur est une aide pr\u00e9cieuse.",
+      "text": "Quand la douleur est devenue chronique, rencontrer un algologue ou un m\u00e9decin de la douleur est une aide pr\u00e9cieuse."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour aller plus loin",
+      "text": "Pour aller plus loin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", lire la page \u00ab Soulager les douleurs \u00bb et la page \u00ab Vivre avec l\u2019endom\u00e9triose \u00bb",
+      "text": ", lire la page \u00ab Soulager les douleurs \u00bb et la page \u00ab Vivre avec l\u2019endom\u00e9triose \u00bb"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement hormonal pour emp\u00eacher la survenue des r\u00e8gles",
+      "text": "Le traitement hormonal pour emp\u00eacher la survenue des r\u00e8gles",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose est une maladie hormono d\u00e9pendante\u2026 il convient donc de\u00a0",
+      "text": "L\u2019endom\u00e9triose est une maladie hormono d\u00e9pendante\u2026 il convient donc de\u00a0"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "priver l\u2019organisme de l\u2019hormone qui va nourrir les cellules d\u2019endom\u00e8tre : l\u2019oestrog\u00e8ne",
+      "text": "priver l\u2019organisme de l\u2019hormone qui va nourrir les cellules d\u2019endom\u00e8tre : l\u2019oestrog\u00e8ne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".\u00a0Aujourd\u2019hui, les sp\u00e9cialistes s\u2019accordent pour dire que le traitement de base consiste \u00e0 emp\u00eacher la survenue des r\u00e8gles : c\u2019est la mise en am\u00e9norrh\u00e9e (absence de r\u00e8gles qui n\u2019a rien \u00e0 voir avec la m\u00e9nopause artificielle).",
+      "text": ".\u00a0Aujourd\u2019hui, les sp\u00e9cialistes s\u2019accordent pour dire que le traitement de base consiste \u00e0 emp\u00eacher la survenue des r\u00e8gles : c\u2019est la mise en am\u00e9norrh\u00e9e (absence de r\u00e8gles qui n\u2019a rien \u00e0 voir avec la m\u00e9nopause artificielle)."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pourquoi supprimer les r\u00e8gles ?",
+      "text": "Pourquoi supprimer les r\u00e8gles ?",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Car les cellules semblables \u00e0 l\u2019endom\u00e8tre diss\u00e9min\u00e9es sur les organes vont r\u00e9agir \u00e0 l\u2019influence hormonale et se mettre \u00e0 saigner en m\u00eame temps que les r\u00e8gles et cr\u00e9er de micros h\u00e9morragies dans le ventre. Ainsi,\u00a0",
+      "text": " Car les cellules semblables \u00e0 l\u2019endom\u00e8tre diss\u00e9min\u00e9es sur les organes vont r\u00e9agir \u00e0 l\u2019influence hormonale et se mettre \u00e0 saigner en m\u00eame temps que les r\u00e8gles et cr\u00e9er de micros h\u00e9morragies dans le ventre. Ainsi,\u00a0"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "donner une pilule en continu ou poser un st\u00e9rilet lib\u00e9rant des hormones",
+      "text": "donner une pilule en continu ou poser un st\u00e9rilet lib\u00e9rant des hormones",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " permet \u00e0 certaines femmes de ne plus souffrir et de vivre normalement.",
+      "text": " permet \u00e0 certaines femmes de ne plus souffrir et de vivre normalement."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Selon les derni\u00e8res recommandations de la Haute autorit\u00e9 de sant\u00e9 et du Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (HAS/CNGOF 2018), le traitement m\u00e9dical sera toujours \u00e0 privil\u00e9gier dans un premier temps car il est moins invasif que la chirurgie. Il doit \u00eatre revu r\u00e9guli\u00e8rement ou d\u00e8s l\u2019apparition de nouveaux sympt\u00f4mes ou l\u2019aggravation de sympt\u00f4mes connus.",
+      "text": "Selon les derni\u00e8res recommandations de la Haute autorit\u00e9 de sant\u00e9 et du Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (HAS/CNGOF 2018), le traitement m\u00e9dical sera toujours \u00e0 privil\u00e9gier dans un premier temps car il est moins invasif que la chirurgie. Il doit \u00eatre revu r\u00e9guli\u00e8rement ou d\u00e8s l\u2019apparition de nouveaux sympt\u00f4mes ou l\u2019aggravation de sympt\u00f4mes connus."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La difficult\u00e9 sera pour chaque femme ou personne menstru\u00e9e, de trouver le traitement qui proposera la meilleure balance \u00ab b\u00e9n\u00e9fices/risques \u00bb : le moins d\u2019effets secondaires possibles et le plus d\u2019effet \u00ab soulageant \u00bb attendu.",
+      "text": "La difficult\u00e9 sera pour chaque femme ou personne menstru\u00e9e, de trouver le traitement qui proposera la meilleure balance \u00ab b\u00e9n\u00e9fices/risques \u00bb : le moins d\u2019effets secondaires possibles et le plus d\u2019effet \u00ab soulageant \u00bb attendu."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter :",
+      "text": "A noter :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " on saura si le traitement est efficace apr\u00e8s 4 \u00e0 5 mois d\u2019essai, ce qui peut \u00eatre long quand on souffre ! C\u2019est l\u00e0 aussi que les soins de supports on tout leur int\u00e9r\u00eat dans la prise en charge.",
+      "text": " on saura si le traitement est efficace apr\u00e8s 4 \u00e0 5 mois d\u2019essai, ce qui peut \u00eatre long quand on souffre ! C\u2019est l\u00e0 aussi que les soins de supports on tout leur int\u00e9r\u00eat dans la prise en charge."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La cure de m\u00e9nopause artificielle",
+      "text": "La cure de m\u00e9nopause artificielle",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque cela ne suffit pas, il convient d\u2019entamer des cures de m\u00e9nopause artificielle",
+      "text": "Lorsque cela ne suffit pas, il convient d\u2019entamer des cures de m\u00e9nopause artificielle",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(injection d\u2019analogues de la GN-Rh) \u00a0plus ou moins longues que l\u2019on prendra soin de doubler d\u2019une \u201cadd back therapy\u201d pour pallier les effets secondaires li\u00e9s \u00e0 la m\u00e9nopause (douleurs osseuses, bouff\u00e9es de chaleur, s\u00e9cheresse de la peau, trouble de l\u2019humeur\u2026). Il s\u2019agit de r\u00e9introduire un peu d\u2019\u0153strog\u00e8ne, sous contr\u00f4le m\u00e9dical, pour \u00e9viter une privation trop brutale pour l\u2019organisme. Ce traitement met en m\u00e9nopause artificielle car il supprime la production d\u2019hormones directement au niveau de l\u2019hypophyse. Il est \u00e0 noter que ce traitement est de moins en moins prescrits et qu\u2019il ne doit surtout pas l\u2019\u00eatre en premi\u00e8re intention. Il arrive cependant que certaines personnes r\u00e9agissent bien \u00e0 ce traitement qui leur convient mieux qu\u2019un traitement \u00e0 base de progestatifs ou d\u2019oestroprogestatifs.",
+      "text": "\u00a0(injection d\u2019analogues de la GN-Rh) \u00a0plus ou moins longues que l\u2019on prendra soin de doubler d\u2019une \u201cadd back therapy\u201d pour pallier les effets secondaires li\u00e9s \u00e0 la m\u00e9nopause (douleurs osseuses, bouff\u00e9es de chaleur, s\u00e9cheresse de la peau, trouble de l\u2019humeur\u2026). Il s\u2019agit de r\u00e9introduire un peu d\u2019\u0153strog\u00e8ne, sous contr\u00f4le m\u00e9dical, pour \u00e9viter une privation trop brutale pour l\u2019organisme. Ce traitement met en m\u00e9nopause artificielle car il supprime la production d\u2019hormones directement au niveau de l\u2019hypophyse. Il est \u00e0 noter que ce traitement est de moins en moins prescrits et qu\u2019il ne doit surtout pas l\u2019\u00eatre en premi\u00e8re intention. Il arrive cependant que certaines personnes r\u00e9agissent bien \u00e0 ce traitement qui leur convient mieux qu\u2019un traitement \u00e0 base de progestatifs ou d\u2019oestroprogestatifs."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement chirurgical",
+      "text": "Le traitement chirurgical",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque qu\u2019il y a \u00e9chec du traitement m\u00e9dical, une chirurgie peut-\u00eatre propos\u00e9e.",
+      "text": "Lorsque qu\u2019il y a \u00e9chec du traitement m\u00e9dical, une chirurgie peut-\u00eatre propos\u00e9e.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0 Elle doit \u00eatre la plus compl\u00e8te possible avec une exer\u00e8se des l\u00e9sions endom\u00e9triosiques (retirer les nodules, les l\u00e9sions afin d\u2019\u00e9viter une potentielle r\u00e9cidive, qui peut toutefois arriver).",
+      "text": "\u00a0 Elle doit \u00eatre la plus compl\u00e8te possible avec une exer\u00e8se des l\u00e9sions endom\u00e9triosiques (retirer les nodules, les l\u00e9sions afin d\u2019\u00e9viter une potentielle r\u00e9cidive, qui peut toutefois arriver)."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La chirurgie de l\u2019endom\u00e9triose est complexe, surtout si des l\u00e9sions sont implant\u00e9es sur des organes fonctionnels (vessie, rectum, colon, \u2026). Elle doit donc \u00eatre men\u00e9e par des chirurgiens experts de l\u2019endom\u00e9triose. Multiplier les chirurgies peut se r\u00e9v\u00e9ler contre-productif pour une personne atteinte d\u2019endom\u00e9triose. Id\u00e9alement, il ne faudrait op\u00e9rer qu\u2019une fois\u2026 Cela peut entrainer des douleurs neuropathiques.",
+      "text": "La chirurgie de l\u2019endom\u00e9triose est complexe, surtout si des l\u00e9sions sont implant\u00e9es sur des organes fonctionnels (vessie, rectum, colon, \u2026). Elle doit donc \u00eatre men\u00e9e par des chirurgiens experts de l\u2019endom\u00e9triose. Multiplier les chirurgies peut se r\u00e9v\u00e9ler contre-productif pour une personne atteinte d\u2019endom\u00e9triose. Id\u00e9alement, il ne faudrait op\u00e9rer qu\u2019une fois\u2026 Cela peut entrainer des douleurs neuropathiques."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Le meilleur moment pour op\u00e9rer une patiente souffrant d\u2019endom\u00e9triose est celui o\u00f9 elle souhaite \u00eatre enceinte, et ce d\u2019autant plus qu\u2019\u00e0 son d\u00e9sir de grossesse sont associ\u00e9es des douleurs intenses. \u00bb",
+      "text": "\u00ab Le meilleur moment pour op\u00e9rer une patiente souffrant d\u2019endom\u00e9triose est celui o\u00f9 elle souhaite \u00eatre enceinte, et ce d\u2019autant plus qu\u2019\u00e0 son d\u00e9sir de grossesse sont associ\u00e9es des douleurs intenses. \u00bb"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Charles Chapron \u2013 dans Id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose \u2013 Editions le Cavalier Bleu \u2013 F\u00e9vrier 2020",
+      "text": "Charles Chapron \u2013 dans Id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose \u2013 Editions le Cavalier Bleu \u2013 F\u00e9vrier 2020"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "A l'\u00e9tude : le traitement chirurgical mini invasif de l\u2019endom\u00e9triose rectale par les ultrasons focalis\u00e9s de haute intensit\u00e9 (HIFU)",
+      "text": "A l'\u00e9tude : le traitement chirurgical mini invasif de l\u2019endom\u00e9triose rectale par les ultrasons focalis\u00e9s de haute intensit\u00e9 (HIFU)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans 1 cas sur 5, les l\u00e9sions d\u2019endom\u00e9triose se situent aussi vers le rectum, ce qui engendre des diarrh\u00e9es/constipation, des crampes, des faux besoins ou des besoins imp\u00e9rieux d\u2019aller \u00e0 la selle. Sont fr\u00e9quemment associ\u00e9s, des douleurs lors des rapports sexuels.",
+      "text": "Dans 1 cas sur 5, les l\u00e9sions d\u2019endom\u00e9triose se situent aussi vers le rectum, ce qui engendre des diarrh\u00e9es/constipation, des crampes, des faux besoins ou des besoins imp\u00e9rieux d\u2019aller \u00e0 la selle. Sont fr\u00e9quemment associ\u00e9s, des douleurs lors des rapports sexuels."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le traitement \u00e0 base d\u2019ultrasons constitue une alternative \u00e0 la chirurgie classique.",
+      "text": "Le traitement \u00e0 base d\u2019ultrasons constitue une alternative \u00e0 la chirurgie classique."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le Pr Gil Dubernard m\u00e8ne depuis quelques ann\u00e9es une \u00e9tude pour montrer l\u2019int\u00e9r\u00eat de cette nouvelle prise en charge. Cette \u00e9tude est d\u00e9sormais multicentrique (Lyon (Hospices civils de Lyon), Angers (CHU), Le Kremlin-Bic\u00eatre (H\u00f4pital Bic\u00eatre), Lille (H\u00f4pital Jeanne de Flandres), Bordeaux (Clinique Tivoli-Ducos) et concerne une quarantaine de patientes.",
+      "text": "Le Pr Gil Dubernard m\u00e8ne depuis quelques ann\u00e9es une \u00e9tude pour montrer l\u2019int\u00e9r\u00eat de cette nouvelle prise en charge. Cette \u00e9tude est d\u00e9sormais multicentrique (Lyon (Hospices civils de Lyon), Angers (CHU), Le Kremlin-Bic\u00eatre (H\u00f4pital Bic\u00eatre), Lille (H\u00f4pital Jeanne de Flandres), Bordeaux (Clinique Tivoli-Ducos) et concerne une quarantaine de patientes."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Compte tenu des r\u00e9sultats pr\u00e9liminaires, le Pr Dubernard a demand\u00e9 une prolongation de l\u2019\u00e9tude afin d\u2019inclure davantage de patientes.",
+      "text": "Compte tenu des r\u00e9sultats pr\u00e9liminaires, le Pr Dubernard a demand\u00e9 une prolongation de l\u2019\u00e9tude afin d\u2019inclure davantage de patientes."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sont concern\u00e9es, les personnes de 25 ans ou plus, pr\u00e9sentant une endom\u00e9triose rectale, symptomatique, en \u00e9chec de traitement m\u00e9dicamenteux avec indication chirurgicale ou symptomatiques mais refusant le traitement hormonal notamment en raison de leurs effets secondaires.",
+      "text": "Sont concern\u00e9es, les personnes de 25 ans ou plus, pr\u00e9sentant une endom\u00e9triose rectale, symptomatique, en \u00e9chec de traitement m\u00e9dicamenteux avec indication chirurgicale ou symptomatiques mais refusant le traitement hormonal notamment en raison de leurs effets secondaires."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le traitement en pratique :",
+      "text": "Le traitement en pratique :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il consiste \u00e0 introduire une sonde par voie endorectale et \u00e0 focaliser des ultrasons vers le nodule. La chaleur va d\u00e9vitaliser le nodule en quelques minutes. Le nodule n\u2019est pas supprim\u00e9, mais insensibilis\u00e9. Plusieurs traitements par ultrasons peuvent ainsi \u00eatre propos\u00e9s \u00e0 une m\u00eame patiente. L\u2019intervention dure moins d\u2019une heure, de l\u2019anesth\u00e9sie locale \u00e0 la fin du traitement.",
+      "text": "Il consiste \u00e0 introduire une sonde par voie endorectale et \u00e0 focaliser des ultrasons vers le nodule. La chaleur va d\u00e9vitaliser le nodule en quelques minutes. Le nodule n\u2019est pas supprim\u00e9, mais insensibilis\u00e9. Plusieurs traitements par ultrasons peuvent ainsi \u00eatre propos\u00e9s \u00e0 une m\u00eame patiente. L\u2019intervention dure moins d\u2019une heure, de l\u2019anesth\u00e9sie locale \u00e0 la fin du traitement."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter",
+      "text": "A noter",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : Cette technique de traitement n\u2019est pas applicable pour toutes les formes d\u2019endom\u00e9triose digestive. En raison de la morphologie de la sonde, il n\u2019est pas encore possible de traiter tous les nodules du rectum par ce proc\u00e9d\u00e9. Les crit\u00e8res \u00e0 prendre en compte sont la localisation du nodule (bas et moyen rectum) et son volume.",
+      "text": " : Cette technique de traitement n\u2019est pas applicable pour toutes les formes d\u2019endom\u00e9triose digestive. En raison de la morphologie de la sonde, il n\u2019est pas encore possible de traiter tous les nodules du rectum par ce proc\u00e9d\u00e9. Les crit\u00e8res \u00e0 prendre en compte sont la localisation du nodule (bas et moyen rectum) et son volume."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les premiers r\u00e9sultats de l\u2019\u00e9tude en cours sont prometteurs.",
+      "text": "Les premiers r\u00e9sultats de l\u2019\u00e9tude en cours sont prometteurs."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plus d\u2019informations en suivant ce lien.",
+      "text": "Plus d\u2019informations en suivant ce lien."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab\u00a0Les ultrasons focalis\u00e9s de l\u2019appareil sont diffus\u00e9s par voie endorectale sur les l\u00e9sions endom\u00e9triosiques. Le traitement ne dure que quelques minutes et a pour objectif de d\u00e9vitaliser la l\u00e9sion endom\u00e9triosique",
+      "text": "\u00ab\u00a0Les ultrasons focalis\u00e9s de l\u2019appareil sont diffus\u00e9s par voie endorectale sur les l\u00e9sions endom\u00e9triosiques. Le traitement ne dure que quelques minutes et a pour objectif de d\u00e9vitaliser la l\u00e9sion endom\u00e9triosique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab",
+      "text": "\u00ab"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Gil Dubernard",
+      "text": "Gil Dubernard"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le choix d\u2019un traitement r\u00e9sulte toujours du dialogue entre patient et m\u00e9decin.",
+      "text": "Le choix d\u2019un traitement r\u00e9sulte toujours du dialogue entre patient et m\u00e9decin."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Quel qu\u2019il soit, le traitement est individualis\u00e9 et adapt\u00e9 au cas de chaque personne atteinte d\u2019endom\u00e9triose\u2026. Car chaque endom\u00e9triose est unique !",
+      "text": "Quel qu\u2019il soit, le traitement est individualis\u00e9 et adapt\u00e9 au cas de chaque personne atteinte d\u2019endom\u00e9triose\u2026. Car chaque endom\u00e9triose est unique !"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

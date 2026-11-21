@@ -1,0 +1,669 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 14618865597204645919,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les options th\u00e9rapeutiques varient selon les cas. C\u2019est avant tout l\u2019objectif poursuivi qui conditionne le choix. S\u2019agit-il de traiter une infertilit\u00e9 ou de lutter contre les douleurs ? S\u2019agit-il d\u2019\u00e9liminer la maladie le plus radicalement possible et de diminuer le risque de r\u00e9cidive ? Ces questions sont abord\u00e9es lors d\u2019un entretien avec votre m\u00e9decin afin de choisir un traitement sp\u00e9cifique, sur mesure. Selon la situation, un ou l\u2019association de diff\u00e9rents traitements sont propos\u00e9s. Pour chaque femme, une solution individuelle au probl\u00e8me existe.",
+      "text": "Les options th\u00e9rapeutiques varient selon les cas. C\u2019est avant tout l\u2019objectif poursuivi qui conditionne le choix. S\u2019agit-il de traiter une infertilit\u00e9 ou de lutter contre les douleurs ? S\u2019agit-il d\u2019\u00e9liminer la maladie le plus radicalement possible et de diminuer le risque de r\u00e9cidive ? Ces questions sont abord\u00e9es lors d\u2019un entretien avec votre m\u00e9decin afin de choisir un traitement sp\u00e9cifique, sur mesure. Selon la situation, un ou l\u2019association de diff\u00e9rents traitements sont propos\u00e9s. Pour chaque femme, une solution individuelle au probl\u00e8me existe."
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement pour lutter contre les douleurs",
+      "text": "Le traitement pour lutter contre les douleurs",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les m\u00e9dicaments",
+      "text": "Les m\u00e9dicaments",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On utilise des antalgies adapt\u00e9es aux sp\u00e9cificit\u00e9s de la maladie et des sympt\u00f4mes associ\u00e9s.",
+      "text": "On utilise des antalgies adapt\u00e9es aux sp\u00e9cificit\u00e9s de la maladie et des sympt\u00f4mes associ\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La chirurgie",
+      "text": "La chirurgie",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Au cours de la laparoscopie qui confirme le diagnostic, on effectue habituellement un traitement chirurgical. Le chirurgien \u00e9limine soigneusement tous les foyers visibles d\u2019endom\u00e9triose, sans l\u00e9ser les tissus sains et les organes voisins. Cette technique microchirurgicale est pr\u00e9cise et d\u00e9licate. Elle fait appel au laser CO2.",
+      "text": "Au cours de la laparoscopie qui confirme le diagnostic, on effectue habituellement un traitement chirurgical. Le chirurgien \u00e9limine soigneusement tous les foyers visibles d\u2019endom\u00e9triose, sans l\u00e9ser les tissus sains et les organes voisins. Cette technique microchirurgicale est pr\u00e9cise et d\u00e9licate. Elle fait appel au laser CO2."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans de rares cas, l\u2019ablation de l\u2019ut\u00e9rus, des trompes et des ovaires est envisag\u00e9e si :",
+      "text": "Dans de rares cas, l\u2019ablation de l\u2019ut\u00e9rus, des trompes et des ovaires est envisag\u00e9e si :"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une maladie associ\u00e9e de l\u2019ut\u00e9rus est pr\u00e9sente",
+      "text": "une maladie associ\u00e9e de l\u2019ut\u00e9rus est pr\u00e9sente",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le couple ne souhaite plus avoir d\u2019enfants",
+      "text": "le couple ne souhaite plus avoir d\u2019enfants",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "toutes les autres possibilit\u00e9s ont \u00e9t\u00e9 \u00e9puis\u00e9es.",
+      "text": "toutes les autres possibilit\u00e9s ont \u00e9t\u00e9 \u00e9puis\u00e9es.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019hormonoth\u00e9rapie",
+      "text": "L\u2019hormonoth\u00e9rapie",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les foyers d\u2019endom\u00e9triose sont stimul\u00e9s par les hormones sexuelles f\u00e9minines au cours du cycle. Dans le but de les rendre inactifs, des traitements m\u00e9dicamenteux (progestatifs ou pilule contraceptive) visent \u00e0 r\u00e9guler ou emp\u00eacher l\u2019effet de ces hormones.",
+      "text": "Les foyers d\u2019endom\u00e9triose sont stimul\u00e9s par les hormones sexuelles f\u00e9minines au cours du cycle. Dans le but de les rendre inactifs, des traitements m\u00e9dicamenteux (progestatifs ou pilule contraceptive) visent \u00e0 r\u00e9guler ou emp\u00eacher l\u2019effet de ces hormones."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si un blocage complet de la fonction ovarienne est n\u00e9cessaire, la synth\u00e8se d\u2019\u0153strog\u00e8nes est inhib\u00e9e par des m\u00e9dicaments dits \u00abanalogues de la LH-RH\u00bb. Ce traitement ass\u00e8che les foyers d\u2019endom\u00e9triose. On peut ainsi soulager les douleurs et \u00e9viter la formation de nouveaux foyers.",
+      "text": "Si un blocage complet de la fonction ovarienne est n\u00e9cessaire, la synth\u00e8se d\u2019\u0153strog\u00e8nes est inhib\u00e9e par des m\u00e9dicaments dits \u00abanalogues de la LH-RH\u00bb. Ce traitement ass\u00e8che les foyers d\u2019endom\u00e9triose. On peut ainsi soulager les douleurs et \u00e9viter la formation de nouveaux foyers."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019emploi de ces traitements engendre temporairement un \u00e9tat comparable \u00e0 la m\u00e9nopause, avec les troubles associ\u00e9s. Cependant, l\u2019intensit\u00e9 des bouff\u00e9es de chaleur, de la diminution de la masse osseuse, des fluctuations de l\u2019humeur, est tr\u00e8s variable. Si un traitement prolong\u00e9 est n\u00e9cessaire, on peut soulager les sympt\u00f4mes en prescrivant un traitement hormonal sp\u00e9cial, avec de faibles doses d\u2019\u0153strog\u00e8nes.",
+      "text": "L\u2019emploi de ces traitements engendre temporairement un \u00e9tat comparable \u00e0 la m\u00e9nopause, avec les troubles associ\u00e9s. Cependant, l\u2019intensit\u00e9 des bouff\u00e9es de chaleur, de la diminution de la masse osseuse, des fluctuations de l\u2019humeur, est tr\u00e8s variable. Si un traitement prolong\u00e9 est n\u00e9cessaire, on peut soulager les sympt\u00f4mes en prescrivant un traitement hormonal sp\u00e9cial, avec de faibles doses d\u2019\u0153strog\u00e8nes."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si cette option th\u00e9rapeutique est int\u00e9ressante, elle est utilis\u00e9e comme th\u00e9rapie compl\u00e9mentaire et pose n\u00e9anmoins plusieurs probl\u00e8mes :",
+      "text": "Si cette option th\u00e9rapeutique est int\u00e9ressante, elle est utilis\u00e9e comme th\u00e9rapie compl\u00e9mentaire et pose n\u00e9anmoins plusieurs probl\u00e8mes :"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ce traitement ne fait pas dispara\u00eetre la maladie",
+      "text": "ce traitement ne fait pas dispara\u00eetre la maladie",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "il est contraceptif",
+      "text": "il est contraceptif",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "il peut avoir des effets secondaires.",
+      "text": "il peut avoir des effets secondaires.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La m\u00e9decine compl\u00e9mentaire",
+      "text": "La m\u00e9decine compl\u00e9mentaire",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les traitements valid\u00e9s scientifiquement peuvent \u00eatre compl\u00e9t\u00e9s par des approches de m\u00e9decine compl\u00e9mentaire. Toutes les m\u00e9thodes stimulant les forces d\u2019autogu\u00e9rison peuvent \u00eatre utiles (hom\u00e9opathie, m\u00e9decine chinoise traditionnelle, acupuncture, etc.).",
+      "text": "Les traitements valid\u00e9s scientifiquement peuvent \u00eatre compl\u00e9t\u00e9s par des approches de m\u00e9decine compl\u00e9mentaire. Toutes les m\u00e9thodes stimulant les forces d\u2019autogu\u00e9rison peuvent \u00eatre utiles (hom\u00e9opathie, m\u00e9decine chinoise traditionnelle, acupuncture, etc.)."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les approches manuelles",
+      "text": "Les approches manuelles",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles trouvent une place de choix pour traiter les douleurs musculosquelettiques. En favorisant un meilleur \u00e9quilibre musculaire et ligamentaire, les approches manuelles (ost\u00e9opathie, physioth\u00e9rapie) aident non seulement \u00e0 les soulager, mais aussi \u00e0 diminuer l\u2019hypertonie (augmentation involontaire et anormale du tonus musculaire) qui leur est associ\u00e9e. De plus, ces techniques vont \u00e9galement assouplir les \u00e9ventuelles cicatrices et adh\u00e9rences.",
+      "text": "Elles trouvent une place de choix pour traiter les douleurs musculosquelettiques. En favorisant un meilleur \u00e9quilibre musculaire et ligamentaire, les approches manuelles (ost\u00e9opathie, physioth\u00e9rapie) aident non seulement \u00e0 les soulager, mais aussi \u00e0 diminuer l\u2019hypertonie (augmentation involontaire et anormale du tonus musculaire) qui leur est associ\u00e9e. De plus, ces techniques vont \u00e9galement assouplir les \u00e9ventuelles cicatrices et adh\u00e9rences."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "+ INFO",
+      "text": "+ INFO",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous souffrez de douleurs chroniques, fatigue ou troubles intestinaux, vous pouvez modifier votre r\u00e9gime alimentaire afin d\u2019am\u00e9liorer votre qualit\u00e9 de vie. Parlez-en lors de votre consultation.",
+      "text": "Si vous souffrez de douleurs chroniques, fatigue ou troubles intestinaux, vous pouvez modifier votre r\u00e9gime alimentaire afin d\u2019am\u00e9liorer votre qualit\u00e9 de vie. Parlez-en lors de votre consultation."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement de l\u2019infertilit\u00e9",
+      "text": "Le traitement de l\u2019infertilit\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Assur\u00e9 par des sp\u00e9cialistes, il peut comporter aussi des interventions et des traitements m\u00e9dicamenteux indispensables avant une possible f\u00e9condation in vitro.",
+      "text": "Assur\u00e9 par des sp\u00e9cialistes, il peut comporter aussi des interventions et des traitements m\u00e9dicamenteux indispensables avant une possible f\u00e9condation in vitro."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Des interventions cibl\u00e9es",
+      "text": "Des interventions cibl\u00e9es",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour retirer les foyers d\u2019endom\u00e9triose tout en pr\u00e9servant les organes atteints, des techniques chirurgicales particuli\u00e8res, non traumatisantes, sont n\u00e9cessaires.",
+      "text": "Pour retirer les foyers d\u2019endom\u00e9triose tout en pr\u00e9servant les organes atteints, des techniques chirurgicales particuli\u00e8res, non traumatisantes, sont n\u00e9cessaires."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les op\u00e9rations effectu\u00e9es avec pr\u00e9cision sur les trompes et les ovaires traitent la maladie et permettent souvent la survenue spontan\u00e9e de grossesses. \u00c0 l\u2019heure actuelle, une telle intervention est effectu\u00e9e par la technique laparoscopique. Le laser CO2 est souvent utilis\u00e9 pour l\u2019ablation des l\u00e9sions d\u2019endom\u00e9triose, notamment quand elles sont localis\u00e9es sur les ovaires. Cette technique est moins invasive et pr\u00e9serve mieux la fonction de l\u2019organe.",
+      "text": "Les op\u00e9rations effectu\u00e9es avec pr\u00e9cision sur les trompes et les ovaires traitent la maladie et permettent souvent la survenue spontan\u00e9e de grossesses. \u00c0 l\u2019heure actuelle, une telle intervention est effectu\u00e9e par la technique laparoscopique. Le laser CO2 est souvent utilis\u00e9 pour l\u2019ablation des l\u00e9sions d\u2019endom\u00e9triose, notamment quand elles sont localis\u00e9es sur les ovaires. Cette technique est moins invasive et pr\u00e9serve mieux la fonction de l\u2019organe."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Des traitements m\u00e9dicamenteux",
+      "text": "Des traitements m\u00e9dicamenteux",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ils sont un compl\u00e9ment pr\u00e9cieux. Ils soulagent rapidement les douleurs et font dispara\u00eetre une r\u00e9action inflammatoire avant et apr\u00e8s une op\u00e9ration pr\u00e9vue. Le traitement hormonal jusqu\u2019au moment d\u2019une grossesse d\u00e9sir\u00e9e peut pr\u00e9venir ou du moins retarder la r\u00e9apparition de foyers d\u2019endom\u00e9triose apr\u00e8s une chirurgie.",
+      "text": "Ils sont un compl\u00e9ment pr\u00e9cieux. Ils soulagent rapidement les douleurs et font dispara\u00eetre une r\u00e9action inflammatoire avant et apr\u00e8s une op\u00e9ration pr\u00e9vue. Le traitement hormonal jusqu\u2019au moment d\u2019une grossesse d\u00e9sir\u00e9e peut pr\u00e9venir ou du moins retarder la r\u00e9apparition de foyers d\u2019endom\u00e9triose apr\u00e8s une chirurgie."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La pr\u00e9servation de la fertilit\u00e9",
+      "text": "La pr\u00e9servation de la fertilit\u00e9",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La fertilit\u00e9 et la r\u00e9serve d\u2019ovocytes diminuent avec l\u2019\u00e2ge. L\u2019endom\u00e9triose ovarienne peut \u00e9galement r\u00e9duire la r\u00e9serve d\u2019ovocytes. Le fait de conserver par cong\u00e9lation des ovocytes augmente les chances d\u2019avoir un enfant par f\u00e9condation in vitro si une infertilit\u00e9 se pr\u00e9sente. Cela n\u2019offre toutefois pas de garantie de grossesse et la proposition de cette option n\u00e9cessite des crit\u00e8res m\u00e9dicaux sp\u00e9cifiques.",
+      "text": "La fertilit\u00e9 et la r\u00e9serve d\u2019ovocytes diminuent avec l\u2019\u00e2ge. L\u2019endom\u00e9triose ovarienne peut \u00e9galement r\u00e9duire la r\u00e9serve d\u2019ovocytes. Le fait de conserver par cong\u00e9lation des ovocytes augmente les chances d\u2019avoir un enfant par f\u00e9condation in vitro si une infertilit\u00e9 se pr\u00e9sente. Cela n\u2019offre toutefois pas de garantie de grossesse et la proposition de cette option n\u00e9cessite des crit\u00e8res m\u00e9dicaux sp\u00e9cifiques."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La f\u00e9condation in vitro",
+      "text": "La f\u00e9condation in vitro",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans certains cas, seule la f\u00e9condation in vitro (FIV) est en mesure de traiter l\u2019infertilit\u00e9. Apr\u00e8s une stimulation m\u00e9dicamenteuse, plusieurs ovules sont pr\u00e9lev\u00e9s dans les ovaires \u00e0 l\u2019aide d\u2019une aiguille, puis ils sont f\u00e9cond\u00e9s en dehors du corps de la femme au laboratoire avant d\u2019\u00eatre r\u00e9implant\u00e9s quelques jours apr\u00e8s dans l\u2019ut\u00e9rus. La f\u00e9condation peut se faire naturellement au laboratoire selon la technique de la FIV ou de l\u2019injection intracytoplasmique de spermatozo\u00efde (ICSI). Dans ce cas, un seul spermatozo\u00efde est alors directement introduit par le biologiste dans l\u2019ovule sous microscope.",
+      "text": "Dans certains cas, seule la f\u00e9condation in vitro (FIV) est en mesure de traiter l\u2019infertilit\u00e9. Apr\u00e8s une stimulation m\u00e9dicamenteuse, plusieurs ovules sont pr\u00e9lev\u00e9s dans les ovaires \u00e0 l\u2019aide d\u2019une aiguille, puis ils sont f\u00e9cond\u00e9s en dehors du corps de la femme au laboratoire avant d\u2019\u00eatre r\u00e9implant\u00e9s quelques jours apr\u00e8s dans l\u2019ut\u00e9rus. La f\u00e9condation peut se faire naturellement au laboratoire selon la technique de la FIV ou de l\u2019injection intracytoplasmique de spermatozo\u00efde (ICSI). Dans ce cas, un seul spermatozo\u00efde est alors directement introduit par le biologiste dans l\u2019ovule sous microscope."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les modifications hormonales survenant pendant la grossesse et l\u2019allaitement peuvent avoir un effet favorable et att\u00e9nuer durablement l\u2019endom\u00e9triose.",
+      "text": "Les modifications hormonales survenant pendant la grossesse et l\u2019allaitement peuvent avoir un effet favorable et att\u00e9nuer durablement l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "+ INFO",
+      "text": "+ INFO",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On observe que, chez pr\u00e8s de 80% des femmes qui ne parvenaient pas \u00e0 avoir un enfant \u00e0 cause d\u2019une endom\u00e9triose, une grossesse est survenue en l\u2019espace d\u2019un an, apr\u00e8s l\u2019association d\u2019un traitement chirurgical et m\u00e9dical.",
+      "text": "On observe que, chez pr\u00e8s de 80% des femmes qui ne parvenaient pas \u00e0 avoir un enfant \u00e0 cause d\u2019une endom\u00e9triose, une grossesse est survenue en l\u2019espace d\u2019un an, apr\u00e8s l\u2019association d\u2019un traitement chirurgical et m\u00e9dical."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

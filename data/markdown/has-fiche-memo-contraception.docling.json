@@ -1,0 +1,5286 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "has-fiche-memo-contraception",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 15737391632722255097,
+    "filename": "has-fiche-memo-contraception.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/texts/127"
+      },
+      {
+        "$ref": "#/texts/128"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/131"
+      },
+      {
+        "$ref": "#/texts/132"
+      },
+      {
+        "$ref": "#/texts/133"
+      },
+      {
+        "$ref": "#/texts/134"
+      },
+      {
+        "$ref": "#/texts/135"
+      },
+      {
+        "$ref": "#/texts/136"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/140"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/texts/143"
+      },
+      {
+        "$ref": "#/texts/144"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/152"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/154"
+      },
+      {
+        "$ref": "#/texts/155"
+      },
+      {
+        "$ref": "#/texts/156"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/153"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 276.36,
+            "t": 775.59936,
+            "r": 547.1191200000001,
+            "b": 763.0159854545456,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "RECOMMANDER LES BONNES PRATIQUES",
+      "text": "RECOMMANDER LES BONNES PRATIQUES"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.0,
+            "t": 720.3163199999999,
+            "r": 94.52515199999999,
+            "b": 706.2182799999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "FICHE",
+      "text": "FICHE"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 178.68,
+            "t": 722.87136,
+            "r": 518.1185280000004,
+            "b": 613.1352,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG)",
+      "text": "Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 444.24,
+            "t": 581.58768,
+            "r": 547.1931240000006,
+            "b": 572.3831745454545,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Valid\u00e9e le 24 avril 2013",
+      "text": "Valid\u00e9e le 24 avril 2013"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 444.96,
+            "t": 558.42768,
+            "r": 541.0718640000007,
+            "b": 549.5188499999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Mis \u00e0 jour en juil. 2019",
+      "text": "Mis \u00e0 jour en juil. 2019"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.24,
+            "t": 510.46464,
+            "r": 538.1686079999993,
+            "b": 454.6098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            344
+          ]
+        }
+      ],
+      "orig": "Cette fiche m\u00e9mo fait partie d'un ensemble de fiches m\u00e9mo concernant la contraception et compl\u00e8te plusieurs documents sur ce th\u00e8me produits par la HAS 1 . Elle est un outil pour le professionnel de sant\u00e9 afin de mieux aider les femmes/les hommes \u00e0 trouver la m\u00e9thode de contraception qui leur convient le mieux \u00e0 une p\u00e9riode donn\u00e9e de leur vie.",
+      "text": "Cette fiche m\u00e9mo fait partie d'un ensemble de fiches m\u00e9mo concernant la contraception et compl\u00e8te plusieurs documents sur ce th\u00e8me produits par la HAS 1 . Elle est un outil pour le professionnel de sant\u00e9 afin de mieux aider les femmes/les hommes \u00e0 trouver la m\u00e9thode de contraception qui leur convient le mieux \u00e0 une p\u00e9riode donn\u00e9e de leur vie."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.0,
+            "t": 412.88064,
+            "r": 534.7911600000001,
+            "b": 372.82063272727277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "Particularit\u00e9s de la prescription et du conseil chez la femme adulte",
+      "text": "Particularit\u00e9s de la prescription et du conseil chez la femme adulte",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.0,
+            "t": 362.26464,
+            "r": 544.2649919999996,
+            "b": 336.31026909090906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "Le choix de la m\u00e9thode contraceptive doit \u00eatre r\u00e9\u00e9valu\u00e9 \u00e0 chaque renouvellement de prescription",
+      "text": "Le choix de la m\u00e9thode contraceptive doit \u00eatre r\u00e9\u00e9valu\u00e9 \u00e0 chaque renouvellement de prescription",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.0,
+            "t": 326.8703999999999,
+            "r": 544.206479999999,
+            "b": 286.13556000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "orig": "Chez la femme en \u00e2ge de procr\u00e9er, le choix d'une contraception doit prendre en compte outre ses souhaits, l'\u00e9volution de sa situation personnelle, la baisse progressive de la fertilit\u00e9, l'augmentation des facteurs de risque vasculaire et l'\u00e9volution des contre-indications.",
+      "text": "Chez la femme en \u00e2ge de procr\u00e9er, le choix d'une contraception doit prendre en compte outre ses souhaits, l'\u00e9volution de sa situation personnelle, la baisse progressive de la fertilit\u00e9, l'augmentation des facteurs de risque vasculaire et l'\u00e9volution des contre-indications."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.0,
+            "t": 276.35136,
+            "r": 427.1029919999991,
+            "b": 265.63218909090904,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "Le risque cardio-vasculaire et les contre-indications \u00e9voluent avec l'\u00e2ge",
+      "text": "Le risque cardio-vasculaire et les contre-indications \u00e9voluent avec l'\u00e2ge",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.00000000000003,
+            "t": 256.19232,
+            "r": 540.0885599999993,
+            "b": 245.81747999999993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "Le risque cardio-vasculaire augmente avec l'\u00e2ge et modifie le rapport b\u00e9n\u00e9fice/risque des m\u00e9thodes.",
+      "text": "Le risque cardio-vasculaire augmente avec l'\u00e2ge et modifie le rapport b\u00e9n\u00e9fice/risque des m\u00e9thodes."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.011039999999916,
+            "t": 236.03328,
+            "r": 544.2175199999989,
+            "b": 210.42323999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "Les contre-indications \u00e9voluent avec l'\u00e2ge, notamment pour l'utilisation des estroprogestatifs en cas de c\u00e9phal\u00e9es ou de tabagisme :",
+      "text": "Les contre-indications \u00e9voluent avec l'\u00e2ge, notamment pour l'utilisation des estroprogestatifs en cas de c\u00e9phal\u00e9es ou de tabagisme :"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.85343999999992,
+            "t": 203.6419199999999,
+            "r": 544.3135679999996,
+            "b": 162.78563999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            249
+          ]
+        }
+      ],
+      "orig": "- avant 35 ans : les estroprogestatifs sont contre-indiqu\u00e9s en cas de migraines avec aura. En cas de tabagisme, le surrisque de thrombose art\u00e9rielle doit \u00eatre pris en compte et une information doit \u00eatre faite sur les possibilit\u00e9s d'aide au sevrage ;",
+      "text": "avant 35 ans : les estroprogestatifs sont contre-indiqu\u00e9s en cas de migraines avec aura. En cas de tabagisme, le surrisque de thrombose art\u00e9rielle doit \u00eatre pris en compte et une information doit \u00eatre faite sur les possibilit\u00e9s d'aide au sevrage ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.85343999999981,
+            "t": 156.00432,
+            "r": 544.2970079999993,
+            "b": 115.26948000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            222
+          ]
+        }
+      ],
+      "orig": "- apr\u00e8s 35 ans : les estroprogestatifs sont contre-indiqu\u00e9s chez la femme fumeuse ou avec des migraines, avec ou sans aura. La substitution par une m\u00e9thode progestative seule ou par une autre contraception est recommand\u00e9e.",
+      "text": "apr\u00e8s 35 ans : les estroprogestatifs sont contre-indiqu\u00e9s chez la femme fumeuse ou avec des migraines, avec ou sans aura. La substitution par une m\u00e9thode progestative seule ou par une autre contraception est recommand\u00e9e.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.0,
+            "t": 87.11231999999995,
+            "r": 544.2381119999999,
+            "b": 58.69173000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            333
+          ]
+        }
+      ],
+      "orig": "1 Voir fiche m\u00e9mo \u00ab Contraception : prescriptions et conseils aux femmes \u00bb, documents de synth\u00e8se \u00ab M\u00e9thodes contraceptives : focus sur les m\u00e9thodes les plus efficaces disponibles \u00bb (HAS, mise \u00e0 jour 2017) et \u00ab \u00c9tat des lieux des pratiques contraceptives et des freins \u00e0 l'acc\u00e8s et au choix d'une contraception adapt\u00e9e \u00bb (HAS, 2013).",
+      "text": "1 Voir fiche m\u00e9mo \u00ab Contraception : prescriptions et conseils aux femmes \u00bb, documents de synth\u00e8se \u00ab M\u00e9thodes contraceptives : focus sur les m\u00e9thodes les plus efficaces disponibles \u00bb (HAS, mise \u00e0 jour 2017) et \u00ab \u00c9tat des lieux des pratiques contraceptives et des freins \u00e0 l'acc\u00e8s et au choix d'une contraception adapt\u00e9e \u00bb (HAS, 2013)."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 789.8246399999999,
+            "r": 544.3091519999995,
+            "b": 763.980669090909,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "L'\u00e9ventualit\u00e9 d'une grossesse diminue avec l'\u00e2ge mais une grossesse reste possible jusqu'\u00e0 l'arr\u00eat complet du fonctionnement ovarien (m\u00e9nopause)",
+      "text": "L'\u00e9ventualit\u00e9 d'une grossesse diminue avec l'\u00e2ge mais une grossesse reste possible jusqu'\u00e0 l'arr\u00eat complet du fonctionnement ovarien (m\u00e9nopause)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.99999999999994,
+            "t": 754.5407999999999,
+            "r": 544.1722559999993,
+            "b": 698.6811599999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            353
+          ]
+        }
+      ],
+      "orig": "L'\u00e2ge de la m\u00e9nopause ne pouvant pas \u00eatre d\u00e9termin\u00e9 de mani\u00e8re pr\u00e9cise individuellement, il n'est pas possible de d\u00e9terminer le moment correspondant \u00e0 l'arr\u00eat complet de l'ovulation et donc de la fertilit\u00e9. Il faut donc r\u00e9\u00e9valuer lors de chaque consultation l'int\u00e9r\u00eat de la contraception et la poursuivre jusqu'\u00e0 la certitude du diagnostic de m\u00e9nopause.",
+      "text": "L'\u00e2ge de la m\u00e9nopause ne pouvant pas \u00eatre d\u00e9termin\u00e9 de mani\u00e8re pr\u00e9cise individuellement, il n'est pas possible de d\u00e9terminer le moment correspondant \u00e0 l'arr\u00eat complet de l'ovulation et donc de la fertilit\u00e9. Il faut donc r\u00e9\u00e9valuer lors de chaque consultation l'int\u00e9r\u00eat de la contraception et la poursuivre jusqu'\u00e0 la certitude du diagnostic de m\u00e9nopause."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.99999999999994,
+            "t": 688.7755199999998,
+            "r": 213.05616000000006,
+            "b": 678.4006799999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "La femme doit \u00eatre inform\u00e9e sur :",
+      "text": "La femme doit \u00eatre inform\u00e9e sur :"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 66.84239999999994,
+            "t": 671.4979199999998,
+            "r": 540.478271999999,
+            "b": 661.1230799999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "- la possibilit\u00e9 de grossesse non pr\u00e9vue toujours possible jusqu'\u00e0 l'arr\u00eat complet de l'ovulation ;",
+      "text": "la possibilit\u00e9 de grossesse non pr\u00e9vue toujours possible jusqu'\u00e0 l'arr\u00eat complet de l'ovulation ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 66.84239999999994,
+            "t": 654.3417599999998,
+            "r": 544.2009599999994,
+            "b": 613.6069199999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            190
+          ]
+        }
+      ],
+      "orig": "- la n\u00e9cessit\u00e9 d'\u00eatre attentive \u00e0 la survenue de signes \u00e9vocateurs de m\u00e9nopause dont certains peuvent \u00eatre masqu\u00e9s en fonction de la m\u00e9thode choisie (contraception hormonale ou DIU au LNG) ;",
+      "text": "la n\u00e9cessit\u00e9 d'\u00eatre attentive \u00e0 la survenue de signes \u00e9vocateurs de m\u00e9nopause dont certains peuvent \u00eatre masqu\u00e9s en fonction de la m\u00e9thode choisie (contraception hormonale ou DIU au LNG) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 66.84239999999994,
+            "t": 606.8255999999998,
+            "r": 544.3223999999996,
+            "b": 550.8445199999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            350
+          ]
+        }
+      ],
+      "orig": "- la confirmation du diagnostic de m\u00e9nopause par l'arr\u00eat des r\u00e8gles depuis plus de 1 an. En p\u00e9riode de p\u00e9ri-m\u00e9nopause, il peut \u00eatre propos\u00e9 \u00e0 la femme d'interrompre la contraception hormonale pendant quelques mois, tout en conseillant l'usage d'une m\u00e9thode barri\u00e8re, et de suivre l'\u00e9volution des r\u00e8gles pour d\u00e9terminer si une m\u00e9nopause est install\u00e9e.",
+      "text": "la confirmation du diagnostic de m\u00e9nopause par l'arr\u00eat des r\u00e8gles depuis plus de 1 an. En p\u00e9riode de p\u00e9ri-m\u00e9nopause, il peut \u00eatre propos\u00e9 \u00e0 la femme d'interrompre la contraception hormonale pendant quelques mois, tout en conseillant l'usage d'une m\u00e9thode barri\u00e8re, et de suivre l'\u00e9volution des r\u00e8gles pour d\u00e9terminer si une m\u00e9nopause est install\u00e9e.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 532.88064,
+            "r": 456.3168480000002,
+            "b": 492.9399127272727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "Particularit\u00e9s de la prescription et du conseil chez l'adolescente",
+      "text": "Particularit\u00e9s de la prescription et du conseil chez l'adolescente",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 482.26464,
+            "r": 544.0960799999992,
+            "b": 456.4206690909091,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "L'adolescente sera re\u00e7ue de pr\u00e9f\u00e9rence sans ses parents, en toute confidentialit\u00e9 et gratuitement",
+      "text": "L'adolescente sera re\u00e7ue de pr\u00e9f\u00e9rence sans ses parents, en toute confidentialit\u00e9 et gratuitement",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 446.9808,
+            "r": 544.1821919999995,
+            "b": 421.37076,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            162
+          ]
+        }
+      ],
+      "orig": "L'adolescente sera re\u00e7ue de pr\u00e9f\u00e9rence sans ses parents. Si l'adolescente est accompagn\u00e9e par ses parents, proposer un temps de consultation uniquement avec elle.",
+      "text": "L'adolescente sera re\u00e7ue de pr\u00e9f\u00e9rence sans ses parents. Si l'adolescente est accompagn\u00e9e par ses parents, proposer un temps de consultation uniquement avec elle."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 411.58655999999996,
+            "r": 544.3290239999998,
+            "b": 386.08692,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "L'adolescente doit \u00eatre inform\u00e9e de la confidentialit\u00e9 de l'entretien, mais \u00e9galement de la gratuit\u00e9 de la consultation, de la m\u00e9thode contraceptive et des actes li\u00e9s \u00e0 la contraception.",
+      "text": "L'adolescente doit \u00eatre inform\u00e9e de la confidentialit\u00e9 de l'entretien, mais \u00e9galement de la gratuit\u00e9 de la consultation, de la m\u00e9thode contraceptive et des actes li\u00e9s \u00e0 la contraception."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 376.18127999999996,
+            "r": 544.1280959999996,
+            "b": 350.68164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            136
+          ]
+        }
+      ],
+      "orig": "Une prise en charge gratuite et confidentielle est \u00e9galement possible dans les centres de planification ou d'\u00e9ducation familiale (CPEF).",
+      "text": "Une prise en charge gratuite et confidentielle est \u00e9galement possible dans les centres de planification ou d'\u00e9ducation familiale (CPEF)."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 340.89743999999996,
+            "r": 480.2539679999992,
+            "b": 330.17826909090905,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "La d\u00e9marche de conseil/accompagnement doit \u00eatre adapt\u00e9e \u00e0 l'\u00e2ge et aux besoins",
+      "text": "La d\u00e9marche de conseil/accompagnement doit \u00eatre adapt\u00e9e \u00e0 l'\u00e2ge et aux besoins",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.0,
+            "t": 320.73839999999996,
+            "r": 544.2616800000002,
+            "b": 280.00356,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            233
+          ]
+        }
+      ],
+      "orig": "Engager le dialogue en \u00e9vitant d'\u00eatre intrusif, \u00e9voquer ses habitudes de vie, ses besoins, ses souhaits, rassurer l'adolescente quant aux inqui\u00e9tudes qu'elle peut avoir concernant sa transformation physique, ses d\u00e9sirs, ses craintes\u2026",
+      "text": "Engager le dialogue en \u00e9vitant d'\u00eatre intrusif, \u00e9voquer ses habitudes de vie, ses besoins, ses souhaits, rassurer l'adolescente quant aux inqui\u00e9tudes qu'elle peut avoir concernant sa transformation physique, ses d\u00e9sirs, ses craintes\u2026"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.00000000000006,
+            "t": 270.09791999999993,
+            "r": 544.2197279999992,
+            "b": 214.23827999999992,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            314
+          ]
+        }
+      ],
+      "orig": "\u00c9voquer avec l'adolescente, sans porter de jugement, ses connaissances sur la physiologie, les m\u00e9thodes de contraception qu'elle conna\u00eet, la compr\u00e9hension des risques de grossesse, son activit\u00e9 sexuelle, l'utilisation ant\u00e9rieure d'une m\u00e9thode contraceptive, l'existence d'une grossesse ant\u00e9rieure et son \u00e9volution.",
+      "text": "\u00c9voquer avec l'adolescente, sans porter de jugement, ses connaissances sur la physiologie, les m\u00e9thodes de contraception qu'elle conna\u00eet, la compr\u00e9hension des risques de grossesse, son activit\u00e9 sexuelle, l'utilisation ant\u00e9rieure d'une m\u00e9thode contraceptive, l'existence d'une grossesse ant\u00e9rieure et son \u00e9volution."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.00000000000006,
+            "t": 204.45407999999998,
+            "r": 544.1325119999991,
+            "b": 178.84403999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "Recueillir des informations sur les ant\u00e9c\u00e9dents personnels ou familiaux en utilisant des termes compr\u00e9hensibles.",
+      "text": "Recueillir des informations sur les ant\u00e9c\u00e9dents personnels ou familiaux en utilisant des termes compr\u00e9hensibles."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.00000000000006,
+            "t": 169.05984,
+            "r": 544.1479679999992,
+            "b": 143.5602,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "Expliquer que le risque de grossesse existe d\u00e8s l'apparition des premi\u00e8res r\u00e8gles, m\u00eame si elles sont irr\u00e9guli\u00e8res, et d\u00e8s le premier rapport sexuel.",
+      "text": "Expliquer que le risque de grossesse existe d\u00e8s l'apparition des premi\u00e8res r\u00e8gles, m\u00eame si elles sont irr\u00e9guli\u00e8res, et d\u00e8s le premier rapport sexuel."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.00000000000006,
+            "t": 133.77599999999995,
+            "r": 544.1236799999995,
+            "b": 93.04115999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            283
+          ]
+        }
+      ],
+      "orig": "Prendre en compte les comportements \u00e0 risque (addictions tabac, alcool, drogues, d\u00e9pression, mauvaise estime de soi, difficult\u00e9s scolaires, manque de soutien familial, niveau d'\u00e9ducation et de revenus) et \u00e9valuer la possibilit\u00e9 de contrainte ou violence dans les relations sexuelles.",
+      "text": "Prendre en compte les comportements \u00e0 risque (addictions tabac, alcool, drogues, d\u00e9pression, mauvaise estime de soi, difficult\u00e9s scolaires, manque de soutien familial, niveau d'\u00e9ducation et de revenus) et \u00e9valuer la possibilit\u00e9 de contrainte ou violence dans les relations sexuelles."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.00000000000006,
+            "t": 83.13552000000004,
+            "r": 544.1744639999993,
+            "b": 57.63588000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "R\u00e9\u00e9valuer chaque ann\u00e9e l'ad\u00e9quation entre la situation personnelle de la jeune fille et son mode de contraception et lui rappeler les autres m\u00e9thodes possibles dans sa situation.",
+      "text": "R\u00e9\u00e9valuer chaque ann\u00e9e l'ad\u00e9quation entre la situation personnelle de la jeune fille et son mode de contraception et lui rappeler les autres m\u00e9thodes possibles dans sa situation."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 80.16108,
+            "t": 34.796640000000025,
+            "r": 515.0728200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013",
+      "text": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 539.7634800000001,
+            "t": 34.796640000000025,
+            "r": 544.2337200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.0,
+            "t": 789.9446399999999,
+            "r": 268.7076960000002,
+            "b": 779.2254690909091,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "L'examen gyn\u00e9cologique peut \u00eatre diff\u00e9r\u00e9",
+      "text": "L'examen gyn\u00e9cologique peut \u00eatre diff\u00e9r\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.00000000000003,
+            "t": 769.7855999999999,
+            "r": 544.0331519999992,
+            "b": 744.17556,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            170
+          ]
+        }
+      ],
+      "orig": "L'examen clinique comprend : examen g\u00e9n\u00e9ral, taille, indice de masse corporelle, tension art\u00e9rielle, autres \u00e9l\u00e9ments comme importance et localisation de l'acn\u00e9, pilosit\u00e9.",
+      "text": "L'examen clinique comprend : examen g\u00e9n\u00e9ral, taille, indice de masse corporelle, tension art\u00e9rielle, autres \u00e9l\u00e9ments comme importance et localisation de l'acn\u00e9, pilosit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.000000000000114,
+            "t": 734.39136,
+            "r": 544.1623199999995,
+            "b": 693.65652,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "L'examen gyn\u00e9cologique n'est pas n\u00e9cessaire lors de la 1re consultation, sauf sympt\u00f4mes ou ant\u00e9c\u00e9dents le justifiant. L'examen gyn\u00e9cologique peut \u00eatre expliqu\u00e9 lors du 1er entretien et programm\u00e9 pour une consultation ult\u00e9rieure.",
+      "text": "L'examen gyn\u00e9cologique n'est pas n\u00e9cessaire lors de la 1re consultation, sauf sympt\u00f4mes ou ant\u00e9c\u00e9dents le justifiant. L'examen gyn\u00e9cologique peut \u00eatre expliqu\u00e9 lors du 1er entretien et programm\u00e9 pour une consultation ult\u00e9rieure."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.000000000000114,
+            "t": 683.87232,
+            "r": 173.38502400000016,
+            "b": 673.1531490909091,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "L'information \u00e0 d\u00e9livrer",
+      "text": "L'information \u00e0 d\u00e9livrer",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.00000000000013,
+            "t": 663.7132799999999,
+            "r": 371.5375679999998,
+            "b": 653.33844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "Informer sur les diff\u00e9rentes m\u00e9thodes contraceptives disponibles :",
+      "text": "Informer sur les diff\u00e9rentes m\u00e9thodes contraceptives disponibles :"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.84240000000011,
+            "t": 646.4356799999999,
+            "r": 544.0971839999995,
+            "b": 620.82564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "- l'\u00e2ge en lui-m\u00eame ne devrait pas limiter le choix de la m\u00e9thode contraceptive, en dehors de la st\u00e9rilisation ;",
+      "text": "l'\u00e2ge en lui-m\u00eame ne devrait pas limiter le choix de la m\u00e9thode contraceptive, en dehors de la st\u00e9rilisation ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.8424000000001,
+            "t": 614.04432,
+            "r": 544.1556959999994,
+            "b": 558.06324,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            342
+          ]
+        }
+      ],
+      "orig": "- contenu de l'information : mode d'emploi, efficacit\u00e9 (optimale et en utilisation courante), contreindications, risques (notamment risque thromboembolique) et effets ind\u00e9sirables possibles (notamment sur l'acn\u00e9 et les r\u00e8gles), autres avantages non contraceptifs, proc\u00e9dure pour l'instauration et l'arr\u00eat (ou le retrait), co\u00fbt, remboursement\u2026",
+      "text": "contenu de l'information : mode d'emploi, efficacit\u00e9 (optimale et en utilisation courante), contreindications, risques (notamment risque thromboembolique) et effets ind\u00e9sirables possibles (notamment sur l'acn\u00e9 et les r\u00e8gles), autres avantages non contraceptifs, proc\u00e9dure pour l'instauration et l'arr\u00eat (ou le retrait), co\u00fbt, remboursement\u2026",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.000000000000114,
+            "t": 548.4004799999999,
+            "r": 383.6407199999999,
+            "b": 538.02564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "Rassurer sur les \u00e9ventuelles craintes des adolescentes concernant :",
+      "text": "Rassurer sur les \u00e9ventuelles craintes des adolescentes concernant :"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.83136000000007,
+            "t": 531.2443199999999,
+            "r": 544.2451199999994,
+            "b": 505.51284,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "- la prise de poids : pas de preuve de prise de poids sous pilule estroprogestative, relation entre prise de poids et progestatifs seuls mal document\u00e9e ;",
+      "text": "la prise de poids : pas de preuve de prise de poids sous pilule estroprogestative, relation entre prise de poids et progestatifs seuls mal document\u00e9e ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.8203200000001,
+            "t": 498.85295999999994,
+            "r": 467.7434399999995,
+            "b": 488.47812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "- l'acn\u00e9 : effets variables selon la femme et le type de contraception hormonale ;",
+      "text": "l'acn\u00e9 : effets variables selon la femme et le type de contraception hormonale ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.80928000000011,
+            "t": 481.69679999999994,
+            "r": 544.1512799999995,
+            "b": 456.08675999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "- le retour de la fertilit\u00e9 : est en g\u00e9n\u00e9ral imm\u00e9diat sauf apr\u00e8s injection de progestatif o\u00f9 il peut prendre jusqu'\u00e0 12 mois ;",
+      "text": "le retour de la fertilit\u00e9 : est en g\u00e9n\u00e9ral imm\u00e9diat sauf apr\u00e8s injection de progestatif o\u00f9 il peut prendre jusqu'\u00e0 12 mois ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.80928000000011,
+            "t": 449.3054399999999,
+            "r": 544.0993919999993,
+            "b": 423.69539999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "- l'impact sur les r\u00e8gles : am\u00e9lioration possible des dysm\u00e9norrh\u00e9es sous pilule estroprogestative, risque de trouble des r\u00e8gles (am\u00e9norrh\u00e9e, spotting) sous contraception hormonale.",
+      "text": "l'impact sur les r\u00e8gles : am\u00e9lioration possible des dysm\u00e9norrh\u00e9es sous pilule estroprogestative, risque de trouble des r\u00e8gles (am\u00e9norrh\u00e9e, spotting) sous contraception hormonale.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.96688000000006,
+            "t": 413.9111999999999,
+            "r": 544.0993919999988,
+            "b": 373.28675999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            249
+          ]
+        }
+      ],
+      "orig": "Informer sur les pr\u00e9servatifs, les IST y compris le sida : encourager l'utilisation des pr\u00e9servatifs et expliquer concr\u00e8tement leur utilisation. \u00c9valuer la capacit\u00e9 d'utilisation des pr\u00e9servatifs et la possibilit\u00e9 d'une r\u00e9ticence \u00e0 leur utilisation.",
+      "text": "Informer sur les pr\u00e9servatifs, les IST y compris le sida : encourager l'utilisation des pr\u00e9servatifs et expliquer concr\u00e8tement leur utilisation. \u00c9valuer la capacit\u00e9 d'utilisation des pr\u00e9servatifs et la possibilit\u00e9 d'une r\u00e9ticence \u00e0 leur utilisation."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.96688000000006,
+            "t": 363.5025599999999,
+            "r": 244.7983680000003,
+            "b": 353.12771999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Contraception d'urgence : informer sur :",
+      "text": "Contraception d'urgence : informer sur :"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.79824000000002,
+            "t": 346.3463999999999,
+            "r": 544.2771359999997,
+            "b": 275.1411599999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            389
+          ]
+        }
+      ],
+      "orig": "- la conduite \u00e0 tenir en cas d'oubli de pilule (ou de retard \u00e0 la mise en place d'un patch ou d'un anneau, de d\u00e9collement de patch ou de perte de l'anneau vaginal), de non-utilisation ou de rupture d'un pr\u00e9servatif et sur les m\u00e9thodes de rattrapage possibles, et la n\u00e9cessit\u00e9 de surveiller la survenue des prochaines r\u00e8gles et, en cas de doute, r\u00e9aliser un test de grossesse et consulter ;",
+      "text": "la conduite \u00e0 tenir en cas d'oubli de pilule (ou de retard \u00e0 la mise en place d'un patch ou d'un anneau, de d\u00e9collement de patch ou de perte de l'anneau vaginal), de non-utilisation ou de rupture d'un pr\u00e9servatif et sur les m\u00e9thodes de rattrapage possibles, et la n\u00e9cessit\u00e9 de surveiller la survenue des prochaines r\u00e8gles et, en cas de doute, r\u00e9aliser un test de grossesse et consulter ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 66.80928000000002,
+            "t": 268.35983999999985,
+            "r": 544.1457599999992,
+            "b": 242.74979999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": "- la gratuit\u00e9 et l'anonymat en pharmacie, dans les infirmeries scolaires ou en centre de planification ou d'\u00e9ducation familiale de la contraception d'urgence.",
+      "text": "la gratuit\u00e9 et l'anonymat en pharmacie, dans les infirmeries scolaires ou en centre de planification ou d'\u00e9ducation familiale de la contraception d'urgence.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.0,
+            "t": 224.60064,
+            "r": 218.24589600000002,
+            "b": 208.0558327272728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "M\u00e9thodes utilisables",
+      "text": "M\u00e9thodes utilisables",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.0,
+            "t": 197.50464,
+            "r": 544.1556959999995,
+            "b": 156.76980000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            303
+          ]
+        }
+      ],
+      "orig": "Le pr\u00e9servatif (masculin, f\u00e9minin) repr\u00e9sente la seule m\u00e9thode de contraception efficace contre les infections sexuellement transmissibles (IST), y compris le sida. Il est donc n\u00e9cessaire d'associer un pr\u00e9servatif \u00e0 toute autre m\u00e9thode contraceptive si une protection contre les IST/sida est recherch\u00e9e.",
+      "text": "Le pr\u00e9servatif (masculin, f\u00e9minin) repr\u00e9sente la seule m\u00e9thode de contraception efficace contre les infections sexuellement transmissibles (IST), y compris le sida. Il est donc n\u00e9cessaire d'associer un pr\u00e9servatif \u00e0 toute autre m\u00e9thode contraceptive si une protection contre les IST/sida est recherch\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.00000000000006,
+            "t": 146.98559999999998,
+            "r": 544.2914879999995,
+            "b": 106.25076000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            202
+          ]
+        }
+      ],
+      "orig": "La contraception d'urgence hormonale est une m\u00e9thode de rattrapage qui ne vise pas \u00e0 \u00eatre utilis\u00e9e de fa\u00e7on r\u00e9guli\u00e8re, notamment en raison du risque d'\u00e9chec plus \u00e9lev\u00e9 que les contraceptions r\u00e9guli\u00e8res.",
+      "text": "La contraception d'urgence hormonale est une m\u00e9thode de rattrapage qui ne vise pas \u00e0 \u00eatre utilis\u00e9e de fa\u00e7on r\u00e9guli\u00e8re, notamment en raison du risque d'\u00e9chec plus \u00e9lev\u00e9 que les contraceptions r\u00e9guli\u00e8res."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 80.16108,
+            "t": 34.796640000000025,
+            "r": 515.0728200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013",
+      "text": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 539.7634800000001,
+            "t": 34.796640000000025,
+            "r": 544.2337200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.0,
+            "t": 789.9446399999999,
+            "r": 544.2241439999992,
+            "b": 749.2098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "Les m\u00e9thodes ci-apr\u00e8s sont pr\u00e9sent\u00e9es dans l'ordre adopt\u00e9 par l'Organisation mondiale de la sant\u00e9 (OMS). Cette pr\u00e9sentation ne pr\u00e9juge en rien de leur niveau d'efficacit\u00e9, ni de leur fr\u00e9quence d'utilisation en France.",
+      "text": "Les m\u00e9thodes ci-apr\u00e8s sont pr\u00e9sent\u00e9es dans l'ordre adopt\u00e9 par l'Organisation mondiale de la sant\u00e9 (OMS). Cette pr\u00e9sentation ne pr\u00e9juge en rien de leur niveau d'efficacit\u00e9, ni de leur fr\u00e9quence d'utilisation en France."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.0,
+            "t": 731.12064,
+            "r": 514.9651200000003,
+            "b": 691.0606327272726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "M\u00e9thodes hormonales - Estroprogestatifs (pilule, anneau vaginal, patch transdermique)",
+      "text": "M\u00e9thodes hormonales - Estroprogestatifs (pilule, anneau vaginal, patch transdermique)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.0,
+            "t": 680.38464,
+            "r": 544.2451199999998,
+            "b": 609.405,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            461
+          ]
+        }
+      ],
+      "orig": "Les estroprogestatifs sont utilisables chez la femme ne pr\u00e9sentant pas de contre-indications (principalement d'ordre thromboembolique veineux ou art\u00e9riel 2 , h\u00e9patique, carcinologique\u2026) et en prenant en compte les facteurs de risque de thrombose (notamment ant\u00e9c\u00e9dents personnels ou familiaux de thrombose veineuse ou art\u00e9rielle, thrombophilie biologique connue, immobilisation prolong\u00e9e, ob\u00e9sit\u00e9, \u00e2ge > 35 ans, HTA, diab\u00e8te, dyslipid\u00e9mie, tabagisme, migraine).",
+      "text": "Les estroprogestatifs sont utilisables chez la femme ne pr\u00e9sentant pas de contre-indications (principalement d'ordre thromboembolique veineux ou art\u00e9riel 2 , h\u00e9patique, carcinologique\u2026) et en prenant en compte les facteurs de risque de thrombose (notamment ant\u00e9c\u00e9dents personnels ou familiaux de thrombose veineuse ou art\u00e9rielle, thrombophilie biologique connue, immobilisation prolong\u00e9e, ob\u00e9sit\u00e9, \u00e2ge > 35 ans, HTA, diab\u00e8te, dyslipid\u00e9mie, tabagisme, migraine)."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.00528000000003,
+            "t": 599.4993599999999,
+            "r": 544.0450559999995,
+            "b": 573.9997199999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "Plusieurs voies d'administration sont disponibles (pilule, anneau, patch) : les pilules de 3e g\u00e9n\u00e9ration contenant du",
+      "text": "Plusieurs voies d'administration sont disponibles (pilule, anneau, patch) : les pilules de 3e g\u00e9n\u00e9ration contenant du"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.00528000000003,
+            "t": 564.2155199999999,
+            "r": 544.3207680000002,
+            "b": 462.76500000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            688
+          ]
+        }
+      ],
+      "orig": "d\u00e9sogestrel ou du gestod\u00e8ne, et de 4e g\u00e9n\u00e9ration contenant de la drospir\u00e9none, exposent \u00e0 un risque accru d'accidents thromboemboliques par rapport aux pilules contenant du l\u00e9vonorgestrel ; elles ne doivent pas \u00eatre utilis\u00e9es en premi\u00e8re intention. Celles qui \u00e9taient rembours\u00e9es ne le sont plus depuis le 31 mars 2013. La litt\u00e9rature fait \u00e9tat d'une possible augmentation du risque thromboembolique veineux et art\u00e9riel en fonction des doses d'\u00e9thinylestradiol. Les autres estroprogestatifs (dont anneaux et patchs) ne devraient \u00eatre r\u00e9serv\u00e9s qu'aux cas d'intol\u00e9rance aux pilules de 1 re ou 2 e g\u00e9n\u00e9ration 3 et aux femmes pour lesquelles un autre type de contraception n'est pas possible.",
+      "text": "d\u00e9sogestrel ou du gestod\u00e8ne, et de 4e g\u00e9n\u00e9ration contenant de la drospir\u00e9none, exposent \u00e0 un risque accru d'accidents thromboemboliques par rapport aux pilules contenant du l\u00e9vonorgestrel ; elles ne doivent pas \u00eatre utilis\u00e9es en premi\u00e8re intention. Celles qui \u00e9taient rembours\u00e9es ne le sont plus depuis le 31 mars 2013. La litt\u00e9rature fait \u00e9tat d'une possible augmentation du risque thromboembolique veineux et art\u00e9riel en fonction des doses d'\u00e9thinylestradiol. Les autres estroprogestatifs (dont anneaux et patchs) ne devraient \u00eatre r\u00e9serv\u00e9s qu'aux cas d'intol\u00e9rance aux pilules de 1 re ou 2 e g\u00e9n\u00e9ration 3 et aux femmes pour lesquelles un autre type de contraception n'est pas possible."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.007199999999955,
+            "t": 452.9808,
+            "r": 344.57404799999966,
+            "b": 442.60596000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Les femmes et les adolescentes doivent \u00eatre inform\u00e9es sur :",
+      "text": "Les femmes et les adolescentes doivent \u00eatre inform\u00e9es sur :"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 66.84959999999995,
+            "t": 435.82464,
+            "r": 544.151855999999,
+            "b": 379.73316,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            301
+          ]
+        }
+      ],
+      "orig": "- les diff\u00e9rentes modalit\u00e9s d'instauration et d'utilisation des estroprogestatifs selon leur voie d'administration : pour la voie orale, prise quotidienne, toujours au m\u00eame moment de la journ\u00e9e ; trouver avec l'adolescente les moyens d'une bonne observance (sonnerie sur le t\u00e9l\u00e9phone portable, etc.) ;",
+      "text": "les diff\u00e9rentes modalit\u00e9s d'instauration et d'utilisation des estroprogestatifs selon leur voie d'administration : pour la voie orale, prise quotidienne, toujours au m\u00eame moment de la journ\u00e9e ; trouver avec l'adolescente les moyens d'une bonne observance (sonnerie sur le t\u00e9l\u00e9phone portable, etc.) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 66.84959999999991,
+            "t": 373.98336,
+            "r": 544.3089599999994,
+            "b": 332.20980000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "- la conduite \u00e0 tenir en cas d'oubli de pilule de plus de 12 h 4 (ou de retard \u00e0 la mise en place d'un patch ou d'un anneau, de d\u00e9collement de patch ou de perte de l'anneau vaginal) et sur la contraception d'urgence ;",
+      "text": "la conduite \u00e0 tenir en cas d'oubli de pilule de plus de 12 h 4 (ou de retard \u00e0 la mise en place d'un patch ou d'un anneau, de d\u00e9collement de patch ou de perte de l'anneau vaginal) et sur la contraception d'urgence ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 66.85104000000008,
+            "t": 325.4284799999999,
+            "r": 544.275792,
+            "b": 299.8098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "- l'efficacit\u00e9 contraceptive de ces m\u00e9thodes (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives\u00bb) ;",
+      "text": "l'efficacit\u00e9 contraceptive de ces m\u00e9thodes (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives\u00bb) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 66.84,
+            "t": 293.02464,
+            "r": 418.82500799999934,
+            "b": 282.6498,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "- leurs possibles inconv\u00e9nients (mastodynies, troubles du cycle, etc.) ;",
+      "text": "leurs possibles inconv\u00e9nients (mastodynies, troubles du cycle, etc.) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 66.84000000000009,
+            "t": 276.90336,
+            "r": 544.2667199999994,
+            "b": 220.00979999999993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            298
+          ]
+        }
+      ],
+      "orig": "- leurs risques, notamment le risque d'accidents thromboemboliques veineux 5 ou art\u00e9riels, surtout la premi\u00e8re ann\u00e9e apr\u00e8s l'instauration de la m\u00e9thode ou apr\u00e8s une interruption et reprise de la m\u00e9thode (informer sur les sympt\u00f4mes \u00e9voquant ces complications et qui doivent conduire \u00e0 consulter) 6 ;",
+      "text": "leurs risques, notamment le risque d'accidents thromboemboliques veineux 5 ou art\u00e9riels, surtout la premi\u00e8re ann\u00e9e apr\u00e8s l'instauration de la m\u00e9thode ou apr\u00e8s une interruption et reprise de la m\u00e9thode (informer sur les sympt\u00f4mes \u00e9voquant ces complications et qui doivent conduire \u00e0 consulter) 6 ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.0,
+            "t": 163.55232,
+            "r": 544.1426879999999,
+            "b": 144.85305000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "2 Concernant le bilan biologique \u00e0 r\u00e9aliser lors de la prescription, se r\u00e9f\u00e9rer \u00e0 la fiche m\u00e9mo \u00ab Contraception : prescriptions et conseils aux femmes \u00bb (HAS, 2013).",
+      "text": "2 Concernant le bilan biologique \u00e0 r\u00e9aliser lors de la prescription, se r\u00e9f\u00e9rer \u00e0 la fiche m\u00e9mo \u00ab Contraception : prescriptions et conseils aux femmes \u00bb (HAS, 2013)."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.99423999999999,
+            "t": 141.95232,
+            "r": 544.2408960000006,
+            "b": 123.25305000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "3 Voir fiche de bon usage du m\u00e9dicament \u00ab Contraceptifs oraux estroprogestatifs : pr\u00e9f\u00e9rez les pilules de 1 re ou 2 e g\u00e9n\u00e9ration \u00bb (HAS, 2012).",
+      "text": "3 Voir fiche de bon usage du m\u00e9dicament \u00ab Contraceptifs oraux estroprogestatifs : pr\u00e9f\u00e9rez les pilules de 1 re ou 2 e g\u00e9n\u00e9ration \u00bb (HAS, 2012)."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.0,
+            "t": 120.35231999999996,
+            "r": 490.74214799999976,
+            "b": 111.49365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "4 Voir carte \u00ab Que faire en cas d'oubli de pilule ? \u00bb, t\u00e9l\u00e9chargeable gratuitement sur le site de Sant\u00e9 publique France.",
+      "text": "4 Voir carte \u00ab Que faire en cas d'oubli de pilule ? \u00bb, t\u00e9l\u00e9chargeable gratuitement sur le site de Sant\u00e9 publique France."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.0,
+            "t": 108.59231999999997,
+            "r": 544.3216080000008,
+            "b": 80.17173000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            379
+          ]
+        }
+      ],
+      "orig": "5 Le risque thromboembolique veineux est de 0,5 \u00e0 1/10 000 chez les femmes non utilisatrices de pilule, 2/10 000 chez les utilisatrices d'estroprogestatifs \u00e0 base de l\u00e9vonorgestrel, 3 \u00e0 4/10 000 chez les utilisatrices d'estroprogestatifs \u00e0 base de d\u00e9sogestrel ou gestod\u00e8ne (3e g\u00e9n\u00e9ration) ou \u00e0 base de drospir\u00e9none, 6/10 000 chez les femmes au cours de la grossesse (ANSM, 2012).",
+      "text": "5 Le risque thromboembolique veineux est de 0,5 \u00e0 1/10 000 chez les femmes non utilisatrices de pilule, 2/10 000 chez les utilisatrices d'estroprogestatifs \u00e0 base de l\u00e9vonorgestrel, 3 \u00e0 4/10 000 chez les utilisatrices d'estroprogestatifs \u00e0 base de d\u00e9sogestrel ou gestod\u00e8ne (3e g\u00e9n\u00e9ration) ou \u00e0 base de drospir\u00e9none, 6/10 000 chez les femmes au cours de la grossesse (ANSM, 2012)."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.0,
+            "t": 77.27232000000004,
+            "r": 544.3062720000005,
+            "b": 58.69232999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            173
+          ]
+        }
+      ],
+      "orig": "6 \u0152d\u00e8me, douleur au niveau du mollet, dyspn\u00e9e, douleur thoracique, h\u00e9moptysie, apparition ou aggravation de c\u00e9phal\u00e9es, d\u00e9formation de la bouche, h\u00e9mipar\u00e9sie, dysphasie, etc.",
+      "text": "6 \u0152d\u00e8me, douleur au niveau du mollet, dyspn\u00e9e, douleur thoracique, h\u00e9moptysie, apparition ou aggravation de c\u00e9phal\u00e9es, d\u00e9formation de la bouche, h\u00e9mipar\u00e9sie, dysphasie, etc."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 80.16108,
+            "t": 34.796640000000025,
+            "r": 515.0728200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013",
+      "text": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 539.7634800000001,
+            "t": 34.796640000000025,
+            "r": 544.2337200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.84,
+            "t": 789.8246399999999,
+            "r": 544.2946079999995,
+            "b": 749.0898,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "- la n\u00e9cessit\u00e9 de signaler \u00e0 tout m\u00e9decin la prise d'une contraception hormonale en cas de traitement intercurrent, d'intervention chirurgicale, d'immobilisation prolong\u00e9e et de trajets prolong\u00e9s en position assise (avion, train, autocar, voiture\u2026) ;",
+      "text": "la n\u00e9cessit\u00e9 de signaler \u00e0 tout m\u00e9decin la prise d'une contraception hormonale en cas de traitement intercurrent, d'intervention chirurgicale, d'immobilisation prolong\u00e9e et de trajets prolong\u00e9s en position assise (avion, train, autocar, voiture\u2026) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.83999999999997,
+            "t": 742.3084799999999,
+            "r": 544.2239519999993,
+            "b": 701.5698,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "- le risque de diminution d'efficacit\u00e9 en cas de diarrh\u00e9e ou vomissements ou d'association \u00e0 certains m\u00e9dicaments (dont millepertuis, certains anticonvulsivants, antiprot\u00e9ases, rifampicine/rifabutine, bosentan, gris\u00e9ofulvine, modafinil, orlistat) 7 ;",
+      "text": "le risque de diminution d'efficacit\u00e9 en cas de diarrh\u00e9e ou vomissements ou d'association \u00e0 certains m\u00e9dicaments (dont millepertuis, certains anticonvulsivants, antiprot\u00e9ases, rifampicine/rifabutine, bosentan, gris\u00e9ofulvine, modafinil, orlistat) 7 ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.84144000000003,
+            "t": 694.7884799999999,
+            "r": 544.2574079999993,
+            "b": 653.9322,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            203
+          ]
+        }
+      ],
+      "orig": "- la possibilit\u00e9 de faire renouveler une fois leur contraceptif oral pour une p\u00e9riode suppl\u00e9mentaire de 6 mois par le pharmacien ou l'infirmi\u00e8re sur pr\u00e9sentation d'une ordonnance datant de moins de 1 an.",
+      "text": "la possibilit\u00e9 de faire renouveler une fois leur contraceptif oral pour une p\u00e9riode suppl\u00e9mentaire de 6 mois par le pharmacien ou l'infirmi\u00e8re sur pr\u00e9sentation d'une ordonnance datant de moins de 1 an.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.0,
+            "t": 635.96064,
+            "r": 523.46808,
+            "b": 595.9006327272726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "M\u00e9thodes hormonales - Progestatifs (pilule, implant souscutan\u00e9, injection intramusculaire)",
+      "text": "M\u00e9thodes hormonales - Progestatifs (pilule, implant souscutan\u00e9, injection intramusculaire)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.0,
+            "t": 585.34464,
+            "r": 544.2429119999991,
+            "b": 529.485,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        }
+      ],
+      "orig": "Les progestatifs sont utilisables chez la femme et l'adolescente ne pr\u00e9sentant pas de contre-indications (notamment accidents thromboemboliques veineux \u00e9volutifs, saignements g\u00e9nitaux inexpliqu\u00e9s, pathologie h\u00e9patique s\u00e9v\u00e8re actuelle ou ancienne, ou cancer du sein ou de l'ut\u00e9rus chez la femme adulte).",
+      "text": "Les progestatifs sont utilisables chez la femme et l'adolescente ne pr\u00e9sentant pas de contre-indications (notamment accidents thromboemboliques veineux \u00e9volutifs, saignements g\u00e9nitaux inexpliqu\u00e9s, pathologie h\u00e9patique s\u00e9v\u00e8re actuelle ou ancienne, ou cancer du sein ou de l'ut\u00e9rus chez la femme adulte)."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.01103999999999,
+            "t": 519.7008,
+            "r": 293.0674560000001,
+            "b": 509.32596,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "Plusieurs voies d'administration sont disponibles :",
+      "text": "Plusieurs voies d'administration sont disponibles :"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.85343999999998,
+            "t": 502.42319999999995,
+            "r": 431.7795359999993,
+            "b": 491.70402909090905,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "- pilule microprogestative : pilule au l\u00e9vonorgestrel ou au d\u00e9sogestrel ;",
+      "text": "pilule microprogestative : pilule au l\u00e9vonorgestrel ou au d\u00e9sogestrel ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.85343999999998,
+            "t": 485.26703999999995,
+            "r": 544.3235039999993,
+            "b": 414.0498,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            442
+          ]
+        }
+      ],
+      "orig": "- implant \u00e0 l'\u00e9tonogestrel : m\u00e9thode de longue dur\u00e9e d'action : est laiss\u00e9 en place et efficace pendant 3 ans (diminution possible de l'efficacit\u00e9 en cas de surpoids/d'ob\u00e9sit\u00e9). Prendre en compte le risque de troubles menstruels (am\u00e9norrh\u00e9e, spotting) pouvant \u00eatre \u00e0 l'origine d'un retrait pr\u00e9matur\u00e9 du dispositif, ainsi que le risque rare de migration de l'implant \u00e0 l'\u00e9tonogestrel dans les vaisseaux sanguins et dans la paroi thoracique 8 ;",
+      "text": "implant \u00e0 l'\u00e9tonogestrel : m\u00e9thode de longue dur\u00e9e d'action : est laiss\u00e9 en place et efficace pendant 3 ans (diminution possible de l'efficacit\u00e9 en cas de surpoids/d'ob\u00e9sit\u00e9). Prendre en compte le risque de troubles menstruels (am\u00e9norrh\u00e9e, spotting) pouvant \u00eatre \u00e0 l'origine d'un retrait pr\u00e9matur\u00e9 du dispositif, ainsi que le risque rare de migration de l'implant \u00e0 l'\u00e9tonogestrel dans les vaisseaux sanguins et dans la paroi thoracique 8 ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.85248000000007,
+            "t": 407.38991999999996,
+            "r": 544.2496799999998,
+            "b": 351.41988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            351
+          ]
+        }
+      ],
+      "orig": "- les injections d'ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (tous les 3 mois) : leur indication est limit\u00e9e aux cas o\u00f9 il n'est pas possible d'utiliser d'autres m\u00e9thodes contraceptives. Compte tenu des risques potentiels (notamment thrombose veineuse, diminution de la densit\u00e9 min\u00e9rale osseuse, prise de poids), leur utilisation doit \u00eatre limit\u00e9e dans le temps.",
+      "text": "les injections d'ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (tous les 3 mois) : leur indication est limit\u00e9e aux cas o\u00f9 il n'est pas possible d'utiliser d'autres m\u00e9thodes contraceptives. Compte tenu des risques potentiels (notamment thrombose veineuse, diminution de la densit\u00e9 min\u00e9rale osseuse, prise de poids), leur utilisation doit \u00eatre limit\u00e9e dans le temps.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.010080000000016,
+            "t": 341.75711999999993,
+            "r": 344.56257599999986,
+            "b": 331.38228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Les femmes et les adolescentes doivent \u00eatre inform\u00e9es sur :",
+      "text": "Les femmes et les adolescentes doivent \u00eatre inform\u00e9es sur :"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.86352000000005,
+            "t": 324.47952,
+            "r": 544.2441599999994,
+            "b": 283.62324,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            284
+          ]
+        }
+      ],
+      "orig": "- les modalit\u00e9s d'instauration et d'utilisation des pilules microprogestatives (prise quotidienne ; le retard de prise de la pilule ne doit pas d\u00e9passer 3 h pour le l\u00e9vonorgestrel, 12 h pour le d\u00e9sogestrel), la conduite \u00e0 tenir en cas d'oubli de pilule et la contraception d'urgence ;",
+      "text": "les modalit\u00e9s d'instauration et d'utilisation des pilules microprogestatives (prise quotidienne ; le retard de prise de la pilule ne doit pas d\u00e9passer 3 h pour le l\u00e9vonorgestrel, 12 h pour le d\u00e9sogestrel), la conduite \u00e0 tenir en cas d'oubli de pilule et la contraception d'urgence ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.86352000000005,
+            "t": 276.96335999999997,
+            "r": 544.4097599999997,
+            "b": 251.32979999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "- l'efficacit\u00e9 contraceptive de ces m\u00e9thodes (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "text": "l'efficacit\u00e9 contraceptive de ces m\u00e9thodes (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.84,
+            "t": 244.54463999999996,
+            "r": 544.1952479999993,
+            "b": 203.8098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            200
+          ]
+        }
+      ],
+      "orig": "- les possibles troubles menstruels (m\u00e9trorragies, spotting ou am\u00e9norrh\u00e9e) fr\u00e9quents avec ce type de contraception mais qui ne doivent pas faire arr\u00eater la contraception sans avis d'un professionnel ;",
+      "text": "les possibles troubles menstruels (m\u00e9trorragies, spotting ou am\u00e9norrh\u00e9e) fr\u00e9quents avec ce type de contraception mais qui ne doivent pas faire arr\u00eater la contraception sans avis d'un professionnel ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 66.82896000000001,
+            "t": 197.02848000000006,
+            "r": 544.2040799999994,
+            "b": 156.2898,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "- le risque de diminution d'efficacit\u00e9 en cas de diarrh\u00e9e ou vomissements ou d'association \u00e0 certains m\u00e9dicaments (dont millepertuis, certains anticonvulsivants, antiprot\u00e9ases, rifampicine/rifabutine, bosentan, gris\u00e9ofulvine, modafinil, orlistat) 9 ;",
+      "text": "le risque de diminution d'efficacit\u00e9 en cas de diarrh\u00e9e ou vomissements ou d'association \u00e0 certains m\u00e9dicaments (dont millepertuis, certains anticonvulsivants, antiprot\u00e9ases, rifampicine/rifabutine, bosentan, gris\u00e9ofulvine, modafinil, orlistat) 9 ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.0,
+            "t": 120.35231999999996,
+            "r": 544.3130880000002,
+            "b": 101.77233000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            205
+          ]
+        }
+      ],
+      "orig": "7 Pour les autres interactions m\u00e9dicamenteuses, se r\u00e9f\u00e9rer au r\u00e9sum\u00e9 des caract\u00e9ristiques du produit et au \u00ab Th\u00e9saurus des interactions m\u00e9dicamenteuses \u00bb (disponible sur le site de l'ANSM : ansm.sante.fr).",
+      "text": "7 Pour les autres interactions m\u00e9dicamenteuses, se r\u00e9f\u00e9rer au r\u00e9sum\u00e9 des caract\u00e9ristiques du produit et au \u00ab Th\u00e9saurus des interactions m\u00e9dicamenteuses \u00bb (disponible sur le site de l'ANSM : ansm.sante.fr)."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.0,
+            "t": 98.87232000000006,
+            "r": 544.3518120000003,
+            "b": 80.17364999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": "8 Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Nexplanon\u00ae : risque de migration dans les vaisseaux sanguins et dans la paroi thoracique. Lettre aux professionnels de sant\u00e9. Saint-Denis: ANSM; 2016.",
+      "text": "8 Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Nexplanon\u00ae : risque de migration dans les vaisseaux sanguins et dans la paroi thoracique. Lettre aux professionnels de sant\u00e9. Saint-Denis: ANSM; 2016.",
+      "hyperlink": "https://ansm.sante.fr/S-informer/Informations-de-securite-Lettres-aux-professionnels-de-sante/Nexplanon-R-risque-de-migration-dans-les-vaisseaux-sanguins-et-dans-la-paroi-thoracique-Lettre-aux-professionnels-de-sante"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.0,
+            "t": 77.27232000000004,
+            "r": 544.3676160000003,
+            "b": 58.69232999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            205
+          ]
+        }
+      ],
+      "orig": "9 Pour les autres interactions m\u00e9dicamenteuses, se r\u00e9f\u00e9rer au r\u00e9sum\u00e9 des caract\u00e9ristiques du produit et au \u00ab Th\u00e9saurus des interactions m\u00e9dicamenteuses \u00bb (disponible sur le site de l'ANSM : ansm.sante.fr).",
+      "text": "9 Pour les autres interactions m\u00e9dicamenteuses, se r\u00e9f\u00e9rer au r\u00e9sum\u00e9 des caract\u00e9ristiques du produit et au \u00ab Th\u00e9saurus des interactions m\u00e9dicamenteuses \u00bb (disponible sur le site de l'ANSM : ansm.sante.fr)."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 80.16108,
+            "t": 34.796640000000025,
+            "r": 515.0728200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013",
+      "text": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 539.7634800000001,
+            "t": 34.796640000000025,
+            "r": 544.2337200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 66.84,
+            "t": 789.8246399999999,
+            "r": 544.234991999999,
+            "b": 749.0898,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            203
+          ]
+        }
+      ],
+      "orig": "- la possibilit\u00e9 de faire renouveler une fois leur contraceptif oral pour une p\u00e9riode suppl\u00e9mentaire de 6 mois par le pharmacien ou l'infirmi\u00e8re sur pr\u00e9sentation d'une ordonnance datant de moins de 1 an.",
+      "text": "la possibilit\u00e9 de faire renouveler une fois leur contraceptif oral pour une p\u00e9riode suppl\u00e9mentaire de 6 mois par le pharmacien ou l'infirmi\u00e8re sur pr\u00e9sentation d'une ordonnance datant de moins de 1 an.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.99759999999999,
+            "t": 739.4270399999999,
+            "r": 469.79779199999933,
+            "b": 729.0522,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "Les macroprogestatifs per os ne disposent pas d'AMM dans l'indication contraception.",
+      "text": "Les macroprogestatifs per os ne disposent pas d'AMM dans l'indication contraception."
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.0,
+            "t": 710.84064,
+            "r": 450.56244000000004,
+            "b": 670.8999127272726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "Dispositifs intra-ut\u00e9rins (DIU) (DIU au cuivre et au l\u00e9vonorgestrel [LNG])",
+      "text": "Dispositifs intra-ut\u00e9rins (DIU) (DIU au cuivre et au l\u00e9vonorgestrel [LNG])",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.0,
+            "t": 660.22464,
+            "r": 544.240703999999,
+            "b": 634.725,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "Les DIU peuvent \u00eatre propos\u00e9s aux femmes et aux adolescentes, quelles que soient la parit\u00e9 et la gestit\u00e9 (femmes multipares ou nullipares/nulligestes).",
+      "text": "Les DIU peuvent \u00eatre propos\u00e9s aux femmes et aux adolescentes, quelles que soient la parit\u00e9 et la gestit\u00e9 (femmes multipares ou nullipares/nulligestes)."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.99999999999994,
+            "t": 624.9408,
+            "r": 544.310256,
+            "b": 538.6098000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            515
+          ]
+        }
+      ],
+      "orig": "Les DIU sont utilisables chez la femme ou l'adolescente ne pr\u00e9sentant pas de contre-indications (en particulier malformations ut\u00e9rines, infections en cours ou saignements inexpliqu\u00e9s), apr\u00e8s avoir \u00e9valu\u00e9 et \u00e9cart\u00e9 un risque infectieux (rechercher une infection \u00e0 Chlamydia trachomatis et Neisseria gonorrhoeae 10 avant la pose notamment en cas d'IST, infection g\u00e9nitale haute en cours ou r\u00e9cente, \u00e2ge < 25 ans, partenaires multiples). Les contre-indications du DIU au LNG sont les m\u00eames que celles des progestatifs.",
+      "text": "Les DIU sont utilisables chez la femme ou l'adolescente ne pr\u00e9sentant pas de contre-indications (en particulier malformations ut\u00e9rines, infections en cours ou saignements inexpliqu\u00e9s), apr\u00e8s avoir \u00e9valu\u00e9 et \u00e9cart\u00e9 un risque infectieux (rechercher une infection \u00e0 Chlamydia trachomatis et Neisseria gonorrhoeae 10 avant la pose notamment en cas d'IST, infection g\u00e9nitale haute en cours ou r\u00e9cente, \u00e2ge < 25 ans, partenaires multiples). Les contre-indications du DIU au LNG sont les m\u00eames que celles des progestatifs."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.009120000000024,
+            "t": 528.8256,
+            "r": 344.55167999999986,
+            "b": 518.4507600000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Les femmes et les adolescentes doivent \u00eatre inform\u00e9es sur :",
+      "text": "Les femmes et les adolescentes doivent \u00eatre inform\u00e9es sur :"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 66.85152,
+            "t": 511.66944,
+            "r": 544.3922399999997,
+            "b": 486.0498,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "- l'efficacit\u00e9 contraceptive de ces m\u00e9thodes (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "text": "l'efficacit\u00e9 contraceptive de ces m\u00e9thodes (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 66.84,
+            "t": 479.26464,
+            "r": 518.5813439999996,
+            "b": 468.88980000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "- leur longue dur\u00e9e d'action (4 \u00e0 10 ans pour le DIU au cuivre, 5 ans pour le DIU au LNG) ;",
+      "text": "leur longue dur\u00e9e d'action (4 \u00e0 10 ans pour le DIU au cuivre, 5 ans pour le DIU au LNG) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 66.84000000000003,
+            "t": 462.10848,
+            "r": 544.080431999999,
+            "b": 436.49844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "- leurs risques potentiels (risque d'expulsion, risque de perforation et de migration le plus souvent li\u00e9 \u00e0 la pose [exceptionnel]) ;",
+      "text": "leurs risques potentiels (risque d'expulsion, risque de perforation et de migration le plus souvent li\u00e9 \u00e0 la pose [exceptionnel]) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 66.82896000000005,
+            "t": 429.71711999999997,
+            "r": 544.2526560000001,
+            "b": 404.10708,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "- l'impact du DIU sur les cycles (r\u00e8gles plus importantes avec le DIU au cuivre, spotting, oligom\u00e9norrh\u00e9e ou am\u00e9norrh\u00e9e avec le DIU au LNG) ;",
+      "text": "l'impact du DIU sur les cycles (r\u00e8gles plus importantes avec le DIU au cuivre, spotting, oligom\u00e9norrh\u00e9e ou am\u00e9norrh\u00e9e avec le DIU au LNG) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 66.81792000000002,
+            "t": 397.32575999999995,
+            "r": 345.4608959999998,
+            "b": 386.95092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "- la pose souvent plus douloureuse chez les nullipares.",
+      "text": "la pose souvent plus douloureuse chez les nullipares.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.97551999999996,
+            "t": 377.28815999999995,
+            "r": 427.64486399999964,
+            "b": 366.91332,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "Certains dispositifs de plus petite taille sont mieux adapt\u00e9s aux adolescentes.",
+      "text": "Certains dispositifs de plus petite taille sont mieux adapt\u00e9s aux adolescentes."
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.975519999999946,
+            "t": 357.12911999999994,
+            "r": 544.0649759999991,
+            "b": 286.03427999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            475
+          ]
+        }
+      ],
+      "orig": "Le DIU au LNG est \u00e0 privil\u00e9gier chez les femmes en cas de m\u00e9norragies fonctionnelles ou de saignements abondants avec un DIU au cuivre, \u00e0 condition qu'elles acceptent l'\u00e9ventualit\u00e9 de ne plus avoir de r\u00e8gles. Il est \u00e0 consid\u00e9rer avec pr\u00e9caution chez les adolescentes, notamment en raison des difficult\u00e9s de la pose. Il est cependant possible de le proposer aux adolescentes ayant des r\u00e8gles abondantes, \u00e0 condition qu'elles acceptent l'\u00e9ventualit\u00e9 de ne plus avoir de r\u00e8gles.",
+      "text": "Le DIU au LNG est \u00e0 privil\u00e9gier chez les femmes en cas de m\u00e9norragies fonctionnelles ou de saignements abondants avec un DIU au cuivre, \u00e0 condition qu'elles acceptent l'\u00e9ventualit\u00e9 de ne plus avoir de r\u00e8gles. Il est \u00e0 consid\u00e9rer avec pr\u00e9caution chez les adolescentes, notamment en raison des difficult\u00e9s de la pose. Il est cependant possible de le proposer aux adolescentes ayant des r\u00e8gles abondantes, \u00e0 condition qu'elles acceptent l'\u00e9ventualit\u00e9 de ne plus avoir de r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.97551999999996,
+            "t": 276.1286399999999,
+            "r": 544.1731679999994,
+            "b": 250.6289999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "Les femmes et les adolescentes doivent \u00eatre incit\u00e9es \u00e0 consulter 1 \u00e0 3 mois apr\u00e8s la pose puis annuellement ainsi qu'en cas de douleurs pelviennes, de fi\u00e8vre et saignements inexpliqu\u00e9s.",
+      "text": "Les femmes et les adolescentes doivent \u00eatre incit\u00e9es \u00e0 consulter 1 \u00e0 3 mois apr\u00e8s la pose puis annuellement ainsi qu'en cas de douleurs pelviennes, de fi\u00e8vre et saignements inexpliqu\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.0,
+            "t": 232.52063999999996,
+            "r": 501.694368,
+            "b": 192.4606327272727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "M\u00e9thodes barri\u00e8res (pr\u00e9servatifs masculins et f\u00e9minins, diaphragme et cape cervicale, spermicides)",
+      "text": "M\u00e9thodes barri\u00e8res (pr\u00e9servatifs masculins et f\u00e9minins, diaphragme et cape cervicale, spermicides)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.0,
+            "t": 181.90463999999997,
+            "r": 544.2131039999992,
+            "b": 125.93460000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            383
+          ]
+        }
+      ],
+      "orig": "Ces m\u00e9thodes ont une efficacit\u00e9 contraceptive moindre que celle de la contraception hormonale ou du DIU. Elles n\u00e9cessitent que les deux partenaires soient motiv\u00e9s, aient bien compris leur utilisation apr\u00e8s un apprentissage sp\u00e9cifique ; elles doivent \u00eatre utilis\u00e9es lors de tous les rapports sexuels, quelle que soit la date du cycle. Le risque d'\u00e9chec est plus \u00e9lev\u00e9 chez les jeunes.",
+      "text": "Ces m\u00e9thodes ont une efficacit\u00e9 contraceptive moindre que celle de la contraception hormonale ou du DIU. Elles n\u00e9cessitent que les deux partenaires soient motiv\u00e9s, aient bien compris leur utilisation apr\u00e8s un apprentissage sp\u00e9cifique ; elles doivent \u00eatre utilis\u00e9es lors de tous les rapports sexuels, quelle que soit la date du cycle. Le risque d'\u00e9chec est plus \u00e9lev\u00e9 chez les jeunes."
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.0,
+            "t": 67.55232000000001,
+            "r": 350.7113999999999,
+            "b": 58.69365000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "10 Ces examens sont gratuits en centre de planification ou d'\u00e9ducation familiale.",
+      "text": "10 Ces examens sont gratuits en centre de planification ou d'\u00e9ducation familiale."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 80.16108,
+            "t": 34.796640000000025,
+            "r": 544.2337200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013 6",
+      "text": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013 6"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.0,
+            "t": 789.9446399999999,
+            "r": 544.0199039999991,
+            "b": 764.3346,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "Compte tenu du taux \u00e9lev\u00e9 d'\u00e9chec en utilisation courante, l'\u00e9ventualit\u00e9 d'une grossesse non pr\u00e9vue doit \u00eatre :",
+      "text": "Compte tenu du taux \u00e9lev\u00e9 d'\u00e9chec en utilisation courante, l'\u00e9ventualit\u00e9 d'une grossesse non pr\u00e9vue doit \u00eatre :"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.8424,
+            "t": 757.43184,
+            "r": 382.08297599999975,
+            "b": 747.057,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "- acceptable \u00e0 l'\u00e2ge adulte, sinon pr\u00e9f\u00e9rer une autre m\u00e9thode ;",
+      "text": "acceptable \u00e0 l'\u00e2ge adulte, sinon pr\u00e9f\u00e9rer une autre m\u00e9thode ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.84239999999994,
+            "t": 740.27568,
+            "r": 299.6969759999998,
+            "b": 729.90084,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "- envisag\u00e9e et discut\u00e9e avec les adolescents.",
+      "text": "envisag\u00e9e et discut\u00e9e avec les adolescents.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.99999999999997,
+            "t": 720.23808,
+            "r": 221.56910400000012,
+            "b": 709.86324,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Pr\u00e9servatifs (masculins, f\u00e9minins) :",
+      "text": "Pr\u00e9servatifs (masculins, f\u00e9minins) :"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.84239999999997,
+            "t": 702.96048,
+            "r": 447.5104319999994,
+            "b": 692.58564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "- seule m\u00e9thode de contraception efficace contre les IST, y compris le sida ;",
+      "text": "seule m\u00e9thode de contraception efficace contre les IST, y compris le sida ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.8424,
+            "t": 685.80432,
+            "r": 469.6362720000001,
+            "b": 675.4098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "- efficacit\u00e9 contraceptive (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "text": "efficacit\u00e9 contraceptive (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.84,
+            "t": 668.62464,
+            "r": 544.2029759999994,
+            "b": 627.76836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "- pr\u00e9servatifs en latex recommand\u00e9s de pr\u00e9f\u00e9rence aux pr\u00e9servatifs en polyur\u00e9thane (risque de rupture ou de glissement) sauf si allergie au latex ; en cas d'utilisation de lubrifiant, n'utiliser que des lubrifiants aqueux ;",
+      "text": "pr\u00e9servatifs en latex recommand\u00e9s de pr\u00e9f\u00e9rence aux pr\u00e9servatifs en polyur\u00e9thane (risque de rupture ou de glissement) sauf si allergie au latex ; en cas d'utilisation de lubrifiant, n'utiliser que des lubrifiants aqueux ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.85104000000001,
+            "t": 620.98704,
+            "r": 435.2723999999993,
+            "b": 610.6122,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "- informer sur le mode d'emploi des pr\u00e9servatifs (masculins, f\u00e9minins)11 ;",
+      "text": "informer sur le mode d'emploi des pr\u00e9servatifs (masculins, f\u00e9minins)11 ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.83999999999997,
+            "t": 603.83088,
+            "r": 544.2206399999993,
+            "b": 578.2208400000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "- informer sur la conduite \u00e0 tenir en cas de rupture/glissement du pr\u00e9servatif et sur la contraception d'urgence.",
+      "text": "informer sur la conduite \u00e0 tenir en cas de rupture/glissement du pr\u00e9servatif et sur la contraception d'urgence.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.83999999999996,
+            "t": 571.56096,
+            "r": 369.24988799999966,
+            "b": 561.1861200000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "- possibilit\u00e9 de prescrire un pr\u00e9servatif masculin rembours\u00e9.",
+      "text": "possibilit\u00e9 de prescrire un pr\u00e9servatif masculin rembours\u00e9.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.99759999999992,
+            "t": 551.40192,
+            "r": 258.2504160000002,
+            "b": 541.0270800000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Diaphragme, cape cervicale, spermicides :",
+      "text": "Diaphragme, cape cervicale, spermicides :"
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.83999999999989,
+            "t": 534.24576,
+            "r": 544.1842079999997,
+            "b": 508.4898,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "- efficacit\u00e9 contraceptive du diaphragme/de la cape am\u00e9lior\u00e9e par l'association \u00e0 un spermicide (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "text": "efficacit\u00e9 contraceptive du diaphragme/de la cape am\u00e9lior\u00e9e par l'association \u00e0 un spermicide (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb) ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.84,
+            "t": 501.82464,
+            "r": 378.5797919999996,
+            "b": 491.1054690909091,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "- ne sont pas efficaces pour prot\u00e9ger contre les IST/sida ;",
+      "text": "ne sont pas efficaces pour prot\u00e9ger contre les IST/sida ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.83999999999997,
+            "t": 484.66848,
+            "r": 544.035167999999,
+            "b": 459.05844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            157
+          ]
+        }
+      ],
+      "orig": "- la d\u00e9termination de la taille du diaphragme/de la cape, au pr\u00e9alable, par le praticien (m\u00e9decin ou sage-femme) et l'apprentissage se font en consultation ;",
+      "text": "la d\u00e9termination de la taille du diaphragme/de la cape, au pr\u00e9alable, par le praticien (m\u00e9decin ou sage-femme) et l'apprentissage se font en consultation ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.82896,
+            "t": 452.27711999999997,
+            "r": 372.9637439999997,
+            "b": 441.90228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "- les spermicides s'ach\u00e8tent en pharmacie sans prescription.",
+      "text": "les spermicides s'ach\u00e8tent en pharmacie sans prescription.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.0,
+            "t": 423.80064000000004,
+            "r": 472.4844000000002,
+            "b": 383.8599127272728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "M\u00e9thodes naturelles (retrait, m\u00e9thodes d'abstinence p\u00e9riodique et d'auto-observation)",
+      "text": "M\u00e9thodes naturelles (retrait, m\u00e9thodes d'abstinence p\u00e9riodique et d'auto-observation)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.0,
+            "t": 373.18463999999994,
+            "r": 544.1347199999993,
+            "b": 347.685,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "Leur efficacit\u00e9 est moins bonne que celle des m\u00e9thodes hormonales, m\u00e9caniques ou barri\u00e8res (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb).",
+      "text": "Leur efficacit\u00e9 est moins bonne que celle des m\u00e9thodes hormonales, m\u00e9caniques ou barri\u00e8res (voir fiche \u00ab Efficacit\u00e9 des m\u00e9thodes contraceptives \u00bb)."
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.0,
+            "t": 337.90464,
+            "r": 544.285967999999,
+            "b": 297.1698,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            231
+          ]
+        }
+      ],
+      "orig": "\u00b4\u00b4 Elles peuvent convenir \u00e0 des femmes connaissant bien leur cycle, ayant des r\u00e8gles r\u00e9guli\u00e8res, ma\u00eetrisant bien l'utilisation de la m\u00e9thode. Cependant, du fait du risque d'\u00e9chec \u00e9lev\u00e9 de ces m\u00e9thodes, celles-ci sont peu adapt\u00e9es :",
+      "text": "\u00b4\u00b4 Elles peuvent convenir \u00e0 des femmes connaissant bien leur cycle, ayant des r\u00e8gles r\u00e9guli\u00e8res, ma\u00eetrisant bien l'utilisation de la m\u00e9thode. Cependant, du fait du risque d'\u00e9chec \u00e9lev\u00e9 de ces m\u00e9thodes, celles-ci sont peu adapt\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.83135999999999,
+            "t": 290.26703999999995,
+            "r": 419.97556799999927,
+            "b": 279.8922,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "- en p\u00e9riode de p\u00e9rim\u00e9nopause, marqu\u00e9e par l'irr\u00e9gularit\u00e9 des cycles ;",
+      "text": "en p\u00e9riode de p\u00e9rim\u00e9nopause, marqu\u00e9e par l'irr\u00e9gularit\u00e9 des cycles ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.83135999999996,
+            "t": 273.11087999999995,
+            "r": 489.2758559999991,
+            "b": 262.73604,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "- \u00e0 l'adolescence, en raison de l'irr\u00e9gularit\u00e9 des cycles et de l'indice de fertilit\u00e9 \u00e9lev\u00e9.",
+      "text": "\u00e0 l'adolescence, en raison de l'irr\u00e9gularit\u00e9 des cycles et de l'indice de fertilit\u00e9 \u00e9lev\u00e9.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.97792000000004,
+            "t": 252.95183999999995,
+            "r": 544.1071199999993,
+            "b": 227.45219999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "Compte tenu du taux d'\u00e9chec \u00e9lev\u00e9, l'\u00e9ventualit\u00e9 d'une grossesse non pr\u00e9vue doit \u00eatre acceptable, sinon pr\u00e9f\u00e9rer une autre m\u00e9thode.",
+      "text": "Compte tenu du taux d'\u00e9chec \u00e9lev\u00e9, l'\u00e9ventualit\u00e9 d'une grossesse non pr\u00e9vue doit \u00eatre acceptable, sinon pr\u00e9f\u00e9rer une autre m\u00e9thode."
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.97792000000004,
+            "t": 217.668,
+            "r": 391.5563999999997,
+            "b": 207.29315999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "Une formation sp\u00e9cifique de la femme et/ou du couple est n\u00e9cessaire.",
+      "text": "Une formation sp\u00e9cifique de la femme et/ou du couple est n\u00e9cessaire."
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.97792000000004,
+            "t": 197.50896,
+            "r": 304.6925760000001,
+            "b": 187.13411999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Ces m\u00e9thodes ne prot\u00e8gent pas contre les IST/sida.",
+      "text": "Ces m\u00e9thodes ne prot\u00e8gent pas contre les IST/sida."
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.0,
+            "t": 168.92063999999993,
+            "r": 446.86476000000005,
+            "b": 152.37583272727272,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "M\u00e9thodes de st\u00e9rilisation (voir fiche st\u00e9rilisation)",
+      "text": "M\u00e9thodes de st\u00e9rilisation (voir fiche st\u00e9rilisation)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.0,
+            "t": 141.82463999999993,
+            "r": 451.0465439999993,
+            "b": 131.44979999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "Peuvent apporter une r\u00e9ponse contraceptive appropri\u00e9e dans certaines situations.",
+      "text": "Peuvent apporter une r\u00e9ponse contraceptive appropri\u00e9e dans certaines situations."
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.0,
+            "t": 121.66559999999993,
+            "r": 211.83624000000012,
+            "b": 111.29075999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "Plusieurs m\u00e9thodes disponibles :",
+      "text": "Plusieurs m\u00e9thodes disponibles :"
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.8424,
+            "t": 104.38800000000003,
+            "r": 190.84809600000006,
+            "b": 94.01315999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "- ligature des trompes ;",
+      "text": "ligature des trompes ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.84239999999998,
+            "t": 87.23184000000003,
+            "r": 180.39211200000005,
+            "b": 76.85699999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "- \u00e9lectrocoagulation ;",
+      "text": "\u00e9lectrocoagulation ;",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.83135999999996,
+            "t": 70.07568000000003,
+            "r": 221.3019360000001,
+            "b": 59.70083999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "- pose d'anneaux ou de clips.",
+      "text": "pose d'anneaux ou de clips.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 80.16108,
+            "t": 34.796640000000025,
+            "r": 515.0728200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013",
+      "text": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013"
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 539.7634800000001,
+            "t": 34.796640000000025,
+            "r": 544.2337200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.0,
+            "t": 789.9446399999999,
+            "r": 222.76363200000011,
+            "b": 779.5698,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Les pr\u00e9senter comme irr\u00e9versibles.",
+      "text": "Les pr\u00e9senter comme irr\u00e9versibles."
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.0,
+            "t": 769.7855999999999,
+            "r": 544.0629599999994,
+            "b": 744.17556,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "Un d\u00e9lai de r\u00e9flexion de 4 mois doit \u00eatre respect\u00e9 entre la demande initiale et la r\u00e9alisation de la st\u00e9rilisation.",
+      "text": "Un d\u00e9lai de r\u00e9flexion de 4 mois doit \u00eatre respect\u00e9 entre la demande initiale et la r\u00e9alisation de la st\u00e9rilisation."
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.0,
+            "t": 726.08064,
+            "r": 214.56696,
+            "b": 709.5358327272727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Ressources Internet",
+      "text": "Ressources Internet",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.84,
+            "t": 700.78464,
+            "r": 528.30096,
+            "b": 690.4098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "- Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 : www.ansm.sante.fr",
+      "text": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9 : www.ansm.sante.fr",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.84,
+            "t": 683.62464,
+            "r": 345.4056959999995,
+            "b": 673.2498,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "- Association fil-sant\u00e9 jeunes : www.filsantejeunes.com",
+      "text": "Association fil-sant\u00e9 jeunes : www.filsantejeunes.com",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.84,
+            "t": 666.4646399999999,
+            "r": 421.3851839999995,
+            "b": 656.0898,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "- Association fran\u00e7aise pour la contraception : www.contraceptions.org",
+      "text": "Association fran\u00e7aise pour la contraception : www.contraceptions.org",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.84,
+            "t": 649.30464,
+            "r": 544.2796800000001,
+            "b": 623.6898,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "- Centres de planification ou d'\u00e9ducation familiale : ivg.gouv.fr/les-centres-de-planification-ou-d-education-familiale.html",
+      "text": "Centres de planification ou d'\u00e9ducation familiale : ivg.gouv.fr/les-centres-de-planification-ou-d-education-familiale.html",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.84,
+            "t": 616.90464,
+            "r": 296.58681599999977,
+            "b": 606.5298,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "- Haute Autorit\u00e9 de Sant\u00e9 : www.has-sante.fr",
+      "text": "Haute Autorit\u00e9 de Sant\u00e9 : www.has-sante.fr",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.84,
+            "t": 599.74464,
+            "r": 544.262976,
+            "b": 574.1298,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "- Sant\u00e9 publique France : www.santepubliquefrance.fr ; www.choisirsacontraception.fr ; www.onsexprime.fr ; www.info-ist.fr",
+      "text": "Sant\u00e9 publique France : www.santepubliquefrance.fr ; www.choisirsacontraception.fr ; www.onsexprime.fr ; www.info-ist.fr",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 66.84,
+            "t": 567.34464,
+            "r": 437.27836799999966,
+            "b": 556.9698000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "- Mouvement fran\u00e7ais pour le planning familial : www.planning-familial.org",
+      "text": "Mouvement fran\u00e7ais pour le planning familial : www.planning-familial.org",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 539.7634800000001,
+            "t": 34.796640000000025,
+            "r": 544.2337200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 563.88336,
+            "t": 168.1487159999998,
+            "r": 571.43895,
+            "b": 30.120000000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "\u00a9 Haute Autorit\u00e9 de sant\u00e9 - avril 2013",
+      "text": "\u00a9 Haute Autorit\u00e9 de sant\u00e9 - avril 2013"
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 56.16,
+            "t": 88.79664000000002,
+            "r": 533.7842400000015,
+            "b": 69.95136727272723,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "Ce document pr\u00e9sente les points essentiels de la publication : Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG), m\u00e9thode Fiche M\u00e9mo, avril 2013, MAJ juillet 2019",
+      "text": "Ce document pr\u00e9sente les points essentiels de la publication : Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG), m\u00e9thode Fiche M\u00e9mo, avril 2013, MAJ juillet 2019"
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 176.17308000000008,
+            "t": 66.71879999999999,
+            "r": 413.6795040000002,
+            "b": 59.16321000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "Toutes nos publications sont t\u00e9l\u00e9chargeables sur www.has-sante.fr",
+      "text": "Toutes nos publications sont t\u00e9l\u00e9chargeables sur www.has-sante.fr"
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 80.16108,
+            "t": 34.796640000000025,
+            "r": 515.0728200000001,
+            "b": 26.9902872727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013",
+      "text": "HAS \u00b7 Contraception chez la femme adulte et l'adolescente en \u00e2ge de procr\u00e9er (hors post-partum et post-IVG) \u00b7 avril 2013"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.89398844136488,
+            "t": 801.8142642219162,
+            "r": 175.1584470280385,
+            "b": 753.5617729538579,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.54253746672765,
+            "t": 721.5079187156695,
+            "r": 94.22787913482462,
+            "b": 705.7856120042959,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 210.06452917521435,
+            "t": 50.07977506587736,
+            "r": 290.35224615519485,
+            "b": 19.33916579294089,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 8
+    }
+  }
+}

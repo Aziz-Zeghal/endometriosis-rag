@@ -1,0 +1,481 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 12283307475521496674,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Le diagnostic souvent tardif de l\u2019endom\u00e9triose",
+      "text": "Le diagnostic souvent tardif de l\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 06/01/2025",
+      "text": "Publi\u00e9 le 06/01/2025"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les femmes qui souffrent d\u2019endom\u00e9triose t\u00e9moignent fr\u00e9quemment du fait qu\u2019il aura fallu plusieurs ann\u00e9es avant que leur diagnostic soit pos\u00e9, ann\u00e9es d\u2019incertitude, d\u2019anxi\u00e9t\u00e9 et de traitements inefficaces. Ces t\u00e9moignages ont \u00e9t\u00e9 confirm\u00e9s par des \u00e9tudes men\u00e9es dans plusieurs pays et qui mettent en lumi\u00e8re divers facteurs responsables de ce retard au diagnostic. Depuis quelques ann\u00e9es, les choses semblent lentement s\u2019am\u00e9liorer, avec une prise de conscience plus g\u00e9n\u00e9ralis\u00e9e de la r\u00e9alit\u00e9 de l\u2019endom\u00e9triose, tant chez les professionnels de sant\u00e9 que chez les femmes.",
+      "text": "Les femmes qui souffrent d\u2019endom\u00e9triose t\u00e9moignent fr\u00e9quemment du fait qu\u2019il aura fallu plusieurs ann\u00e9es avant que leur diagnostic soit pos\u00e9, ann\u00e9es d\u2019incertitude, d\u2019anxi\u00e9t\u00e9 et de traitements inefficaces. Ces t\u00e9moignages ont \u00e9t\u00e9 confirm\u00e9s par des \u00e9tudes men\u00e9es dans plusieurs pays et qui mettent en lumi\u00e8re divers facteurs responsables de ce retard au diagnostic. Depuis quelques ann\u00e9es, les choses semblent lentement s\u2019am\u00e9liorer, avec une prise de conscience plus g\u00e9n\u00e9ralis\u00e9e de la r\u00e9alit\u00e9 de l\u2019endom\u00e9triose, tant chez les professionnels de sant\u00e9 que chez les femmes."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces t\u00e9moignages ont \u00e9t\u00e9 confirm\u00e9s par des \u00e9tudes men\u00e9es dans plusieurs pays et qui mettent en lumi\u00e8re divers facteurs responsables de ce retard au diagnostic. Depuis quelques ann\u00e9es, les choses semblent lentement s\u2019am\u00e9liorer, avec une prise de conscience plus g\u00e9n\u00e9ralis\u00e9e de la r\u00e9alit\u00e9 de l\u2019endom\u00e9triose, tant chez les professionnels de sant\u00e9 que chez les femmes.",
+      "text": "Ces t\u00e9moignages ont \u00e9t\u00e9 confirm\u00e9s par des \u00e9tudes men\u00e9es dans plusieurs pays et qui mettent en lumi\u00e8re divers facteurs responsables de ce retard au diagnostic. Depuis quelques ann\u00e9es, les choses semblent lentement s\u2019am\u00e9liorer, avec une prise de conscience plus g\u00e9n\u00e9ralis\u00e9e de la r\u00e9alit\u00e9 de l\u2019endom\u00e9triose, tant chez les professionnels de sant\u00e9 que chez les femmes.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un retard au diagnostic de 7 ans en moyenne en France",
+      "text": "Un retard au diagnostic de 7 ans en moyenne en France",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis la fin des ann\u00e9es 1990 et la publication de diverses \u00e9tudes sur le sujet, les experts s\u2019accordent \u00e0 dire que, dans le contexte des pays industrialis\u00e9s, le d\u00e9lai entre l\u2019apparition des premiers sympt\u00f4mes et la confirmation du diagnostic d\u2019endom\u00e9triose peut atteindre 5 \u00e0 10 ans, voire 8 \u00e0 12 ans selon certaines \u00e9tudes. En France, on l'estime \u00e0 7 ans, en moyenne.",
+      "text": "Depuis la fin des ann\u00e9es 1990 et la publication de diverses \u00e9tudes sur le sujet, les experts s\u2019accordent \u00e0 dire que, dans le contexte des pays industrialis\u00e9s, le d\u00e9lai entre l\u2019apparition des premiers sympt\u00f4mes et la confirmation du diagnostic d\u2019endom\u00e9triose peut atteindre 5 \u00e0 10 ans, voire 8 \u00e0 12 ans selon certaines \u00e9tudes. En France, on l'estime \u00e0 7 ans, en moyenne."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des \u00e9tudes plus r\u00e9centes confirment ce d\u00e9lai. Par exemple, une \u00e9tude men\u00e9e en Allemagne et en Autriche, publi\u00e9e en 2012, a interrog\u00e9 171 femmes qui avaient subi un traitement chirurgical pour soulager leur endom\u00e9triose. Chez celles-ci, le d\u00e9lai moyen entre les premiers sympt\u00f4mes et le diagnostic avait \u00e9t\u00e9 de 10,4 ans (s\u2019\u00e9chelonnant entre 2,5 et 18,3 ans pour 95 % d\u2019entre elles). De la m\u00eame mani\u00e8re, une \u00e9tude n\u00e9erlandaise publi\u00e9e en 2016 et portant sur 139 femmes rapporte un d\u00e9lai de diagnostic moyen de 7,4 ans.",
+      "text": "Des \u00e9tudes plus r\u00e9centes confirment ce d\u00e9lai. Par exemple, une \u00e9tude men\u00e9e en Allemagne et en Autriche, publi\u00e9e en 2012, a interrog\u00e9 171 femmes qui avaient subi un traitement chirurgical pour soulager leur endom\u00e9triose. Chez celles-ci, le d\u00e9lai moyen entre les premiers sympt\u00f4mes et le diagnostic avait \u00e9t\u00e9 de 10,4 ans (s\u2019\u00e9chelonnant entre 2,5 et 18,3 ans pour 95 % d\u2019entre elles). De la m\u00eame mani\u00e8re, une \u00e9tude n\u00e9erlandaise publi\u00e9e en 2016 et portant sur 139 femmes rapporte un d\u00e9lai de diagnostic moyen de 7,4 ans."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce d\u00e9lai semble \u00eatre plus modeste aux \u00c9tats-Unis : une \u00e9tude de 2017 portant sur 638 femmes \u00e2g\u00e9es de 18 \u00e0 49 ans et diagnostiqu\u00e9es entre 2002 et 2012 rapporte un d\u00e9lai moyen de 4,4 ans qui se divise en 2,4 ans entre les premiers sympt\u00f4mes et la premi\u00e8re consultation m\u00e9dicale et 2 ans entre cette consultation et la confirmation du diagnostic.",
+      "text": "Ce d\u00e9lai semble \u00eatre plus modeste aux \u00c9tats-Unis : une \u00e9tude de 2017 portant sur 638 femmes \u00e2g\u00e9es de 18 \u00e0 49 ans et diagnostiqu\u00e9es entre 2002 et 2012 rapporte un d\u00e9lai moyen de 4,4 ans qui se divise en 2,4 ans entre les premiers sympt\u00f4mes et la premi\u00e8re consultation m\u00e9dicale et 2 ans entre cette consultation et la confirmation du diagnostic."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un probl\u00e8me qui touche particuli\u00e8rement les adolescentes",
+      "text": "Un probl\u00e8me qui touche particuli\u00e8rement les adolescentes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette \u00e9tude am\u00e9ricaine r\u00e9v\u00e8le \u00e9galement que le retard de diagnostic est significativement plus long chez les femmes qui ont consult\u00e9 pour la premi\u00e8re fois avant l\u2019\u00e2ge de 18 ans : 34,5 mois en moyenne contre 12,4 mois chez celles qui ont consult\u00e9 pour la premi\u00e8re fois apr\u00e8s l\u2019\u00e2ge de 30 ans, soit un d\u00e9lai 3 fois plus long chez les adolescentes. Selon les auteurs de l\u2019\u00e9tude, cette diff\u00e9rence pourrait \u00eatre li\u00e9e au fait que les r\u00e8gles douloureuses sont un ph\u00e9nom\u00e8ne fr\u00e9quent chez les adolescentes, sans pour autant qu\u2019il s\u2019agisse syst\u00e9matiquement d\u2019endom\u00e9triose. Ainsi, les professionnels de sant\u00e9 auraient tendance \u00e0 attribuer les douleurs menstruelles au fait que les patientes soient adolescentes, et moins enclines \u00e0 envisager la possibilit\u00e9 d\u2019une endom\u00e9triose.",
+      "text": "Cette \u00e9tude am\u00e9ricaine r\u00e9v\u00e8le \u00e9galement que le retard de diagnostic est significativement plus long chez les femmes qui ont consult\u00e9 pour la premi\u00e8re fois avant l\u2019\u00e2ge de 18 ans : 34,5 mois en moyenne contre 12,4 mois chez celles qui ont consult\u00e9 pour la premi\u00e8re fois apr\u00e8s l\u2019\u00e2ge de 30 ans, soit un d\u00e9lai 3 fois plus long chez les adolescentes. Selon les auteurs de l\u2019\u00e9tude, cette diff\u00e9rence pourrait \u00eatre li\u00e9e au fait que les r\u00e8gles douloureuses sont un ph\u00e9nom\u00e8ne fr\u00e9quent chez les adolescentes, sans pour autant qu\u2019il s\u2019agisse syst\u00e9matiquement d\u2019endom\u00e9triose. Ainsi, les professionnels de sant\u00e9 auraient tendance \u00e0 attribuer les douleurs menstruelles au fait que les patientes soient adolescentes, et moins enclines \u00e0 envisager la possibilit\u00e9 d\u2019une endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce probl\u00e8me avait \u00e9t\u00e9 mis en avant d\u00e8s 1998 par le biais d\u2019une \u00e9tude montrant que chez les femmes dont les premiers sympt\u00f4mes dataient de l\u2019adolescence, le d\u00e9lai moyen entre ces sympt\u00f4mes et la premi\u00e8re consultation avait \u00e9t\u00e9 de 6 ans, suivi d\u2019un d\u00e9lai moyen de 5,4 ans entre cette consultation et le diagnostic d\u2019endom\u00e9triose, soit un d\u00e9lai total moyen de 11,4 ans.",
+      "text": "Ce probl\u00e8me avait \u00e9t\u00e9 mis en avant d\u00e8s 1998 par le biais d\u2019une \u00e9tude montrant que chez les femmes dont les premiers sympt\u00f4mes dataient de l\u2019adolescence, le d\u00e9lai moyen entre ces sympt\u00f4mes et la premi\u00e8re consultation avait \u00e9t\u00e9 de 6 ans, suivi d\u2019un d\u00e9lai moyen de 5,4 ans entre cette consultation et le diagnostic d\u2019endom\u00e9triose, soit un d\u00e9lai total moyen de 11,4 ans."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c0 part l\u2019\u00e2ge, quels sont les facteurs qui contribuent \u00e0 ce retard au diagnostic ?",
+      "text": "\u00c0 part l\u2019\u00e2ge, quels sont les facteurs qui contribuent \u00e0 ce retard au diagnostic ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les diverses \u00e9tudes publi\u00e9es autour du retard au diagnostic de l\u2019endom\u00e9triose convergent sur diverses hypoth\u00e8ses pour expliquer ce retard, hypoth\u00e8ses qui peuvent co-exister :",
+      "text": "Les diverses \u00e9tudes publi\u00e9es autour du retard au diagnostic de l\u2019endom\u00e9triose convergent sur diverses hypoth\u00e8ses pour expliquer ce retard, hypoth\u00e8ses qui peuvent co-exister :"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les diagnostics erron\u00e9s qui d\u00e9laient celui d\u2019endom\u00e9triose avec la prescription de traitements (en particulier contre la douleur) finalement inefficaces. Dans l\u2019\u00e9tude allemande, 74 % des femmes interrog\u00e9es avaient connu au moins un diagnostic erron\u00e9 ;",
+      "text": "les diagnostics erron\u00e9s qui d\u00e9laient celui d\u2019endom\u00e9triose avec la prescription de traitements (en particulier contre la douleur) finalement inefficaces. Dans l\u2019\u00e9tude allemande, 74 % des femmes interrog\u00e9es avaient connu au moins un diagnostic erron\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la pr\u00e9sence de douleurs ou de sympt\u00f4mes hors de la sph\u00e8re gyn\u00e9cologique, par exemple des douleurs sciatiques ou une envie fr\u00e9quente d\u2019uriner, qui ne sont pas forc\u00e9ment associ\u00e9s \u00e0 l\u2019endom\u00e9triose dans l\u2019esprit des professionnels de sant\u00e9 ;",
+      "text": "la pr\u00e9sence de douleurs ou de sympt\u00f4mes hors de la sph\u00e8re gyn\u00e9cologique, par exemple des douleurs sciatiques ou une envie fr\u00e9quente d\u2019uriner, qui ne sont pas forc\u00e9ment associ\u00e9s \u00e0 l\u2019endom\u00e9triose dans l\u2019esprit des professionnels de sant\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la pr\u00e9sence de sympt\u00f4mes permanents, persistant en dehors de la p\u00e9riode des r\u00e8gles, qui \u00e9loigneraient les professionnels de sant\u00e9 de la possibilit\u00e9 d\u2019une endom\u00e9triose, per\u00e7ue comme syst\u00e9matiquement rythm\u00e9e sur le cycle menstruel ;",
+      "text": "la pr\u00e9sence de sympt\u00f4mes permanents, persistant en dehors de la p\u00e9riode des r\u00e8gles, qui \u00e9loigneraient les professionnels de sant\u00e9 de la possibilit\u00e9 d\u2019une endom\u00e9triose, per\u00e7ue comme syst\u00e9matiquement rythm\u00e9e sur le cycle menstruel ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e9ventuellement (mais les donn\u00e9es ne s\u2019accordent pas sur ce sujet) la prescription prolong\u00e9e de contraceptifs par voie orale (\u00ab pilule \u00bb) ou de traitements contre la douleur qui pourraient masquer partiellement la maladie pendant des ann\u00e9es ;",
+      "text": "\u00e9ventuellement (mais les donn\u00e9es ne s\u2019accordent pas sur ce sujet) la prescription prolong\u00e9e de contraceptifs par voie orale (\u00ab pilule \u00bb) ou de traitements contre la douleur qui pourraient masquer partiellement la maladie pendant des ann\u00e9es ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019id\u00e9e fausse selon laquelle les r\u00e8gles sont par nature inconfortables, voire douloureuses, r\u00e9pandue tant chez les femmes que chez certains professionnels de sant\u00e9 ;",
+      "text": "l\u2019id\u00e9e fausse selon laquelle les r\u00e8gles sont par nature inconfortables, voire douloureuses, r\u00e9pandue tant chez les femmes que chez certains professionnels de sant\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le manque de sensibilisation des m\u00e9decins g\u00e9n\u00e9ralistes \u00e0 l\u2019endom\u00e9triose : l\u2019\u00e9tude am\u00e9ricaine a observ\u00e9 un d\u00e9lai plus important lorsque le professionnel de sant\u00e9 consult\u00e9 \u00e9tait un m\u00e9decin g\u00e9n\u00e9raliste plut\u00f4t qu\u2019un m\u00e9decin gyn\u00e9cologue (respectivement 40,3 mois contre 21,5 mois). De ce fait, les pays o\u00f9 l\u2019acc\u00e8s \u00e0 un m\u00e9decin gyn\u00e9cologue exige de passer d\u2019abord par un m\u00e9decin g\u00e9n\u00e9raliste semblent plus concern\u00e9s par ce retard au diagnostic (par exemple les Pays-Bas ou le Royaume- Uni).",
+      "text": "le manque de sensibilisation des m\u00e9decins g\u00e9n\u00e9ralistes \u00e0 l\u2019endom\u00e9triose : l\u2019\u00e9tude am\u00e9ricaine a observ\u00e9 un d\u00e9lai plus important lorsque le professionnel de sant\u00e9 consult\u00e9 \u00e9tait un m\u00e9decin g\u00e9n\u00e9raliste plut\u00f4t qu\u2019un m\u00e9decin gyn\u00e9cologue (respectivement 40,3 mois contre 21,5 mois). De ce fait, les pays o\u00f9 l\u2019acc\u00e8s \u00e0 un m\u00e9decin gyn\u00e9cologue exige de passer d\u2019abord par un m\u00e9decin g\u00e9n\u00e9raliste semblent plus concern\u00e9s par ce retard au diagnostic (par exemple les Pays-Bas ou le Royaume- Uni).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Parfois, il arrive que les examens d\u2019imagerie m\u00e9dicale prescrits ne r\u00e9v\u00e8lent pas de l\u00e9sions (alors que la patiente souffre bien d\u2019endom\u00e9triose).",
+      "text": "Parfois, il arrive que les examens d\u2019imagerie m\u00e9dicale prescrits ne r\u00e9v\u00e8lent pas de l\u00e9sions (alors que la patiente souffre bien d\u2019endom\u00e9triose).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 l\u2019inverse, les femmes consultant pour des probl\u00e8mes d\u2019infertilit\u00e9 (dont l\u2019endom\u00e9triose se r\u00e9v\u00e8lera la cause) b\u00e9n\u00e9ficient d\u2019un diagnostic plus rapide que celles qui consultent pour des sympt\u00f4mes douloureux (respectivement 21 et 100 mois selon l\u2019\u00e9tude n\u00e9erlandaise).",
+      "text": "\u00c0 l\u2019inverse, les femmes consultant pour des probl\u00e8mes d\u2019infertilit\u00e9 (dont l\u2019endom\u00e9triose se r\u00e9v\u00e8lera la cause) b\u00e9n\u00e9ficient d\u2019un diagnostic plus rapide que celles qui consultent pour des sympt\u00f4mes douloureux (respectivement 21 et 100 mois selon l\u2019\u00e9tude n\u00e9erlandaise)."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En conclusion,",
+      "text": "En conclusion,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " dans les pays industrialis\u00e9s, la question du retard au diagnostic de l\u2019endom\u00e9triose r\u00e9v\u00e8le essentiellement les id\u00e9es pr\u00e9con\u00e7ues dont souffre cette maladie et, plus g\u00e9n\u00e9ralement, les r\u00e8gles douloureuses, en particulier chez les adolescentes.",
+      "text": " dans les pays industrialis\u00e9s, la question du retard au diagnostic de l\u2019endom\u00e9triose r\u00e9v\u00e8le essentiellement les id\u00e9es pr\u00e9con\u00e7ues dont souffre cette maladie et, plus g\u00e9n\u00e9ralement, les r\u00e8gles douloureuses, en particulier chez les adolescentes."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des efforts de sensibilisation sont encore n\u00e9cessaires, aupr\u00e8s des femmes et des professionnels de sant\u00e9. Certes, parmi les femmes qui ressentent un inconfort, voire des douleurs, lors des r\u00e8gles, la majorit\u00e9 ne souffre pas d\u2019endom\u00e9triose. Mais la possibilit\u00e9 de cette maladie ne devrait pas \u00eatre consid\u00e9r\u00e9e en derni\u00e8re option, afin d\u2019\u00e9viter de retarder le diagnostic et, donc, la mise en place de traitements appropri\u00e9s. Beaucoup de progr\u00e8s ont \u00e9t\u00e9 faits et des innovations sont en cours d\u2019\u00e9tude.",
+      "text": "Des efforts de sensibilisation sont encore n\u00e9cessaires, aupr\u00e8s des femmes et des professionnels de sant\u00e9. Certes, parmi les femmes qui ressentent un inconfort, voire des douleurs, lors des r\u00e8gles, la majorit\u00e9 ne souffre pas d\u2019endom\u00e9triose. Mais la possibilit\u00e9 de cette maladie ne devrait pas \u00eatre consid\u00e9r\u00e9e en derni\u00e8re option, afin d\u2019\u00e9viter de retarder le diagnostic et, donc, la mise en place de traitements appropri\u00e9s. Beaucoup de progr\u00e8s ont \u00e9t\u00e9 faits et des innovations sont en cours d\u2019\u00e9tude."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

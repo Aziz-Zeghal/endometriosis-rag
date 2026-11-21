@@ -1,0 +1,1680 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 199395681578979187,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/groups/13"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/10"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/45"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/51"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Autoconservation des gam\u00e8tes et tissus germinaux \u00e0 des fins ult\u00e9rieures d\u2019AMP",
+      "text": "Autoconservation des gam\u00e8tes et tissus germinaux \u00e0 des fins ult\u00e9rieures d\u2019AMP"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : Assistance M\u00e9dicale \u00e0 la Procr\u00e9ation (AMP ou PMA)",
+      "text": "Cet article fait partie du dossier : Assistance M\u00e9dicale \u00e0 la Procr\u00e9ation (AMP ou PMA)"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "30 septembre 2025",
+      "text": "30 septembre 2025"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Autoconservation des gam\u00e8tes et des tissus germinaux en vue d'une assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP) : dans quelles situations cette d\u00e9marche est-elle possible ?",
+      "text": "Autoconservation des gam\u00e8tes et des tissus germinaux en vue d'une assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP) : dans quelles situations cette d\u00e9marche est-elle possible ?"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Autoconservation des gam\u00e8tes ou tissus germinaux pour raison m\u00e9dicale",
+      "text": "Autoconservation des gam\u00e8tes ou tissus germinaux pour raison m\u00e9dicale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toute personne dont la prise en charge m\u00e9dicale est susceptible d\u2019alt\u00e9rer la fertilit\u00e9 (traitements du cancer par exemple) ou dont la fertilit\u00e9 risque d\u2019\u00eatre pr\u00e9matur\u00e9ment alt\u00e9r\u00e9e en raison d\u2019une maladie (endom\u00e9triose, lupus\u2026) peut b\u00e9n\u00e9ficier d\u2019une autoconservation des gam\u00e8tes ou tissus germinaux.",
+      "text": "Toute personne dont la prise en charge m\u00e9dicale est susceptible d\u2019alt\u00e9rer la fertilit\u00e9 (traitements du cancer par exemple) ou dont la fertilit\u00e9 risque d\u2019\u00eatre pr\u00e9matur\u00e9ment alt\u00e9r\u00e9e en raison d\u2019une maladie (endom\u00e9triose, lupus\u2026) peut b\u00e9n\u00e9ficier d\u2019une autoconservation des gam\u00e8tes ou tissus germinaux."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette d\u00e9marche consiste \u00e0 ",
+      "text": "Cette d\u00e9marche consiste \u00e0 "
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "recueillir ou pr\u00e9lever et \u00e0 conserver par cong\u00e9lation ses gam\u00e8tes ou ses tissus germinaux",
+      "text": "recueillir ou pr\u00e9lever et \u00e0 conserver par cong\u00e9lation ses gam\u00e8tes ou ses tissus germinaux",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " en vue de la r\u00e9alisation ult\u00e9rieure, \u00e0 son b\u00e9n\u00e9fice, d\u2019une assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP). L\u2019objectif est de pr\u00e9server ou de restaurer la fertilit\u00e9.",
+      "text": " en vue de la r\u00e9alisation ult\u00e9rieure, \u00e0 son b\u00e9n\u00e9fice, d\u2019une assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP). L\u2019objectif est de pr\u00e9server ou de restaurer la fertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Apr\u00e8s le pr\u00e9l\u00e8vement, les gam\u00e8tes sont congel\u00e9s :",
+      "text": "Apr\u00e8s le pr\u00e9l\u00e8vement, les gam\u00e8tes sont congel\u00e9s :"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pour les spermatozo\u00efdes et le tissu germinal, on parle de ",
+      "text": "pour les spermatozo\u00efdes et le tissu germinal, on parle de "
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "cong\u00e9lation",
+      "text": "cong\u00e9lation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ;",
+      "text": " ;"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pour les ovocytes, on parle de ",
+      "text": "pour les ovocytes, on parle de "
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "vitrification",
+      "text": "vitrification",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", qui est une ",
+      "text": ", qui est une "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "cong\u00e9lation ultra-rapide",
+      "text": "cong\u00e9lation ultra-rapide",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " permettant de conserver la vitalit\u00e9 de l'ovocyte \u00e0 sa d\u00e9cong\u00e9lation.",
+      "text": " permettant de conserver la vitalit\u00e9 de l'ovocyte \u00e0 sa d\u00e9cong\u00e9lation."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Puis les gam\u00e8tes ou le tissu germinal sont conserv\u00e9s dans l\u2019azote \u00e0 une temp\u00e9rature de \u2013 196 \u00b0C.",
+      "text": "Puis les gam\u00e8tes ou le tissu germinal sont conserv\u00e9s dans l\u2019azote \u00e0 une temp\u00e9rature de \u2013 196 \u00b0C."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le recueil, le pr\u00e9l\u00e8vement et la conservation sont subordonn\u00e9s au consentement de l\u2019int\u00e9ress\u00e9 et, le cas \u00e9ch\u00e9ant, \u00e0 celui de l\u2019un des parents ou tuteurs lorsque l\u2019int\u00e9ress\u00e9 est mineur.",
+      "text": "Le recueil, le pr\u00e9l\u00e8vement et la conservation sont subordonn\u00e9s au consentement de l\u2019int\u00e9ress\u00e9 et, le cas \u00e9ch\u00e9ant, \u00e0 celui de l\u2019un des parents ou tuteurs lorsque l\u2019int\u00e9ress\u00e9 est mineur."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans l\u2019ann\u00e9e o\u00f9 elle atteint l\u2019\u00e2ge de la majorit\u00e9, la personne dont les gam\u00e8tes ou les tissus germinaux sont conserv\u00e9s re\u00e7oit, de l\u2019\u00e9quipe pluridisciplinaire du centre de conservation, une information sur les conditions de cette conservation et les suites de la d\u00e9marche.",
+      "text": "Dans l\u2019ann\u00e9e o\u00f9 elle atteint l\u2019\u00e2ge de la majorit\u00e9, la personne dont les gam\u00e8tes ou les tissus germinaux sont conserv\u00e9s re\u00e7oit, de l\u2019\u00e9quipe pluridisciplinaire du centre de conservation, une information sur les conditions de cette conservation et les suites de la d\u00e9marche."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il ne peut \u00eatre mis fin \u00e0 la conservation des gam\u00e8tes ou des tissus germinaux d\u2019une personne mineure, m\u00eame \u00e9mancip\u00e9e, qu\u2019en cas de d\u00e9c\u00e8s.",
+      "text": "Il ne peut \u00eatre mis fin \u00e0 la conservation des gam\u00e8tes ou des tissus germinaux d\u2019une personne mineure, m\u00eame \u00e9mancip\u00e9e, qu\u2019en cas de d\u00e9c\u00e8s."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qu'est-ce que le recueil de tissus germinaux ?",
+      "text": "Qu'est-ce que le recueil de tissus germinaux ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez la ",
+      "text": "Chez la "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "jeune fille non pub\u00e8re",
+      "text": "jeune fille non pub\u00e8re",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", le recueil de tissu germinal concerne le ",
+      "text": ", le recueil de tissu germinal concerne le "
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "tissu ovarien",
+      "text": "tissu ovarien",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui est ensuite congel\u00e9.",
+      "text": " qui est ensuite congel\u00e9."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez le gar\u00e7on pub\u00e8re, l\u2019autoconservation de spermatozo\u00efdes \u00e9jacul\u00e9s est envisageable. En cas d'\u00e9chec ou d\u2019impossibilit\u00e9 de r\u00e9alisation de ce recueil, ainsi que chez le ",
+      "text": "Chez le gar\u00e7on pub\u00e8re, l\u2019autoconservation de spermatozo\u00efdes \u00e9jacul\u00e9s est envisageable. En cas d'\u00e9chec ou d\u2019impossibilit\u00e9 de r\u00e9alisation de ce recueil, ainsi que chez le "
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "gar\u00e7on non pub\u00e8re",
+      "text": "gar\u00e7on non pub\u00e8re",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", le pr\u00e9l\u00e8vement chirurgical du ",
+      "text": ", le pr\u00e9l\u00e8vement chirurgical du "
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "tissu testiculaire",
+      "text": "tissu testiculaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (tissu germinal) et sa cong\u00e9lation sont envisag\u00e9s.",
+      "text": " (tissu germinal) et sa cong\u00e9lation sont envisag\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Autoconservation des gam\u00e8tes sans motif m\u00e9dical : pr\u00e9l\u00e8vement, cong\u00e9lation ou vitrification",
+      "text": "Autoconservation des gam\u00e8tes sans motif m\u00e9dical : pr\u00e9l\u00e8vement, cong\u00e9lation ou vitrification",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019",
+      "text": "L\u2019"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "autoconservation des gam\u00e8tes",
+      "text": "autoconservation des gam\u00e8tes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (ovocytes ou spermatozo\u00efdes) ",
+      "text": " (ovocytes ou spermatozo\u00efdes) "
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sans motif m\u00e9dical",
+      "text": "sans motif m\u00e9dical",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est possible pour les femmes et les hommes qui envisagent de recourir plus tard \u00e0 une AMP (assistance m\u00e9dicale \u00e0 la procr\u00e9ation).",
+      "text": " est possible pour les femmes et les hommes qui envisagent de recourir plus tard \u00e0 une AMP (assistance m\u00e9dicale \u00e0 la procr\u00e9ation)."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des conditions d\u2019\u00e2ge distinctes pour les hommes et les femmes souhaitant b\u00e9n\u00e9ficier de l\u2019autoconservation des gam\u00e8tes ont \u00e9t\u00e9 fix\u00e9es comme suit :",
+      "text": "Des conditions d\u2019\u00e2ge distinctes pour les hommes et les femmes souhaitant b\u00e9n\u00e9ficier de l\u2019autoconservation des gam\u00e8tes ont \u00e9t\u00e9 fix\u00e9es comme suit :"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le pr\u00e9l\u00e8vement d\u2019ovocytes peut \u00eatre r\u00e9alis\u00e9 chez la femme, \u00e0 compter de son 29e anniversaire et jusqu\u2019\u00e0 37e anniversaire ;",
+      "text": "le pr\u00e9l\u00e8vement d\u2019ovocytes peut \u00eatre r\u00e9alis\u00e9 chez la femme, \u00e0 compter de son 29e anniversaire et jusqu\u2019\u00e0 37e anniversaire ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le recueil de spermatozo\u00efdes peut \u00eatre r\u00e9alis\u00e9 chez l\u2019homme \u00e0 compter de son 29e anniversaire et jusqu\u2019\u00e0 son 45e anniversaire.",
+      "text": "le recueil de spermatozo\u00efdes peut \u00eatre r\u00e9alis\u00e9 chez l\u2019homme \u00e0 compter de son 29e anniversaire et jusqu\u2019\u00e0 son 45e anniversaire.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Apr\u00e8s le pr\u00e9l\u00e8vement, les gam\u00e8tes sont congel\u00e9s puis conserv\u00e9s dans l\u2019azote \u00e0 une temp\u00e9rature de \u2013 196 \u00b0C :",
+      "text": "Apr\u00e8s le pr\u00e9l\u00e8vement, les gam\u00e8tes sont congel\u00e9s puis conserv\u00e9s dans l\u2019azote \u00e0 une temp\u00e9rature de \u2013 196 \u00b0C :"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les spermatozo\u00efdes pr\u00e9lev\u00e9s sont conditionn\u00e9s dans des ",
+      "text": "les spermatozo\u00efdes pr\u00e9lev\u00e9s sont conditionn\u00e9s dans des "
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "paillettes",
+      "text": "paillettes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (\u00e9chantillons de petit volume permettant de conserver des petites doses de sperme) qui sont congel\u00e9es\u00a0: on parle de ",
+      "text": " (\u00e9chantillons de petit volume permettant de conserver des petites doses de sperme) qui sont congel\u00e9es\u00a0: on parle de "
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "cong\u00e9lation",
+      "text": "cong\u00e9lation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0;",
+      "text": "\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les ovocytes subissent une ",
+      "text": "les ovocytes subissent une "
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "cong\u00e9lation ultra-rapide",
+      "text": "cong\u00e9lation ultra-rapide",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " permettant de conserver la vitalit\u00e9 de chaque ovocyte \u00e0 sa d\u00e9cong\u00e9lation\u00a0: c'est la ",
+      "text": " permettant de conserver la vitalit\u00e9 de chaque ovocyte \u00e0 sa d\u00e9cong\u00e9lation\u00a0: c'est la "
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "vitrification",
+      "text": "vitrification",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si le pr\u00e9l\u00e8vement est pris en charge par l'Assurance Maladie, la conservation est \u00e0 la charge de la personne. Donc, si vous avez demand\u00e9 l\u2019autoconservation de vos gam\u00e8tes, vous devrez, chaque ann\u00e9e, vous acquitter des frais pour le service de conservation.",
+      "text": "Si le pr\u00e9l\u00e8vement est pris en charge par l'Assurance Maladie, la conservation est \u00e0 la charge de la personne. Donc, si vous avez demand\u00e9 l\u2019autoconservation de vos gam\u00e8tes, vous devrez, chaque ann\u00e9e, vous acquitter des frais pour le service de conservation."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019utilisation des gam\u00e8tes pr\u00e9lev\u00e9s peut avoir lieu :",
+      "text": "L\u2019utilisation des gam\u00e8tes pr\u00e9lev\u00e9s peut avoir lieu :"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "jusqu\u2019\u00e0 son 45e anniversaire chez la femme, non mari\u00e9e (c\u00e9libataire) ou au sein d\u2019un couple, qui a vocation \u00e0 porter l\u2019enfant ;",
+      "text": "jusqu\u2019\u00e0 son 45e anniversaire chez la femme, non mari\u00e9e (c\u00e9libataire) ou au sein d\u2019un couple, qui a vocation \u00e0 porter l\u2019enfant ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "jusqu\u2019\u00e0 son 60e anniversaire chez le membre du couple qui n\u2019a pas vocation \u00e0 porter l\u2019enfant.",
+      "text": "jusqu\u2019\u00e0 son 60e anniversaire chez le membre du couple qui n\u2019a pas vocation \u00e0 porter l\u2019enfant.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Chiffres cl\u00e9s 2025 de l'autoconservation ovocytaire non m\u00e9dicale",
+      "text": "Chiffres cl\u00e9s 2025 de l'autoconservation ovocytaire non m\u00e9dicale",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En 2025, plus de 20 700 demandes de premi\u00e8re consultation ont \u00e9t\u00e9 enregistr\u00e9es, contre plus de 15 500 en 2024.",
+      "text": "En 2025, plus de 20 700 demandes de premi\u00e8re consultation ont \u00e9t\u00e9 enregistr\u00e9es, contre plus de 15 500 en 2024."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'offre a \u00e9t\u00e9 renforc\u00e9e avec l\u2019ouverture de 20 nouveaux centres.",
+      "text": "L'offre a \u00e9t\u00e9 renforc\u00e9e avec l\u2019ouverture de 20 nouveaux centres."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le d\u00e9lai moyen de prise en charge en France est de 11,7 mois en 2025, en diminution d\u2019environ 1,3 mois par rapport \u00e0 2024.",
+      "text": "Le d\u00e9lai moyen de prise en charge en France est de 11,7 mois en 2025, en diminution d\u2019environ 1,3 mois par rapport \u00e0 2024."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Conservation et devenir des gam\u00e8tes apr\u00e8s cong\u00e9lation ou vitrification",
+      "text": "Conservation et devenir des gam\u00e8tes apr\u00e8s cong\u00e9lation ou vitrification",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "O\u00f9 sont conserv\u00e9s les gam\u00e8tes et tissus germinaux ?",
+      "text": "O\u00f9 sont conserv\u00e9s les gam\u00e8tes et tissus germinaux ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois congel\u00e9s, les gam\u00e8tes et tissus germinaux sont conserv\u00e9s dans l\u2019azote liquide \u00e0 une temp\u00e9rature de \u2013 196 \u00b0C, dans des \u00e9tablissements de sant\u00e9 publics (h\u00f4pitaux) ou priv\u00e9s \u00e0 but non lucratif et dans des \u00e9tablissements de sant\u00e9 priv\u00e9s \u00e0 but lucratif (cliniques), sans d\u00e9passements d\u2019honoraires et avec autorisation de l\u2019agence r\u00e9gionale de sant\u00e9 (ARS), dans le cas o\u00f9 il n\u2019y aurait pas d\u2019autres solutions dans le d\u00e9partement.",
+      "text": "Une fois congel\u00e9s, les gam\u00e8tes et tissus germinaux sont conserv\u00e9s dans l\u2019azote liquide \u00e0 une temp\u00e9rature de \u2013 196 \u00b0C, dans des \u00e9tablissements de sant\u00e9 publics (h\u00f4pitaux) ou priv\u00e9s \u00e0 but non lucratif et dans des \u00e9tablissements de sant\u00e9 priv\u00e9s \u00e0 but lucratif (cliniques), sans d\u00e9passements d\u2019honoraires et avec autorisation de l\u2019agence r\u00e9gionale de sant\u00e9 (ARS), dans le cas o\u00f9 il n\u2019y aurait pas d\u2019autres solutions dans le d\u00e9partement."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il est interdit d\u2019importer ou d\u2019exporter des gam\u00e8tes \u00e0 des fins commerciales.",
+      "text": "Il est interdit d\u2019importer ou d\u2019exporter des gam\u00e8tes \u00e0 des fins commerciales."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le devenir des gam\u00e8tes et tissus germinaux",
+      "text": "Le devenir des gam\u00e8tes et tissus germinaux",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La personne majeure, dont les gam\u00e8tes ou les tissus germinaux sont conserv\u00e9s, est consult\u00e9e chaque ann\u00e9e.",
+      "text": "La personne majeure, dont les gam\u00e8tes ou les tissus germinaux sont conserv\u00e9s, est consult\u00e9e chaque ann\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elle peut d\u00e9cider de les utiliser pour elle-m\u00eame \u00e0 des fins d'AMP.",
+      "text": "Elle peut d\u00e9cider de les utiliser pour elle-m\u00eame \u00e0 des fins d'AMP."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elle peut \u00e9galement consentir par \u00e9crit \u00e0 la poursuite de la conservation.",
+      "text": "Elle peut \u00e9galement consentir par \u00e9crit \u00e0 la poursuite de la conservation."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si elle ne souhaite plus poursuivre cette conservation ou si elle souhaite pr\u00e9ciser les conditions de conservation en cas de d\u00e9c\u00e8s, elle consent par \u00e9crit :",
+      "text": "Si elle ne souhaite plus poursuivre cette conservation ou si elle souhaite pr\u00e9ciser les conditions de conservation en cas de d\u00e9c\u00e8s, elle consent par \u00e9crit :"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 ce que ses gam\u00e8tes fassent l\u2019objet d\u2019un don \u00e0 des personnes en attente de gam\u00e8tes. Pour une autoconservation de spermatozo\u00efdes, la personne peut \u00e0 tout moment consentir \u00e0 ce qu\u2019une partie des spermatozo\u00efdes recueillis soit d\u00e9di\u00e9e au don ;",
+      "text": "\u00e0 ce que ses gam\u00e8tes fassent l\u2019objet d\u2019un don \u00e0 des personnes en attente de gam\u00e8tes. Pour une autoconservation de spermatozo\u00efdes, la personne peut \u00e0 tout moment consentir \u00e0 ce qu\u2019une partie des spermatozo\u00efdes recueillis soit d\u00e9di\u00e9e au don ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 ce que ses gam\u00e8tes ou ses tissus germinaux fassent l\u2019objet d\u2019une recherche scientifique ;",
+      "text": "\u00e0 ce que ses gam\u00e8tes ou ses tissus germinaux fassent l\u2019objet d\u2019une recherche scientifique ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 ce qu\u2019il soit mis fin \u00e0 la conservation de ses gam\u00e8tes ou de ses tissus germinaux.",
+      "text": "\u00e0 ce qu\u2019il soit mis fin \u00e0 la conservation de ses gam\u00e8tes ou de ses tissus germinaux.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans tous les cas, ce consentement fait l\u2019objet d\u2019une confirmation par \u00e9crit \u00e0 l\u2019issue d\u2019un d\u00e9lai de r\u00e9flexion de 3 mois \u00e0 compter de la date du premier consentement.",
+      "text": "Dans tous les cas, ce consentement fait l\u2019objet d\u2019une confirmation par \u00e9crit \u00e0 l\u2019issue d\u2019un d\u00e9lai de r\u00e9flexion de 3 mois \u00e0 compter de la date du premier consentement."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En l\u2019absence de r\u00e9ponse de la personne majeure durant 10 ann\u00e9es cons\u00e9cutives, il est mis fin \u00e0 la conservation de ses gam\u00e8tes ou de ses tissus germinaux. Le d\u00e9lai de 10 ann\u00e9es cons\u00e9cutives court \u00e0 compter de la majorit\u00e9 de la personne.",
+      "text": "En l\u2019absence de r\u00e9ponse de la personne majeure durant 10 ann\u00e9es cons\u00e9cutives, il est mis fin \u00e0 la conservation de ses gam\u00e8tes ou de ses tissus germinaux. Le d\u00e9lai de 10 ann\u00e9es cons\u00e9cutives court \u00e0 compter de la majorit\u00e9 de la personne."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour en savoir plus, consulter la liste des centres habilit\u00e9s \u00e0 pratiquer l'autoconservation des gam\u00e8tes.",
+      "text": "Pour en savoir plus, consulter la liste des centres habilit\u00e9s \u00e0 pratiquer l'autoconservation des gam\u00e8tes."
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Agence de la biom\u00e9decine. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation. Site internet : Agence de la biom\u00e9decine. Saint\u2013Denis La Plaine (France) ; 2026 [consult\u00e9 le 4 novembre 2026]",
+      "text": "Agence de la biom\u00e9decine. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation. Site internet : Agence de la biom\u00e9decine. Saint\u2013Denis La Plaine (France) ; 2026 [consult\u00e9 le 4 novembre 2026]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Soci\u00e9t\u00e9 fran\u00e7aise d\u2019endocrinologie. Infertilit\u00e9 du couple : conduite de la premi\u00e8re consultation. Site internet : SFE. Paris ; 2022 [consult\u00e9 le 29 septembre 2025]",
+      "text": "Soci\u00e9t\u00e9 fran\u00e7aise d\u2019endocrinologie. Infertilit\u00e9 du couple : conduite de la premi\u00e8re consultation. Site internet : SFE. Paris ; 2022 [consult\u00e9 le 29 septembre 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation. ECN 2018. 3\u00e8me \u00e9dition Elsevier Masson.",
+      "text": "Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation. ECN 2018. 3\u00e8me \u00e9dition Elsevier Masson.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP). Des techniques pour aider les couples infertiles. Site internet : Inserm. Paris ; 2018 [consult\u00e9 le 29 septembre 2025]",
+      "text": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP). Des techniques pour aider les couples infertiles. Site internet : Inserm. Paris ; 2018 [consult\u00e9 le 29 septembre 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Infertilit\u00e9. Site internet : Inserm. Paris ; 2019 [consult\u00e9 le 29 septembre 2025]",
+      "text": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Infertilit\u00e9. Site internet : Inserm. Paris ; 2019 [consult\u00e9 le 29 septembre 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Loi n\u00b0 2021-1017 du 2 ao\u00fbt 2021 relative \u00e0 la bio\u00e9thique et d\u00e9cret n\u00b0 2021-1243 du 28 septembre 2021 fixant les conditions d\u2019organisation et de prise en charge des parcours d\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation",
+      "text": "Loi n\u00b0 2021-1017 du 2 ao\u00fbt 2021 relative \u00e0 la bio\u00e9thique et d\u00e9cret n\u00b0 2021-1243 du 28 septembre 2021 fixant les conditions d\u2019organisation et de prise en charge des parcours d\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "D\u00e9cret n\u00b0 2021-1933 du 30 d\u00e9cembre 2021 fixant les modalit\u00e9s d'autorisation des activit\u00e9s d'autoconservation des gam\u00e8tes pour raisons non m\u00e9dicales en application de l'article L. 2141-12 du code de la sant\u00e9 publique et portant diverses adaptations de la partie r\u00e9glementaire du m\u00eame code au regard des dispositions de la loi n\u00b0 2021-1017 du 2 ao\u00fbt 2021 relative \u00e0 la bio\u00e9thique.",
+      "text": "D\u00e9cret n\u00b0 2021-1933 du 30 d\u00e9cembre 2021 fixant les modalit\u00e9s d'autorisation des activit\u00e9s d'autoconservation des gam\u00e8tes pour raisons non m\u00e9dicales en application de l'article L. 2141-12 du code de la sant\u00e9 publique et portant diverses adaptations de la partie r\u00e9glementaire du m\u00eame code au regard des dispositions de la loi n\u00b0 2021-1017 du 2 ao\u00fbt 2021 relative \u00e0 la bio\u00e9thique.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

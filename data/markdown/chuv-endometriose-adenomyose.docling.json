@@ -1,0 +1,946 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 8070355568914008711,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "furniture",
+      "name": "ordered list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-2",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/10"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/10"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Accueil",
+      "text": "Accueil",
+      "hyperlink": "/fr/fertilite/umr-home",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Endom\u00e9triose",
+      "text": "Endom\u00e9triose",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Endom\u00e9triose et ad\u00e9nomyose",
+      "text": "Endom\u00e9triose et ad\u00e9nomyose"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Centre de r\u00e9f\u00e9rence certifi\u00e9 par EuroEndoCert - certification d\u00e9livr\u00e9e par la Fondation scientifique d'endom\u00e9triose et de la Ligue europ\u00e9enne d'endom\u00e9triose, le CHUV rassemble au sein d\u2019une m\u00eame structure l\u2019ensemble des expertises n\u00e9cessaires \u00e0 la prise en charge de l\u2019endom\u00e9triose et de l\u2019ad\u00e9nomyose.",
+      "text": "Centre de r\u00e9f\u00e9rence certifi\u00e9 par EuroEndoCert - certification d\u00e9livr\u00e9e par la Fondation scientifique d'endom\u00e9triose et de la Ligue europ\u00e9enne d'endom\u00e9triose, le CHUV rassemble au sein d'une m\u00eame structure l'ensemble des expertises n\u00e9cessaires \u00e0 la prise en charge de l'endom\u00e9triose et de l'ad\u00e9nomyose.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette approche multidisciplinaire permet d\u2019offrir aux patientes un parcours de soins complet, coordonn\u00e9 et personnalis\u00e9.",
+      "text": "Cette approche multidisciplinaire permet d'offrir aux patientes un parcours de soins complet, coordonn\u00e9 et personnalis\u00e9."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nos sp\u00e9cialistes collaborent \u00e9troitement pour proposer les solutions diagnostiques et th\u00e9rapeutiques les plus adapt\u00e9es, incluant les traitements m\u00e9dicaux, chirurgicaux et, lorsque n\u00e9cessaire, des prestations en m\u00e9decine de la fertilit\u00e9. Un soutien psychologique peut \u00e9galement \u00eatre int\u00e9gr\u00e9 au parcours de soins.",
+      "text": "Nos sp\u00e9cialistes collaborent \u00e9troitement pour proposer les solutions diagnostiques et th\u00e9rapeutiques les plus adapt\u00e9es, incluant les traitements m\u00e9dicaux, chirurgicaux et, lorsque n\u00e9cessaire, des prestations en m\u00e9decine de la fertilit\u00e9. Un soutien psychologique peut \u00e9galement \u00eatre int\u00e9gr\u00e9 au parcours de soins."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les patientes peuvent \u00eatre adress\u00e9es par leur m\u00e9decin ou prendre directement rendez-vous \u00e0 notre consultation d\u2019endom\u00e9triose.",
+      "text": "Les patientes peuvent \u00eatre adress\u00e9es par leur m\u00e9decin ou prendre directement rendez-vous \u00e0 notre consultation d'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Traiter l'endom\u00e9triose ",
+      "text": "Traiter l'endom\u00e9triose ",
+      "hyperlink": "/fr/fertilite/umr-home/endometriose/traiter-lendometriose"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Notre \u00e9quipe ",
+      "text": "Notre \u00e9quipe ",
+      "hyperlink": "/fr/fertilite/umr-home/endometriose/equipe-multidisciplinaire-pour-la-prise-en-charge-de-lendometriose"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Participer \u00e0 la recherche sur l'endom\u00e9triose",
+      "text": "Participer \u00e0 la recherche sur l'endom\u00e9triose",
+      "hyperlink": "/fr/fertilite/umr-home/endometriose/endobank-comprendre-lendometriose-et-la-douleur-au-fil-du-temps"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        },
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qu'est-ce que c'est?",
+      "text": "Qu'est-ce que c'est?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019",
+      "text": "L'"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose ",
+      "text": "endom\u00e9triose ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "est une maladie gyn\u00e9cologique fr\u00e9quente, souvent douloureuse et potentiellement \u00e9volutive.\nElle se d\u00e9finit par la pr\u00e9sence anormale de cellules de l\u2019endom\u00e8tre - tissu qui tapisse normalement l\u2019int\u00e9rieur de l\u2019ut\u00e9rus et qui est \u00e9limin\u00e9 sous forme de r\u00e8gles - en dehors de la cavit\u00e9 ut\u00e9rine. Ces cellules s'implantent et croissent sur d'autres organes pour finalement y provoquer des l\u00e9sions.",
+      "text": "est une maladie gyn\u00e9cologique fr\u00e9quente, souvent douloureuse et potentiellement \u00e9volutive.\nElle se d\u00e9finit par la pr\u00e9sence anormale de cellules de l'endom\u00e8tre - tissu qui tapisse normalement l'int\u00e9rieur de l'ut\u00e9rus et qui est \u00e9limin\u00e9 sous forme de r\u00e8gles - en dehors de la cavit\u00e9 ut\u00e9rine. Ces cellules s'implantent et croissent sur d'autres organes pour finalement y provoquer des l\u00e9sions."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une forme particuli\u00e8re d\u2019endom\u00e9triose touchant le muscle ut\u00e9rin, appel\u00e9e ",
+      "text": "Une forme particuli\u00e8re d'endom\u00e9triose touchant le muscle ut\u00e9rin, appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ad\u00e9nomyose",
+      "text": "ad\u00e9nomyose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", se caract\u00e9rise par la pr\u00e9sence anormale de tissu endom\u00e9trial, dans la paroi du muscle de l\u2019ut\u00e9rus. Certaines formes d\u2019ad\u00e9nomyose peuvent \u00eatre accompagn\u00e9es de sympt\u00f4mes tr\u00e8s douloureux ou avoir un impact sur la fertilit\u00e9 de la femme atteinte.",
+      "text": ", se caract\u00e9rise par la pr\u00e9sence anormale de tissu endom\u00e9trial, dans la paroi du muscle de l'ut\u00e9rus. Certaines formes d'ad\u00e9nomyose peuvent \u00eatre accompagn\u00e9es de sympt\u00f4mes tr\u00e8s douloureux ou avoir un impact sur la fertilit\u00e9 de la femme atteinte."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles sont les causes ?",
+      "text": "Quelles sont les causes ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bien qu\u2019il existe plusieurs th\u00e9ories pouvant expliquer la survenue de l\u2019endom\u00e9triose, aucune ne fait l\u2019unanimit\u00e9 \u00e0 l\u2019heure actuelle. Dans une situation normale, le sang menstruel se trouvant dans l\u2019ut\u00e9rus s\u2019\u00e9coule par le vagin. La th\u00e9orie de \u00ab menstruations r\u00e9trogrades \u00bb, qui postule que du sang reflue pendant les r\u00e8gles par les trompes ut\u00e9rines dans la cavit\u00e9 abdominale formant alors des l\u00e9sions d\u2019endom\u00e9triose en pr\u00e9sence de facteurs immunitaires facilitant, est celle qui est le plus fr\u00e9quemment cit\u00e9e.",
+      "text": "Bien qu'il existe plusieurs th\u00e9ories pouvant expliquer la survenue de l'endom\u00e9triose, aucune ne fait l'unanimit\u00e9 \u00e0 l'heure actuelle. Dans une situation normale, le sang menstruel se trouvant dans l'ut\u00e9rus s'\u00e9coule par le vagin. La th\u00e9orie de \u00ab menstruations r\u00e9trogrades \u00bb, qui postule que du sang reflue pendant les r\u00e8gles par les trompes ut\u00e9rines dans la cavit\u00e9 abdominale formant alors des l\u00e9sions d'endom\u00e9triose en pr\u00e9sence de facteurs immunitaires facilitant, est celle qui est le plus fr\u00e9quemment cit\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Existe-t-il des facteurs de risque ?",
+      "text": "Existe-t-il des facteurs de risque ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certains facteurs de risque ont \u00e9t\u00e9 identifi\u00e9s. On peut citer :",
+      "text": "Certains facteurs de risque ont \u00e9t\u00e9 identifi\u00e9s. On peut citer :"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019histoire familiale (par exemple : la pr\u00e9sence d\u2019un diagnostic d\u2019endom\u00e9triose chez une ou plusieurs femme(s) apparent\u00e9e(s).",
+      "text": "L'histoire familiale (par exemple : la pr\u00e9sence d'un diagnostic d'endom\u00e9triose chez une ou plusieurs femme(s) apparent\u00e9e(s).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019absence de grossesse",
+      "text": "L'absence de grossesse",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des cycles menstruels court (<27j)",
+      "text": "Des cycles menstruels court (<27j)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des premi\u00e8res r\u00e8gles pr\u00e9coces (avant 11ans) et/ou une m\u00e9nopause tardive",
+      "text": "Des premi\u00e8res r\u00e8gles pr\u00e9coces (avant 11ans) et/ou une m\u00e9nopause tardive",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Un indice de masse corporelle bas",
+      "text": "Un indice de masse corporelle bas",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Est-ce une maladie fr\u00e9quente?",
+      "text": "Est-ce une maladie fr\u00e9quente?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'endom\u00e9triose concerne environ 10 \u00e0 15% des femmes en \u00e2ge de procr\u00e9er, 25 \u00e0 40% des patientes avec des douleurs chroniques pelviennes et environ 30% des patientes pr\u00e9sentant des troubles de la fertilit\u00e9.",
+      "text": "L'endom\u00e9triose concerne environ 10 \u00e0 15% des femmes en \u00e2ge de procr\u00e9er, 25 \u00e0 40% des patientes avec des douleurs chroniques pelviennes et environ 30% des patientes pr\u00e9sentant des troubles de la fertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/groups/6"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quels sont les signes et sympt\u00f4mes?",
+      "text": "Quels sont les signes et sympt\u00f4mes?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit d\u2019une maladie complexe et souvent \u00e9volutive, les sympt\u00f4mes sont relativement variables. L\u2019endom\u00e9triose est parfois soup\u00e7onn\u00e9e en cas d'infertilit\u00e9 et/ou lorsque la patiente \u00e9voque des sympt\u00f4mes typiques. Ceux-ci restent toutefois tr\u00e8s variables en fonction de l\u2019atteinte des organes et \u00e9galement d\u2019une patiente \u00e0 l\u2019autre. Ce sont:",
+      "text": "Il s'agit d'une maladie complexe et souvent \u00e9volutive, les sympt\u00f4mes sont relativement variables. L'endom\u00e9triose est parfois soup\u00e7onn\u00e9e en cas d'infertilit\u00e9 et/ou lorsque la patiente \u00e9voque des sympt\u00f4mes typiques. Ceux-ci restent toutefois tr\u00e8s variables en fonction de l'atteinte des organes et \u00e9galement d'une patiente \u00e0 l'autre. Ce sont:"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs pelviennes chroniques",
+      "text": "des douleurs pelviennes chroniques",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des r\u00e8gles abondantes et douloureuses",
+      "text": "des r\u00e8gles abondantes et douloureuses",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des rapports sexuels douloureux",
+      "text": "des rapports sexuels douloureux",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs \u00e0 la d\u00e9f\u00e9cation et/ou \u00e0 la miction",
+      "text": "des douleurs \u00e0 la d\u00e9f\u00e9cation et/ou \u00e0 la miction",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019infertilit\u00e9",
+      "text": "l'infertilit\u00e9",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La qualit\u00e9 de vie des patientes peut \u00eatre particuli\u00e8rement diminu\u00e9e par cette maladie.",
+      "text": "La qualit\u00e9 de vie des patientes peut \u00eatre particuli\u00e8rement diminu\u00e9e par cette maladie."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La plupart des sympt\u00f4mes s manifestent g\u00e9n\u00e9ralement pendant les r\u00e8gles mais peuvent aussi survenir chez certaines femmes avant ou apr\u00e8s les menstruations, voire pendant tout le cycle.",
+      "text": "La plupart des sympt\u00f4mes s manifestent g\u00e9n\u00e9ralement pendant les r\u00e8gles mais peuvent aussi survenir chez certaines femmes avant ou apr\u00e8s les menstruations, voire pendant tout le cycle."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment est-elle diagnostiqu\u00e9e ?",
+      "text": "Comment est-elle diagnostiqu\u00e9e ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La suspicion d\u2019endom\u00e9triose peut d\u00e9j\u00e0 \u00eatre \u00e9voqu\u00e9e lors de l\u2019anamn\u00e8se (renseignements fournis par la patiente sur l\u2019histoire de sa maladie) ou lors de l\u2019examen gyn\u00e9cologique de routine. Diff\u00e9rents examens compl\u00e9mentaires sont utiles en cas de suspicion. L\u2019\u00e9chographie gyn\u00e9cologique permet de visualiser des l\u00e9sions ovariennes et d'endom\u00e9triose profonde. L\u2019imagerie par r\u00e9sonance magn\u00e9tique (IRM) permet quant \u00e0 elle de r\u00e9veler entre autres la pr\u00e9sence des nodules profonds \u00e0 distance de l'ut\u00e9rus et des ovaires. Ces \u00e9l\u00e9ments sont parfois suffisants pour poser le diagnostic.",
+      "text": "La suspicion d'endom\u00e9triose peut d\u00e9j\u00e0 \u00eatre \u00e9voqu\u00e9e lors de l'anamn\u00e8se (renseignements fournis par la patiente sur l'histoire de sa maladie) ou lors de l'examen gyn\u00e9cologique de routine. Diff\u00e9rents examens compl\u00e9mentaires sont utiles en cas de suspicion. L'\u00e9chographie gyn\u00e9cologique permet de visualiser des l\u00e9sions ovariennes et d'endom\u00e9triose profonde. L'imagerie par r\u00e9sonance magn\u00e9tique (IRM) permet quant \u00e0 elle de r\u00e9veler entre autres la pr\u00e9sence des nodules profonds \u00e0 distance de l'ut\u00e9rus et des ovaires. Ces \u00e9l\u00e9ments sont parfois suffisants pour poser le diagnostic."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutefois, la laparoscopie (intervention qui permet d'examiner l'abdomen ou le bassin \u00e0 l'aide d'un laparoscope) est parfois n\u00e9cessaire pour confirmer la suspicion d\u2019endom\u00e9triose. Il s\u2019agit d\u2019une intervention chirurgicale r\u00e9alis\u00e9e sous anesth\u00e9sie g\u00e9n\u00e9rale. Apr\u00e8s avoir pratiqu\u00e9 de petites incisions au niveau abdominal, une cam\u00e9ra est utilis\u00e9e pour inspecter la cavit\u00e9 abdominale.",
+      "text": "Toutefois, la laparoscopie (intervention qui permet d'examiner l'abdomen ou le bassin \u00e0 l'aide d'un laparoscope) est parfois n\u00e9cessaire pour confirmer la suspicion d'endom\u00e9triose. Il s'agit d'une intervention chirurgicale r\u00e9alis\u00e9e sous anesth\u00e9sie g\u00e9n\u00e9rale. Apr\u00e8s avoir pratiqu\u00e9 de petites incisions au niveau abdominal, une cam\u00e9ra est utilis\u00e9e pour inspecter la cavit\u00e9 abdominale."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En pr\u00e9sence de l\u00e9sions, celles-ci seront pr\u00e9lev\u00e9es pour r\u00e9aliser un examen au microscope. Cette technique offre \u00e9galement la possibilit\u00e9 de traiter les l\u00e9sions (ablation chirurgicale de l\u2019endom\u00e9triose). L'\u00e9tendue des l\u00e9sions chez chaque patiente permet de d\u00e9finir un niveau de gravit\u00e9 de la maladie selon la classification de l'American Society for Reproductive Medicine (ASRM) (stades 1 \u00e0 4) et celle de l'ENZIAN.",
+      "text": "En pr\u00e9sence de l\u00e9sions, celles-ci seront pr\u00e9lev\u00e9es pour r\u00e9aliser un examen au microscope. Cette technique offre \u00e9galement la possibilit\u00e9 de traiter les l\u00e9sions (ablation chirurgicale de l'endom\u00e9triose). L'\u00e9tendue des l\u00e9sions chez chaque patiente permet de d\u00e9finir un niveau de gravit\u00e9 de la maladie selon la classification de l'American Society for Reproductive Medicine (ASRM) (stades 1 \u00e0 4) et celle de l'ENZIAN."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter que des tests rapides salivaires ont \u00e9t\u00e9 d\u00e9velopp\u00e9s et sont encore en cours d\u2019\u00e9valuation. D\u2019autres \u00e9tudes sont encore n\u00e9cessaires pour valider leur efficacit\u00e9.",
+      "text": "A noter que des tests rapides salivaires ont \u00e9t\u00e9 d\u00e9velopp\u00e9s et sont encore en cours d'\u00e9valuation. D'autres \u00e9tudes sont encore n\u00e9cessaires pour valider leur efficacit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles cons\u00e9quences sur la fertilit\u00e9 ?",
+      "text": "Quelles cons\u00e9quences sur la fertilit\u00e9 ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose peut avoir un impact sur la fertilit\u00e9.",
+      "text": "L'endom\u00e9triose peut avoir un impact sur la fertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Diff\u00e9rents m\u00e9canismes peuvent expliquer un probl\u00e8me de fertilit\u00e9 d\u00fb \u00e0 de l\u2019endom\u00e9triose : une inflammation des organes, une modification de l\u2019anatomie (adh\u00e9rences), une diminution de la fonction des ovaires.",
+      "text": "Diff\u00e9rents m\u00e9canismes peuvent expliquer un probl\u00e8me de fertilit\u00e9 d\u00fb \u00e0 de l'endom\u00e9triose : une inflammation des organes, une modification de l'anatomie (adh\u00e9rences), une diminution de la fonction des ovaires."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de diagnostic d\u2019endom\u00e9triose, le traitement qui vous sera propos\u00e9 tiendra compte d\u2019un \u00e9ventuel d\u00e9sir de grossesse, que ce soit \u00e0 court ou long terme.",
+      "text": "En cas de diagnostic d'endom\u00e9triose, le traitement qui vous sera propos\u00e9 tiendra compte d'un \u00e9ventuel d\u00e9sir de grossesse, que ce soit \u00e0 court ou long terme."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans certains cas, la r\u00e9alisation d\u2019une intervention chirurgicale pourra-\u00eatre propos\u00e9e, dans le but d\u2019am\u00e9liorer les chances de tomber enceinte. Dans d\u2019autres situations, le recours \u00e0 des techniques de ",
+      "text": "Dans certains cas, la r\u00e9alisation d'une intervention chirurgicale pourra-\u00eatre propos\u00e9e, dans le but d'am\u00e9liorer les chances de tomber enceinte. Dans d'autres situations, le recours \u00e0 des techniques de "
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "procr\u00e9ation m\u00e9dicalement assist\u00e9e ",
+      "text": "procr\u00e9ation m\u00e9dicalement assist\u00e9e ",
+      "hyperlink": "/fr/fertilite/umr-home/procreation-medicalement-assistee"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "s\u2019av\u00e9rera n\u00e9cessaire.",
+      "text": "s'av\u00e9rera n\u00e9cessaire."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

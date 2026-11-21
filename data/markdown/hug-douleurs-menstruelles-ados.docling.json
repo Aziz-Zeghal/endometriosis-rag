@@ -1,0 +1,619 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 7159424293845056787,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Conseils pour mieux les soulager",
+      "text": "Conseils pour mieux les soulager",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le service de gyn\u00e9cologie vous explique comment soulager les douleurs qui sont li\u00e9es aux r\u00e8gles. Ces informations ne remplacent pas les conseils d\u2019un ou une m\u00e9decin ou d\u2019une ou un gyn\u00e9cologue.",
+      "text": "Le service de gyn\u00e9cologie vous explique comment soulager les douleurs qui sont li\u00e9es aux r\u00e8gles. Ces informations ne remplacent pas les conseils d\u2019un ou une m\u00e9decin ou d\u2019une ou un gyn\u00e9cologue."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La dysm\u00e9norrh\u00e9e d\u00e9signe des douleurs qui apparaissent pendant les r\u00e8gles. Ces douleurs durent souvent plusieurs jours et peuvent se r\u00e9p\u00e9ter tous les mois, pendant plusieurs ann\u00e9es.",
+      "text": "La dysm\u00e9norrh\u00e9e d\u00e9signe des douleurs qui apparaissent pendant les r\u00e8gles. Ces douleurs durent souvent plusieurs jours et peuvent se r\u00e9p\u00e9ter tous les mois, pendant plusieurs ann\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les douleurs menstruelles sont g\u00e9n\u00e9ralement localis\u00e9es dans le basventre, mais peuvent s\u2019\u00e9tendre dans le dos, voire jusqu\u2019aux jambes. Les douleurs surviennent lorsque le saignement d\u00e9bute ou quelques jours avant. Elles s\u2019accompagnent parfois d\u2019autres sympt\u00f4mes tels que :",
+      "text": "Les douleurs menstruelles sont g\u00e9n\u00e9ralement localis\u00e9es dans le basventre, mais peuvent s\u2019\u00e9tendre dans le dos, voire jusqu\u2019aux jambes. Les douleurs surviennent lorsque le saignement d\u00e9bute ou quelques jours avant. Elles s\u2019accompagnent parfois d\u2019autres sympt\u00f4mes tels que :"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des boutons",
+      "text": "des boutons",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des maux de t\u00eate",
+      "text": "des maux de t\u00eate",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des naus\u00e9es, des vomissements",
+      "text": "des naus\u00e9es, des vomissements",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un gonflement des seins et du ventre",
+      "text": "un gonflement des seins et du ventre",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "de la fatigue",
+      "text": "de la fatigue",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une sensibilit\u00e9 plus forte et des variations d\u2019humeur.",
+      "text": "une sensibilit\u00e9 plus forte et des variations d\u2019humeur.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La dysm\u00e9norrh\u00e9e appara\u00eet 6 \u00e0 24 mois apr\u00e8s les premi\u00e8res r\u00e8gles, lorsque le m\u00e9canisme d\u2019ovulation se met en place, mais peut aussi survenir d\u00e8s les premi\u00e8res r\u00e8gles.",
+      "text": "La dysm\u00e9norrh\u00e9e appara\u00eet 6 \u00e0 24 mois apr\u00e8s les premi\u00e8res r\u00e8gles, lorsque le m\u00e9canisme d\u2019ovulation se met en place, mais peut aussi survenir d\u00e8s les premi\u00e8res r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cycle menstruel r\u00e9gulier",
+      "text": "Cycle menstruel r\u00e9gulier",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un cycle menstruel dure en moyenne 28 jours.",
+      "text": "Un cycle menstruel dure en moyenne 28 jours.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quel est son impact sur la qualit\u00e9 de vie ?",
+      "text": "Quel est son impact sur la qualit\u00e9 de vie ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les douleurs menstruelles peuvent avoir un impact, parfois important, sur la qualit\u00e9 de vie en perturbant la concentration (\u00e0 l\u2019\u00e9cole ou au travail), les relations sociales ainsi que la pratique de loisirs et d\u2019activit\u00e9s physiques. Le sommeil peut \u00e9galement \u00eatre troubl\u00e9.",
+      "text": "Les douleurs menstruelles peuvent avoir un impact, parfois important, sur la qualit\u00e9 de vie en perturbant la concentration (\u00e0 l\u2019\u00e9cole ou au travail), les relations sociales ainsi que la pratique de loisirs et d\u2019activit\u00e9s physiques. Le sommeil peut \u00e9galement \u00eatre troubl\u00e9."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De plus, les \u00e9tudes ont montr\u00e9 que la r\u00e9p\u00e9tition des douleurs chaque mois peut entra\u00eener un d\u00e9r\u00e8glement du contr\u00f4le de la douleur dans le cerveau. Ce ph\u00e9nom\u00e8ne complexe, li\u00e9 au syst\u00e8me nerveux central, peut conduire \u00e0 une augmentation de la sensibilit\u00e9 et de la perception de la douleur. C\u2019est pourquoi soulager les douleurs menstruelles de mani\u00e8re efficace pourrait pr\u00e9venir le risque de d\u00e9velopper des douleurs chroniques (persistantes).",
+      "text": "De plus, les \u00e9tudes ont montr\u00e9 que la r\u00e9p\u00e9tition des douleurs chaque mois peut entra\u00eener un d\u00e9r\u00e8glement du contr\u00f4le de la douleur dans le cerveau. Ce ph\u00e9nom\u00e8ne complexe, li\u00e9 au syst\u00e8me nerveux central, peut conduire \u00e0 une augmentation de la sensibilit\u00e9 et de la perception de la douleur. C\u2019est pourquoi soulager les douleurs menstruelles de mani\u00e8re efficace pourrait pr\u00e9venir le risque de d\u00e9velopper des douleurs chroniques (persistantes)."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ATTENTION!",
+      "text": "ATTENTION!",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si les douleurs pendant vos r\u00e8gles vous emp\u00eachent de mener \u00e0 bien vos activit\u00e9s quotidiennes, n\u2019h\u00e9sitez pas \u00e0 en parler avec votre m\u00e9decin.",
+      "text": "Si les douleurs pendant vos r\u00e8gles vous emp\u00eachent de mener \u00e0 bien vos activit\u00e9s quotidiennes, n\u2019h\u00e9sitez pas \u00e0 en parler avec votre m\u00e9decin."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles en sont les causes ?",
+      "text": "Quelles en sont les causes ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On distingue deux types de dysm\u00e9norrh\u00e9e :",
+      "text": "On distingue deux types de dysm\u00e9norrh\u00e9e :"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la ",
+      "text": "la "
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e primaire",
+      "text": "dysm\u00e9norrh\u00e9e primaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est la plus fr\u00e9quente chez les adolescentes (90% des cas). Au moment des r\u00e8gles, l\u2019ut\u00e9rus produit des substances inflammatoires nomm\u00e9es prostaglandines. Celles-ci provoquent des contractions musculaires facilitant l\u2019expulsion du sang. Ce sont ces contractions qui causent une forte douleur, sous forme de crampes.",
+      "text": " est la plus fr\u00e9quente chez les adolescentes (90% des cas). Au moment des r\u00e8gles, l\u2019ut\u00e9rus produit des substances inflammatoires nomm\u00e9es prostaglandines. Celles-ci provoquent des contractions musculaires facilitant l\u2019expulsion du sang. Ce sont ces contractions qui causent une forte douleur, sous forme de crampes."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la ",
+      "text": "la "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e secondaire",
+      "text": "dysm\u00e9norrh\u00e9e secondaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est plus rare (10% des cas). Elle peut \u00eatre le signe d\u2019une endom\u00e9triose, d\u2019une infection, d\u2019un fibrome ou d\u2019un polype se d\u00e9veloppant au niveau de l\u2019ut\u00e9rus, parfois difficiles \u00e0 diagnostiquer. L\u2019endom\u00e9triose est une maladie parfois \u00e9volutive au cours de laquelle des \u00eelots de muqueuse ut\u00e9rine \u2013 appel\u00e9e aussi \u00abendom\u00e8tre\u00bb \u2013, s\u2019implantent en dehors de l\u2019ut\u00e9rus.",
+      "text": " est plus rare (10% des cas). Elle peut \u00eatre le signe d\u2019une endom\u00e9triose, d\u2019une infection, d\u2019un fibrome ou d\u2019un polype se d\u00e9veloppant au niveau de l\u2019ut\u00e9rus, parfois difficiles \u00e0 diagnostiquer. L\u2019endom\u00e9triose est une maladie parfois \u00e9volutive au cours de laquelle des \u00eelots de muqueuse ut\u00e9rine \u2013 appel\u00e9e aussi \u00abendom\u00e8tre\u00bb \u2013, s\u2019implantent en dehors de l\u2019ut\u00e9rus."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment poser le diagnostic ?",
+      "text": "Comment poser le diagnostic ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le plus souvent, votre m\u00e9decin pose le diagnostic d\u2019une dysm\u00e9norrh\u00e9e primaire apr\u00e8s une simple consultation. Toutefois, si les douleurs apparaissent apr\u00e8s un rapport sexuel ou sont difficiles \u00e0 soulager, il ou elle peut vous orienter vers une ou un gyn\u00e9cologue. En cas de dysm\u00e9norrh\u00e9e secondaire, un examen gyn\u00e9cologique et des examens compl\u00e9mentaires comme une \u00e9chographie sont souvent n\u00e9cessaires.",
+      "text": "Le plus souvent, votre m\u00e9decin pose le diagnostic d\u2019une dysm\u00e9norrh\u00e9e primaire apr\u00e8s une simple consultation. Toutefois, si les douleurs apparaissent apr\u00e8s un rapport sexuel ou sont difficiles \u00e0 soulager, il ou elle peut vous orienter vers une ou un gyn\u00e9cologue. En cas de dysm\u00e9norrh\u00e9e secondaire, un examen gyn\u00e9cologique et des examens compl\u00e9mentaires comme une \u00e9chographie sont souvent n\u00e9cessaires."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "T\u00e9l\u00e9charger la brochure\u00a0Les douleurs menstruelles au format PDF",
+      "text": "T\u00e9l\u00e9charger la brochure\u00a0Les douleurs menstruelles au format PDF",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

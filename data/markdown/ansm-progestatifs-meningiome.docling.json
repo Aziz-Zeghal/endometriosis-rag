@@ -1,0 +1,1607 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13708466793195921882,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/groups/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/39"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/46"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/texts/49"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/texts/52"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/61"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/texts/65"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/70"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/texts/73"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "PUBLI\u00c9 LE 18/12/2023 - MIS \u00c0 JOUR LE 12/06/2025",
+      "text": "PUBLI\u00c9 LE 18/12/2023 - MIS \u00c0 JOUR LE 12/06/2025"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Progestatifs et risque de m\u00e9ningiome : recommandations pour limiter ce risque",
+      "text": "Progestatifs et risque de m\u00e9ningiome : recommandations pour limiter ce risque"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "| ",
+      "text": "| "
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Actualisation du 04/06/2024",
+      "text": "Actualisation du 04/06/2024",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " |",
+      "text": " |"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Lors de sa s\u00e9ance du 11 octobre 2023, le comit\u00e9 scientifique temporaire (CST) d\u2019experts qui nous accompagne dans le suivi du risque de m\u00e9ningiome associ\u00e9 aux traitements progestatifs a confirm\u00e9 que les mesures de r\u00e9duction de ce risque en cas d\u2019utilisation de m\u00e9drogestone (Colprone) et d\u2019ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (Depo Provera) doivent \u00eatre similaires aux mesures adopt\u00e9es pour l\u2019ac\u00e9tate de chlormadinone \u00a0(Lut\u00e9ran et g\u00e9n\u00e9riques) et de nom\u00e9gestrol (Lut\u00e9nyl et g\u00e9n\u00e9riques) dans la mesure o\u00f9 les niveaux de risque de m\u00e9ningiome sont comparables.",
+      "text": "Lors de sa s\u00e9ance du 11 octobre 2023, le comit\u00e9 scientifique temporaire (CST) d\u2019experts qui nous accompagne dans le suivi du risque de m\u00e9ningiome associ\u00e9 aux traitements progestatifs a confirm\u00e9 que les mesures de r\u00e9duction de ce risque en cas d\u2019utilisation de m\u00e9drogestone (Colprone) et d\u2019ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (Depo Provera) doivent \u00eatre similaires aux mesures adopt\u00e9es pour l\u2019ac\u00e9tate de chlormadinone \u00a0(Lut\u00e9ran et g\u00e9n\u00e9riques) et de nom\u00e9gestrol (Lut\u00e9nyl et g\u00e9n\u00e9riques) dans la mesure o\u00f9 les niveaux de risque de m\u00e9ningiome sont comparables.",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "S\u2019agissant de la prom\u00e9gestone (Surgestone), dont la commercialisation a cess\u00e9 depuis 2020, des mesures sp\u00e9cifiques concernent\u00a0 les femmes trait\u00e9es avec ce m\u00e9dicament.",
+      "text": "S\u2019agissant de la prom\u00e9gestone (Surgestone), dont la commercialisation a cess\u00e9 depuis 2020, des mesures sp\u00e9cifiques concernent\u00a0 les femmes trait\u00e9es avec ce m\u00e9dicament."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Nous avons suivi l\u2019avis du comit\u00e9 pour \u00e9laborer des recommandations d\u2019utilisation et de suivi des femmes trait\u00e9es par ces m\u00e9dicaments ainsi que des recommandations g\u00e9n\u00e9rales sur les progestatifs, notamment en cas de changement de traitement entre progestatifs.",
+      "text": "Nous avons suivi l\u2019avis du comit\u00e9 pour \u00e9laborer des recommandations d\u2019utilisation et de suivi des femmes trait\u00e9es par ces m\u00e9dicaments ainsi que des recommandations g\u00e9n\u00e9rales sur les progestatifs, notamment en cas de changement de traitement entre progestatifs.",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "En compl\u00e9ment de ces recommandations, nous portons ce dossier \u00e0 la connaissance de l\u2019Agence europ\u00e9enne du m\u00e9dicament.",
+      "text": "En compl\u00e9ment de ces recommandations, nous portons ce dossier \u00e0 la connaissance de l\u2019Agence europ\u00e9enne du m\u00e9dicament.",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En juillet 2023, nous avons formul\u00e9 de premi\u00e8res recommandations d\u2019utilisation et de suivi des personnes trait\u00e9es par m\u00e9drogestone (Colprone), m\u00e9droxyprogest\u00e9rone (Depo Provera). Ces recommandations faisaient suite aux r\u00e9sultats d\u2019une \u00e9tude \u00e9pid\u00e9miologique du GIS EPI-PHARE qui montrait une augmentation du risque de m\u00e9ningiome associ\u00e9 \u00e0 l\u2019exposition \u00e0 ces m\u00e9dicaments et confirmait \u00e0 nouveau le surrisque de m\u00e9ningiome associ\u00e9 \u00e0 la prise prolong\u00e9e d\u2019ac\u00e9tate de nom\u00e9gestrol (Lut\u00e9nyl et g\u00e9n\u00e9riques), chlormadinone (Lut\u00e9ran et g\u00e9n\u00e9riques) et cyprot\u00e9rone (Androcur et g\u00e9n\u00e9riques).",
+      "text": "En juillet 2023, nous avons formul\u00e9 de premi\u00e8res recommandations d\u2019utilisation et de suivi des personnes trait\u00e9es par m\u00e9drogestone (Colprone), m\u00e9droxyprogest\u00e9rone (Depo Provera). Ces recommandations faisaient suite aux r\u00e9sultats d\u2019une \u00e9tude \u00e9pid\u00e9miologique du GIS EPI-PHARE qui montrait une augmentation du risque de m\u00e9ningiome associ\u00e9 \u00e0 l\u2019exposition \u00e0 ces m\u00e9dicaments et confirmait \u00e0 nouveau le surrisque de m\u00e9ningiome associ\u00e9 \u00e0 la prise prolong\u00e9e d\u2019ac\u00e9tate de nom\u00e9gestrol (Lut\u00e9nyl et g\u00e9n\u00e9riques), chlormadinone (Lut\u00e9ran et g\u00e9n\u00e9riques) et cyprot\u00e9rone (Androcur et g\u00e9n\u00e9riques)."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " A contrario",
+      "text": " A contrario",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", pour les m\u00e9dicaments \u00e0 base de progest\u00e9rone (Utrogestan et g\u00e9n\u00e9riques), de dydrogest\u00e9rone (Duphaston) et les dispositifs intra-ut\u00e9rins, dits \u00ab st\u00e9rilets \u00bb, au l\u00e9vonorgestrel (Mirena, Donasert, Kyleena et Jaydess), les r\u00e9sultats ne montraient pas de surrisque de m\u00e9ningiome.",
+      "text": ", pour les m\u00e9dicaments \u00e0 base de progest\u00e9rone (Utrogestan et g\u00e9n\u00e9riques), de dydrogest\u00e9rone (Duphaston) et les dispositifs intra-ut\u00e9rins, dits \u00ab st\u00e9rilets \u00bb, au l\u00e9vonorgestrel (Mirena, Donasert, Kyleena et Jaydess), les r\u00e9sultats ne montraient pas de surrisque de m\u00e9ningiome."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour les autres progestatifs utilis\u00e9s seuls (di\u00e9nogest (Visanne et g\u00e9n\u00e9riques), drospir\u00e9none (Slinda) et d\u00e9sogestrel (C\u00e9razette et g\u00e9n\u00e9riques)) l\u2019\u00e9tude \u00e9pid\u00e9miologique n\u2019a pas pu \u00e9tudier le risque de m\u00e9ningiome, par limite m\u00e9thodologique et ant\u00e9riorit\u00e9 insuffisante dans les bases de remboursement de l\u2019Assurance Maladie. Pour ces progestatifs, le risque de m\u00e9ningiome n\u2019est donc pas connu et ne peut \u00eatre exclu \u00e0 ce jour. Des \u00e9tudes compl\u00e9mentaires sur le risque de m\u00e9ningiome associ\u00e9 \u00e0 ces progestatifs sont n\u00e9cessaires notamment au regard de leur utilisation croissante.",
+      "text": "Pour les autres progestatifs utilis\u00e9s seuls (di\u00e9nogest (Visanne et g\u00e9n\u00e9riques), drospir\u00e9none (Slinda) et d\u00e9sogestrel (C\u00e9razette et g\u00e9n\u00e9riques)) l\u2019\u00e9tude \u00e9pid\u00e9miologique n\u2019a pas pu \u00e9tudier le risque de m\u00e9ningiome, par limite m\u00e9thodologique et ant\u00e9riorit\u00e9 insuffisante dans les bases de remboursement de l\u2019Assurance Maladie. Pour ces progestatifs, le risque de m\u00e9ningiome n\u2019est donc pas connu et ne peut \u00eatre exclu \u00e0 ce jour. Des \u00e9tudes compl\u00e9mentaires sur le risque de m\u00e9ningiome associ\u00e9 \u00e0 ces progestatifs sont n\u00e9cessaires notamment au regard de leur utilisation croissante."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comme cela avait \u00e9t\u00e9 annonc\u00e9, les soci\u00e9t\u00e9s savantes de gyn\u00e9cologie (Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens (CNGOF) et Soci\u00e9t\u00e9 fran\u00e7aise de gyn\u00e9cologie (SFG)) ont \u00e9t\u00e9 auditionn\u00e9es le 11 octobre 2023 par le CST, afin notamment d\u2019affiner les recommandations \u00e9mises en juillet 2023.",
+      "text": "Comme cela avait \u00e9t\u00e9 annonc\u00e9, les soci\u00e9t\u00e9s savantes de gyn\u00e9cologie (Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens (CNGOF) et Soci\u00e9t\u00e9 fran\u00e7aise de gyn\u00e9cologie (SFG)) ont \u00e9t\u00e9 auditionn\u00e9es le 11 octobre 2023 par le CST, afin notamment d\u2019affiner les recommandations \u00e9mises en juillet 2023."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le comit\u00e9 s\u2019est prononc\u00e9 en faveur du maintien des premi\u00e8res recommandations, en y ajoutant des pr\u00e9cisions sur les changements de progestatifs.",
+      "text": "Le comit\u00e9 s\u2019est prononc\u00e9 en faveur du maintien des premi\u00e8res recommandations, en y ajoutant des pr\u00e9cisions sur les changements de progestatifs."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "M\u00e9drogestone (Colprone) et ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (Depo Provera)",
+      "text": "M\u00e9drogestone (Colprone) et ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (Depo Provera)"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Recommandations d\u2019utilisation pour les personnes trait\u00e9es",
+      "text": "Recommandations d\u2019utilisation pour les personnes trait\u00e9es",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "M\u00e9drogestone (Colprone)",
+      "text": "M\u00e9drogestone (Colprone)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elle ne doit pas \u00eatre utilis\u00e9e en premi\u00e8re intention dans les indications suivantes :",
+      "text": "Elle ne doit pas \u00eatre utilis\u00e9e en premi\u00e8re intention dans les indications suivantes :"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "M\u00e9nopause, cycle artificiel en association avec un \u0153strog\u00e8ne ;",
+      "text": "M\u00e9nopause, cycle artificiel en association avec un \u0153strog\u00e8ne ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Irr\u00e9gularit\u00e9s du cycle ;",
+      "text": "Irr\u00e9gularit\u00e9s du cycle ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Syndrome pr\u00e9menstruel (dysm\u00e9norrh\u00e9es essentielles) ;",
+      "text": "Syndrome pr\u00e9menstruel (dysm\u00e9norrh\u00e9es essentielles) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Douleur mammaire (mastodynie) non s\u00e9v\u00e8re.",
+      "text": "Douleur mammaire (mastodynie) non s\u00e9v\u00e8re.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En revanche sa prescription peut rester justifi\u00e9e en premi\u00e8re intention pour les indications suivantes :",
+      "text": "En revanche sa prescription peut rester justifi\u00e9e en premi\u00e8re intention pour les indications suivantes :"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Saignements li\u00e9s au fibrome ;",
+      "text": "Saignements li\u00e9s au fibrome ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Endom\u00e9triose ;",
+      "text": "Endom\u00e9triose ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Douleur mammaire (mastodynie) s\u00e9v\u00e8re.",
+      "text": "Douleur mammaire (mastodynie) s\u00e9v\u00e8re.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (Depo Provera)",
+      "text": "Ac\u00e9tate de m\u00e9droxyprogest\u00e9rone (Depo Provera)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il doit \u00eatre utilis\u00e9 lorsqu\u2019il n\u2019est pas possible d\u2019utiliser d\u2019autres m\u00e9thodes contraceptives, comme le pr\u00e9cise son autorisation de mise sur le march\u00e9.",
+      "text": "Il doit \u00eatre utilis\u00e9 lorsqu\u2019il n\u2019est pas possible d\u2019utiliser d\u2019autres m\u00e9thodes contraceptives, comme le pr\u00e9cise son autorisation de mise sur le march\u00e9."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les m\u00e9decins du CST ont estim\u00e9 que sa prescription peut rester justifi\u00e9e dans certains cas tr\u00e8s particuliers, tels que non-respect de l\u2019observance, intol\u00e9rance \u00e0 l\u2019implant sous cutan\u00e9 ou au dispositif intra-ut\u00e9rin (DIU).",
+      "text": "Les m\u00e9decins du CST ont estim\u00e9 que sa prescription peut rester justifi\u00e9e dans certains cas tr\u00e8s particuliers, tels que non-respect de l\u2019observance, intol\u00e9rance \u00e0 l\u2019implant sous cutan\u00e9 ou au dispositif intra-ut\u00e9rin (DIU)."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Recommandations de suivi par imagerie pour les personnes trait\u00e9es",
+      "text": "Recommandations de suivi par imagerie pour les personnes trait\u00e9es",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour la m\u00e9drogestone et l\u2019ac\u00e9tate de m\u00e9droxyprogest\u00e9rone,",
+      "text": "Pour la m\u00e9drogestone et l\u2019ac\u00e9tate de m\u00e9droxyprogest\u00e9rone,"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " une surveillance par imagerie c\u00e9r\u00e9brale est d\u00e9sormais recommand\u00e9e",
+      "text": " une surveillance par imagerie c\u00e9r\u00e9brale est d\u00e9sormais recommand\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "selon les m\u00eames modalit\u00e9s que pour l\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran et g\u00e9n\u00e9riques) ou de nom\u00e9gestrol (Lut\u00e9nyl et g\u00e9n\u00e9riques) :",
+      "text": "selon les m\u00eames modalit\u00e9s que pour l\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran et g\u00e9n\u00e9riques) ou de nom\u00e9gestrol (Lut\u00e9nyl et g\u00e9n\u00e9riques) :"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "**Un examen par imagerie c\u00e9r\u00e9brale (IRM)**doit \u00eatre \u00e9galement r\u00e9alis\u00e9 quel que soit l'\u00e2ge de la patiente :",
+      "text": "**Un examen par imagerie c\u00e9r\u00e9brale (IRM)**doit \u00eatre \u00e9galement r\u00e9alis\u00e9 quel que soit l'\u00e2ge de la patiente :"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "A tout moment pendant ou apr\u00e8s le traitement en cas de signes \u00e9vocateurs de m\u00e9ningiomes.",
+      "text": "A tout moment pendant ou apr\u00e8s le traitement en cas de signes \u00e9vocateurs de m\u00e9ningiomes.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "A l\u2019instauration d\u2019un traitement progestatif par l\u2019un des 5 progestatifs \u00e0 risque (ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone) ou par un progestatif avec un risque de m\u00e9ningiome non connu \u00e0 ce jour (di\u00e9nogest, drospir\u00e9none et d\u00e9sogestrel), si la patiente a \u00e9t\u00e9 trait\u00e9e plus d'un an par m\u00e9drogestone ou m\u00e9droxyprogest\u00e9rone (voir \u00e9galement recommandations g\u00e9n\u00e9rales sur les progestatifs ci-dessous).",
+      "text": "A l\u2019instauration d\u2019un traitement progestatif par l\u2019un des 5 progestatifs \u00e0 risque (ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone) ou par un progestatif avec un risque de m\u00e9ningiome non connu \u00e0 ce jour (di\u00e9nogest, drospir\u00e9none et d\u00e9sogestrel), si la patiente a \u00e9t\u00e9 trait\u00e9e plus d'un an par m\u00e9drogestone ou m\u00e9droxyprogest\u00e9rone (voir \u00e9galement recommandations g\u00e9n\u00e9rales sur les progestatifs ci-dessous).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Surgestone (prom\u00e9gestone), progestatif qui n\u2019est plus commercialis\u00e9 depuis 2020",
+      "text": "Surgestone (prom\u00e9gestone), progestatif qui n\u2019est plus commercialis\u00e9 depuis 2020"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Recommandations de suivi par imagerie pour les patientes qui ont \u00e9t\u00e9 trait\u00e9es",
+      "text": "Recommandations de suivi par imagerie pour les patientes qui ont \u00e9t\u00e9 trait\u00e9es",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si la patiente a \u00e9t\u00e9 trait\u00e9e plus d\u2019un an",
+      "text": "Si la patiente a \u00e9t\u00e9 trait\u00e9e plus d\u2019un an",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et qu\u2019elle a ensuite \u00e9t\u00e9 trait\u00e9e par un des 5 progestatifs \u00e0 risque (ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone) ou par un progestatif avec un risque de m\u00e9ningiome non connu \u00e0 ce jour (di\u00e9nogest, drospir\u00e9none et d\u00e9sogestrel), une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e.",
+      "text": " et qu\u2019elle a ensuite \u00e9t\u00e9 trait\u00e9e par un des 5 progestatifs \u00e0 risque (ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone) ou par un progestatif avec un risque de m\u00e9ningiome non connu \u00e0 ce jour (di\u00e9nogest, drospir\u00e9none et d\u00e9sogestrel), une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si la patiente pr\u00e9sente des signes \u00e9vocateurs d\u2019un m\u00e9ningiome",
+      "text": "Si la patiente pr\u00e9sente des signes \u00e9vocateurs d\u2019un m\u00e9ningiome",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", m\u00eame \u00e0 distance de l\u2019arr\u00eat de son traitement par prom\u00e9gestone, une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e.",
+      "text": ", m\u00eame \u00e0 distance de l\u2019arr\u00eat de son traitement par prom\u00e9gestone, une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Recommandations g\u00e9n\u00e9rales d\u2019utilisation des progestatifs et de changement de traitement entre progestatifs",
+      "text": "Recommandations g\u00e9n\u00e9rales d\u2019utilisation des progestatifs et de changement de traitement entre progestatifs"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas d\u2019ant\u00e9c\u00e9dent de m\u00e9ningiome ou de m\u00e9ningiome existant",
+      "text": "En cas d\u2019ant\u00e9c\u00e9dent de m\u00e9ningiome ou de m\u00e9ningiome existant",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", la mise en place d\u2019un traitement par l\u2019un des 5 progestatifs (ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone) \u00e0 risque de m\u00e9ningiome est contre-indiqu\u00e9e. Pour les autres progestatifs (seuls, en association dans un contraceptif ou un Traitement Hormonal Substitutif de la m\u00e9nopause) il est recommand\u00e9 de ne pas les utiliser. Dans des situations exceptionnelles la prescription d\u2019un traitement progestatif est possible apr\u00e8s \u00e9valuation en r\u00e9union de concertation pluridisciplinaire (RCP), constitu\u00e9e de gyn\u00e9cologue et/ou endocrinologue et neurochirurgien, sur la base du rapport b\u00e9n\u00e9fice/risque individuel pour la patiente et de l\u2019existence ou non d\u2019alternatives th\u00e9rapeutiques.",
+      "text": ", la mise en place d\u2019un traitement par l\u2019un des 5 progestatifs (ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone) \u00e0 risque de m\u00e9ningiome est contre-indiqu\u00e9e. Pour les autres progestatifs (seuls, en association dans un contraceptif ou un Traitement Hormonal Substitutif de la m\u00e9nopause) il est recommand\u00e9 de ne pas les utiliser. Dans des situations exceptionnelles la prescription d\u2019un traitement progestatif est possible apr\u00e8s \u00e9valuation en r\u00e9union de concertation pluridisciplinaire (RCP), constitu\u00e9e de gyn\u00e9cologue et/ou endocrinologue et neurochirurgien, sur la base du rapport b\u00e9n\u00e9fice/risque individuel pour la patiente et de l\u2019existence ou non d\u2019alternatives th\u00e9rapeutiques."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La prescription d\u2019un nouveau progestatif en relai d\u2019un traitement ant\u00e9rieur",
+      "text": "La prescription d\u2019un nouveau progestatif en relai d\u2019un traitement ant\u00e9rieur",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, m\u00e9droxyprogest\u00e9rone ou prom\u00e9gestone n\u2019exclut pas le risque de m\u00e9ningiome, sans que l\u2019on puisse actuellement le d\u00e9terminer. En cas d\u2019utilisation sup\u00e9rieure \u00e0 un an d\u2019un de ces progestatifs et de changement de traitement vers un progestatif \u00e0 risque ou vers un progestatif avec un risque de m\u00e9ningiome non connu \u00e0 ce jour, une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e \u00e0 l\u2019instauration du nouveau traitement progestatif.",
+      "text": " par ac\u00e9tate de cyprot\u00e9rone, ac\u00e9tate de chlormadinone, ac\u00e9tate de nom\u00e9gestrol, m\u00e9drogestone, m\u00e9droxyprogest\u00e9rone ou prom\u00e9gestone n\u2019exclut pas le risque de m\u00e9ningiome, sans que l\u2019on puisse actuellement le d\u00e9terminer. En cas d\u2019utilisation sup\u00e9rieure \u00e0 un an d\u2019un de ces progestatifs et de changement de traitement vers un progestatif \u00e0 risque ou vers un progestatif avec un risque de m\u00e9ningiome non connu \u00e0 ce jour, une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e \u00e0 l\u2019instauration du nouveau traitement progestatif."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de changement de traitement",
+      "text": "En cas de changement de traitement",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour un progestatif non associ\u00e9 \u00e0 un risque de m\u00e9ningiome (dispositif intra ut\u00e9rin - DIU - au l\u00e9vonorgestrel, progest\u00e9rone par voie orale, vaginale ou cutan\u00e9e, dydrogest\u00e9rone) une IRM sera r\u00e9alis\u00e9e si des signes \u00e9vocateurs d\u2019un m\u00e9ningiome apparaissent.",
+      "text": " pour un progestatif non associ\u00e9 \u00e0 un risque de m\u00e9ningiome (dispositif intra ut\u00e9rin - DIU - au l\u00e9vonorgestrel, progest\u00e9rone par voie orale, vaginale ou cutan\u00e9e, dydrogest\u00e9rone) une IRM sera r\u00e9alis\u00e9e si des signes \u00e9vocateurs d\u2019un m\u00e9ningiome apparaissent."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le traitement doit toujours \u00eatre prescrit \u00e0 la ",
+      "text": "Le traitement doit toujours \u00eatre prescrit \u00e0 la "
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dose minimale efficace",
+      "text": "dose minimale efficace",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et pendant une dur\u00e9e d\u2019",
+      "text": " et pendant une dur\u00e9e d\u2019"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "utilisation la plus courte possible",
+      "text": "utilisation la plus courte possible",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019int\u00e9r\u00eat de poursuivre le traitement doit \u00eatre ",
+      "text": "L\u2019int\u00e9r\u00eat de poursuivre le traitement doit \u00eatre "
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "r\u00e9\u00e9valu\u00e9 chaque ann\u00e9e",
+      "text": "r\u00e9\u00e9valu\u00e9 chaque ann\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", notamment aux alentours de la m\u00e9nopause, car le risque de m\u00e9ningiome augmente fortement avec l\u2019\u00e2ge.",
+      "text": ", notamment aux alentours de la m\u00e9nopause, car le risque de m\u00e9ningiome augmente fortement avec l\u2019\u00e2ge."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e",
+      "text": "Une IRM c\u00e9r\u00e9brale doit \u00eatre r\u00e9alis\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " en cas de signes \u00e9vocateurs d\u2019un m\u00e9ningiome.",
+      "text": " en cas de signes \u00e9vocateurs d\u2019un m\u00e9ningiome."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Mesures de r\u00e9duction du risque et actions \u00e0 venir",
+      "text": "Mesures de r\u00e9duction du risque et actions \u00e0 venir",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comme \u00e0 chaque fois qu\u2019un traitement progestatif a \u00e9t\u00e9 associ\u00e9 \u00e0 une augmentation de risque de m\u00e9ningiome, les mesures suivantes seront prises :",
+      "text": "Comme \u00e0 chaque fois qu\u2019un traitement progestatif a \u00e9t\u00e9 associ\u00e9 \u00e0 une augmentation de risque de m\u00e9ningiome, les mesures suivantes seront prises :"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Renforcement des conditions de prescription et de d\u00e9livrance",
+      "text": "Renforcement des conditions de prescription et de d\u00e9livrance",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " de m\u00e9drogestone (Colprone) et m\u00e9droxyprogest\u00e9rone (Depo Provera) avec mise en place d\u2019une attestation annuelle d\u2019information d\u00e8s lors que le traitement est poursuivi au-del\u00e0 d\u2019un an et remise d\u2019une fiche d\u2019information patiente par le prescripteur (quelle que soit la dur\u00e9e du traitement).",
+      "text": " de m\u00e9drogestone (Colprone) et m\u00e9droxyprogest\u00e9rone (Depo Provera) avec mise en place d\u2019une attestation annuelle d\u2019information d\u00e8s lors que le traitement est poursuivi au-del\u00e0 d\u2019un an et remise d\u2019une fiche d\u2019information patiente par le prescripteur (quelle que soit la dur\u00e9e du traitement)."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Envoi de courriers nominatifs aux patientes et aux prescripteurs",
+      "text": "Envoi de courriers nominatifs aux patientes et aux prescripteurs",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ayant respectivement eu une d\u00e9livrance ou prescrit de la m\u00e9drogestone (Colprone) et de la m\u00e9droxyprogest\u00e9rone (Depo Provera) dans les 24 derniers mois.",
+      "text": " ayant respectivement eu une d\u00e9livrance ou prescrit de la m\u00e9drogestone (Colprone) et de la m\u00e9droxyprogest\u00e9rone (Depo Provera) dans les 24 derniers mois."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

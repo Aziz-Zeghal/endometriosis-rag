@@ -1,0 +1,1765 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "endomind-fiche-comportements",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 9150440834338028699,
+    "filename": "endomind-fiche-comportements.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/groups/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 195.5501510509892,
+            "t": 503.9153365540799,
+            "r": 399.9486091245177,
+            "b": 480.11871819733585,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "FICHE R\u00c9FLEXE - 2",
+      "text": "FICHE R\u00c9FLEXE - 2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 137.20794670300205,
+            "t": 436.76218581534056,
+            "r": 458.2749379309585,
+            "b": 396.98405715274254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "ENDOM\u00c9TRIOSE",
+      "text": "ENDOM\u00c9TRIOSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 100.20018924249193,
+            "t": 381.11979816735436,
+            "r": 495.29114814542373,
+            "b": 310.061417056659,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "LES COMPORTEMENTS QUI ALERTENT",
+      "text": "LES COMPORTEMENTS QUI ALERTENT"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 756.8249071308629,
+            "r": 442.4991829973733,
+            "b": 742.7484954548119,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Impact de l'endom\u00e9triose sur la qualit\u00e9 de vie",
+      "text": "Impact de l'endom\u00e9triose sur la qualit\u00e9 de vie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.5499901944303,
+            "t": 720.6597667253519,
+            "r": 536.1472624542566,
+            "b": 692.3863029232891,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut avoir un impact sur l'ensemble des aspects de la vie, influen\u00e7ant la personne dans ses comportements au quotidien.",
+      "text": "L'endom\u00e9triose peut avoir un impact sur l'ensemble des aspects de la vie, influen\u00e7ant la personne dans ses comportements au quotidien."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.5499901944303,
+            "t": 671.6402247678328,
+            "r": 536.153871558761,
+            "b": 627.0269136465971,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "Les comportements list\u00e9s dans cette fiche, surtout s'ils sont associ\u00e9s \u00e0 un ou plusieurs sympt\u00f4mes (Fiche R\u00e9flexe 1), peuvent faire suspecter une endom\u00e9triose. Il est alors recommand\u00e9 d'orienter la personne :",
+      "text": "Les comportements list\u00e9s dans cette fiche, surtout s'ils sont associ\u00e9s \u00e0 un ou plusieurs sympt\u00f4mes (Fiche R\u00e9flexe 1), peuvent faire suspecter une endom\u00e9triose. Il est alors recommand\u00e9 d'orienter la personne :"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.9565629066564,
+            "t": 613.2836271993579,
+            "r": 536.1545898618338,
+            "b": 568.6703160781221,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "vers un professionnel de sant\u00e9 sensibilis\u00e9 qui, en cas de suspicion d'endom\u00e9triose, l'orientera vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie.",
+      "text": "vers un professionnel de sant\u00e9 sensibilis\u00e9 qui, en cas de suspicion d'endom\u00e9triose, l'orientera vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.9565629066564,
+            "t": 564.2640852418389,
+            "r": 414.3011514356015,
+            "b": 552.3304687589491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "ou, \u00e0 d\u00e9faut, directement vers la fili\u00e8re de soins r\u00e9gionale",
+      "text": "ou, \u00e0 d\u00e9faut, directement vers la fili\u00e8re de soins r\u00e9gionale",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.9565629066564,
+            "t": 547.9242379226658,
+            "r": 536.1555970736571,
+            "b": 519.6507741206032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "mais \u00e9galement vers les associations de patientes pour du soutien et de l'information (Fiche R\u00e9flexe 3).",
+      "text": "mais \u00e9galement vers les associations de patientes pour du soutien et de l'information (Fiche R\u00e9flexe 3).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 173.22227793760476,
+            "t": 466.87113801620114,
+            "r": 213.08748311845864,
+            "b": 456.28418279312666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Vie pro",
+      "text": "Vie pro"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 372.7926700149714,
+            "t": 386.13859255365736,
+            "r": 443.26905744933185,
+            "b": 375.5516373305829,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Vie affective",
+      "text": "Vie affective"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 396.5817315237605,
+            "t": 464.2069682072082,
+            "r": 462.75079309362707,
+            "b": 453.6200129841337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Vie scolaire",
+      "text": "Vie scolaire"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 180.89102761807354,
+            "t": 378.06147374860393,
+            "r": 242.67424568026576,
+            "b": 367.47451852552945,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Vie sociale",
+      "text": "Vie sociale"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 270.58469575763723,
+            "t": 311.4470865071586,
+            "r": 338.6635454605365,
+            "b": 300.87122787852,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Vie familiale",
+      "text": "Vie familiale"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 270.7258577849908,
+            "r": 371.7212899394408,
+            "b": 256.64944610893974,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Liste des comportements qui alertent",
+      "text": "Liste des comportements qui alertent",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 234.39469762856027,
+            "r": 536.1420713787294,
+            "b": 172.94185613408774,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            256
+          ]
+        }
+      ],
+      "orig": "Les comportements suivants, parce qu'ils montrent un impact significatif et r\u00e9current sur la qualit\u00e9 de vie de la personne, peuvent \u00eatre \u00e9vocateurs d'une endom\u00e9triose. Cette liste n'est pas exhaustive, elle r\u00e9pertorie les comportements les plus fr\u00e9quents :",
+      "text": "Les comportements suivants, parce qu'ils montrent un impact significatif et r\u00e9current sur la qualit\u00e9 de vie de la personne, peuvent \u00eatre \u00e9vocateurs d'une endom\u00e9triose. Cette liste n'est pas exhaustive, elle r\u00e9pertorie les comportements les plus fr\u00e9quents :"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 135.35738271511514,
+            "r": 524.2873392815882,
+            "b": 123.42319867736535,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "Prise d'un traitement contraceptif et de m\u00e9dicaments pour limiter les douleurs",
+      "text": "Prise d'un traitement contraceptif et de m\u00e9dicaments pour limiter les douleurs",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 102.3449444106335,
+            "r": 374.2926237170775,
+            "b": 90.4107603728836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "Prise de la pilule en continue pour \u00e9viter les r\u00e8gles.",
+      "text": "Prise de la pilule en continue pour \u00e9viter les r\u00e8gles.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 85.83872525839263,
+            "r": 536.1479332623483,
+            "b": 57.39832206840197,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "Recours r\u00e9gulier aux antalgiques ou anti-inflammatoires, notamment avant et pendant les r\u00e8gles.",
+      "text": "Recours r\u00e9gulier aux antalgiques ou anti-inflammatoires, notamment avant et pendant les r\u00e8gles.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 781.5968444284697,
+            "r": 474.74825815471064,
+            "b": 769.6626603907199,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "Absences r\u00e9p\u00e9t\u00e9es et angoisses dans le cadre professionnel ou scolaire",
+      "text": "Absences r\u00e9p\u00e9t\u00e9es et angoisses dans le cadre professionnel ou scolaire",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 748.5844061239881,
+            "r": 536.1446359049821,
+            "b": 720.1440029339974,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "Absences r\u00e9guli\u00e8res, souvent chaque mois, qui co\u00efncident avec la p\u00e9riode menstruelle ou avec des pics de douleurs.",
+      "text": "Absences r\u00e9guli\u00e8res, souvent chaque mois, qui co\u00efncident avec la p\u00e9riode menstruelle ou avec des pics de douleurs.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 715.5719678195064,
+            "r": 536.146559284666,
+            "b": 670.6253454772749,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "Angoisse li\u00e9e au d\u00e9roulement de la journ\u00e9e en raison des douleurs qui peuvent survenir \u00e0 tout moment (par exemple : douleurs dues aux changements de position ou \u00e0 des positions prolong\u00e9es).",
+      "text": "Angoisse li\u00e9e au d\u00e9roulement de la journ\u00e9e en raison des douleurs qui peuvent survenir \u00e0 tout moment (par exemple : douleurs dues aux changements de position ou \u00e0 des positions prolong\u00e9es).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 633.0408720583022,
+            "r": 386.85289793076964,
+            "b": 621.1066880205524,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "\u00c9vitement ou renoncement \u00e0 des activit\u00e9s du quotidien",
+      "text": "\u00c9vitement ou renoncement \u00e0 des activit\u00e9s du quotidien",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 600.0284337538204,
+            "r": 536.1372633271694,
+            "b": 571.5880305638299,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "Tendance \u00e0 d\u00e9cliner des invitations sociales en raison des douleurs ou de la fatigue.",
+      "text": "Tendance \u00e0 d\u00e9cliner des invitations sociales en raison des douleurs ou de la fatigue.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 567.0159954493389,
+            "r": 536.1439949534866,
+            "b": 522.0693731071073,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            164
+          ]
+        }
+      ],
+      "orig": "Arr\u00eat ou renoncement \u00e0 des activit\u00e9s physiques et sportives (ex. : randonn\u00e9es, voyages) en raison des douleurs ou de la fatigue, voire des difficult\u00e9s \u00e0 se mouvoir.",
+      "text": "Arr\u00eat ou renoncement \u00e0 des activit\u00e9s physiques et sportives (ex. : randonn\u00e9es, voyages) en raison des douleurs ou de la fatigue, voire des difficult\u00e9s \u00e0 se mouvoir.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 517.4973379926163,
+            "r": 536.1409723946583,
+            "b": 489.0569348026256,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "Difficult\u00e9s \u00e0 effectuer des t\u00e2ches du quotidien (m\u00e9nage, courses, etc.) en raison des douleurs ou de la fatigue.",
+      "text": "Difficult\u00e9s \u00e0 effectuer des t\u00e2ches du quotidien (m\u00e9nage, courses, etc.) en raison des douleurs ou de la fatigue.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 451.47246138365296,
+            "r": 484.90052071167145,
+            "b": 439.5382773459031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "\u00c9vitement, renoncement ou contrainte dans la sph\u00e8re intime et sexuelle",
+      "text": "\u00c9vitement, renoncement ou contrainte dans la sph\u00e8re intime et sexuelle",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 418.46002307917126,
+            "r": 536.1453230138685,
+            "b": 390.01961988918055,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "\u00c9vitement de l'intimit\u00e9 et/ou des relations sexuelles en raison des douleurs \u00e0 la p\u00e9n\u00e9tration.",
+      "text": "\u00c9vitement de l'intimit\u00e9 et/ou des relations sexuelles en raison des douleurs \u00e0 la p\u00e9n\u00e9tration.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 385.4475847746896,
+            "r": 536.1450940876142,
+            "b": 357.00718158469886,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            105
+          ]
+        }
+      ],
+      "orig": "Renoncement \u00e0 une vie affective ou de couple en raison des douleurs ressenties et de l'absence de libido.",
+      "text": "Renoncement \u00e0 une vie affective ou de couple en raison des douleurs ressenties et de l'absence de libido.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 352.4351464702079,
+            "r": 536.1376754574505,
+            "b": 323.9947432802172,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            136
+          ]
+        }
+      ],
+      "orig": "Auto-contrainte \u00e0 avoir des rapports sexuels avec son/sa partenaire par culpabilit\u00e9 face \u00e0 une sexualit\u00e9 limit\u00e9e en raison des douleurs.",
+      "text": "Auto-contrainte \u00e0 avoir des rapports sexuels avec son/sa partenaire par culpabilit\u00e9 face \u00e0 une sexualit\u00e9 limit\u00e9e en raison des douleurs.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 286.4102698612445,
+            "r": 405.9740473117567,
+            "b": 274.4760858234946,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Organisation et planification autour des p\u00e9riodes de r\u00e8gles",
+      "text": "Organisation et planification autour des p\u00e9riodes de r\u00e8gles",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 253.39783155676287,
+            "r": 479.7833584761986,
+            "b": 241.46364751901297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "Anticipation et planification des activit\u00e9s autour du cycle menstruel.",
+      "text": "Anticipation et planification des activit\u00e9s autour du cycle menstruel.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 236.891612404522,
+            "r": 536.1457349790873,
+            "b": 191.94499006229046,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "Angoisse et \u00e9vitement des d\u00e9placements, des \u00e9v\u00e9nements importants (examens, entretiens, etc.) ou d'une charge de travail \u00e9lev\u00e9e pendant les r\u00e8gles.",
+      "text": "Angoisse et \u00e9vitement des d\u00e9placements, des \u00e9v\u00e9nements importants (examens, entretiens, etc.) ou d'une charge de travail \u00e9lev\u00e9e pendant les r\u00e8gles.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 154.36051664331785,
+            "r": 182.67086496409885,
+            "b": 142.42633260556795,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Vigilance alimentaire",
+      "text": "Vigilance alimentaire",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 121.3480783388361,
+            "r": 536.1431248056357,
+            "b": 76.40145599660457,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            182
+          ]
+        }
+      ],
+      "orig": "Attention soutenue port\u00e9e \u00e0 l'alimentation, avec la r\u00e9duction ou l'exclusion de certains aliments (\u00e9pices, caf\u00e9ine, lactose, etc.) pour pr\u00e9venir des douleurs ou inconforts digestifs.",
+      "text": "Attention soutenue port\u00e9e \u00e0 l'alimentation, avec la r\u00e9duction ou l'exclusion de certains aliments (\u00e9pices, caf\u00e9ine, lactose, etc.) pour pr\u00e9venir des douleurs ou inconforts digestifs.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 781.5968444284697,
+            "r": 301.82234094180257,
+            "b": 769.6626603907199,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Recherche d'informations et de solutions",
+      "text": "Recherche d'informations et de solutions",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 748.5844061239881,
+            "r": 536.1376755474843,
+            "b": 720.1440029339974,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "Consultations r\u00e9guli\u00e8res de professionnels de sant\u00e9 (particuli\u00e8rement : m\u00e9decins g\u00e9n\u00e9ralistes, gyn\u00e9cologues, sages-femmes).",
+      "text": "Consultations r\u00e9guli\u00e8res de professionnels de sant\u00e9 (particuli\u00e8rement : m\u00e9decins g\u00e9n\u00e9ralistes, gyn\u00e9cologues, sages-femmes).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 715.5719678195064,
+            "r": 536.1409726497542,
+            "b": 670.6253454772749,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            200
+          ]
+        }
+      ],
+      "orig": "Consultation fr\u00e9quente de sites, forums ou groupes de soutien en lien avec les douleurs pelviennes ou menstruelles, et essais de divers rem\u00e8des et traitements (plantes, techniques alternatives, etc.).",
+      "text": "Consultation fr\u00e9quente de sites, forums ou groupes de soutien en lien avec les douleurs pelviennes ou menstruelles, et essais de divers rem\u00e8des et traitements (plantes, techniques alternatives, etc.).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.549042318789795,
+            "t": 602.8543391463036,
+            "r": 216.13127914521198,
+            "b": 588.7779274702525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Points de vigilance",
+      "text": "Points de vigilance",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.549042318789795,
+            "t": 567.0748261668874,
+            "r": 536.1443675888236,
+            "b": 489.11576552017425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            386
+          ]
+        }
+      ],
+      "orig": "Certaines personnes peuvent avoir tendance \u00e0 normaliser ces comportements, surtout lorsqu'ils sont en place depuis des ann\u00e9es, bien qu'ils portent atteinte \u00e0 leur qualit\u00e9 de vie. Certains de ces comportements peuvent \u00e9galement \u00eatre les signes \u00e9vocateurs d'autres pathologies ou d'autres probl\u00e9matiques (par exemple : harc\u00e8lement scolaire ou professionnel, violences de tout type, etc.).",
+      "text": "Certaines personnes peuvent avoir tendance \u00e0 normaliser ces comportements, surtout lorsqu'ils sont en place depuis des ann\u00e9es, bien qu'ils portent atteinte \u00e0 leur qualit\u00e9 de vie. Certains de ces comportements peuvent \u00e9galement \u00eatre les signes \u00e9vocateurs d'autres pathologies ou d'autres probl\u00e9matiques (par exemple : harc\u00e8lement scolaire ou professionnel, violences de tout type, etc.)."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 53.3477425771773,
+            "t": 427.3582029925981,
+            "r": 346.0832354991728,
+            "b": 392.01241519392636,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Si la personne pr\u00e9sente ce type de comportements :",
+      "text": "Si la personne pr\u00e9sente ce type de comportements :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 73.74605317724766,
+            "t": 373.12569440810165,
+            "r": 526.3593516628729,
+            "b": 286.16324149652985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            343
+          ]
+        }
+      ],
+      "orig": "Je l'interroge sur l'endom\u00e9triose Par exemple : A-t-elle d\u00e9j\u00e0 entendu parler de cette pathologie ? A-t-elle d\u00e9j\u00e0 pass\u00e9 des examens en ce sens ? Attention, une \u00e9chographie et/ou une IRM n\u00e9gatives ne signifient pas absence d'endom\u00e9triose si elles n'ont pas \u00e9t\u00e9 r\u00e9alis\u00e9es par un professionnel form\u00e9 \u00e0 la lecture d'imageries pour cette pathologie.",
+      "text": "Je l'interroge sur l'endom\u00e9triose Par exemple : A-t-elle d\u00e9j\u00e0 entendu parler de cette pathologie ? A-t-elle d\u00e9j\u00e0 pass\u00e9 des examens en ce sens ? Attention, une \u00e9chographie et/ou une IRM n\u00e9gatives ne signifient pas absence d'endom\u00e9triose si elles n'ont pas \u00e9t\u00e9 r\u00e9alis\u00e9es par un professionnel form\u00e9 \u00e0 la lecture d'imageries pour cette pathologie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 73.74605317724766,
+            "t": 279.3403583158241,
+            "r": 407.15491527094025,
+            "b": 267.40617427807433,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Je lui pr\u00e9sente les diff\u00e9rents sympt\u00f4mes (Fiche R\u00e9flexe 1).",
+      "text": "Je lui pr\u00e9sente les diff\u00e9rents sympt\u00f4mes (Fiche R\u00e9flexe 1).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 73.74605317724766,
+            "t": 260.5832910973687,
+            "r": 144.31607273337062,
+            "b": 248.6491070596188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Je l'oriente :",
+      "text": "Je l'oriente :",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 94.15608694432954,
+            "t": 241.82622387891308,
+            "r": 526.3626715887424,
+            "b": 192.37790540425237,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "vers un professionnel de sant\u00e9 sensibilis\u00e9 qui, en cas de suspicion d'endom\u00e9triose, l'orientera vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie",
+      "text": "vers un professionnel de sant\u00e9 sensibilis\u00e9 qui, en cas de suspicion d'endom\u00e9triose, l'orientera vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 94.15608694432954,
+            "t": 185.55502222354664,
+            "r": 526.3479070608182,
+            "b": 154.86377096734134,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "ou, \u00e0 d\u00e9faut, directement vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie (Fiche R\u00e9flexe 3).",
+      "text": "ou, \u00e0 d\u00e9faut, directement vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie (Fiche R\u00e9flexe 3).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 73.74605317724766,
+            "t": 148.0408877866356,
+            "r": 433.40786018348655,
+            "b": 136.10670374888582,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "Je l'informe sur les associations de patientes (Fiche R\u00e9flexe 3).",
+      "text": "Je l'informe sur les associations de patientes (Fiche R\u00e9flexe 3).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 73.74605317724766,
+            "t": 129.2838205681802,
+            "r": 526.3566030772713,
+            "b": 79.83550209351927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "J'identifie s'il existe une ou d'autres causes pouvant expliquer ces comportements (par exemple : une autre pathologie, du harc\u00e8lement scolaire ou professionnel, des violences de tout type, etc.).",
+      "text": "J'identifie s'il existe une ou d'autres causes pouvant expliquer ces comportements (par exemple : une autre pathologie, du harc\u00e8lement scolaire ou professionnel, des violences de tout type, etc.).",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 355.3113194152013,
+            "t": 842.2499787,
+            "r": 595.5,
+            "b": 540.6412106286643,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 92.81711795986098,
+            "t": 514.1841187410835,
+            "r": 514.5170314199972,
+            "b": 290.3000823215177,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 5
+    }
+  }
+}

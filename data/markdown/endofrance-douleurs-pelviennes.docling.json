@@ -1,0 +1,854 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 810898339650660179,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/30"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/30"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Endom\u00e9triose : douleurs pelviennes, douleurs chroniques, neuropathiques",
+      "text": "Endom\u00e9triose : douleurs pelviennes, douleurs chroniques, neuropathiques"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les douleurs pelviennes sont fr\u00e9quentes lors d\u2019une atteinte d\u2019Endom\u00e9triose",
+      "text": "Les douleurs pelviennes sont fr\u00e9quentes lors d'une atteinte d'Endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La douleur est le ma\u00eetre sympt\u00f4me de l\u2019endom\u00e9triose. La dysm\u00e9norrh\u00e9e (douleurs au moment des r\u00e8gles) et les douleurs pelviennes chroniques sont fr\u00e9quemment ressenties par les femmes atteintes d\u2019endom\u00e9triose. Ces douleurs chroniques peuvent \u00eatre le signe d\u2019une aggravation de la maladie",
+      "text": "La douleur est le ma\u00eetre sympt\u00f4me de l'endom\u00e9triose. La dysm\u00e9norrh\u00e9e (douleurs au moment des r\u00e8gles) et les douleurs pelviennes chroniques sont fr\u00e9quemment ressenties par les femmes atteintes d'endom\u00e9triose. Ces douleurs chroniques peuvent \u00eatre le signe d'une aggravation de la maladie"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Extrait de Dr Alain Audebert \u2013 ",
+      "text": "Extrait de Dr Alain Audebert - ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Endom\u00e9triose, Guide pratique pour le clinicien",
+      "text": "Endom\u00e9triose, Guide pratique pour le clinicien",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.sauramps.com/product/94856/audebert-alain-endometriose-guide-pratique-pour-le-clinicien"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les adh\u00e9rences vont g\u00e9n\u00e9rer de fortes douleurs pelviennes",
+      "text": "Les adh\u00e9rences vont g\u00e9n\u00e9rer de fortes douleurs pelviennes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Outre la douleur g\u00e9n\u00e9r\u00e9e par l\u2019inflammation due aux micros h\u00e9morragies lors du cycle, la perte de mobilit\u00e9 des organes est source de douleur. En effet, ",
+      "text": "Outre la douleur g\u00e9n\u00e9r\u00e9e par l'inflammation due aux micros h\u00e9morragies lors du cycle, la perte de mobilit\u00e9 des organes est source de douleur. En effet, "
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la particularit\u00e9 de l\u2019endom\u00e9triose est de cr\u00e9er des adh\u00e9rences ",
+      "text": "la particularit\u00e9 de l'endom\u00e9triose est de cr\u00e9er des adh\u00e9rences ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "qui vont entrainer une r\u00e9tractation des tissus. De plus, le petit bassin est une zone tr\u00e8s innerv\u00e9e. D\u00e8s lors on comprend qu\u2019une l\u00e9sion d\u2019endom\u00e9triose, si petite soit-elle, va g\u00e9n\u00e9rer de fortes douleurs.",
+      "text": "qui vont entrainer une r\u00e9tractation des tissus. De plus, le petit bassin est une zone tr\u00e8s innerv\u00e9e. D\u00e8s lors on comprend qu'une l\u00e9sion d'endom\u00e9triose, si petite soit-elle, va g\u00e9n\u00e9rer de fortes douleurs."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/groups/2"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/groups/3"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "A terme, les nerfs touch\u00e9s, ab\u00eem\u00e9s, vont envoyer continuellement leur message douloureux au cerveau",
+      "text": "A terme, les nerfs touch\u00e9s, ab\u00eem\u00e9s, vont envoyer continuellement leur message douloureux au cerveau",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Se d\u00e9veloppe alors une m\u00e9moire de la douleur au niveau des circuits de transmission (des nerfs vers le cerveau). Si la douleur n\u2019est pas dans la t\u00eate et qu\u2019elle part bien du corps, le cerveau va n\u00e9anmoins d\u00e9velopper une hypersensibilit\u00e9 qui augmentera l\u2019information douloureuse et la rendra toujours pr\u00e9sente et parfois m\u00eame quand toutes les l\u00e9sions sont supprim\u00e9es par la chirurgie.",
+      "text": "Se d\u00e9veloppe alors une m\u00e9moire de la douleur au niveau des circuits de transmission (des nerfs vers le cerveau). Si la douleur n'est pas dans la t\u00eate et qu'elle part bien du corps, le cerveau va n\u00e9anmoins d\u00e9velopper une hypersensibilit\u00e9 qui augmentera l'information douloureuse et la rendra toujours pr\u00e9sente et parfois m\u00eame quand toutes les l\u00e9sions sont supprim\u00e9es par la chirurgie."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ainsi on ouvre le chapitre des douleurs neuropathiques, chroniques, qui n\u00e9cessitent des traitements sp\u00e9cifiques souvent au long cours (traitements prescrits par des m\u00e9decins algologues (m\u00e9decins de la douleur) et souvent un suivi en centre d\u2019\u00e9valuation et de traitement de la douleur (commun\u00e9ment appel\u00e9s centre \u00ab anti-douleur \u00bb), accompagnement par des th\u00e9rapies compl\u00e9mentaires telles que l\u2019auto-hypnose, la sophrologie, mais aussi l\u2019ost\u00e9opathie et la kin\u00e9sith\u00e9rapie\u2026). L\u2019\u00e9lectro th\u00e9rapie (utilisation de la neurostimulation \u00e9lectrique) apporte un r\u00e9el bienfait en coupant la neurotransmission du message douloureux au cerveau et en lib\u00e9rant des endorphines.",
+      "text": "Ainsi on ouvre le chapitre des douleurs neuropathiques, chroniques, qui n\u00e9cessitent des traitements sp\u00e9cifiques souvent au long cours (traitements prescrits par des m\u00e9decins algologues (m\u00e9decins de la douleur) et souvent un suivi en centre d'\u00e9valuation et de traitement de la douleur (commun\u00e9ment appel\u00e9s centre \u00ab anti-douleur \u00bb), accompagnement par des th\u00e9rapies compl\u00e9mentaires telles que l'auto-hypnose, la sophrologie, mais aussi l'ost\u00e9opathie et la kin\u00e9sith\u00e9rapie...). L'\u00e9lectro th\u00e9rapie (utilisation de la neurostimulation \u00e9lectrique) apporte un r\u00e9el bienfait en coupant la neurotransmission du message douloureux au cerveau et en lib\u00e9rant des endorphines."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La page ",
+      "text": "La page "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Vivre avec l\u2019endom\u00e9triose \u00bb ",
+      "text": "\u00ab Vivre avec l'endom\u00e9triose \u00bb ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.endofrance.org/la-maladie-endometriose/vivre-avec-lendometriose/"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "vous donne quelques pistes.",
+      "text": "vous donne quelques pistes."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter :",
+      "text": "\u00c0 noter :",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D\u2019autres pathologies que l\u2019endom\u00e9triose sont responsables de douleurs pelviennes ",
+      "text": "D'autres pathologies que l'endom\u00e9triose sont responsables de douleurs pelviennes ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "avec des sympt\u00f4mes similaires \u00e0 ceux de l\u2019endom\u00e9triose. C\u2019est notamment le cas du ",
+      "text": "avec des sympt\u00f4mes similaires \u00e0 ceux de l'endom\u00e9triose. C'est notamment le cas du "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "syndrome de congestion pelvienne",
+      "text": "syndrome de congestion pelvienne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.info-congestionpelvienne.fr/"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", ",
+      "text": ", ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "du ",
+      "text": "du "
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "syndrome des ovaires polykystiques",
+      "text": "syndrome des ovaires polykystiques",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.asso-sopk.com/"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", ",
+      "text": ", ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "du syndrome de l\u2019intestin irritable, des fibromyalgies. Si un bilan pour endom\u00e9triose est n\u00e9gatif malgr\u00e9 les sympt\u00f4mes (mais il faut que le bilan ait \u00e9t\u00e9 fait par un sp\u00e9cialiste) il faut \u00e9voquer avec le m\u00e9decin les autres pathologies possibles.",
+      "text": "du syndrome de l'intestin irritable, des fibromyalgies. Si un bilan pour endom\u00e9triose est n\u00e9gatif malgr\u00e9 les sympt\u00f4mes (mais il faut que le bilan ait \u00e9t\u00e9 fait par un sp\u00e9cialiste) il faut \u00e9voquer avec le m\u00e9decin les autres pathologies possibles."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Malheureusement on constate que chez de nombreuses femmes, l\u2019endom\u00e9triose est souvent associ\u00e9e \u00e0 une autre pathologie inflammatoire : lupus, spondylarthrite,\u2026 et tr\u00e8s souvent, fibromyalgie.",
+      "text": "Malheureusement on constate que chez de nombreuses femmes, l'endom\u00e9triose est souvent associ\u00e9e \u00e0 une autre pathologie inflammatoire : lupus, spondylarthrite,... et tr\u00e8s souvent, fibromyalgie."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans la rubrique \u00ab ",
+      "text": "Dans la rubrique \u00ab "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les articles du Comit\u00e9 scientifique d\u2019EndoFrance ",
+      "text": "Les articles du Comit\u00e9 scientifique d'EndoFrance ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.endofrance.org/association-endofrance/conseil-scientifique-pluridisciplinaire/articles-medicaux-endometriose"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00bb, retrouvez un article sur le lien entre endom\u00e9triose et l\u2019hypersensibilit\u00e9 g\u00e9n\u00e9ralis\u00e9e qui d\u00e9finit la fibromyalgie. Pour en savoir plus sur la fibromyalgie => le site de ",
+      "text": "\u00bb, retrouvez un article sur le lien entre endom\u00e9triose et l'hypersensibilit\u00e9 g\u00e9n\u00e9ralis\u00e9e qui d\u00e9finit la fibromyalgie. Pour en savoir plus sur la fibromyalgie => le site de "
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "fibromyalgie-France.org ",
+      "text": "fibromyalgie-France.org ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.fibromyalgie-france.org/"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(site agr\u00e9\u00e9 par le Minist\u00e8re des solidarit\u00e9s et de la sant\u00e9).",
+      "text": "(site agr\u00e9\u00e9 par le Minist\u00e8re des solidarit\u00e9s et de la sant\u00e9)."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/groups/5"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9valuer la douleur de l'endom\u00e9triose",
+      "text": "\u00c9valuer la douleur de l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/texts/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour bien prendre en charge une douleur, il faut d\u2019abord l\u2019\u00e9valuer : d\u00e9finir son intensit\u00e9, sa fr\u00e9quence, ce qui la provoque.\nLa douleur de l\u2019endom\u00e9triose, quand elle devient chronique, ou la douleur neuropathique, impacte fortement la qualit\u00e9 de vie des personnes atteintes d\u2019endom\u00e9triose.",
+      "text": "Pour bien prendre en charge une douleur, il faut d'abord l'\u00e9valuer : d\u00e9finir son intensit\u00e9, sa fr\u00e9quence, ce qui la provoque.\nLa douleur de l'endom\u00e9triose, quand elle devient chronique, ou la douleur neuropathique, impacte fortement la qualit\u00e9 de vie des personnes atteintes d'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le site ",
+      "text": "Le site "
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sante.fr",
+      "text": "sante.fr",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.sante.fr/"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", ",
+      "text": ", ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le site officiel sant\u00e9 de r\u00e9f\u00e9rence r\u00e9alis\u00e9 par le Minist\u00e8re de la sant\u00e9 propose un article int\u00e9ressant que nous vous proposons de d\u00e9couvrir ci-apr\u00e8s.",
+      "text": "le site officiel sant\u00e9 de r\u00e9f\u00e9rence r\u00e9alis\u00e9 par le Minist\u00e8re de la sant\u00e9 propose un article int\u00e9ressant que nous vous proposons de d\u00e9couvrir ci-apr\u00e8s."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lire l'article sur la douleur",
+      "text": "Lire l'article sur la douleur",
+      "hyperlink": "https://www.sante.fr/endometriose/evaluer-la-douleur-due-lendometriose"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans tous les cas et face \u00e0 la persistance des sympt\u00f4mes, un ",
+      "text": "Dans tous les cas et face \u00e0 la persistance des sympt\u00f4mes, un "
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "avis m\u00e9dical est indiqu\u00e9",
+      "text": "avis m\u00e9dical est indiqu\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Surtout si ces sympt\u00f4mes sont associ\u00e9s \u00e0 de la fi\u00e8vre, ou \u00e0 de fortes douleurs.",
+      "text": ". Surtout si ces sympt\u00f4mes sont associ\u00e9s \u00e0 de la fi\u00e8vre, ou \u00e0 de fortes douleurs."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

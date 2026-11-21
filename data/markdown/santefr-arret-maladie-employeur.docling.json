@@ -1,0 +1,275 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 5722437413833042199,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Doit-on pr\u00e9ciser la raison d\u2019un arr\u00eat maladie \u00e0 son employeur ?",
+      "text": "Doit-on pr\u00e9ciser la raison d\u2019un arr\u00eat maladie \u00e0 son employeur ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 08/03/2024",
+      "text": "Publi\u00e9 le 08/03/2024"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsqu\u2019il est de longue dur\u00e9e ou qu\u2019il se r\u00e9p\u00e8te r\u00e9guli\u00e8rement, l\u2019arr\u00eat maladie d\u2019un salari\u00e9 peut \u00eatre source de d\u00e9sorganisation et de g\u00eane, en particulier pour une petite entreprise. La tentation est alors grande pour l\u2019employeur d\u2019en savoir un peu plus dans l\u2019optique de pr\u00e9voir et d\u2019adapter l\u2019organisation de l\u2019entreprise, afin de compenser l\u2019absence du salari\u00e9 malade. Comment r\u00e9agir face \u00e0 une demande de ce type ?",
+      "text": "Lorsqu\u2019il est de longue dur\u00e9e ou qu\u2019il se r\u00e9p\u00e8te r\u00e9guli\u00e8rement, l\u2019arr\u00eat maladie d\u2019un salari\u00e9 peut \u00eatre source de d\u00e9sorganisation et de g\u00eane, en particulier pour une petite entreprise. La tentation est alors grande pour l\u2019employeur d\u2019en savoir un peu plus dans l\u2019optique de pr\u00e9voir et d\u2019adapter l\u2019organisation de l\u2019entreprise, afin de compenser l\u2019absence du salari\u00e9 malade. Comment r\u00e9agir face \u00e0 une demande de ce type ?"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Que dit la loi ?",
+      "text": "Que dit la loi ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un salari\u00e9 n\u2019a absolument aucune obligation l\u00e9gale de r\u00e9v\u00e9ler son \u00e9tat de sant\u00e9 ou le motif d\u2019un arr\u00eat maladie. D\u2019ailleurs, le volet 3 de l\u2019arr\u00eat de travail, celui qui doit \u00eatre envoy\u00e9 \u00e0 l\u2019employeur dans les 48 heures suivant l\u2019arr\u00eat, ne pr\u00e9cise aucune information d\u2019ordre m\u00e9dical.",
+      "text": "Un salari\u00e9 n\u2019a absolument aucune obligation l\u00e9gale de r\u00e9v\u00e9ler son \u00e9tat de sant\u00e9 ou le motif d\u2019un arr\u00eat maladie. D\u2019ailleurs, le volet 3 de l\u2019arr\u00eat de travail, celui qui doit \u00eatre envoy\u00e9 \u00e0 l\u2019employeur dans les 48 heures suivant l\u2019arr\u00eat, ne pr\u00e9cise aucune information d\u2019ordre m\u00e9dical."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De plus, dans le cadre de l\u2019entreprise, aucune personne n\u2019a le droit d\u2019exiger des informations sur la sant\u00e9 d\u2019un salari\u00e9 : ni le sup\u00e9rieur hi\u00e9rarchique, ni les coll\u00e8gues, ni les \u00e9quipes des ressources humaines, ni les d\u00e9l\u00e9gu\u00e9s du personnel.",
+      "text": "De plus, dans le cadre de l\u2019entreprise, aucune personne n\u2019a le droit d\u2019exiger des informations sur la sant\u00e9 d\u2019un salari\u00e9 : ni le sup\u00e9rieur hi\u00e9rarchique, ni les coll\u00e8gues, ni les \u00e9quipes des ressources humaines, ni les d\u00e9l\u00e9gu\u00e9s du personnel."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour cette raison, face \u00e0 une demande de ce type, le salari\u00e9 peut mentir sur son \u00e9tat de sant\u00e9 sans aucun risque l\u00e9gal. La question \u00e9tant ill\u00e9gale, la r\u00e9ponse n\u2019a aucune valeur juridique.",
+      "text": "Pour cette raison, face \u00e0 une demande de ce type, le salari\u00e9 peut mentir sur son \u00e9tat de sant\u00e9 sans aucun risque l\u00e9gal. La question \u00e9tant ill\u00e9gale, la r\u00e9ponse n\u2019a aucune valeur juridique."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Mon employeur peut-il demander des informations au m\u00e9decin du travail ?",
+      "text": "Mon employeur peut-il demander des informations au m\u00e9decin du travail ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comme tout m\u00e9decin, le m\u00e9decin du travail doit respecter le code de d\u00e9ontologie et le secret m\u00e9dical vis-\u00e0-vis de son patient. Dans le cadre de ses \u00e9changes avec l\u2019employeur, le m\u00e9decin du travail ne fait \u00e9tat que de l'aptitude ou de l'inaptitude du salari\u00e9 sans indication de diagnostic ou de dur\u00e9e possible de l\u2019absence, au-del\u00e0 de celle indiqu\u00e9e sur l\u2019arr\u00eat de travail.",
+      "text": "Comme tout m\u00e9decin, le m\u00e9decin du travail doit respecter le code de d\u00e9ontologie et le secret m\u00e9dical vis-\u00e0-vis de son patient. Dans le cadre de ses \u00e9changes avec l\u2019employeur, le m\u00e9decin du travail ne fait \u00e9tat que de l'aptitude ou de l'inaptitude du salari\u00e9 sans indication de diagnostic ou de dur\u00e9e possible de l\u2019absence, au-del\u00e0 de celle indiqu\u00e9e sur l\u2019arr\u00eat de travail."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'employeur ne peut en aucun cas demander des informations sur la sant\u00e9 du salari\u00e9, ni consulter son dossier m\u00e9dical. Cette interdiction vaut pour le m\u00e9decin du travail, le m\u00e9decin traitant du salari\u00e9 ou tout autre professionnel de sant\u00e9 ou m\u00e9dico-social amen\u00e9 \u00e0 intervenir aupr\u00e8s du salari\u00e9.",
+      "text": "L'employeur ne peut en aucun cas demander des informations sur la sant\u00e9 du salari\u00e9, ni consulter son dossier m\u00e9dical. Cette interdiction vaut pour le m\u00e9decin du travail, le m\u00e9decin traitant du salari\u00e9 ou tout autre professionnel de sant\u00e9 ou m\u00e9dico-social amen\u00e9 \u00e0 intervenir aupr\u00e8s du salari\u00e9."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Mon employeur peut-il n\u00e9anmoins me contacter ?",
+      "text": "Mon employeur peut-il n\u00e9anmoins me contacter ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Rien n\u2019emp\u00eache l\u2019employeur de contacter le salari\u00e9 malade, mais cela ne doit pas \u00eatre dans le but de conna\u00eetre les raisons de son arr\u00eat maladie.",
+      "text": "Rien n\u2019emp\u00eache l\u2019employeur de contacter le salari\u00e9 malade, mais cela ne doit pas \u00eatre dans le but de conna\u00eetre les raisons de son arr\u00eat maladie."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Par ailleurs, l\u2019employeur ne peut ni exiger ni accepter une collaboration professionnelle du salari\u00e9 pendant son arr\u00eat maladie, fut-elle ponctuelle. De plus, les sollicitations de l\u2019employeur ne doivent pas \u00eatre r\u00e9p\u00e9t\u00e9es. La jurisprudence a condamn\u00e9 les employeurs qui sollicitaient de mani\u00e8re r\u00e9p\u00e9t\u00e9e un salari\u00e9 malade afin d\u2019obtenir des informations n\u00e9cessaires \u00e0 la continuit\u00e9 de l\u2019activit\u00e9 de l\u2019entreprise.",
+      "text": "Par ailleurs, l\u2019employeur ne peut ni exiger ni accepter une collaboration professionnelle du salari\u00e9 pendant son arr\u00eat maladie, fut-elle ponctuelle. De plus, les sollicitations de l\u2019employeur ne doivent pas \u00eatre r\u00e9p\u00e9t\u00e9es. La jurisprudence a condamn\u00e9 les employeurs qui sollicitaient de mani\u00e8re r\u00e9p\u00e9t\u00e9e un salari\u00e9 malade afin d\u2019obtenir des informations n\u00e9cessaires \u00e0 la continuit\u00e9 de l\u2019activit\u00e9 de l\u2019entreprise."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019employeur est n\u00e9anmoins en droit d\u2019obtenir la restitution des outils professionnels en possession du salari\u00e9 malade (t\u00e9l\u00e9phone mobile, ordinateur, dossiers, etc.). Il peut \u00e9galement exiger la communication des informations et codes d\u2019acc\u00e8s, mais en aucun cas demander de r\u00e9aliser une prestation de travail \u00e0 domicile.",
+      "text": "L\u2019employeur est n\u00e9anmoins en droit d\u2019obtenir la restitution des outils professionnels en possession du salari\u00e9 malade (t\u00e9l\u00e9phone mobile, ordinateur, dossiers, etc.). Il peut \u00e9galement exiger la communication des informations et codes d\u2019acc\u00e8s, mais en aucun cas demander de r\u00e9aliser une prestation de travail \u00e0 domicile."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

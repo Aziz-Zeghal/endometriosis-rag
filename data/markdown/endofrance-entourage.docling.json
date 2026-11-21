@@ -1,0 +1,628 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10731394113815621205,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Je fais partie de l'entourage d'une personne atteinte d'endom\u00e9triose",
+      "text": "Je fais partie de l'entourage d'une personne atteinte d'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un membre de ma famille ou une personne proche de moi est concern\u00e9e par l\u2019endom\u00e9triose, que puis-je faire pour l\u2019aider ?",
+      "text": "Un membre de ma famille ou une personne proche de moi est concern\u00e9e par l\u2019endom\u00e9triose, que puis-je faire pour l\u2019aider ?"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Accompagner une personne atteinte d\u2019endom\u00e9triose n\u2019est pas simple ! L\u2019endom\u00e9triose est une maladie invisible et dont les douleurs restent abstraites pour celle ou celui qui ne la vit pas.",
+      "text": "Accompagner une personne atteinte d\u2019endom\u00e9triose n\u2019est pas simple ! L\u2019endom\u00e9triose est une maladie invisible et dont les douleurs restent abstraites pour celle ou celui qui ne la vit pas."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019entourage se sent souvent impuissant face \u00e0 la souffrance de l\u2019autre. D\u00e8s lors comment l\u2019aider ? Nous n\u2019avons pas toutes les solutions mais voici quelques pistes pour montrer votre soutien. Et comme un \u00e9cho au slogan d\u2019EndoFrance, l\u2019entourage peut soutenir, (s\u2019)informer et agir !",
+      "text": "L\u2019entourage se sent souvent impuissant face \u00e0 la souffrance de l\u2019autre. D\u00e8s lors comment l\u2019aider ? Nous n\u2019avons pas toutes les solutions mais voici quelques pistes pour montrer votre soutien. Et comme un \u00e9cho au slogan d\u2019EndoFrance, l\u2019entourage peut soutenir, (s\u2019)informer et agir !"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous \u00eates parent d\u2019une jeune personne atteinte, nous vous conseillons de lire notre page d\u00e9di\u00e9e aux parents, juste apr\u00e8s avoir consult\u00e9 cette page d\u00e9di\u00e9e \u00e0 l\u2019entourage afin d\u2019avoir des conseils plus g\u00e9n\u00e9ralistes sur comment aider et accompagner votre enfant.",
+      "text": "Si vous \u00eates parent d\u2019une jeune personne atteinte, nous vous conseillons de lire notre page d\u00e9di\u00e9e aux parents, juste apr\u00e8s avoir consult\u00e9 cette page d\u00e9di\u00e9e \u00e0 l\u2019entourage afin d\u2019avoir des conseils plus g\u00e9n\u00e9ralistes sur comment aider et accompagner votre enfant."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Soutenir",
+      "text": "Soutenir",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On ne peut pas faire grand-chose et on se sent bien impuissant encore une fois quand il y a une souffrance que l\u2019on ne peut imaginer. Soutenir, c\u2019est d\u2019abord croire l\u2019autre dans sa douleur et lui montrer :",
+      "text": "On ne peut pas faire grand-chose et on se sent bien impuissant encore une fois quand il y a une souffrance que l\u2019on ne peut imaginer. Soutenir, c\u2019est d\u2019abord croire l\u2019autre dans sa douleur et lui montrer :"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Lui apporter une bouillotte quand on per\u00e7oit que cela va moins bien",
+      "text": "Lui apporter une bouillotte quand on per\u00e7oit que cela va moins bien",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Lui proposer les m\u00e9dicaments antalgiques",
+      "text": "Lui proposer les m\u00e9dicaments antalgiques",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00catre \u00e0 l\u2019\u00e9coute et proposer de l\u2019aide mat\u00e9rielle (cuisine, courses, m\u00e9nage, \u2026)",
+      "text": "\u00catre \u00e0 l\u2019\u00e9coute et proposer de l\u2019aide mat\u00e9rielle (cuisine, courses, m\u00e9nage, \u2026)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Accompagner aux rendez-vous m\u00e9dicaux, quand cela est possible, ou demander des nouvelles suite aux rendez-vous.",
+      "text": "Accompagner aux rendez-vous m\u00e9dicaux, quand cela est possible, ou demander des nouvelles suite aux rendez-vous.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cela peut para\u00eetre peu de choses, mais cela montrera que vous \u00eates attentives, attentifs et que vous int\u00e9ressez \u00e0 cette maladie et que vous tenez \u00e0 \u00eatre pr\u00e9sent.e autant que possible. Parce que leur douleur a souvent \u00e9t\u00e9 banalis\u00e9e, les personnes atteintes d\u2019endom\u00e9triose ont tendance \u00e0 ne plus dire qu\u2019elles souffrent beaucoup et minimisent leurs ressentis.",
+      "text": "Cela peut para\u00eetre peu de choses, mais cela montrera que vous \u00eates attentives, attentifs et que vous int\u00e9ressez \u00e0 cette maladie et que vous tenez \u00e0 \u00eatre pr\u00e9sent.e autant que possible. Parce que leur douleur a souvent \u00e9t\u00e9 banalis\u00e9e, les personnes atteintes d\u2019endom\u00e9triose ont tendance \u00e0 ne plus dire qu\u2019elles souffrent beaucoup et minimisent leurs ressentis."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Exprimer ce que l\u2019on ressent, mettre des mots sur son sentiment d\u2019impuissance pour que l\u2019autre ne pense pas \u00ab\u00a0il ou elle s\u2019en fiche compl\u00e8tement\u00a0\u00bb est primordial. Parfois le repli est le seul moyen pour la compagne ou le compagnon de se prot\u00e9ger de ne pas souffrir. Le dire va rassurer la personne atteinte et \u00e9viter une surench\u00e8re de stress, de mal-\u00eatre, de crainte d\u2019\u00eatre abandonn\u00e9e.\u00a0Exprimer sa peur n\u2019est pas se montrer faible, au contraire, car vivre avec l\u2019endom\u00e9triose c\u2019est comme inviter une 3",
+      "text": "Exprimer ce que l\u2019on ressent, mettre des mots sur son sentiment d\u2019impuissance pour que l\u2019autre ne pense pas \u00ab\u00a0il ou elle s\u2019en fiche compl\u00e8tement\u00a0\u00bb est primordial. Parfois le repli est le seul moyen pour la compagne ou le compagnon de se prot\u00e9ger de ne pas souffrir. Le dire va rassurer la personne atteinte et \u00e9viter une surench\u00e8re de stress, de mal-\u00eatre, de crainte d\u2019\u00eatre abandonn\u00e9e.\u00a0Exprimer sa peur n\u2019est pas se montrer faible, au contraire, car vivre avec l\u2019endom\u00e9triose c\u2019est comme inviter une 3"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "e",
+      "text": "e"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " personne invisible au sein de sa vie.",
+      "text": " personne invisible au sein de sa vie."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "S'informer",
+      "text": "S'informer",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "S\u2019informer sur la maladie, essayer de comprendre ce qu\u2019elle implique montrera \u00e0 la personne proche de vous que vous comprenez ce qu\u2019elle traverse, ou du moins que vous essayez. En tout cas cela montrera que vous n\u2019\u00eates pas indiff\u00e9rent.e aux difficult\u00e9s rencontr\u00e9es.",
+      "text": "S\u2019informer sur la maladie, essayer de comprendre ce qu\u2019elle implique montrera \u00e0 la personne proche de vous que vous comprenez ce qu\u2019elle traverse, ou du moins que vous essayez. En tout cas cela montrera que vous n\u2019\u00eates pas indiff\u00e9rent.e aux difficult\u00e9s rencontr\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Voici quelques ressources \u00e0 explorer :",
+      "text": "Voici quelques ressources \u00e0 explorer :"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Regarder notre vid\u00e9o qui explique ce qu\u2019est l\u2019endom\u00e9triose en 2 minutes",
+      "text": "Regarder notre vid\u00e9o qui explique ce qu\u2019est l\u2019endom\u00e9triose en 2 minutes",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Lire le livre \u00ab Id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose \u00ab ou lire \u00ab L\u2019endom\u00e9triose de Clara \u00bb.",
+      "text": "Lire le livre \u00ab Id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose \u00ab ou lire \u00ab L\u2019endom\u00e9triose de Clara \u00bb.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nous vous invitons \u00e0 parcourir la bibliographie du site EndoFrance.",
+      "text": "Nous vous invitons \u00e0 parcourir la bibliographie du site EndoFrance."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez \u00e9galement, \u00e9crire aux b\u00e9n\u00e9voles d\u2019EndoFrance pour avoir des informations compl\u00e9mentaires suite aux rendez-vous, mieux comprendre la maladie ou ce qu\u2019a dit la ou le gyn\u00e9cologue, comprendre les options th\u00e9rapeutiques..",
+      "text": "Vous pouvez \u00e9galement, \u00e9crire aux b\u00e9n\u00e9voles d\u2019EndoFrance pour avoir des informations compl\u00e9mentaires suite aux rendez-vous, mieux comprendre la maladie ou ce qu\u2019a dit la ou le gyn\u00e9cologue, comprendre les options th\u00e9rapeutiques.."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Agir",
+      "text": "Agir",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Rassurer les autres membres de la famille sur ce que l\u2019on a compris de la maladie et sur les options qui existent. Car des solutions existent pour vivre au mieux malgr\u00e9 l\u2019endom\u00e9triose.",
+      "text": "Rassurer les autres membres de la famille sur ce que l\u2019on a compris de la maladie et sur les options qui existent. Car des solutions existent pour vivre au mieux malgr\u00e9 l\u2019endom\u00e9triose.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "S\u2019engager en proposant son aide \u00e0 EndoFrance :",
+      "text": "S\u2019engager en proposant son aide \u00e0 EndoFrance :",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Organiser une sensibilisation au sein de son entreprise, sur comment concilier vie professionnelle et endom\u00e9triose, en contactant les b\u00e9n\u00e9voles d\u2019EndoFrance.",
+      "text": "Organiser une sensibilisation au sein de son entreprise, sur comment concilier vie professionnelle et endom\u00e9triose, en contactant les b\u00e9n\u00e9voles d\u2019EndoFrance.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Devenir adh\u00e9rent.e pour soutenir l\u2019association dans ses actions de sensibilisation.",
+      "text": "Devenir adh\u00e9rent.e pour soutenir l\u2019association dans ses actions de sensibilisation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Participer aux \u00e9v\u00e9nements organis\u00e9s par EndoFrance avec son proche malade.",
+      "text": "Participer aux \u00e9v\u00e9nements organis\u00e9s par EndoFrance avec son proche malade.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Si je suis sportive ou sportif, porter un dossard \u00ab Je cours contre l\u2019endom\u00e9triose \u00bb ou \u00ab Je marche contre l\u2019endom\u00e9triose \u00bb que je commande gratuitement sur cette page. C\u2019est une fa\u00e7on de sensibiliser aussi !",
+      "text": "Si je suis sportive ou sportif, porter un dossard \u00ab Je cours contre l\u2019endom\u00e9triose \u00bb ou \u00ab Je marche contre l\u2019endom\u00e9triose \u00bb que je commande gratuitement sur cette page. C\u2019est une fa\u00e7on de sensibiliser aussi !",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Prendre soin de soi aussi",
+      "text": "Prendre soin de soi aussi",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les b\u00e9n\u00e9voles de l\u2019association sont l\u00e0 aussi pour vous lire et accueillir en toute bienveillance vos doutes, vos craintes, vos questionnements. Nous aidons les personnes atteintes d\u2019endom\u00e9triose ET leur entourage.",
+      "text": "Les b\u00e9n\u00e9voles de l\u2019association sont l\u00e0 aussi pour vous lire et accueillir en toute bienveillance vos doutes, vos craintes, vos questionnements. Nous aidons les personnes atteintes d\u2019endom\u00e9triose ET leur entourage."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il faut savoir aussi se pr\u00e9server des moments pour se ressourcer : aller boire un verre avec des amis, au cin\u00e9, etc. Ce n\u2019est pas une fuite, c\u2019est une bulle d\u2019oxyg\u00e8ne pour mieux accompagner apr\u00e8s\u2026 et sur la dur\u00e9e.",
+      "text": "Il faut savoir aussi se pr\u00e9server des moments pour se ressourcer : aller boire un verre avec des amis, au cin\u00e9, etc. Ce n\u2019est pas une fuite, c\u2019est une bulle d\u2019oxyg\u00e8ne pour mieux accompagner apr\u00e8s\u2026 et sur la dur\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Et parfois en tant qu\u2019accompagnant.e, voir soi-m\u00eame un psychologue est important et parfois salvateur. Malade ou accompagnant.e ne sont pas l\u00e0 pour recevoir de plein fouet la col\u00e8re, les angoisses et le stress de l\u2019autre.",
+      "text": "Et parfois en tant qu\u2019accompagnant.e, voir soi-m\u00eame un psychologue est important et parfois salvateur. Malade ou accompagnant.e ne sont pas l\u00e0 pour recevoir de plein fouet la col\u00e8re, les angoisses et le stress de l\u2019autre."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

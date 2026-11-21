@@ -1,0 +1,317 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1583180415894976714,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "La pr\u00e9servation ovocytaire",
+      "text": "La pr\u00e9servation ovocytaire"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pr\u00e9server la fertilit\u00e9 d\u2019une femme atteinte d\u2019endom\u00e9triose doit \u00eatre une priorit\u00e9",
+      "text": "Pr\u00e9server la fertilit\u00e9 d\u2019une femme atteinte d\u2019endom\u00e9triose doit \u00eatre une priorit\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce que dit la Loi de bio\u00e9thique, article L2141-11",
+      "text": "Ce que dit la Loi de bio\u00e9thique, article L2141-11"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab\u00a0Toute personne dont la prise en charge m\u00e9dicale est susceptible d\u2019alt\u00e9rer la fertilit\u00e9 ou dont la fertilit\u00e9 risque d\u2019\u00eatre pr\u00e9matur\u00e9ment alt\u00e9r\u00e9e, peut b\u00e9n\u00e9ficier du recueil et de la conservation de gam\u00e8tes ou de tissus germinaux, en vue de la r\u00e9alisation ult\u00e9rieure, \u00e0 son b\u00e9n\u00e9fice, d\u2019une AMP, ou en vue de la pr\u00e9servation et de la restauration de la fertilit\u00e9.\u00a0\u00bb",
+      "text": "\u00ab\u00a0Toute personne dont la prise en charge m\u00e9dicale est susceptible d\u2019alt\u00e9rer la fertilit\u00e9 ou dont la fertilit\u00e9 risque d\u2019\u00eatre pr\u00e9matur\u00e9ment alt\u00e9r\u00e9e, peut b\u00e9n\u00e9ficier du recueil et de la conservation de gam\u00e8tes ou de tissus germinaux, en vue de la r\u00e9alisation ult\u00e9rieure, \u00e0 son b\u00e9n\u00e9fice, d\u2019une AMP, ou en vue de la pr\u00e9servation et de la restauration de la fertilit\u00e9.\u00a0\u00bb",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La pr\u00e9servation de la fertilit\u00e9 concernait \u00e0 l\u2019origine les patientes atteintes de cancer (la chimioth\u00e9rapie \u00e9tait un traitement toxique pour les organes reproducteurs). On sait aujourd\u2019hui qu\u2019une femme qui a un endom\u00e9triome a de forts risques de voir sa fertilit\u00e9 diminu\u00e9e. Si elle a en plus un endom\u00e9triome bilat\u00e9ral (\u00e0 chaque ovaire), ses risques sont accrus.",
+      "text": "La pr\u00e9servation de la fertilit\u00e9 concernait \u00e0 l\u2019origine les patientes atteintes de cancer (la chimioth\u00e9rapie \u00e9tait un traitement toxique pour les organes reproducteurs). On sait aujourd\u2019hui qu\u2019une femme qui a un endom\u00e9triome a de forts risques de voir sa fertilit\u00e9 diminu\u00e9e. Si elle a en plus un endom\u00e9triome bilat\u00e9ral (\u00e0 chaque ovaire), ses risques sont accrus."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D\u00e8s lors, il est l\u00e9gitime de lui faire b\u00e9n\u00e9ficier des techniques de pr\u00e9servation de la fertilit\u00e9.",
+      "text": "D\u00e8s lors, il est l\u00e9gitime de lui faire b\u00e9n\u00e9ficier des techniques de pr\u00e9servation de la fertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les techniques de pr\u00e9servation",
+      "text": "Les techniques de pr\u00e9servation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La vitrification des ovocytes",
+      "text": "La vitrification des ovocytes",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La conservation du tissu ovarien",
+      "text": "La conservation du tissu ovarien",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plus d\u2019informations sur le site ",
+      "text": "Plus d\u2019informations sur le site "
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "www.procreation-medicale.fr",
+      "text": "www.procreation-medicale.fr",
+      "hyperlink": "http://www.procreation-medicale.fr/"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La cryopr\u00e9servation d\u2019embryons",
+      "text": "La cryopr\u00e9servation d\u2019embryons",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Prise en charge de l'assurance maladie",
+      "text": "Prise en charge de l'assurance maladie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les techniques de pr\u00e9l\u00e8vement et de cong\u00e9lation des gam\u00e8tes ou tissus testiculaires sont prises en charge par l\u2019assurance maladie. Cependant, les frais de conservation restent \u00e0 la charge du patient.",
+      "text": "Les techniques de pr\u00e9l\u00e8vement et de cong\u00e9lation des gam\u00e8tes ou tissus testiculaires sont prises en charge par l\u2019assurance maladie. Cependant, les frais de conservation restent \u00e0 la charge du patient."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour aller plus loin : Dossier \u00ab Techniques de pr\u00e9servation de la fertlit\u00e9 \u00bb \u2013 Source Inserm",
+      "text": "Pour aller plus loin : Dossier \u00ab Techniques de pr\u00e9servation de la fertlit\u00e9 \u00bb \u2013 Source Inserm"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "*Extraits \u00ab Dans l\u2019endom\u00e9triose, pr\u00e9server la fertilit\u00e9 doit \u00eatre syst\u00e9matique\u00a0\u00bb : J.-L. Pouly \u00bb",
+      "text": "*Extraits \u00ab Dans l\u2019endom\u00e9triose, pr\u00e9server la fertilit\u00e9 doit \u00eatre syst\u00e9matique\u00a0\u00bb : J.-L. Pouly \u00bb"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les id\u00e9es re\u00e7ues contre l\u2019endom\u00e9triose \u2013 avril 2024 \u2013 Editions le Cavalier Bleu",
+      "text": "Les id\u00e9es re\u00e7ues contre l\u2019endom\u00e9triose \u2013 avril 2024 \u2013 Editions le Cavalier Bleu"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

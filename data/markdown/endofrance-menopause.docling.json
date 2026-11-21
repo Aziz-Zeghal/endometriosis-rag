@@ -1,0 +1,474 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 6140312642490479418,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "La m\u00e9nopause et l\u2019endom\u00e9triose",
+      "text": "La m\u00e9nopause et l\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On a coutume de dire que l\u2019endom\u00e9triose d\u00e9bute avec les r\u00e8gles et se termine \u00e0 la m\u00e9nopause biologique.",
+      "text": "On a coutume de dire que l\u2019endom\u00e9triose d\u00e9bute avec les r\u00e8gles et se termine \u00e0 la m\u00e9nopause biologique."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est donc une \u00e9ch\u00e9ance (longue) attendue par beaucoup. Toutefois, certaines femmes ressentent encore des sympt\u00f4mes apr\u00e8s la m\u00e9nopause\u2026 L\u2019endom\u00e9triose serait-elle r\u00e9ellement une maladie pour la vie ?",
+      "text": "C\u2019est donc une \u00e9ch\u00e9ance (longue) attendue par beaucoup. Toutefois, certaines femmes ressentent encore des sympt\u00f4mes apr\u00e8s la m\u00e9nopause\u2026 L\u2019endom\u00e9triose serait-elle r\u00e9ellement une maladie pour la vie ?"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La m\u00e9nopause c\u2019est quoi ? Quel impact pour l'endom\u00e9triose ?",
+      "text": "La m\u00e9nopause c\u2019est quoi ? Quel impact pour l'endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La ",
+      "text": "La "
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9nopause biologique est atteinte quand les ovaires cessent de fonctionner",
+      "text": "m\u00e9nopause biologique est atteinte quand les ovaires cessent de fonctionner",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et donc font chuter le taux d\u2019oestrog\u00e8nes. D\u00e8s lors plus de r\u00e8gles puisque la muqueuse ut\u00e9rine s\u2019atrophie.",
+      "text": " et donc font chuter le taux d\u2019oestrog\u00e8nes. D\u00e8s lors plus de r\u00e8gles puisque la muqueuse ut\u00e9rine s\u2019atrophie."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A ce stade, les l\u00e9sions d\u2019endom\u00e9triose deviennent, avec le temps, inactives et s\u2019ass\u00e8chent, sans n\u00e9anmoins disparaitre forc\u00e9ment.",
+      "text": "A ce stade, les l\u00e9sions d\u2019endom\u00e9triose deviennent, avec le temps, inactives et s\u2019ass\u00e8chent, sans n\u00e9anmoins disparaitre forc\u00e9ment."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mais les sympt\u00f4mes eux disparaissent, comme lorsque l\u2019on est en cure de m\u00e9nopause artificielle r\u00e9versible, pour laquelle des \u00e9tudes ont montr\u00e9 une diminution des sympt\u00f4mes dans pr\u00e8s de 90 % des cas. Ceci valide donc le fait que l\u2019endom\u00e9triose est une maladie hormono-d\u00e9pendante et plus particuli\u00e8rement \u0153strog\u00e8no-d\u00e9pendante.",
+      "text": "Mais les sympt\u00f4mes eux disparaissent, comme lorsque l\u2019on est en cure de m\u00e9nopause artificielle r\u00e9versible, pour laquelle des \u00e9tudes ont montr\u00e9 une diminution des sympt\u00f4mes dans pr\u00e8s de 90 % des cas. Ceci valide donc le fait que l\u2019endom\u00e9triose est une maladie hormono-d\u00e9pendante et plus particuli\u00e8rement \u0153strog\u00e8no-d\u00e9pendante."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Cependant, \u00e0 la m\u00e9nopause, certaines endom\u00e9trioses sont d\u00e9couvertes ou persistent (endom\u00e9triose \u00ab spontan\u00e9e \u00bb) et certaines sont r\u00e9cidivantes chez des femmes sous traitement hormonal substitutif. \u00bb*",
+      "text": "\u00ab Cependant, \u00e0 la m\u00e9nopause, certaines endom\u00e9trioses sont d\u00e9couvertes ou persistent (endom\u00e9triose \u00ab spontan\u00e9e \u00bb) et certaines sont r\u00e9cidivantes chez des femmes sous traitement hormonal substitutif. \u00bb*"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose spontan\u00e9e : de nouvelles l\u00e9sions ?",
+      "text": "Endom\u00e9triose spontan\u00e9e : de nouvelles l\u00e9sions ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab De nombreuses \u00e9tudes montrent que, dans ",
+      "text": "\u00ab De nombreuses \u00e9tudes montrent que, dans "
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "3 \u00e0 5 % des cas, l\u2019endom\u00e9triose survient chez des femmes d\u00e9j\u00e0 m\u00e9nopaus\u00e9es",
+      "text": "3 \u00e0 5 % des cas, l\u2019endom\u00e9triose survient chez des femmes d\u00e9j\u00e0 m\u00e9nopaus\u00e9es",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", sans qu\u2019il n\u2019y ait de rapport \u00e9tabli avec la mise en route d\u2019un traitement hormonal, substitutif. Il s\u2019agit dans la plupart des cas ",
+      "text": ", sans qu\u2019il n\u2019y ait de rapport \u00e9tabli avec la mise en route d\u2019un traitement hormonal, substitutif. Il s\u2019agit dans la plupart des cas "
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019endom\u00e9triose post-m\u00e9nopausique",
+      "text": "d\u2019endom\u00e9triose post-m\u00e9nopausique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " o\u00f9 le d\u00e9lai d\u2019apparition varie entre 2 et 10 ans apr\u00e8s le d\u00e9but de l\u2019am\u00e9norrh\u00e9e. L\u2019ovaire (30 %) et le tube digestif (50 %) sont alors les localisations les plus fr\u00e9quentes, ceci posant donc un probl\u00e8me de diagnostic diff\u00e9rentiel avec le cancer du c\u00f4lon et le cancer de l\u2019ovaire. \u00bb*",
+      "text": " o\u00f9 le d\u00e9lai d\u2019apparition varie entre 2 et 10 ans apr\u00e8s le d\u00e9but de l\u2019am\u00e9norrh\u00e9e. L\u2019ovaire (30 %) et le tube digestif (50 %) sont alors les localisations les plus fr\u00e9quentes, ceci posant donc un probl\u00e8me de diagnostic diff\u00e9rentiel avec le cancer du c\u00f4lon et le cancer de l\u2019ovaire. \u00bb*"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "*Extraits de \u00ab L\u2019endom\u00e9triose disparait \u00e0 la m\u00e9nopause \u00bb de C.Mimoun et J.L. Benifla \u2013 ",
+      "text": "*Extraits de \u00ab L\u2019endom\u00e9triose disparait \u00e0 la m\u00e9nopause \u00bb de C.Mimoun et J.L. Benifla \u2013 "
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les id\u00e9es re\u00e7ues contre l\u2019endom\u00e9triose",
+      "text": "Les id\u00e9es re\u00e7ues contre l\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " \u2013 fevrier 2020- Editions le Cavalier Bleu",
+      "text": " \u2013 fevrier 2020- Editions le Cavalier Bleu"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La r\u00e9activation de l\u00e9sions anciennes ?",
+      "text": "La r\u00e9activation de l\u00e9sions anciennes ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Plusieurs travaux ont montr\u00e9 que sous l\u2019influence d\u2019un traitement hormonal substitutif, le risque de voir les anciennes l\u00e9sions d\u2019endom\u00e9triose se r\u00e9activer \u00e9tait possible, notamment lorsque le THS ne contient que des \u0153strog\u00e8nes. Ce risque a \u00e9t\u00e9 \u00e9valu\u00e9 \u00e0 5 % par une \u00e9tude Tha\u00eflandaise. \u00bb*",
+      "text": "\u00ab Plusieurs travaux ont montr\u00e9 que sous l\u2019influence d\u2019un traitement hormonal substitutif, le risque de voir les anciennes l\u00e9sions d\u2019endom\u00e9triose se r\u00e9activer \u00e9tait possible, notamment lorsque le THS ne contient que des \u0153strog\u00e8nes. Ce risque a \u00e9t\u00e9 \u00e9valu\u00e9 \u00e0 5 % par une \u00e9tude Tha\u00eflandaise. \u00bb*"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019int\u00e9r\u00eat d\u2019un THS, son choix et sa mise en place sont \u00e0 \u00e9tudier avec votre m\u00e9decin. Le THS pr\u00e9serve des risques li\u00e9s \u00e0 la m\u00e9nopause naturelle : risque cardio-vasculaire, ost\u00e9oporose, d\u00e9sagr\u00e9ments \u00ab climatiques \u00bb (bouff\u00e9es de chaleur), variations d\u2019humeur.",
+      "text": "L\u2019int\u00e9r\u00eat d\u2019un THS, son choix et sa mise en place sont \u00e0 \u00e9tudier avec votre m\u00e9decin. Le THS pr\u00e9serve des risques li\u00e9s \u00e0 la m\u00e9nopause naturelle : risque cardio-vasculaire, ost\u00e9oporose, d\u00e9sagr\u00e9ments \u00ab climatiques \u00bb (bouff\u00e9es de chaleur), variations d\u2019humeur."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plus la m\u00e9nopause arrive t\u00f4t plus, plus ces risques sont \u00e0 prendre en consid\u00e9ration.",
+      "text": "Plus la m\u00e9nopause arrive t\u00f4t plus, plus ces risques sont \u00e0 prendre en consid\u00e9ration."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toute r\u00e9cidive des sympt\u00f4mes apr\u00e8s la m\u00e9nopause doit alerter et n\u00e9cessite un dialogue avec son m\u00e9decin.",
+      "text": "Toute r\u00e9cidive des sympt\u00f4mes apr\u00e8s la m\u00e9nopause doit alerter et n\u00e9cessite un dialogue avec son m\u00e9decin.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

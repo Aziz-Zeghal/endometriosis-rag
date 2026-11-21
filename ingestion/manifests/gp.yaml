@@ -48,8 +48,26 @@
   format: pdf
   licence: has-reuse-with-attribution
 
-# Disabled: Europe PMC (and PMC) put the article behind a browser challenge, so HttpConnector
-# gets a 403. Fetchable alternatives need an owner decision, see docs/sources.md.
+# HAS position on the Endotest salivary test (indications for clinicians).
+- id: has-endotest-evaluation
+  url: https://has-sante.fr/jcms/p_3486036/fr/evaluation-du-test-salivaire-endotest-dans-les-situations-complexes-de-diagnostic-d-endometriose
+  source: HAS
+  title: "Évaluation du test salivaire Endotest® dans les situations complexes de diagnostic d'endométriose"
+  published: 2024-04-24
+  audience: gp
+  format: html
+  licence: has-reuse-with-attribution
+
+# HAS contraception fiche mémo: prescribing the hormonal methods used first line for pain.
+- id: has-fiche-memo-contraception
+  url: https://has-sante.fr/upload/docs/application/pdf/2015-02/1e_maj_contraceptionfadulte-procreer-060215.pdf
+  source: HAS
+  title: "Fiche mémo – Contraception chez la femme adulte et l'adolescente en âge de procréer (hors post-partum et post-IVG)"
+  published: 2019-07-01
+  audience: gp
+  format: pdf
+  licence: has-reuse-with-attribution
+
 # The article page is behind a bot challenge; the same CC BY-NC article is fetched as JATS
 # XML from the Europe PMC REST API, and citations link to the article page.
 - id: eshre-guideline-2022
@@ -72,6 +90,15 @@
   format: pdf
   licence: all-rights-reserved
 
+- id: endomind-fiche-comportements
+  url: https://www.sante.fr/sites/default/files/2025-09/ENDOM%C3%89TRIOSE%20FICHE%20REFLEXE%202%20-%20LES%20COMPORTEMENTS%20QUI%20ALERTENT.pdf
+  source: ENDOmind France
+  title: "Endométriose, fiche réflexe 2 : les comportements qui alertent"
+  published: 2025-09-01
+  audience: gp
+  format: pdf
+  licence: all-rights-reserved
+
 - id: endomind-fiche-ressources
   url: https://www.sante.fr/sites/default/files/2025-09/ENDOM%C3%89TRIOSE%20FICHE%20REFLEXE%203%20-%20LES%20RESSOURCES%20POUR%20ACCOMPAGNEMENT%20ET%20UNE%20PRISE%20EN%20CHARGE%20DE%20L%27ENDOMETRIOSE.pdf
   source: ENDOmind France
@@ -80,3 +107,13 @@
   audience: gp
   format: pdf
   licence: all-rights-reserved
+
+# ANSM (reuse with attribution): progestins and meningioma risk, prescriber rules.
+- id: ansm-progestatifs-meningiome
+  url: https://ansm.sante.fr/actualites/progestatifs-et-risque-de-meningiome-recommandations-pour-limiter-ce-risque
+  source: ANSM
+  title: "Progestatifs et risque de méningiome : recommandations pour limiter ce risque"
+  published: 2025-06-12
+  audience: gp
+  format: html
+  licence: ansm-reuse-with-attribution

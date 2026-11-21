@@ -1,0 +1,569 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 6859249795846016099,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Troubles urinaires, endom\u00e9triose v\u00e9sicale et ur\u00e9t\u00e9rale",
+      "text": "Troubles urinaires, endom\u00e9triose v\u00e9sicale et ur\u00e9t\u00e9rale"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment se caract\u00e9risent les troubles urinaires li\u00e9s \u00e0 l\u2019endom\u00e9triose ?",
+      "text": "Comment se caract\u00e9risent les troubles urinaires li\u00e9s \u00e0 l'endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019atteinte de la vessie et/ou des uret\u00e8res se produit chez une petite proportion des personnes affect\u00e9es par l\u2019endom\u00e9triose. Malheureusement, cette proportion augmente lorsqu\u2019il s\u2019agit d\u2019endom\u00e9triose profonde (en raison d\u2019une tendance \u00e0 infiltrer les organes autour de l\u2019ut\u00e9rus, dont le syst\u00e8me urinaire). On parle dans ces cas soit d\u2019endom\u00e9triose v\u00e9sicale, quand l\u2019endom\u00e9triose se d\u00e9veloppe au niveau de la vessie, soit d\u2019endom\u00e9triose ur\u00e9t\u00e9rale, quand elle touche les uret\u00e8res (le conduit qui am\u00e8ne l\u2019urine du rein \u00e0 la vessie). Les femmes parlent souvent de sympt\u00f4mes rappelant une infection urinaire, mais avec un examen cytobact\u00e9riologique des urines n\u00e9gatif.",
+      "text": "L'atteinte de la vessie et/ou des uret\u00e8res se produit chez une petite proportion des personnes affect\u00e9es par l'endom\u00e9triose. Malheureusement, cette proportion augmente lorsqu'il s'agit d'endom\u00e9triose profonde (en raison d'une tendance \u00e0 infiltrer les organes autour de l'ut\u00e9rus, dont le syst\u00e8me urinaire). On parle dans ces cas soit d'endom\u00e9triose v\u00e9sicale, quand l'endom\u00e9triose se d\u00e9veloppe au niveau de la vessie, soit d'endom\u00e9triose ur\u00e9t\u00e9rale, quand elle touche les uret\u00e8res (le conduit qui am\u00e8ne l'urine du rein \u00e0 la vessie). Les femmes parlent souvent de sympt\u00f4mes rappelant une infection urinaire, mais avec un examen cytobact\u00e9riologique des urines n\u00e9gatif."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les douleurs urinaires : l\u2019endom\u00e9triose v\u00e9sicale",
+      "text": "Les douleurs urinaires : l'endom\u00e9triose v\u00e9sicale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On parle d\u2019",
+      "text": "On parle d'"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose v\u00e9sicale ",
+      "text": "endom\u00e9triose v\u00e9sicale ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "quand l\u2019endom\u00e9triose se d\u00e9veloppe au niveau de la vessie.",
+      "text": "quand l'endom\u00e9triose se d\u00e9veloppe au niveau de la vessie."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/texts/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit g\u00e9n\u00e9ralement de nodules (l\u00e9sions fibreuses) ayant tendance \u00e0 infiltrer la vessie. Elles entra\u00eenent :",
+      "text": "Il s'agit g\u00e9n\u00e9ralement de nodules (l\u00e9sions fibreuses) ayant tendance \u00e0 infiltrer la vessie. Elles entra\u00eenent :"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des douleurs pelviennes et urinaires",
+      "text": "Des douleurs pelviennes et urinaires",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des dysuries (difficult\u00e9s pour vider la vessie)",
+      "text": "Des dysuries (difficult\u00e9s pour vider la vessie)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une pollakiurie (envie fr\u00e9quente d\u2019uriner)",
+      "text": "Une pollakiurie (envie fr\u00e9quente d'uriner)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La pr\u00e9sence parfois de sang dans les urines",
+      "text": "La pr\u00e9sence parfois de sang dans les urines",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les femmes parlent souvent de ",
+      "text": "Les femmes parlent souvent de "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sympt\u00f4mes rappelant l\u2019infection urinaire ",
+      "text": "sympt\u00f4mes rappelant l'infection urinaire ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "mais avec un examen cytobact\u00e9riologique des urines (ECBU) n\u00e9gatif.",
+      "text": "mais avec un examen cytobact\u00e9riologique des urines (ECBU) n\u00e9gatif."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        },
+        {
+          "$ref": "#/groups/4"
+        },
+        {
+          "$ref": "#/groups/5"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les douleurs urinaires : l\u2019endom\u00e9triose ur\u00e9t\u00e9rale",
+      "text": "Les douleurs urinaires : l'endom\u00e9triose ur\u00e9t\u00e9rale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On parle aussi souvent d\u2019",
+      "text": "On parle aussi souvent d'"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose ur\u00e9t\u00e9rale ",
+      "text": "endom\u00e9triose ur\u00e9t\u00e9rale ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ": l\u2019endom\u00e9triose englobe, \u00e9trangle ou infiltre les uret\u00e8res (canaux qui conduisent l\u2019urine des reins, o\u00f9 elle est fabriqu\u00e9e, vers la vessie), g\u00e9n\u00e9ralement sous forme de nodules. Le risque principal est que la lumi\u00e8re des uret\u00e8res soit retr\u00e9cie par l\u2019endom\u00e9triose, que les urines s\u2019accumulent en amont de l\u2019obstacle, entrainant une hyper pression dans le rein et son atrophie \u00e0 bas bruit.",
+      "text": ": l'endom\u00e9triose englobe, \u00e9trangle ou infiltre les uret\u00e8res (canaux qui conduisent l'urine des reins, o\u00f9 elle est fabriqu\u00e9e, vers la vessie), g\u00e9n\u00e9ralement sous forme de nodules. Le risque principal est que la lumi\u00e8re des uret\u00e8res soit retr\u00e9cie par l'endom\u00e9triose, que les urines s'accumulent en amont de l'obstacle, entrainant une hyper pression dans le rein et son atrophie \u00e0 bas bruit."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le ",
+      "text": "Le "
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "traitement est aussi chirurgical",
+      "text": "traitement est aussi chirurgical",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://www.endofrance.org/la-maladie-endometriose/traitements-endometriose/"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". ",
+      "text": ". ",
+      "hyperlink": "https://www.endofrance.org/la-maladie-endometriose/traitements-endometriose/"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Quand la chirurgie est d\u00e9cid\u00e9e, elle doit \u00eatre men\u00e9e par des experts travaillant avec des \u00e9quipes pluridisciplinaires (urologue, chirurgien gyn\u00e9cologue) connaissant la maladie.",
+      "text": "Quand la chirurgie est d\u00e9cid\u00e9e, elle doit \u00eatre men\u00e9e par des experts travaillant avec des \u00e9quipes pluridisciplinaires (urologue, chirurgien gyn\u00e9cologue) connaissant la maladie."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette forme d\u2019endom\u00e9triose impacte fortement la ",
+      "text": "Cette forme d'endom\u00e9triose impacte fortement la "
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "qualit\u00e9 de vie des femmes atteintes",
+      "text": "qualit\u00e9 de vie des femmes atteintes",
+      "hyperlink": "https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/fatigue-chronique/"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les complications \u00e9ventuelles de la chirurgie (mise en place de sonde transitoire ou d\u00e9finitive, sonde JJ, \u2026) doivent \u00eatre discut\u00e9es avec le chirurgien en amont.",
+      "text": "Les complications \u00e9ventuelles de la chirurgie (mise en place de sonde transitoire ou d\u00e9finitive, sonde JJ, ...) doivent \u00eatre discut\u00e9es avec le chirurgien en amont."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

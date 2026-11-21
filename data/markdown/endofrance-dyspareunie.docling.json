@@ -1,0 +1,887 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 9516141426567858116,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/4"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "La dyspareunie : des douleurs lors des rapports sexuels",
+      "text": "La dyspareunie : des douleurs lors des rapports sexuels"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dyspareunie : d\u00e9signe les douleurs ressenties pendant et apr\u00e8s les rapports sexuels.",
+      "text": "Dyspareunie : d\u00e9signe les douleurs ressenties pendant et apr\u00e8s les rapports sexuels.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le cadre d\u2019une endom\u00e9triose, on parle souvent de dyspareunie profonde (douleur ressentie au niveau du bas ventre, lors de rapports sexuels avec p\u00e9n\u00e9tration, suite au contact entre la verge et le fond du vagin). Les dyspareunies t\u00e9moignent de l\u00e9sions situ\u00e9es pr\u00e8s du vagin et au niveau de la cloison recto-vaginale, mais elles peuvent \u00eatre \u00e9galement le r\u00e9sultat de l\u2019inflammation qui accompagne une endom\u00e9triose superficielle localis\u00e9e en regard du fond vaginal, ou celui d\u2019une\u00a0",
+      "text": "Dans le cadre d\u2019une endom\u00e9triose, on parle souvent de dyspareunie profonde (douleur ressentie au niveau du bas ventre, lors de rapports sexuels avec p\u00e9n\u00e9tration, suite au contact entre la verge et le fond du vagin). Les dyspareunies t\u00e9moignent de l\u00e9sions situ\u00e9es pr\u00e8s du vagin et au niveau de la cloison recto-vaginale, mais elles peuvent \u00eatre \u00e9galement le r\u00e9sultat de l\u2019inflammation qui accompagne une endom\u00e9triose superficielle localis\u00e9e en regard du fond vaginal, ou celui d\u2019une\u00a0"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ad\u00e9nomyose",
+      "text": "ad\u00e9nomyose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0s\u00e9v\u00e8re. Ce sympt\u00f4me est fr\u00e9quemment rencontr\u00e9 dans l\u2019endom\u00e9triose.",
+      "text": "\u00a0s\u00e9v\u00e8re. Ce sympt\u00f4me est fr\u00e9quemment rencontr\u00e9 dans l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est dans la sph\u00e8re de l\u2019intimit\u00e9 que de nombreux sympt\u00f4mes pouvant orienter vers une endom\u00e9triose peuvent \u00eatre observ\u00e9s. C\u2019est notamment le cas des douleurs ressenties pendant et apr\u00e8s les rapports sexuels avec p\u00e9n\u00e9tration, aussi appel\u00e9es dyspareunies*.",
+      "text": "C\u2019est dans la sph\u00e8re de l\u2019intimit\u00e9 que de nombreux sympt\u00f4mes pouvant orienter vers une endom\u00e9triose peuvent \u00eatre observ\u00e9s. C\u2019est notamment le cas des douleurs ressenties pendant et apr\u00e8s les rapports sexuels avec p\u00e9n\u00e9tration, aussi appel\u00e9es dyspareunies*."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "D\u2019une simple g\u00eane \u00e0 l\u2019impossibilit\u00e9 d\u2019avoir des rapports sexuels",
+      "text": "D\u2019une simple g\u00eane \u00e0 l\u2019impossibilit\u00e9 d\u2019avoir des rapports sexuels",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La jeune femme \u00e9prouvant des ",
+      "text": "La jeune femme \u00e9prouvant des "
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dyspareunies",
+      "text": "dyspareunies",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " se verra souvent confront\u00e9e \u00e0 la solitude de son syndrome, aggrav\u00e9e par le manque de consid\u00e9ration fr\u00e9quent du monde m\u00e9dical. Aussi ce sympt\u00f4me retrouv\u00e9 tr\u00e8s fr\u00e9quemment dans l\u2019endom\u00e9triose sera longtemps non avou\u00e9, participant sans doute au retard de diagnostique de cette pathologie. Bien souvent associ\u00e9es \u00e0 d\u2019autres plaintes, les dyspareunies peuvent \u00eatre variables, d\u2019une simple g\u00eane \u00e0 une impossibilit\u00e9 d\u2019avoir des relations sexuelles. Elles peuvent d\u00e9buter d\u00e8s les premiers rapports ou apparaitre bien plus tard dans la vie de la femme. En cas de d\u00e9gradation majeure de la qualit\u00e9 de vie, ce handicap peut-\u00eatre \u00e0 l\u2019origine d\u2019une infertilit\u00e9.",
+      "text": " se verra souvent confront\u00e9e \u00e0 la solitude de son syndrome, aggrav\u00e9e par le manque de consid\u00e9ration fr\u00e9quent du monde m\u00e9dical. Aussi ce sympt\u00f4me retrouv\u00e9 tr\u00e8s fr\u00e9quemment dans l\u2019endom\u00e9triose sera longtemps non avou\u00e9, participant sans doute au retard de diagnostique de cette pathologie. Bien souvent associ\u00e9es \u00e0 d\u2019autres plaintes, les dyspareunies peuvent \u00eatre variables, d\u2019une simple g\u00eane \u00e0 une impossibilit\u00e9 d\u2019avoir des relations sexuelles. Elles peuvent d\u00e9buter d\u00e8s les premiers rapports ou apparaitre bien plus tard dans la vie de la femme. En cas de d\u00e9gradation majeure de la qualit\u00e9 de vie, ce handicap peut-\u00eatre \u00e0 l\u2019origine d\u2019une infertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Avec les r\u00e8gles douloureuses, les rapports sexuels douloureux doivent aiguiller le m\u00e9decin vers la recherche d\u2019une endom\u00e9triose par un examen clinique soigneux, cherchant \u00e0 reproduire cette douleur de fa\u00e7on fugace.",
+      "text": "Avec les r\u00e8gles douloureuses, les rapports sexuels douloureux doivent aiguiller le m\u00e9decin vers la recherche d\u2019une endom\u00e9triose par un examen clinique soigneux, cherchant \u00e0 reproduire cette douleur de fa\u00e7on fugace."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette recherche minutieuse d\u2019une endom\u00e9triose le plus souvent du fond vaginal et/ou ut\u00e9rin permettra d\u2019orienter le radiologue pour affiner la localisation d\u2019une probable l\u00e9sion. Dans cette situation, la plainte \u00e9voqu\u00e9e par la patiente, le sympt\u00f4me recherch\u00e9 par le m\u00e9decin devra aboutir \u00e0 des investigations permettant de s\u2019orienter fortement ou non vers une endom\u00e9triose.",
+      "text": "Cette recherche minutieuse d\u2019une endom\u00e9triose le plus souvent du fond vaginal et/ou ut\u00e9rin permettra d\u2019orienter le radiologue pour affiner la localisation d\u2019une probable l\u00e9sion. Dans cette situation, la plainte \u00e9voqu\u00e9e par la patiente, le sympt\u00f4me recherch\u00e9 par le m\u00e9decin devra aboutir \u00e0 des investigations permettant de s\u2019orienter fortement ou non vers une endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Extrait de\u00a0\u00ab\u00a0L\u2019endom\u00e9triose, c\u2019est juste des douleurs de r\u00e8gles\u00a0\u00bb\u00a0par le Dr Jean-Philippe Estrade  dans",
+      "text": "Extrait de\u00a0\u00ab\u00a0L\u2019endom\u00e9triose, c\u2019est juste des douleurs de r\u00e8gles\u00a0\u00bb\u00a0par le Dr Jean-Philippe Estrade  dans",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab",
+      "text": "\u00ab",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les id",
+      "text": "Les id",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e9",
+      "text": "\u00e9",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "es re",
+      "text": "es re",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e7",
+      "text": "\u00e7",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ues contre l",
+      "text": "ues contre l",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2019",
+      "text": "\u2019",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom",
+      "text": "endom",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e9",
+      "text": "\u00e9",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "triose",
+      "text": "triose",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00bb",
+      "text": "\u00bb",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "paru en janvier 2018.",
+      "text": "paru en janvier 2018.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les autre sympt\u00f4mes\u00a0(signes digestifs, urinaires, douleurs pelviennes\u2026) seront \u00e9galement \u00e0 prendre en compte.",
+      "text": "Les autre sympt\u00f4mes\u00a0(signes digestifs, urinaires, douleurs pelviennes\u2026) seront \u00e9galement \u00e0 prendre en compte.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Oser en parler",
+      "text": "Oser en parler",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La\u00a0",
+      "text": "La\u00a0"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dyspareunie constitue un des sympt\u00f4mes permettant le diagnostic de l\u2019endom\u00e9triose",
+      "text": "dyspareunie constitue un des sympt\u00f4mes permettant le diagnostic de l\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". C\u2019est pourquoi il est important d\u2019en parler au m\u00e9decin en consultation.",
+      "text": ". C\u2019est pourquoi il est important d\u2019en parler au m\u00e9decin en consultation."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Souvent, parce qu\u2019elle craint d\u2019avoir mal, la femme se contracte inconsciemment, rendant impossible toute p\u00e9n\u00e9tration. Un m\u00e9decin peu attentif pourrait diagnostiquer un \u00ab vaginisme \u00bb (contraction musculaire prolong\u00e9e ou r\u00e9currente des muscles du plancher pelvien qui entourent l\u2019ouverture du vagin) et qualifier cette douleur de \u00ab psychologique \u00bb\u2026 Sans chercher \u00e0 comprendre que la douleur dite \u00ab balistique \u00bb vient du fait que dans certaines positions, la verge appuie sur un nodule d\u2019endom\u00e9triose profonde.",
+      "text": "Souvent, parce qu\u2019elle craint d\u2019avoir mal, la femme se contracte inconsciemment, rendant impossible toute p\u00e9n\u00e9tration. Un m\u00e9decin peu attentif pourrait diagnostiquer un \u00ab vaginisme \u00bb (contraction musculaire prolong\u00e9e ou r\u00e9currente des muscles du plancher pelvien qui entourent l\u2019ouverture du vagin) et qualifier cette douleur de \u00ab psychologique \u00bb\u2026 Sans chercher \u00e0 comprendre que la douleur dite \u00ab balistique \u00bb vient du fait que dans certaines positions, la verge appuie sur un nodule d\u2019endom\u00e9triose profonde."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour ne pas ab\u00eemer sa relation de couple, il est important d\u2019en parler \u00e9galement \u00e0 son conjoint afin de trouver des solutions pour pr\u00e9server sa vie intime. Des sexologues peuvent \u00eatre de bons conseils.\u00a0",
+      "text": "Pour ne pas ab\u00eemer sa relation de couple, il est important d\u2019en parler \u00e9galement \u00e0 son conjoint afin de trouver des solutions pour pr\u00e9server sa vie intime. Des sexologues peuvent \u00eatre de bons conseils.\u00a0"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les b\u00e9n\u00e9voles r\u00e9gionales EndoFrance",
+      "text": "Les b\u00e9n\u00e9voles r\u00e9gionales EndoFrance",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " peuvent vous orienter.",
+      "text": " peuvent vous orienter."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "My S LIFE",
+      "text": "My S LIFE"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Guide pour vivre une sexualit\u00e9 apais\u00e9e malgr\u00e9 l\u2019endom\u00e9triose",
+      "text": "Guide pour vivre une sexualit\u00e9 apais\u00e9e malgr\u00e9 l\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019acc\u00e8s \u00e0 une sexualit\u00e9 \u00e9clair\u00e9e et apais\u00e9e est un droit pour tout.e.s. Voici donc un guide qui vous permettra de mieux vivre votre sexualit\u00e9 malgr\u00e9 la maladie. Livre r\u00e9dig\u00e9 par l\u2019\u00e9quipe de My S life.",
+      "text": "L\u2019acc\u00e8s \u00e0 une sexualit\u00e9 \u00e9clair\u00e9e et apais\u00e9e est un droit pour tout.e.s. Voici donc un guide qui vous permettra de mieux vivre votre sexualit\u00e9 malgr\u00e9 la maladie. Livre r\u00e9dig\u00e9 par l\u2019\u00e9quipe de My S life."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment l'endom\u00e9triose impacte la vie intime et affective ?",
+      "text": "Comment l'endom\u00e9triose impacte la vie intime et affective ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Enqu\u00eate r\u00e9alis\u00e9e en collaboration avec My S life \u00e0 t\u00e9l\u00e9charger.",
+      "text": "Enqu\u00eate r\u00e9alis\u00e9e en collaboration avec My S life \u00e0 t\u00e9l\u00e9charger."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose : une sexualit\u00e9 boulevers\u00e9e",
+      "text": "Endom\u00e9triose : une sexualit\u00e9 boulevers\u00e9e",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019\u00e9mission Grands Reportages de France Culture interroge le Dr Merlot, une sexologue et des couples et Yasmine Candau, pr\u00e9sidente de l\u2019association.",
+      "text": "L\u2019\u00e9mission Grands Reportages de France Culture interroge le Dr Merlot, une sexologue et des couples et Yasmine Candau, pr\u00e9sidente de l\u2019association."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose : table ronde endom\u00e9triose et sexualit\u00e9",
+      "text": "Endom\u00e9triose : table ronde endom\u00e9triose et sexualit\u00e9",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Yasmine Candau, pr\u00e9sidente de l\u2019association, invite Juliette Mauro, fondatrice de My S Life et Isabelle Gac\u00e9, sexologue.",
+      "text": "Yasmine Candau, pr\u00e9sidente de l\u2019association, invite Juliette Mauro, fondatrice de My S Life et Isabelle Gac\u00e9, sexologue."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

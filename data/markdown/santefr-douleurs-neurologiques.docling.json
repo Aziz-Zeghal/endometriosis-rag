@@ -1,0 +1,612 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1509139176589889470,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Sympt\u00f4mes de l\u2019endom\u00e9triose : les douleurs neurologiques",
+      "text": "Sympt\u00f4mes de l\u2019endom\u00e9triose : les douleurs neurologiques"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 03/03/2025",
+      "text": "Publi\u00e9 le 03/03/2025"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parmi les organes dont le fonctionnement peut \u00eatre perturb\u00e9 par des l\u00e9sions d\u2019endom\u00e9triose figurent les nerfs qui cheminent dans la cavit\u00e9 abdominale et pelvienne. Lorsque c\u2019est le cas, des douleurs particuli\u00e8res apparaissent, en particulier dans une jambe ou entre la vulve et l\u2019anus. Plus intenses pendant les r\u00e8gles, ces douleurs ont tendance \u00e0 devenir chroniques et \u00e0 \u00eatre invalidantes tout au long du cycle menstruel. Ces douleurs dites \u00ab neuropathiques \u00bb peuvent aiguiller vers un diagnostic initial d\u2019endom\u00e9triose car elles sont habituellement rares chez les jeunes femmes. Des traitements existent pour les soulager, traitements g\u00e9n\u00e9raux de l\u2019endom\u00e9triose et traitements sp\u00e9cifiques de ces troubles du fonctionnement des nerfs.",
+      "text": "Parmi les organes dont le fonctionnement peut \u00eatre perturb\u00e9 par des l\u00e9sions d\u2019endom\u00e9triose figurent les nerfs qui cheminent dans la cavit\u00e9 abdominale et pelvienne. Lorsque c\u2019est le cas, des douleurs particuli\u00e8res apparaissent, en particulier dans une jambe ou entre la vulve et l\u2019anus. Plus intenses pendant les r\u00e8gles, ces douleurs ont tendance \u00e0 devenir chroniques et \u00e0 \u00eatre invalidantes tout au long du cycle menstruel. Ces douleurs dites \u00ab neuropathiques \u00bb peuvent aiguiller vers un diagnostic initial d\u2019endom\u00e9triose car elles sont habituellement rares chez les jeunes femmes. Des traitements existent pour les soulager, traitements g\u00e9n\u00e9raux de l\u2019endom\u00e9triose et traitements sp\u00e9cifiques de ces troubles du fonctionnement des nerfs."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qu\u2019appelle-t-on neuropathies ?",
+      "text": "Qu\u2019appelle-t-on neuropathies ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les neuropathies se manifestent, sur le trajet d\u2019un nerf, par des sensations d'engourdissement, de fourmillement, de ruissellement, de picotement, de br\u00fblure, voire de d\u00e9charge \u00e9lectrique, parfois douloureuses. Dans certains cas, par exemple lors de douleur sciatique (douleur dans une jambe) qui persiste plus de 3 mois, les neuropathies sont \u00e0 l\u2019origine de douleurs chroniques invalidantes. Elles rel\u00e8vent ainsi d'une prise en charge sp\u00e9cifique.",
+      "text": "Les neuropathies se manifestent, sur le trajet d\u2019un nerf, par des sensations d'engourdissement, de fourmillement, de ruissellement, de picotement, de br\u00fblure, voire de d\u00e9charge \u00e9lectrique, parfois douloureuses. Dans certains cas, par exemple lors de douleur sciatique (douleur dans une jambe) qui persiste plus de 3 mois, les neuropathies sont \u00e0 l\u2019origine de douleurs chroniques invalidantes. Elles rel\u00e8vent ainsi d'une prise en charge sp\u00e9cifique."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les neuropathies sont l\u2019expression de la souffrance prolong\u00e9e d\u2019un nerf, le plus souvent lors de compression persistante, mais aussi d\u2019inflammation chronique, ou sous l\u2019effet de certains m\u00e9dicaments, par exemple les chimioth\u00e9rapies contre le cancer.",
+      "text": "Les neuropathies sont l\u2019expression de la souffrance prolong\u00e9e d\u2019un nerf, le plus souvent lors de compression persistante, mais aussi d\u2019inflammation chronique, ou sous l\u2019effet de certains m\u00e9dicaments, par exemple les chimioth\u00e9rapies contre le cancer."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le contexte de l\u2019endom\u00e9triose, les neuropathies sont rares. Elles surviennent, entre autres, lorsque des l\u00e9sions d\u2019endom\u00e9triose se fixent sur les nerfs qui passent dans le bassin et vont innerver les jambes, le p\u00e9rin\u00e9e ou la vessie. L\u2019inflammation ou la compression des fibres nerveuses est alors \u00e0 l\u2019origine de perte de sensation ou de sensations particuli\u00e8res, voire de douleur chronique. Les fibres nerveuses en elles-m\u00eames ne pr\u00e9sentent pas de l\u00e9sions. On parle \u00e9galement de douleurs nociplastiques.",
+      "text": "Dans le contexte de l\u2019endom\u00e9triose, les neuropathies sont rares. Elles surviennent, entre autres, lorsque des l\u00e9sions d\u2019endom\u00e9triose se fixent sur les nerfs qui passent dans le bassin et vont innerver les jambes, le p\u00e9rin\u00e9e ou la vessie. L\u2019inflammation ou la compression des fibres nerveuses est alors \u00e0 l\u2019origine de perte de sensation ou de sensations particuli\u00e8res, voire de douleur chronique. Les fibres nerveuses en elles-m\u00eames ne pr\u00e9sentent pas de l\u00e9sions. On parle \u00e9galement de douleurs nociplastiques."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pourquoi observe-t-on des neuropathies lors d\u2019endom\u00e9triose ?",
+      "text": "Pourquoi observe-t-on des neuropathies lors d\u2019endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les experts de l\u2019endom\u00e9triose ont observ\u00e9 que les l\u00e9sions d\u2019endom\u00e9triose ont tendance \u00e0 se fixer le long des nerfs qui traversent la cavit\u00e9 abdominale. Les nerfs concern\u00e9s sont les nerfs pudendaux (qui innervent la vulve, le p\u00e9rin\u00e9e et l\u2019anus), les nerfs sciatiques (qui innervent les jambes) et les nerfs qui commandent la vessie. Ces nerfs \u00e9mergent de la colonne vert\u00e9brale et passent par l\u2019abdomen en chemin vers les organes qu\u2019ils innervent.",
+      "text": "Les experts de l\u2019endom\u00e9triose ont observ\u00e9 que les l\u00e9sions d\u2019endom\u00e9triose ont tendance \u00e0 se fixer le long des nerfs qui traversent la cavit\u00e9 abdominale. Les nerfs concern\u00e9s sont les nerfs pudendaux (qui innervent la vulve, le p\u00e9rin\u00e9e et l\u2019anus), les nerfs sciatiques (qui innervent les jambes) et les nerfs qui commandent la vessie. Ces nerfs \u00e9mergent de la colonne vert\u00e9brale et passent par l\u2019abdomen en chemin vers les organes qu\u2019ils innervent."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comme les autres types de douleur observ\u00e9s lors d\u2019endom\u00e9triose, les neuropathies dues \u00e0 cette maladie ont tendance \u00e0 appara\u00eetre ou \u00e0 \u00eatre plus intenses pendant la p\u00e9riode des r\u00e8gles. Mais elles peuvent s'av\u00e9rer invalidantes en permanence.",
+      "text": "Comme les autres types de douleur observ\u00e9s lors d\u2019endom\u00e9triose, les neuropathies dues \u00e0 cette maladie ont tendance \u00e0 appara\u00eetre ou \u00e0 \u00eatre plus intenses pendant la p\u00e9riode des r\u00e8gles. Mais elles peuvent s'av\u00e9rer invalidantes en permanence."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les neuropathies (n\u00e9vralgies) pudendales lors d\u2019endom\u00e9triose",
+      "text": "Les neuropathies (n\u00e9vralgies) pudendales lors d\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les l\u00e9sions d\u2019endom\u00e9triose peuvent \u00eatre la cause de n\u00e9vralgie pudendale. Lorsque ce nerf est le si\u00e8ge de l\u00e9sions d\u2019endom\u00e9triose, diverses douleurs peuvent \u00eatre ressenties :",
+      "text": "Les l\u00e9sions d\u2019endom\u00e9triose peuvent \u00eatre la cause de n\u00e9vralgie pudendale. Lorsque ce nerf est le si\u00e8ge de l\u00e9sions d\u2019endom\u00e9triose, diverses douleurs peuvent \u00eatre ressenties :"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs, superficielles ou profondes, qui vont de l\u2019anus au clitoris ;",
+      "text": "des douleurs, superficielles ou profondes, qui vont de l\u2019anus au clitoris ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs aggrav\u00e9es par la position assise, sauf sur les toilettes (car il n\u2019y a pas de pression au niveau du p\u00e9rin\u00e9e) ;",
+      "text": "des douleurs aggrav\u00e9es par la position assise, sauf sur les toilettes (car il n\u2019y a pas de pression au niveau du p\u00e9rin\u00e9e) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs plus intenses d\u2019un c\u00f4t\u00e9 du p\u00e9rin\u00e9e et de la vulve, et qui ont tendance \u00e0 empirer au cours de la journ\u00e9e ;",
+      "text": "des douleurs plus intenses d\u2019un c\u00f4t\u00e9 du p\u00e9rin\u00e9e et de la vulve, et qui ont tendance \u00e0 empirer au cours de la journ\u00e9e ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs d\u00e9clench\u00e9es par la d\u00e9f\u00e9cation ;",
+      "text": "des douleurs d\u00e9clench\u00e9es par la d\u00e9f\u00e9cation ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs d\u00e9clench\u00e9es par les relations sexuelles ;",
+      "text": "des douleurs d\u00e9clench\u00e9es par les relations sexuelles ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une sensation de corps \u00e9tranger dans le vagin ;",
+      "text": "une sensation de corps \u00e9tranger dans le vagin ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une intol\u00e9rance au contact des v\u00eatements sur la peau de la vulve ou du p\u00e9rin\u00e9e.",
+      "text": "une intol\u00e9rance au contact des v\u00eatements sur la peau de la vulve ou du p\u00e9rin\u00e9e.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De nouveau, ces douleurs sont plus intenses pendant les r\u00e8gles mais peuvent persister tout au long du cycle menstruel. Le diagnostic des neuropathies pudendales repose sur la clinique et peut \u00eatre compl\u00e9t\u00e9 par des examens \u00e9lectrophysiologiques (qui \u00e9valuent le fonctionnement des nerfs) et sur l\u2019IRM (pour identifier des l\u00e9sions sur ces nerfs).",
+      "text": "De nouveau, ces douleurs sont plus intenses pendant les r\u00e8gles mais peuvent persister tout au long du cycle menstruel. Le diagnostic des neuropathies pudendales repose sur la clinique et peut \u00eatre compl\u00e9t\u00e9 par des examens \u00e9lectrophysiologiques (qui \u00e9valuent le fonctionnement des nerfs) et sur l\u2019IRM (pour identifier des l\u00e9sions sur ces nerfs)."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les neuropathies sciatiques (sciatalgies ou douleurs de la jambe) lors d\u2019endom\u00e9triose",
+      "text": "Les neuropathies sciatiques (sciatalgies ou douleurs de la jambe) lors d\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsqu\u2019un nerf sciatique devient le site de l\u00e9sions d\u2019endom\u00e9triose, des douleurs se font sentir dans une jambe. Selon la partie du nerf qui est affect\u00e9e par les l\u00e9sions, ces douleurs de jambe peuvent toucher la fesse, la cuisse, le mollet ou le pied. Elles sont aggrav\u00e9es lors des r\u00e8gles mais peuvent devenir permanentes si elles ne sont pas prises en charge. Elles ressemblent aux douleurs sciatiques \u00ab classiques \u00bb ce qui peut retarder le diagnostic de leur cause li\u00e9e \u00e0 l'endom\u00e9triose.",
+      "text": "Lorsqu\u2019un nerf sciatique devient le site de l\u00e9sions d\u2019endom\u00e9triose, des douleurs se font sentir dans une jambe. Selon la partie du nerf qui est affect\u00e9e par les l\u00e9sions, ces douleurs de jambe peuvent toucher la fesse, la cuisse, le mollet ou le pied. Elles sont aggrav\u00e9es lors des r\u00e8gles mais peuvent devenir permanentes si elles ne sont pas prises en charge. Elles ressemblent aux douleurs sciatiques \u00ab classiques \u00bb ce qui peut retarder le diagnostic de leur cause li\u00e9e \u00e0 l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le plus souvent, les l\u00e9sions qui touchent le nerf sciatique et affectent la jambe se trouvent dans un repli du p\u00e9ritoine situ\u00e9 derri\u00e8re les ovaires. Un examen par r\u00e9sonance magn\u00e9tique (IRM) est n\u00e9cessaire pour visualiser ces l\u00e9sions (et \u00e9liminer la possibilit\u00e9 de probl\u00e8mes au niveau des vert\u00e8bres comme cela est le cas pour les douleurs de jambe \u00ab classiques \u00bb).",
+      "text": "Le plus souvent, les l\u00e9sions qui touchent le nerf sciatique et affectent la jambe se trouvent dans un repli du p\u00e9ritoine situ\u00e9 derri\u00e8re les ovaires. Un examen par r\u00e9sonance magn\u00e9tique (IRM) est n\u00e9cessaire pour visualiser ces l\u00e9sions (et \u00e9liminer la possibilit\u00e9 de probl\u00e8mes au niveau des vert\u00e8bres comme cela est le cas pour les douleurs de jambe \u00ab classiques \u00bb)."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les troubles de l\u2019\u00e9mission d\u2019urines li\u00e9s aux neuropathies",
+      "text": "Les troubles de l\u2019\u00e9mission d\u2019urines li\u00e9s aux neuropathies",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans certains cas, les l\u00e9sions d\u2019endom\u00e9triose se fixent sur une zone de croisement des nerfs appel\u00e9e \u00ab plexus hypogastrique inf\u00e9rieur \u00bb et qui se trouve \u00e0 proximit\u00e9 des ligaments qui attachent l\u2019ut\u00e9rus \u00e0 la partie dorsale de l\u2019abdomen. Il est alors possible d\u2019observer des signes de neuropathie affectant le fonctionnement de la vessie.",
+      "text": "Dans certains cas, les l\u00e9sions d\u2019endom\u00e9triose se fixent sur une zone de croisement des nerfs appel\u00e9e \u00ab plexus hypogastrique inf\u00e9rieur \u00bb et qui se trouve \u00e0 proximit\u00e9 des ligaments qui attachent l\u2019ut\u00e9rus \u00e0 la partie dorsale de l\u2019abdomen. Il est alors possible d\u2019observer des signes de neuropathie affectant le fonctionnement de la vessie."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de ce type de neuropathie sont la difficult\u00e9 \u00e0 uriner (en particulier \u00e0 vider compl\u00e8tement la vessie) et une perte des sensations de vessie pleine ou vide. La r\u00e9tention d\u2019urines (vidange incompl\u00e8te) est un facteur qui favorise les infections urinaires (cystites). Ce type de sympt\u00f4mes est \u00e9galement parfois observ\u00e9 apr\u00e8s une intervention chirurgicale destin\u00e9e \u00e0 enlever des l\u00e9sions d\u2019endom\u00e9triose situ\u00e9es autour de ou sur la vessie. C\u2019est donc possiblement une complication post op\u00e9ratoire.",
+      "text": "Les sympt\u00f4mes de ce type de neuropathie sont la difficult\u00e9 \u00e0 uriner (en particulier \u00e0 vider compl\u00e8tement la vessie) et une perte des sensations de vessie pleine ou vide. La r\u00e9tention d\u2019urines (vidange incompl\u00e8te) est un facteur qui favorise les infections urinaires (cystites). Ce type de sympt\u00f4mes est \u00e9galement parfois observ\u00e9 apr\u00e8s une intervention chirurgicale destin\u00e9e \u00e0 enlever des l\u00e9sions d\u2019endom\u00e9triose situ\u00e9es autour de ou sur la vessie. C\u2019est donc possiblement une complication post op\u00e9ratoire."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les traitements des neuropathies li\u00e9es \u00e0 l\u2019endom\u00e9triose",
+      "text": "Les traitements des neuropathies li\u00e9es \u00e0 l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le contexte de l\u2019endom\u00e9triose, les m\u00e9dicaments hormonaux habituellement prescrits pour traiter cette maladie contribuent \u00e9galement \u00e0 soulager ces douleurs en pr\u00e9venant les r\u00e8gles et l\u2019inflammation des l\u00e9sions d\u2019endom\u00e9triose \u00e0 ce moment particulier du cycle.",
+      "text": "Dans le contexte de l\u2019endom\u00e9triose, les m\u00e9dicaments hormonaux habituellement prescrits pour traiter cette maladie contribuent \u00e9galement \u00e0 soulager ces douleurs en pr\u00e9venant les r\u00e8gles et l\u2019inflammation des l\u00e9sions d\u2019endom\u00e9triose \u00e0 ce moment particulier du cycle."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les douleurs li\u00e9es aux neuropathies r\u00e9sistent aux traitements habituels de la douleur (antalgiques). Pour les soulager, le m\u00e9decin prescrit plut\u00f4t des antid\u00e9presseurs dits \u00ab tricycliques \u00bb (par exemple l\u2019amitriptyline) ou des m\u00e9dicaments habituellement prescrits contre l\u2019\u00e9pilepsie (pr\u00e9gabaline ou gabapentine).",
+      "text": "Les douleurs li\u00e9es aux neuropathies r\u00e9sistent aux traitements habituels de la douleur (antalgiques). Pour les soulager, le m\u00e9decin prescrit plut\u00f4t des antid\u00e9presseurs dits \u00ab tricycliques \u00bb (par exemple l\u2019amitriptyline) ou des m\u00e9dicaments habituellement prescrits contre l\u2019\u00e9pilepsie (pr\u00e9gabaline ou gabapentine)."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le cas des neuropathies pudendales, il est \u00e9galement possible de pratiquer des infiltrations d\u2019anesth\u00e9sique local (le voisinage du nerf est accessible \u00e0 travers la peau du p\u00e9rin\u00e9e) qui vont anesth\u00e9sier la zone douloureuse.",
+      "text": "Dans le cas des neuropathies pudendales, il est \u00e9galement possible de pratiquer des infiltrations d\u2019anesth\u00e9sique local (le voisinage du nerf est accessible \u00e0 travers la peau du p\u00e9rin\u00e9e) qui vont anesth\u00e9sier la zone douloureuse."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Enfin, il est possible de soulager ces neuropathies par le biais d\u2019une intervention chirurgicale destin\u00e9e \u00e0 enlever les l\u00e9sions responsables du dysfonctionnement du nerf atteint. Ce type de traitement est habituellement efficace.",
+      "text": "Enfin, il est possible de soulager ces neuropathies par le biais d\u2019une intervention chirurgicale destin\u00e9e \u00e0 enlever les l\u00e9sions responsables du dysfonctionnement du nerf atteint. Ce type de traitement est habituellement efficace."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En conclusion",
+      "text": "En conclusion",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", m\u00eame si elles sont rares, les neuropathies li\u00e9es \u00e0 l\u2019endom\u00e9triose peuvent \u00eatre invalidantes. Parfois, elles constituent le sympt\u00f4me douloureux \u00e0 l\u2019origine du diagnostic initial d\u2019endom\u00e9triose, par exemple chez une jeune patiente atteinte de douleurs d\u2019une jambe sans anomalies au niveau de la colonne vert\u00e9brale.",
+      "text": ", m\u00eame si elles sont rares, les neuropathies li\u00e9es \u00e0 l\u2019endom\u00e9triose peuvent \u00eatre invalidantes. Parfois, elles constituent le sympt\u00f4me douloureux \u00e0 l\u2019origine du diagnostic initial d\u2019endom\u00e9triose, par exemple chez une jeune patiente atteinte de douleurs d\u2019une jambe sans anomalies au niveau de la colonne vert\u00e9brale."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

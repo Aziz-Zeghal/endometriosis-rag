@@ -1,0 +1,418 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 11642063655954788270,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Fatigue chronique et qualit\u00e9 de vie li\u00e9e \u00e0 l'endom\u00e9triose",
+      "text": "Fatigue chronique et qualit\u00e9 de vie li\u00e9e \u00e0 l'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La Fatigue chronique, un sympt\u00f4me li\u00e9 \u00e0 l\u2019Endom\u00e9triose",
+      "text": "La Fatigue chronique, un sympt\u00f4me li\u00e9 \u00e0 l'Endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bien souvent, ",
+      "text": "Bien souvent, "
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les femmes atteintes d\u2019endom\u00e9triose souffrent de fatigue chronique",
+      "text": "les femmes atteintes d'endom\u00e9triose souffrent de fatigue chronique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On pourrait expliquer cela simplement : pour g\u00e9rer une douleur forte, r\u00e9guli\u00e8re ou constante, invalidante, la femme puise dans ses \u00ab r\u00e9serves \u00bb. Les r\u00e9veils nocturnes dus aux douleurs ou aux envies fr\u00e9quentes d\u2019uriner ne facilitent pas la r\u00e9cup\u00e9ration. Dans la mesure o\u00f9 l\u2019endom\u00e9triose provoque des sympt\u00f4mes chroniques, il n\u2019y a pas de temps de r\u00e9cup\u00e9ration pour l\u2019organisme, fatigu\u00e9 par la valse des hormones (traitements, m\u00e9nopause artificielle), les effets secondaires de certains m\u00e9dicaments, la convalescence des chirurgies.",
+      "text": "On pourrait expliquer cela simplement : pour g\u00e9rer une douleur forte, r\u00e9guli\u00e8re ou constante, invalidante, la femme puise dans ses \u00ab r\u00e9serves \u00bb. Les r\u00e9veils nocturnes dus aux douleurs ou aux envies fr\u00e9quentes d'uriner ne facilitent pas la r\u00e9cup\u00e9ration. Dans la mesure o\u00f9 l'endom\u00e9triose provoque des sympt\u00f4mes chroniques, il n'y a pas de temps de r\u00e9cup\u00e9ration pour l'organisme, fatigu\u00e9 par la valse des hormones (traitements, m\u00e9nopause artificielle), les effets secondaires de certains m\u00e9dicaments, la convalescence des chirurgies."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Tant que la douleur est l\u00e0, forte et non g\u00e9r\u00e9e, la fatigue s\u2019installe in\u00e9vitablement.",
+      "text": "Tant que la douleur est l\u00e0, forte et non g\u00e9r\u00e9e, la fatigue s'installe in\u00e9vitablement.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 la fatigue chronique induite par la maladie, s\u2019ajoutent l\u2019incompr\u00e9hension de l\u2019entourage qui peut conduire \u00e0 l\u2019isolement et \u00e0 un retrait de la vie sociale, souvent v\u00e9cue comme une stigmatisation, mais aussi le poids des douleurs r\u00e9p\u00e9titives physiques et \u00e9motionnelles.",
+      "text": "\u00c0 la fatigue chronique induite par la maladie, s'ajoutent l'incompr\u00e9hension de l'entourage qui peut conduire \u00e0 l'isolement et \u00e0 un retrait de la vie sociale, souvent v\u00e9cue comme une stigmatisation, mais aussi le poids des douleurs r\u00e9p\u00e9titives physiques et \u00e9motionnelles."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Extrait de Endom\u00e9triose et D\u00e9pression (V. Antoine et U.Combes)\ndans \u00ab Les id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose \u00bb (EndoFrance paru en 2018)",
+      "text": "Extrait de Endom\u00e9triose et D\u00e9pression (V. Antoine et U.Combes)\ndans \u00ab Les id\u00e9es re\u00e7ues sur l'endom\u00e9triose \u00bb (EndoFrance paru en 2018)"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/groups/2"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019Endom\u00e9triose impacte la qualit\u00e9 de vie des femmes",
+      "text": "L'Endom\u00e9triose impacte la qualit\u00e9 de vie des femmes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ainsi la qualit\u00e9 de vie des femmes atteintes d\u2019endom\u00e9triose est fortement impact\u00e9e.",
+      "text": "Ainsi la qualit\u00e9 de vie des femmes atteintes d'endom\u00e9triose est fortement impact\u00e9e.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La majorit\u00e9 des femmes atteintes d\u2019endom\u00e9triose diront que cette maladie est compliqu\u00e9e \u00e0 g\u00e9rer : douleurs fortes, troubles digestifs, urinaires, douleurs durant les rapports et fatigue chronique invalident le quotidien. Elles apprennent \u00e0 vivre en fonction de leur cycle et de leurs douleurs o\u00f9 les incapacit\u00e9s d\u2019agir sont les principaux points de rep\u00e8res et deviennent des crit\u00e8res de d\u00e9cision",
+      "text": "La majorit\u00e9 des femmes atteintes d'endom\u00e9triose diront que cette maladie est compliqu\u00e9e \u00e0 g\u00e9rer : douleurs fortes, troubles digestifs, urinaires, douleurs durant les rapports et fatigue chronique invalident le quotidien. Elles apprennent \u00e0 vivre en fonction de leur cycle et de leurs douleurs o\u00f9 les incapacit\u00e9s d'agir sont les principaux points de rep\u00e8res et deviennent des crit\u00e8res de d\u00e9cision"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Extrait de \u00ab le quotidien avec une maladie chronique telle que l\u2019endom\u00e9triose est difficile \u00bb\ndans \u00ab Les id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose \u00bb (EndoFrance \u2013 paru en 2018)",
+      "text": "Extrait de \u00ab le quotidien avec une maladie chronique telle que l'endom\u00e9triose est difficile \u00bb\ndans \u00ab Les id\u00e9es re\u00e7ues sur l'endom\u00e9triose \u00bb (EndoFrance - paru en 2018)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les sp\u00e9cialistes de l\u2019endom\u00e9triose en sont de plus en plus conscients. Deux des membres de notre comit\u00e9 scientifique et leurs \u00e9quipes ont ainsi men\u00e9 des \u00e9tudes sur l\u2019impact de la qualit\u00e9 de vie des femmes atteintes d\u2019endom\u00e9triose (",
+      "text": "Les sp\u00e9cialistes de l'endom\u00e9triose en sont de plus en plus conscients. Deux des membres de notre comit\u00e9 scientifique et leurs \u00e9quipes ont ainsi men\u00e9 des \u00e9tudes sur l'impact de la qualit\u00e9 de vie des femmes atteintes d'endom\u00e9triose ("
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "EndoCAP et EHP30",
+      "text": "EndoCAP et EHP30",
+      "hyperlink": "https://www.endofrance.org/nos-actions/recherche-scientifique-clinique/"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ").",
+      "text": ")."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour aller plus loin, nous vous recommandons de lire \u00ab Endom\u00e9triose et qualit\u00e9 de vie \u00bb dans ",
+      "text": "Pour aller plus loin, nous vous recommandons de lire \u00ab Endom\u00e9triose et qualit\u00e9 de vie \u00bb dans "
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Les id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose \u00bb ",
+      "text": "\u00ab Les id\u00e9es re\u00e7ues sur l'endom\u00e9triose \u00bb ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(EndoFrance \u2013 3e \u00e9dition)",
+      "text": "(EndoFrance - 3e \u00e9dition)"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Commander notre livre",
+      "text": "Commander notre livre",
+      "hyperlink": "https://www.endofrance.org/blog/idees-recues-sur-lendometriose-la-3e-edition-revue-et-augmentee-est-en-librairie/"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

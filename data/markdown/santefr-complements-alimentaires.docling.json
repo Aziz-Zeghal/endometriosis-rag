@@ -1,0 +1,458 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 7598382801790701313,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Certains compl\u00e9ments alimentaires peuvent-ils soulager l\u2019endom\u00e9triose ?",
+      "text": "Certains compl\u00e9ments alimentaires peuvent-ils soulager l\u2019endom\u00e9triose ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "08/04/2022",
+      "text": "08/04/2022"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Confront\u00e9es aux sympt\u00f4mes douloureux de l\u2019endom\u00e9triose, certaines femmes cherchent \u00e0 \u00e9tendre leurs options en termes de traitement. Dans ce contexte, il peut \u00eatre tentant d\u2019avoir recours \u00e0 des compl\u00e9ments alimentaires, c\u2019est-\u00e0-dire des produits disponibles sans ordonnance et contenant des nutriments, des plantes ou d\u2019autres substances. Si aucun produit de ce type ne peut officiellement pr\u00e9tendre soulager les sympt\u00f4mes de l\u2019endom\u00e9triose, certains franchissent n\u00e9anmoins le pas ou le sugg\u00e8rent subtilement. Que penser de ces produits ? Certains de leurs ingr\u00e9dients sont-ils int\u00e9ressants pour r\u00e9duire la douleur et l\u2019inconfort ?",
+      "text": "Confront\u00e9es aux sympt\u00f4mes douloureux de l\u2019endom\u00e9triose, certaines femmes cherchent \u00e0 \u00e9tendre leurs options en termes de traitement. Dans ce contexte, il peut \u00eatre tentant d\u2019avoir recours \u00e0 des compl\u00e9ments alimentaires, c\u2019est-\u00e0-dire des produits disponibles sans ordonnance et contenant des nutriments, des plantes ou d\u2019autres substances. Si aucun produit de ce type ne peut officiellement pr\u00e9tendre soulager les sympt\u00f4mes de l\u2019endom\u00e9triose, certains franchissent n\u00e9anmoins le pas ou le sugg\u00e8rent subtilement. Que penser de ces produits ? Certains de leurs ingr\u00e9dients sont-ils int\u00e9ressants pour r\u00e9duire la douleur et l\u2019inconfort ?"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qu\u2019appelle-t-on compl\u00e9ment alimentaire ?",
+      "text": "Qu\u2019appelle-t-on compl\u00e9ment alimentaire ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les compl\u00e9ments dits \u00ab alimentaires \u00bb incluent des produits dont les propri\u00e9t\u00e9s suppos\u00e9es vont bien au-del\u00e0 de la nutrition. Ils peuvent contenir des vitamines, des sels min\u00e9raux, des oligo\u00e9l\u00e9ments, des acides amin\u00e9s, des prot\u00e9ines, des acides gras, mais aussi des plantes ou extraits de plantes, des enzymes ou des hormones, par exemple. Depuis le 10 juin 2002, une directive europ\u00e9enne pr\u00e9cise que les compl\u00e9ments alimentaires \u00ab constituent une source concentr\u00e9e de nutriments ou d\u2019autres substances ayant un effet nutritionnel ou physiologique \u00bb. Cette directive d\u00e9finit les vitamines et les min\u00e9raux autoris\u00e9s, mais laisse persister un certain flou vis-\u00e0-vis des autres types de substances propos\u00e9s par ces produits. Dans la pratique, de nombreux compl\u00e9ments alimentaires sont des produits de phytoth\u00e9rapie.",
+      "text": "Les compl\u00e9ments dits \u00ab alimentaires \u00bb incluent des produits dont les propri\u00e9t\u00e9s suppos\u00e9es vont bien au-del\u00e0 de la nutrition. Ils peuvent contenir des vitamines, des sels min\u00e9raux, des oligo\u00e9l\u00e9ments, des acides amin\u00e9s, des prot\u00e9ines, des acides gras, mais aussi des plantes ou extraits de plantes, des enzymes ou des hormones, par exemple. Depuis le 10 juin 2002, une directive europ\u00e9enne pr\u00e9cise que les compl\u00e9ments alimentaires \u00ab constituent une source concentr\u00e9e de nutriments ou d\u2019autres substances ayant un effet nutritionnel ou physiologique \u00bb. Cette directive d\u00e9finit les vitamines et les min\u00e9raux autoris\u00e9s, mais laisse persister un certain flou vis-\u00e0-vis des autres types de substances propos\u00e9s par ces produits. Dans la pratique, de nombreux compl\u00e9ments alimentaires sont des produits de phytoth\u00e9rapie."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La notion d\u2019all\u00e9gation de sant\u00e9",
+      "text": "La notion d\u2019all\u00e9gation de sant\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Par all\u00e9gation de sant\u00e9 (ou fonctionnelle) d\u2019un produit, on entend les affirmations qui revendiquent un b\u00e9n\u00e9fice du produit pour la sant\u00e9 en g\u00e9n\u00e9ral : r\u00f4le dans le bon fonctionnement du corps, r\u00f4le dans les capacit\u00e9s intellectuelles ou l\u2019\u00e9tat psychologique, capacit\u00e9 \u00e0 pr\u00e9venir ou soulager des sympt\u00f4mes, etc. Dans le contexte des compl\u00e9ments alimentaires, les all\u00e9gations de sant\u00e9 sont en g\u00e9n\u00e9ral li\u00e9es \u00e0 un ingr\u00e9dient particulier et sont strictement encadr\u00e9es : au niveau europ\u00e9en, l\u2019Agence europ\u00e9enne de s\u00e9curit\u00e9 alimentaire (EFSA) publie r\u00e9guli\u00e8rement la liste des all\u00e9gations autoris\u00e9es et interdites pour un ingr\u00e9dient particulier. Il est \u00e0 noter que, pour l\u2019EFSA et \u00e0 ce jour, aucun ingr\u00e9dient contenu dans les compl\u00e9ments alimentaires existants ne peut pr\u00e9tendre soulager les sympt\u00f4mes de l\u2019endom\u00e9triose, par manque de preuves scientifiques. De plus, certains ingr\u00e9dients se sont vu interdire de pr\u00e9tendre contribuer \u00e0 soulager les r\u00e8gles douloureuses : les acides gras om\u00e9ga-3 et om\u00e9ga-6 (dont l\u2019acide gamma-linol\u00e9nique), l\u2019huile de germe de bl\u00e9, les coquilles d\u2019hu\u00eetres (source de calcium) et la L-th\u00e9anine (un acide amin\u00e9 extrait du th\u00e9 vert).",
+      "text": "Par all\u00e9gation de sant\u00e9 (ou fonctionnelle) d\u2019un produit, on entend les affirmations qui revendiquent un b\u00e9n\u00e9fice du produit pour la sant\u00e9 en g\u00e9n\u00e9ral : r\u00f4le dans le bon fonctionnement du corps, r\u00f4le dans les capacit\u00e9s intellectuelles ou l\u2019\u00e9tat psychologique, capacit\u00e9 \u00e0 pr\u00e9venir ou soulager des sympt\u00f4mes, etc. Dans le contexte des compl\u00e9ments alimentaires, les all\u00e9gations de sant\u00e9 sont en g\u00e9n\u00e9ral li\u00e9es \u00e0 un ingr\u00e9dient particulier et sont strictement encadr\u00e9es : au niveau europ\u00e9en, l\u2019Agence europ\u00e9enne de s\u00e9curit\u00e9 alimentaire (EFSA) publie r\u00e9guli\u00e8rement la liste des all\u00e9gations autoris\u00e9es et interdites pour un ingr\u00e9dient particulier. Il est \u00e0 noter que, pour l\u2019EFSA et \u00e0 ce jour, aucun ingr\u00e9dient contenu dans les compl\u00e9ments alimentaires existants ne peut pr\u00e9tendre soulager les sympt\u00f4mes de l\u2019endom\u00e9triose, par manque de preuves scientifiques. De plus, certains ingr\u00e9dients se sont vu interdire de pr\u00e9tendre contribuer \u00e0 soulager les r\u00e8gles douloureuses : les acides gras om\u00e9ga-3 et om\u00e9ga-6 (dont l\u2019acide gamma-linol\u00e9nique), l\u2019huile de germe de bl\u00e9, les coquilles d\u2019hu\u00eetres (source de calcium) et la L-th\u00e9anine (un acide amin\u00e9 extrait du th\u00e9 vert)."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aujourd\u2019hui, les compl\u00e9ments alimentaires qui pr\u00e9tendent soulager les sympt\u00f4mes de l\u2019endom\u00e9triose sont clairement hors du cadre autoris\u00e9.",
+      "text": "Aujourd\u2019hui, les compl\u00e9ments alimentaires qui pr\u00e9tendent soulager les sympt\u00f4mes de l\u2019endom\u00e9triose sont clairement hors du cadre autoris\u00e9."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019absence d\u2019\u00e9tudes cliniques s\u00e9rieuses sur le sujet",
+      "text": "L\u2019absence d\u2019\u00e9tudes cliniques s\u00e9rieuses sur le sujet",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La d\u00e9cision de l\u2019EFSA refl\u00e8te la mauvaise qualit\u00e9 des quelques \u00e9tudes cliniques qui ont cherch\u00e9 \u00e0 \u00e9valuer l\u2019efficacit\u00e9 de certains ingr\u00e9dients sur les sympt\u00f4mes de l\u2019endom\u00e9triose. En effet, ces \u00e9tudes \u00e9valuent en g\u00e9n\u00e9ral des m\u00e9langes de substances (vitamines, acides gras essentiels, plantes, etc.), associ\u00e9s \u00e0 d\u2019autres mesures, en particulier des modifications du r\u00e9gime alimentaire (augmentation de la consommation de fibres, suppression des produits laitiers ou du gluten, etc.). Lorsqu\u2019un effet est constat\u00e9, il est impossible de le rattacher \u00e0 un ingr\u00e9dient ou une mesure alimentaire en particulier. Certains ingr\u00e9dients sont promus sur la base d\u2019\u00e9tudes de corr\u00e9lation qui ne d\u00e9montrent en rien un lien de cause \u00e0 effet : par exemple, les \u00e9tudes qui ont observ\u00e9 que les femmes souffrant d\u2019endom\u00e9triose semblent avoir des taux sanguins de zinc inf\u00e9rieurs \u00e0 ceux des femmes n\u2019en souffrant pas ne prouvent en rien qu\u2019enrichir son alimentation en zinc soulagera les sympt\u00f4mes.",
+      "text": "La d\u00e9cision de l\u2019EFSA refl\u00e8te la mauvaise qualit\u00e9 des quelques \u00e9tudes cliniques qui ont cherch\u00e9 \u00e0 \u00e9valuer l\u2019efficacit\u00e9 de certains ingr\u00e9dients sur les sympt\u00f4mes de l\u2019endom\u00e9triose. En effet, ces \u00e9tudes \u00e9valuent en g\u00e9n\u00e9ral des m\u00e9langes de substances (vitamines, acides gras essentiels, plantes, etc.), associ\u00e9s \u00e0 d\u2019autres mesures, en particulier des modifications du r\u00e9gime alimentaire (augmentation de la consommation de fibres, suppression des produits laitiers ou du gluten, etc.). Lorsqu\u2019un effet est constat\u00e9, il est impossible de le rattacher \u00e0 un ingr\u00e9dient ou une mesure alimentaire en particulier. Certains ingr\u00e9dients sont promus sur la base d\u2019\u00e9tudes de corr\u00e9lation qui ne d\u00e9montrent en rien un lien de cause \u00e0 effet : par exemple, les \u00e9tudes qui ont observ\u00e9 que les femmes souffrant d\u2019endom\u00e9triose semblent avoir des taux sanguins de zinc inf\u00e9rieurs \u00e0 ceux des femmes n\u2019en souffrant pas ne prouvent en rien qu\u2019enrichir son alimentation en zinc soulagera les sympt\u00f4mes."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quels sont les ingr\u00e9dients propos\u00e9s dans les compl\u00e9ments destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose ?",
+      "text": "Quels sont les ingr\u00e9dients propos\u00e9s dans les compl\u00e9ments destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La liste des ingr\u00e9dients propos\u00e9s dans ce contexte est particuli\u00e8rement longue et diverse, ce qui semble indiquer qu\u2019aucun d\u2019entre eux ne ressort comme particuli\u00e8rement efficace pour soulager les sympt\u00f4mes de l\u2019endom\u00e9triose. Certains de ces ingr\u00e9dients sont des nutriments (des substances pr\u00e9sentes dans les aliments) : vitamines B3, B6, B9, B12, D ou E, calcium, magn\u00e9sium, zinc, acides gras essentiels om\u00e9ga-3 et om\u00e9ga-6. D\u2019autres sont des plantes : alch\u00e9mille, gattilier, m\u00e9lisse, copa\u00efba, act\u00e9e \u00e0 grappes noires (cimifuga), grande camomille et camomille allemande (matricaire), fenouil, gingembre, romarin, renou\u00e9e du Japon, bourgeons de vigne, jeunes pousses de framboisier, saule blanc, etc. D\u2019autres enfin sont des substances extraites de plantes : querc\u00e9tine, resv\u00e9ratrol, curcumine, sulforaphane, pycnog\u00e9nol, par exemple. Ces ingr\u00e9dients sont promus soit parce qu\u2019ils seraient capables de diminuer l\u2019action des estrog\u00e8nes sur les l\u00e9sions d\u2019endom\u00e9triose (activit\u00e9 antiestrog\u00e9nique), soit parce qu\u2019ils auraient une activit\u00e9 anti-inflammatoire pouvant contribuer \u00e0 diminuer la douleur. Mais aucun de ces ingr\u00e9dients n\u2019a fait l\u2019objet d\u2019\u00e9tudes cliniques s\u00e9rieuses, voire d\u2019\u00e9tude clinique tout court.",
+      "text": "La liste des ingr\u00e9dients propos\u00e9s dans ce contexte est particuli\u00e8rement longue et diverse, ce qui semble indiquer qu\u2019aucun d\u2019entre eux ne ressort comme particuli\u00e8rement efficace pour soulager les sympt\u00f4mes de l\u2019endom\u00e9triose. Certains de ces ingr\u00e9dients sont des nutriments (des substances pr\u00e9sentes dans les aliments) : vitamines B3, B6, B9, B12, D ou E, calcium, magn\u00e9sium, zinc, acides gras essentiels om\u00e9ga-3 et om\u00e9ga-6. D\u2019autres sont des plantes : alch\u00e9mille, gattilier, m\u00e9lisse, copa\u00efba, act\u00e9e \u00e0 grappes noires (cimifuga), grande camomille et camomille allemande (matricaire), fenouil, gingembre, romarin, renou\u00e9e du Japon, bourgeons de vigne, jeunes pousses de framboisier, saule blanc, etc. D\u2019autres enfin sont des substances extraites de plantes : querc\u00e9tine, resv\u00e9ratrol, curcumine, sulforaphane, pycnog\u00e9nol, par exemple. Ces ingr\u00e9dients sont promus soit parce qu\u2019ils seraient capables de diminuer l\u2019action des estrog\u00e8nes sur les l\u00e9sions d\u2019endom\u00e9triose (activit\u00e9 antiestrog\u00e9nique), soit parce qu\u2019ils auraient une activit\u00e9 anti-inflammatoire pouvant contribuer \u00e0 diminuer la douleur. Mais aucun de ces ingr\u00e9dients n\u2019a fait l\u2019objet d\u2019\u00e9tudes cliniques s\u00e9rieuses, voire d\u2019\u00e9tude clinique tout court."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Gros plan sur la curcumine",
+      "text": "Gros plan sur la curcumine",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La curcumine est extraite du curcuma (",
+      "text": "La curcumine est extraite du curcuma ("
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Curcuma longa",
+      "text": "Curcuma longa",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "), une plante de la famille du gingembre. Elle fait partie des curcumino\u00efdes, un ensemble de substances anti-inflammatoires et antioxydantes. C\u2019est en tant qu\u2019anti-inflammatoire potentiel qu\u2019elle est propos\u00e9e dans les compl\u00e9ments destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose. Les propri\u00e9t\u00e9s anti-inflammatoires de la curcumine ont fait l\u2019objet de plusieurs \u00e9tudes dans le traitement de l\u2019arthrose et de la polyarthrite rhumato\u00efde, deux maladies inflammatoires, avec quelques signes encourageants. N\u00e9anmoins, les \u00e9tudes existantes concernent de petits nombres de patients et ces signes favorables restent \u00e0 confirmer par des \u00e9tudes plus vastes. De plus, selon d\u2019autres \u00e9tudes, du fait d\u2019une absorption intestinale faible, les concentrations sanguines de curcumine apr\u00e8s ingestion sont trop modestes pour esp\u00e9rer un effet th\u00e9rapeutique. Des recherches en biochimie sont toujours en cours pour am\u00e9liorer son absorption intestinale.",
+      "text": "), une plante de la famille du gingembre. Elle fait partie des curcumino\u00efdes, un ensemble de substances anti-inflammatoires et antioxydantes. C\u2019est en tant qu\u2019anti-inflammatoire potentiel qu\u2019elle est propos\u00e9e dans les compl\u00e9ments destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose. Les propri\u00e9t\u00e9s anti-inflammatoires de la curcumine ont fait l\u2019objet de plusieurs \u00e9tudes dans le traitement de l\u2019arthrose et de la polyarthrite rhumato\u00efde, deux maladies inflammatoires, avec quelques signes encourageants. N\u00e9anmoins, les \u00e9tudes existantes concernent de petits nombres de patients et ces signes favorables restent \u00e0 confirmer par des \u00e9tudes plus vastes. De plus, selon d\u2019autres \u00e9tudes, du fait d\u2019une absorption intestinale faible, les concentrations sanguines de curcumine apr\u00e8s ingestion sont trop modestes pour esp\u00e9rer un effet th\u00e9rapeutique. Des recherches en biochimie sont toujours en cours pour am\u00e9liorer son absorption intestinale."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Gros plan sur le gattilier",
+      "text": "Gros plan sur le gattilier",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En phytoth\u00e9rapie, on utilise les baies s\u00e9ch\u00e9es et broy\u00e9es du gattilier (",
+      "text": "En phytoth\u00e9rapie, on utilise les baies s\u00e9ch\u00e9es et broy\u00e9es du gattilier ("
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vitex agnus-castus",
+      "text": "Vitex agnus-castus",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") pour produire des extraits qui sont employ\u00e9s pour soulager les r\u00e8gles irr\u00e9guli\u00e8res ou absentes, les douleurs des seins li\u00e9es au cycle menstruel ainsi que le syndrome pr\u00e9menstruel. Les baies de gattilier contiennent des substances (dites \u00ab diterp\u00e9niques \u00bb) qui agissent sur le cerveau (hypophyse) en stimulant les r\u00e9cepteurs sensibles \u00e0 la dopamine (un messager chimique pr\u00e9sent dans le cerveau). Cette stimulation r\u00e9duirait la s\u00e9cr\u00e9tion d'une hormone, la prolactine, par l'hypophyse et augmenterait celle de progest\u00e9rone par les ovaires. C\u2019est cet effet progest\u00e9ronique qui est mis en avant dans les compl\u00e9ments alimentaires destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose. Mais aucune \u00e9tude n\u2019existe sur cet usage. Attention, parce qu\u2019il agit sur le syst\u00e8me hormonal, le gattilier devrait toujours \u00eatre utilis\u00e9 sous le contr\u00f4le d\u2019un m\u00e9decin.",
+      "text": ") pour produire des extraits qui sont employ\u00e9s pour soulager les r\u00e8gles irr\u00e9guli\u00e8res ou absentes, les douleurs des seins li\u00e9es au cycle menstruel ainsi que le syndrome pr\u00e9menstruel. Les baies de gattilier contiennent des substances (dites \u00ab diterp\u00e9niques \u00bb) qui agissent sur le cerveau (hypophyse) en stimulant les r\u00e9cepteurs sensibles \u00e0 la dopamine (un messager chimique pr\u00e9sent dans le cerveau). Cette stimulation r\u00e9duirait la s\u00e9cr\u00e9tion d'une hormone, la prolactine, par l'hypophyse et augmenterait celle de progest\u00e9rone par les ovaires. C\u2019est cet effet progest\u00e9ronique qui est mis en avant dans les compl\u00e9ments alimentaires destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose. Mais aucune \u00e9tude n\u2019existe sur cet usage. Attention, parce qu\u2019il agit sur le syst\u00e8me hormonal, le gattilier devrait toujours \u00eatre utilis\u00e9 sous le contr\u00f4le d\u2019un m\u00e9decin."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Gros plan sur les acides gras essentiels",
+      "text": "Gros plan sur les acides gras essentiels",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les acides gras essentiels sont des mati\u00e8res grasses pr\u00e9sentes, par exemple, dans certains poissons (huiles de poisson) et graines (huiles v\u00e9g\u00e9tales). Les plus connus sont les acides gras om\u00e9ga-3 et om\u00e9ga-6. Ils ont fait l\u2019objet de tr\u00e8s nombreuses \u00e9tudes, pour \u00e9valuer leur int\u00e9r\u00eat dans la pr\u00e9vention et le traitement de maladies tr\u00e8s diverses (maladies cardiovasculaires, maladies inflammatoires, etc.).",
+      "text": "Les acides gras essentiels sont des mati\u00e8res grasses pr\u00e9sentes, par exemple, dans certains poissons (huiles de poisson) et graines (huiles v\u00e9g\u00e9tales). Les plus connus sont les acides gras om\u00e9ga-3 et om\u00e9ga-6. Ils ont fait l\u2019objet de tr\u00e8s nombreuses \u00e9tudes, pour \u00e9valuer leur int\u00e9r\u00eat dans la pr\u00e9vention et le traitement de maladies tr\u00e8s diverses (maladies cardiovasculaires, maladies inflammatoires, etc.)."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les acides gras om\u00e9ga-3 et om\u00e9ga-6 sont souvent propos\u00e9s dans les compl\u00e9ments alimentaires destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose, dans une logique de r\u00e9duction de l\u2019inflammation. Le plus couramment pr\u00e9sent dans ces compl\u00e9ments est un acide gras om\u00e9ga-6, l\u2019acide gamma-linol\u00e9nique (GLA). Dans quelques \u00e9tudes cliniques, l'administration, pendant 3 \u00e0 6 mois, d\u2019huile de bourrache riche en GLA a sembl\u00e9 r\u00e9duire les sympt\u00f4mes de maladies inflammatoires comme la polyarthrite rhumato\u00efde ou l\u2019arthrose. Mais d'autres \u00e9tudes, plus longues et de plus grande taille, sont n\u00e9cessaires pour confirmer ces r\u00e9sultats.",
+      "text": "Les acides gras om\u00e9ga-3 et om\u00e9ga-6 sont souvent propos\u00e9s dans les compl\u00e9ments alimentaires destin\u00e9s aux femmes souffrant d\u2019endom\u00e9triose, dans une logique de r\u00e9duction de l\u2019inflammation. Le plus couramment pr\u00e9sent dans ces compl\u00e9ments est un acide gras om\u00e9ga-6, l\u2019acide gamma-linol\u00e9nique (GLA). Dans quelques \u00e9tudes cliniques, l'administration, pendant 3 \u00e0 6 mois, d\u2019huile de bourrache riche en GLA a sembl\u00e9 r\u00e9duire les sympt\u00f4mes de maladies inflammatoires comme la polyarthrite rhumato\u00efde ou l\u2019arthrose. Mais d'autres \u00e9tudes, plus longues et de plus grande taille, sont n\u00e9cessaires pour confirmer ces r\u00e9sultats."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aucune \u00e9tude n\u2019a \u00e9t\u00e9 men\u00e9e sur les effets du GLA, ou de l\u2019enrichissement de l\u2019alimentation en om\u00e9ga-3 ou en om\u00e9ga-6, dans le contexte de l\u2019endom\u00e9triose.",
+      "text": "Aucune \u00e9tude n\u2019a \u00e9t\u00e9 men\u00e9e sur les effets du GLA, ou de l\u2019enrichissement de l\u2019alimentation en om\u00e9ga-3 ou en om\u00e9ga-6, dans le contexte de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En conclusion, les compl\u00e9ments alimentaires qui sont propos\u00e9s aux femmes souffrant d\u2019endom\u00e9triose n\u2019ont pas fait la preuve de leur efficacit\u00e9 (ni de leur s\u00e9curit\u00e9). Les femmes qui souhaitent n\u00e9anmoins avoir recours \u00e0 un produit de ce type devrait le faire en lien avec leur m\u00e9decin traitant ou leur gyn\u00e9cologue, dans une optique de s\u00e9curit\u00e9, mais aussi pour travailler ensemble \u00e0 identifier les moyens d\u2019\u00e9valuer objectivement l\u2019effet de ce produit (et, le cas \u00e9ch\u00e9ant, \u00e9viter ainsi de gaspiller de l\u2019argent). Par exemple, il peut \u00eatre judicieux d\u2019\u00e9tablir ensemble une grille d\u2019intensit\u00e9 des sympt\u00f4mes et de qualit\u00e9 de vie qui pourra \u00eatre compl\u00e9t\u00e9e avant, pendant et apr\u00e8s la prise du compl\u00e9ment alimentaire.",
+      "text": "En conclusion, les compl\u00e9ments alimentaires qui sont propos\u00e9s aux femmes souffrant d\u2019endom\u00e9triose n\u2019ont pas fait la preuve de leur efficacit\u00e9 (ni de leur s\u00e9curit\u00e9). Les femmes qui souhaitent n\u00e9anmoins avoir recours \u00e0 un produit de ce type devrait le faire en lien avec leur m\u00e9decin traitant ou leur gyn\u00e9cologue, dans une optique de s\u00e9curit\u00e9, mais aussi pour travailler ensemble \u00e0 identifier les moyens d\u2019\u00e9valuer objectivement l\u2019effet de ce produit (et, le cas \u00e9ch\u00e9ant, \u00e9viter ainsi de gaspiller de l\u2019argent). Par exemple, il peut \u00eatre judicieux d\u2019\u00e9tablir ensemble une grille d\u2019intensit\u00e9 des sympt\u00f4mes et de qualit\u00e9 de vie qui pourra \u00eatre compl\u00e9t\u00e9e avant, pendant et apr\u00e8s la prise du compl\u00e9ment alimentaire."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

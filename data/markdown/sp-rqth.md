@@ -38,7 +38,7 @@ Pour les personnes âgées de **15 à 20 ans**, les situations suivantes valent 
 
 ## Comment obtenir la reconnaissance de la qualité de travailleur handicapé (RQTH) ?
 
-La demande de RQTH est une **démarche strictement personnelle**. Elle doit être faite directement par la personne concernée, ou, si nécessaire, par son **représentant légal**: titleContent. Par exemple, l’employeur ne peut pas faire la demande à la place de la personne.
+La demande de RQTH est une **démarche strictement personnelle**. Elle doit être faite directement par la personne concernée, ou, si nécessaire, par son **représentant légal**. Par exemple, l’employeur ne peut pas faire la demande à la place de la personne.
 
 La démarche diffère selon que vous faites parallèlement une demande pour percevoir ou renouveler l'allocation aux adultes handicapés (AAH) :
 
@@ -62,11 +62,11 @@ Les documents doivent être envoyés (ou scannés si vous faites votre demande e
 
 ## Comment est examinée la demande de la reconnaissance de la qualité de travailleur handicapé (RQTH) ?
 
-La commission des droits et de l’autonomie des personnes handicapées (CDAPH) de la **MDPH**: titleContent instruit la demande.
+La commission des droits et de l’autonomie des personnes handicapées (CDAPH) de la **MDPH** instruit la demande.
 
 Sa réponse intervient dans **un délai de 4 mois**.
 
-L’absence de réponse de la CDAPH pendant plus de 4 mois vaut **décision implicite de rejet**: titleContent.
+L’absence de réponse de la CDAPH pendant plus de 4 mois vaut **décision implicite de rejet**.
 
 À savoir
 
@@ -84,13 +84,13 @@ Ce courrier s'accompagne également d'une orientation vers le marché du travail
 
 ## La décision de refus de la CDAPH d’attribuer la RQTH peut-elle faire l’objet d’un recours ?
 
-**Oui**, une décision de refus de la CDAPH peut faire l’objet d’un recours administratif préalable obligatoire (Rapo) auprès de la **MDPH**: titleContent. Ce recours doit être exercé **avant tout recours devant le tribunal**.
+**Oui**, une décision de refus de la CDAPH peut faire l’objet d’un recours administratif préalable obligatoire (Rapo) auprès de la **MDPH**. Ce recours doit être exercé **avant tout recours devant le tribunal**.
 
 Le RAPO doit être déposé dans un délai de **2 mois** à partir de la réception de la décision contestée. Cette décision doit être jointe à votre recours.
 
 L’absence de réponse de la CDAPH pendant plus de 2 mois vaut décision implicite de rejet.
 
-À partir de cette décision, **explicite**: titleContent ou implicite, vous avez **2 mois** pour faire un recours devant le tribunal administratif du lieu de votre résidence.
+À partir de cette décision, **explicite** ou implicite, vous avez **2 mois** pour faire un recours devant le tribunal administratif du lieu de votre résidence.
 
 ## Combien de temps est attribuée la reconnaissance de la qualité de travailleur handicapé (RQTH) ?
 

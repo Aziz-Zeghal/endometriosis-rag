@@ -1,0 +1,524 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 618594214552729516,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/3"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/12"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Les structures sp\u00e9cialis\u00e9es douleur chronique - SDC",
+      "text": "Les structures sp\u00e9cialis\u00e9es douleur chronique - SDC"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 10/02/2026",
+      "text": "Publi\u00e9 le 10/02/2026"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Minist\u00e8re charg\u00e9 de la sant\u00e9",
+      "text": "Information propos\u00e9e par Minist\u00e8re charg\u00e9 de la sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les structures sp\u00e9cialis\u00e9es prennent en charge les douleurs chroniques.",
+      "text": "Les structures sp\u00e9cialis\u00e9es prennent en charge les douleurs chroniques."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une douleur est dite chronique d\u00e8s lors qu\u2019elle est persistante ou r\u00e9currente (le plus souvent au-del\u00e0 de 6 mois), qu\u2019elle r\u00e9pond mal au traitement et qu\u2019elle induit une d\u00e9t\u00e9rioration fonctionnelle et relationnelle.",
+      "text": "Une douleur est dite chronique d\u00e8s lors qu\u2019elle est persistante ou r\u00e9currente (le plus souvent au-del\u00e0 de 6 mois), qu\u2019elle r\u00e9pond mal au traitement et qu\u2019elle induit une d\u00e9t\u00e9rioration fonctionnelle et relationnelle."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez les patients les plus s\u00e9v\u00e8rement affect\u00e9s, elle peut par ailleurs s\u2019accompagner des facteurs de renforcement que sont des manifestations psychopathologiques, une demande insistante de recours \u00e0 des m\u00e9dicaments ou des proc\u00e9dures m\u00e9dicales souvent invasives, ainsi qu\u2019une difficult\u00e9 \u00e0 s\u2019adapter \u00e0 la situation.",
+      "text": "Chez les patients les plus s\u00e9v\u00e8rement affect\u00e9s, elle peut par ailleurs s\u2019accompagner des facteurs de renforcement que sont des manifestations psychopathologiques, une demande insistante de recours \u00e0 des m\u00e9dicaments ou des proc\u00e9dures m\u00e9dicales souvent invasives, ainsi qu\u2019une difficult\u00e9 \u00e0 s\u2019adapter \u00e0 la situation."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces structures ne prennent pas en charge toutes les douleurs. Par exemple les douleurs aigu\u00ebs provoqu\u00e9es par une crise d\u2019appendicite, un infarctus du myocarde, une h\u00e9morragie c\u00e9r\u00e9brale ou une fracture de jambe doivent \u00eatre prises en charge par d\u2019autres \u00e9quipes soignantes (votre m\u00e9decin, les services d\u2019urgence, les services de chirurgie, de cardiologie, de chirurgie, etc.).",
+      "text": "Ces structures ne prennent pas en charge toutes les douleurs. Par exemple les douleurs aigu\u00ebs provoqu\u00e9es par une crise d\u2019appendicite, un infarctus du myocarde, une h\u00e9morragie c\u00e9r\u00e9brale ou une fracture de jambe doivent \u00eatre prises en charge par d\u2019autres \u00e9quipes soignantes (votre m\u00e9decin, les services d\u2019urgence, les services de chirurgie, de cardiologie, de chirurgie, etc.)."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette diff\u00e9rence rappelle que toute douleur doit faire l\u2019objet d\u2019un diagnostic (recherche de la cause). Sans diagnostic, il ne peut pas y avoir de bonne prise en charge de la douleur.",
+      "text": "Cette diff\u00e9rence rappelle que toute douleur doit faire l\u2019objet d\u2019un diagnostic (recherche de la cause). Sans diagnostic, il ne peut pas y avoir de bonne prise en charge de la douleur."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est pourquoi votre m\u00e9decin traitant a un r\u00f4le primordial permettant que ces structures puissent concentrer leurs moyens et leurs efforts sur les patients relevant d\u2019elles.",
+      "text": "C\u2019est pourquoi votre m\u00e9decin traitant a un r\u00f4le primordial permettant que ces structures puissent concentrer leurs moyens et leurs efforts sur les patients relevant d\u2019elles."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La prise en charge de ces douleurs n\u00e9cessite la collaboration de plusieurs sp\u00e9cialistes de disciplines diff\u00e9rentes.",
+      "text": "La prise en charge de ces douleurs n\u00e9cessite la collaboration de plusieurs sp\u00e9cialistes de disciplines diff\u00e9rentes."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les structures sp\u00e9cialis\u00e9es sont toutes h\u00e9berg\u00e9es en \u00e9tablissement de sant\u00e9 et labellis\u00e9es par les agences r\u00e9gionales de sant\u00e9 (ARS) : elles doivent en effet satisfaire \u00e0 des crit\u00e8res bien pr\u00e9cis.",
+      "text": "Les structures sp\u00e9cialis\u00e9es sont toutes h\u00e9berg\u00e9es en \u00e9tablissement de sant\u00e9 et labellis\u00e9es par les agences r\u00e9gionales de sant\u00e9 (ARS) : elles doivent en effet satisfaire \u00e0 des crit\u00e8res bien pr\u00e9cis."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Deux niveaux de SDC existent :",
+      "text": "Deux niveaux de SDC existent :"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les consultations",
+      "text": "les consultations",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui assurent une prise en charge pluri-professionnelle c\u2019est-\u00e0-dire une prise en charge en \u00e9quipe (m\u00e9decin, infirmier, psychologue)",
+      "text": " qui assurent une prise en charge pluri-professionnelle c\u2019est-\u00e0-dire une prise en charge en \u00e9quipe (m\u00e9decin, infirmier, psychologue)"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les centres",
+      "text": "les centres",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui r\u00e9alisent une prise en charge m\u00e9dicale pluridisciplinaire c\u2019est-\u00e0-dire plusieurs m\u00e9decins de diff\u00e9rentes sp\u00e9cialit\u00e9s (neurologue, psychiatre, orthop\u00e9diste, etc.) . Vous pouvez avoir acc\u00e8s \u00e0 des lits d\u2019hospitalisation.",
+      "text": " qui r\u00e9alisent une prise en charge m\u00e9dicale pluridisciplinaire c\u2019est-\u00e0-dire plusieurs m\u00e9decins de diff\u00e9rentes sp\u00e9cialit\u00e9s (neurologue, psychiatre, orthop\u00e9diste, etc.) . Vous pouvez avoir acc\u00e8s \u00e0 des lits d\u2019hospitalisation."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019annuaire des structures d\u2019\u00e9tude et de traitement de la douleur chronique",
+      "text": "L\u2019annuaire des structures d\u2019\u00e9tude et de traitement de la douleur chronique",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet annuaire national est le fruit d\u2019une labellisation conduite par chaque agence r\u00e9gionale de sant\u00e9, sous la coordination de la direction g\u00e9n\u00e9rale de l\u2019offre de soins (DGOS). Pour chaque r\u00e9gion, il facilite l\u2019acc\u00e8s aux structures labellis\u00e9es en indiquant leur adresse, le nom du m\u00e9decin responsable et le contact t\u00e9l\u00e9phonique.",
+      "text": "Cet annuaire national est le fruit d\u2019une labellisation conduite par chaque agence r\u00e9gionale de sant\u00e9, sous la coordination de la direction g\u00e9n\u00e9rale de l\u2019offre de soins (DGOS). Pour chaque r\u00e9gion, il facilite l\u2019acc\u00e8s aux structures labellis\u00e9es en indiquant leur adresse, le nom du m\u00e9decin responsable et le contact t\u00e9l\u00e9phonique."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces structures de recours (hautement sp\u00e9cialis\u00e9es) sont accessibles non pas directement par les patients mais sur avis pr\u00e9alable d\u2019un m\u00e9decin. L\u2019annuaire est donc prioritairement destin\u00e9 aux professionnels de sant\u00e9 qui pourront ainsi connaitre l\u2019existence des structures de proximit\u00e9 (les consultations) ou dot\u00e9es de lits d\u2019hospitalisation et d\u2019\u00e9quipements sp\u00e9cialis\u00e9s (les centres). Pour certaines r\u00e9gions, sont \u00e9galement indiqu\u00e9es des permanences avanc\u00e9es o\u00f9 des consultations r\u00e9alis\u00e9es par des professionnels rattach\u00e9s \u00e0 une structure labellis\u00e9e sont propos\u00e9es.",
+      "text": "Ces structures de recours (hautement sp\u00e9cialis\u00e9es) sont accessibles non pas directement par les patients mais sur avis pr\u00e9alable d\u2019un m\u00e9decin. L\u2019annuaire est donc prioritairement destin\u00e9 aux professionnels de sant\u00e9 qui pourront ainsi connaitre l\u2019existence des structures de proximit\u00e9 (les consultations) ou dot\u00e9es de lits d\u2019hospitalisation et d\u2019\u00e9quipements sp\u00e9cialis\u00e9s (les centres). Pour certaines r\u00e9gions, sont \u00e9galement indiqu\u00e9es des permanences avanc\u00e9es o\u00f9 des consultations r\u00e9alis\u00e9es par des professionnels rattach\u00e9s \u00e0 une structure labellis\u00e9e sont propos\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sont indiqu\u00e9es dans l\u2019annuaire de fa\u00e7on plus sp\u00e9cifique :",
+      "text": "Sont indiqu\u00e9es dans l\u2019annuaire de fa\u00e7on plus sp\u00e9cifique :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2013 Les structures pouvant accueillir des enfants",
+      "text": "\u2013 Les structures pouvant accueillir des enfants"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2013 Les structures sp\u00e9cialis\u00e9es dans le prise en charge des douleurs du cancer",
+      "text": "\u2013 Les structures sp\u00e9cialis\u00e9es dans le prise en charge des douleurs du cancer"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2013 Les structures r\u00e9f\u00e9rentes pour la prise en charge de l\u2019endom\u00e9triose",
+      "text": "\u2013 Les structures r\u00e9f\u00e9rentes pour la prise en charge de l\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 retrouver sur ",
+      "text": "\u00c0 retrouver sur "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/douleur/article/les-structures-specialisees-douleur-chronique-sdc",
+      "text": "https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/douleur/article/les-structures-specialisees-douleur-chronique-sdc",
+      "hyperlink": "https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/douleur/article/les-structures-specialisees-douleur-chronique-sdc"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

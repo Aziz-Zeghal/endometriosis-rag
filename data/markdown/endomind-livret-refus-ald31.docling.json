@@ -1,0 +1,4841 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "endomind-livret-refus-ald31",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 9931180837969729266,
+    "filename": "endomind-livret-refus-ald31.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/135"
+      },
+      {
+        "$ref": "#/texts/136"
+      },
+      {
+        "$ref": "#/texts/137"
+      },
+      {
+        "$ref": "#/texts/138"
+      },
+      {
+        "$ref": "#/texts/139"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/141"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/pictures/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.73285784846415,
+            "t": 404.84601138051886,
+            "r": 113.20175302365719,
+            "b": 388.95276980726686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "LIVRET",
+      "text": "LIVRET"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 370.6138855465808,
+            "r": 256.654444033654,
+            "b": 345.77929701292044,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "ENDOM\u00c9TRIOSE :",
+      "text": "ENDOM\u00c9TRIOSE :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 337.25368800437303,
+            "r": 354.92478893678776,
+            "b": 277.3987873568472,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "REFUS D'ALD HORS LISTE (\"ALD 31\") : LES \u00c9TAPES POUR CONTESTER LA D\u00c9CISION",
+      "text": "REFUS D'ALD HORS LISTE (\"ALD 31\") : LES \u00c9TAPES POUR CONTESTER LA D\u00c9CISION"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.02316934376786,
+            "t": 545.2958907116774,
+            "r": 370.21203277487746,
+            "b": 512.8574496581592,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            159
+          ]
+        }
+      ],
+      "orig": "Vous \u00eates atteint\u00b7e d'endom\u00e9triose et votre demande d'ALD hors liste a \u00e9t\u00e9 refus\u00e9e par le m\u00e9decin-conseil de votre caisse primaire d'assurance maladie (CPAM) ?",
+      "text": "Vous \u00eates atteint\u00b7e d'endom\u00e9triose et votre demande d'ALD hors liste a \u00e9t\u00e9 refus\u00e9e par le m\u00e9decin-conseil de votre caisse primaire d'assurance maladie (CPAM) ?"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.023168357367894,
+            "t": 505.10489257542247,
+            "r": 370.2187574866531,
+            "b": 460.69529669027037,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            211
+          ]
+        }
+      ],
+      "orig": "Il est possible de faire un recours pour contester la d\u00e9cision et demander une nouvelle \u00e9tude de votre dossier. Ce document a pour but de vous accompagner dans cette d\u00e9marche, en pr\u00e9cisant la proc\u00e9dure \u00e0 suivre.",
+      "text": "Il est possible de faire un recours pour contester la d\u00e9cision et demander une nouvelle \u00e9tude de votre dossier. Ce document a pour but de vous accompagner dans cette d\u00e9marche, en pr\u00e9cisant la proc\u00e9dure \u00e0 suivre."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 428.3401253677346,
+            "r": 302.79329029411434,
+            "b": 416.41833140748923,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "LES DIFF\u00c9RENTES \u00c9TAPES DE LA PROC\u00c9DURE",
+      "text": "LES DIFF\u00c9RENTES \u00c9TAPES DE LA PROC\u00c9DURE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 62.46056286597644,
+            "t": 383.59146062757736,
+            "r": 111.19001727208241,
+            "b": 366.4055739649159,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "VOUS \u00caTES ICI",
+      "text": "VOUS \u00caTES ICI"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 133.78839282548338,
+            "t": 386.9142460760329,
+            "r": 325.5517524535831,
+            "b": 367.9667914082302,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "DEMANDE D'ADMISSION EN ALD HORS LISTE POUR ENDOM\u00c9TRIOSE",
+      "text": "DEMANDE D'ADMISSION EN ALD HORS LISTE POUR ENDOM\u00c9TRIOSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 129.31583785633987,
+            "t": 339.1034760681484,
+            "r": 278.20426193266235,
+            "b": 309.6839550784098,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "En cas de refus de la demande d'admission en ALD hors liste par le m\u00e9decin-conseil de la CPAM",
+      "text": "En cas de refus de la demande d'admission en ALD hors liste par le m\u00e9decin-conseil de la CPAM"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 134.10755300578506,
+            "t": 365.88992259780645,
+            "r": 326.56552264903024,
+            "b": 351.2181188161716,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "r\u00e9alis\u00e9e par votre m\u00e9decin traitant aupr\u00e8s de la CPAM de votre d\u00e9partement (voir livret 1)",
+      "text": "r\u00e9alis\u00e9e par votre m\u00e9decin traitant aupr\u00e8s de la CPAM de votre d\u00e9partement (voir livret 1)"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 134.1075376121857,
+            "t": 294.3562219326174,
+            "r": 350.6226704256492,
+            "b": 275.40876726481474,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "RECOURS DEVANT LA COMMISSION M\u00c9DICALE DE RECOURS AMIABLE (CMRA) DE VOTRE R\u00c9GION",
+      "text": "RECOURS DEVANT LA COMMISSION M\u00c9DICALE DE RECOURS AMIABLE (CMRA) DE VOTRE R\u00c9GION"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 126.99705915795565,
+            "t": 260.3587233491799,
+            "r": 280.8952164061259,
+            "b": 241.43225478623083,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "En cas de nouveau refus ou d'absence de r\u00e9ponse de la CMRA",
+      "text": "En cas de nouveau refus ou d'absence de r\u00e9ponse de la CMRA"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 133.78839282548338,
+            "t": 219.58655784802022,
+            "r": 354.7285896021423,
+            "b": 200.63910318021755,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "CONTESTATION DE LA D\u00c9CISION DE LA CMRA AUPR\u00c8S DU P\u00d4LE SOCIAL DU TRIBUNAL JUDICIAIRE",
+      "text": "CONTESTATION DE LA D\u00c9CISION DE LA CMRA AUPR\u00c8S DU P\u00d4LE SOCIAL DU TRIBUNAL JUDICIAIRE"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.65347023177185,
+            "t": 182.34398339979424,
+            "r": 275.2370662587707,
+            "b": 173.88958115878103,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "En cas de d\u00e9cision d\u00e9favorable",
+      "text": "En cas de d\u00e9cision d\u00e9favorable"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 134.1075376121857,
+            "t": 153.7577045908892,
+            "r": 299.20334653870816,
+            "b": 134.81024992308653,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "APPEL DEVANT LA CHAMBRE SOCIALE DE LA COUR D'APPEL",
+      "text": "APPEL DEVANT LA CHAMBRE SOCIALE DE LA COUR D'APPEL"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.65347023177185,
+            "t": 117.26465011143318,
+            "r": 275.2370662587707,
+            "b": 108.81024787041997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "En cas de d\u00e9cision d\u00e9favorable",
+      "text": "En cas de d\u00e9cision d\u00e9favorable"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 134.1075376121857,
+            "t": 85.67045142785815,
+            "r": 322.9207799725656,
+            "b": 77.21604918684488,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "POURVOI DEVANT LA COUR DE CASSATION",
+      "text": "POURVOI DEVANT LA COUR DE CASSATION"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 69.28959035293362,
+            "t": 289.969627387076,
+            "r": 109.79754175836328,
+            "b": 279.04628382002363,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00c9TAPE 1",
+      "text": "\u00c9TAPE 1"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 68.1653347357776,
+            "t": 214.16434654562943,
+            "r": 110.93199327181168,
+            "b": 203.24100297857711,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00c9TAPE 2",
+      "text": "\u00c9TAPE 2"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 67.76716235936811,
+            "t": 149.51156283949558,
+            "r": 110.56601152272046,
+            "b": 138.5882192724432,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00c9TAPE 3",
+      "text": "\u00c9TAPE 3"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 68.02480129563315,
+            "t": 87.52362142232653,
+            "r": 111.82155902683324,
+            "b": 76.60027785527427,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00c9TAPE 4",
+      "text": "\u00c9TAPE 4"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 382.97377831775856,
+            "t": 33.00027447956904,
+            "r": 385.60404792234,
+            "b": 26.424600468115386,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 41.347334717194315,
+            "t": 545.3141415477207,
+            "r": 81.85528612262398,
+            "b": 534.3907979806684,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00c9TAPE 1",
+      "text": "\u00c9TAPE 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 96.4680511804977,
+            "t": 552.472982595532,
+            "r": 344.09120658196696,
+            "b": 524.0621062503318,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "PROC\u00c9DURE DEVANT LA COMMISSION M\u00c9DICALE DE RECOURS AMIABLE (CMRA)",
+      "text": "PROC\u00c9DURE DEVANT LA COMMISSION M\u00c9DICALE DE RECOURS AMIABLE (CMRA)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 509.38065173614575,
+            "r": 377.3093347409318,
+            "b": 476.9631967350651,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "Vous venez d'\u00eatre inform\u00e9\u00b7e du refus de votre demande d'ALD hors liste pour endom\u00e9triose, rendu par le m\u00e9decin-conseil de la CPAM de votre d\u00e9partement.",
+      "text": "Vous venez d'\u00eatre inform\u00e9\u00b7e du refus de votre demande d'ALD hors liste pour endom\u00e9triose, rendu par le m\u00e9decin-conseil de la CPAM de votre d\u00e9partement."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 473.40456184314957,
+            "r": 377.3075088794193,
+            "b": 440.9871068420689,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            173
+          ]
+        }
+      ],
+      "orig": "Pour contester cette d\u00e9cision m\u00e9dicale, vous devez saisir la Commission M\u00e9dicale de Recours Amiable (CMRA). La CMRA comp\u00e9tente est celle de la r\u00e9gion dont d\u00e9pend votre CPAM.",
+      "text": "Pour contester cette d\u00e9cision m\u00e9dicale, vous devez saisir la Commission M\u00e9dicale de Recours Amiable (CMRA). La CMRA comp\u00e9tente est celle de la r\u00e9gion dont d\u00e9pend votre CPAM."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 411.0188662825537,
+            "r": 103.73710462672668,
+            "b": 402.56448515769955,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "OBJECTIFS :",
+      "text": "OBJECTIFS :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 398.4434769905922,
+            "r": 369.0401490159042,
+            "b": 378.0810101111564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "Vous contestez le refus de votre demande par le m\u00e9decin conseil de votre CPAM et demandez votre admission en ALD hors liste.",
+      "text": "Vous contestez le refus de votre demande par le m\u00e9decin conseil de votre CPAM et demandez votre admission en ALD hors liste."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 360.8008019589731,
+            "r": 137.98658189555795,
+            "b": 352.346420834119,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "D\u00c9LAI DE RECOURS :",
+      "text": "D\u00c9LAI DE RECOURS :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 348.36197922925743,
+            "r": 369.04318712174535,
+            "b": 327.9365541925088,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "Vous avez 2 mois \u00e0 compter de la r\u00e9ception du courrier vous informant du refus pour faire votre recours.",
+      "text": "Vous avez 2 mois \u00e0 compter de la r\u00e9ception du courrier vous informant du refus pour faire votre recours."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 310.582679051395,
+            "r": 86.37852418116348,
+            "b": 302.1282979265409,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "FORME :",
+      "text": "FORME :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 298.0809421083647,
+            "r": 369.04341234705817,
+            "b": 277.71847522892887,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            104
+          ]
+        }
+      ],
+      "orig": "Vous envoyez un courrier par lettre recommand\u00e9e avec accus\u00e9 de r\u00e9ception (LRAR) \u00e0 la CMRA de votre CPAM.",
+      "text": "Vous envoyez un courrier par lettre recommand\u00e9e avec accus\u00e9 de r\u00e9ception (LRAR) \u00e0 la CMRA de votre CPAM."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 260.2249272456347,
+            "r": 161.4431450294226,
+            "b": 251.77054612078058,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "CONTENU DU COURRIER :",
+      "text": "CONTENU DU COURRIER :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 247.7231903026044,
+            "r": 305.8162408990828,
+            "b": 239.35275338750063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "La liste indicative des \u00e9l\u00e9ments \u00e0 \u00e9noncer est en annexe.",
+      "text": "La liste indicative des \u00e9l\u00e9ments \u00e0 \u00e9noncer est en annexe."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 221.85624721232983,
+            "r": 109.27745559823086,
+            "b": 213.4018660874757,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "PROC\u00c9DURE :",
+      "text": "PROC\u00c9DURE :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 209.41738053861593,
+            "r": 369.05254892478774,
+            "b": 164.98690952076566,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            203
+          ]
+        }
+      ],
+      "orig": "La CMRA statue sur pi\u00e8ces. Elle peut toutefois d\u00e9cider de vous examiner, vous serez alors convoqu\u00e9\u00b7e 15 jours au moins avant la date de l'examen. La CMRA peut aussi solliciter des pi\u00e8ces compl\u00e9mentaires.",
+      "text": "La CMRA statue sur pi\u00e8ces. Elle peut toutefois d\u00e9cider de vous examiner, vous serez alors convoqu\u00e9\u00b7e 15 jours au moins avant la date de l'examen. La CMRA peut aussi solliciter des pi\u00e8ces compl\u00e9mentaires."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.941839918223245,
+            "t": 147.520205365665,
+            "r": 125.18799332898823,
+            "b": 139.0658242408109,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "OBSERVATIONS :",
+      "text": "OBSERVATIONS :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.94183992542325,
+            "t": 135.08142660394748,
+            "r": 369.04984645308514,
+            "b": 90.67194163853475,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "Durant la proc\u00e9dure, vous pourrez avoir acc\u00e8s au rapport m\u00e9dical rendu par le m\u00e9decin conseil dans le cadre de votre demande d'admission en ALD et pr\u00e9senter des observations \u00e0 la CMRA, sous 20 jours \u00e0 compter de sa r\u00e9ception.",
+      "text": "Durant la proc\u00e9dure, vous pourrez avoir acc\u00e8s au rapport m\u00e9dical rendu par le m\u00e9decin conseil dans le cadre de votre demande d'admission en ALD et pr\u00e9senter des observations \u00e0 la CMRA, sous 20 jours \u00e0 compter de sa r\u00e9ception."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 381.60748966843727,
+            "t": 32.99916119161537,
+            "r": 385.60186186050106,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 543.7048251059718,
+            "r": 135.79738887963615,
+            "b": 535.2504439811178,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "D\u00c9LAI DE R\u00c9PONSE :",
+      "text": "D\u00c9LAI DE R\u00c9PONSE :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 528.4076894953525,
+            "r": 368.6672877458273,
+            "b": 448.0221146369436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            447
+          ]
+        }
+      ],
+      "orig": "La CMRA dispose d'un d\u00e9lai de 4 mois pour rendre une d\u00e9cision \u00e0 compter de la r\u00e9ception de votre recours. L'absence de r\u00e9ponse de la CMRA pass\u00e9 ce d\u00e9lai \u00e9quivaut \u00e0 un rejet implicite de votre recours. Attention, certaines CMRA adressent un accus\u00e9 de r\u00e9ception du recours que vous avez envoy\u00e9. Le d\u00e9lai de 4 mois se calcule alors \u00e0 partir de la date de r\u00e9ception du recours par la CMRA qui est indiqu\u00e9e sur cette notification d'accus\u00e9 de r\u00e9ception.",
+      "text": "La CMRA dispose d'un d\u00e9lai de 4 mois pour rendre une d\u00e9cision \u00e0 compter de la r\u00e9ception de votre recours. L'absence de r\u00e9ponse de la CMRA pass\u00e9 ce d\u00e9lai \u00e9quivaut \u00e0 un rejet implicite de votre recours. Attention, certaines CMRA adressent un accus\u00e9 de r\u00e9ception du recours que vous avez envoy\u00e9. Le d\u00e9lai de 4 mois se calcule alors \u00e0 partir de la date de r\u00e9ception du recours par la CMRA qui est indiqu\u00e9e sur cette notification d'accus\u00e9 de r\u00e9ception."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 422.22484162253807,
+            "r": 291.6034341892213,
+            "b": 410.3030476622927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "CONTENTIEUX DEVANT LES JURIDICTIONS",
+      "text": "CONTENTIEUX DEVANT LES JURIDICTIONS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 398.2040922405666,
+            "r": 377.31750805885434,
+            "b": 353.83657938002904,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            244
+          ]
+        }
+      ],
+      "orig": "Pour contester une d\u00e9cision de la CMRA ou une absence de r\u00e9ponse dans le d\u00e9lai imparti, vous devez saisir le p\u00f4le social du tribunal judiciaire. En cas de d\u00e9cision d\u00e9favorable, un appel est possible devant la chambre sociale de la cour d'appel.",
+      "text": "Pour contester une d\u00e9cision de la CMRA ou une absence de r\u00e9ponse dans le d\u00e9lai imparti, vous devez saisir le p\u00f4le social du tribunal judiciaire. En cas de d\u00e9cision d\u00e9favorable, un appel est possible devant la chambre sociale de la cour d'appel."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 338.30690057621905,
+            "r": 377.3115384263381,
+            "b": 305.8684595227008,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "Les juridictions comp\u00e9tentes sont celles de votre lieu de r\u00e9sidence. Vous pouvez vous y pr\u00e9senter seul\u00b7e, ou \u00eatre assist\u00e9\u00b7e d'un\u00b7e avocat\u00b7e ou d'un proche (conjoint\u00b7e, ascendant.e ou descendant.e en ligne directe).",
+      "text": "Les juridictions comp\u00e9tentes sont celles de votre lieu de r\u00e9sidence. Vous pouvez vous y pr\u00e9senter seul\u00b7e, ou \u00eatre assist\u00e9\u00b7e d'un\u00b7e avocat\u00b7e ou d'un proche (conjoint\u00b7e, ascendant.e ou descendant.e en ligne directe)."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 290.3387807188908,
+            "r": 377.31234841301205,
+            "b": 269.8923696297046,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "Tout ce que vous adressez aux juridictions doit \u00eatre aussi communiqu\u00e9 \u00e0 la partie adverse.",
+      "text": "Tout ce que vous adressez aux juridictions doit \u00eatre aussi communiqu\u00e9 \u00e0 la partie adverse."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 79.86007107249691,
+            "t": 251.11617195828626,
+            "r": 339.38227439962793,
+            "b": 218.67764988461136,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            157
+          ]
+        }
+      ],
+      "orig": "Si vous n'\u00eates pas assist\u00e9\u00b7e par un.e professionnel.le du droit, prenez le temps de vous informer attentivement sur les d\u00e9marches et les proc\u00e9dures \u00e0 suivre.",
+      "text": "Si vous n'\u00eates pas assist\u00e9\u00b7e par un.e professionnel.le du droit, prenez le temps de vous informer attentivement sur les d\u00e9marches et les proc\u00e9dures \u00e0 suivre."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 18.494432085398632,
+            "t": 184.29617739013656,
+            "r": 61.261090621432714,
+            "b": 173.3728338230842,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00c9TAPE 2",
+      "text": "\u00c9TAPE 2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 78.9565239101447,
+            "t": 183.10846797866702,
+            "r": 341.37982490067617,
+            "b": 173.71703622639484,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "1 \u00c8RE INSTANCE : TRIBUNAL JUDICIAIRE - P\u00d4LE SOCIAL",
+      "text": "1 \u00c8RE INSTANCE : TRIBUNAL JUDICIAIRE - P\u00d4LE SOCIAL",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 146.42948276311176,
+            "r": 103.3647010774435,
+            "b": 137.97510163825768,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "OBJECTIFS :",
+      "text": "OBJECTIFS :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 133.85409349515032,
+            "r": 368.67211648659287,
+            "b": 113.4916266157145,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "Vous contestez le refus de votre demande en ALD hors liste par la CMRA et demandez votre admission en ALD pour endom\u00e9triose.",
+      "text": "Vous contestez le refus de votre demande en ALD hors liste par la CMRA et demandez votre admission en ALD pour endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 95.99810791241913,
+            "r": 80.00706357151307,
+            "b": 87.54372678756499,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "D\u00c9LAI :",
+      "text": "D\u00c9LAI :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.85224800540621,
+            "t": 83.48564749777165,
+            "r": 368.67851432152895,
+            "b": 51.06819249669104,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "Si la CMRA a rendu une d\u00e9cision n\u00e9gative, vous disposez d'un d\u00e9lai de 2 mois \u00e0 compter de la date de sa notification pour saisir le tribunal judiciaire.",
+      "text": "Si la CMRA a rendu une d\u00e9cision n\u00e9gative, vous disposez d'un d\u00e9lai de 2 mois \u00e0 compter de la date de sa notification pour saisir le tribunal judiciaire.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 381.37066630255487,
+            "t": 32.99916119161537,
+            "r": 385.60288202269254,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 65.85224800540621,
+            "t": 543.1516891370192,
+            "r": 368.6739716656283,
+            "b": 474.7581442429423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            348
+          ]
+        }
+      ],
+      "orig": "En l'absence de r\u00e9ponse de la CMRA dans un d\u00e9lai de 4 mois suivant votre recours, vous avez 2 mois pour saisir le tribunal \u00e0 compter de l'expiration de ce d\u00e9lai. Attention, en cas de transmission d'un accus\u00e9 de r\u00e9ception du recours par la CMRA, il convient de partir de la date de r\u00e9ception indiqu\u00e9e sur cette notification pour calculer les d\u00e9lais.",
+      "text": "En l'absence de r\u00e9ponse de la CMRA dans un d\u00e9lai de 4 mois suivant votre recours, vous avez 2 mois pour saisir le tribunal \u00e0 compter de l'expiration de ce d\u00e9lai. Attention, en cas de transmission d'un accus\u00e9 de r\u00e9ception du recours par la CMRA, il convient de partir de la date de r\u00e9ception indiqu\u00e9e sur cette notification pour calculer les d\u00e9lais.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 458.2292256274553,
+            "r": 86.00612063188031,
+            "b": 449.7748445026012,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "FORME :",
+      "text": "FORME :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 445.72747404442555,
+            "r": 368.6742485945703,
+            "b": 425.3650071649897,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "Vous adressez une requ\u00eate \u00e9crite par LRAR au greffe du p\u00f4le social du tribunal judiciaire ou vous la d\u00e9posez en personne au tribunal.",
+      "text": "Vous adressez une requ\u00eate \u00e9crite par LRAR au greffe du p\u00f4le social du tribunal judiciaire ou vous la d\u00e9posez en personne au tribunal."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 408.62094643846706,
+            "r": 166.25136902780724,
+            "b": 400.1665653136129,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "CONTENU DE LA REQU\u00caTE :",
+      "text": "CONTENU DE LA REQU\u00caTE :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 396.11916557543856,
+            "r": 305.4438373497996,
+            "b": 387.7487286603348,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "La liste indicative des \u00e9l\u00e9ments \u00e0 \u00e9noncer est en annexe.",
+      "text": "La liste indicative des \u00e9l\u00e9ments \u00e0 \u00e9noncer est en annexe."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 370.45568924468614,
+            "r": 147.89444017063366,
+            "b": 362.001308119832,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "EXPERTISE M\u00c9DICALE :",
+      "text": "EXPERTISE M\u00c9DICALE :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 357.95392302165703,
+            "r": 368.67334934222333,
+            "b": 325.59942617788914,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            159
+          ]
+        }
+      ],
+      "orig": "Le tribunal peut ordonner une expertise m\u00e9dicale. Vous ou la partie adverse pouvez aussi en faire la demande, mais il revient au tribunal de l'accepter ou non.",
+      "text": "Le tribunal peut ordonner une expertise m\u00e9dicale. Vous ou la partie adverse pouvez aussi en faire la demande, mais il revient au tribunal de l'accepter ou non."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 308.8583236432431,
+            "r": 124.63570513302957,
+            "b": 300.403942518389,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "CONVOCATION :",
+      "text": "CONVOCATION :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 296.356557420214,
+            "r": 368.6694527569369,
+            "b": 275.9940905407782,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "La date de l'audience vous sera communiqu\u00e9e par le greffe. \u00c0 noter que les d\u00e9lais peuvent \u00eatre longs.",
+      "text": "La date de l'audience vous sera communiqu\u00e9e par le greffe. \u00c0 noter que les d\u00e9lais peuvent \u00eatre longs."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 259.25004447825484,
+            "r": 97.95925512157474,
+            "b": 250.7956633534007,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "D\u00c9CISION :",
+      "text": "D\u00c9CISION :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 246.74827823122587,
+            "r": 368.6743035330575,
+            "b": 214.37279533502033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            187
+          ]
+        }
+      ],
+      "orig": "La d\u00e9cision vous sera notifi\u00e9e par le greffe. Si la d\u00e9cision vous est favorable, la CPAM devra vous accorder l'ALD r\u00e9troactivement. Si elle vous est d\u00e9favorable, vous pourrez faire appel.",
+      "text": "La d\u00e9cision vous sera notifi\u00e9e par le greffe. Si la d\u00e9cision vous est favorable, la CPAM devra vous accorder l'ALD r\u00e9troactivement. Si elle vous est d\u00e9favorable, vous pourrez faire appel."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 18.303889700337898,
+            "t": 166.45997813331155,
+            "r": 342.05922380788286,
+            "b": 155.53663456625924,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "2 \u00c8ME INSTANCE : COUR D'APPEL - CHAMBRE SOCIALE \u00c9TAPE 3",
+      "text": "2 \u00c8ME INSTANCE : COUR D'APPEL - CHAMBRE SOCIALE \u00c9TAPE 3",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 129.19339949728197,
+            "r": 103.3647010774435,
+            "b": 120.73901837242784,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "OBJECTIFS :",
+      "text": "OBJECTIFS :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 116.61792234132417,
+            "r": 368.6669221388138,
+            "b": 96.25545546188835,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "Vous contestez le jugement du tribunal judiciaire et demandez votre admission en ALD hors liste pour endom\u00e9triose.",
+      "text": "Vous contestez le jugement du tribunal judiciaire et demandez votre admission en ALD hors liste pour endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 78.76199534259058,
+            "r": 80.00706357151307,
+            "b": 70.3076142177365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "D\u00c9LAI :",
+      "text": "D\u00c9LAI :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 66.2494763439455,
+            "r": 365.2989656199438,
+            "b": 57.79509521909142,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "1 mois \u00e0 compter de la notification du jugement du tribunal judiciaire.",
+      "text": "1 mois \u00e0 compter de la notification du jugement du tribunal judiciaire."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 380.86969379780373,
+            "t": 32.99916119161537,
+            "r": 385.6055781656272,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 542.9142965789105,
+            "r": 156.78057072504456,
+            "b": 534.4599154540564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "D\u00c9CLARATION D'APPEL :",
+      "text": "D\u00c9CLARATION D'APPEL :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 530.9728651884702,
+            "r": 368.6692744504416,
+            "b": 486.5633802230575,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            244
+          ]
+        }
+      ],
+      "orig": "Vous l'adressez par LRAR au greffe de la chambre sociale de la cour d'appel d\u00e9sign\u00e9e dans les documents transmis par le greffe du tribunal judiciaire. Veillez \u00e0 bien respecter le formalisme et les mentions obligatoires \u00e0 la d\u00e9claration d'appel.",
+      "text": "Vous l'adressez par LRAR au greffe de la chambre sociale de la cour d'appel d\u00e9sign\u00e9e dans les documents transmis par le greffe du tribunal judiciaire. Veillez \u00e0 bien respecter le formalisme et les mentions obligatoires \u00e0 la d\u00e9claration d'appel."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 472.0707973227231,
+            "r": 120.75026029261818,
+            "b": 463.61641619786894,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "CONCLUSIONS :",
+      "text": "CONCLUSIONS :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 459.63200389700626,
+            "r": 368.66402366517144,
+            "b": 439.18559280782006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "Vous, puis la partie adverse, serez invit\u00e9\u00b7es \u00e0 pr\u00e9senter des conclusions. La liste indicative des \u00e9l\u00e9ments \u00e0 \u00e9noncer est en annexe.",
+      "text": "Vous, puis la partie adverse, serez invit\u00e9\u00b7es \u00e0 pr\u00e9senter des conclusions. La liste indicative des \u00e9l\u00e9ments \u00e0 \u00e9noncer est en annexe."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 424.7051791762906,
+            "r": 204.08045629826435,
+            "b": 416.25079805143645,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "CONVOCATION DEVANT LA COUR :",
+      "text": "CONVOCATION DEVANT LA COUR :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 412.20339828926217,
+            "r": 368.6694527569369,
+            "b": 391.84093140982634,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "La date de l'audience vous sera communiqu\u00e9e par le greffe. \u00c0 noter que les d\u00e9lais peuvent \u00eatre longs.",
+      "text": "La date de l'audience vous sera communiqu\u00e9e par le greffe. \u00c0 noter que les d\u00e9lais peuvent \u00eatre longs."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 377.3453764696158,
+            "r": 97.95925512157474,
+            "b": 368.8909953447617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "D\u00c9CISION :",
+      "text": "D\u00c9CISION :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 364.84363952658555,
+            "r": 368.6711102803286,
+            "b": 320.4971127184856,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "La d\u00e9cision vous sera notifi\u00e9e par le greffe. La cour d'appel peut confirmer le jugement ou l'infirmer totalement ou partiellement, c'est\u00e0-dire l'annuler ou le modifier. Dans ce cas, elle rend une nouvelle d\u00e9cision qui remplace l'ancienne.",
+      "text": "La d\u00e9cision vous sera notifi\u00e9e par le greffe. La cour d'appel peut confirmer le jugement ou l'infirmer totalement ou partiellement, c'est\u00e0-dire l'annuler ou le modifier. Dans ce cas, elle rend une nouvelle d\u00e9cision qui remplace l'ancienne."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 18.250990249542042,
+            "t": 268.09382749856763,
+            "r": 62.04774798074213,
+            "b": 257.17048393151526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u00c9TAPE 4",
+      "text": "\u00c9TAPE 4",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 78.9565239101447,
+            "t": 266.5052029038029,
+            "r": 290.2642619694149,
+            "b": 257.1137711515307,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "DERNI\u00c8RE INSTANCE : COUR DE CASSATION",
+      "text": "DERNI\u00c8RE INSTANCE : COUR DE CASSATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 238.85361952810592,
+            "r": 377.3233292899998,
+            "b": 206.43616452702526,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            148
+          ]
+        }
+      ],
+      "orig": "Les arr\u00eats de la cour d'appel peuvent faire l'objet d'un pourvoi en cassation. La Cour de cassation v\u00e9rifie que la loi a \u00e9t\u00e9 correctement appliqu\u00e9e.",
+      "text": "Les arr\u00eats de la cour d'appel peuvent faire l'objet d'un pourvoi en cassation. La Cour de cassation v\u00e9rifie que la loi a \u00e9t\u00e9 correctement appliqu\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 181.4505262239016,
+            "r": 80.00706357151307,
+            "b": 172.99614509904745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "D\u00c9LAI :",
+      "text": "D\u00c9LAI :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 168.9380658092541,
+            "r": 368.6845265887018,
+            "b": 148.5126407725055,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "Vous avez 2 mois \u00e0 compter de la date de la notification de l'arr\u00eat de la cour d'appel pour former votre pourvoi en cassation.",
+      "text": "Vous avez 2 mois \u00e0 compter de la date de la notification de l'arr\u00eat de la cour d'appel pour former votre pourvoi en cassation."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 134.01710047229437,
+            "r": 101.49391989429645,
+            "b": 125.5627193474403,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "AVOCAT.E :",
+      "text": "AVOCAT.E :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.56943636894007,
+            "t": 121.50464005764695,
+            "r": 368.6646986665581,
+            "b": 101.07921502089835,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "Il est ici obligatoire d'\u00eatre repr\u00e9sent\u00e9\u00b7e par un.e avocat.e au Conseil qui vous accompagnera dans la proc\u00e9dure.",
+      "text": "Il est ici obligatoire d'\u00eatre repr\u00e9sent\u00e9\u00b7e par un.e avocat.e au Conseil qui vous accompagnera dans la proc\u00e9dure."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 381.0609742087087,
+            "t": 32.99916119161537,
+            "r": 385.60798283365,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 48.7090707704553,
+            "t": 545.6049322639207,
+            "r": 301.5964311549982,
+            "b": 537.1505300229074,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "CE DOCUMENT EST \u00c0 TITRE INDICATIF ET NON EXHAUSTIF.",
+      "text": "CE DOCUMENT EST \u00c0 TITRE INDICATIF ET NON EXHAUSTIF.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 48.7090707704553,
+            "t": 524.6188274103417,
+            "r": 363.9255433929802,
+            "b": 495.1783203157496,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            136
+          ]
+        }
+      ],
+      "orig": "EN CAS DE BESOIN, CONTACTEZ UN\u00b7E PROFESSIONNEL\u00b7LE DU DROIT AFIN DE RECEVOIR DES CONSEILS ET UN ACCOMPAGNEMENT ADAPT\u00c9S \u00c0 VOTRE SITUATION.",
+      "text": "EN CAS DE BESOIN, CONTACTEZ UN\u00b7E PROFESSIONNEL\u00b7LE DU DROIT AFIN DE RECEVOIR DES CONSEILS ET UN ACCOMPAGNEMENT ADAPT\u00c9S \u00c0 VOTRE SITUATION."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 265.0066904260541,
+            "t": 472.75564520612375,
+            "r": 339.59479031937707,
+            "b": 464.38518738452484,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Pour vous aider :",
+      "text": "Pour vous aider :"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 48.709070235255325,
+            "t": 454.9609697556966,
+            "r": 370.53427304817797,
+            "b": 434.5985028762608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "Cette proc\u00e9dure peut \u00eatre longue et \u00e9prouvante, avec un v\u00e9cu diff\u00e9rent selon les personnes.",
+      "text": "Cette proc\u00e9dure peut \u00eatre longue et \u00e9prouvante, avec un v\u00e9cu diff\u00e9rent selon les personnes."
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 48.709070235255325,
+            "t": 430.9769098270325,
+            "r": 370.5325260342627,
+            "b": 386.63038301893255,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            254
+          ]
+        }
+      ],
+      "orig": "Nous vous encourageons \u00e0 vous faire \u00e9pauler par des proches ou d'autres patient\u00b7es, qui pourront apporter soutien et \u00e9coute tout au long du parcours. Des groupes de parole sont \u00e9galement disponibles pour partager son exp\u00e9rience et se sentir accompagn\u00e9\u00b7e.",
+      "text": "Nous vous encourageons \u00e0 vous faire \u00e9pauler par des proches ou d'autres patient\u00b7es, qui pourront apporter soutien et \u00e9coute tout au long du parcours. Des groupes de parole sont \u00e9galement disponibles pour partager son exp\u00e9rience et se sentir accompagn\u00e9\u00b7e."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 354.81030363147727,
+            "r": 228.7797959776924,
+            "b": 342.88850967123193,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "QUELQUES RESSOURCES UTILES",
+      "text": "QUELQUES RESSOURCES UTILES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 63.99192056616986,
+            "t": 317.65491216183864,
+            "r": 233.19809392214395,
+            "b": 309.2005099208254,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Renseignez-vous sur le site Ameli.fr :",
+      "text": "Renseignez-vous sur le site Ameli.fr :",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 63.84415017190696,
+            "t": 301.804967666157,
+            "r": 243.4558311591686,
+            "b": 294.82959302764556,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "- Qu'est-ce qu'une affection de longue dur\u00e9e ?",
+      "text": "Qu'est-ce qu'une affection de longue dur\u00e9e ?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 63.84415017190696,
+            "t": 293.0607659344987,
+            "r": 202.56308995555344,
+            "b": 286.08539129598734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "- Comment contester une d\u00e9cision ?",
+      "text": "Comment contester une d\u00e9cision ?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 64.82532773144456,
+            "t": 276.8608610615908,
+            "r": 377.31825102295886,
+            "b": 236.9273015402092,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            257
+          ]
+        }
+      ],
+      "orig": "Contactez Sant\u00e9 Info Droits en cas de question sp\u00e9cifique, notamment sur l'ALD (ligne d'informations juridiques et sociales constitu\u00e9e de juristes et avocat\u00b7es qui ont vocation \u00e0 r\u00e9pondre \u00e0 toutes questions en lien avec le droit de la sant\u00e9). 01 40 56 01 49",
+      "text": "Contactez Sant\u00e9 Info Droits en cas de question sp\u00e9cifique, notamment sur l'ALD (ligne d'informations juridiques et sociales constitu\u00e9e de juristes et avocat\u00b7es qui ont vocation \u00e0 r\u00e9pondre \u00e0 toutes questions en lien avec le droit de la sant\u00e9). 01 40 56 01 49",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.02297808154246,
+            "t": 227.86157510322778,
+            "r": 377.92047581131214,
+            "b": 187.94900168669972,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            212
+          ]
+        }
+      ],
+      "orig": "V\u00e9rifiez si vous pouvez b\u00e9n\u00e9ficier du service de protection juridique dans le cadre de votre assurance OU de l'aide juridictionnelle si vous avez des revenus modestes et que souhaitez faire appel \u00e0 un\u00b7e avocat\u00b7e.",
+      "text": "V\u00e9rifiez si vous pouvez b\u00e9n\u00e9ficier du service de protection juridique dans le cadre de votre assurance OU de l'aide juridictionnelle si vous avez des revenus modestes et que souhaitez faire appel \u00e0 un\u00b7e avocat\u00b7e.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 66.02297808154246,
+            "t": 180.3612954824062,
+            "r": 367.3616560048769,
+            "b": 171.906893241393,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "Utilisez la Poste.fr pour envoyer vos documents depuis chez vous.",
+      "text": "Utilisez la Poste.fr pour envoyer vos documents depuis chez vous.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 65.42415650649336,
+            "t": 162.8499362120462,
+            "r": 372.95974540731174,
+            "b": 143.92346764909712,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "Utilisez le mandat suivant en cas de repr\u00e9sentation par un proche : Document intitul\u00e9 \"Mod\u00e8le de pouvoir de repr\u00e9sentation en justice\"",
+      "text": "Utilisez le mandat suivant en cas de repr\u00e9sentation par un proche : Document intitul\u00e9 \"Mod\u00e8le de pouvoir de repr\u00e9sentation en justice\"",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 58.3573007684457,
+            "t": 107.94038706972424,
+            "r": 270.64252586846953,
+            "b": 83.27702944837745,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "SCANNEZ POUR T\u00c9L\u00c9CHARGER DES EXEMPLES DE TRAMES DE RECOURS",
+      "text": "SCANNEZ POUR T\u00c9L\u00c9CHARGER DES EXEMPLES DE TRAMES DE RECOURS"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 255.22800875599918,
+            "t": 335.8640309099413,
+            "r": 349.38728736710823,
+            "b": 327.4935730883424,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Ressources en ligne :",
+      "text": "Ressources en ligne :"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 381.1520601186635,
+            "t": 32.99916119161537,
+            "r": 385.60812857110596,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 42.544824627298894,
+            "t": 552.472982595532,
+            "r": 93.90339771305864,
+            "b": 540.5511886352867,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "ANNEXE",
+      "text": "ANNEXE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 42.544824627298894,
+            "t": 529.1113385511538,
+            "r": 282.99323805966435,
+            "b": 520.6569363101406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "CONTENU INDICATIF D'UN RECOURS DEVANT LA CMRA",
+      "text": "CONTENU INDICATIF D'UN RECOURS DEVANT LA CMRA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 45.823903510670604,
+            "t": 511.0723492497224,
+            "r": 377.6443061169522,
+            "b": 490.70988237028655,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "01 Indiquez votre identit\u00e9 et coordonn\u00e9es + \u00e9noncez les coordonn\u00e9es de la CPAM + datez le courrier.",
+      "text": "01 Indiquez votre identit\u00e9 et coordonn\u00e9es + \u00e9noncez les coordonn\u00e9es de la CPAM + datez le courrier.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 44.898734825719295,
+            "t": 484.2485043353186,
+            "r": 377.6340616493826,
+            "b": 463.82307929857,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            127
+          ]
+        }
+      ],
+      "orig": "Indiquez la r\u00e9f\u00e9rence et la date du refus d'ALD du m\u00e9decin conseil (joindre une copie de la d\u00e9cision et de sa notification). 02",
+      "text": "Indiquez la r\u00e9f\u00e9rence et la date du refus d'ALD du m\u00e9decin conseil (joindre une copie de la d\u00e9cision et de sa notification). 02",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 44.88702382970725,
+            "t": 453.82455784298315,
+            "r": 258.8665126002753,
+            "b": 444.8586826320362,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Enoncez les trois crit\u00e8res de l'ALD hors liste 03",
+      "text": "Enoncez les trois crit\u00e8res de l'ALD hors liste 03",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 63.70394998326864,
+            "t": 442.3274859709238,
+            "r": 376.39380603377174,
+            "b": 426.4899625391726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "(article L. 322-3-4\u00b0 du Code de la s\u00e9curit\u00e9 sociale, d\u00e9cret de 2008 et circulaire DSS/SD1MCGR/2009/308 du 9 octobre 2008) :",
+      "text": "(article L. 322-3-4\u00b0 du Code de la s\u00e9curit\u00e9 sociale, d\u00e9cret de 2008 et circulaire DSS/SD1MCGR/2009/308 du 9 octobre 2008) :"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 79.90611214782851,
+            "t": 420.3425971741288,
+            "r": 377.30730058067843,
+            "b": 375.99607036602885,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            203
+          ]
+        }
+      ],
+      "orig": "forme grave, \u00e9volutive ou invalidante d'une maladie (cette condition est valid\u00e9e si au moins l'un des crit\u00e8res suivants est verifi\u00e9 : risque vital encouru, morbidit\u00e9 \u00e9volutive ou qualit\u00e9 de vie d\u00e9grad\u00e9e)",
+      "text": "forme grave, \u00e9volutive ou invalidante d'une maladie (cette condition est valid\u00e9e si au moins l'un des crit\u00e8res suivants est verifi\u00e9 : risque vital encouru, morbidit\u00e9 \u00e9volutive ou qualit\u00e9 de vie d\u00e9grad\u00e9e)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 79.90611214782851,
+            "t": 372.37447731680055,
+            "r": 320.5428452901093,
+            "b": 364.0040404016968,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "traitement d'une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois",
+      "text": "traitement d'une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 79.90611214782851,
+            "t": 360.3824473524685,
+            "r": 377.3155310855939,
+            "b": 280.05983065137235,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            396
+          ]
+        }
+      ],
+      "orig": "traitement particuli\u00e8rement co\u00fbteux en raison du co\u00fbt ou de la fr\u00e9quence des actes, prestations et traitements (cette condition est valid\u00e9e si au moins trois des cinq crit\u00e8res du panier de soins sont v\u00e9rifi\u00e9s : traitement m\u00e9dicamenteux r\u00e9gulier ou appareillage r\u00e9gulier (obligatoire) ; hospitalisation ; actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s ; actes biologiques r\u00e9p\u00e9t\u00e9s ; soins param\u00e9dicaux r\u00e9p\u00e9t\u00e9s).",
+      "text": "traitement particuli\u00e8rement co\u00fbteux en raison du co\u00fbt ou de la fr\u00e9quence des actes, prestations et traitements (cette condition est valid\u00e9e si au moins trois des cinq crit\u00e8res du panier de soins sont v\u00e9rifi\u00e9s : traitement m\u00e9dicamenteux r\u00e9gulier ou appareillage r\u00e9gulier (obligatoire) ; hospitalisation ; actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s ; actes biologiques r\u00e9p\u00e9t\u00e9s ; soins param\u00e9dicaux r\u00e9p\u00e9t\u00e9s).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 44.47713896928579,
+            "t": 270.0906202025642,
+            "r": 377.62728255484365,
+            "b": 249.644209113378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "Rappelez les \u00e9l\u00e9ments du diagnostic d'endom\u00e9triose (date, examens, etc.) et d\u00e9crivez vos sympt\u00f4mes et leur \u00e9volution. 04",
+      "text": "Rappelez les \u00e9l\u00e9ments du diagnostic d'endom\u00e9triose (date, examens, etc.) et d\u00e9crivez vos sympt\u00f4mes et leur \u00e9volution. 04",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 44.78162486559888,
+            "t": 240.41619759099854,
+            "r": 377.6342510485059,
+            "b": 207.9987425899178,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "D\u00e9crivez l'impact sur votre qualit\u00e9 de vie (vie sociale / vie intime / vie professionnelle : pensez \u00e0 indiquer le nombre de jours d'arr\u00eats de travail en lien avec l'endom\u00e9triose.). 05",
+      "text": "D\u00e9crivez l'impact sur votre qualit\u00e9 de vie (vie sociale / vie intime / vie professionnelle : pensez \u00e0 indiquer le nombre de jours d'arr\u00eats de travail en lien avec l'endom\u00e9triose.). 05",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 44.414474494896815,
+            "t": 198.75264464698,
+            "r": 377.31523339064995,
+            "b": 130.35909975290315,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            406
+          ]
+        }
+      ],
+      "orig": "D\u00e9crivez votre parcours m\u00e9dical pass\u00e9, en cours et \u00e0 venir si des examens sont pr\u00e9vus (pensez \u00e0 lister : les traitements, les sp\u00e9cialistes consult\u00e9\u00b7es, les examens, les op\u00e9rations et hospitalisations, les traitements ou les pistes de traitement, les soins m\u00e9dicaux et param\u00e9dicaux, les actes biologiques, les passages aux urgences, les appareillages comme le TENS et leur fr\u00e9quence d'utilisation, etc.). 06",
+      "text": "D\u00e9crivez votre parcours m\u00e9dical pass\u00e9, en cours et \u00e0 venir si des examens sont pr\u00e9vus (pensez \u00e0 lister : les traitements, les sp\u00e9cialistes consult\u00e9\u00b7es, les examens, les op\u00e9rations et hospitalisations, les traitements ou les pistes de traitement, les soins m\u00e9dicaux et param\u00e9dicaux, les actes biologiques, les passages aux urgences, les appareillages comme le TENS et leur fr\u00e9quence d'utilisation, etc.). 06",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 43.76447624148008,
+            "t": 120.37222799283074,
+            "r": 376.3954569763922,
+            "b": 99.94680295608214,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "Rappelez les coordonn\u00e9es de votre m\u00e9decin traitant et, si cela est possible, joignez son avis motiv\u00e9 quant \u00e0 votre demande en ALD. 07",
+      "text": "Rappelez les coordonn\u00e9es de votre m\u00e9decin traitant et, si cela est possible, joignez son avis motiv\u00e9 quant \u00e0 votre demande en ALD. 07",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 43.5185453252272,
+            "t": 88.44935822695038,
+            "r": 376.3883069533766,
+            "b": 68.02393319020189,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "Mentionnez clairement que vous demandez votre admission en ALD hors liste. 08",
+      "text": "Mentionnez clairement que vous demandez votre admission en ALD hors liste. 08",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 44.73478088155071,
+            "t": 61.748363637706916,
+            "r": 377.64841311124235,
+            "b": 40.40289918107828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "Joignez les copies de vos documents m\u00e9dicaux et de toute autre pi\u00e8ce jug\u00e9e utile (par exemple l'\u00e9tude ENDOmind sur l'ALD). 09",
+      "text": "Joignez les copies de vos documents m\u00e9dicaux et de toute autre pi\u00e8ce jug\u00e9e utile (par exemple l'\u00e9tude ENDOmind sur l'ALD). 09",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 381.8625302163106,
+            "t": 32.99916119161537,
+            "r": 385.60506808453147,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 43.1646510014728,
+            "t": 552.2858431855494,
+            "r": 356.33048497592324,
+            "b": 543.8314409445362,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "CONTENU INDICATIF D'UNE REQU\u00caTE DEVANT LE TRIBUNAL JUDICIAIRE :",
+      "text": "CONTENU INDICATIF D'UNE REQU\u00caTE DEVANT LE TRIBUNAL JUDICIAIRE :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 46.44372988484451,
+            "t": 534.2468612281177,
+            "r": 378.2583113489616,
+            "b": 513.8843943486819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "01 Indiquez votre identit\u00e9 compl\u00e8te et vos coordonn\u00e9es + \u00e9noncez le nom et coordonn\u00e9es de la CPAM mise en cause + datez la requ\u00eate",
+      "text": "01 Indiquez votre identit\u00e9 compl\u00e8te et vos coordonn\u00e9es + \u00e9noncez le nom et coordonn\u00e9es de la CPAM mise en cause + datez la requ\u00eate",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 45.5185611998932,
+            "t": 507.42299800171475,
+            "r": 378.2527485379773,
+            "b": 451.02148307196995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            297
+          ]
+        }
+      ],
+      "orig": "Indiquez la date et la r\u00e9f\u00e9rence de la d\u00e9cision contest\u00e9e (joindre une copie de la d\u00e9cision CRMA et de sa notification). En l'absence de d\u00e9cision, indiquez la date de votre recours devant la CMRA (joindre une copie de votre courrier et de l'accus\u00e9-r\u00e9ception de la CMRA si vous en avez re\u00e7u un). 02",
+      "text": "Indiquez la date et la r\u00e9f\u00e9rence de la d\u00e9cision contest\u00e9e (joindre une copie de la d\u00e9cision CRMA et de sa notification). En l'absence de d\u00e9cision, indiquez la date de votre recours devant la CMRA (joindre une copie de votre courrier et de l'accus\u00e9-r\u00e9ception de la CMRA si vous en avez re\u00e7u un). 02",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.267197455533356,
+            "t": 444.7792652518703,
+            "r": 322.8987131098602,
+            "b": 435.81339020892347,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Rappelez votre situation et la proc\u00e9dure devant la CMRA. 03",
+      "text": "Rappelez votre situation et la proc\u00e9dure devant la CMRA. 03",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 43.85731259511189,
+            "t": 427.06391443801,
+            "r": 377.0204937512119,
+            "b": 382.65442947259726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "Enoncez les motifs de contestation et reprenez les points de 3 \u00e0 7 d\u00e9crits dans le courrier adress\u00e9 \u00e0 la CMRA. Indiquez s'il y a eu, depuis, une \u00e9volution de la maladie, des complications ou de nouveaux examens. 04",
+      "text": "Enoncez les motifs de contestation et reprenez les points de 3 \u00e0 7 d\u00e9crits dans le courrier adress\u00e9 \u00e0 la CMRA. Indiquez s'il y a eu, depuis, une \u00e9volution de la maladie, des complications ou de nouveaux examens. 04",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.16179849142498,
+            "t": 376.3847817278557,
+            "r": 377.0105218536455,
+            "b": 355.9628863154329,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "Demandez clairement l'annulation de la d\u00e9cision prise par la CPAM et votre admission en ALD hors liste. 05",
+      "text": "Demandez clairement l'annulation de la d\u00e9cision prise par la CPAM et votre admission en ALD hors liste. 05",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.88454327531061,
+            "t": 349.70833883937416,
+            "r": 142.37952194243084,
+            "b": 340.7669933691902,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Signez la requ\u00eate 06",
+      "text": "Signez la requ\u00eate 06",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 45.62396016400158,
+            "t": 335.0155686493579,
+            "r": 378.25063426814444,
+            "b": 314.5691575601717,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "En annexe, listez, num\u00e9rotez et joignez les copies de vos documents m\u00e9dicaux et de toute autre pi\u00e8ce jug\u00e9e utile. 07",
+      "text": "En annexe, listez, num\u00e9rotez et joignez les copies de vos documents m\u00e9dicaux et de toute autre pi\u00e8ce jug\u00e9e utile. 07",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 41.924998253125,
+            "t": 281.00595848887843,
+            "r": 335.9063906965573,
+            "b": 272.5515562478652,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "CONTENU INDICATIF DE CONCLUSIONS DEVANT LA COUR D'APPEL :",
+      "text": "CONTENU INDICATIF DE CONCLUSIONS DEVANT LA COUR D'APPEL :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 45.20407713649671,
+            "t": 262.93699827669576,
+            "r": 377.0247413798514,
+            "b": 230.58250143292787,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            145
+          ]
+        }
+      ],
+      "orig": "01 Indiquez votre identit\u00e9 compl\u00e8te + profession + date de naissance + coordonn\u00e9es et \u00e9noncez le nom et les coordonn\u00e9es de la CPAM mise en cause.",
+      "text": "01 Indiquez votre identit\u00e9 compl\u00e8te + profession + date de naissance + coordonn\u00e9es et \u00e9noncez le nom et les coordonn\u00e9es de la CPAM mise en cause.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.5784284390654,
+            "t": 224.30988006431016,
+            "r": 377.3114173018649,
+            "b": 203.87898611357434,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "Indiquez la date et la r\u00e9f\u00e9rence du jugement contest\u00e9 (le joindre en copie). 02",
+      "text": "Indiquez la date et la r\u00e9f\u00e9rence du jugement contest\u00e9 (le joindre en copie). 02",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.41695984929326,
+            "t": 197.60343717707866,
+            "r": 377.17824608335053,
+            "b": 177.1725126263442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "Rappelez votre situation et la proc\u00e9dure devant la CMRA et le tribunal judiciaire. 03",
+      "text": "Rappelez votre situation et la proc\u00e9dure devant la CMRA et le tribunal judiciaire. 03",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.00707498887179,
+            "t": 170.896999089847,
+            "r": 377.15252115302195,
+            "b": 150.46606841911273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "Enoncez les motifs juridiques et/ m\u00e9dicaux de contestation du jugement du tribunal. 04",
+      "text": "Enoncez les motifs juridiques et/ m\u00e9dicaux de contestation du jugement du tribunal. 04",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.93138725935878,
+            "t": 144.2150785513786,
+            "r": 377.7803225433539,
+            "b": 111.797623550298,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "orig": "Reprenez les points de 3 \u00e0 7 d\u00e9crits dans le courrier adress\u00e9 \u00e0 la CMRA. Indiquez s'il a eu, depuis, une \u00e9volution de la maladie, des complications ou de nouveaux examens. 05",
+      "text": "Reprenez les points de 3 \u00e0 7 d\u00e9crits dans le courrier adress\u00e9 \u00e0 la CMRA. Indiquez s'il a eu, depuis, une \u00e9volution de la maladie, des complications ou de nouveaux examens. 05",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.414474494896815,
+            "t": 104.02608987613496,
+            "r": 377.3090894167982,
+            "b": 83.57420624896179,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "Demandez clairement l'infirmation de la d\u00e9cision prise par le tribunal judiciaire et votre admission en ALD hors liste par la CPAM. 06",
+      "text": "Demandez clairement l'infirmation de la d\u00e9cision prise par le tribunal judiciaire et votre admission en ALD hors liste par la CPAM. 06",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.68382740317378,
+            "t": 75.82057105136505,
+            "r": 205.06594532145465,
+            "b": 66.879225581181,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Signez et datez les conclusions. 07",
+      "text": "Signez et datez les conclusions. 07",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 44.4378964869209,
+            "t": 59.62885161980489,
+            "r": 377.31354731123713,
+            "b": 39.182440530618805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "En annexe, listez, num\u00e9rotez et joignez les copies de vos documents m\u00e9dicaux et de toute autre pi\u00e8ce jug\u00e9e utile. 08",
+      "text": "En annexe, listez, num\u00e9rotez et joignez les copies de vos documents m\u00e9dicaux et de toute autre pi\u00e8ce jug\u00e9e utile. 08",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 381.0700827997042,
+            "t": 32.99916119161537,
+            "r": 385.60310062887646,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 320.5926843009709,
+            "t": 557.0503552848081,
+            "r": 360.89022178826787,
+            "b": 545.1285613245628,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "NOTES",
+      "text": "NOTES"
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 381.30690616558655,
+            "t": 32.99916119161537,
+            "r": 385.6090758645695,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "9",
+      "text": "9"
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 320.5926843009709,
+            "t": 557.0503552848081,
+            "r": 360.89022178826787,
+            "b": 545.1285613245628,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "NOTES",
+      "text": "NOTES"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 378.76560927784897,
+            "t": 32.99916119161537,
+            "r": 385.607136565391,
+            "b": 26.42348718016183,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 319.3530459526225,
+            "t": 557.0503552848081,
+            "r": 359.65058343991944,
+            "b": 545.1285613245628,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "NOTES",
+      "text": "NOTES"
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 44.599418821690804,
+            "t": 60.890946029361544,
+            "r": 372.1493505801508,
+            "b": 42.79091925021737,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "Document con\u00e7u et mis en page par l'association ENDOmind. Toute reproduction, m\u00eame partielle, est interdite (art. L.122-4 CPI)",
+      "text": "Document con\u00e7u et mis en page par l'association ENDOmind. Toute reproduction, m\u00eame partielle, est interdite (art. L.122-4 CPI)"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 266.8003978729248,
+            "t": 70.38523668550431,
+            "r": 374.1497415270124,
+            "b": 31.044002135951132,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 281.7929562159947,
+            "t": 595.4581290340714,
+            "r": 419.14100309099473,
+            "b": 396.38275177237165,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 57.40206224577768,
+            "t": 391.06537814798753,
+            "r": 354.7243782043457,
+            "b": 70.66045725558263,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 219.67873110089982,
+            "t": 73.47096361335639,
+            "r": 271.762803540911,
+            "b": 55.498444449333874,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 0.12288150005042553,
+            "t": 84.21237179211954,
+            "r": 62.089256811141965,
+            "b": 16.04634107717868,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 289.5922669001988,
+            "t": 116.01696576277436,
+            "r": 354.0761238098145,
+            "b": 52.27769905435264,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 318.5428268432617,
+            "t": 558.1103750907729,
+            "r": 359.8209128243583,
+            "b": 547.6747061379797,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 10
+    },
+    "11": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 11
+    },
+    "12": {
+      "size": {
+        "width": 419.25,
+        "height": 595.499986
+      },
+      "page_no": 12
+    }
+  }
+}

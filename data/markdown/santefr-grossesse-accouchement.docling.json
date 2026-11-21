@@ -1,0 +1,543 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 2304336972066042235,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/6"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Endom\u00e9triose : d\u00e9roulement de la grossesse et accouchement",
+      "text": "Endom\u00e9triose : d\u00e9roulement de la grossesse et accouchement"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 04/03/2024",
+      "text": "Publi\u00e9 le 04/03/2024"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si l\u2019endom\u00e9triose est, pour 40 % des femmes qui en souffrent, li\u00e9e \u00e0 des probl\u00e8mes de fertilit\u00e9, ses traitements permettent n\u00e9anmoins \u00e0 un grand nombre d\u2019entre elles de conna\u00eetre la maternit\u00e9.",
+      "text": "Si l\u2019endom\u00e9triose est, pour 40 % des femmes qui en souffrent, li\u00e9e \u00e0 des probl\u00e8mes de fertilit\u00e9, ses traitements permettent n\u00e9anmoins \u00e0 un grand nombre d\u2019entre elles de conna\u00eetre la maternit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comment se passe la grossesse lorsqu\u2019on souffre d\u2019endom\u00e9triose ? Comment \u00e9voluent les sympt\u00f4mes pendant et apr\u00e8s la grossesse ? L\u2019endom\u00e9triose est-elle li\u00e9e \u00e0 des risques particuliers pendant ces 9 mois et au cours de l\u2019accouchement ?",
+      "text": "Comment se passe la grossesse lorsqu\u2019on souffre d\u2019endom\u00e9triose ? Comment \u00e9voluent les sympt\u00f4mes pendant et apr\u00e8s la grossesse ? L\u2019endom\u00e9triose est-elle li\u00e9e \u00e0 des risques particuliers pendant ces 9 mois et au cours de l\u2019accouchement ?",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour la vaste majorit\u00e9 des femmes souffrant d\u2019endom\u00e9triose, la grossesse et l\u2019accouchement se passent sans encombre. Un suivi m\u00e9dical adapt\u00e9 est n\u00e9anmoins recommand\u00e9 tout au long de la grossesse.",
+      "text": "Pour la vaste majorit\u00e9 des femmes souffrant d\u2019endom\u00e9triose, la grossesse et l\u2019accouchement se passent sans encombre. Un suivi m\u00e9dical adapt\u00e9 est n\u00e9anmoins recommand\u00e9 tout au long de la grossesse.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment \u00e9voluent les sympt\u00f4mes de l\u2019endom\u00e9triose pendant la grossesse ?",
+      "text": "Comment \u00e9voluent les sympt\u00f4mes de l\u2019endom\u00e9triose pendant la grossesse ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parce qu\u2019elle suspend les cycles menstruels, la grossesse s\u2019accompagne g\u00e9n\u00e9ralement d\u2019une nette diminution, voire d\u2019une disparition des sympt\u00f4mes d\u2019endom\u00e9triose. N\u00e9anmoins, pendant les trois premiers mois de la grossesse, il arrive parfois que ces sympt\u00f4mes soient toujours pr\u00e9sents, voire plus intenses. Mais ils s\u2019att\u00e9nuent fortement ou disparaissent au cours des deux derniers trimestres.",
+      "text": "Parce qu\u2019elle suspend les cycles menstruels, la grossesse s\u2019accompagne g\u00e9n\u00e9ralement d\u2019une nette diminution, voire d\u2019une disparition des sympt\u00f4mes d\u2019endom\u00e9triose. N\u00e9anmoins, pendant les trois premiers mois de la grossesse, il arrive parfois que ces sympt\u00f4mes soient toujours pr\u00e9sents, voire plus intenses. Mais ils s\u2019att\u00e9nuent fortement ou disparaissent au cours des deux derniers trimestres."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez certaines femmes souffrant d\u2019endom\u00e9triose, il arrive \u00e9galement que la grossesse s\u2019accompagne de l\u2019apparition de douleurs d\u2019un type jusque-l\u00e0 non ressenti. Par exemple, avec la croissance de l\u2019enfant \u00e0 na\u00eetre, l\u2019ut\u00e9rus augmente de taille. Il peut alors appuyer sur des l\u00e9sions d\u2019endom\u00e9triose jusque-l\u00e0 silencieuses.",
+      "text": "Chez certaines femmes souffrant d\u2019endom\u00e9triose, il arrive \u00e9galement que la grossesse s\u2019accompagne de l\u2019apparition de douleurs d\u2019un type jusque-l\u00e0 non ressenti. Par exemple, avec la croissance de l\u2019enfant \u00e0 na\u00eetre, l\u2019ut\u00e9rus augmente de taille. Il peut alors appuyer sur des l\u00e9sions d\u2019endom\u00e9triose jusque-l\u00e0 silencieuses."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De plus, en particulier chez les femmes qui, avant la grossesse, ont \u00e9t\u00e9 op\u00e9r\u00e9es pour enlever ces l\u00e9sions, il arrive que l\u2019ut\u00e9rus, en augmentant de volume, tire sur des adh\u00e9rences, c\u2019est-\u00e0-dire les cicatrices fibreuses qui, parfois, apparaissent apr\u00e8s une intervention chirurgicale et lient entre eux des organes abdominaux normalement ind\u00e9pendants les uns des autres.",
+      "text": "De plus, en particulier chez les femmes qui, avant la grossesse, ont \u00e9t\u00e9 op\u00e9r\u00e9es pour enlever ces l\u00e9sions, il arrive que l\u2019ut\u00e9rus, en augmentant de volume, tire sur des adh\u00e9rences, c\u2019est-\u00e0-dire les cicatrices fibreuses qui, parfois, apparaissent apr\u00e8s une intervention chirurgicale et lient entre eux des organes abdominaux normalement ind\u00e9pendants les uns des autres."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque ces adh\u00e9rences ou des l\u00e9sions d\u2019endom\u00e9triose affectent les ligaments qui attachent l\u2019ut\u00e9rus \u00e0 la paroi interne de l\u2019abdomen, des douleurs ligamentaires apparaissent de mani\u00e8re plus intense que lors d\u2019une grossesse sans endom\u00e9triose",
+      "text": "Lorsque ces adh\u00e9rences ou des l\u00e9sions d\u2019endom\u00e9triose affectent les ligaments qui attachent l\u2019ut\u00e9rus \u00e0 la paroi interne de l\u2019abdomen, des douleurs ligamentaires apparaissent de mani\u00e8re plus intense que lors d\u2019une grossesse sans endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose justifie-t-elle un suivi m\u00e9dical sp\u00e9cialis\u00e9 pendant la grossesse ?",
+      "text": "L\u2019endom\u00e9triose justifie-t-elle un suivi m\u00e9dical sp\u00e9cialis\u00e9 pendant la grossesse ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "M\u00eame si la tr\u00e8s grande majorit\u00e9 des grossesses se passent sans probl\u00e8me, les femmes qui souffrent d\u2019endom\u00e9triose sont suivies avec une attention particuli\u00e8re.",
+      "text": "M\u00eame si la tr\u00e8s grande majorit\u00e9 des grossesses se passent sans probl\u00e8me, les femmes qui souffrent d\u2019endom\u00e9triose sont suivies avec une attention particuli\u00e8re."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces examens seront \u00e9galement l\u2019occasion de rechercher une anomalie de la grossesse qui semble \u00eatre l\u00e9g\u00e8rement plus fr\u00e9quente chez les femmes qui souffrent d\u2019endom\u00e9triose, notamment dans le cas de l\u2019ad\u00e9nomyose associ\u00e9e : placenta pr\u00e6via. Dans ce cas, le placenta (l\u2019organe, dans l\u2019ut\u00e9rus, qui se d\u00e9veloppe pour assurer les \u00e9changes nutritifs entre la m\u00e8re et l\u2019enfant \u00e0 na\u00eetre) prend une position inhabituelle, \u00e0 proximit\u00e9 du ou par-dessus le col de l\u2019ut\u00e9rus, et rend l\u2019accouchement par les voies naturelles plus difficile, voire impossible.",
+      "text": "Ces examens seront \u00e9galement l\u2019occasion de rechercher une anomalie de la grossesse qui semble \u00eatre l\u00e9g\u00e8rement plus fr\u00e9quente chez les femmes qui souffrent d\u2019endom\u00e9triose, notamment dans le cas de l\u2019ad\u00e9nomyose associ\u00e9e : placenta pr\u00e6via. Dans ce cas, le placenta (l\u2019organe, dans l\u2019ut\u00e9rus, qui se d\u00e9veloppe pour assurer les \u00e9changes nutritifs entre la m\u00e8re et l\u2019enfant \u00e0 na\u00eetre) prend une position inhabituelle, \u00e0 proximit\u00e9 du ou par-dessus le col de l\u2019ut\u00e9rus, et rend l\u2019accouchement par les voies naturelles plus difficile, voire impossible."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mais de mani\u00e8re g\u00e9n\u00e9rale, l\u2019endom\u00e9triose n\u2019est associ\u00e9e qu\u2019\u00e0 une augmentation faible du risque de complications obst\u00e9tricales telles que placenta pr\u00e6via, , le retard de croissance, la pr\u00e9-\u00e9clampsie, et la pr\u00e9maturit\u00e9.",
+      "text": "Mais de mani\u00e8re g\u00e9n\u00e9rale, l\u2019endom\u00e9triose n\u2019est associ\u00e9e qu\u2019\u00e0 une augmentation faible du risque de complications obst\u00e9tricales telles que placenta pr\u00e6via, , le retard de croissance, la pr\u00e9-\u00e9clampsie, et la pr\u00e9maturit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose augmente-t-elle le risque de fausse couche spontan\u00e9e ?",
+      "text": "L\u2019endom\u00e9triose augmente-t-elle le risque de fausse couche spontan\u00e9e ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Par fausse couche spontan\u00e9e, on entend une interruption spontan\u00e9e de la grossesse avant la 12e semaine de grossesse (3e mois). Il n\u2019existe pas, parmi les experts, de consensus d\u00e9finitif sur l\u2019impact de l\u2019endom\u00e9triose sur le risque de fausse couche spontan\u00e9e. En 2016, une \u00e9tude de l\u2019Inserm (Institut national de la sant\u00e9 et de la recherche m\u00e9dicale) a observ\u00e9 un risque plus important (augment\u00e9 de 10 %) de fausse couche chez les femmes souffrant d\u2019endom\u00e9triose, mais d\u2019autres \u00e9tudes n\u2019ont pas retrouv\u00e9 cette diff\u00e9rence.",
+      "text": "Par fausse couche spontan\u00e9e, on entend une interruption spontan\u00e9e de la grossesse avant la 12e semaine de grossesse (3e mois). Il n\u2019existe pas, parmi les experts, de consensus d\u00e9finitif sur l\u2019impact de l\u2019endom\u00e9triose sur le risque de fausse couche spontan\u00e9e. En 2016, une \u00e9tude de l\u2019Inserm (Institut national de la sant\u00e9 et de la recherche m\u00e9dicale) a observ\u00e9 un risque plus important (augment\u00e9 de 10 %) de fausse couche chez les femmes souffrant d\u2019endom\u00e9triose, mais d\u2019autres \u00e9tudes n\u2019ont pas retrouv\u00e9 cette diff\u00e9rence."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il est possible que ce risque soit diff\u00e9rent selon les localisations des l\u00e9sions d\u2019endom\u00e9triose : en particulier, il est possible que ce risque soit plus particuli\u00e8rement augment\u00e9 chez les femmes qui souffrent d\u2019ad\u00e9nomyose.",
+      "text": "Il est possible que ce risque soit diff\u00e9rent selon les localisations des l\u00e9sions d\u2019endom\u00e9triose : en particulier, il est possible que ce risque soit plus particuli\u00e8rement augment\u00e9 chez les femmes qui souffrent d\u2019ad\u00e9nomyose."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose augmente-t-elle le risque d\u2019accouchement pr\u00e9matur\u00e9 ?",
+      "text": "L\u2019endom\u00e9triose augmente-t-elle le risque d\u2019accouchement pr\u00e9matur\u00e9 ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si certaines \u00e9tudes men\u00e9es sur le sujet montrent une faible augmentation du risque d\u2019accouchement pr\u00e9matur\u00e9 chez les femmes enceintes souffrant d\u2019endom\u00e9triose, une \u00e9tude men\u00e9e par l\u2019\u00e9quipe de l\u2019Inserm cit\u00e9e pr\u00e9c\u00e9demment et publi\u00e9e en 2022 n\u2019a pas mis en \u00e9vidence de risque suppl\u00e9mentaire. Par ailleurs, l\u2019endom\u00e9triose ne semble pas affecter la croissance du f\u0153tus et, \u00e0 terme, le nouveau-n\u00e9 pr\u00e9sente un poids normal.",
+      "text": "Si certaines \u00e9tudes men\u00e9es sur le sujet montrent une faible augmentation du risque d\u2019accouchement pr\u00e9matur\u00e9 chez les femmes enceintes souffrant d\u2019endom\u00e9triose, une \u00e9tude men\u00e9e par l\u2019\u00e9quipe de l\u2019Inserm cit\u00e9e pr\u00e9c\u00e9demment et publi\u00e9e en 2022 n\u2019a pas mis en \u00e9vidence de risque suppl\u00e9mentaire. Par ailleurs, l\u2019endom\u00e9triose ne semble pas affecter la croissance du f\u0153tus et, \u00e0 terme, le nouveau-n\u00e9 pr\u00e9sente un poids normal."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose influence-t-elle l\u2019accouchement ?",
+      "text": "L\u2019endom\u00e9triose influence-t-elle l\u2019accouchement ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans la plupart des cas, l\u2019accouchement se passe normalement chez les femmes qui souffrent d\u2019endom\u00e9triose. Parfois, lorsqu\u2019un placenta pr\u00e6via ou des l\u00e9sions au sein de la paroi de l\u2019ut\u00e9rus sont pr\u00e9sents, il peut \u00eatre n\u00e9cessaire d\u2019avoir recours \u00e0 un accouchement par c\u00e9sarienne.",
+      "text": "Dans la plupart des cas, l\u2019accouchement se passe normalement chez les femmes qui souffrent d\u2019endom\u00e9triose. Parfois, lorsqu\u2019un placenta pr\u00e6via ou des l\u00e9sions au sein de la paroi de l\u2019ut\u00e9rus sont pr\u00e9sents, il peut \u00eatre n\u00e9cessaire d\u2019avoir recours \u00e0 un accouchement par c\u00e9sarienne."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de l\u2019endom\u00e9triose r\u00e9apparaissent-ils apr\u00e8s l\u2019accouchement ?",
+      "text": "Les sympt\u00f4mes de l\u2019endom\u00e9triose r\u00e9apparaissent-ils apr\u00e8s l\u2019accouchement ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Malheureusement, la grossesse ne gu\u00e9rit pas l\u2019endom\u00e9triose, elle ne ferait que la mettre en sommeil. Apr\u00e8s l\u2019accouchement, \u00e0 partir du retour de couches (le retour des r\u00e8gles), les sympt\u00f4mes r\u00e9apparaissent sauf, bien s\u00fbr, si un traitement continu \u00e0 base d\u2019hormones contraceptives est mis en place. Chez certaines femmes, l\u2019allaitement maternel prolong\u00e9 peut retarder le retour de couches et, donc, le retour des sympt\u00f4mes de l\u2019endom\u00e9triose.",
+      "text": "Malheureusement, la grossesse ne gu\u00e9rit pas l\u2019endom\u00e9triose, elle ne ferait que la mettre en sommeil. Apr\u00e8s l\u2019accouchement, \u00e0 partir du retour de couches (le retour des r\u00e8gles), les sympt\u00f4mes r\u00e9apparaissent sauf, bien s\u00fbr, si un traitement continu \u00e0 base d\u2019hormones contraceptives est mis en place. Chez certaines femmes, l\u2019allaitement maternel prolong\u00e9 peut retarder le retour de couches et, donc, le retour des sympt\u00f4mes de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En conclusion,",
+      "text": "En conclusion,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Il est tout \u00e0 fait possible de mener \u00e0 terme une grossesse normale malgr\u00e9 la pr\u00e9sence de l\u00e9sions d\u2019endom\u00e9triose, avec une surveillance m\u00e9dicale un peu plus attentive. Dans la vaste majorit\u00e9 des cas, la grossesse et l\u2019accouchement se passent sans encombre et repr\u00e9sentent un r\u00e9pit dans le cours de l\u2019endom\u00e9triose. N\u00e9anmoins, si des douleurs inhabituelles apparaissent pendant la grossesse, il est toujours pr\u00e9f\u00e9rable de consulter rapidement son gyn\u00e9cologue, m\u00eame si ces douleurs restent moins intenses que celles habituellement ressenties.",
+      "text": " Il est tout \u00e0 fait possible de mener \u00e0 terme une grossesse normale malgr\u00e9 la pr\u00e9sence de l\u00e9sions d\u2019endom\u00e9triose, avec une surveillance m\u00e9dicale un peu plus attentive. Dans la vaste majorit\u00e9 des cas, la grossesse et l\u2019accouchement se passent sans encombre et repr\u00e9sentent un r\u00e9pit dans le cours de l\u2019endom\u00e9triose. N\u00e9anmoins, si des douleurs inhabituelles apparaissent pendant la grossesse, il est toujours pr\u00e9f\u00e9rable de consulter rapidement son gyn\u00e9cologue, m\u00eame si ces douleurs restent moins intenses que celles habituellement ressenties."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

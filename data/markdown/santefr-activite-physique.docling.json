@@ -1,0 +1,361 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 5781115295166017893,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/7"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "En mouvement avec l'endom\u00e9triose : les bonnes pratiques",
+      "text": "En mouvement avec l'endom\u00e9triose : les bonnes pratiques"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 25/02/2025",
+      "text": "Publi\u00e9 le 25/02/2025"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par ",
+      "text": "Information propos\u00e9e par "
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Minist\u00e8re des Sports",
+      "text": "Minist\u00e8re des Sports",
+      "hyperlink": "#source-info"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose est une maladie \u00e0 part enti\u00e8re, qui n\u00e9cessite une r\u00e9ponse adapt\u00e9e. C\u2019est la raison pour laquelle le Gouvernement s\u2019est dot\u00e9 en 2022 d\u2019une strat\u00e9gie nationale pour mieux informer la population, mieux diagnostiquer et prendre en charge les femmes atteintes d\u2019endom\u00e9triose et d\u00e9velopper la recherche sur cette maladie qui touche aujourd\u2019hui une femme sur dix.\nEt puisque l\u2019activit\u00e9 physique ne s\u2019arr\u00eate pas avec la maladie, le minist\u00e8re des Sports a pris toute sa part \u00e0 cette strat\u00e9gie gouvernementale. Si l\u2019activit\u00e9 physique doit souvent \u00eatre adapt\u00e9e, elle reste une alli\u00e9e importante des femmes qui souffrent d\u2019endom\u00e9triose, en permettant notamment de r\u00e9duire la douleur, la fatigue et le stress",
+      "text": "L'endom\u00e9triose est une maladie \u00e0 part enti\u00e8re, qui n\u00e9cessite une r\u00e9ponse adapt\u00e9e. C'est la raison pour laquelle le Gouvernement s'est dot\u00e9 en 2022 d'une strat\u00e9gie nationale pour mieux informer la population, mieux diagnostiquer et prendre en charge les femmes atteintes d'endom\u00e9triose et d\u00e9velopper la recherche sur cette maladie qui touche aujourd'hui une femme sur dix.\nEt puisque l'activit\u00e9 physique ne s'arr\u00eate pas avec la maladie, le minist\u00e8re des Sports a pris toute sa part \u00e0 cette strat\u00e9gie gouvernementale. Si l'activit\u00e9 physique doit souvent \u00eatre adapt\u00e9e, elle reste une alli\u00e9e importante des femmes qui souffrent d'endom\u00e9triose, en permettant notamment de r\u00e9duire la douleur, la fatigue et le stress"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La plupart des douleurs se situent au niveau du bassin (et du plancher pelvien). En r\u00e9action aux douleurs, les muscles de cette r\u00e9gion vont se verrouiller et accentuer vos douleurs.",
+      "text": "La plupart des douleurs se situent au niveau du bassin (et du plancher pelvien). En r\u00e9action aux douleurs, les muscles de cette r\u00e9gion vont se verrouiller et accentuer vos douleurs."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour \u00e9viter d\u2019entrer dans ce cercle vicieux, vous pouvez mettre en place :",
+      "text": "Pour \u00e9viter d'entrer dans ce cercle vicieux, vous pouvez mettre en place :"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Des \u00e9tirements",
+      "text": "Des \u00e9tirements",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Afin de maintenir le mouvement au niveau du bassin, vous pouvez r\u00e9aliser des \u00e9tirements sur les muscles de cette r\u00e9gion. \u00c9tirez les muscles du psoas-iliaque, les fessiers, le quadriceps, le piriforme, les ischios-jambiers et les adducteurs.",
+      "text": "Afin de maintenir le mouvement au niveau du bassin, vous pouvez r\u00e9aliser des \u00e9tirements sur les muscles de cette r\u00e9gion. \u00c9tirez les muscles du psoas-iliaque, les fessiers, le quadriceps, le piriforme, les ischios-jambiers et les adducteurs."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Privil\u00e9giez des activit\u00e9s douces.",
+      "text": "Privil\u00e9giez des activit\u00e9s douces.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00c0 chaque endom\u00e9triose, son \u00e9tirement b\u00e9n\u00e9fique !",
+      "text": "\u00c0 chaque endom\u00e9triose, son \u00e9tirement b\u00e9n\u00e9fique !",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00c0 vous de tester les \u00e9tirements qui auront un impact b\u00e9n\u00e9fique sur vos\ndouleurs li\u00e9es \u00e0 votre endom\u00e9triose.",
+      "text": "\u00c0 vous de tester les \u00e9tirements qui auront un impact b\u00e9n\u00e9fique sur vos\ndouleurs li\u00e9es \u00e0 votre endom\u00e9triose.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le renforcement du p\u00e9rin\u00e9e",
+      "text": "Le renforcement du p\u00e9rin\u00e9e",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/texts/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Privil\u00e9giez des exercices de renforcement musculaire contractant votre p\u00e9rin\u00e9e. Il pourra se fortifier et retrouver plus de mobilit\u00e9 et de libert\u00e9 de mouvement. Chez certaines femmes atteintes d\u2019endom\u00e9triose, les douleurs pelviennes sont caus\u00e9es par une surstimulation du p\u00e9rin\u00e9e (\u00e0 cause des douleurs). Votre p\u00e9rin\u00e9e est trop muscl\u00e9 (hypertonie) et augmente vos douleurs. Dans ce cas, il faudra\n\u00e9viter les exercices de renforcement du p\u00e9rin\u00e9e.",
+      "text": "Privil\u00e9giez des exercices de renforcement musculaire contractant votre p\u00e9rin\u00e9e. Il pourra se fortifier et retrouver plus de mobilit\u00e9 et de libert\u00e9 de mouvement. Chez certaines femmes atteintes d'endom\u00e9triose, les douleurs pelviennes sont caus\u00e9es par une surstimulation du p\u00e9rin\u00e9e (\u00e0 cause des douleurs). Votre p\u00e9rin\u00e9e est trop muscl\u00e9 (hypertonie) et augmente vos douleurs. Dans ce cas, il faudra\n\u00e9viter les exercices de renforcement du p\u00e9rin\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La respiration abdominale",
+      "text": "La respiration abdominale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les exercices de respiration abdominale permettent de mobiliser les visc\u00e8res et de faciliter leur mouvement. Cette mobilit\u00e9 r\u00e9duit les douleurs et favorise la d\u00e9tente de la sangle abdominale.",
+      "text": "Les exercices de respiration abdominale permettent de mobiliser les visc\u00e8res et de faciliter leur mouvement. Cette mobilit\u00e9 r\u00e9duit les douleurs et favorise la d\u00e9tente de la sangle abdominale."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 retrouver sur ",
+      "text": "\u00c0 retrouver sur "
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "https://pole-sante.creps-vichy.sports.gouv.fr/wp-content/uploads/2025/03/Guide-en-mouvement-avec-l-endometriose.pdf",
+      "text": "https://pole-sante.creps-vichy.sports.gouv.fr/wp-content/uploads/2025/03/Guide-en-mouvement-avec-l-endometriose.pdf",
+      "hyperlink": "https://pole-sante.creps-vichy.sports.gouv.fr/wp-content/uploads/2025/03/Guide-en-mouvement-avec-l-endometriose.pdf"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

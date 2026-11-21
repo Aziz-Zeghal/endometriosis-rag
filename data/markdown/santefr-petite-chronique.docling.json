@@ -1,0 +1,3934 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 716401047057980613,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/groups/20"
+      },
+      {
+        "$ref": "#/groups/21"
+      },
+      {
+        "$ref": "#/groups/22"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/groups/26"
+      },
+      {
+        "$ref": "#/groups/29"
+      },
+      {
+        "$ref": "#/groups/30"
+      },
+      {
+        "$ref": "#/groups/31"
+      },
+      {
+        "$ref": "#/groups/32"
+      },
+      {
+        "$ref": "#/groups/33"
+      },
+      {
+        "$ref": "#/groups/36"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/groups/37"
+      },
+      {
+        "$ref": "#/groups/38"
+      },
+      {
+        "$ref": "#/groups/39"
+      },
+      {
+        "$ref": "#/groups/40"
+      },
+      {
+        "$ref": "#/groups/41"
+      },
+      {
+        "$ref": "#/groups/42"
+      },
+      {
+        "$ref": "#/texts/177"
+      },
+      {
+        "$ref": "#/texts/178"
+      },
+      {
+        "$ref": "#/groups/43"
+      },
+      {
+        "$ref": "#/texts/181"
+      },
+      {
+        "$ref": "#/texts/182"
+      },
+      {
+        "$ref": "#/groups/44"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/27"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/35"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/62"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/texts/65"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/texts/68"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/73"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/102"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/texts/96"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/texts/99"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/texts/102"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/texts/109"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "$ref": "#/texts/112"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/135"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/34",
+      "parent": {
+        "$ref": "#/texts/132"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/35",
+      "parent": {
+        "$ref": "#/texts/135"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/155"
+        },
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        },
+        {
+          "$ref": "#/texts/158"
+        },
+        {
+          "$ref": "#/texts/159"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/160"
+        },
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        },
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/165"
+        },
+        {
+          "$ref": "#/texts/166"
+        },
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/168"
+        },
+        {
+          "$ref": "#/texts/169"
+        },
+        {
+          "$ref": "#/texts/170"
+        },
+        {
+          "$ref": "#/texts/171"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/172"
+        },
+        {
+          "$ref": "#/texts/173"
+        },
+        {
+          "$ref": "#/texts/174"
+        },
+        {
+          "$ref": "#/texts/175"
+        },
+        {
+          "$ref": "#/texts/176"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/179"
+        },
+        {
+          "$ref": "#/texts/180"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/183"
+        },
+        {
+          "$ref": "#/texts/184"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Petite chronique de l'endom\u00e9triose",
+      "text": "Petite chronique de l'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 02/04/2024",
+      "text": "Publi\u00e9 le 02/04/2024"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "M\u00eame si elle est d\u00e9cel\u00e9e depuis l'Antiquit\u00e9, l'endom\u00e9triose reste encore mal connue des professionnels de sant\u00e9, mais aussi des patientes et de leur famille.",
+      "text": "M\u00eame si elle est d\u00e9cel\u00e9e depuis l'Antiquit\u00e9, l'endom\u00e9triose reste encore mal connue des professionnels de sant\u00e9, mais aussi des patientes et de leur famille."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour mieux conna\u00eetre cette maladie, ses sympt\u00f4mes, ses traitements, pour trouver du soutien et des informations, le Service Public d'information vous invite \u00e0 parcourir cette \"Petite chronique de l'endom\u00e9triose\", en 4 \u00e9pisodes \u00e0 la fois ludiques et instructifs.",
+      "text": "Pour mieux conna\u00eetre cette maladie, ses sympt\u00f4mes, ses traitements, pour trouver du soutien et des informations, le Service Public d'information vous invite \u00e0 parcourir cette \"Petite chronique de l'endom\u00e9triose\", en 4 \u00e9pisodes \u00e0 la fois ludiques et instructifs."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Episode 1. Ne coupez pas !",
+      "text": "Episode 1. Ne coupez pas !",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "O\u00f9 l\u2019on d\u00e9couvre une douleur bien f\u00e9minine.",
+      "text": "O\u00f9 l\u2019on d\u00e9couvre une douleur bien f\u00e9minine.",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour comprendre ce qu\u2019est l\u2019endom\u00e9triose, faisons d\u2019abord un rapide petit rappel sur les ragnagnas, les trucs, les Anglais\u2026 Bref les r\u00e8gles\u00a0(ou menstruations)\u2009!",
+      "text": "Pour comprendre ce qu\u2019est l\u2019endom\u00e9triose, faisons d\u2019abord un rapide petit rappel sur les ragnagnas, les trucs, les Anglais\u2026 Bref les r\u00e8gles\u00a0(ou menstruations)\u2009!"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Environ une fois par mois (la dur\u00e9e d\u2019un cycle peut varier d\u2019une femme \u00e0 l\u2019autre), le corps des femmes se pr\u00e9pare \u00e0 une \u00e9ventuelle grossesse. Sous l\u2019effet des hormones, la couche interne de l\u2019ut\u00e9rus,\u00a0",
+      "text": "Environ une fois par mois (la dur\u00e9e d\u2019un cycle peut varier d\u2019une femme \u00e0 l\u2019autre), le corps des femmes se pr\u00e9pare \u00e0 une \u00e9ventuelle grossesse. Sous l\u2019effet des hormones, la couche interne de l\u2019ut\u00e9rus,\u00a0"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019endom\u00e8tre",
+      "text": "l\u2019endom\u00e8tre",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", s\u2019\u00e9paissit et se remplit de vaisseaux sanguins pour pr\u00e9parer l\u2019implantation du futur \u0153uf. Mais lorsque la\u00a0",
+      "text": ", s\u2019\u00e9paissit et se remplit de vaisseaux sanguins pour pr\u00e9parer l\u2019implantation du futur \u0153uf. Mais lorsque la\u00a0"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "f\u00e9condation",
+      "text": "f\u00e9condation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0n\u2019a pas lieu, une partie de\u00a0l\u2019endom\u00e8tre\u00a0se d\u00e9sagr\u00e8ge et est \u00e9limin\u00e9e, causant des \u00e9coulements sanguins. Ce sont les r\u00e8gles\u2009!",
+      "text": "\u00a0n\u2019a pas lieu, une partie de\u00a0l\u2019endom\u00e8tre\u00a0se d\u00e9sagr\u00e8ge et est \u00e9limin\u00e9e, causant des \u00e9coulements sanguins. Ce sont les r\u00e8gles\u2009!"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le probl\u00e8me, c\u2019est que chez certaines femmes, une partie du tissu endom\u00e9trial se retrouve\u2026\u00a0",
+      "text": "Le probl\u00e8me, c\u2019est que chez certaines femmes, une partie du tissu endom\u00e9trial se retrouve\u2026\u00a0"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dans la paroi ut\u00e9rine",
+      "text": "dans la paroi ut\u00e9rine",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0ou en\u00a0",
+      "text": "\u00a0ou en\u00a0"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dehors de l\u2019ut\u00e9rus",
+      "text": "dehors de l\u2019ut\u00e9rus",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2009!\u00a0Ces\u00a0",
+      "text": "\u2009!\u00a0Ces\u00a0"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "amas de tissus suppl\u00e9mentaires",
+      "text": "amas de tissus suppl\u00e9mentaires",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0r\u00e9agissent de la m\u00eame fa\u00e7on que s\u2019ils \u00e9taient \u00e0 leur place normale, dans l\u2019ut\u00e9rus. R\u00e9sultat, au cours du cycle menstruel, ils prolif\u00e8rent, saignent, puis cicatrisent. Ce faisant, ils\u00a0",
+      "text": "\u00a0r\u00e9agissent de la m\u00eame fa\u00e7on que s\u2019ils \u00e9taient \u00e0 leur place normale, dans l\u2019ut\u00e9rus. R\u00e9sultat, au cours du cycle menstruel, ils prolif\u00e8rent, saignent, puis cicatrisent. Ce faisant, ils\u00a0"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endommagent les tissus et organes colonis\u00e9s",
+      "text": "endommagent les tissus et organes colonis\u00e9s",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(inflammation,\u00a0adh\u00e9rence, d\u00e9formations, irritation des nerfs\u2026)\u2009!",
+      "text": "\u00a0(inflammation,\u00a0adh\u00e9rence, d\u00e9formations, irritation des nerfs\u2026)\u2009!"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "10 \u00e0 15\u00a0% des femmes seraient atteintes d\u2019une forme d\u2019endom\u00e9triose.",
+      "text": "10 \u00e0 15\u00a0% des femmes seraient atteintes d\u2019une forme d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En r\u00e9alit\u00e9, il n\u2019existe pas une, mais plusieurs endom\u00e9trioses. On les classe en 4\u00a0types\u00a0:",
+      "text": "En r\u00e9alit\u00e9, il n\u2019existe pas une, mais plusieurs endom\u00e9trioses. On les classe en 4\u00a0types\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose superficielle",
+      "text": "L\u2019endom\u00e9triose superficielle",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : c\u2019est la forme la plus fr\u00e9quente. Les l\u00e9sions endom\u00e9triales sont situ\u00e9es \u00e0 la surface du\u00a0p\u00e9ritoine (membrane qui tapisse les parois int\u00e9rieures de l'abdmonen)\u00a0et sur les organes de la cavit\u00e9 abdominale.",
+      "text": " : c\u2019est la forme la plus fr\u00e9quente. Les l\u00e9sions endom\u00e9triales sont situ\u00e9es \u00e0 la surface du\u00a0p\u00e9ritoine (membrane qui tapisse les parois int\u00e9rieures de l'abdmonen)\u00a0et sur les organes de la cavit\u00e9 abdominale."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose ovarienne",
+      "text": "L\u2019endom\u00e9triose ovarienne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : les l\u00e9sions endom\u00e9triales touchent l'un ou les deux ovaires sous la forme de\u00a0kyste\u00a0(aussi appel\u00e9s ",
+      "text": " : les l\u00e9sions endom\u00e9triales touchent l'un ou les deux ovaires sous la forme de\u00a0kyste\u00a0(aussi appel\u00e9s "
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triomes",
+      "text": "endom\u00e9triomes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") pouvant mesurer jusqu\u2019\u00e0 plusieurs centim\u00e8tres.",
+      "text": ") pouvant mesurer jusqu\u2019\u00e0 plusieurs centim\u00e8tres."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose profonde",
+      "text": "L\u2019endom\u00e9triose profonde",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : contrairement \u00e0 l\u2019endom\u00e9triose superficielle, les l\u00e9sions endom\u00e9triales sont situ\u00e9es \u00e0 plus de 5\u00a0mm sous la surface du\u00a0p\u00e9ritoine.",
+      "text": " : contrairement \u00e0 l\u2019endom\u00e9triose superficielle, les l\u00e9sions endom\u00e9triales sont situ\u00e9es \u00e0 plus de 5\u00a0mm sous la surface du\u00a0p\u00e9ritoine."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019ad\u00e9nomyose\u00a0(ou endom\u00e9triose intra-ut\u00e9rine)",
+      "text": "L\u2019ad\u00e9nomyose\u00a0(ou endom\u00e9triose intra-ut\u00e9rine)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: les cellules de l\u2019endom\u00e8tre infiltrent le muscle de la paroi de l\u2019ut\u00e9rus (le myom\u00e8tre).",
+      "text": "\u00a0: les cellules de l\u2019endom\u00e8tre infiltrent le muscle de la paroi de l\u2019ut\u00e9rus (le myom\u00e8tre)."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mais pourquoi ce tissu endom\u00e9trial se retrouve-t-il en dehors de l\u2019ut\u00e9rus\u2009? Eh bien, les causes restent encore mal connues.",
+      "text": "Mais pourquoi ce tissu endom\u00e9trial se retrouve-t-il en dehors de l\u2019ut\u00e9rus\u2009? Eh bien, les causes restent encore mal connues."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Jusqu\u2019\u00e0 tr\u00e8s r\u00e9cemment, la ",
+      "text": "Jusqu\u2019\u00e0 tr\u00e8s r\u00e9cemment, la "
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "th\u00e9orie principale \u00e9tait celle du\u00a0\"reflux menstruel\"",
+      "text": "th\u00e9orie principale \u00e9tait celle du\u00a0\"reflux menstruel\"",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(ou de l\u2019implantation) : pendant les r\u00e8gles, sous l\u2019effet des contractions ut\u00e9rines, une partie du sang ne s\u2019\u00e9coule pas par le vagin, mais reflue par les trompes jusqu\u2019\u00e0 la cavit\u00e9 abdomino-pelvienne (l\u2019espace situ\u00e9 entre le diaphragme et le bassin). L\u00e0, les cellules endom\u00e9triales contenues dans le sang, au lieu d\u2019\u00eatre d\u00e9truites, s\u2019implanteraient sur les organes voisins.",
+      "text": "\u00a0(ou de l\u2019implantation) : pendant les r\u00e8gles, sous l\u2019effet des contractions ut\u00e9rines, une partie du sang ne s\u2019\u00e9coule pas par le vagin, mais reflue par les trompes jusqu\u2019\u00e0 la cavit\u00e9 abdomino-pelvienne (l\u2019espace situ\u00e9 entre le diaphragme et le bassin). L\u00e0, les cellules endom\u00e9triales contenues dans le sang, au lieu d\u2019\u00eatre d\u00e9truites, s\u2019implanteraient sur les organes voisins."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cependant, le reflux menstruel existe chez presque\u00a0",
+      "text": "Cependant, le reflux menstruel existe chez presque\u00a0"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "toutes les femmes",
+      "text": "toutes les femmes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Or, seulement 10\u00a0% d\u2019entre elles d\u00e9veloppent une endom\u00e9triose. C\u2019est pourquoi les scientifiques \u00e9tudient\u00a0",
+      "text": ". Or, seulement 10\u00a0% d\u2019entre elles d\u00e9veloppent une endom\u00e9triose. C\u2019est pourquoi les scientifiques \u00e9tudient\u00a0"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019autres pistes",
+      "text": "d\u2019autres pistes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(immunitaire, embryonnaire,\u00a0lymphatique, environnementale\u2026), qui pourraient \u00eatre \u00e0 l\u2019origine d\u2019autres formes d\u2019endom\u00e9triose.",
+      "text": "\u00a0(immunitaire, embryonnaire,\u00a0lymphatique, environnementale\u2026), qui pourraient \u00eatre \u00e0 l\u2019origine d\u2019autres formes d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose peut se manifester par\u00a0",
+      "text": "L\u2019endom\u00e9triose peut se manifester par\u00a0"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "diff\u00e9rents sympt\u00f4mes",
+      "text": "diff\u00e9rents sympt\u00f4mes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: r\u00e8gles tr\u00e8s douloureuses et abondantes, rapports sexuels douloureux, diarrh\u00e9e-constipation, douleurs en urinant, fatigue chronique, troubles de la fertilit\u00e9, ...",
+      "text": "\u00a0: r\u00e8gles tr\u00e8s douloureuses et abondantes, rapports sexuels douloureux, diarrh\u00e9e-constipation, douleurs en urinant, fatigue chronique, troubles de la fertilit\u00e9, ..."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chaque cas est \u00e9videmment diff\u00e9rent, et chaque femme ne les a (fort heureusement\u2009!) pas tous. La maladie peut d\u2019ailleurs \u00eatre\u00a0",
+      "text": "Chaque cas est \u00e9videmment diff\u00e9rent, et chaque femme ne les a (fort heureusement\u2009!) pas tous. La maladie peut d\u2019ailleurs \u00eatre\u00a0"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "asymptomatique.",
+      "text": "asymptomatique.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le probl\u00e8me, c\u2019est que cette diversit\u00e9 de sympt\u00f4mes rend souvent le diagnostic de la maladie difficile\u2026 En moyenne, le d\u00e9lai entre l\u2019apparition des premiers signes et le diagnostic est de\u00a0",
+      "text": "Le probl\u00e8me, c\u2019est que cette diversit\u00e9 de sympt\u00f4mes rend souvent le diagnostic de la maladie difficile\u2026 En moyenne, le d\u00e9lai entre l\u2019apparition des premiers signes et le diagnostic est de\u00a0"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "7\u00a0ans",
+      "text": "7\u00a0ans",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2009!",
+      "text": "\u2009!"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Episode 2. Un mal de chien",
+      "text": "Episode 2. Un mal de chien",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "O\u00f9 l\u2019on apprend que ce n\u2019est pas toujours normal d\u2019avoir mal pendant ses r\u00e8gles.",
+      "text": "O\u00f9 l\u2019on apprend que ce n\u2019est pas toujours normal d\u2019avoir mal pendant ses r\u00e8gles.",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si\u00a0",
+      "text": "Si\u00a0"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "44\u00a0% des femmes",
+      "text": "44\u00a0% des femmes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0pr\u00e9sentent des douleurs pendant leurs r\u00e8gles, toutes les r\u00e8gles douloureuses et abondantes ne sont pas synonymes d\u2019endom\u00e9triose. Pas \u00e9vident donc de poser un diagnostic\u2026 D\u2019autres\u00a0",
+      "text": "\u00a0pr\u00e9sentent des douleurs pendant leurs r\u00e8gles, toutes les r\u00e8gles douloureuses et abondantes ne sont pas synonymes d\u2019endom\u00e9triose. Pas \u00e9vident donc de poser un diagnostic\u2026 D\u2019autres\u00a0"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sympt\u00f4mes",
+      "text": "sympt\u00f4mes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0peuvent cependant alerter\u00a0(y compris en dehors des r\u00e8gles)\u00a0:",
+      "text": "\u00a0peuvent cependant alerter\u00a0(y compris en dehors des r\u00e8gles)\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des ",
+      "text": "Des "
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "rapports sexuels douloureux",
+      "text": "rapports sexuels douloureux",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une r\u00e9sistance aux antalgiques de niveau\u00a01",
+      "text": "Une r\u00e9sistance aux antalgiques de niveau\u00a01",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(les m\u00e9dicaments destin\u00e9s aux douleurs l\u00e9g\u00e8res \u00e0 mod\u00e9r\u00e9es, comme le parac\u00e9tamol)",
+      "text": "\u00a0(les m\u00e9dicaments destin\u00e9s aux douleurs l\u00e9g\u00e8res \u00e0 mod\u00e9r\u00e9es, comme le parac\u00e9tamol)"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des probl\u00e8mes digestifs",
+      "text": "Des probl\u00e8mes digestifs",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (diarrh\u00e9e, constipation, naus\u00e9es, vomissements\u2026)",
+      "text": " (diarrh\u00e9e, constipation, naus\u00e9es, vomissements\u2026)"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des douleurs lors de l\u2019\u00e9mission des selles ou \u00e0 la\u00a0miction",
+      "text": "Des douleurs lors de l\u2019\u00e9mission des selles ou \u00e0 la\u00a0miction",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des troubles de la fertilit\u00e9",
+      "text": "Des troubles de la fertilit\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des r\u00e9percussions sur la vie quotidienne",
+      "text": "Des r\u00e9percussions sur la vie quotidienne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(l'absent\u00e9isme\u00a0scolaire\u00a0ou professionnel)",
+      "text": "\u00a0(l'absent\u00e9isme\u00a0scolaire\u00a0ou professionnel)"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mais\u00a0",
+      "text": "Mais\u00a0"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "qui aller consulter",
+      "text": "qui aller consulter",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0lorsque vous suspectez une \u00e9ventuelle endom\u00e9triose\u2009 ?",
+      "text": "\u00a0lorsque vous suspectez une \u00e9ventuelle endom\u00e9triose\u2009 ?"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plusieurs praticiens sont \u00e0 m\u00eame de\u00a0",
+      "text": "Plusieurs praticiens sont \u00e0 m\u00eame de\u00a0"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "diagnostiquer une endom\u00e9triose",
+      "text": "diagnostiquer une endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0et de prescrire des traitements, mais tous ont leurs particularit\u00e9s\u2009: m\u00e9decin g\u00e9n\u00e9raliste, sage-femme, gyn\u00e9cologue, ...",
+      "text": "\u00a0et de prescrire des traitements, mais tous ont leurs particularit\u00e9s\u2009: m\u00e9decin g\u00e9n\u00e9raliste, sage-femme, gyn\u00e9cologue, ..."
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un bon ",
+      "text": "Un bon "
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "interrogatoire",
+      "text": "interrogatoire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et\u00a0un ",
+      "text": " et\u00a0un "
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "examen gyn\u00e9cologique",
+      "text": "examen gyn\u00e9cologique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", compl\u00e9t\u00e9 par une ",
+      "text": ", compl\u00e9t\u00e9 par une "
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e9chographie",
+      "text": "\u00e9chographie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pelvienne ou endovaginale,\u00a0ou par une ",
+      "text": " pelvienne ou endovaginale,\u00a0ou par une "
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "IRM",
+      "text": "IRM",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pelvienne (imagerie par r\u00e9sonance magn\u00e9tique),\u00a0 peuvent permettre de d\u00e9tecter une endom\u00e9triose. ",
+      "text": " pelvienne (imagerie par r\u00e9sonance magn\u00e9tique),\u00a0 peuvent permettre de d\u00e9tecter une endom\u00e9triose. "
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D'autres examens",
+      "text": "D'autres examens",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0pourront \u00e9galement \u00eatre pratiqu\u00e9s\u00a0: radiographie de l\u2019ut\u00e9rus et des trompes, \u00e9chographie endorectale,\u00a0cystoscopie (examen de la paroi interne de la vessie)\u2026",
+      "text": "\u00a0pourront \u00e9galement \u00eatre pratiqu\u00e9s\u00a0: radiographie de l\u2019ut\u00e9rus et des trompes, \u00e9chographie endorectale,\u00a0cystoscopie (examen de la paroi interne de la vessie)\u2026"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour\u00a0",
+      "text": "Pour\u00a0"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "trouver un professionnel",
+      "text": "trouver un professionnel",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0qui s\u2019y conna\u00eet vraiment sur l\u2019endom\u00e9triose\u2009voici quelques pistes\u00a0:",
+      "text": "\u00a0qui s\u2019y conna\u00eet vraiment sur l\u2019endom\u00e9triose\u2009voici quelques pistes\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les associations\u00a0:",
+      "text": "Les associations\u00a0:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0gr\u00e2ce \u00e0 leur vaste r\u00e9seau, elles pourront vous orienter vers des professionnels proches de\u00a0chez\u00a0vous : EndoFrance, ENDOmind, info-endom\u00e9triose.",
+      "text": "\u00a0gr\u00e2ce \u00e0 leur vaste r\u00e9seau, elles pourront vous orienter vers des professionnels proches de\u00a0chez\u00a0vous : EndoFrance, ENDOmind, info-endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/24"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les fili\u00e8res de soins",
+      "text": "Les fili\u00e8res de soins",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " permettant une prise en charge coordonn\u00e9e et multidisciplinaire sont en cours de\u00a0mise\u00a0en\u00a0place par le minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9.",
+      "text": " permettant une prise en charge coordonn\u00e9e et multidisciplinaire sont en cours de\u00a0mise\u00a0en\u00a0place par le minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les programmes d\u2019\u00e9ducation th\u00e9rapeutiques,",
+      "text": "Les programmes d\u2019\u00e9ducation th\u00e9rapeutiques,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour apprendre \u00e0 g\u00e9rer sa maladie et son traitement, r\u00e9f\u00e9renc\u00e9s sur le portail Oscars\u00a0(Observation et suivi cartographique des actions r\u00e9gionales de sant\u00e9).",
+      "text": " pour apprendre \u00e0 g\u00e9rer sa maladie et son traitement, r\u00e9f\u00e9renc\u00e9s sur le portail Oscars\u00a0(Observation et suivi cartographique des actions r\u00e9gionales de sant\u00e9)."
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D'autres adresses sont propos\u00e9es dans le \"Coin info\" du parcours.",
+      "text": "D'autres adresses sont propos\u00e9es dans le \"Coin info\" du parcours."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Episode 3. Tout ira bien !",
+      "text": "Episode 3. Tout ira bien !",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "O\u00f9 l\u2019on est enfin fix\u00e9e.",
+      "text": "O\u00f9 l\u2019on est enfin fix\u00e9e.",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe plusieurs traitements m\u00e9dicaux pour soulager l\u2019endom\u00e9triose\u00a0:",
+      "text": "Il existe plusieurs traitements m\u00e9dicaux pour soulager l\u2019endom\u00e9triose\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les anti-inflammatoires non\u00a0st\u00e9ro\u00efdiens (AINS),",
+      "text": "Les anti-inflammatoires non\u00a0st\u00e9ro\u00efdiens (AINS),",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui r\u00e9duisent l\u2019inflammation et donc la douleur.",
+      "text": " qui r\u00e9duisent l\u2019inflammation et donc la douleur."
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/28"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La contraception \u0153stro-progestative\u00a0ou progestative,",
+      "text": "La contraception \u0153stro-progestative\u00a0ou progestative,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0autrement dit la pilule, qui, prise en continu, permet de stopper les r\u00e8gles et limiterait donc l\u2019\u00e9volution des l\u00e9sions d\u2019endom\u00e9triose.",
+      "text": "\u00a0autrement dit la pilule, qui, prise en continu, permet de stopper les r\u00e8gles et limiterait donc l\u2019\u00e9volution des l\u00e9sions d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si ces traitements initiaux ne sont pas suffisamment efficaces, les patientes peuvent \u00eatre mises sous\u00a0",
+      "text": "Si ces traitements initiaux ne sont pas suffisamment efficaces, les patientes peuvent \u00eatre mises sous\u00a0"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\"m\u00e9nopause artificielle\"",
+      "text": "\"m\u00e9nopause artificielle\"",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(mais pas de panique, c\u2019est r\u00e9versible\u2009!). On leur prescrit alors des\u00a0",
+      "text": "\u00a0(mais pas de panique, c\u2019est r\u00e9versible\u2009!). On leur prescrit alors des\u00a0"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "agonistes de la\u00a0GnRH",
+      "text": "agonistes de la\u00a0GnRH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(substances qui bloquent\u00a0la production des hormones ovariennes), administr\u00e9s en injection intra-musculaire.",
+      "text": "\u00a0(substances qui bloquent\u00a0la production des hormones ovariennes), administr\u00e9s en injection intra-musculaire."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En compl\u00e9ment du traitement m\u00e9dical",
+      "text": "En compl\u00e9ment du traitement m\u00e9dical",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " plusieurs m\u00e9thodes peuvent \u00eatre pratiqu\u00e9es pour soulager les douleurs de l\u2019endom\u00e9triose : activit\u00e9 physique, m\u00e9diation, yoga, acupuncture, cure thermale, modification des habitudes alimentaires, ...",
+      "text": " plusieurs m\u00e9thodes peuvent \u00eatre pratiqu\u00e9es pour soulager les douleurs de l\u2019endom\u00e9triose : activit\u00e9 physique, m\u00e9diation, yoga, acupuncture, cure thermale, modification des habitudes alimentaires, ..."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque le traitement m\u00e9dical ne fonctionne pas et que les douleurs deviennent\u00a0",
+      "text": "Lorsque le traitement m\u00e9dical ne fonctionne pas et que les douleurs deviennent\u00a0"
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "insupportables",
+      "text": "insupportables",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", ou en cas d\u2019infertilit\u00e9, une\u00a0",
+      "text": ", ou en cas d\u2019infertilit\u00e9, une\u00a0"
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "op\u00e9ration chirurgicale par c\u0153lioscopie",
+      "text": "op\u00e9ration chirurgicale par c\u0153lioscopie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0peut \u00eatre propos\u00e9e.\u00a0\u00c0 l\u2019aide d\u2019un laser, le chirurgien va d\u00e9truire les l\u00e9sions d\u2019endom\u00e9triose. L\u2019objectif est d\u2019en enlever le maximum tout en pr\u00e9servant autant que possible les organes touch\u00e9s ou environnants (vessie, intestin, ovaires\u2026). Mais comme pour toute op\u00e9ration, la patiente et l\u2019\u00e9quipe m\u00e9dicale doivent prendre en compte la balance b\u00e9n\u00e9fices/risques avant de se d\u00e9cider.",
+      "text": "\u00a0peut \u00eatre propos\u00e9e.\u00a0\u00c0 l\u2019aide d\u2019un laser, le chirurgien va d\u00e9truire les l\u00e9sions d\u2019endom\u00e9triose. L\u2019objectif est d\u2019en enlever le maximum tout en pr\u00e9servant autant que possible les organes touch\u00e9s ou environnants (vessie, intestin, ovaires\u2026). Mais comme pour toute op\u00e9ration, la patiente et l\u2019\u00e9quipe m\u00e9dicale doivent prendre en compte la balance b\u00e9n\u00e9fices/risques avant de se d\u00e9cider."
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comme endom\u00e9triose et\u00a0",
+      "text": "Comme endom\u00e9triose et\u00a0"
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "infertilit\u00e9",
+      "text": "infertilit\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0peuvent aller de pair, c\u2019est parfois lorsqu'une femme rencontre des\u00a0",
+      "text": "\u00a0peuvent aller de pair, c\u2019est parfois lorsqu'une femme rencontre des\u00a0"
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "difficult\u00e9s \u00e0 avoir un enfant",
+      "text": "difficult\u00e9s \u00e0 avoir un enfant",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0qu\u2019on lui d\u00e9couvre une endom\u00e9triose.\u00a0Mais l\u00e0 encore, pas de panique\u2009! Il existe des solutions :",
+      "text": "\u00a0qu\u2019on lui d\u00e9couvre une endom\u00e9triose.\u00a0Mais l\u00e0 encore, pas de panique\u2009! Il existe des solutions :"
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/34"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP)",
+      "text": "L\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : stimulation ovarienne, ins\u00e9mination intra-ut\u00e9rine, f\u00e9condation in vitro (FIV)\u2026 Pr\u00e8s de 50\u00a0% des patientes obtiennent une grossesse apr\u00e8s une FIV, soit le m\u00eame pourcentage de r\u00e9ussite que le reste des FIV.",
+      "text": " : stimulation ovarienne, ins\u00e9mination intra-ut\u00e9rine, f\u00e9condation in vitro (FIV)\u2026 Pr\u00e8s de 50\u00a0% des patientes obtiennent une grossesse apr\u00e8s une FIV, soit le m\u00eame pourcentage de r\u00e9ussite que le reste des FIV."
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/35"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La chirurgie",
+      "text": "La chirurgie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : pas syst\u00e9matique, elle d\u00e9pend de nombreux param\u00e8tres\u00a0: \u00e2ge de la patiente, forme ou s\u00e9v\u00e9rit\u00e9 de l\u2019endom\u00e9triose, dur\u00e9e de l\u2019infertilit\u00e9\u2026",
+      "text": " : pas syst\u00e9matique, elle d\u00e9pend de nombreux param\u00e8tres\u00a0: \u00e2ge de la patiente, forme ou s\u00e9v\u00e9rit\u00e9 de l\u2019endom\u00e9triose, dur\u00e9e de l\u2019infertilit\u00e9\u2026"
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Et en attendant le bon moment pour une grossesse, les femmes souffrant d\u2019endom\u00e9triose peuvent b\u00e9n\u00e9ficier d\u2019une ",
+      "text": "Et en attendant le bon moment pour une grossesse, les femmes souffrant d\u2019endom\u00e9triose peuvent b\u00e9n\u00e9ficier d\u2019une "
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pr\u00e9servation de leur fertilit\u00e9",
+      "text": "pr\u00e9servation de leur fertilit\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " gr\u00e2ce \u00e0 une cong\u00e9lation ovocytaire, \u00e0 une cong\u00e9lation d'embryon ou \u00e0 la conservation du tissu ovarien.",
+      "text": " gr\u00e2ce \u00e0 une cong\u00e9lation ovocytaire, \u00e0 une cong\u00e9lation d'embryon ou \u00e0 la conservation du tissu ovarien."
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Episode 4. Au boulot !",
+      "text": "Episode 4. Au boulot !",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "O\u00f9 l\u2019on d\u00e9couvre qu\u2019endom\u00e9triose et travail ne font pas toujours bon m\u00e9nage.",
+      "text": "O\u00f9 l\u2019on d\u00e9couvre qu\u2019endom\u00e9triose et travail ne font pas toujours bon m\u00e9nage.",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si l\u2019endom\u00e9triose peut avoir de\u00a0",
+      "text": "Si l\u2019endom\u00e9triose peut avoir de\u00a0"
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "lourdes cons\u00e9quences",
+      "text": "lourdes cons\u00e9quences",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0sur la vie personnelle, elle peut aussi entraver la\u00a0",
+      "text": "\u00a0sur la vie personnelle, elle peut aussi entraver la\u00a0"
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "vie professionnelle",
+      "text": "vie professionnelle",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: incompr\u00e9hension des employeurs et des coll\u00e8gues, mise \u00e0 l\u2019\u00e9cart, licenciement\u2026",
+      "text": "\u00a0: incompr\u00e9hension des employeurs et des coll\u00e8gues, mise \u00e0 l\u2019\u00e9cart, licenciement\u2026"
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le ",
+      "text": "Le "
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decin du travail",
+      "text": "m\u00e9decin du travail",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " peut vous aider \u00e0 adapter vos conditions de travail. Il est tenu au secret m\u00e9dical et peut aider \u00e0 d\u00e9terminer et mettre en place un\u00a0",
+      "text": " peut vous aider \u00e0 adapter vos conditions de travail. Il est tenu au secret m\u00e9dical et peut aider \u00e0 d\u00e9terminer et mettre en place un\u00a0"
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "am\u00e9nagement de poste",
+      "text": "am\u00e9nagement de poste",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: limiter les d\u00e9placements professionnels ou les stations debout prolong\u00e9es, par exemple. Le\u00a0",
+      "text": "\u00a0: limiter les d\u00e9placements professionnels ou les stations debout prolong\u00e9es, par exemple. Le\u00a0"
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "t\u00e9l\u00e9travail",
+      "text": "t\u00e9l\u00e9travail",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0peut \u00eatre une solution pour continuer \u00e0 travailler dans des conditions plus confortables et adapt\u00e9es.",
+      "text": "\u00a0peut \u00eatre une solution pour continuer \u00e0 travailler dans des conditions plus confortables et adapt\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il est \u00e9galement possible de b\u00e9n\u00e9ficier d\u2019un\u00a0",
+      "text": "Il est \u00e9galement possible de b\u00e9n\u00e9ficier d\u2019un\u00a0"
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "temps partiel th\u00e9rapeutique",
+      "text": "temps partiel th\u00e9rapeutique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", soit un am\u00e9nagement de la dur\u00e9e de travail. Il s\u2019agit d\u2019une\u00a0",
+      "text": ", soit un am\u00e9nagement de la dur\u00e9e de travail. Il s\u2019agit d\u2019une\u00a0"
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "situation temporaire",
+      "text": "situation temporaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0pouvant aller de quelques semaines \u00e0 un an maximum.",
+      "text": "\u00a0pouvant aller de quelques semaines \u00e0 un an maximum."
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose \u00e9tant une maladie chronique potentiellement invalidante, elle peut entrer dans le cadre d\u2019une\u00a0",
+      "text": "L\u2019endom\u00e9triose \u00e9tant une maladie chronique potentiellement invalidante, elle peut entrer dans le cadre d\u2019une\u00a0"
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "affection longue dur\u00e9e (ou ALD).",
+      "text": "affection longue dur\u00e9e (ou ALD).",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0Elle permet la\u00a0",
+      "text": "\u00a0Elle permet la\u00a0"
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "prise en charge \u00e0 100\u00a0%",
+      "text": "prise en charge \u00e0 100\u00a0%",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0des soins li\u00e9s \u00e0 la pathologie par la S\u00e9curit\u00e9 sociale. Il faut effectuer la d\u00e9marche avec son m\u00e9decin traitant.",
+      "text": "\u00a0des soins li\u00e9s \u00e0 la pathologie par la S\u00e9curit\u00e9 sociale. Il faut effectuer la d\u00e9marche avec son m\u00e9decin traitant."
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une autre solution est de demander\u00a0une ",
+      "text": "Une autre solution est de demander\u00a0une "
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9",
+      "text": "reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(ou\u00a0",
+      "text": "\u00a0(ou\u00a0"
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "RQTH",
+      "text": "RQTH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0pour les intimes). L\u2019employeur est alors tenu d\u2019adapter le poste de travail ou/et de moduler le temps de travail. La\u00a0",
+      "text": "\u00a0pour les intimes). L\u2019employeur est alors tenu d\u2019adapter le poste de travail ou/et de moduler le temps de travail. La\u00a0"
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "RQTH",
+      "text": "RQTH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0permet \u00e9galement d\u2019acc\u00e9der \u00e0 des offres d\u2019emploi d\u00e9di\u00e9es\u2009!",
+      "text": "\u00a0permet \u00e9galement d\u2019acc\u00e9der \u00e0 des offres d\u2019emploi d\u00e9di\u00e9es\u2009!"
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On remplit un ",
+      "text": "On remplit un "
+    },
+    {
+      "self_ref": "#/texts/173",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dossier",
+      "text": "dossier",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " avec son m\u00e9decin traitant.\u00a0La\u00a0",
+      "text": " avec son m\u00e9decin traitant.\u00a0La\u00a0"
+    },
+    {
+      "self_ref": "#/texts/175",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "maison d\u00e9partementale des personnes handicap\u00e9es (MDPH)",
+      "text": "maison d\u00e9partementale des personnes handicap\u00e9es (MDPH)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0examine le dossier et accorde ou non la reconnaissance.",
+      "text": "\u00a0examine le dossier et accorde ou non la reconnaissance."
+    },
+    {
+      "self_ref": "#/texts/177",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Et lorsque travailler n\u2019est presque plus possible, voire impossible, il existe encore des solutions\u00a0:",
+      "text": "Et lorsque travailler n\u2019est presque plus possible, voire impossible, il existe encore des solutions\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Parcours complet",
+      "text": "Parcours complet",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/179",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour acc\u00e9der au parcours complet, avoir encore plus d'informations, tester vos connaissances, cr\u00e9er votre aide-m\u00e9moire et remplir votre carte des connaissances, rendez-vous sur :\u00a0",
+      "text": "Pour acc\u00e9der au parcours complet, avoir encore plus d'informations, tester vos connaissances, cr\u00e9er votre aide-m\u00e9moire et remplir votre carte des connaissances, rendez-vous sur :\u00a0"
+    },
+    {
+      "self_ref": "#/texts/180",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "https://microlearning-sante.fr/",
+      "text": "https://microlearning-sante.fr/",
+      "hyperlink": "https://microlearning-sante.fr/"
+    },
+    {
+      "self_ref": "#/texts/181",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\"Petite chronique de l'endom\u00e9triose\" a \u00e9t\u00e9 r\u00e9alis\u00e9e par le Service Public d'information en sant\u00e9 et Artips, en lien avec un\u00a0comit\u00e9 scientifique compos\u00e9 d'associations de patientes, de professionnels et d'institutions de sant\u00e9.",
+      "text": "\"Petite chronique de l'endom\u00e9triose\" a \u00e9t\u00e9 r\u00e9alis\u00e9e par le Service Public d'information en sant\u00e9 et Artips, en lien avec un\u00a0comit\u00e9 scientifique compos\u00e9 d'associations de patientes, de professionnels et d'institutions de sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/182",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le nouvel espace de Sant\u00e9.fr d\u00e9di\u00e9 \u00e0 l'endom\u00e9triose",
+      "text": "Le nouvel espace de Sant\u00e9.fr d\u00e9di\u00e9 \u00e0 l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/183",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 retrouver sur ",
+      "text": "\u00c0 retrouver sur "
+    },
+    {
+      "self_ref": "#/texts/184",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "https://microlearning-sante.fr/",
+      "text": "https://microlearning-sante.fr/",
+      "hyperlink": "https://microlearning-sante.fr/"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

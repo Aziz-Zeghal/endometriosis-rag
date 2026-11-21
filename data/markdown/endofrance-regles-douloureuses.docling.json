@@ -1,0 +1,545 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 15586853681581985005,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "R\u00e8gles douloureuses et endom\u00e9triose",
+      "text": "R\u00e8gles douloureuses et endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les r\u00e8gles douloureuses sont le principal sympt\u00f4me de l\u2019endom\u00e9triose",
+      "text": "Les r\u00e8gles douloureuses sont le principal sympt\u00f4me de l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutefois, toutes les femmes peuvent avoir mal au ventre sans \u00eatre porteuse d\u2019endom\u00e9triose.",
+      "text": "Toutefois, toutes les femmes peuvent avoir mal au ventre sans \u00eatre porteuse d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le ph\u00e9nom\u00e8ne d\u2019inflammation menstruelle peut \u00eatre li\u00e9 \u00e0 un d\u00e9s\u00e9quilibre hormonal (fr\u00e9quent lors de l\u2019installation des premiers cycles) ou \u00e0 une pathologie plus s\u00e9v\u00e8re comme l\u2019endom\u00e9triose.",
+      "text": "Le ph\u00e9nom\u00e8ne d\u2019inflammation menstruelle peut \u00eatre li\u00e9 \u00e0 un d\u00e9s\u00e9quilibre hormonal (fr\u00e9quent lors de l\u2019installation des premiers cycles) ou \u00e0 une pathologie plus s\u00e9v\u00e8re comme l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ainsi, les m\u00e9decins ont coutume de dire que des r\u00e8gles douloureuses pourraient \u00eatre un sympt\u00f4me de l\u2019endom\u00e9triose si :",
+      "text": "Ainsi, les m\u00e9decins ont coutume de dire que des r\u00e8gles douloureuses pourraient \u00eatre un sympt\u00f4me de l\u2019endom\u00e9triose si :"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Elle est cyclique et revient avec les r\u00e8gles",
+      "text": "Elle est cyclique et revient avec les r\u00e8gles",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Elle r\u00e9siste \u00e0 un simple antalgique type parac\u00e9tamol",
+      "text": "Elle r\u00e9siste \u00e0 un simple antalgique type parac\u00e9tamol",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Elle emp\u00eache de mener \u00e0 bien ses activit\u00e9s quotidiennes (emp\u00eache de se lever, de travailler, d\u2019aller en cours).",
+      "text": "Elle emp\u00eache de mener \u00e0 bien ses activit\u00e9s quotidiennes (emp\u00eache de se lever, de travailler, d\u2019aller en cours).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si la douleur c\u00e8de avec un simple parac\u00e9tamol, il ne faut pas s\u2019alarmer.",
+      "text": "Si la douleur c\u00e8de avec un simple parac\u00e9tamol, il ne faut pas s\u2019alarmer."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Des saignements abondants avec l\u2019endom\u00e9triose",
+      "text": "Des saignements abondants avec l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il n\u2019est pas rare\u00a0",
+      "text": "Il n\u2019est pas rare\u00a0"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "quand on souffre d\u2019endom\u00e9triose d\u2019avoir des r\u00e8gles abondantes",
+      "text": "quand on souffre d\u2019endom\u00e9triose d\u2019avoir des r\u00e8gles abondantes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", avec des caillots et qui\u00a0",
+      "text": ", avec des caillots et qui\u00a0"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "durent plus de 7 jours",
+      "text": "durent plus de 7 jours",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0notamment quand il existe une\u00a0ad\u00e9nomyose (endom\u00e9triose interne \u00e0 l\u2019ut\u00e9rus) isol\u00e9e ou associ\u00e9e \u00e0 l\u2019endom\u00e9triose.",
+      "text": "\u00a0notamment quand il existe une\u00a0ad\u00e9nomyose (endom\u00e9triose interne \u00e0 l\u2019ut\u00e9rus) isol\u00e9e ou associ\u00e9e \u00e0 l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les saignements en dehors de la p\u00e9riode de r\u00e8gles, les m\u00e9trorragies, peuvent \u00eatre \u00e9galement un sympt\u00f4me d\u2019ad\u00e9nomyose. Toutefois, ils peuvent \u00eatre le signe de plusieurs autres maladies qu\u2019un gyn\u00e9cologue pourra identifier apr\u00e8s quelques examens (polypes, fibromes, \u2026.).",
+      "text": "Les saignements en dehors de la p\u00e9riode de r\u00e8gles, les m\u00e9trorragies, peuvent \u00eatre \u00e9galement un sympt\u00f4me d\u2019ad\u00e9nomyose. Toutefois, ils peuvent \u00eatre le signe de plusieurs autres maladies qu\u2019un gyn\u00e9cologue pourra identifier apr\u00e8s quelques examens (polypes, fibromes, \u2026.)."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les rectorragies, saignements issus du rectum, peuvent \u00e9voquer une endom\u00e9triose digestive surtout si cela survient pendant les r\u00e8gles. Comme pour les m\u00e9trorragies, il peut tout autant s\u2019agir d\u2019autre chose (h\u00e9morro\u00efdes internes par exemple).",
+      "text": "Les rectorragies, saignements issus du rectum, peuvent \u00e9voquer une endom\u00e9triose digestive surtout si cela survient pendant les r\u00e8gles. Comme pour les m\u00e9trorragies, il peut tout autant s\u2019agir d\u2019autre chose (h\u00e9morro\u00efdes internes par exemple)."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le spotting en dehors des r\u00e8gles",
+      "text": "Le spotting en dehors des r\u00e8gles",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Quant au spotting, il s\u2019agit de traces de sang, souvent moins abondantes que les r\u00e8gles ou les m\u00e9trorragies (dans de rares cas, les spottings peuvent \u00eatre abondants avec caillots), qui arrivent en dehors des r\u00e8gles. Souvent, cela est le signe d\u2019une modification de la muqueuse ut\u00e9rine. Ils sont assez fr\u00e9quents en cas de contraception en continu. Plusieurs causes \u00e0 cela :",
+      "text": "Quant au spotting, il s\u2019agit de traces de sang, souvent moins abondantes que les r\u00e8gles ou les m\u00e9trorragies (dans de rares cas, les spottings peuvent \u00eatre abondants avec caillots), qui arrivent en dehors des r\u00e8gles. Souvent, cela est le signe d\u2019une modification de la muqueuse ut\u00e9rine. Ils sont assez fr\u00e9quents en cas de contraception en continu. Plusieurs causes \u00e0 cela :"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Un changement de pilule, il faut laisser le corps \u201cs\u2019adapter\u201d \u00e0 cette nouvelle pilule, notamment lors des 2 premiers mois.",
+      "text": "Un changement de pilule, il faut laisser le corps \u201cs\u2019adapter\u201d \u00e0 cette nouvelle pilule, notamment lors des 2 premiers mois.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une contraception dont le dosage n\u2019est plus adapt\u00e9.",
+      "text": "Une contraception dont le dosage n\u2019est plus adapt\u00e9.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une atrophie de la muqueuse ut\u00e9rine (ce qui arrive souvent au bout de plusieurs mois quand la pilule est prise en continu) et qui n\u00e9cessite un ajustement (\u00e0 d\u00e9finir avec le m\u00e9decin).",
+      "text": "Une atrophie de la muqueuse ut\u00e9rine (ce qui arrive souvent au bout de plusieurs mois quand la pilule est prise en continu) et qui n\u00e9cessite un ajustement (\u00e0 d\u00e9finir avec le m\u00e9decin).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les r\u00e8gles douloureuses associ\u00e9es \u00e0 d\u2019autres sympt\u00f4mes",
+      "text": "Les r\u00e8gles douloureuses associ\u00e9es \u00e0 d\u2019autres sympt\u00f4mes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette douleur de r\u00e8gles (dysm\u00e9norrh\u00e9e) associ\u00e9e \u00e0 d\u2019autres sympt\u00f4mes (troubles digestifs et/ou urinaires, douleurs pendant les rapports sexuels\u2026) peut \u00eatre \u00e9vocatrice d\u2019endometriose.",
+      "text": "Cette douleur de r\u00e8gles (dysm\u00e9norrh\u00e9e) associ\u00e9e \u00e0 d\u2019autres sympt\u00f4mes (troubles digestifs et/ou urinaires, douleurs pendant les rapports sexuels\u2026) peut \u00eatre \u00e9vocatrice d\u2019endometriose."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans tous les cas,\u00a0",
+      "text": "Dans tous les cas,\u00a0"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "quand la douleur devient invalidante, il faut en parler \u00e0 un m\u00e9decin",
+      "text": "quand la douleur devient invalidante, il faut en parler \u00e0 un m\u00e9decin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (votre gyn\u00e9cologue ou m\u00e9decin traitant dans un premier temps). \u00a0Au besoin, contactez vos b\u00e9n\u00e9voles r\u00e9gionales.",
+      "text": " (votre gyn\u00e9cologue ou m\u00e9decin traitant dans un premier temps). \u00a0Au besoin, contactez vos b\u00e9n\u00e9voles r\u00e9gionales."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

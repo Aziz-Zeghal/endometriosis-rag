@@ -1,0 +1,916 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1972873909897253517,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/groups/7"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "La demande d'admission en ALD 31 pour les femmes atteintes d'endom\u00e9triose",
+      "text": "La demande d'admission en ALD 31 pour les femmes atteintes d'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 01/03/2024",
+      "text": "Publi\u00e9 le 01/03/2024"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par ENDOmind France",
+      "text": "Information propos\u00e9e par ENDOmind France"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose fait partie des affections de longue dur\u00e9e dites \u00ab hors liste \u00bb (ALD 31). Pour b\u00e9n\u00e9ficier de ce dispositif, une demande d\u2019admission en ALD 31 doit \u00eatre r\u00e9alis\u00e9e aupr\u00e8s de l\u2019Assurance Maladie.",
+      "text": "L\u2019endom\u00e9triose fait partie des affections de longue dur\u00e9e dites \u00ab hors liste \u00bb (ALD 31). Pour b\u00e9n\u00e9ficier de ce dispositif, une demande d\u2019admission en ALD 31 doit \u00eatre r\u00e9alis\u00e9e aupr\u00e8s de l\u2019Assurance Maladie."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les b\u00e9n\u00e9fices du dispositif de l\u2019ALD",
+      "text": "Les b\u00e9n\u00e9fices du dispositif de l\u2019ALD",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Suppression des jours de carence pour les arr\u00eats de travail li\u00e9s \u00e0 l'endom\u00e9triose(d\u00e8s le 2\u00e8me arr\u00eat) sur une p\u00e9riode de 3 ans \u00e0 partir de l\u2019admission en ALD.",
+      "text": "Suppression des jours de carence pour les arr\u00eats de travail li\u00e9s \u00e0 l'endom\u00e9triose(d\u00e8s le 2\u00e8me arr\u00eat) sur une p\u00e9riode de 3 ans \u00e0 partir de l\u2019admission en ALD.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Attention, vos droits aux arr\u00eats de travail en lien avec votre ALD seront \u00e9puis\u00e9s pendant 1 an \u00e0 la fin de cette p\u00e9riode.",
+      "text": "Attention, vos droits aux arr\u00eats de travail en lien avec votre ALD seront \u00e9puis\u00e9s pendant 1 an \u00e0 la fin de cette p\u00e9riode."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Prise en charge des frais de d\u00e9placements en lien avec la maladie sur prescription du m\u00e9decin",
+      "text": "Prise en charge des frais de d\u00e9placements en lien avec la maladie sur prescription du m\u00e9decin",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le choix du mode transport peut \u00eatre pr\u00e9cis\u00e9 : v\u00e9hicule personnel, transport en commun, transport professionnalis\u00e9 conventionn\u00e9 (VSL, ambulance ou taxi).",
+      "text": "Le choix du mode transport peut \u00eatre pr\u00e9cis\u00e9 : v\u00e9hicule personnel, transport en commun, transport professionnalis\u00e9 conventionn\u00e9 (VSL, ambulance ou taxi)."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Pas d\u2019avance de frais et remboursement \u00e0 100% des soins pris en charge par l\u2019Assurance Maladie en lien avec l\u2019endom\u00e9triose",
+      "text": "Pas d\u2019avance de frais et remboursement \u00e0 100% des soins pris en charge par l\u2019Assurance Maladie en lien avec l\u2019endom\u00e9triose",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Attention, l\u2019ALD ne prend ni en charge les m\u00e9decines douces(ost\u00e9opathie, acupuncture, etc.), ni les d\u00e9passements d\u2019honoraires.",
+      "text": "Attention, l\u2019ALD ne prend ni en charge les m\u00e9decines douces(ost\u00e9opathie, acupuncture, etc.), ni les d\u00e9passements d\u2019honoraires."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qui r\u00e9alise la demande?",
+      "text": "Qui r\u00e9alise la demande?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En principe, votre m\u00e9decin traitant r\u00e9alise la demande. Elle peut aussi l\u2019\u00eatre par un gyn\u00e9cologue ou un m\u00e9decin sp\u00e9cialiste qui vous suit dans le cadre de votre endom\u00e9triose. Il compl\u00e8te alors un protocole de soins \u00e0 destination du service m\u00e9dical de l\u2019Assurance- Maladie (cerfa n\u00b0 50774#05). Vous n\u2019avez aucun document ou justificatif \u00e0 fournir.",
+      "text": "En principe, votre m\u00e9decin traitant r\u00e9alise la demande. Elle peut aussi l\u2019\u00eatre par un gyn\u00e9cologue ou un m\u00e9decin sp\u00e9cialiste qui vous suit dans le cadre de votre endom\u00e9triose. Il compl\u00e8te alors un protocole de soins \u00e0 destination du service m\u00e9dical de l\u2019Assurance- Maladie (cerfa n\u00b0 50774#05). Vous n\u2019avez aucun document ou justificatif \u00e0 fournir."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bon \u00e0 savoir : si votre m\u00e9decin n\u2019est pas familier avec la demande, il peut se r\u00e9f\u00e9rer au module sur l\u2019ALD r\u00e9alis\u00e9 par l\u2019Assurance Maladie dans le cadre du MOOC sur l\u2019endom\u00e9triose.",
+      "text": "Bon \u00e0 savoir : si votre m\u00e9decin n\u2019est pas familier avec la demande, il peut se r\u00e9f\u00e9rer au module sur l\u2019ALD r\u00e9alis\u00e9 par l\u2019Assurance Maladie dans le cadre du MOOC sur l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles sont les conditions \u00e0 remplir?",
+      "text": "Quelles sont les conditions \u00e0 remplir?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il faut remplir 3 conditions \u00ab en m\u00eame temps \u00bb",
+      "text": "Il faut remplir 3 conditions \u00ab en m\u00eame temps \u00bb"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "1. \u00abUne \u00a0forme \u00a0grave \u00a0d\u2019une \u00a0maladie \u00a0ou d\u2019une \u00a0forme \u00a0\u00e9volutive \u00a0ou \u00a0invalidante d\u2019une maladie grave\u00bb",
+      "text": "1. \u00abUne \u00a0forme \u00a0grave \u00a0d\u2019une \u00a0maladie \u00a0ou d\u2019une \u00a0forme \u00a0\u00e9volutive \u00a0ou \u00a0invalidante d\u2019une maladie grave\u00bb",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette condition est valid\u00e9e si au moins l\u2019un des crit\u00e8res m\u00e9dicaux suivant est v\u00e9rifi\u00e9 : \u00ab risque vital encouru, morbidit\u00e9 \u00e9volutive ou qualit\u00e9 de vie d\u00e9grad\u00e9e \u00bb. Dans le cas de l\u2019endom\u00e9triose, c\u2019est le crit\u00e8re li\u00e9 \u00e0 la d\u00e9gradation de votre qualit\u00e9 de vie qui se v\u00e9rifie. Celle-ci peut \u00eatre li\u00e9e \u00e0 des arr\u00eats maladie r\u00e9currents, des douleurs quotidiennes, des sympt\u00f4mes qui vous emp\u00eachent de vous d\u00e9placer ou de r\u00e9aliser certaines activit\u00e9s, etc.",
+      "text": "Cette condition est valid\u00e9e si au moins l\u2019un des crit\u00e8res m\u00e9dicaux suivant est v\u00e9rifi\u00e9 : \u00ab risque vital encouru, morbidit\u00e9 \u00e9volutive ou qualit\u00e9 de vie d\u00e9grad\u00e9e \u00bb. Dans le cas de l\u2019endom\u00e9triose, c\u2019est le crit\u00e8re li\u00e9 \u00e0 la d\u00e9gradation de votre qualit\u00e9 de vie qui se v\u00e9rifie. Celle-ci peut \u00eatre li\u00e9e \u00e0 des arr\u00eats maladie r\u00e9currents, des douleurs quotidiennes, des sympt\u00f4mes qui vous emp\u00eachent de vous d\u00e9placer ou de r\u00e9aliser certaines activit\u00e9s, etc."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les questions que je dois me poser :",
+      "text": "Les questions que je dois me poser :"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Est-ce je rate souvent le travail et/ou me force \u00e0 aller travailler avec des fortes douleurs ?",
+      "text": "Est-ce je rate souvent le travail et/ou me force \u00e0 aller travailler avec des fortes douleurs ?",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Est-ce que la maladie a un impact sur ma vie sociale (j\u2019annule des sorties entre amis, en famille...)",
+      "text": "Est-ce que la maladie a un impact sur ma vie sociale (j\u2019annule des sorties entre amis, en famille...)",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Est-ce que j\u2019ai du mal \u00e0 me d\u00e9placer, marcher, rester debout longtemps ?",
+      "text": "Est-ce que j\u2019ai du mal \u00e0 me d\u00e9placer, marcher, rester debout longtemps ?",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Est-ce que je suis particuli\u00e8rement fatigu\u00e9e ? etc....",
+      "text": "Est-ce que je suis particuli\u00e8rement fatigu\u00e9e ? etc....",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pensez \u00e0 noter tout ce que vous consid\u00e9rez comme un impact sur votre qualit\u00e9 de vie, d\u00fb \u00e0 l\u2019endom\u00e9triose.",
+      "text": "Pensez \u00e0 noter tout ce que vous consid\u00e9rez comme un impact sur votre qualit\u00e9 de vie, d\u00fb \u00e0 l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "2. Traitement \u00a0d\u2019une \u00a0dur\u00e9e \u00a0pr\u00e9visible sup\u00e9rieure \u00e0 6 mois",
+      "text": "2. Traitement \u00a0d\u2019une \u00a0dur\u00e9e \u00a0pr\u00e9visible sup\u00e9rieure \u00e0 6 mois",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour valider cette condition, votre traitement de fond doit \u00eatre d\u2019une dur\u00e9e pr\u00e9visible de plus de de 6 mois (par exemple, un traitement hormonal, anti douleur, etc).",
+      "text": "Pour valider cette condition, votre traitement de fond doit \u00eatre d\u2019une dur\u00e9e pr\u00e9visible de plus de de 6 mois (par exemple, un traitement hormonal, anti douleur, etc)."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "3. \u00abTraitement particuli\u00e8rement co\u00fbteux en raison du co\u00fbt ou de la fr\u00e9quence des actes, prestations et traitements \u00bb",
+      "text": "3. \u00abTraitement particuli\u00e8rement co\u00fbteux en raison du co\u00fbt ou de la fr\u00e9quence des actes, prestations et traitements \u00bb",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette condition n\u2019est pas li\u00e9e \u00e0 un montant financier. Pour la valider, il faut que votre panier de soins li\u00e9s \u00e0 la maladie comporte au moins 3 \u00e9l\u00e9ments parmi les 5 suivants (dont le premier obligatoirement) :",
+      "text": "Cette condition n\u2019est pas li\u00e9e \u00e0 un montant financier. Pour la valider, il faut que votre panier de soins li\u00e9s \u00e0 la maladie comporte au moins 3 \u00e9l\u00e9ments parmi les 5 suivants (dont le premier obligatoirement) :"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "traitement m\u00e9dicamenteux ou appareillage r\u00e9gulier (par exemple, un TENS prescrit par un m\u00e9decin de la douleur);",
+      "text": "traitement m\u00e9dicamenteux ou appareillage r\u00e9gulier (par exemple, un TENS prescrit par un m\u00e9decin de la douleur);",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "hospitalisation (chirurgie, h\u00f4pital de jour, etc.) ;",
+      "text": "hospitalisation (chirurgie, h\u00f4pital de jour, etc.) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s (consultations m\u00e9dicales, imageries, etc.) ;",
+      "text": "actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s (consultations m\u00e9dicales, imageries, etc.) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "actes biologiques r\u00e9p\u00e9t\u00e9s (prises de sang, ECBU, etc.) ;",
+      "text": "actes biologiques r\u00e9p\u00e9t\u00e9s (prises de sang, ECBU, etc.) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "soins param\u00e9dicaux r\u00e9p\u00e9t\u00e9s (kin\u00e9sith\u00e9rapie, soins infirmiers, etc.).",
+      "text": "soins param\u00e9dicaux r\u00e9p\u00e9t\u00e9s (kin\u00e9sith\u00e9rapie, soins infirmiers, etc.).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Avoir une chirurgie ou une hospitalisation pr\u00e9vue n\u2019est donc pas obligatoire mais peut constituer l\u2019un des \u00e9l\u00e9ments du panier de soins. Le m\u00e9decin r\u00e9alisant la demande doit d\u00e9tailler le panier de soins avec la plus grande pr\u00e9cision, en y exposant l\u2019ensemble des actes et prestations pr\u00e9vus li\u00e9s \u00e0 l\u2019endom\u00e9triose.",
+      "text": "Avoir une chirurgie ou une hospitalisation pr\u00e9vue n\u2019est donc pas obligatoire mais peut constituer l\u2019un des \u00e9l\u00e9ments du panier de soins. Le m\u00e9decin r\u00e9alisant la demande doit d\u00e9tailler le panier de soins avec la plus grande pr\u00e9cision, en y exposant l\u2019ensemble des actes et prestations pr\u00e9vus li\u00e9s \u00e0 l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qui traite la demande?",
+      "text": "Qui traite la demande?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La demande est trait\u00e9e par un m\u00e9decin-conseil du service m\u00e9dical de votre caisse d\u2019Assurance Maladie. Si n\u00e9cessaire, le m\u00e9decin-conseil peut contacter le m\u00e9decin ayant r\u00e9alis\u00e9 la demande afin d\u2019obtenir des pr\u00e9cisions. Les d\u00e9lais de traitement varient d\u2019un d\u00e9partement \u00e0 l\u2019autre. Ils semblent \u00eatre en moyenne de trois mois.",
+      "text": "La demande est trait\u00e9e par un m\u00e9decin-conseil du service m\u00e9dical de votre caisse d\u2019Assurance Maladie. Si n\u00e9cessaire, le m\u00e9decin-conseil peut contacter le m\u00e9decin ayant r\u00e9alis\u00e9 la demande afin d\u2019obtenir des pr\u00e9cisions. Les d\u00e9lais de traitement varient d\u2019un d\u00e9partement \u00e0 l\u2019autre. Ils semblent \u00eatre en moyenne de trois mois."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La r\u00e9ponse",
+      "text": "La r\u00e9ponse",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Si la r\u00e9ponse est positive",
+      "text": "Si la r\u00e9ponse est positive",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le b\u00e9n\u00e9fice du dispositif ALD vous sera accord\u00e9 pour plusieurs ann\u00e9es. Les m\u00e9decins-conseils ont pour consigne de ne pas donner en dessous de 3 ans, mais peuvent accorder plus selon votre situation ou lorsqu\u2019il s\u2019agit d\u2019un renouvellement.",
+      "text": "Le b\u00e9n\u00e9fice du dispositif ALD vous sera accord\u00e9 pour plusieurs ann\u00e9es. Les m\u00e9decins-conseils ont pour consigne de ne pas donner en dessous de 3 ans, mais peuvent accorder plus selon votre situation ou lorsqu\u2019il s\u2019agit d\u2019un renouvellement."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Si la r\u00e9ponse est n\u00e9gative",
+      "text": "Si la r\u00e9ponse est n\u00e9gative",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez contester la d\u00e9cision de refus aupr\u00e8s de votre caisse d\u2019Assurance Maladie en suivant les instructions donn\u00e9es dans la lettre de refus.",
+      "text": "Vous pouvez contester la d\u00e9cision de refus aupr\u00e8s de votre caisse d\u2019Assurance Maladie en suivant les instructions donn\u00e9es dans la lettre de refus."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Ressources utiles",
+      "text": "Ressources utiles",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Circulaire DSS/SD1MCGR no 2009-308 du 8octobre 2009 relative \u00e0 l\u2019admission ou au renouvellement d\u2019une affection de longue dur\u00e9e hors liste au titre de l\u2019article L. 322-3 (4\u00b0) du code de la s\u00e9curit\u00e9 sociale",
+      "text": "Circulaire DSS/SD1MCGR no 2009-308 du 8octobre 2009 relative \u00e0 l\u2019admission ou au renouvellement d\u2019une affection de longue dur\u00e9e hors liste au titre de l\u2019article L. 322-3 (4\u00b0) du code de la s\u00e9curit\u00e9 sociale",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Etude r\u00e9alis\u00e9e par ENDOmind sur les d\u00e9fis rencontr\u00e9s par les patientes atteintes d\u2019endom\u00e9triose dans le cadre leur demande d\u2019admission en ALD 31",
+      "text": "Etude r\u00e9alis\u00e9e par ENDOmind sur les d\u00e9fis rencontr\u00e9s par les patientes atteintes d\u2019endom\u00e9triose dans le cadre leur demande d\u2019admission en ALD 31",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 retrouver sur ",
+      "text": "\u00c0 retrouver sur "
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "https://www.endomind.org/droits-aides-sociales",
+      "text": "https://www.endomind.org/droits-aides-sociales",
+      "hyperlink": "https://www.endomind.org/droits-aides-sociales"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

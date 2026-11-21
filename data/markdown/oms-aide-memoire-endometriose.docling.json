@@ -1,0 +1,766 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 11821831101872846876,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/22"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Principaux faits",
+      "text": "Principaux faits",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "On estime que l\u2019endom\u00e9triose touche 10 % des femmes en \u00e2ge de procr\u00e9er, soit 190 millions de personnes, \u00e0 l\u2019\u00e9chelle mondiale.",
+      "text": "On estime que l\u2019endom\u00e9triose touche 10 % des femmes en \u00e2ge de procr\u00e9er, soit 190 millions de personnes, \u00e0 l\u2019\u00e9chelle mondiale.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose est une maladie chronique dont les principaux sympt\u00f4mes sont les suivants : douleurs intenses pendant les menstruations ; saignements menstruels abondants ; douleurs pelviennes chroniques (qui ne disparaissent pas \u00e0 la fin du cycle menstruel) ; infertilit\u00e9 ; et ballonnements et naus\u00e9es.",
+      "text": "L\u2019endom\u00e9triose est une maladie chronique dont les principaux sympt\u00f4mes sont les suivants : douleurs intenses pendant les menstruations ; saignements menstruels abondants ; douleurs pelviennes chroniques (qui ne disparaissent pas \u00e0 la fin du cycle menstruel) ; infertilit\u00e9 ; et ballonnements et naus\u00e9es.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose touche le plus souvent la r\u00e9gion pelvienne, mais chez certaines femmes, elle peut appara\u00eetre dans d\u2019autres parties du corps, y compris l\u2019abdomen et la poitrine.",
+      "text": "L\u2019endom\u00e9triose touche le plus souvent la r\u00e9gion pelvienne, mais chez certaines femmes, elle peut appara\u00eetre dans d\u2019autres parties du corps, y compris l\u2019abdomen et la poitrine.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose peut avoir un impact sur les rapports sexuels, le transit intestinal et/ou la miction, ainsi que la sant\u00e9 mentale (notamment d\u00e9pression et anxi\u00e9t\u00e9).",
+      "text": "L\u2019endom\u00e9triose peut avoir un impact sur les rapports sexuels, le transit intestinal et/ou la miction, ainsi que la sant\u00e9 mentale (notamment d\u00e9pression et anxi\u00e9t\u00e9).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Il n\u2019existe actuellement aucun rem\u00e8de contre l\u2019endom\u00e9triose. Dans de nombreux pays, l\u2019acc\u00e8s \u00e0 un diagnostic pr\u00e9coce et \u00e0 un traitement efficace de l\u2019endom\u00e9triose est limit\u00e9 ; le traitement vise \u00e0 soulager les sympt\u00f4mes et \u00e0 limiter les effets \u00e0 long terme de la maladie.",
+      "text": "Il n\u2019existe actuellement aucun rem\u00e8de contre l\u2019endom\u00e9triose. Dans de nombreux pays, l\u2019acc\u00e8s \u00e0 un diagnostic pr\u00e9coce et \u00e0 un traitement efficace de l\u2019endom\u00e9triose est limit\u00e9 ; le traitement vise \u00e0 soulager les sympt\u00f4mes et \u00e0 limiter les effets \u00e0 long terme de la maladie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Vue d\u2019ensemble",
+      "text": "Vue d\u2019ensemble",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose est une maladie complexe qui touche de nombreuses femmes dans le monde, de l\u2019apparition des premi\u00e8res r\u00e8gles (m\u00e9narche) jusqu\u2019\u00e0 la m\u00e9nopause, ind\u00e9pendamment de leur origine ethnique ou de leur statut social. L\u2019endom\u00e9triose peut \u00e9galement toucher les hommes transgenres et les personnes non binaires qui ont des menstruations. Chez les personnes atteintes d\u2019endom\u00e9triose, du tissu endom\u00e9trial (que l\u2019on trouve g\u00e9n\u00e9ralement uniquement dans la muqueuse ut\u00e9rine) se d\u00e9veloppe \u00e0 l\u2019ext\u00e9rieur de l\u2019ut\u00e9rus, provoquant une inflammation et la formation de tissu cicatriciel.",
+      "text": "L\u2019endom\u00e9triose est une maladie complexe qui touche de nombreuses femmes dans le monde, de l\u2019apparition des premi\u00e8res r\u00e8gles (m\u00e9narche) jusqu\u2019\u00e0 la m\u00e9nopause, ind\u00e9pendamment de leur origine ethnique ou de leur statut social. L\u2019endom\u00e9triose peut \u00e9galement toucher les hommes transgenres et les personnes non binaires qui ont des menstruations. Chez les personnes atteintes d\u2019endom\u00e9triose, du tissu endom\u00e9trial (que l\u2019on trouve g\u00e9n\u00e9ralement uniquement dans la muqueuse ut\u00e9rine) se d\u00e9veloppe \u00e0 l\u2019ext\u00e9rieur de l\u2019ut\u00e9rus, provoquant une inflammation et la formation de tissu cicatriciel."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il n\u2019existe actuellement aucun rem\u00e8de connu contre l\u2019endom\u00e9triose, mais on peut en traiter les sympt\u00f4mes par des m\u00e9dicaments ou, chez certaines femmes, par une intervention chirurgicale.",
+      "text": "Il n\u2019existe actuellement aucun rem\u00e8de connu contre l\u2019endom\u00e9triose, mais on peut en traiter les sympt\u00f4mes par des m\u00e9dicaments ou, chez certaines femmes, par une intervention chirurgicale."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose est diagnostiqu\u00e9e \u00e0 l\u2019aide de techniques d\u2019imagerie telles que l\u2019\u00e9chographie. Pour confirmer le diagnostic, il peut \u00eatre n\u00e9cessaire de recourir \u00e0 des proc\u00e9dures invasives comme la chirurgie. Les retards de diagnostic sont fr\u00e9quents, et il arrive souvent que les sympt\u00f4mes persistent ou r\u00e9apparaissent apr\u00e8s la mise en place d\u2019un traitement.",
+      "text": "L\u2019endom\u00e9triose est diagnostiqu\u00e9e \u00e0 l\u2019aide de techniques d\u2019imagerie telles que l\u2019\u00e9chographie. Pour confirmer le diagnostic, il peut \u00eatre n\u00e9cessaire de recourir \u00e0 des proc\u00e9dures invasives comme la chirurgie. Les retards de diagnostic sont fr\u00e9quents, et il arrive souvent que les sympt\u00f4mes persistent ou r\u00e9apparaissent apr\u00e8s la mise en place d\u2019un traitement."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Causes",
+      "text": "Causes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les causes de l\u2019endom\u00e9triose sont inconnues.",
+      "text": "Les causes de l\u2019endom\u00e9triose sont inconnues."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des \u00e9tudes r\u00e9centes indiquent que l\u2019endom\u00e9triose pourrait \u00eatre li\u00e9e \u00e0 un d\u00e9r\u00e8glement du syst\u00e8me immunitaire. Les personnes atteintes d\u2019endom\u00e9triose sont plus susceptibles de pr\u00e9senter d\u2019autres affections \u00e0 m\u00e9diation immunitaire, telles que le lupus, la scl\u00e9rose en plaques et les maladies inflammatoires chroniques de l\u2019intestin, ainsi que des ant\u00e9c\u00e9dents familiaux d\u2019endom\u00e9triose.",
+      "text": "Des \u00e9tudes r\u00e9centes indiquent que l\u2019endom\u00e9triose pourrait \u00eatre li\u00e9e \u00e0 un d\u00e9r\u00e8glement du syst\u00e8me immunitaire. Les personnes atteintes d\u2019endom\u00e9triose sont plus susceptibles de pr\u00e9senter d\u2019autres affections \u00e0 m\u00e9diation immunitaire, telles que le lupus, la scl\u00e9rose en plaques et les maladies inflammatoires chroniques de l\u2019intestin, ainsi que des ant\u00e9c\u00e9dents familiaux d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Diagnostic",
+      "text": "Diagnostic",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes varient d\u2019une personne \u00e0 l\u2019autre et sont peu sp\u00e9cifiques, de sorte que les personnels de sant\u00e9 et d\u2019aide \u00e0 la personne ont parfois du mal \u00e0 diagnostiquer l\u2019endom\u00e9triose. Les personnes pr\u00e9sentant des sympt\u00f4mes peuvent ne pas \u00eatre au courant de l\u2019existence de cette maladie, tandis que d\u2019autres peuvent \u00eatre atteintes d\u2019endom\u00e9triose tout en \u00e9tant asymptomatiques. Dans de nombreux pays, notamment dans les pays \u00e0 revenu faible ou interm\u00e9diaire, l\u2019acc\u00e8s \u00e0 un diagnostic pr\u00e9coce et \u00e0 un traitement efficace de l\u2019endom\u00e9triose est limit\u00e9. Actuellement, le d\u00e9lai de diagnostic moyen est compris entre 4 et 12 ans.",
+      "text": "Les sympt\u00f4mes varient d\u2019une personne \u00e0 l\u2019autre et sont peu sp\u00e9cifiques, de sorte que les personnels de sant\u00e9 et d\u2019aide \u00e0 la personne ont parfois du mal \u00e0 diagnostiquer l\u2019endom\u00e9triose. Les personnes pr\u00e9sentant des sympt\u00f4mes peuvent ne pas \u00eatre au courant de l\u2019existence de cette maladie, tandis que d\u2019autres peuvent \u00eatre atteintes d\u2019endom\u00e9triose tout en \u00e9tant asymptomatiques. Dans de nombreux pays, notamment dans les pays \u00e0 revenu faible ou interm\u00e9diaire, l\u2019acc\u00e8s \u00e0 un diagnostic pr\u00e9coce et \u00e0 un traitement efficace de l\u2019endom\u00e9triose est limit\u00e9. Actuellement, le d\u00e9lai de diagnostic moyen est compris entre 4 et 12 ans."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un examen minutieux des ant\u00e9c\u00e9dents menstruels, notamment des douleurs, de l\u2019abondance des saignements et des sympt\u00f4mes associ\u00e9s, peut faciliter le diagnostic de l\u2019endom\u00e9triose.",
+      "text": "Un examen minutieux des ant\u00e9c\u00e9dents menstruels, notamment des douleurs, de l\u2019abondance des saignements et des sympt\u00f4mes associ\u00e9s, peut faciliter le diagnostic de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il peut \u00eatre recommand\u00e9 de recourir \u00e0 la chirurgie laparoscopique, qui permet de visualiser directement le tissu endom\u00e9trial ou d\u2019examiner des \u00e9chantillons de tissu pr\u00e9lev\u00e9s pendant l\u2019intervention, mais il s\u2019agit d\u2019une proc\u00e9dure inaccessible \u00e0 de nombreuses femmes. Un diagnostic clinique d\u2019endom\u00e9triose peut \u00e9galement \u00eatre pos\u00e9 sur la base des sympt\u00f4mes d\u00e9crits par les femmes et des r\u00e9sultats d\u2019examens d\u2019imagerie tels que l\u2019\u00e9chographie ou l\u2019IRM, et une intervention chirurgicale n\u2019est pas n\u00e9cessairement requise avant d\u2019entamer le traitement.",
+      "text": "Il peut \u00eatre recommand\u00e9 de recourir \u00e0 la chirurgie laparoscopique, qui permet de visualiser directement le tissu endom\u00e9trial ou d\u2019examiner des \u00e9chantillons de tissu pr\u00e9lev\u00e9s pendant l\u2019intervention, mais il s\u2019agit d\u2019une proc\u00e9dure inaccessible \u00e0 de nombreuses femmes. Un diagnostic clinique d\u2019endom\u00e9triose peut \u00e9galement \u00eatre pos\u00e9 sur la base des sympt\u00f4mes d\u00e9crits par les femmes et des r\u00e9sultats d\u2019examens d\u2019imagerie tels que l\u2019\u00e9chographie ou l\u2019IRM, et une intervention chirurgicale n\u2019est pas n\u00e9cessairement requise avant d\u2019entamer le traitement."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des tests de diagnostic visant \u00e0 d\u00e9tecter l\u2019endom\u00e9triose \u00e0 un stade plus pr\u00e9coce sont en train de voir le jour. Il s\u2019agit notamment de simples listes de contr\u00f4le des sympt\u00f4mes, de tests sanguins et, de plus en plus, d\u2019autotests r\u00e9alis\u00e9s \u00e0 partir de la salive ou du sang menstruel.",
+      "text": "Des tests de diagnostic visant \u00e0 d\u00e9tecter l\u2019endom\u00e9triose \u00e0 un stade plus pr\u00e9coce sont en train de voir le jour. Il s\u2019agit notamment de simples listes de contr\u00f4le des sympt\u00f4mes, de tests sanguins et, de plus en plus, d\u2019autotests r\u00e9alis\u00e9s \u00e0 partir de la salive ou du sang menstruel."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Traitement",
+      "text": "Traitement",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il n\u2019existe aucun traitement permettant de gu\u00e9rir l\u2019endom\u00e9triose de mani\u00e8re d\u00e9finitive. Le choix du traitement d\u00e9pend plut\u00f4t de la gravit\u00e9 des sympt\u00f4mes, des pr\u00e9f\u00e9rences individuelles, des effets secondaires, de l\u2019innocuit\u00e9 \u00e0 long terme, des co\u00fbts et de la disponibilit\u00e9 des traitements, ainsi que du d\u00e9sir ou non de grossesse.",
+      "text": "Il n\u2019existe aucun traitement permettant de gu\u00e9rir l\u2019endom\u00e9triose de mani\u00e8re d\u00e9finitive. Le choix du traitement d\u00e9pend plut\u00f4t de la gravit\u00e9 des sympt\u00f4mes, des pr\u00e9f\u00e9rences individuelles, des effets secondaires, de l\u2019innocuit\u00e9 \u00e0 long terme, des co\u00fbts et de la disponibilit\u00e9 des traitements, ainsi que du d\u00e9sir ou non de grossesse."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certains m\u00e9dicaments peuvent \u00eatre utiles pour g\u00e9rer l\u2019endom\u00e9triose et ses sympt\u00f4mes :",
+      "text": "Certains m\u00e9dicaments peuvent \u00eatre utiles pour g\u00e9rer l\u2019endom\u00e9triose et ses sympt\u00f4mes :"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) tels que l\u2019ibuprof\u00e8ne et le naprox\u00e8ne et d\u2019autres analg\u00e9siques sont souvent utilis\u00e9s pour traiter la douleur ;",
+      "text": "les anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) tels que l\u2019ibuprof\u00e8ne et le naprox\u00e8ne et d\u2019autres analg\u00e9siques sont souvent utilis\u00e9s pour traiter la douleur ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des m\u00e9dicaments hormonaux peuvent \u00e9galement r\u00e9duire l\u2019intensit\u00e9 et/ou la fr\u00e9quence de la douleur chez certaines femmes. Parmi ces m\u00e9thodes figurent\u00a0:",
+      "text": "des m\u00e9dicaments hormonaux peuvent \u00e9galement r\u00e9duire l\u2019intensit\u00e9 et/ou la fr\u00e9quence de la douleur chez certaines femmes. Parmi ces m\u00e9thodes figurent\u00a0:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des contraceptifs hormonaux combin\u00e9s (pilule, patch, anneau) ;",
+      "text": "des contraceptifs hormonaux combin\u00e9s (pilule, patch, anneau) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des progestatifs (dispositifs intra-ut\u00e9rins hormonaux, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone retard) ; et",
+      "text": "des progestatifs (dispositifs intra-ut\u00e9rins hormonaux, ac\u00e9tate de m\u00e9droxyprogest\u00e9rone retard) ; et",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des analogues de la GnRH.",
+      "text": "des analogues de la GnRH.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe d\u2019autres modulateurs hormonaux, tels que les inhibiteurs de l\u2019aromatase. Cependant, certaines de ces m\u00e9thodes peuvent ne pas convenir aux femmes qui d\u00e9sirent une grossesse.",
+      "text": "Il existe d\u2019autres modulateurs hormonaux, tels que les inhibiteurs de l\u2019aromatase. Cependant, certaines de ces m\u00e9thodes peuvent ne pas convenir aux femmes qui d\u00e9sirent une grossesse."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le traitement chirurgical permet d\u2019\u00e9liminer les l\u00e9sions, les adh\u00e9rences et les tissus cicatriciels associ\u00e9s \u00e0 l\u2019endom\u00e9triose. L\u2019hyst\u00e9rectomie (ablation chirurgicale de l\u2019ut\u00e9rus), g\u00e9n\u00e9ralement accompagn\u00e9e de l\u2019ablation des ovaires, peut \u00eatre envisag\u00e9e chez les personnes qui ne r\u00e9pondent pas aux autres traitements et qui ne pr\u00e9voient pas d\u2019avoir d\u2019enfant. Toutefois, l\u2019hyst\u00e9rectomie n\u2019est pas un rem\u00e8de et les sympt\u00f4mes peuvent persister chez certaines patientes.",
+      "text": "Le traitement chirurgical permet d\u2019\u00e9liminer les l\u00e9sions, les adh\u00e9rences et les tissus cicatriciels associ\u00e9s \u00e0 l\u2019endom\u00e9triose. L\u2019hyst\u00e9rectomie (ablation chirurgicale de l\u2019ut\u00e9rus), g\u00e9n\u00e9ralement accompagn\u00e9e de l\u2019ablation des ovaires, peut \u00eatre envisag\u00e9e chez les personnes qui ne r\u00e9pondent pas aux autres traitements et qui ne pr\u00e9voient pas d\u2019avoir d\u2019enfant. Toutefois, l\u2019hyst\u00e9rectomie n\u2019est pas un rem\u00e8de et les sympt\u00f4mes peuvent persister chez certaines patientes."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le succ\u00e8s de la chirurgie, en termes de r\u00e9duction des sympt\u00f4mes douloureux et d\u2019am\u00e9lioration des chances de grossesse, d\u00e9pend souvent de l\u2019\u00e9tendue de la maladie. En outre, des l\u00e9sions peuvent r\u00e9appara\u00eetre apr\u00e8s avoir \u00e9t\u00e9 \u00e9limin\u00e9es et des anomalies dans les muscles du plancher pelvien peuvent entra\u00eener des douleurs pelviennes chroniques. Des traitements de fertilit\u00e9, tels que l\u2019induction de l\u2019ovulation, l\u2019ins\u00e9mination intra-ut\u00e9rine (IIU) ou la f\u00e9condation in vitro (FIV), peuvent \u00eatre recommand\u00e9s chez les patientes qui ont des difficult\u00e9s \u00e0 tomber enceintes en raison de l\u2019endom\u00e9triose.",
+      "text": "Le succ\u00e8s de la chirurgie, en termes de r\u00e9duction des sympt\u00f4mes douloureux et d\u2019am\u00e9lioration des chances de grossesse, d\u00e9pend souvent de l\u2019\u00e9tendue de la maladie. En outre, des l\u00e9sions peuvent r\u00e9appara\u00eetre apr\u00e8s avoir \u00e9t\u00e9 \u00e9limin\u00e9es et des anomalies dans les muscles du plancher pelvien peuvent entra\u00eener des douleurs pelviennes chroniques. Des traitements de fertilit\u00e9, tels que l\u2019induction de l\u2019ovulation, l\u2019ins\u00e9mination intra-ut\u00e9rine (IIU) ou la f\u00e9condation in vitro (FIV), peuvent \u00eatre recommand\u00e9s chez les patientes qui ont des difficult\u00e9s \u00e0 tomber enceintes en raison de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Au-del\u00e0 des consultations m\u00e9dicales, les personnes atteintes d\u2019endom\u00e9triose peuvent obtenir des conseils suppl\u00e9mentaires et un soutien psychologique aupr\u00e8s de groupes d\u2019entraide locaux. Des approches multidisciplinaires de gestion de la douleur, y compris la physioth\u00e9rapie et la th\u00e9rapie cognitivo-comportementale (TCC), peuvent \u00e9galement contribuer \u00e0 att\u00e9nuer la douleur li\u00e9e \u00e0 l\u2019endom\u00e9triose et \u00e0 am\u00e9liorer la qualit\u00e9 de vie. Ces th\u00e9rapies ciblent \u00e0 la fois les sympt\u00f4mes physiques et les r\u00e9percussions \u00e9motionnelles de la maladie.",
+      "text": "Au-del\u00e0 des consultations m\u00e9dicales, les personnes atteintes d\u2019endom\u00e9triose peuvent obtenir des conseils suppl\u00e9mentaires et un soutien psychologique aupr\u00e8s de groupes d\u2019entraide locaux. Des approches multidisciplinaires de gestion de la douleur, y compris la physioth\u00e9rapie et la th\u00e9rapie cognitivo-comportementale (TCC), peuvent \u00e9galement contribuer \u00e0 att\u00e9nuer la douleur li\u00e9e \u00e0 l\u2019endom\u00e9triose et \u00e0 am\u00e9liorer la qualit\u00e9 de vie. Ces th\u00e9rapies ciblent \u00e0 la fois les sympt\u00f4mes physiques et les r\u00e9percussions \u00e9motionnelles de la maladie."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certains traitements peuvent entra\u00eener des effets secondaires, et il arrive que des sympt\u00f4mes de l\u2019endom\u00e9triose r\u00e9apparaissent apr\u00e8s l\u2019arr\u00eat du traitement. Le choix du traitement d\u00e9pend de son efficacit\u00e9 chez la personne concern\u00e9e, de ses effets secondaires, de son innocuit\u00e9 \u00e0 long terme, de son co\u00fbt et de sa disponibilit\u00e9.",
+      "text": "Certains traitements peuvent entra\u00eener des effets secondaires, et il arrive que des sympt\u00f4mes de l\u2019endom\u00e9triose r\u00e9apparaissent apr\u00e8s l\u2019arr\u00eat du traitement. Le choix du traitement d\u00e9pend de son efficacit\u00e9 chez la personne concern\u00e9e, de ses effets secondaires, de son innocuit\u00e9 \u00e0 long terme, de son co\u00fbt et de sa disponibilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Impact",
+      "text": "Impact",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose a d\u2019importantes r\u00e9percussions sur la sant\u00e9, la vie sociale et la situation \u00e9conomique des personnes touch\u00e9es. Les douleurs aigu\u00ebs qu\u2019elle provoque, ainsi que les saignements menstruels abondants, la fatigue, la d\u00e9pression, l\u2019anxi\u00e9t\u00e9, l\u2019infertilit\u00e9, les difficult\u00e9s en mati\u00e8re de sant\u00e9 sexuelle et l\u2019isolement social, peuvent fortement compromettre la qualit\u00e9 de vie.",
+      "text": "L\u2019endom\u00e9triose a d\u2019importantes r\u00e9percussions sur la sant\u00e9, la vie sociale et la situation \u00e9conomique des personnes touch\u00e9es. Les douleurs aigu\u00ebs qu\u2019elle provoque, ainsi que les saignements menstruels abondants, la fatigue, la d\u00e9pression, l\u2019anxi\u00e9t\u00e9, l\u2019infertilit\u00e9, les difficult\u00e9s en mati\u00e8re de sant\u00e9 sexuelle et l\u2019isolement social, peuvent fortement compromettre la qualit\u00e9 de vie."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose est associ\u00e9e \u00e0 des probl\u00e8mes d\u2019infertilit\u00e9 dans le monde entier. Parmi les femmes concern\u00e9es par l\u2019infertilit\u00e9, 25 \u00e0 50 % sont atteintes d\u2019endom\u00e9triose. Les saignements menstruels abondants dus \u00e0 l\u2019endom\u00e9triose peuvent entra\u00eener une carence en fer et une fatigue. En raison des douleurs provoqu\u00e9es par l\u2019endom\u00e9triose, les personnes touch\u00e9es peuvent \u00eatre amen\u00e9es \u00e0 interrompre ou \u00e0 \u00e9viter les rapports sexuels, ce qui a une incidence sur leur sant\u00e9 sexuelle et celle de leurs partenaires.",
+      "text": "L\u2019endom\u00e9triose est associ\u00e9e \u00e0 des probl\u00e8mes d\u2019infertilit\u00e9 dans le monde entier. Parmi les femmes concern\u00e9es par l\u2019infertilit\u00e9, 25 \u00e0 50 % sont atteintes d\u2019endom\u00e9triose. Les saignements menstruels abondants dus \u00e0 l\u2019endom\u00e9triose peuvent entra\u00eener une carence en fer et une fatigue. En raison des douleurs provoqu\u00e9es par l\u2019endom\u00e9triose, les personnes touch\u00e9es peuvent \u00eatre amen\u00e9es \u00e0 interrompre ou \u00e0 \u00e9viter les rapports sexuels, ce qui a une incidence sur leur sant\u00e9 sexuelle et celle de leurs partenaires."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez certaines personnes, l\u2019endom\u00e9triose entra\u00eene des douleurs handicapantes ou d\u2019autres sympt\u00f4mes qui les emp\u00eachent de travailler ou de poursuivre leurs \u00e9tudes. Cela peut se traduire par une perte de revenu pour les personnes concern\u00e9es et leurs familles et engendrer des co\u00fbts sociaux. Les traitements impliquent souvent des co\u00fbts \u00e0 la charge des personnes atteintes d\u2019endom\u00e9triose, ce qui fait peser sur elles une pression financi\u00e8re suppl\u00e9mentaire.",
+      "text": "Chez certaines personnes, l\u2019endom\u00e9triose entra\u00eene des douleurs handicapantes ou d\u2019autres sympt\u00f4mes qui les emp\u00eachent de travailler ou de poursuivre leurs \u00e9tudes. Cela peut se traduire par une perte de revenu pour les personnes concern\u00e9es et leurs familles et engendrer des co\u00fbts sociaux. Les traitements impliquent souvent des co\u00fbts \u00e0 la charge des personnes atteintes d\u2019endom\u00e9triose, ce qui fait peser sur elles une pression financi\u00e8re suppl\u00e9mentaire."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces probl\u00e8mes sont exacerb\u00e9s par la stigmatisation et les croyances sociales qui incitent souvent \u00e0 ignorer ou \u00e0 minimiser les douleurs menstruelles.",
+      "text": "Ces probl\u00e8mes sont exacerb\u00e9s par la stigmatisation et les croyances sociales qui incitent souvent \u00e0 ignorer ou \u00e0 minimiser les douleurs menstruelles."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pr\u00e9vention",
+      "text": "Pr\u00e9vention",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 l\u2019heure actuelle, on ne sait pas comment pr\u00e9venir l\u2019endom\u00e9triose. Une meilleure sensibilisation, un diagnostic pr\u00e9coce et des soins de qualit\u00e9 peuvent contribuer \u00e0 ralentir ou stopper la progression de la maladie et r\u00e9duire les sympt\u00f4mes \u00e0 long terme, y compris le risque potentiel de sensibilisation \u00e0 la douleur du syst\u00e8me nerveux central. Il n\u2019existe n\u00e9anmoins aucun rem\u00e8de pour le moment.",
+      "text": "\u00c0 l\u2019heure actuelle, on ne sait pas comment pr\u00e9venir l\u2019endom\u00e9triose. Une meilleure sensibilisation, un diagnostic pr\u00e9coce et des soins de qualit\u00e9 peuvent contribuer \u00e0 ralentir ou stopper la progression de la maladie et r\u00e9duire les sympt\u00f4mes \u00e0 long terme, y compris le risque potentiel de sensibilisation \u00e0 la douleur du syst\u00e8me nerveux central. Il n\u2019existe n\u00e9anmoins aucun rem\u00e8de pour le moment."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "D\u00e9fis et priorit\u00e9s",
+      "text": "D\u00e9fis et priorit\u00e9s",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans de nombreux pays, le grand public, les proches et la plupart des personnels de sant\u00e9 et d\u2019aide \u00e0 la personne ne se rendent pas compte que les douleurs pelviennes chroniques dont souffrent les personnes atteintes d\u2019endom\u00e9triose ne sont pas normales. La normalisation et la stigmatisation de la douleur et des autres sympt\u00f4mes ont des cons\u00e9quences n\u00e9gatives sur la sant\u00e9 mentale et le bien-\u00eatre des personnes atteintes d\u2019endom\u00e9triose.",
+      "text": "Dans de nombreux pays, le grand public, les proches et la plupart des personnels de sant\u00e9 et d\u2019aide \u00e0 la personne ne se rendent pas compte que les douleurs pelviennes chroniques dont souffrent les personnes atteintes d\u2019endom\u00e9triose ne sont pas normales. La normalisation et la stigmatisation de la douleur et des autres sympt\u00f4mes ont des cons\u00e9quences n\u00e9gatives sur la sant\u00e9 mentale et le bien-\u00eatre des personnes atteintes d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les pays \u00e0 revenu faible ou interm\u00e9diaire manquent d\u2019\u00e9quipes pluridisciplinaires disposant des comp\u00e9tences et des \u00e9quipements n\u00e9cessaires \u00e0 un diagnostic pr\u00e9coce et \u00e0 un traitement efficace de l\u2019endom\u00e9triose. En outre, il reste de nombreuses lacunes \u00e0 combler dans les connaissances, et il faut encore mettre au point des m\u00e9thodes de diagnostic non invasives ainsi que des traitements m\u00e9dicaux qui n\u2019emp\u00eachent pas la grossesse. Ces enjeux sont actuellement au centre des efforts d\u00e9ploy\u00e9s pour lutter contre l\u2019endom\u00e9triose.",
+      "text": "Les pays \u00e0 revenu faible ou interm\u00e9diaire manquent d\u2019\u00e9quipes pluridisciplinaires disposant des comp\u00e9tences et des \u00e9quipements n\u00e9cessaires \u00e0 un diagnostic pr\u00e9coce et \u00e0 un traitement efficace de l\u2019endom\u00e9triose. En outre, il reste de nombreuses lacunes \u00e0 combler dans les connaissances, et il faut encore mettre au point des m\u00e9thodes de diagnostic non invasives ainsi que des traitements m\u00e9dicaux qui n\u2019emp\u00eachent pas la grossesse. Ces enjeux sont actuellement au centre des efforts d\u00e9ploy\u00e9s pour lutter contre l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Action de l\u2019OMS",
+      "text": "Action de l\u2019OMS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019Organisation mondiale de la Sant\u00e9 reconna\u00eet l\u2019importance que rev\u00eat l\u2019endom\u00e9triose, ainsi que ses effets sur la sant\u00e9 sexuelle et reproductive et les droits connexes, la qualit\u00e9 de vie et le bien-\u00eatre g\u00e9n\u00e9ral des personnes concern\u00e9es. L\u2019OMS s\u2019emploie \u00e0 \u00e9laborer des outils et des orientations normatives applicables \u00e0 l\u2019\u00e9chelle mondiale afin de favoriser l\u2019adoption de politiques et d\u2019interventions efficaces pour lutter contre l\u2019endom\u00e9triose dans le monde entier, y compris dans les pays \u00e0 revenu faible ou interm\u00e9diaire, et dans les communaut\u00e9s mal desservies.",
+      "text": "L\u2019Organisation mondiale de la Sant\u00e9 reconna\u00eet l\u2019importance que rev\u00eat l\u2019endom\u00e9triose, ainsi que ses effets sur la sant\u00e9 sexuelle et reproductive et les droits connexes, la qualit\u00e9 de vie et le bien-\u00eatre g\u00e9n\u00e9ral des personnes concern\u00e9es. L\u2019OMS s\u2019emploie \u00e0 \u00e9laborer des outils et des orientations normatives applicables \u00e0 l\u2019\u00e9chelle mondiale afin de favoriser l\u2019adoption de politiques et d\u2019interventions efficaces pour lutter contre l\u2019endom\u00e9triose dans le monde entier, y compris dans les pays \u00e0 revenu faible ou interm\u00e9diaire, et dans les communaut\u00e9s mal desservies."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019OMS a nou\u00e9 des partenariats avec de nombreuses parties prenantes, notamment des \u00e9tablissements universitaires, des acteurs non \u00e9tatiques et d\u2019autres organisations qui jouent un r\u00f4le actif dans la recherche en vue d\u2019identifier des mod\u00e8les efficaces de pr\u00e9vention, de diagnostic, de traitement et de prise en charge de l\u2019endom\u00e9triose.",
+      "text": "L\u2019OMS a nou\u00e9 des partenariats avec de nombreuses parties prenantes, notamment des \u00e9tablissements universitaires, des acteurs non \u00e9tatiques et d\u2019autres organisations qui jouent un r\u00f4le actif dans la recherche en vue d\u2019identifier des mod\u00e8les efficaces de pr\u00e9vention, de diagnostic, de traitement et de prise en charge de l\u2019endom\u00e9triose."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

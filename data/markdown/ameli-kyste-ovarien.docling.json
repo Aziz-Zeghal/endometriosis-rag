@@ -1,0 +1,1645 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 7779731286426658264,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/groups/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/texts/52"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/75"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Kyste ovarien : d\u00e9finition et causes",
+      "text": "Kyste ovarien : d\u00e9finition et causes"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : Kyste de l'ovaire",
+      "text": "Cet article fait partie du dossier : Kyste de l'ovaire"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "26 janvier 2024",
+      "text": "26 janvier 2024"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des kystes, petites grosseurs anormales contenant du liquide, se d\u00e9veloppent parfois au niveau d\u2019un ovaire. Ils sont soit fonctionnels et transitoires, influenc\u00e9s par les s\u00e9cr\u00e9tions hormonales du cycle menstruel, soit organiques. Les kystes de l'ovaire sont le plus souvent b\u00e9nins.",
+      "text": "Des kystes, petites grosseurs anormales contenant du liquide, se d\u00e9veloppent parfois au niveau d\u2019un ovaire. Ils sont soit fonctionnels et transitoires, influenc\u00e9s par les s\u00e9cr\u00e9tions hormonales du cycle menstruel, soit organiques. Les kystes de l'ovaire sont le plus souvent b\u00e9nins."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qu\u2019est-ce qu\u2019un kyste ovarien ?",
+      "text": "Qu\u2019est-ce qu\u2019un kyste ovarien ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un ",
+      "text": "Un "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "kyste ovarien",
+      "text": "kyste ovarien",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est une tum\u00e9faction contenant du liquide pr\u00e9sente sur l'un\u00a0des ovaires ou les deux. Les ovaires sont\u00a0situ\u00e9s \u00e0 l\u2019extr\u00e9mit\u00e9 des trompes de Fallope, elles-m\u00eames reli\u00e9es \u00e0 l\u2019ut\u00e9rus.",
+      "text": " est une tum\u00e9faction contenant du liquide pr\u00e9sente sur l'un\u00a0des ovaires ou les deux. Les ovaires sont\u00a0situ\u00e9s \u00e0 l\u2019extr\u00e9mit\u00e9 des trompes de Fallope, elles-m\u00eames reli\u00e9es \u00e0 l\u2019ut\u00e9rus."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le kyste ovarien est ",
+      "text": "Le kyste ovarien est "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le plus souvent b\u00e9nin",
+      "text": "le plus souvent b\u00e9nin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", mais sa pr\u00e9sence \u00e0 cet endroit est anormale.",
+      "text": ", mais sa pr\u00e9sence \u00e0 cet endroit est anormale."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il est :",
+      "text": "Il est :"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fonctionnel et r\u00e9gresse spontan\u00e9ment dans 90 % des cas ;",
+      "text": "fonctionnel et r\u00e9gresse spontan\u00e9ment dans 90 % des cas ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou organique et ne r\u00e9gresse pas.",
+      "text": "ou organique et ne r\u00e9gresse pas.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "5 \u00e0 7 % des femmes d\u00e9veloppent un kyste ovarien dans leur vie. Cependant, les jeunes filles de 10 \u00e0 16 ans peuvent aussi pr\u00e9senter des kystes fonctionnels ou plus rarement organiques.",
+      "text": "5 \u00e0 7 % des femmes d\u00e9veloppent un kyste ovarien dans leur vie. Cependant, les jeunes filles de 10 \u00e0 16 ans peuvent aussi pr\u00e9senter des kystes fonctionnels ou plus rarement organiques."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Appareil g\u00e9nital f\u00e9minin",
+      "text": "Appareil g\u00e9nital f\u00e9minin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les kystes fonctionnels de l\u2019ovaire",
+      "text": "Les kystes fonctionnels de l\u2019ovaire",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Kystes ovariens folliculaires ou lut\u00e9aux en lien avec le cycle menstruel",
+      "text": "Kystes ovariens folliculaires ou lut\u00e9aux en lien avec le cycle menstruel",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les ",
+      "text": "Les "
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "kystes fonctionnels de l'ovaire",
+      "text": "kystes fonctionnels de l'ovaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " sont les plus fr\u00e9quents (90\u00a0% des cas).",
+      "text": " sont les plus fr\u00e9quents (90\u00a0% des cas)."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ils sont\u00a0dus \u00e0\u00a0un \u00ab\u00a0d\u00e9r\u00e8glement hormonal\u00a0\u00bb qui provoque la transformation d'un follicule ou d'un corps jaune physiologique en kyste. Leur volume peut varier en fonction du cycle menstruel et ",
+      "text": "Ils sont\u00a0dus \u00e0\u00a0un \u00ab\u00a0d\u00e9r\u00e8glement hormonal\u00a0\u00bb qui provoque la transformation d'un follicule ou d'un corps jaune physiologique en kyste. Leur volume peut varier en fonction du cycle menstruel et "
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ils finissent par r\u00e9gresser d\u2019eux-m\u00eames en quelques semaines",
+      "text": "ils finissent par r\u00e9gresser d\u2019eux-m\u00eames en quelques semaines",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (d'o\u00f9 le nom de kystes fonctionnels).",
+      "text": " (d'o\u00f9 le nom de kystes fonctionnels)."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On en distingue donc deux types :",
+      "text": "On en distingue donc deux types :"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le kyste ovarien folliculaire",
+      "text": "Le kyste ovarien folliculaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Il provient de l\u2019\u00e9volution inhabituelle d\u2019un follicule (petite poche ovarienne renfermant du liquide, dans lequel se d\u00e9veloppe un ovule).",
+      "text": ". Il provient de l\u2019\u00e9volution inhabituelle d\u2019un follicule (petite poche ovarienne renfermant du liquide, dans lequel se d\u00e9veloppe un ovule)."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le kyste ovarien lut\u00e9al",
+      "text": "Le kyste ovarien lut\u00e9al",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Il correspond \u00e0 une augmentation du volume du corps jaune (glande s\u00e9cr\u00e9tant des hormones, qui se forme temporairement dans l\u2019ovaire apr\u00e8s chaque ovulation).",
+      "text": ". Il correspond \u00e0 une augmentation du volume du corps jaune (glande s\u00e9cr\u00e9tant des hormones, qui se forme temporairement dans l\u2019ovaire apr\u00e8s chaque ovulation)."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ils surviennent essentiellement avant la m\u00e9nopause et dans certains cas :",
+      "text": "Ils surviennent essentiellement avant la m\u00e9nopause et dans certains cas :"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "suite \u00e0 un traitement stimulant l\u2019ovulation, en cas de infertilit\u00e9 (assistance m\u00e9dicale \u00e0 la procr\u00e9ation). Plusieurs kystes peuvent alors coexister ;",
+      "text": "suite \u00e0 un traitement stimulant l\u2019ovulation, en cas de infertilit\u00e9 (assistance m\u00e9dicale \u00e0 la procr\u00e9ation). Plusieurs kystes peuvent alors coexister ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "dans les premiers mois apr\u00e8s la pose d\u2019un st\u00e9rilet contenant du l\u00e9vonorgestrel (chez 12 \u00e0 30 % des femmes) ;",
+      "text": "dans les premiers mois apr\u00e8s la pose d\u2019un st\u00e9rilet contenant du l\u00e9vonorgestrel (chez 12 \u00e0 30 % des femmes) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "apr\u00e8s un traitement par tamoxif\u00e8ne (parfois prescrit apr\u00e8s un cancer du sein).",
+      "text": "apr\u00e8s un traitement par tamoxif\u00e8ne (parfois prescrit apr\u00e8s un cancer du sein).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Rappel sur le cycle menstruel",
+      "text": "Rappel sur le cycle menstruel",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le cycle menstruel est compos\u00e9 de 2 phases s\u00e9par\u00e9es par l\u2019ovulation.",
+      "text": "Le cycle menstruel est compos\u00e9 de 2 phases s\u00e9par\u00e9es par l\u2019ovulation."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La phase folliculaire pr\u00e9pare \u00e0 l\u2019ovulation. Au cours de cette phase, l\u2019hormone folliculo-stimulante (FSH), fabriqu\u00e9e par l\u2019hypophyse, stimule ",
+      "text": "La phase folliculaire pr\u00e9pare \u00e0 l\u2019ovulation. Au cours de cette phase, l\u2019hormone folliculo-stimulante (FSH), fabriqu\u00e9e par l\u2019hypophyse, stimule "
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les follicules ovariens",
+      "text": "les follicules ovariens",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour qu\u2019ils produisent un ovule mature. Elle favorise \u00e9galement la s\u00e9cr\u00e9tion par les follicules des \u0153strog\u00e8nes qui agissent sur l\u2019\u00e9paississement de la muqueuse ut\u00e9rine et la consistance de la glaire cervicale. Les variations sur la dur\u00e9e du cycle se situent au cours de cette phase.",
+      "text": " pour qu\u2019ils produisent un ovule mature. Elle favorise \u00e9galement la s\u00e9cr\u00e9tion par les follicules des \u0153strog\u00e8nes qui agissent sur l\u2019\u00e9paississement de la muqueuse ut\u00e9rine et la consistance de la glaire cervicale. Les variations sur la dur\u00e9e du cycle se situent au cours de cette phase."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019ovulation est provoqu\u00e9e par une augmentation du taux d\u2019hormone lut\u00e9inisante (pic de LH), sous l\u2019action des \u0153strog\u00e8nes, entra\u00eenant la rupture du follicule et la lib\u00e9ration de l\u2019ovule mature qui se d\u00e9place dans les trompes de Fallope jusqu\u2019\u00e0 l\u2019ut\u00e9rus.",
+      "text": "L\u2019ovulation est provoqu\u00e9e par une augmentation du taux d\u2019hormone lut\u00e9inisante (pic de LH), sous l\u2019action des \u0153strog\u00e8nes, entra\u00eenant la rupture du follicule et la lib\u00e9ration de l\u2019ovule mature qui se d\u00e9place dans les trompes de Fallope jusqu\u2019\u00e0 l\u2019ut\u00e9rus."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La phase lut\u00e9ale est la p\u00e9riode situ\u00e9e entre l\u2019ovulation et l\u2019apparition des r\u00e8gles. Apr\u00e8s l\u2019ovulation, ",
+      "text": "La phase lut\u00e9ale est la p\u00e9riode situ\u00e9e entre l\u2019ovulation et l\u2019apparition des r\u00e8gles. Apr\u00e8s l\u2019ovulation, "
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le follicule transform\u00e9 en corps jaune produit de la progest\u00e9rone",
+      "text": "le follicule transform\u00e9 en corps jaune produit de la progest\u00e9rone",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui contribue \u00e0 renforcer la muqueuse ut\u00e9rine en vue de la nidation.",
+      "text": " qui contribue \u00e0 renforcer la muqueuse ut\u00e9rine en vue de la nidation."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si l\u2019ovule n\u2019est pas f\u00e9cond\u00e9, il ne s\u2019implante pas dans l'ut\u00e9rus. Le corps jaune s'atrophie et le taux de progest\u00e9rone diminue brutalement dans un contexte de faible production d'\u0153strog\u00e8nes. En cons\u00e9quence, la couche superficielle de la muqueuse ut\u00e9rine se d\u00e9tache et s\u2019\u00e9limine. Ce sont les ",
+      "text": "Si l\u2019ovule n\u2019est pas f\u00e9cond\u00e9, il ne s\u2019implante pas dans l'ut\u00e9rus. Le corps jaune s'atrophie et le taux de progest\u00e9rone diminue brutalement dans un contexte de faible production d'\u0153strog\u00e8nes. En cons\u00e9quence, la couche superficielle de la muqueuse ut\u00e9rine se d\u00e9tache et s\u2019\u00e9limine. Ce sont les "
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "r\u00e8gles",
+      "text": "r\u00e8gles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui signent le d\u00e9but du cycle suivant.",
+      "text": " qui signent le d\u00e9but du cycle suivant."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La dur\u00e9e d\u2019un cycle, en moyenne de 28 jours, varie selon les femmes de 23 \u00e0 35 jours. Les \u00e9ventuelles variations de la dur\u00e9e du cycle ont lieu, le plus fr\u00e9quemment, au cours de la phase folliculaire. La dur\u00e9e de la phase lut\u00e9ale, plus constante, est g\u00e9n\u00e9ralement comprise entre 12 et 16 jours.",
+      "text": "La dur\u00e9e d\u2019un cycle, en moyenne de 28 jours, varie selon les femmes de 23 \u00e0 35 jours. Les \u00e9ventuelles variations de la dur\u00e9e du cycle ont lieu, le plus fr\u00e9quemment, au cours de la phase folliculaire. La dur\u00e9e de la phase lut\u00e9ale, plus constante, est g\u00e9n\u00e9ralement comprise entre 12 et 16 jours."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Une maladie diff\u00e9rente : le syndrome des ovaires polykystiques (SOPK) ou syndrome m\u00e9tabolique, ovarien et polyendocrinien (SMOP)",
+      "text": "Une maladie diff\u00e9rente : le syndrome des ovaires polykystiques (SOPK) ou syndrome m\u00e9tabolique, ovarien et polyendocrinien (SMOP)",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le syndrome des ovaires polykystiques (SOPK) est d\u00fb \u00e0 un d\u00e9r\u00e8glement hormonal d\u2019origine ovarienne et/ou hypophysaire. Il est caract\u00e9ris\u00e9 par une production excessive d\u2019androg\u00e8nes, en particulier de testost\u00e9rone, responsable de plusieurs types d\u2019anomalies chez les femmes concern\u00e9es :",
+      "text": "Le syndrome des ovaires polykystiques (SOPK) est d\u00fb \u00e0 un d\u00e9r\u00e8glement hormonal d\u2019origine ovarienne et/ou hypophysaire. Il est caract\u00e9ris\u00e9 par une production excessive d\u2019androg\u00e8nes, en particulier de testost\u00e9rone, responsable de plusieurs types d\u2019anomalies chez les femmes concern\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la survenue irr\u00e9guli\u00e8re des r\u00e8gles, voire une absence de r\u00e8gles (am\u00e9norrh\u00e9e) ;",
+      "text": "la survenue irr\u00e9guli\u00e8re des r\u00e8gles, voire une absence de r\u00e8gles (am\u00e9norrh\u00e9e) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une hyperpilosit\u00e9, de l\u2019acn\u00e9, la chute de cheveux, etc. ;",
+      "text": "une hyperpilosit\u00e9, de l\u2019acn\u00e9, la chute de cheveux, etc. ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la pr\u00e9sence d\u2019un tr\u00e8s grand nombre de follicules (appel\u00e9s ",
+      "text": "la pr\u00e9sence d\u2019un tr\u00e8s grand nombre de follicules (appel\u00e9s "
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "kystes",
+      "text": "kystes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ")\u00a0au d\u00e9veloppement inachev\u00e9 sur les ovaires, source d\u2019infertilit\u00e9 chez les femmes.",
+      "text": ")\u00a0au d\u00e9veloppement inachev\u00e9 sur les ovaires, source d\u2019infertilit\u00e9 chez les femmes."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les kystes organiques de l\u2019ovaire",
+      "text": "Les kystes organiques de l\u2019ovaire",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les kystes organiques se d\u00e9veloppent \u00e0 partir d\u2019un tissu ovarien",
+      "text": "Les kystes organiques se d\u00e9veloppent \u00e0 partir d\u2019un tissu ovarien",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Ils ne changent pas de volume au cours du cycle menstruel et ne disparaissent pas spontan\u00e9ment. Leur origine est inconnue \u00e0 ce jour.",
+      "text": ". Ils ne changent pas de volume au cours du cycle menstruel et ne disparaissent pas spontan\u00e9ment. Leur origine est inconnue \u00e0 ce jour."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quatre types de kystes ovariens organiques",
+      "text": "Quatre types de kystes ovariens organiques",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les kystes ovariens s\u00e9reux",
+      "text": "Les kystes ovariens s\u00e9reux",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les kystes ovariens s\u00e9reux sont les plus r\u00e9pandus. Ils contiennent uniquement un liquide fluide et leur paroi est fine.",
+      "text": "Les kystes ovariens s\u00e9reux sont les plus r\u00e9pandus. Ils contiennent uniquement un liquide fluide et leur paroi est fine."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les kystes ovariens muco\u00efdes ou mucineux",
+      "text": "Les kystes ovariens muco\u00efdes ou mucineux",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Compos\u00e9s de plusieurs cavit\u00e9s s\u00e9par\u00e9es par des cloisons, les kystes ovariens mucineux renferment un liquide plus dense, voire p\u00e2teux. Leur paroi est aussi plus \u00e9paisse que celle des kystes s\u00e9reux.",
+      "text": "Compos\u00e9s de plusieurs cavit\u00e9s s\u00e9par\u00e9es par des cloisons, les kystes ovariens mucineux renferment un liquide plus dense, voire p\u00e2teux. Leur paroi est aussi plus \u00e9paisse que celle des kystes s\u00e9reux."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les kystes ovariens dermo\u00efdes",
+      "text": "Les kystes ovariens dermo\u00efdes",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La structure cellulaire des kystes ovariens dermo\u00efdes est semblable \u00e0 celle de la peau. Ils peuvent aussi contenir de la graisse et des parties calcifi\u00e9es (d\u00e9p\u00f4t de calcium).",
+      "text": "La structure cellulaire des kystes ovariens dermo\u00efdes est semblable \u00e0 celle de la peau. Ils peuvent aussi contenir de la graisse et des parties calcifi\u00e9es (d\u00e9p\u00f4t de calcium)."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les kystes ovariens endom\u00e9triosiques",
+      "text": "Les kystes ovariens endom\u00e9triosiques",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Li\u00e9s \u00e0 une maladie nomm\u00e9e endom\u00e9triose, les kystes ovariens endom\u00e9triosiques pr\u00e9sentent une paroi \u00e9paisse parcourue de vaisseaux sanguins. Ils sont remplis \u00e0 la fois de liquide et de sang.",
+      "text": "Li\u00e9s \u00e0 une maladie nomm\u00e9e endom\u00e9triose, les kystes ovariens endom\u00e9triosiques pr\u00e9sentent une paroi \u00e9paisse parcourue de vaisseaux sanguins. Ils sont remplis \u00e0 la fois de liquide et de sang."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Kystes ovariens organiques : b\u00e9nins mais pas de r\u00e9gression spontan\u00e9e",
+      "text": "Kystes ovariens organiques : b\u00e9nins mais pas de r\u00e9gression spontan\u00e9e",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le plus souvent, les kystes organiques sont ",
+      "text": "Le plus souvent, les kystes organiques sont "
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "b\u00e9nins",
+      "text": "b\u00e9nins",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". N\u00e9anmoins, ils sont enlev\u00e9s afin d\u2019\u00e9viter toute complication (torsion de l\u2019ovaire, h\u00e9morragie intra-kystique, etc.)",
+      "text": ". N\u00e9anmoins, ils sont enlev\u00e9s afin d\u2019\u00e9viter toute complication (torsion de l\u2019ovaire, h\u00e9morragie intra-kystique, etc.)"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ils sont ensuite analys\u00e9s notamment pour v\u00e9rifier qu\u2019ils ne comportent aucune cellule canc\u00e9reuse.",
+      "text": "Ils sont ensuite analys\u00e9s notamment pour v\u00e9rifier qu\u2019ils ne comportent aucune cellule canc\u00e9reuse."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF). Diagnostiquer une tumeur de l'ovaire. ECN 2018. \u00c9ditions Elsevier Masson. Issy-les-Moulineaux (France)",
+      "text": "Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF). Diagnostiquer une tumeur de l'ovaire. ECN 2018. \u00c9ditions Elsevier Masson. Issy-les-Moulineaux (France)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF). Recommandations pour la pratique clinique \u2013 Les tumeurs de l'ovaire pr\u00e9sum\u00e9es b\u00e9nignes. Site internet : CNGOF. Paris ; 2013 [consult\u00e9 le 20 octobre 2026]",
+      "text": "Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF). Recommandations pour la pratique clinique \u2013 Les tumeurs de l'ovaire pr\u00e9sum\u00e9es b\u00e9nignes. Site internet : CNGOF. Paris ; 2013 [consult\u00e9 le 20 octobre 2026]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bel S, Gaudineau A, Thoma V, Garbin O, Sananes N, Baulon E, ",
+      "text": "Bel S, Gaudineau A, Thoma V, Garbin O, Sananes N, Baulon E, "
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "et al.",
+      "text": "et al.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Prise en charge des kystes de l'ovaire. EMC, Gyn\u00e9cologie. Paris, Elsevier Masson ; 2016;11,(2): 1-15",
+      "text": " Prise en charge des kystes de l'ovaire. EMC, Gyn\u00e9cologie. Paris, Elsevier Masson ; 2016;11,(2): 1-15"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Health service. Ovarian cyst. Site internet : NHS. Londres ; 2023 [consult\u00e9 le 20 octobre 2026]",
+      "text": "National Health service. Ovarian cyst. Site internet : NHS. Londres ; 2023 [consult\u00e9 le 20 octobre 2026]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Library of Medecine. Ovarian cyst. Site internet : Medlineplus. Bethesda (\u00c9tats Unis d'Am\u00e9rique) ; 2026 [consult\u00e9 le 20 octobre 2026]",
+      "text": "National Library of Medecine. Ovarian cyst. Site internet : Medlineplus. Bethesda (\u00c9tats Unis d'Am\u00e9rique) ; 2026 [consult\u00e9 le 20 octobre 2026]",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

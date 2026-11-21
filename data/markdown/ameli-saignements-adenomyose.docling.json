@@ -1,0 +1,2464 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 12067399475047176664,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/groups/17"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/18"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/63"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/51"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/59"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/texts/66"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/texts/70"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/texts/77"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/texts/83"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/texts/92"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Saignements entre les r\u00e8gles ou r\u00e8gles tr\u00e8s abondantes : quelles causes ?",
+      "text": "Saignements entre les r\u00e8gles ou r\u00e8gles tr\u00e8s abondantes : quelles causes ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : Saignements gyn\u00e9cologiques anormaux en dehors de la grossesse",
+      "text": "Cet article fait partie du dossier : Saignements gyn\u00e9cologiques anormaux en dehors de la grossesse"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "25 juin 2026",
+      "text": "25 juin 2026"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les saignements gyn\u00e9cologiques anormaux (r\u00e8gles tr\u00e8s abondantes, longues ou saignements entre les r\u00e8gles) peuvent provenir de nombreuses causes : d\u00e9s\u00e9quilibre hormonal, anomalies li\u00e9es la coagulation du sang, anomalies du col de l\u2019ut\u00e9rus ou du vagin, etc. Le point sur les possibles origines des saignements.",
+      "text": "Les saignements gyn\u00e9cologiques anormaux (r\u00e8gles tr\u00e8s abondantes, longues ou saignements entre les r\u00e8gles) peuvent provenir de nombreuses causes : d\u00e9s\u00e9quilibre hormonal, anomalies li\u00e9es la coagulation du sang, anomalies du col de l\u2019ut\u00e9rus ou du vagin, etc. Le point sur les possibles origines des saignements."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "R\u00e8gles tr\u00e8s abondantes, saignements entre les r\u00e8gles et d\u00e9s\u00e9quilibre des hormones sexuelles",
+      "text": "R\u00e8gles tr\u00e8s abondantes, saignements entre les r\u00e8gles et d\u00e9s\u00e9quilibre des hormones sexuelles",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les d\u00e9s\u00e9quilibres hormonaux sont la cause la plus fr\u00e9quente",
+      "text": "Les d\u00e9s\u00e9quilibres hormonaux sont la cause la plus fr\u00e9quente",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " de saignements gyn\u00e9cologiques.",
+      "text": " de saignements gyn\u00e9cologiques."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit :",
+      "text": "Il s\u2019agit :"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des troubles de l\u2019ovulation avec une ovulation inconstante et un \u00e9quilibre hormonal (progest\u00e9rone et/ou \u0153strog\u00e8nes) perturb\u00e9. C\u2019est souvent le cas autour de la pubert\u00e9 ou en p\u00e9riode de p\u00e9rim\u00e9nopause (p\u00e9riode avant la m\u00e9nopause). Les cycles sont irr\u00e9guliers (les r\u00e8gles surviennent dans des d\u00e9lais variables, de 21 \u00e0 45 jours). ",
+      "text": "des troubles de l\u2019ovulation avec une ovulation inconstante et un \u00e9quilibre hormonal (progest\u00e9rone et/ou \u0153strog\u00e8nes) perturb\u00e9. C\u2019est souvent le cas autour de la pubert\u00e9 ou en p\u00e9riode de p\u00e9rim\u00e9nopause (p\u00e9riode avant la m\u00e9nopause). Les cycles sont irr\u00e9guliers (les r\u00e8gles surviennent dans des d\u00e9lais variables, de 21 \u00e0 45 jours). "
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les r\u00e8gles sont anormalement abondantes",
+      "text": "Les r\u00e8gles sont anormalement abondantes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et durent plus de 6 jours (",
+      "text": " et durent plus de 6 jours ("
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9norragies",
+      "text": "m\u00e9norragies",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "). Ce ph\u00e9nom\u00e8ne se r\u00e9sout spontan\u00e9ment, mais un traitement peut \u00eatre propos\u00e9 pour soulager\u00a0;",
+      "text": "). Ce ph\u00e9nom\u00e8ne se r\u00e9sout spontan\u00e9ment, mais un traitement peut \u00eatre propos\u00e9 pour soulager\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la prise d\u2019une contraception hormonale \u0153stroprogestative\u00a0: des h\u00e9morragies g\u00e9nitales peuvent survenir entre les r\u00e8gles (",
+      "text": "la prise d\u2019une contraception hormonale \u0153stroprogestative\u00a0: des h\u00e9morragies g\u00e9nitales peuvent survenir entre les r\u00e8gles ("
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9trorragies",
+      "text": "m\u00e9trorragies",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") en cas d\u2019oubli de pilule ou d\u2019un mauvais \u00e9quilibre entre les \u0153strog\u00e8nes et les progestatifs\u00a0;",
+      "text": ") en cas d\u2019oubli de pilule ou d\u2019un mauvais \u00e9quilibre entre les \u0153strog\u00e8nes et les progestatifs\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la prise d\u2019un traitement progestatif ou d\u2019une contraception progestative (pilule, st\u00e9rilet au progestatif). Les saignements entre les r\u00e8gles (m\u00e9trorragies) sont souvent mod\u00e9r\u00e9s (",
+      "text": "la prise d\u2019un traitement progestatif ou d\u2019une contraception progestative (pilule, st\u00e9rilet au progestatif). Les saignements entre les r\u00e8gles (m\u00e9trorragies) sont souvent mod\u00e9r\u00e9s ("
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "spotting",
+      "text": "spotting",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ")\u00a0;",
+      "text": ")\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "en d\u00e9but de m\u00e9nopause, la prise d\u2019un traitement hormonal substitutif avec d\u00e9s\u00e9quilibre entre \u0153strog\u00e8nes et progest\u00e9rone provoque des h\u00e9morragies gyn\u00e9cologiques.",
+      "text": "en d\u00e9but de m\u00e9nopause, la prise d\u2019un traitement hormonal substitutif avec d\u00e9s\u00e9quilibre entre \u0153strog\u00e8nes et progest\u00e9rone provoque des h\u00e9morragies gyn\u00e9cologiques.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Saignements gyn\u00e9cologiques et anomalies de la coagulation du sang",
+      "text": "Saignements gyn\u00e9cologiques et anomalies de la coagulation du sang",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Maladies avec troubles de la coagulation du sang",
+      "text": "Maladies avec troubles de la coagulation du sang",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces anomalies, bien que rares, sont recherch\u00e9es chez l\u2019adolescente et la femme en \u00e2ge d\u2019avoir des enfants en raison du risque d\u2019h\u00e9morragie du post-partum en cas de grossesse. ",
+      "text": "Ces anomalies, bien que rares, sont recherch\u00e9es chez l\u2019adolescente et la femme en \u00e2ge d\u2019avoir des enfants en raison du risque d\u2019h\u00e9morragie du post-partum en cas de grossesse. "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les r\u00e8gles sont anormalement abondantes",
+      "text": "Les r\u00e8gles sont anormalement abondantes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et des saignements peuvent survenir entre les r\u00e8gles.",
+      "text": " et des saignements peuvent survenir entre les r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La maladie de Willebrand",
+      "text": "La maladie de Willebrand",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La maladie de Willebrand est due \u00e0 un d\u00e9ficit en un facteur indispensable de la coagulation appel\u00e9 Facteur Willebrand. C\u2019est une maladie g\u00e9n\u00e9tique de transmission autosomique dominante (les hommes et les femmes sont \u00e9galement atteints et le risque de transmission entre parents et enfants est de 1 sur 2).",
+      "text": "La maladie de Willebrand est due \u00e0 un d\u00e9ficit en un facteur indispensable de la coagulation appel\u00e9 Facteur Willebrand. C\u2019est une maladie g\u00e9n\u00e9tique de transmission autosomique dominante (les hommes et les femmes sont \u00e9galement atteints et le risque de transmission entre parents et enfants est de 1 sur 2)."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Femmes porteuses d'un g\u00e8ne de l'h\u00e9mophilie",
+      "text": "Femmes porteuses d'un g\u00e8ne de l'h\u00e9mophilie",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019h\u00e9mophilie est une maladie g\u00e9n\u00e9tique rare caract\u00e9ris\u00e9e par des h\u00e9morragies spontan\u00e9es ou des saignements prolong\u00e9s dus \u00e0 un d\u00e9ficit en facteur VIII ou IX de la coagulation du sang.",
+      "text": "L\u2019h\u00e9mophilie est une maladie g\u00e9n\u00e9tique rare caract\u00e9ris\u00e9e par des h\u00e9morragies spontan\u00e9es ou des saignements prolong\u00e9s dus \u00e0 un d\u00e9ficit en facteur VIII ou IX de la coagulation du sang."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette maladie est de transmission r\u00e9cessive li\u00e9e au chromosome X, touchant les sujets de sexe masculin.",
+      "text": "Cette maladie est de transmission r\u00e9cessive li\u00e9e au chromosome X, touchant les sujets de sexe masculin."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez la femme, le plus souvent la maladie n\u2019est pas exprim\u00e9e en raison de la pr\u00e9sence de 2 chromosomes X (l\u2019un atteint, le second normal) et elles sont appel\u00e9es \u00ab conductrices \u00bb ou \u00ab porteuses \u00bb. N\u00e9anmoins, certaines femmes \u00ab porteuses \u00bb du g\u00e8ne de l'h\u00e9mophilie peuvent pr\u00e9senter une forme mineure de la maladie et un risque h\u00e9morragique augment\u00e9.",
+      "text": "Chez la femme, le plus souvent la maladie n\u2019est pas exprim\u00e9e en raison de la pr\u00e9sence de 2 chromosomes X (l\u2019un atteint, le second normal) et elles sont appel\u00e9es \u00ab conductrices \u00bb ou \u00ab porteuses \u00bb. N\u00e9anmoins, certaines femmes \u00ab porteuses \u00bb du g\u00e8ne de l'h\u00e9mophilie peuvent pr\u00e9senter une forme mineure de la maladie et un risque h\u00e9morragique augment\u00e9."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "S'informer sur la maladie de Willebrand et l\u2019h\u00e9mophilie",
+      "text": "S'informer sur la maladie de Willebrand et l\u2019h\u00e9mophilie",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La maladie de Willebrand et l\u2019h\u00e9mophilie sont des maladies rares. Si vous souhaitez vous informer sur ces maladies, vous exprimer librement et \u00eatre \u00e9cout\u00e9e, consultez le site Maladies Rares Info Services et appelez gratuitement au 0800 40 40 43. Une \u00e9quipe de professionnels r\u00e9pond \u00e0 toutes vos questions.",
+      "text": "La maladie de Willebrand et l\u2019h\u00e9mophilie sont des maladies rares. Si vous souhaitez vous informer sur ces maladies, vous exprimer librement et \u00eatre \u00e9cout\u00e9e, consultez le site Maladies Rares Info Services et appelez gratuitement au 0800 40 40 43. Une \u00e9quipe de professionnels r\u00e9pond \u00e0 toutes vos questions."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Des malformations veineuses ut\u00e9rines",
+      "text": "Des malformations veineuses ut\u00e9rines",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des malformations veineuses au niveau de l\u2019ut\u00e9rus pr\u00e9sentes d\u00e8s la naissance pouvant entra\u00eener des troubles de la coagulation acquis par des ph\u00e9nom\u00e8nes complexes de coagulation intravasculaire locale.",
+      "text": "Des malformations veineuses au niveau de l\u2019ut\u00e9rus pr\u00e9sentes d\u00e8s la naissance pouvant entra\u00eener des troubles de la coagulation acquis par des ph\u00e9nom\u00e8nes complexes de coagulation intravasculaire locale."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "H\u00e9morragies g\u00e9nitales dues \u00e0 la prise d\u2019un traitement anticoagulant",
+      "text": "H\u00e9morragies g\u00e9nitales dues \u00e0 la prise d\u2019un traitement anticoagulant",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toute femme prenant un traitement anticoagulant pour une raison m\u00e9dicale pr\u00e9cise peut pr\u00e9senter des h\u00e9morragies g\u00e9nitales.",
+      "text": "Toute femme prenant un traitement anticoagulant pour une raison m\u00e9dicale pr\u00e9cise peut pr\u00e9senter des h\u00e9morragies g\u00e9nitales."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "R\u00e8gles anormalement abondantes apr\u00e8s la primovaccination Covid-19 : r\u00e9sultats d'\u00e9tude",
+      "text": "R\u00e8gles anormalement abondantes apr\u00e8s la primovaccination Covid-19 : r\u00e9sultats d'\u00e9tude",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutes les femmes (4\u00a0610 femmes) de 15-50 ans ayant eu un diagnostic de ",
+      "text": "Toutes les femmes (4\u00a0610 femmes) de 15-50 ans ayant eu un diagnostic de "
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "saignements menstruels abondants",
+      "text": "saignements menstruels abondants",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " \u00e0 l\u2019h\u00f4pital (hospitalisation de jour ou avec h\u00e9bergement de nuit) entre le 12 mai 2021 et le 31 ao\u00fbt 2022 ont \u00e9t\u00e9 identifi\u00e9es dans le Syst\u00e8me National des Donn\u00e9es de Sant\u00e9.",
+      "text": " \u00e0 l\u2019h\u00f4pital (hospitalisation de jour ou avec h\u00e9bergement de nuit) entre le 12 mai 2021 et le 31 ao\u00fbt 2022 ont \u00e9t\u00e9 identifi\u00e9es dans le Syst\u00e8me National des Donn\u00e9es de Sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'\u00e9tude a mis en \u00e9vidence un sur-risque de l\u2019ordre de + 20 % de saignements menstruels abondants (m\u00e9norragies) ayant men\u00e9 \u00e0 une prise en charge \u00e0 l\u2019h\u00f4pital dans les 1 \u00e0 3 mois suivant l\u2019administration d\u2019un vaccin \u00e0 ARNm contre le COVID-19 en primovaccination. En revanche, les r\u00e9sultats ne montrent pas d\u2019augmentation du risque de saignements menstruels abondants au d\u00e9cours des doses de rappel.",
+      "text": "L'\u00e9tude a mis en \u00e9vidence un sur-risque de l\u2019ordre de + 20 % de saignements menstruels abondants (m\u00e9norragies) ayant men\u00e9 \u00e0 une prise en charge \u00e0 l\u2019h\u00f4pital dans les 1 \u00e0 3 mois suivant l\u2019administration d\u2019un vaccin \u00e0 ARNm contre le COVID-19 en primovaccination. En revanche, les r\u00e9sultats ne montrent pas d\u2019augmentation du risque de saignements menstruels abondants au d\u00e9cours des doses de rappel."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Saignements gyn\u00e9cologiques et anomalies de l\u2019ut\u00e9rus, du vagin et de la vulve",
+      "text": "Saignements gyn\u00e9cologiques et anomalies de l\u2019ut\u00e9rus, du vagin et de la vulve",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Appareil g\u00e9nital f\u00e9minin",
+      "text": "Appareil g\u00e9nital f\u00e9minin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Saignements gyn\u00e9cologiques anormaux et anomalies de l'ut\u00e9rus",
+      "text": "Saignements gyn\u00e9cologiques anormaux et anomalies de l'ut\u00e9rus",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Anomalies de l\u2019endom\u00e8tre",
+      "text": "Anomalies de l\u2019endom\u00e8tre",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La muqueuse qui tapisse l\u2019int\u00e9rieur de l\u2019ut\u00e9rus, appel\u00e9e \u00ab endom\u00e8tre \u00bb, peut \u00eatre anormale :",
+      "text": "La muqueuse qui tapisse l\u2019int\u00e9rieur de l\u2019ut\u00e9rus, appel\u00e9e \u00ab endom\u00e8tre \u00bb, peut \u00eatre anormale :"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019endom\u00e8tre est tr\u00e8s fin et diminu\u00e9 en \u00e9paisseur (il est atrophi\u00e9), ce qui peut \u00eatre le cas lors de la p\u00e9rim\u00e9nopause. Dans ce cas, les saignements sont plut\u00f4t noir\u00e2tres et peu abondants entre les r\u00e8gles ;",
+      "text": "l\u2019endom\u00e8tre est tr\u00e8s fin et diminu\u00e9 en \u00e9paisseur (il est atrophi\u00e9), ce qui peut \u00eatre le cas lors de la p\u00e9rim\u00e9nopause. Dans ce cas, les saignements sont plut\u00f4t noir\u00e2tres et peu abondants entre les r\u00e8gles ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019endom\u00e8tre est, au contraire, trop \u00e9pais (on parle d\u2019",
+      "text": "l\u2019endom\u00e8tre est, au contraire, trop \u00e9pais (on parle d\u2019"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "hyperplasie de l\u2019endom\u00e8tre",
+      "text": "hyperplasie de l\u2019endom\u00e8tre",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") et les saignements sont rouges et abondants lors des r\u00e8gles ou en dehors\u00a0;",
+      "text": ") et les saignements sont rouges et abondants lors des r\u00e8gles ou en dehors\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019endom\u00e8tre est le si\u00e8ge de polypes. Les ",
+      "text": "l\u2019endom\u00e8tre est le si\u00e8ge de polypes. Les "
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "polypes ut\u00e9rins",
+      "text": "polypes ut\u00e9rins",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", fr\u00e9quents, sont des l\u00e9sions b\u00e9nignes de la muqueuse munie d\u2019un p\u00e9dicule vasculaire accroch\u00e9 \u00e0 la muqueuse ut\u00e9rine, pouvant \u00eatre responsables de saignements rouges lors des r\u00e8gles ou en dehors\u00a0;",
+      "text": ", fr\u00e9quents, sont des l\u00e9sions b\u00e9nignes de la muqueuse munie d\u2019un p\u00e9dicule vasculaire accroch\u00e9 \u00e0 la muqueuse ut\u00e9rine, pouvant \u00eatre responsables de saignements rouges lors des r\u00e8gles ou en dehors\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019endom\u00e8tre est infect\u00e9. On parle d\u2019",
+      "text": "l\u2019endom\u00e8tre est infect\u00e9. On parle d\u2019"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9trite",
+      "text": "endom\u00e9trite",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : les saignements surviennent dans un contexte d\u2019infection (fi\u00e8vre) et sont accompagn\u00e9s de pertes ou leucorrh\u00e9es (\u00e9coulements vaginaux anormaux en rapport avec une infection g\u00e9nitale)\u00a0;",
+      "text": " : les saignements surviennent dans un contexte d\u2019infection (fi\u00e8vre) et sont accompagn\u00e9s de pertes ou leucorrh\u00e9es (\u00e9coulements vaginaux anormaux en rapport avec une infection g\u00e9nitale)\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019endom\u00e8tre pr\u00e9sente une tumeur canc\u00e9reuse, \u00e9ventualit\u00e9 pouvant survenir surtout apr\u00e8s la m\u00e9nopause. Des saignements gyn\u00e9cologiques surviennent alors que la m\u00e9nopause est bien \u00e9tablie. Devant des images suspectes \u00e0 l\u2019\u00e9chographie, des biopsies et des analyses anatomopathologiques sont effectu\u00e9es pour porter le diagnostic.",
+      "text": "l\u2019endom\u00e8tre pr\u00e9sente une tumeur canc\u00e9reuse, \u00e9ventualit\u00e9 pouvant survenir surtout apr\u00e8s la m\u00e9nopause. Des saignements gyn\u00e9cologiques surviennent alors que la m\u00e9nopause est bien \u00e9tablie. Devant des images suspectes \u00e0 l\u2019\u00e9chographie, des biopsies et des analyses anatomopathologiques sont effectu\u00e9es pour porter le diagnostic.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Anomalies du muscle de l\u2019ut\u00e9rus ou myom\u00e8tre",
+      "text": "Anomalies du muscle de l\u2019ut\u00e9rus ou myom\u00e8tre",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les anomalies du muscle de l\u2019ut\u00e9rus (myom\u00e8tre) se manifestent le plus souvent chez les femmes en \u00e2ge d'avoir des enfants. Il s'agit de :",
+      "text": "Les anomalies du muscle de l\u2019ut\u00e9rus (myom\u00e8tre) se manifestent le plus souvent chez les femmes en \u00e2ge d'avoir des enfants. Il s'agit de :"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "fibromes de l\u2019ut\u00e9rus, surtout ceux qui sont situ\u00e9s sous l\u2019endom\u00e8tre peuvent saigner. ",
+      "text": "fibromes de l\u2019ut\u00e9rus, surtout ceux qui sont situ\u00e9s sous l\u2019endom\u00e8tre peuvent saigner. "
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les r\u00e8gles sont abondantes, mais des saignements peuvent survenir entre les r\u00e8gles",
+      "text": "Les r\u00e8gles sont abondantes, mais des saignements peuvent survenir entre les r\u00e8gles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ;",
+      "text": " ;"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ad\u00e9nomyose qui est une localisation de l\u2019endom\u00e9triose au niveau du muscle de l\u2019ut\u00e9rus,dans ce cas, ",
+      "text": "ad\u00e9nomyose qui est une localisation de l\u2019endom\u00e9triose au niveau du muscle de l\u2019ut\u00e9rus,dans ce cas, "
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les saignements sont abondants au moment des r\u00e8gles",
+      "text": "les saignements sont abondants au moment des r\u00e8gles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ;",
+      "text": " ;"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "tumeurs rares d\u00e9velopp\u00e9es aux d\u00e9pens du muscle de l\u2019ut\u00e9rus.",
+      "text": "tumeurs rares d\u00e9velopp\u00e9es aux d\u00e9pens du muscle de l\u2019ut\u00e9rus.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Anomalies du col de l\u2019ut\u00e9rus",
+      "text": "Anomalies du col de l\u2019ut\u00e9rus",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les saignements sont souvent de faible importance et apparaissent lors des rapports sexuels :",
+      "text": "Les saignements sont souvent de faible importance et apparaissent lors des rapports sexuels :"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "une infection du col de l\u2019ut\u00e9rus ou ",
+      "text": "une infection du col de l\u2019ut\u00e9rus ou "
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "cervicite",
+      "text": "cervicite",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (infection sexuellement transmissible ou IST) se traduisant par des pertes vaginales, des douleurs lors des rapports sexuels et parfois des petits ",
+      "text": " (infection sexuellement transmissible ou IST) se traduisant par des pertes vaginales, des douleurs lors des rapports sexuels et parfois des petits "
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "saignements entre les r\u00e8gles",
+      "text": "saignements entre les r\u00e8gles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (m\u00e9trorragies)\u00a0;",
+      "text": " (m\u00e9trorragies)\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "un polype du col de l\u2019ut\u00e9rus\u00a0: tumeur muqueuse b\u00e9nigne plus ou moins volumineuse responsable de ",
+      "text": "un polype du col de l\u2019ut\u00e9rus\u00a0: tumeur muqueuse b\u00e9nigne plus ou moins volumineuse responsable de "
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9trorragies",
+      "text": "m\u00e9trorragies",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ;",
+      "text": " ;"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une localisation au niveau du col d\u2019une endom\u00e9triose ;",
+      "text": "une localisation au niveau du col d\u2019une endom\u00e9triose ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un cancer du col de l\u2019ut\u00e9rus : les saignements surviennent le plus souvent apr\u00e8s des rapports sexuels. Ils sont peu abondants et indolores. Les saignements spontan\u00e9s en l\u2019absence de rapports sexuels surviennent plus tardivement dans l\u2019\u00e9volution de la maladie.",
+      "text": "un cancer du col de l\u2019ut\u00e9rus : les saignements surviennent le plus souvent apr\u00e8s des rapports sexuels. Ils sont peu abondants et indolores. Les saignements spontan\u00e9s en l\u2019absence de rapports sexuels surviennent plus tardivement dans l\u2019\u00e9volution de la maladie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Anomalies du vagin et de la vulve",
+      "text": "Anomalies du vagin et de la vulve",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un traumatisme, une infection (vaginite), voire une tumeur peuvent \u00eatre la cause de saignements anormaux.",
+      "text": "Un traumatisme, une infection (vaginite), voire une tumeur peuvent \u00eatre la cause de saignements anormaux."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Tableau synth\u00e9tique des causes les plus fr\u00e9quentes de saignements gyn\u00e9cologiques",
+      "text": "Tableau synth\u00e9tique des causes les plus fr\u00e9quentes de saignements gyn\u00e9cologiques",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Brun J.-L., Plu-Bureau G., Huchon C., Ah-Kit X., Barral\u00a0 P., Chauvet\u00a0M. ",
+      "text": "Brun J.-L., Plu-Bureau G., Huchon C., Ah-Kit X., Barral\u00a0 P., Chauvet\u00a0M. "
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "et al",
+      "text": "et al",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Prise en charge des m\u00e9norragies\u00a0: recommandations pour la pratique clinique du Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (CNGOF). Gyn\u00e9cologie Obst\u00e9trique Fertilit\u00e9 & S\u00e9nologie 2022;50:345\u2013373",
+      "text": ". Prise en charge des m\u00e9norragies\u00a0: recommandations pour la pratique clinique du Coll\u00e8ge national des gyn\u00e9cologues et obst\u00e9triciens fran\u00e7ais (CNGOF). Gyn\u00e9cologie Obst\u00e9trique Fertilit\u00e9 & S\u00e9nologie 2022;50:345\u2013373"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Kolanska K., Duranteau L., Bazot M., Dara\u00ef E., Chabbert-Buffet N. M\u00e9nom\u00e9trorragies en dehors de la grossesse. EMC - M\u00e9decine d\u2019urgence 2022;16(2):1-11 [Article 25-070-A-20]",
+      "text": "Kolanska K., Duranteau L., Bazot M., Dara\u00ef E., Chabbert-Buffet N. M\u00e9nom\u00e9trorragies en dehors de la grossesse. EMC - M\u00e9decine d\u2019urgence 2022;16(2):1-11 [Article 25-070-A-20]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Haute Autorit\u00e9 de sant\u00e9. Saignements ut\u00e9rins abondants chez la jeune femme atteinte de maladies h\u00e9morragiques rares ou acquises. Protocole national de diagnostic et de soins 2022. Site internet : HAS. Saint-Denis La Plaine (France) ; 2022 [consult\u00e9 le 25 juin 2026]",
+      "text": "Haute Autorit\u00e9 de sant\u00e9. Saignements ut\u00e9rins abondants chez la jeune femme atteinte de maladies h\u00e9morragiques rares ou acquises. Protocole national de diagnostic et de soins 2022. Site internet : HAS. Saint-Denis La Plaine (France) ; 2022 [consult\u00e9 le 25 juin 2026]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Health service. Vaginal bleeding between periods or after sex ? Site internet : NHS. Londres ; 2024 [consult\u00e9 le 25 juin 2026]",
+      "text": "National Health service. Vaginal bleeding between periods or after sex ? Site internet : NHS. Londres ; 2024 [consult\u00e9 le 25 juin 2026]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Library of medecine. Abnormal uterine bleeding. Site internet : medlineplus. Bethesda (EU d\u2019Am\u00e9rique) ; 2024 [consult\u00e9 le 25 juin 2026]",
+      "text": "National Library of medecine. Abnormal uterine bleeding. Site internet : medlineplus. Bethesda (EU d\u2019Am\u00e9rique) ; 2024 [consult\u00e9 le 25 juin 2026]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Risque de saignements menstruels abondants ayant n\u00e9cessit\u00e9 une prise en charge \u00e0 l\u2019h\u00f4pital au d\u00e9cours de la vaccination contre le COVID-19 : \u00e9tude cas-t\u00e9moins \u00e0 partir du syst\u00e8me national des donn\u00e9es de sant\u00e9 (SNDS). Rapport EPI-PHARE du 24 janvier 2024. Site internet : EPI-PHARE. Saint-Denis La Plaine (France) ; 2024 [consult\u00e9 le 25 juin 2026]",
+      "text": "Risque de saignements menstruels abondants ayant n\u00e9cessit\u00e9 une prise en charge \u00e0 l\u2019h\u00f4pital au d\u00e9cours de la vaccination contre le COVID-19 : \u00e9tude cas-t\u00e9moins \u00e0 partir du syst\u00e8me national des donn\u00e9es de sant\u00e9 (SNDS). Rapport EPI-PHARE du 24 janvier 2024. Site internet : EPI-PHARE. Saint-Denis La Plaine (France) ; 2024 [consult\u00e9 le 25 juin 2026]",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Causes les plus fr\u00e9quentes des m\u00e9norragies et m\u00e9trorragies (grossesse exclue)",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "R\u00e8gles tr\u00e8s abondantes et/ou longues",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Saignements entre les r\u00e8gles",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "---",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "---",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "D\u00e9s\u00e9quilibre hormonal",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "D\u00e9s\u00e9quilibre hormonal",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Polypes et fibromes de l'ut\u00e9rus",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Infection gyn\u00e9cologique",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Ad\u00e9nomyose (endom\u00e9triose)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Polypes et fibromes de l'ut\u00e9rus",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Port d'un st\u00e9rilet au cuivre",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Cancer ou l\u00e9sion du col de l'ut\u00e9rus",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Anomalies de la coagulation du sang",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Cancer de l'endom\u00e8tre",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 8,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Causes les plus fr\u00e9quentes des m\u00e9norragies et m\u00e9trorragies (grossesse exclue)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "R\u00e8gles tr\u00e8s abondantes et/ou longues",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Saignements entre les r\u00e8gles",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "---",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "---",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "D\u00e9s\u00e9quilibre hormonal",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "D\u00e9s\u00e9quilibre hormonal",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Polypes et fibromes de l'ut\u00e9rus",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Infection gyn\u00e9cologique",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ad\u00e9nomyose (endom\u00e9triose)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Polypes et fibromes de l'ut\u00e9rus",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Port d'un st\u00e9rilet au cuivre",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Cancer ou l\u00e9sion du col de l'ut\u00e9rus",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Anomalies de la coagulation du sang",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Cancer de l'endom\u00e8tre",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

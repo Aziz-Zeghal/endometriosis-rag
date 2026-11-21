@@ -1,0 +1,691 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1071980236751336484,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/groups/3"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "\u00c9valuer la douleur due \u00e0 l\u2019endom\u00e9triose",
+      "text": "\u00c9valuer la douleur due \u00e0 l\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 06/01/2025",
+      "text": "Publi\u00e9 le 06/01/2025"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La douleur, ou plut\u00f4t les douleurs tant les formes qu\u2019elle peut prendre sont diverses, est le sympt\u00f4me le plus fr\u00e9quent de l\u2019endom\u00e9triose, mais aussi celui qui impacte le plus la qualit\u00e9 de vie des femmes qui souffrent de cette maladie.",
+      "text": "La douleur, ou plut\u00f4t les douleurs tant les formes qu\u2019elle peut prendre sont diverses, est le sympt\u00f4me le plus fr\u00e9quent de l\u2019endom\u00e9triose, mais aussi celui qui impacte le plus la qualit\u00e9 de vie des femmes qui souffrent de cette maladie."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c9valuer ces douleurs, dans leurs localisations, leur intensit\u00e9, leur fr\u00e9quence, leurs conditions d\u2019apparition, est indispensable \u00e0 la fois pour faire un bilan de l\u2019\u00e9tendue et de l\u2019impact des l\u00e9sions, mais aussi pour mettre en place un traitement adapt\u00e9 et suivre son efficacit\u00e9. Ainsi, tout au long de la maladie et sa prise en charge m\u00e9dicale, les femmes qui souffrent d\u2019endom\u00e9triose seront sollicit\u00e9es pour d\u00e9crire les douleurs qu\u2019elles ressentent. Pour faciliter et harmoniser cette t\u00e2che, des outils existent, plus ou moins sp\u00e9cifiques, qui permettent d\u2019objectiver les sensations douloureuses. Ces outils d\u2019\u00e9valuation sont compl\u00e9t\u00e9s par des outils de mesure de la qualit\u00e9 de vie destin\u00e9s \u00e0 appr\u00e9cier l\u2019impact de la douleur et des autres sympt\u00f4mes sur le bien-\u00eatre des patientes.",
+      "text": "\u00c9valuer ces douleurs, dans leurs localisations, leur intensit\u00e9, leur fr\u00e9quence, leurs conditions d\u2019apparition, est indispensable \u00e0 la fois pour faire un bilan de l\u2019\u00e9tendue et de l\u2019impact des l\u00e9sions, mais aussi pour mettre en place un traitement adapt\u00e9 et suivre son efficacit\u00e9. Ainsi, tout au long de la maladie et sa prise en charge m\u00e9dicale, les femmes qui souffrent d\u2019endom\u00e9triose seront sollicit\u00e9es pour d\u00e9crire les douleurs qu\u2019elles ressentent. Pour faciliter et harmoniser cette t\u00e2che, des outils existent, plus ou moins sp\u00e9cifiques, qui permettent d\u2019objectiver les sensations douloureuses. Ces outils d\u2019\u00e9valuation sont compl\u00e9t\u00e9s par des outils de mesure de la qualit\u00e9 de vie destin\u00e9s \u00e0 appr\u00e9cier l\u2019impact de la douleur et des autres sympt\u00f4mes sur le bien-\u00eatre des patientes."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La douleur, un ressenti tr\u00e8s personnel",
+      "text": "La douleur, un ressenti tr\u00e8s personnel",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La douleur est une sensation complexe, sensorielle et \u00e9motionnelle, qui met en jeu des r\u00e9cepteurs pr\u00e9sents dans tout l\u2019organisme (la peau, les organes, les muscles, les os, etc.), des nerfs qui conduisent l\u2019information vers la moelle \u00e9pini\u00e8re puis le cerveau, et des r\u00e9gions du cerveau o\u00f9 elle est analys\u00e9e, \u00e9valu\u00e9e et o\u00f9 elle provoque des r\u00e9actions et des \u00e9motions.",
+      "text": "La douleur est une sensation complexe, sensorielle et \u00e9motionnelle, qui met en jeu des r\u00e9cepteurs pr\u00e9sents dans tout l\u2019organisme (la peau, les organes, les muscles, les os, etc.), des nerfs qui conduisent l\u2019information vers la moelle \u00e9pini\u00e8re puis le cerveau, et des r\u00e9gions du cerveau o\u00f9 elle est analys\u00e9e, \u00e9valu\u00e9e et o\u00f9 elle provoque des r\u00e9actions et des \u00e9motions."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Quelle qu\u2019en soit son origine, nous ne sommes pas \u00e9gaux devant la douleur. Lorsqu\u2019un stimulus douloureux \u00ab standardis\u00e9 \u00bb est appliqu\u00e9 \u00e0 diverses personnes, le ressenti douloureux est diff\u00e9rent en fonction de leurs particularit\u00e9s biologiques (la fa\u00e7on dont leur corps per\u00e7oit et transmet la douleur), du contr\u00f4le qu\u2019elles peuvent exercer sur sa cause (une douleur provoqu\u00e9e par soi-m\u00eame n\u2019est pas aussi intense qu\u2019une douleur dont nous ne ma\u00eetrisons pas l\u2019origine), de leur \u00e9tat psychique ou de fatigue, de leur histoire personnelle avec la douleur, de la persistance de cette douleur sur la dur\u00e9e, etc.",
+      "text": "Quelle qu\u2019en soit son origine, nous ne sommes pas \u00e9gaux devant la douleur. Lorsqu\u2019un stimulus douloureux \u00ab standardis\u00e9 \u00bb est appliqu\u00e9 \u00e0 diverses personnes, le ressenti douloureux est diff\u00e9rent en fonction de leurs particularit\u00e9s biologiques (la fa\u00e7on dont leur corps per\u00e7oit et transmet la douleur), du contr\u00f4le qu\u2019elles peuvent exercer sur sa cause (une douleur provoqu\u00e9e par soi-m\u00eame n\u2019est pas aussi intense qu\u2019une douleur dont nous ne ma\u00eetrisons pas l\u2019origine), de leur \u00e9tat psychique ou de fatigue, de leur histoire personnelle avec la douleur, de la persistance de cette douleur sur la dur\u00e9e, etc."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La douleur est une sensation subjective et il n\u2019existe pas d\u2019appareil de mesure objectif de ses caract\u00e9ristiques et de son intensit\u00e9. Son \u00e9valuation d\u00e9pend donc de la capacit\u00e9 de chacun \u00e0 formuler ses caract\u00e9ristiques et \u00e0 ma\u00eetriser le riche vocabulaire de la douleur : sourde, vive, pulsatile, avec sensation d\u2019\u00e9crasement ou de br\u00fblure, continue, irradiante, etc.",
+      "text": "La douleur est une sensation subjective et il n\u2019existe pas d\u2019appareil de mesure objectif de ses caract\u00e9ristiques et de son intensit\u00e9. Son \u00e9valuation d\u00e9pend donc de la capacit\u00e9 de chacun \u00e0 formuler ses caract\u00e9ristiques et \u00e0 ma\u00eetriser le riche vocabulaire de la douleur : sourde, vive, pulsatile, avec sensation d\u2019\u00e9crasement ou de br\u00fblure, continue, irradiante, etc."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les diff\u00e9rents types de douleur \u00e0 \u00e9valuer lors d\u2019endom\u00e9triose",
+      "text": "Les diff\u00e9rents types de douleur \u00e0 \u00e9valuer lors d\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose se caract\u00e9rise par une grande vari\u00e9t\u00e9 des manifestations douloureuses.",
+      "text": "L\u2019endom\u00e9triose se caract\u00e9rise par une grande vari\u00e9t\u00e9 des manifestations douloureuses."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les principaux sympt\u00f4mes \u00e9vocateurs d\u2019endom\u00e9triose sont :",
+      "text": "Les principaux sympt\u00f4mes \u00e9vocateurs d\u2019endom\u00e9triose sont :"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les douleurs de r\u00e8gles (dysm\u00e9norrh\u00e9es) intenses, \u00e9valu\u00e9es par une intensit\u00e9 sup\u00e9rieure ou \u00e9gale \u00e0 8 sur 10, associ\u00e9es \u00e0 un absent\u00e9isme fr\u00e9quent ou \u00e0 une r\u00e9sistance aux anti-douleurs de premi\u00e8re intention, type parac\u00e9tamol ou anti-inflammatoires non st\u00e9ro\u00efdiens (ibuprofr\u00e8ne, k\u00e9toprof\u00e8ne, etc.) ;",
+      "text": "les douleurs de r\u00e8gles (dysm\u00e9norrh\u00e9es) intenses, \u00e9valu\u00e9es par une intensit\u00e9 sup\u00e9rieure ou \u00e9gale \u00e0 8 sur 10, associ\u00e9es \u00e0 un absent\u00e9isme fr\u00e9quent ou \u00e0 une r\u00e9sistance aux anti-douleurs de premi\u00e8re intention, type parac\u00e9tamol ou anti-inflammatoires non st\u00e9ro\u00efdiens (ibuprofr\u00e8ne, k\u00e9toprof\u00e8ne, etc.) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les douleurs profondes pendant les relations sexuelles (dyspareunies) ;",
+      "text": "les douleurs profondes pendant les relations sexuelles (dyspareunies) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les douleurs digestives, notamment \u00e0 la d\u00e9f\u00e9cation, quand elles sont plus s\u00e9v\u00e8res pendant les r\u00e8gles ;",
+      "text": "les douleurs digestives, notamment \u00e0 la d\u00e9f\u00e9cation, quand elles sont plus s\u00e9v\u00e8res pendant les r\u00e8gles ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs de l\u2019\u00e9paule droite (scapulalgie) en rapport avec la projection vers l\u2019\u00e9paule d\u2019une endom\u00e9triose localis\u00e9e sur le diaphragme ;",
+      "text": "des douleurs de l\u2019\u00e9paule droite (scapulalgie) en rapport avec la projection vers l\u2019\u00e9paule d\u2019une endom\u00e9triose localis\u00e9e sur le diaphragme ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les douleurs et troubles urinaires, quand ils sont plus s\u00e9v\u00e8res pendant les r\u00e8gles.",
+      "text": "les douleurs et troubles urinaires, quand ils sont plus s\u00e9v\u00e8res pendant les r\u00e8gles.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D\u2019autres douleurs peuvent exister, qui sont moins caract\u00e9ristiques de l\u2019endom\u00e9triose, amenant \u00e0 une confusion sur l\u2019origine des douleurs :",
+      "text": "D\u2019autres douleurs peuvent exister, qui sont moins caract\u00e9ristiques de l\u2019endom\u00e9triose, amenant \u00e0 une confusion sur l\u2019origine des douleurs :"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs neuropathiques (comme les douleurs sciatiques) ;",
+      "text": "des douleurs neuropathiques (comme les douleurs sciatiques) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les maux de ventre chroniques non cycliques (qui persistent plus de 6 mois et ne varient pas selon la phase du cycle menstruel) ;",
+      "text": "les maux de ventre chroniques non cycliques (qui persistent plus de 6 mois et ne varient pas selon la phase du cycle menstruel) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les douleurs des muscles et des membranes qui entourent les organes (fascias) dont les maux de dos, les douleurs du p\u00e9rin\u00e9e, les douleurs des muscles abdominaux, etc. ;",
+      "text": "les douleurs des muscles et des membranes qui entourent les organes (fascias) dont les maux de dos, les douleurs du p\u00e9rin\u00e9e, les douleurs des muscles abdominaux, etc. ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les n\u00e9vralgies pudendales (des douleurs allant du clitoris \u00e0 l\u2019anus, souvent d\u2019un seul c\u00f4t\u00e9, aggrav\u00e9es en position assise) ;",
+      "text": "les n\u00e9vralgies pudendales (des douleurs allant du clitoris \u00e0 l\u2019anus, souvent d\u2019un seul c\u00f4t\u00e9, aggrav\u00e9es en position assise) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les vulvodynies (douleurs de la vulve sans cause identifiable, spontan\u00e9es ou provoqu\u00e9es par le mouvement, durant plus de 3 mois).",
+      "text": "les vulvodynies (douleurs de la vulve sans cause identifiable, spontan\u00e9es ou provoqu\u00e9es par le mouvement, durant plus de 3 mois).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parce que les manifestations douloureuses de l\u2019endom\u00e9triose sont vari\u00e9es et volontiers intriqu\u00e9es avec d\u2019autres maladies diff\u00e9rentes de l\u2019endom\u00e9triose, il est souvent n\u00e9cessaire d\u2019\u00e9valuer s\u00e9par\u00e9ment ses multiples dimensions, pour les distinguer et mieux appr\u00e9cier l\u2019efficacit\u00e9 des traitements sur chacune d\u2019entre elles.",
+      "text": "Parce que les manifestations douloureuses de l\u2019endom\u00e9triose sont vari\u00e9es et volontiers intriqu\u00e9es avec d\u2019autres maladies diff\u00e9rentes de l\u2019endom\u00e9triose, il est souvent n\u00e9cessaire d\u2019\u00e9valuer s\u00e9par\u00e9ment ses multiples dimensions, pour les distinguer et mieux appr\u00e9cier l\u2019efficacit\u00e9 des traitements sur chacune d\u2019entre elles."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019\u00e9valuation de la douleur pendant l\u2019examen clinique orient\u00e9",
+      "text": "L\u2019\u00e9valuation de la douleur pendant l\u2019examen clinique orient\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lors de l\u2019examen clinique d\u2019une patiente qui se plaint de douleurs r\u00e9currentes ou chroniques potentiellement \u00e9vocatrices d\u2019endom\u00e9triose, le m\u00e9decin va effectuer une recherche des zones douloureuses : organes g\u00e9nitaux, tube digestif, peau, muqueuses, muscles, fascia, organes abdominaux, etc. L\u2019objectif de cet examen (enrichi des questions pos\u00e9es \u00e0 la patiente) est de faire une cartographie des zones douloureuses, mais aussi des mouvements qui d\u00e9clenchent la douleur et des \u00e9ventuelles localisations identifiables de l\u2019endom\u00e9triose. Par palpation, pression, modification des positions et pratique de certains mouvements, voire exploration syst\u00e9matique du trajet de certains nerfs, l\u2019examen clinique apporte des informations indispensables pour comprendre l\u2019origine des sympt\u00f4mes douloureux et permettre un traitement antalgique personnalis\u00e9. Cet examen comporte habituellement, si possible, un examen vaginal visuel et digital et parfois un examen rectal.",
+      "text": "Lors de l\u2019examen clinique d\u2019une patiente qui se plaint de douleurs r\u00e9currentes ou chroniques potentiellement \u00e9vocatrices d\u2019endom\u00e9triose, le m\u00e9decin va effectuer une recherche des zones douloureuses : organes g\u00e9nitaux, tube digestif, peau, muqueuses, muscles, fascia, organes abdominaux, etc. L\u2019objectif de cet examen (enrichi des questions pos\u00e9es \u00e0 la patiente) est de faire une cartographie des zones douloureuses, mais aussi des mouvements qui d\u00e9clenchent la douleur et des \u00e9ventuelles localisations identifiables de l\u2019endom\u00e9triose. Par palpation, pression, modification des positions et pratique de certains mouvements, voire exploration syst\u00e9matique du trajet de certains nerfs, l\u2019examen clinique apporte des informations indispensables pour comprendre l\u2019origine des sympt\u00f4mes douloureux et permettre un traitement antalgique personnalis\u00e9. Cet examen comporte habituellement, si possible, un examen vaginal visuel et digital et parfois un examen rectal."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour r\u00e9pondre plus pr\u00e9cis\u00e9ment aux questions du praticien lors d\u2019un bilan de la douleur, il peut \u00eatre int\u00e9ressant d\u2019avoir, dans les semaines qui pr\u00e9c\u00e8dent l\u2019examen, tenu un journal des sympt\u00f4mes douloureux ressentis : localisation, dur\u00e9e, intensit\u00e9, \u00e9l\u00e9ments d\u00e9clencheurs, efficacit\u00e9 des traitements, etc.",
+      "text": "Pour r\u00e9pondre plus pr\u00e9cis\u00e9ment aux questions du praticien lors d\u2019un bilan de la douleur, il peut \u00eatre int\u00e9ressant d\u2019avoir, dans les semaines qui pr\u00e9c\u00e8dent l\u2019examen, tenu un journal des sympt\u00f4mes douloureux ressentis : localisation, dur\u00e9e, intensit\u00e9, \u00e9l\u00e9ments d\u00e9clencheurs, efficacit\u00e9 des traitements, etc."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les outils d\u2019\u00e9valuation de la douleur",
+      "text": "Les outils d\u2019\u00e9valuation de la douleur",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les outils permettant d\u2019\u00e9valuer la douleur sont nombreux. Certains sont con\u00e7us pour \u00eatre utilis\u00e9s par le patient lui-m\u00eame : ce sont les outils dits \u00ab d'auto-\u00e9valuation \u00bb. Ils reposent soit sur des questionnaires, soit sur des \u00e9chelles visuelles. D'autres sont destin\u00e9s au personnel soignant et utilis\u00e9s dans le cas de patients incapables d'\u00e9valuer eux-m\u00eames leur douleur. On parle alors d\u2019\u00ab h\u00e9t\u00e9ro-\u00e9valuation \u00bb \u00e0 l'aide de grilles d\u2019observation.",
+      "text": "Les outils permettant d\u2019\u00e9valuer la douleur sont nombreux. Certains sont con\u00e7us pour \u00eatre utilis\u00e9s par le patient lui-m\u00eame : ce sont les outils dits \u00ab d'auto-\u00e9valuation \u00bb. Ils reposent soit sur des questionnaires, soit sur des \u00e9chelles visuelles. D'autres sont destin\u00e9s au personnel soignant et utilis\u00e9s dans le cas de patients incapables d'\u00e9valuer eux-m\u00eames leur douleur. On parle alors d\u2019\u00ab h\u00e9t\u00e9ro-\u00e9valuation \u00bb \u00e0 l'aide de grilles d\u2019observation."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les outils les plus utilis\u00e9s et les plus simples sont des \u00e9chelles quantitatives, sur lesquelles le patient \u00e9value lui-m\u00eame l\u2019intensit\u00e9 globale de sa douleur entre deux extr\u00eames allant de l\u2019absence de douleur, jusqu\u2019\u00e0 la douleur maximale imaginable.",
+      "text": "Les outils les plus utilis\u00e9s et les plus simples sont des \u00e9chelles quantitatives, sur lesquelles le patient \u00e9value lui-m\u00eame l\u2019intensit\u00e9 globale de sa douleur entre deux extr\u00eames allant de l\u2019absence de douleur, jusqu\u2019\u00e0 la douleur maximale imaginable."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019\u00e9chelle num\u00e9rique simplifi\u00e9e (ENS) propose \u00e0 la patiente d\u2019exprimer, pour chaque type de douleur, son niveau ressenti entre 0 et10, tandis que l\u2019\u00e9chelle visuelle analogique (EVA) demande \u00e0 la patiente de positionner un curseur sur une r\u00e9glette \u00e9voluant horizontalement entre \u00ab pas de douleur \u00bb \u00e0 gauche de la r\u00e9glette et \u00ab douleur maximale imaginable \u00bb \u00e0 sa droite (l\u2019\u00e9chelle est gradu\u00e9e au verso, ce qui permet ensuite au personnel soignant de noter le score ressenti).",
+      "text": "L\u2019\u00e9chelle num\u00e9rique simplifi\u00e9e (ENS) propose \u00e0 la patiente d\u2019exprimer, pour chaque type de douleur, son niveau ressenti entre 0 et10, tandis que l\u2019\u00e9chelle visuelle analogique (EVA) demande \u00e0 la patiente de positionner un curseur sur une r\u00e9glette \u00e9voluant horizontalement entre \u00ab pas de douleur \u00bb \u00e0 gauche de la r\u00e9glette et \u00ab douleur maximale imaginable \u00bb \u00e0 sa droite (l\u2019\u00e9chelle est gradu\u00e9e au verso, ce qui permet ensuite au personnel soignant de noter le score ressenti)."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019EVA et l\u2019ENS sont les deux m\u00e9thodes les plus adapt\u00e9es pour la mesure de la douleur chez les patientes qui souffrent d\u2019endom\u00e9triose. Elles peuvent \u00eatre utilis\u00e9es pour \u00e9valuer tous les types de douleur li\u00e9s \u00e0 l\u2019endom\u00e9triose Ces \u00e9chelles simples permettent une premi\u00e8re \u00e9valuation et le suivi de l\u2019efficacit\u00e9 d\u2019un traitement antalgique pour un malade donn\u00e9. Elles ne donnent pas ou peu d\u2019informations sur les caract\u00e9ristiques de la douleur per\u00e7ue, d\u2019o\u00f9 l\u2019utilisation d\u2019outils plus pr\u00e9cis, dits qualitatifs. Par exemple, le QDSA (Questionnaire Douleur de l\u2019h\u00f4pital Saint-Antoine) repose sur quinze qualificatifs de sensation douloureuse, class\u00e9s en sections, sont explor\u00e9s dans leur intensit\u00e9, de 0 (absent) \u00e0 4 (intense). Par exemple, la premi\u00e8re section propose de choisir et de noter les sensations douloureuses suivantes : battements, pulsations, \u00e9lancements, en \u00e9clair, d\u00e9charges \u00e9lectriques, coups de marteau. D\u2019autres \u00e9chelles qualitatives du m\u00eame type sont en usage dans le monde, par exemple le \u00ab Questionnaire concis sur la douleur \u00bb. Elles permettent une approche des m\u00e9canismes en cause et une adaptation du traitement antalgique. Pour les douleurs li\u00e9es \u00e0 l\u2019endom\u00e9triose, les outils cit\u00e9s pr\u00e9c\u00e9demment sont utilis\u00e9s, mais il en existe d\u2019autres, par exemple le questionnaire de Biberoglu et Behrman (B&B) qui explore les douleurs pelviennes, les dysm\u00e9norrh\u00e9es, les dyspareunies, la sensibilit\u00e9 pelvienne \u00e0 la palpation et la mobilit\u00e9 de l\u2019ut\u00e9rus telle qu\u2019\u00e9valu\u00e9e par le toucher vaginal.",
+      "text": "L\u2019EVA et l\u2019ENS sont les deux m\u00e9thodes les plus adapt\u00e9es pour la mesure de la douleur chez les patientes qui souffrent d\u2019endom\u00e9triose. Elles peuvent \u00eatre utilis\u00e9es pour \u00e9valuer tous les types de douleur li\u00e9s \u00e0 l\u2019endom\u00e9triose Ces \u00e9chelles simples permettent une premi\u00e8re \u00e9valuation et le suivi de l\u2019efficacit\u00e9 d\u2019un traitement antalgique pour un malade donn\u00e9. Elles ne donnent pas ou peu d\u2019informations sur les caract\u00e9ristiques de la douleur per\u00e7ue, d\u2019o\u00f9 l\u2019utilisation d\u2019outils plus pr\u00e9cis, dits qualitatifs. Par exemple, le QDSA (Questionnaire Douleur de l\u2019h\u00f4pital Saint-Antoine) repose sur quinze qualificatifs de sensation douloureuse, class\u00e9s en sections, sont explor\u00e9s dans leur intensit\u00e9, de 0 (absent) \u00e0 4 (intense). Par exemple, la premi\u00e8re section propose de choisir et de noter les sensations douloureuses suivantes : battements, pulsations, \u00e9lancements, en \u00e9clair, d\u00e9charges \u00e9lectriques, coups de marteau. D\u2019autres \u00e9chelles qualitatives du m\u00eame type sont en usage dans le monde, par exemple le \u00ab Questionnaire concis sur la douleur \u00bb. Elles permettent une approche des m\u00e9canismes en cause et une adaptation du traitement antalgique. Pour les douleurs li\u00e9es \u00e0 l\u2019endom\u00e9triose, les outils cit\u00e9s pr\u00e9c\u00e9demment sont utilis\u00e9s, mais il en existe d\u2019autres, par exemple le questionnaire de Biberoglu et Behrman (B&B) qui explore les douleurs pelviennes, les dysm\u00e9norrh\u00e9es, les dyspareunies, la sensibilit\u00e9 pelvienne \u00e0 la palpation et la mobilit\u00e9 de l\u2019ut\u00e9rus telle qu\u2019\u00e9valu\u00e9e par le toucher vaginal."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe des questionnaires plus sp\u00e9cifiques, par exemple le questionnaire DN4 (\u00ab Douleurs neuropathiques en 4 questions \u00bb) pour \u00e9valuer les douleurs neuropathiques, dues \u00e0 l\u2019irritation de nerfs par l\u2019endom\u00e9triose ou par d\u2019autres l\u00e9sions non endom\u00e9triosiques). Enfin, un score de sensibilisation douloureuse pelvienne permet d\u2019approcher les ph\u00e9nom\u00e8nes d\u2019hypersensibilisation qui correspondent \u00e0 des perceptions douloureuses inhabituellement importantes. Il s\u2019agit d\u2019un questionnaire utilisable chez les patients pr\u00e9sentant des douleurs pelviennes ou du p\u00e9rin\u00e9e \u00e9voluant depuis plus de trois mois et apparaissant disproportionn\u00e9es eu \u00e9gard aux l\u00e9sions objectiv\u00e9es par les examens cliniques et les examens d\u2019imagerie.",
+      "text": "Il existe des questionnaires plus sp\u00e9cifiques, par exemple le questionnaire DN4 (\u00ab Douleurs neuropathiques en 4 questions \u00bb) pour \u00e9valuer les douleurs neuropathiques, dues \u00e0 l\u2019irritation de nerfs par l\u2019endom\u00e9triose ou par d\u2019autres l\u00e9sions non endom\u00e9triosiques). Enfin, un score de sensibilisation douloureuse pelvienne permet d\u2019approcher les ph\u00e9nom\u00e8nes d\u2019hypersensibilisation qui correspondent \u00e0 des perceptions douloureuses inhabituellement importantes. Il s\u2019agit d\u2019un questionnaire utilisable chez les patients pr\u00e9sentant des douleurs pelviennes ou du p\u00e9rin\u00e9e \u00e9voluant depuis plus de trois mois et apparaissant disproportionn\u00e9es eu \u00e9gard aux l\u00e9sions objectiv\u00e9es par les examens cliniques et les examens d\u2019imagerie."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Au-del\u00e0 des sympt\u00f4mes douloureux, les cons\u00e9quences n\u00e9gatives de la douleur",
+      "text": "Au-del\u00e0 des sympt\u00f4mes douloureux, les cons\u00e9quences n\u00e9gatives de la douleur",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c9valuer la douleur, ce n\u2019est pas uniquement \u00e9valuer l\u2019intensit\u00e9 des sympt\u00f4mes douloureux. La douleur, lorsqu\u2019elle revient r\u00e9guli\u00e8rement ou se manifeste de fa\u00e7on continue, peut exercer une forte influence n\u00e9gative sur la qualit\u00e9 de vie. \u00c9valuer la douleur, c\u2019est aussi \u00e9valuer cette dimension.",
+      "text": "\u00c9valuer la douleur, ce n\u2019est pas uniquement \u00e9valuer l\u2019intensit\u00e9 des sympt\u00f4mes douloureux. La douleur, lorsqu\u2019elle revient r\u00e9guli\u00e8rement ou se manifeste de fa\u00e7on continue, peut exercer une forte influence n\u00e9gative sur la qualit\u00e9 de vie. \u00c9valuer la douleur, c\u2019est aussi \u00e9valuer cette dimension."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le cadre de l\u2019endom\u00e9triose, les \u00e9chelles de qualit\u00e9 de vie peuvent servir \u00e0 d\u00e9cider du traitement et de son adaptation et \u00e0 suivre son efficacit\u00e9. Les plus connues sont les questionnaires SF-36 et EHP-30 ou sa forme plus courte EHP-5 qui, bien que non sp\u00e9cifiques \u00e0 l\u2019endom\u00e9triose, permettent d\u2019approcher la qualit\u00e9 de vie des femmes, notamment apr\u00e8s traitement (plus d'informations \u00e0 ce sujet dans la page Evaluer la qualit\u00e9 de vie en cas d'endom\u00e9triose).",
+      "text": "Dans le cadre de l\u2019endom\u00e9triose, les \u00e9chelles de qualit\u00e9 de vie peuvent servir \u00e0 d\u00e9cider du traitement et de son adaptation et \u00e0 suivre son efficacit\u00e9. Les plus connues sont les questionnaires SF-36 et EHP-30 ou sa forme plus courte EHP-5 qui, bien que non sp\u00e9cifiques \u00e0 l\u2019endom\u00e9triose, permettent d\u2019approcher la qualit\u00e9 de vie des femmes, notamment apr\u00e8s traitement (plus d'informations \u00e0 ce sujet dans la page Evaluer la qualit\u00e9 de vie en cas d'endom\u00e9triose)."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En conclusion,",
+      "text": "En conclusion,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " la douleur rev\u00eat de multiples aspects qui exigent d\u2019\u00eatre \u00e9valu\u00e9s s\u00e9par\u00e9ment pour \u00eatre pris en charge de mani\u00e8re adapt\u00e9e. Il faut en effet savoir distinguer les douleurs \u00e9vocatrices d\u2019endom\u00e9triose de celles \u00e9vocatrices d\u2019autres maladies non endom\u00e9triosiques, parfois associ\u00e9es. Pour y parvenir, il est indispensable de d\u00e9crire pr\u00e9cis\u00e9ment ces douleurs, notamment dans leur intensit\u00e9 et leur impact sur la vie quotidienne. Les outils d\u2019\u00e9valuation de la douleur ne sont pas uniquement destin\u00e9s au moment de la consultation m\u00e9dicale. Se familiariser avec eux permet \u00e9galement d\u2019effectuer un suivi objectif et r\u00e9gulier de l\u2019effet des traitements tout au long de la maladie.",
+      "text": " la douleur rev\u00eat de multiples aspects qui exigent d\u2019\u00eatre \u00e9valu\u00e9s s\u00e9par\u00e9ment pour \u00eatre pris en charge de mani\u00e8re adapt\u00e9e. Il faut en effet savoir distinguer les douleurs \u00e9vocatrices d\u2019endom\u00e9triose de celles \u00e9vocatrices d\u2019autres maladies non endom\u00e9triosiques, parfois associ\u00e9es. Pour y parvenir, il est indispensable de d\u00e9crire pr\u00e9cis\u00e9ment ces douleurs, notamment dans leur intensit\u00e9 et leur impact sur la vie quotidienne. Les outils d\u2019\u00e9valuation de la douleur ne sont pas uniquement destin\u00e9s au moment de la consultation m\u00e9dicale. Se familiariser avec eux permet \u00e9galement d\u2019effectuer un suivi objectif et r\u00e9gulier de l\u2019effet des traitements tout au long de la maladie."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

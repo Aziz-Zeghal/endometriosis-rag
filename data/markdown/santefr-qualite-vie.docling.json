@@ -1,0 +1,560 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13641968132709873474,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "\u00c9valuer la qualit\u00e9 de vie en cas d\u2019endom\u00e9triose",
+      "text": "\u00c9valuer la qualit\u00e9 de vie en cas d\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 06/01/2025",
+      "text": "Publi\u00e9 le 06/01/2025"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parce que l\u2019endom\u00e9triose est une maladie qui peut \u00eatre douloureuse et handicapante, sa prise en charge implique de mesurer objectivement son impact sur tous les aspects de la vie des patientes.",
+      "text": "Parce que l\u2019endom\u00e9triose est une maladie qui peut \u00eatre douloureuse et handicapante, sa prise en charge implique de mesurer objectivement son impact sur tous les aspects de la vie des patientes."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour y parvenir, l\u2019examen clinique, le dialogue, les examens compl\u00e9mentaires et l\u2019\u00e9volution objective de la douleur sont indispensables mais ne sont pas suffisants. Il est n\u00e9cessaire d\u2019\u00e9valuer les cons\u00e9quences de l\u2019endom\u00e9triose et de ses sympt\u00f4mes sur l\u2019ensemble des aspects de la vie quotidienne, tout au long du suivi. Il existe des outils, sp\u00e9cifiques ou non \u00e0 l\u2019endom\u00e9triose, qui permettent d\u2019obtenir, \u00e0 un instant donn\u00e9, une image objective des cons\u00e9quences de la maladie sur la qualit\u00e9 de vie, afin de proposer une prise en charge multidisciplinaire destin\u00e9e \u00e0 am\u00e9liorer le bien-\u00eatre des patientes dans chacun des domaines de leur vie quotidienne.",
+      "text": "Pour y parvenir, l\u2019examen clinique, le dialogue, les examens compl\u00e9mentaires et l\u2019\u00e9volution objective de la douleur sont indispensables mais ne sont pas suffisants. Il est n\u00e9cessaire d\u2019\u00e9valuer les cons\u00e9quences de l\u2019endom\u00e9triose et de ses sympt\u00f4mes sur l\u2019ensemble des aspects de la vie quotidienne, tout au long du suivi. Il existe des outils, sp\u00e9cifiques ou non \u00e0 l\u2019endom\u00e9triose, qui permettent d\u2019obtenir, \u00e0 un instant donn\u00e9, une image objective des cons\u00e9quences de la maladie sur la qualit\u00e9 de vie, afin de proposer une prise en charge multidisciplinaire destin\u00e9e \u00e0 am\u00e9liorer le bien-\u00eatre des patientes dans chacun des domaines de leur vie quotidienne."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qu\u2019est-ce la qualit\u00e9 de vie ? Pourquoi est-il int\u00e9ressant de la mesurer ?",
+      "text": "Qu\u2019est-ce la qualit\u00e9 de vie ? Pourquoi est-il int\u00e9ressant de la mesurer ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le concept de qualit\u00e9 de vie est n\u00e9 du constat que les sympt\u00f4mes ressentis par un ou une patiente ne suffisent pas \u00e0 d\u00e9crire l\u2019impact de sa maladie sur sa vie quotidienne. Son \u00e9valuation permet une vision plus globale des mesures \u00e0 mettre en place pour am\u00e9liorer son bien-\u00eatre.",
+      "text": "Le concept de qualit\u00e9 de vie est n\u00e9 du constat que les sympt\u00f4mes ressentis par un ou une patiente ne suffisent pas \u00e0 d\u00e9crire l\u2019impact de sa maladie sur sa vie quotidienne. Son \u00e9valuation permet une vision plus globale des mesures \u00e0 mettre en place pour am\u00e9liorer son bien-\u00eatre."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En 1993, l\u2019Organisation Mondiale de la Sant\u00e9 a publi\u00e9 une d\u00e9finition de la qualit\u00e9 de vie dans le domaine de la sant\u00e9 : \u00ab La qualit\u00e9 de vie est d\u00e9finie comme la perception qu\u2019un individu a de sa place dans la vie, dans le contexte de la culture et du syst\u00e8me de valeurs dans lequel il vit, en relation avec ses objectifs, ses attentes, ses normes et ses inqui\u00e9tudes. C\u2019est donc un concept tr\u00e8s large qui peut \u00eatre influenc\u00e9 de mani\u00e8re complexe par la sant\u00e9 physique du sujet, son \u00e9tat psychologique et son niveau d\u2019ind\u00e9pendance, ses relations sociales et sa relation aux \u00e9l\u00e9ments essentiels de son environnement. \u00bb",
+      "text": "En 1993, l\u2019Organisation Mondiale de la Sant\u00e9 a publi\u00e9 une d\u00e9finition de la qualit\u00e9 de vie dans le domaine de la sant\u00e9 : \u00ab La qualit\u00e9 de vie est d\u00e9finie comme la perception qu\u2019un individu a de sa place dans la vie, dans le contexte de la culture et du syst\u00e8me de valeurs dans lequel il vit, en relation avec ses objectifs, ses attentes, ses normes et ses inqui\u00e9tudes. C\u2019est donc un concept tr\u00e8s large qui peut \u00eatre influenc\u00e9 de mani\u00e8re complexe par la sant\u00e9 physique du sujet, son \u00e9tat psychologique et son niveau d\u2019ind\u00e9pendance, ses relations sociales et sa relation aux \u00e9l\u00e9ments essentiels de son environnement. \u00bb"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette d\u00e9finition met en avant les quatre \u00e9l\u00e9ments qui sont syst\u00e9matiquement explor\u00e9s lors de l\u2019\u00e9valuation de la qualit\u00e9 de vie : la sant\u00e9 physique, la sant\u00e9 psychique, l\u2019autonomie et les relations \u00e0 l\u2019entourage et \u00e0 l\u2019environnement. Dans l\u2019endom\u00e9triose, de nombreux sympt\u00f4mes dont les douleurs, ont un impact important sur la qualit\u00e9 de vie. Pour cette raison, il est essentiel de l\u2019\u00e9valuer lors du diagnostic, mais \u00e9galement tout au long du suivi, en particulier pour disposer d\u2019une mesure objective de l\u2019efficacit\u00e9 de l\u2019ensemble des traitements mis en place.",
+      "text": "Cette d\u00e9finition met en avant les quatre \u00e9l\u00e9ments qui sont syst\u00e9matiquement explor\u00e9s lors de l\u2019\u00e9valuation de la qualit\u00e9 de vie : la sant\u00e9 physique, la sant\u00e9 psychique, l\u2019autonomie et les relations \u00e0 l\u2019entourage et \u00e0 l\u2019environnement. Dans l\u2019endom\u00e9triose, de nombreux sympt\u00f4mes dont les douleurs, ont un impact important sur la qualit\u00e9 de vie. Pour cette raison, il est essentiel de l\u2019\u00e9valuer lors du diagnostic, mais \u00e9galement tout au long du suivi, en particulier pour disposer d\u2019une mesure objective de l\u2019efficacit\u00e9 de l\u2019ensemble des traitements mis en place."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les outils g\u00e9n\u00e9riques de mesure de la qualit\u00e9 de vie",
+      "text": "Les outils g\u00e9n\u00e9riques de mesure de la qualit\u00e9 de vie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De nombreux outils de mesure de la qualit\u00e9 de vie existent, sans distinction de la maladie qui est en cause. Certains peuvent \u00eatre utilis\u00e9s dans le contexte de l\u2019endom\u00e9triose. C\u2019est le cas par exemple du questionnaire SF-36 (36-item Short-form Health Survey) en 36 questions et de sa forme abr\u00e9g\u00e9e (SF-12) en 12 questions. Ces questionnaires explorent les quatre domaines cit\u00e9s pr\u00e9c\u00e9demment avec des questions simples auxquelles la patiente doit r\u00e9pondre en choisissant entre plusieurs fr\u00e9quences : Toujours, La plupart du temps, Souvent, Parfois ou Jamais.",
+      "text": "De nombreux outils de mesure de la qualit\u00e9 de vie existent, sans distinction de la maladie qui est en cause. Certains peuvent \u00eatre utilis\u00e9s dans le contexte de l\u2019endom\u00e9triose. C\u2019est le cas par exemple du questionnaire SF-36 (36-item Short-form Health Survey) en 36 questions et de sa forme abr\u00e9g\u00e9e (SF-12) en 12 questions. Ces questionnaires explorent les quatre domaines cit\u00e9s pr\u00e9c\u00e9demment avec des questions simples auxquelles la patiente doit r\u00e9pondre en choisissant entre plusieurs fr\u00e9quences : Toujours, La plupart du temps, Souvent, Parfois ou Jamais."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe \u00e9galement le questionnaire EQ-5d-5l qui contient 25 questions class\u00e9es en 5 rubriques (mobilit\u00e9, autonomie, activit\u00e9s courantes, douleurs/inconfort, anxi\u00e9t\u00e9/d\u00e9pression) et une \u00e9chelle visuelle d\u2019\u00e9valuation globale de la qualit\u00e9 de vie le jour de la r\u00e9ponse au questionnaire.",
+      "text": "Il existe \u00e9galement le questionnaire EQ-5d-5l qui contient 25 questions class\u00e9es en 5 rubriques (mobilit\u00e9, autonomie, activit\u00e9s courantes, douleurs/inconfort, anxi\u00e9t\u00e9/d\u00e9pression) et une \u00e9chelle visuelle d\u2019\u00e9valuation globale de la qualit\u00e9 de vie le jour de la r\u00e9ponse au questionnaire."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certains de ces questionnaires g\u00e9n\u00e9riques sont davantage centr\u00e9s sur la dimension psychique de la qualit\u00e9 de vie. C\u2019est le cas du questionnaire Hospital Anxiety Depression (HAD), constitu\u00e9 de 7 questions \u00e9valuant l\u2019anxi\u00e9t\u00e9 et de 7 questions \u00e9valuant la d\u00e9pression. D\u2019autres questionnaires concernant l\u2019impact des sympt\u00f4mes douloureux. L\u2019int\u00e9r\u00eat de ces questionnaires g\u00e9n\u00e9riques dans l\u2019endom\u00e9triose a \u00e9t\u00e9 valid\u00e9 par des \u00e9tudes scientifiques.",
+      "text": "Certains de ces questionnaires g\u00e9n\u00e9riques sont davantage centr\u00e9s sur la dimension psychique de la qualit\u00e9 de vie. C\u2019est le cas du questionnaire Hospital Anxiety Depression (HAD), constitu\u00e9 de 7 questions \u00e9valuant l\u2019anxi\u00e9t\u00e9 et de 7 questions \u00e9valuant la d\u00e9pression. D\u2019autres questionnaires concernant l\u2019impact des sympt\u00f4mes douloureux. L\u2019int\u00e9r\u00eat de ces questionnaires g\u00e9n\u00e9riques dans l\u2019endom\u00e9triose a \u00e9t\u00e9 valid\u00e9 par des \u00e9tudes scientifiques."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les outils de mesure de la qualit\u00e9 de vie sp\u00e9cifiques \u00e0 l\u2019endom\u00e9triose",
+      "text": "Les outils de mesure de la qualit\u00e9 de vie sp\u00e9cifiques \u00e0 l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe deux outils d\u2019\u00e9valuation de la qualit\u00e9 de vie sp\u00e9cifiquement con\u00e7us pour les femmes qui souffrent d\u2019endom\u00e9triose, appel\u00e9s EHP (Endometriosis Health Profiles). Le plus simple, dit \u00ab EHP-5 \u00bb, contient 11 questions auxquelles les patientes doivent r\u00e9pondre par Toujours, Souvent, Parfois, Rarement ou Jamais : \u00ab Au cours des 4 derni\u00e8res semaines, combien de fois, du fait de votre endom\u00e9triose :",
+      "text": "Il existe deux outils d\u2019\u00e9valuation de la qualit\u00e9 de vie sp\u00e9cifiquement con\u00e7us pour les femmes qui souffrent d\u2019endom\u00e9triose, appel\u00e9s EHP (Endometriosis Health Profiles). Le plus simple, dit \u00ab EHP-5 \u00bb, contient 11 questions auxquelles les patientes doivent r\u00e9pondre par Toujours, Souvent, Parfois, Rarement ou Jamais : \u00ab Au cours des 4 derni\u00e8res semaines, combien de fois, du fait de votre endom\u00e9triose :"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous \u00e9prouv\u00e9 des difficult\u00e9s \u00e0 marcher du fait de vos douleurs ?",
+      "text": "Avez-vous \u00e9prouv\u00e9 des difficult\u00e9s \u00e0 marcher du fait de vos douleurs ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous l\u2019impression que vos sympt\u00f4mes r\u00e9glaient votre vie ?",
+      "text": "Avez-vous l\u2019impression que vos sympt\u00f4mes r\u00e9glaient votre vie ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous eu des changements d\u2019humeur ?",
+      "text": "Avez-vous eu des changements d\u2019humeur ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous l\u2019impression que les autres ne comprenaient pas ce que vous enduriez ?",
+      "text": "Avez-vous l\u2019impression que les autres ne comprenaient pas ce que vous enduriez ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous eu l\u2019impression que votre apparence avait chang\u00e9e ?",
+      "text": "Avez-vous eu l\u2019impression que votre apparence avait chang\u00e9e ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous \u00e9t\u00e9 incapable d\u2019assurer des obligations professionnelles du fait des douleurs ?",
+      "text": "Avez-vous \u00e9t\u00e9 incapable d\u2019assurer des obligations professionnelles du fait des douleurs ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous trouv\u00e9 difficile de vous occuper de votre (vos) enfant(s) ?",
+      "text": "Avez-vous trouv\u00e9 difficile de vous occuper de votre (vos) enfant(s) ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vous \u00eates-vous sentie inqui\u00e8te \u00e0 l\u2019id\u00e9e d\u2019avoir des rapports sexuels \u00e0 cause de la douleur ?",
+      "text": "Vous \u00eates-vous sentie inqui\u00e8te \u00e0 l\u2019id\u00e9e d\u2019avoir des rapports sexuels \u00e0 cause de la douleur ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous eu le sentiment que les m\u00e9decins pensaient que c\u2019\u00e9tait dans votre t\u00eate ?",
+      "text": "Avez-vous eu le sentiment que les m\u00e9decins pensaient que c\u2019\u00e9tait dans votre t\u00eate ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avez-vous \u00e9t\u00e9 d\u00e9\u00e7ue parce que le traitement ne marchait pas ?",
+      "text": "Avez-vous \u00e9t\u00e9 d\u00e9\u00e7ue parce que le traitement ne marchait pas ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vous \u00eates-vous sentie d\u00e9prim\u00e9e face \u00e0 l\u2019\u00e9ventualit\u00e9 de ne pas avoir d\u2019enfants ou d\u2019autres enfants ? \u00bb",
+      "text": "Vous \u00eates-vous sentie d\u00e9prim\u00e9e face \u00e0 l\u2019\u00e9ventualit\u00e9 de ne pas avoir d\u2019enfants ou d\u2019autres enfants ? \u00bb",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe une version plus longue de ce questionnaire, le \u00ab EHP-30 \u00bb, qui compl\u00e8te les 11 questions du EHP-5 avec 19 questions suppl\u00e9mentaires portant sur, par exemple, l\u2019app\u00e9tit, la douleur, le sommeil, la col\u00e8re, la d\u00e9pression, le sentiment de solitude, la confiance en soi, la capacit\u00e9 \u00e0 changer de position, etc.",
+      "text": "Il existe une version plus longue de ce questionnaire, le \u00ab EHP-30 \u00bb, qui compl\u00e8te les 11 questions du EHP-5 avec 19 questions suppl\u00e9mentaires portant sur, par exemple, l\u2019app\u00e9tit, la douleur, le sommeil, la col\u00e8re, la d\u00e9pression, le sentiment de solitude, la confiance en soi, la capacit\u00e9 \u00e0 changer de position, etc."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les autres outils d\u2019\u00e9valuation de la qualit\u00e9 de vie",
+      "text": "Les autres outils d\u2019\u00e9valuation de la qualit\u00e9 de vie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque l\u2019endom\u00e9triose affecte plus particuli\u00e8rement certains aspects de la sant\u00e9, il existe des questionnaires sp\u00e9cifiques \u00e9valuant l\u2019impact de ces sympt\u00f4mes particuliers sur la qualit\u00e9 de vie. C\u2019est le cas, par exemple, du questionnaire Knowles Eccersley Scott Symptom (KESS) qui contient 13 questions autour de la constipation, ou du Female Sexual Function Index (FSFI) qui contient 19 questions portant sur six dimensions de la fonction sexuelle f\u00e9minine (d\u00e9sir, excitation, douleur, lubrification, satisfaction, orgasme).",
+      "text": "Lorsque l\u2019endom\u00e9triose affecte plus particuli\u00e8rement certains aspects de la sant\u00e9, il existe des questionnaires sp\u00e9cifiques \u00e9valuant l\u2019impact de ces sympt\u00f4mes particuliers sur la qualit\u00e9 de vie. C\u2019est le cas, par exemple, du questionnaire Knowles Eccersley Scott Symptom (KESS) qui contient 13 questions autour de la constipation, ou du Female Sexual Function Index (FSFI) qui contient 19 questions portant sur six dimensions de la fonction sexuelle f\u00e9minine (d\u00e9sir, excitation, douleur, lubrification, satisfaction, orgasme)."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En conclusion",
+      "text": "En conclusion",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", l\u2019\u00e9valuation de la qualit\u00e9 de vie fait partie int\u00e9grante du diagnostic et du suivi de l\u2019endom\u00e9triose. Pour y parvenir, la Haute Autorit\u00e9 de Sant\u00e9 (HAS) recommande l\u2019usage de multiples outils destin\u00e9s \u00e0 \u00e9valuer les r\u00e9percussions de cette maladie sur la vie quotidienne des femmes souffrant d\u2019endom\u00e9triose. Ces outils doivent \u00eatre utilis\u00e9s r\u00e9guli\u00e8rement, en particulier pour personnaliser davantage la prise en charge des patientes, dans tous les aspects de leur sant\u00e9 : physique, psychique et relationnel.",
+      "text": ", l\u2019\u00e9valuation de la qualit\u00e9 de vie fait partie int\u00e9grante du diagnostic et du suivi de l\u2019endom\u00e9triose. Pour y parvenir, la Haute Autorit\u00e9 de Sant\u00e9 (HAS) recommande l\u2019usage de multiples outils destin\u00e9s \u00e0 \u00e9valuer les r\u00e9percussions de cette maladie sur la vie quotidienne des femmes souffrant d\u2019endom\u00e9triose. Ces outils doivent \u00eatre utilis\u00e9s r\u00e9guli\u00e8rement, en particulier pour personnaliser davantage la prise en charge des patientes, dans tous les aspects de leur sant\u00e9 : physique, psychique et relationnel."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

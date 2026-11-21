@@ -1,0 +1,533 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 9855668122497790102,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Troubles digestifs et endom\u00e9triose",
+      "text": "Troubles digestifs et endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les diff\u00e9rents troubles digestifs li\u00e9s \u00e0 l\u2019endom\u00e9triose",
+      "text": "Les diff\u00e9rents troubles digestifs li\u00e9s \u00e0 l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On parle d\u2019",
+      "text": "On parle d'"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose digestive ",
+      "text": "endom\u00e9triose digestive ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "quand l\u2019endom\u00e9triose se d\u00e9veloppe sur les intestins, le colon, le rectum.",
+      "text": "quand l'endom\u00e9triose se d\u00e9veloppe sur les intestins, le colon, le rectum."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les troubles digestifs associ\u00e9s \u00e0 l\u2019endom\u00e9triose sont notamment :",
+      "text": "Les troubles digestifs associ\u00e9s \u00e0 l'endom\u00e9triose sont notamment :"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une alternance de diarrh\u00e9e / constipation, sympt\u00f4me aggrav\u00e9 au moment des r\u00e8gles",
+      "text": "Une alternance de diarrh\u00e9e / constipation, sympt\u00f4me aggrav\u00e9 au moment des r\u00e8gles",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des douleurs lors de la d\u00e9f\u00e9cation",
+      "text": "Des douleurs lors de la d\u00e9f\u00e9cation",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Plus rarement des rectorragies (pr\u00e9sence de sang dans les selles)",
+      "text": "Plus rarement des rectorragies (pr\u00e9sence de sang dans les selles)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des ph\u00e9nom\u00e8nes d\u2019occlusion (ballonnements abdominaux, arr\u00eat des selles et des gaz)",
+      "text": "Des ph\u00e9nom\u00e8nes d'occlusion (ballonnements abdominaux, arr\u00eat des selles et des gaz)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces sympt\u00f4mes sont relativement typiques pour une ",
+      "text": "Ces sympt\u00f4mes sont relativement typiques pour une "
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose digestive",
+      "text": "endom\u00e9triose digestive",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", n\u00e9anmoins dans de nombreux cas ils sont seulement ",
+      "text": ", n\u00e9anmoins dans de nombreux cas ils sont seulement "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le r\u00e9sultat de l\u2019inflammation qui accompagne une endom\u00e9triose superficielle localis\u00e9e \u00e0 proximit\u00e9 du rectum",
+      "text": "le r\u00e9sultat de l'inflammation qui accompagne une endom\u00e9triose superficielle localis\u00e9e \u00e0 proximit\u00e9 du rectum",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Enfin, de nombreuses patientes pr\u00e9sentant une endom\u00e9triose (jusqu\u2019\u00e0 50-60% selon certains auteurs) ont des sympt\u00f4mes digestifs dus \u00e0 l\u2019existence concomitante d\u2019une maladie digestive fonctionnelle (comme le c\u00f4lon irritable) ou inflammatoire (maladie de Crohn, Rectocolite h\u00e9morragique), dont les sympt\u00f4mes sont similaires \u00e0 ceux de l\u2019endom\u00e9triose. Le ",
+      "text": ". Enfin, de nombreuses patientes pr\u00e9sentant une endom\u00e9triose (jusqu'\u00e0 50-60% selon certains auteurs) ont des sympt\u00f4mes digestifs dus \u00e0 l'existence concomitante d'une maladie digestive fonctionnelle (comme le c\u00f4lon irritable) ou inflammatoire (maladie de Crohn, Rectocolite h\u00e9morragique), dont les sympt\u00f4mes sont similaires \u00e0 ceux de l'endom\u00e9triose. Le "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "diagnostic est donc complexe",
+      "text": "diagnostic est donc complexe",
+      "hyperlink": "https://www.endofrance.org/la-maladie-endometriose/diagnostic-endometriose/"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/groups/3"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les cons\u00e9quences de l\u2019endom\u00e9triose digestive",
+      "text": "Les cons\u00e9quences de l'endom\u00e9triose digestive",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les l\u00e9sions d\u2019endom\u00e9triose peuvent finir par infiltrer les tissus et traverser les parois intestinales. Elles peuvent ainsi causer des occlusions intestinales. Le traitement est complexe et souvent chirurgical pour aider au r\u00e9tablissement fonctionnel des organes.",
+      "text": "Les l\u00e9sions d'endom\u00e9triose peuvent finir par infiltrer les tissus et traverser les parois intestinales. Elles peuvent ainsi causer des occlusions intestinales. Le traitement est complexe et souvent chirurgical pour aider au r\u00e9tablissement fonctionnel des organes."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Quand la chirurgie est d\u00e9cid\u00e9e, elle doit \u00eatre men\u00e9e par des experts travaillant avec des \u00e9quipes pluridisciplinaires (gastro-ent\u00e9rologue, chirurgien digestif, chirurgien gyn\u00e9cologue) connaissant la maladie. Cette forme d\u2019endom\u00e9triose impacte fortement la qualit\u00e9 de vie des femmes atteintes.",
+      "text": "Quand la chirurgie est d\u00e9cid\u00e9e, elle doit \u00eatre men\u00e9e par des experts travaillant avec des \u00e9quipes pluridisciplinaires (gastro-ent\u00e9rologue, chirurgien digestif, chirurgien gyn\u00e9cologue) connaissant la maladie. Cette forme d'endom\u00e9triose impacte fortement la qualit\u00e9 de vie des femmes atteintes."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les complications possibles de la chirurgie (mise en place de stomie d\u00e9rivative pour permettre la cicatrisation, risques de fistules, \u2026) doivent \u00eatre discut\u00e9es avec le chirurgien en amont.",
+      "text": "Les complications possibles de la chirurgie (mise en place de stomie d\u00e9rivative pour permettre la cicatrisation, risques de fistules, ...) doivent \u00eatre discut\u00e9es avec le chirurgien en amont."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sur la page liens utiles de notre site, vous trouverez diverses associations qui peuvent vous aider dans votre parcours, notamment ",
+      "text": "Sur la page liens utiles de notre site, vous trouverez diverses associations qui peuvent vous aider dans votre parcours, notamment "
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019Association des Patients Souffrant du Syndr\u00f4me de l\u2019Intestin Irritable ",
+      "text": "l'Association des Patients Souffrant du Syndr\u00f4me de l'Intestin Irritable ",
+      "hyperlink": "https://apssii.org/"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ou l\u2019association ",
+      "text": "ou l'association "
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Gyn & Diets",
+      "text": "Gyn & Diets",
+      "hyperlink": "https://www.gynediets.fr/association"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", association regroupant di\u00e9t\u00e9ticiens et nutritionnistes form\u00e9s \u00e0 la sant\u00e9 f\u00e9minine.",
+      "text": ", association regroupant di\u00e9t\u00e9ticiens et nutritionnistes form\u00e9s \u00e0 la sant\u00e9 f\u00e9minine."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Je visite le site de l'APSSII",
+      "text": "Je visite le site de l'APSSII",
+      "hyperlink": "https://apssii.org/"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,2131 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13763792499306832733,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/groups/13"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/115"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/109"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Un jeune en situation de handicap peut-il avoir un am\u00e9nagement pour passer ses examens ?",
+      "text": "Un jeune en situation de handicap peut-il avoir un am\u00e9nagement pour passer ses examens ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "V\u00e9rifi\u00e9 le 25 septembre 2025 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)",
+      "text": "V\u00e9rifi\u00e9 le 25 septembre 2025 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Oui. Si vous \u00eates \u00e9l\u00e8ve ou \u00e9tudiant en situation de handicap et que vous pr\u00e9parez un examen de l'\u00e9ducation nationale (par exemple : brevet, bac, BTS), vos \u00e9preuves peuvent \u00eatre am\u00e9nag\u00e9es. Nous vous pr\u00e9sentons les informations \u00e0 conna\u00eetre.",
+      "text": "Oui. Si vous \u00eates \u00e9l\u00e8ve ou \u00e9tudiant en situation de handicap et que vous pr\u00e9parez un examen de l'\u00e9ducation nationale (par exemple : brevet, bac, BTS), vos \u00e9preuves peuvent \u00eatre am\u00e9nag\u00e9es. Nous vous pr\u00e9sentons les informations \u00e0 conna\u00eetre."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment un jeune en situation de handicap est-il inform\u00e9 de son droit \u00e0 l'am\u00e9nagement d'un examen ?",
+      "text": "Comment un jeune en situation de handicap est-il inform\u00e9 de son droit \u00e0 l'am\u00e9nagement d'un examen ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le ",
+      "text": "Le "
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "chef d'\u00e9tablissement",
+      "text": "chef d'\u00e9tablissement",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " doit vous informer de votre droit \u00e0 l'am\u00e9nagement d'un examen ou d'un concours ",
+      "text": " doit vous informer de votre droit \u00e0 l'am\u00e9nagement d'un examen ou d'un concours "
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "au d\u00e9but de l'ann\u00e9e scolaire",
+      "text": "au d\u00e9but de l'ann\u00e9e scolaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pr\u00e9c\u00e9dant l'examen.",
+      "text": " pr\u00e9c\u00e9dant l'examen."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment un jeune en situation de handicap peut demander l'am\u00e9nagement d'un examen ?",
+      "text": "Comment un jeune en situation de handicap peut demander l'am\u00e9nagement d'un examen ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez faire votre demande au plus tard \u00e0 la date limite des inscriptions \u00e0 l'examen ou au concours concern\u00e9. Toutefois, si le handicap est reconnu apr\u00e8s cette date, vous pourrez d\u00e9poser votre demande.",
+      "text": "Vous devez faire votre demande au plus tard \u00e0 la date limite des inscriptions \u00e0 l'examen ou au concours concern\u00e9. Toutefois, si le handicap est reconnu apr\u00e8s cette date, vous pourrez d\u00e9poser votre demande."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si l'examen se d\u00e9roule sur plusieurs sessions, vous pouvez d\u00e9poser une demande unique d'am\u00e9nagement pour l'ensemble des \u00e9preuves.",
+      "text": "Si l'examen se d\u00e9roule sur plusieurs sessions, vous pouvez d\u00e9poser une demande unique d'am\u00e9nagement pour l'ensemble des \u00e9preuves."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La demande se fait de mani\u00e8re diff\u00e9rente selon le type de scolarisation.",
+      "text": "La demande se fait de mani\u00e8re diff\u00e9rente selon le type de scolarisation."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement",
+      "text": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dans le public",
+      "text": "Dans le public",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les d\u00e9marches sont diff\u00e9rentes selon que vous b\u00e9n\u00e9ficiez ou non d'un projet d'accueil individualis\u00e9 (PAI), d'un plan d'accompagnement personnalis\u00e9 (PAP) ou d'un projet personnalis\u00e9 de scolarisation (PPS).",
+      "text": "Les d\u00e9marches sont diff\u00e9rentes selon que vous b\u00e9n\u00e9ficiez ou non d'un projet d'accueil individualis\u00e9 (PAI), d'un plan d'accompagnement personnalis\u00e9 (PAP) ou d'un projet personnalis\u00e9 de scolarisation (PPS)."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Vous b\u00e9n\u00e9ficiez d'un PAI, d'un PAP ou d'un PPS",
+      "text": "Vous b\u00e9n\u00e9ficiez d'un PAI, d'un PAP ou d'un PPS",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure simplifi\u00e9e",
+      "text": "proc\u00e9dure simplifi\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s.",
+      "text": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez ensuite transmettre votre demande \u00e0 l'autorit\u00e9 administrative qui organise l'examen ou le concours.",
+      "text": "Vous devez ensuite transmettre votre demande \u00e0 l'autorit\u00e9 administrative qui organise l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Autre cas",
+      "text": "Autre cas",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure compl\u00e8te",
+      "text": "proc\u00e9dure compl\u00e8te",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9.",
+      "text": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s.",
+      "text": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez ensuite transmettre votre demande au m\u00e9decin de votre \u00e9tablissement. Celui-ci transmettra votre dossier au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) du d\u00e9partement.",
+      "text": "Vous devez ensuite transmettre votre demande au m\u00e9decin de votre \u00e9tablissement. Celui-ci transmettra votre dossier au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) du d\u00e9partement."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend un avis et propose des am\u00e9nagements.",
+      "text": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend un avis et propose des am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dans le priv\u00e9 sous contrat",
+      "text": "Dans le priv\u00e9 sous contrat",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les d\u00e9marches sont diff\u00e9rentes selon que vous b\u00e9n\u00e9ficiez ou non d'un projet d'accueil individualis\u00e9 (PAI), d'un plan d'accompagnement personnalis\u00e9 (PAP) ou d'un projet personnalis\u00e9 de scolarisation (PPS).",
+      "text": "Les d\u00e9marches sont diff\u00e9rentes selon que vous b\u00e9n\u00e9ficiez ou non d'un projet d'accueil individualis\u00e9 (PAI), d'un plan d'accompagnement personnalis\u00e9 (PAP) ou d'un projet personnalis\u00e9 de scolarisation (PPS)."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Vous b\u00e9n\u00e9ficiez d'un PAI, d'un PAP ou d'un PPS",
+      "text": "Vous b\u00e9n\u00e9ficiez d'un PAI, d'un PAP ou d'un PPS",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure simplifi\u00e9e",
+      "text": "proc\u00e9dure simplifi\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s.",
+      "text": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez ensuite transmettre votre demande \u00e0 l'autorit\u00e9 administrative qui organise l'examen ou le concours.",
+      "text": "Vous devez ensuite transmettre votre demande \u00e0 l'autorit\u00e9 administrative qui organise l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Autre cas",
+      "text": "Autre cas",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure compl\u00e8te",
+      "text": "proc\u00e9dure compl\u00e8te",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9.",
+      "text": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s.",
+      "text": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez ensuite transmettre votre demande au m\u00e9decin de votre \u00e9tablissement. Celui-ci transmettra votre dossier au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) du d\u00e9partement.",
+      "text": "Vous devez ensuite transmettre votre demande au m\u00e9decin de votre \u00e9tablissement. Celui-ci transmettra votre dossier au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) du d\u00e9partement."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend un avis et propose des am\u00e9nagements.",
+      "text": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend un avis et propose des am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours.",
+      "text": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dans le priv\u00e9 hors contrat",
+      "text": "Dans le priv\u00e9 hors contrat",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure compl\u00e8te",
+      "text": "proc\u00e9dure compl\u00e8te",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9.",
+      "text": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez transmettre la demande au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement :",
+      "text": "Vous devez transmettre la demande au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement :"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend d'abord un avis et propose des am\u00e9nagements.",
+      "text": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend d'abord un avis et propose des am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours.",
+      "text": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Centre national d'enseignement \u00e0 distance (Cned)",
+      "text": "Centre national d'enseignement \u00e0 distance (Cned)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure compl\u00e8te",
+      "text": "proc\u00e9dure compl\u00e8te",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9.",
+      "text": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez transmettre la demande au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement :",
+      "text": "Vous devez transmettre la demande au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement :"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend d'abord un avis et propose des am\u00e9nagements.",
+      "text": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend d'abord un avis et propose des am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours.",
+      "text": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Candidat libre",
+      "text": "Candidat libre",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure compl\u00e8te",
+      "text": "proc\u00e9dure compl\u00e8te",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9.",
+      "text": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez transmettre la demande au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement :",
+      "text": "Vous devez transmettre la demande au m\u00e9decin d\u00e9sign\u00e9 par la Commission des droits et de l'autonomie des personnes handicap\u00e9es (CDAPH) de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement :"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend d'abord un avis et propose des am\u00e9nagements.",
+      "text": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend d'abord un avis et propose des am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours.",
+      "text": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dans un \u00e9tablissement fran\u00e7ais \u00e0 l\u2019\u00e9tranger",
+      "text": "Dans un \u00e9tablissement fran\u00e7ais \u00e0 l\u2019\u00e9tranger",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les d\u00e9marches sont diff\u00e9rentes selon que vous b\u00e9n\u00e9ficiez ou non d'un projet d'accueil individualis\u00e9 (PAI)Plan d'accompagnement personnalis\u00e9 ou d'un projet personnalis\u00e9 de scolarisation (PPS).",
+      "text": "Les d\u00e9marches sont diff\u00e9rentes selon que vous b\u00e9n\u00e9ficiez ou non d'un projet d'accueil individualis\u00e9 (PAI)Plan d'accompagnement personnalis\u00e9 ou d'un projet personnalis\u00e9 de scolarisation (PPS)."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Vous b\u00e9n\u00e9ficiez d'un PAI ou d'un PPS",
+      "text": "Vous b\u00e9n\u00e9ficiez d'un PAI ou d'un PPS",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure simplifi\u00e9e",
+      "text": "proc\u00e9dure simplifi\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s.",
+      "text": "Vous devez d'abord remettre le formulaire \u00e0 votre professeur principal. L'\u00e9quipe p\u00e9dagogique y inscrit une appr\u00e9ciation sur les am\u00e9nagements demand\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez ensuite transmettre votre demande \u00e0 l'autorit\u00e9 administrative qui organise l'examen ou le concours.",
+      "text": "Vous devez ensuite transmettre votre demande \u00e0 l'autorit\u00e9 administrative qui organise l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Autre cas",
+      "text": "Autre cas",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e ",
+      "text": "Vous pouvez faire votre demande en remplissant un formulaire acad\u00e9mique mis \u00e0 disposition par le service responsable des examens et concours. Cette d\u00e9marche est appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "proc\u00e9dure compl\u00e8te",
+      "text": "proc\u00e9dure compl\u00e8te",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9.",
+      "text": "Votre demande doit \u00eatre accompagn\u00e9e d'informations m\u00e9dicales sous pli cachet\u00e9."
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez transmettre votre demande au chef d\u2019\u00e9tablissement, qui la fait parvenir au m\u00e9decin conseil plac\u00e9 aupr\u00e8s des autorit\u00e9s consulaires.",
+      "text": "Vous devez transmettre votre demande au chef d\u2019\u00e9tablissement, qui la fait parvenir au m\u00e9decin conseil plac\u00e9 aupr\u00e8s des autorit\u00e9s consulaires."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend un avis et propose des am\u00e9nagements.",
+      "text": "Une fois la demande d\u00e9pos\u00e9e, le m\u00e9decin rend un avis et propose des am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours.",
+      "text": "Il transmet ensuite le dossier \u00e0 l'autorit\u00e9 administrative charg\u00e9e d'organiser l'examen ou le concours."
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter",
+      "text": "\u00c0 noter"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "envoyez \u00e9galement une copie de votre demande ",
+      "text": "envoyez \u00e9galement une copie de votre demande "
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sans information m\u00e9dicale",
+      "text": "sans information m\u00e9dicale",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " au service charg\u00e9 d'organiser l'examen.",
+      "text": " au service charg\u00e9 d'organiser l'examen."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'autorit\u00e9 administrative qui organise l'examen ou le concours prend une d\u00e9cision et vous la ",
+      "text": "L'autorit\u00e9 administrative qui organise l'examen ou le concours prend une d\u00e9cision et vous la "
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "notifie",
+      "text": "notifie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " dans les ",
+      "text": " dans les "
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "2 mois",
+      "text": "2 mois",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " apr\u00e8s r\u00e9ception de votre demande.",
+      "text": " apr\u00e8s r\u00e9ception de votre demande."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quels sont les am\u00e9nagements d\u2019examen possibles pour un jeune en situation de handicap ?",
+      "text": "Quels sont les am\u00e9nagements d\u2019examen possibles pour un jeune en situation de handicap ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les am\u00e9nagements possibles sont notamment les suivants :",
+      "text": "Les am\u00e9nagements possibles sont notamment les suivants :"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Augmentation du temps pr\u00e9vu pour une ou plusieurs \u00e9preuves, sans d\u00e9passer le tiers du temps normalement consacr\u00e9 pour chacune d'elles. Cette augmentation peut \u00eatre allong\u00e9e en cas de situation exceptionnelle, sur demande motiv\u00e9e du m\u00e9decin d\u00e9sign\u00e9 par la CDAPH",
+      "text": "Augmentation du temps pr\u00e9vu pour une ou plusieurs \u00e9preuves, sans d\u00e9passer le tiers du temps normalement consacr\u00e9 pour chacune d'elles. Cette augmentation peut \u00eatre allong\u00e9e en cas de situation exceptionnelle, sur demande motiv\u00e9e du m\u00e9decin d\u00e9sign\u00e9 par la CDAPH",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Am\u00e9nagement des conditions de d\u00e9roulement des \u00e9preuves (conditions mat\u00e9rielles, aides techniques ou humaines)",
+      "text": "Am\u00e9nagement des conditions de d\u00e9roulement des \u00e9preuves (conditions mat\u00e9rielles, aides techniques ou humaines)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Conservation pendant 5 ans des notes aux \u00e9preuves ou des unit\u00e9s obtenues \u00e0 un examen",
+      "text": "Conservation pendant 5 ans des notes aux \u00e9preuves ou des unit\u00e9s obtenues \u00e0 un examen",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "B\u00e9n\u00e9fice d'acquis obtenus dans le cadre de la proc\u00e9dure de validation des acquis de l'exp\u00e9rience (VAE)",
+      "text": "B\u00e9n\u00e9fice d'acquis obtenus dans le cadre de la proc\u00e9dure de validation des acquis de l'exp\u00e9rience (VAE)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00c9talement du passage des \u00e9preuves sur plusieurs sessions",
+      "text": "\u00c9talement du passage des \u00e9preuves sur plusieurs sessions",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Adaptations ou dispenses d'\u00e9preuves",
+      "text": "Adaptations ou dispenses d'\u00e9preuves",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment un jeune en situation de handicap peut-il contester le refus d'am\u00e9nagement d'un examen ?",
+      "text": "Comment un jeune en situation de handicap peut-il contester le refus d'am\u00e9nagement d'un examen ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez contester le refus en pr\u00e9sentant un recours administratif aupr\u00e8s de celui qui a pris la d\u00e9cision ou aupr\u00e8s de son sup\u00e9rieur hi\u00e9rarchique.",
+      "text": "Vous pouvez contester le refus en pr\u00e9sentant un recours administratif aupr\u00e8s de celui qui a pris la d\u00e9cision ou aupr\u00e8s de son sup\u00e9rieur hi\u00e9rarchique."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si votre recours est rejet\u00e9, vous pouvez contester la d\u00e9cision devant le tribunal administratif du lieu o\u00f9 si\u00e8ge l'autorit\u00e9 ayant refus\u00e9 l'am\u00e9nagement.",
+      "text": "Si votre recours est rejet\u00e9, vous pouvez contester la d\u00e9cision devant le tribunal administratif du lieu o\u00f9 si\u00e8ge l'autorit\u00e9 ayant refus\u00e9 l'am\u00e9nagement."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qui peut m'aider ?",
+      "text": "Qui peut m'aider ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?",
+      "text": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aide - Handicap - \u00c9cole Aide et soutien aux parents d'enfant et aux enfants en situation de handicap dans leurs relations avec les services scolaires ",
+      "text": "Aide - Handicap - \u00c9cole Aide et soutien aux parents d'enfant et aux enfants en situation de handicap dans leurs relations avec les services scolaires "
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Par t\u00e9l\u00e9phone 0 800 730 123",
+      "text": "Par t\u00e9l\u00e9phone 0 800 730 123",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (ce service t\u00e9l\u00e9phonique gratuit est accessible par les personnes sourdes et malentendantes) Du lundi au vendredi de 9h \u00e0 17h ",
+      "text": " (ce service t\u00e9l\u00e9phonique gratuit est accessible par les personnes sourdes et malentendantes) Du lundi au vendredi de 9h \u00e0 17h "
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Par messagerie",
+      "text": "Par messagerie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " aidehandicapecole@education.gouv.fr",
+      "text": " aidehandicapecole@education.gouv.fr",
+      "hyperlink": "mailto:aidehandicapecole@education.gouv.fr"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00c9tablissement scolaire",
+      "text": "\u00c9tablissement scolaire",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

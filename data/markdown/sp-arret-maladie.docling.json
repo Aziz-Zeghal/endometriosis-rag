@@ -1,0 +1,4367 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13715695780017035815,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/groups/20"
+      },
+      {
+        "$ref": "#/groups/26"
+      },
+      {
+        "$ref": "#/groups/27"
+      },
+      {
+        "$ref": "#/groups/28"
+      },
+      {
+        "$ref": "#/texts/135"
+      },
+      {
+        "$ref": "#/texts/136"
+      },
+      {
+        "$ref": "#/groups/29"
+      },
+      {
+        "$ref": "#/texts/140"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/groups/30"
+      },
+      {
+        "$ref": "#/texts/148"
+      },
+      {
+        "$ref": "#/texts/149"
+      },
+      {
+        "$ref": "#/groups/31"
+      },
+      {
+        "$ref": "#/texts/157"
+      },
+      {
+        "$ref": "#/texts/158"
+      },
+      {
+        "$ref": "#/texts/159"
+      },
+      {
+        "$ref": "#/texts/160"
+      },
+      {
+        "$ref": "#/groups/32"
+      },
+      {
+        "$ref": "#/texts/164"
+      },
+      {
+        "$ref": "#/texts/165"
+      },
+      {
+        "$ref": "#/texts/166"
+      },
+      {
+        "$ref": "#/groups/33"
+      },
+      {
+        "$ref": "#/texts/171"
+      },
+      {
+        "$ref": "#/texts/172"
+      },
+      {
+        "$ref": "#/texts/173"
+      },
+      {
+        "$ref": "#/texts/174"
+      },
+      {
+        "$ref": "#/texts/175"
+      },
+      {
+        "$ref": "#/groups/34"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/120"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/texts/107"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/texts/111"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/texts/114"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/texts/117"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/texts/120"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        },
+        {
+          "$ref": "#/texts/155"
+        },
+        {
+          "$ref": "#/texts/156"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        },
+        {
+          "$ref": "#/texts/163"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/168"
+        },
+        {
+          "$ref": "#/texts/169"
+        },
+        {
+          "$ref": "#/texts/170"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/176"
+        },
+        {
+          "$ref": "#/texts/177"
+        },
+        {
+          "$ref": "#/texts/178"
+        },
+        {
+          "$ref": "#/texts/179"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/35",
+      "parent": {
+        "$ref": "#/texts/179"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/180"
+        },
+        {
+          "$ref": "#/texts/211"
+        },
+        {
+          "$ref": "#/texts/214"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/36",
+      "parent": {
+        "$ref": "#/texts/180"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/181"
+        },
+        {
+          "$ref": "#/texts/182"
+        },
+        {
+          "$ref": "#/texts/183"
+        },
+        {
+          "$ref": "#/texts/184"
+        },
+        {
+          "$ref": "#/texts/185"
+        },
+        {
+          "$ref": "#/texts/186"
+        },
+        {
+          "$ref": "#/texts/187"
+        },
+        {
+          "$ref": "#/texts/188"
+        },
+        {
+          "$ref": "#/texts/189"
+        },
+        {
+          "$ref": "#/texts/190"
+        },
+        {
+          "$ref": "#/texts/191"
+        },
+        {
+          "$ref": "#/texts/192"
+        },
+        {
+          "$ref": "#/texts/193"
+        },
+        {
+          "$ref": "#/texts/194"
+        },
+        {
+          "$ref": "#/texts/195"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/37",
+      "parent": {
+        "$ref": "#/texts/180"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/196"
+        },
+        {
+          "$ref": "#/texts/199"
+        },
+        {
+          "$ref": "#/texts/202"
+        },
+        {
+          "$ref": "#/texts/205"
+        },
+        {
+          "$ref": "#/texts/208"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/38",
+      "parent": {
+        "$ref": "#/texts/196"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/197"
+        },
+        {
+          "$ref": "#/texts/198"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/39",
+      "parent": {
+        "$ref": "#/texts/199"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/200"
+        },
+        {
+          "$ref": "#/texts/201"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/40",
+      "parent": {
+        "$ref": "#/texts/202"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/203"
+        },
+        {
+          "$ref": "#/texts/204"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/41",
+      "parent": {
+        "$ref": "#/texts/205"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/206"
+        },
+        {
+          "$ref": "#/texts/207"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/42",
+      "parent": {
+        "$ref": "#/texts/208"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/209"
+        },
+        {
+          "$ref": "#/texts/210"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/43",
+      "parent": {
+        "$ref": "#/texts/211"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/212"
+        },
+        {
+          "$ref": "#/texts/213"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Arr\u00eat maladie : d\u00e9marches \u00e0 effectuer par le salari\u00e9",
+      "text": "Arr\u00eat maladie : d\u00e9marches \u00e0 effectuer par le salari\u00e9"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "V\u00e9rifi\u00e9 le 01 septembre 2026 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)",
+      "text": "V\u00e9rifi\u00e9 le 01 septembre 2026 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque vous \u00eates en arr\u00eat de travail pour maladie, certaines d\u00e9marches doivent \u00eatre r\u00e9alis\u00e9es aupr\u00e8s de votre employeur et de votre organisme de S\u00e9curit\u00e9 sociale (",
+      "text": "Lorsque vous \u00eates en arr\u00eat de travail pour maladie, certaines d\u00e9marches doivent \u00eatre r\u00e9alis\u00e9es aupr\u00e8s de votre employeur et de votre organisme de S\u00e9curit\u00e9 sociale ("
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "CPAM",
+      "text": "CPAM",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou ",
+      "text": " ou "
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MSA",
+      "text": "MSA",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "). Ces d\u00e9marches s\u2019appliquent en cas de premier arr\u00eat ou de prolongation. Nous vous pr\u00e9sentons les renseignements utiles et vous expliquons comment effectuer les d\u00e9marches dans les d\u00e9lais.",
+      "text": "). Ces d\u00e9marches s\u2019appliquent en cas de premier arr\u00eat ou de prolongation. Nous vous pr\u00e9sentons les renseignements utiles et vous expliquons comment effectuer les d\u00e9marches dans les d\u00e9lais."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Arr\u00eat initial",
+      "text": "Arr\u00eat initial",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Prolongation",
+      "text": "Prolongation",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Arr\u00eat initial",
+      "text": "Arr\u00eat initial",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quand et comment le salari\u00e9 doit-il pr\u00e9venir son employeur lorsqu'il est malade ?",
+      "text": "Quand et comment le salari\u00e9 doit-il pr\u00e9venir son employeur lorsqu'il est malade ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque votre \u00e9tat de sant\u00e9 ne vous permet pas de travailler pour cause de maladie, vous devez pr\u00e9venir, ",
+      "text": "Lorsque votre \u00e9tat de sant\u00e9 ne vous permet pas de travailler pour cause de maladie, vous devez pr\u00e9venir, "
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sans d\u00e9lai",
+      "text": "sans d\u00e9lai",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", votre employeur et ce, par tous moyens\u00a0: soit par oral (t\u00e9l\u00e9phone), soit par \u00e9crit (mail, SMS,...).",
+      "text": ", votre employeur et ce, par tous moyens\u00a0: soit par oral (t\u00e9l\u00e9phone), soit par \u00e9crit (mail, SMS,...)."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si la ",
+      "text": "Si la "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "convention collective",
+      "text": "convention collective",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " en vigueur ou un accord d'entreprise ne fixe pas de d\u00e9lai, l'usage veut que cette information soit donn\u00e9e \u00e0 l'employeur ",
+      "text": " en vigueur ou un accord d'entreprise ne fixe pas de d\u00e9lai, l'usage veut que cette information soit donn\u00e9e \u00e0 l'employeur "
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dans les 48 heures",
+      "text": "dans les 48 heures",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " suivant le d\u00e9but de votre arr\u00eat.",
+      "text": " suivant le d\u00e9but de votre arr\u00eat."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decin",
+      "text": "m\u00e9decin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pr\u00e9cisant les dates et motifs de l'arr\u00eat de travail.",
+      "text": " pr\u00e9cisant les dates et motifs de l'arr\u00eat de travail."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019arr\u00eat de travail peut \u00eatre prescrit par ",
+      "text": "L\u2019arr\u00eat de travail peut \u00eatre prescrit par "
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "tout m\u00e9decin",
+      "text": "tout m\u00e9decin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", et pas uniquement par votre m\u00e9decin traitant. Il peut s\u2019agir par exemple d\u2019un m\u00e9decin urgentiste, d\u2019un sp\u00e9cialiste ou d\u2019un m\u00e9decin de garde. Dans certains cas, une sage-femme ou un chirurgien-dentiste peut \u00e9galement d\u00e9livrer un arr\u00eat maladie, en lien avec son domaine d'intervention.",
+      "text": ", et pas uniquement par votre m\u00e9decin traitant. Il peut s\u2019agir par exemple d\u2019un m\u00e9decin urgentiste, d\u2019un sp\u00e9cialiste ou d\u2019un m\u00e9decin de garde. Dans certains cas, une sage-femme ou un chirurgien-dentiste peut \u00e9galement d\u00e9livrer un arr\u00eat maladie, en lien avec son domaine d'intervention."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Attention",
+      "text": "Attention"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous travaillez pour plusieurs employeurs, et que le m\u00e9decin a d\u00e9termin\u00e9 que vous n'avez pas le droit d'exercer vos activit\u00e9s. vous devez avertir chacun d'entre eux. Pour ce faire, vous devez envoyer des photocopies du volet 3.",
+      "text": "Si vous travaillez pour plusieurs employeurs, et que le m\u00e9decin a d\u00e9termin\u00e9 que vous n'avez pas le droit d'exercer vos activit\u00e9s. vous devez avertir chacun d'entre eux. Pour ce faire, vous devez envoyer des photocopies du volet 3."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelle est la dur\u00e9e maximale d'une premi\u00e8re prescription d'arr\u00eat de travail ?",
+      "text": "Quelle est la dur\u00e9e maximale d'une premi\u00e8re prescription d'arr\u00eat de travail ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis le ",
+      "text": "Depuis le "
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "1",
+      "text": "1",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "er",
+      "text": "er",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " septembre 2026",
+      "text": " septembre 2026",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", un m\u00e9decin ne peut pas prescrire un arr\u00eat de travail initial pour une dur\u00e9e sup\u00e9rieure \u00e0 ",
+      "text": ", un m\u00e9decin ne peut pas prescrire un arr\u00eat de travail initial pour une dur\u00e9e sup\u00e9rieure \u00e0 "
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "31 jours",
+      "text": "31 jours",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " lorsque cet arr\u00eat ouvre droit au versement d'indemnit\u00e9s journali\u00e8res.",
+      "text": " lorsque cet arr\u00eat ouvre droit au versement d'indemnit\u00e9s journali\u00e8res."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "limite pour une m\u00eame prescription",
+      "text": "limite pour une m\u00eame prescription",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Elle ne signifie pas que votre arr\u00eat de travail ne peut pas d\u00e9passer 31 jours au total.",
+      "text": ". Elle ne signifie pas que votre arr\u00eat de travail ne peut pas d\u00e9passer 31 jours au total."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "justifier",
+      "text": "justifier",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " cette dur\u00e9e sur la prescription.",
+      "text": " cette dur\u00e9e sur la prescription."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La dur\u00e9e d'un arr\u00eat de travail prescrit lors d'une ",
+      "text": "La dur\u00e9e d'un arr\u00eat de travail prescrit lors d'une "
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "t\u00e9l\u00e9consultation",
+      "text": "t\u00e9l\u00e9consultation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ne peut en principe pas d\u00e9passer ",
+      "text": " ne peut en principe pas d\u00e9passer "
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "3 jours",
+      "text": "3 jours",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour \u00eatre indemnis\u00e9. Des exceptions sont pr\u00e9vues notamment lorsque la t\u00e9l\u00e9consultation est r\u00e9alis\u00e9e avec le m\u00e9decin traitant ou son rempla\u00e7ant ou avec la sage-femme r\u00e9f\u00e9rente.",
+      "text": " pour \u00eatre indemnis\u00e9. Des exceptions sont pr\u00e9vues notamment lorsque la t\u00e9l\u00e9consultation est r\u00e9alis\u00e9e avec le m\u00e9decin traitant ou son rempla\u00e7ant ou avec la sage-femme r\u00e9f\u00e9rente."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Que se passe-t-il si le salari\u00e9 ne transmet pas l'arr\u00eat maladie \u00e0 son employeur ?",
+      "text": "Que se passe-t-il si le salari\u00e9 ne transmet pas l'arr\u00eat maladie \u00e0 son employeur ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous ne respectez pas l'obligation d'information et de transmission vis-\u00e0-vis de votre employeur, vous risquez alors une\u00a0sanction disciplinaire pouvant aller jusqu'au licenciement. L'absence injustifi\u00e9e peut constituer une cause r\u00e9elle et s\u00e9rieuse de licenciement.",
+      "text": "Si vous ne respectez pas l'obligation d'information et de transmission vis-\u00e0-vis de votre employeur, vous risquez alors une\u00a0sanction disciplinaire pouvant aller jusqu'au licenciement. L'absence injustifi\u00e9e peut constituer une cause r\u00e9elle et s\u00e9rieuse de licenciement."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quel d\u00e9lai doit respecter le salari\u00e9 pour pr\u00e9venir son organisme de S\u00e9curit\u00e9 sociale lorsqu'il est malade ?",
+      "text": "Quel d\u00e9lai doit respecter le salari\u00e9 pour pr\u00e9venir son organisme de S\u00e9curit\u00e9 sociale lorsqu'il est malade ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous avez un d\u00e9lai de ",
+      "text": "Vous avez un d\u00e9lai de "
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "48 heures",
+      "text": "48 heures",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour informer votre organisme de S\u00e9curit\u00e9 sociale (",
+      "text": " pour informer votre organisme de S\u00e9curit\u00e9 sociale ("
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "CPAM",
+      "text": "CPAM",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou ",
+      "text": " ou "
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MSA",
+      "text": "MSA",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ").",
+      "text": ")."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Attention",
+      "text": "Attention"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si votre arr\u00eat de travail est \u00e9tabli sur support papier, seul le formulaire cerfa s\u00e9curis\u00e9 (n\u00b010170*08) comportant des dispositifs d\u2019authentification renforc\u00e9s sera accept\u00e9 par votre organisme de S\u00e9curit\u00e9 sociale. Ce nouveau formulaire contient notamment une \u00e9tiquette holographique et d\u2019autres \u00e9l\u00e9ments de s\u00e9curit\u00e9 destin\u00e9s \u00e0 lutter contre la fraude.",
+      "text": "Si votre arr\u00eat de travail est \u00e9tabli sur support papier, seul le formulaire cerfa s\u00e9curis\u00e9 (n\u00b010170*08) comportant des dispositifs d\u2019authentification renforc\u00e9s sera accept\u00e9 par votre organisme de S\u00e9curit\u00e9 sociale. Ce nouveau formulaire contient notamment une \u00e9tiquette holographique et d\u2019autres \u00e9l\u00e9ments de s\u00e9curit\u00e9 destin\u00e9s \u00e0 lutter contre la fraude."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis le ",
+      "text": "Depuis le "
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "1",
+      "text": "1",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "er",
+      "text": "er",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " septembre 2025",
+      "text": " septembre 2025",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", les anciens formulaires papier, les photocopies et les scans ne sont plus accept\u00e9s par l'Assurance Maladie.",
+      "text": ", les anciens formulaires papier, les photocopies et les scans ne sont plus accept\u00e9s par l'Assurance Maladie."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette d\u00e9marche vous permet de percevoir des indemnit\u00e9s de la S\u00e9curit\u00e9 sociale et, si vous y avez droit, des indemnit\u00e9s de votre employeur.",
+      "text": "Cette d\u00e9marche vous permet de percevoir des indemnit\u00e9s de la S\u00e9curit\u00e9 sociale et, si vous y avez droit, des indemnit\u00e9s de votre employeur."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter",
+      "text": "\u00c0 noter"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans de nombreux cas, notamment lorsque vous avez eu recours \u00e0 une t\u00e9l\u00e9consultation, le m\u00e9decin t\u00e9l\u00e9transmet automatiquement les volets n\u00b01 et n\u00b02 de l\u2019arr\u00eat de travail \u00e0 votre caisse d\u2019assurance maladie. Vous recevez uniquement le volet n\u00b03, que vous devez transmettre \u00e0 votre employeur.",
+      "text": "Dans de nombreux cas, notamment lorsque vous avez eu recours \u00e0 une t\u00e9l\u00e9consultation, le m\u00e9decin t\u00e9l\u00e9transmet automatiquement les volets n\u00b01 et n\u00b02 de l\u2019arr\u00eat de travail \u00e0 votre caisse d\u2019assurance maladie. Vous recevez uniquement le volet n\u00b03, que vous devez transmettre \u00e0 votre employeur."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement",
+      "text": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Que se passe-t-il si le salari\u00e9 transmet l'arr\u00eat maladie en retard \u00e0 son organisme de S\u00e9curit\u00e9 sociale ?",
+      "text": "Que se passe-t-il si le salari\u00e9 transmet l'arr\u00eat maladie en retard \u00e0 son organisme de S\u00e9curit\u00e9 sociale ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous transmettez votre arr\u00eat de travail apr\u00e8s le d\u00e9lai de 48 heures, votre caisse d'assurance maladie vous informe du retard et vous avertit des cons\u00e9quences en cas de nouvel envoi tardif.",
+      "text": "Si vous transmettez votre arr\u00eat de travail apr\u00e8s le d\u00e9lai de 48 heures, votre caisse d'assurance maladie vous informe du retard et vous avertit des cons\u00e9quences en cas de nouvel envoi tardif."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de nouvel envoi tardif dans les 2 ans, vos indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 50 % pour la p\u00e9riode comprise entre la date de prescription de l'arr\u00eat et sa date d'envoi.",
+      "text": "En cas de nouvel envoi tardif dans les 2 ans, vos indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 50 % pour la p\u00e9riode comprise entre la date de prescription de l'arr\u00eat et sa date d'envoi."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de nouveau retard, une r\u00e9duction plus importante peut s'appliquer. Depuis le 1",
+      "text": "En cas de nouveau retard, une r\u00e9duction plus importante peut s'appliquer. Depuis le 1"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "er",
+      "text": "er"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " janvier 2026, lorsque l'arr\u00eat est re\u00e7u par la caisse apr\u00e8s la fin de la p\u00e9riode prescrite, les indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 100 % pour toute la p\u00e9riode concern\u00e9e.",
+      "text": " janvier 2026, lorsque l'arr\u00eat est re\u00e7u par la caisse apr\u00e8s la fin de la p\u00e9riode prescrite, les indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 100 % pour toute la p\u00e9riode concern\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aucune r\u00e9duction n'est appliqu\u00e9e si vous justifiez d'une hospitalisation ou de l'impossibilit\u00e9 de transmettre votre arr\u00eat dans le d\u00e9lai de 48 heures.",
+      "text": "Aucune r\u00e9duction n'est appliqu\u00e9e si vous justifiez d'une hospitalisation ou de l'impossibilit\u00e9 de transmettre votre arr\u00eat dans le d\u00e9lai de 48 heures."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles obligations le salari\u00e9 doit respecter pendant l'arr\u00eat de travail ?",
+      "text": "Quelles obligations le salari\u00e9 doit respecter pendant l'arr\u00eat de travail ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Durant l'arr\u00eat de travail, vous devez respecter les obligations suivantes :",
+      "text": "Durant l'arr\u00eat de travail, vous devez respecter les obligations suivantes :"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Suivre les prescriptions de votre m\u00e9decin",
+      "text": "Suivre les prescriptions de votre m\u00e9decin",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vous soumettre aux contr\u00f4les m\u00e9dicaux organis\u00e9s par votre employeur et/ou la S\u00e9curit\u00e9 sociale",
+      "text": "Vous soumettre aux contr\u00f4les m\u00e9dicaux organis\u00e9s par votre employeur et/ou la S\u00e9curit\u00e9 sociale",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Respecter l'interdiction de sortie ou les heures de sorties autoris\u00e9es",
+      "text": "Respecter l'interdiction de sortie ou les heures de sorties autoris\u00e9es",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vous abstenir de toute activit\u00e9, sauf autorisation de votre m\u00e9decin traitant",
+      "text": "Vous abstenir de toute activit\u00e9, sauf autorisation de votre m\u00e9decin traitant",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous ne respectez pas ces obligations, le versement des indemnit\u00e9s journali\u00e8res est suspendu.",
+      "text": "Si vous ne respectez pas ces obligations, le versement des indemnit\u00e9s journali\u00e8res est suspendu."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De plus, si vous exercez une activit\u00e9 r\u00e9mun\u00e9r\u00e9e non autoris\u00e9e par votre m\u00e9decin traitant, vous vous exposez \u00e0 une sanction financi\u00e8re.",
+      "text": "De plus, si vous exercez une activit\u00e9 r\u00e9mun\u00e9r\u00e9e non autoris\u00e9e par votre m\u00e9decin traitant, vous vous exposez \u00e0 une sanction financi\u00e8re."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Prolongation",
+      "text": "Prolongation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelle est la dur\u00e9e maximale d'une prolongation d'arr\u00eat de travail ?",
+      "text": "Quelle est la dur\u00e9e maximale d'une prolongation d'arr\u00eat de travail ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis le ",
+      "text": "Depuis le "
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "1",
+      "text": "1",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "er",
+      "text": "er",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " septembre 2026",
+      "text": " septembre 2026",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", chaque prolongation d'un arr\u00eat de travail donnant lieu au versement d'indemnit\u00e9s journali\u00e8res est limit\u00e9e \u00e0 ",
+      "text": ", chaque prolongation d'un arr\u00eat de travail donnant lieu au versement d'indemnit\u00e9s journali\u00e8res est limit\u00e9e \u00e0 "
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "62 jours",
+      "text": "62 jours",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette limite concerne la dur\u00e9e de ",
+      "text": "Cette limite concerne la dur\u00e9e de "
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "chaque prolongation",
+      "text": "chaque prolongation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et non la dur\u00e9e totale de l'arr\u00eat de travail. Plusieurs prolongations peuvent donc \u00eatre prescrites si votre \u00e9tat de sant\u00e9 le justifie.",
+      "text": " et non la dur\u00e9e totale de l'arr\u00eat de travail. Plusieurs prolongations peuvent donc \u00eatre prescrites si votre \u00e9tat de sant\u00e9 le justifie."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutefois, le professionnel de sant\u00e9 peut prescrire une prolongation d'une dur\u00e9e sup\u00e9rieure \u00e0 62 jours s'il ",
+      "text": "Toutefois, le professionnel de sant\u00e9 peut prescrire une prolongation d'une dur\u00e9e sup\u00e9rieure \u00e0 62 jours s'il "
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "justifie sur la prescription la n\u00e9cessit\u00e9 d'une dur\u00e9e plus longue au regard de votre \u00e9tat de sant\u00e9",
+      "text": "justifie sur la prescription la n\u00e9cessit\u00e9 d'une dur\u00e9e plus longue au regard de votre \u00e9tat de sant\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque la dur\u00e9e d'une prolongation d\u00e9passe ",
+      "text": "Lorsque la dur\u00e9e d'une prolongation d\u00e9passe "
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "3 mois",
+      "text": "3 mois",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", le professionnel de sant\u00e9 peut solliciter l'avis du service du contr\u00f4le m\u00e9dical de l'Assurance maladie.",
+      "text": ", le professionnel de sant\u00e9 peut solliciter l'avis du service du contr\u00f4le m\u00e9dical de l'Assurance maladie."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quel professionnel de sant\u00e9 peut prolonger l'arr\u00eat maladie d\u2019un salari\u00e9 ?",
+      "text": "Quel professionnel de sant\u00e9 peut prolonger l'arr\u00eat maladie d\u2019un salari\u00e9 ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En principe, seul votre m\u00e9decin traitant ou le m\u00e9decin qui vous a prescrit votre arr\u00eat de travail initial peut le prolonger. Toutefois, ",
+      "text": "En principe, seul votre m\u00e9decin traitant ou le m\u00e9decin qui vous a prescrit votre arr\u00eat de travail initial peut le prolonger. Toutefois, "
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e0 titre exceptionnel",
+      "text": "\u00e0 titre exceptionnel",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", la prolongation de votre arr\u00eat de travail peut \u00eatre autoris\u00e9e s'il a \u00e9t\u00e9 \u00e9tabli par l'une des personnes suivantes\u00a0:",
+      "text": ", la prolongation de votre arr\u00eat de travail peut \u00eatre autoris\u00e9e s'il a \u00e9t\u00e9 \u00e9tabli par l'une des personnes suivantes\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Rempla\u00e7ant de votre m\u00e9decin traitant",
+      "text": "Rempla\u00e7ant de votre m\u00e9decin traitant",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Rempla\u00e7ant du m\u00e9decin qui a prescrit votre arr\u00eat de travail initial",
+      "text": "Rempla\u00e7ant du m\u00e9decin qui a prescrit votre arr\u00eat de travail initial",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "M\u00e9decin sp\u00e9cialiste consult\u00e9 \u00e0 la demande du m\u00e9decin traitant",
+      "text": "M\u00e9decin sp\u00e9cialiste consult\u00e9 \u00e0 la demande du m\u00e9decin traitant",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "M\u00e9decin qui vous suit durant une hospitalisation.",
+      "text": "M\u00e9decin qui vous suit durant une hospitalisation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Peut-on prolonger un arr\u00eat maladie par t\u00e9l\u00e9consultation ?",
+      "text": "Peut-on prolonger un arr\u00eat maladie par t\u00e9l\u00e9consultation ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Oui, la prolongation d'un arr\u00eat de travail peut \u00e9galement \u00eatre r\u00e9alis\u00e9 lors d'une t\u00e9l\u00e9consultation \u00e0 condition que le m\u00e9decin qui la prescrit remplisse l'un des crit\u00e8res suivants :",
+      "text": "Oui, la prolongation d'un arr\u00eat de travail peut \u00e9galement \u00eatre r\u00e9alis\u00e9 lors d'une t\u00e9l\u00e9consultation \u00e0 condition que le m\u00e9decin qui la prescrit remplisse l'un des crit\u00e8res suivants :"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit de votre ",
+      "text": "Il s\u2019agit de votre "
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decin traitant",
+      "text": "m\u00e9decin traitant",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ",",
+      "text": ","
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit du ",
+      "text": "Il s\u2019agit du "
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decin ayant prescrit l\u2019arr\u00eat initial",
+      "text": "m\u00e9decin ayant prescrit l\u2019arr\u00eat initial",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit du ",
+      "text": "Il s\u2019agit du "
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "rempla\u00e7ant de l\u2019un de ces 2 m\u00e9decins",
+      "text": "rempla\u00e7ant de l\u2019un de ces 2 m\u00e9decins",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/24"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit d\u2019un ",
+      "text": "Il s\u2019agit d\u2019un "
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decin sp\u00e9cialiste consult\u00e9 \u00e0 la demande du m\u00e9decin traitant",
+      "text": "m\u00e9decin sp\u00e9cialiste consult\u00e9 \u00e0 la demande du m\u00e9decin traitant",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit d\u2019un ",
+      "text": "Il s\u2019agit d\u2019un "
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decin vous suivant dans le cadre d\u2019une hospitalisation",
+      "text": "m\u00e9decin vous suivant dans le cadre d\u2019une hospitalisation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En plus de l'un de ces crit\u00e8res, pour que l\u2019arr\u00eat soit indemnis\u00e9, le m\u00e9decin doit vous avoir ",
+      "text": "En plus de l'un de ces crit\u00e8res, pour que l\u2019arr\u00eat soit indemnis\u00e9, le m\u00e9decin doit vous avoir "
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u00e9j\u00e0 vu en consultation pr\u00e9sentielle dans les 12 derniers mois",
+      "text": "d\u00e9j\u00e0 vu en consultation pr\u00e9sentielle dans les 12 derniers mois",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou agir dans le cadre d\u2019une ",
+      "text": " ou agir dans le cadre d\u2019une "
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "situation exceptionnelle",
+      "text": "situation exceptionnelle",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (urgence ou impossibilit\u00e9 d\u2019acc\u00e8s aux soins).",
+      "text": " (urgence ou impossibilit\u00e9 d\u2019acc\u00e8s aux soins)."
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La t\u00e9l\u00e9consultation doit obligatoirement \u00eatre r\u00e9alis\u00e9e ",
+      "text": "La t\u00e9l\u00e9consultation doit obligatoirement \u00eatre r\u00e9alis\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "via une plateforme agr\u00e9\u00e9e et s\u00e9curis\u00e9e",
+      "text": "via une plateforme agr\u00e9\u00e9e et s\u00e9curis\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", garantissant la transmission correcte de l\u2019arr\u00eat \u00e0 l\u2019Assurance Maladie.",
+      "text": ", garantissant la transmission correcte de l\u2019arr\u00eat \u00e0 l\u2019Assurance Maladie."
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La dur\u00e9e d'un arr\u00eat de travail renouvel\u00e9 lors d'une t\u00e9l\u00e9consultation ne peut en principe pas d\u00e9passer ",
+      "text": "La dur\u00e9e d'un arr\u00eat de travail renouvel\u00e9 lors d'une t\u00e9l\u00e9consultation ne peut en principe pas d\u00e9passer "
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "3 jours",
+      "text": "3 jours",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour \u00eatre indemnis\u00e9e. Des exceptions sont pr\u00e9vues notamment lorsque la t\u00e9l\u00e9consultation est r\u00e9alis\u00e9e avec le m\u00e9decin traitant ou son rempla\u00e7ant ou avec la sage-femme r\u00e9f\u00e9rente. En cas de prolongation, une exception est \u00e9galement pr\u00e9vue lorsque l'assur\u00e9 justifie l'impossibilit\u00e9 de consulter en pr\u00e9sentiel.",
+      "text": " pour \u00eatre indemnis\u00e9e. Des exceptions sont pr\u00e9vues notamment lorsque la t\u00e9l\u00e9consultation est r\u00e9alis\u00e9e avec le m\u00e9decin traitant ou son rempla\u00e7ant ou avec la sage-femme r\u00e9f\u00e9rente. En cas de prolongation, une exception est \u00e9galement pr\u00e9vue lorsque l'assur\u00e9 justifie l'impossibilit\u00e9 de consulter en pr\u00e9sentiel."
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le salari\u00e9 doit-il informer son employeur en cas de prolongation de son arr\u00eat maladie ?",
+      "text": "Le salari\u00e9 doit-il informer son employeur en cas de prolongation de son arr\u00eat maladie ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si votre arr\u00eat initial est prolong\u00e9, vous devez tenir inform\u00e9 votre employeur de l'\u00e9volution de votre maladie. Vous devez lui transmettre les documents concernant votre \u00e9ventuelle prolongation d'arr\u00eat de travail.",
+      "text": "Si votre arr\u00eat initial est prolong\u00e9, vous devez tenir inform\u00e9 votre employeur de l'\u00e9volution de votre maladie. Vous devez lui transmettre les documents concernant votre \u00e9ventuelle prolongation d'arr\u00eat de travail."
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'usage est de pr\u00e9venir son employeur dans un d\u00e9lai de ",
+      "text": "L'usage est de pr\u00e9venir son employeur dans un d\u00e9lai de "
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "48 heures",
+      "text": "48 heures",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " suivant la prolongation. L'information peut \u00eatre faite par tous moyens\u00a0: soit par oral (t\u00e9l\u00e9phone par exemple), soit par \u00e9crit (mail, SMS,...).",
+      "text": " suivant la prolongation. L'information peut \u00eatre faite par tous moyens\u00a0: soit par oral (t\u00e9l\u00e9phone par exemple), soit par \u00e9crit (mail, SMS,...)."
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Que se passe-t-il si le salari\u00e9 ne transmet pas l'arr\u00eat maladie \u00e0 son employeur ?",
+      "text": "Que se passe-t-il si le salari\u00e9 ne transmet pas l'arr\u00eat maladie \u00e0 son employeur ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous ne respectez pas l'obligation d'information et de transmission vis-\u00e0-vis de votre employeur, vous risquez alors une\u00a0sanction disciplinaire pouvant aller jusqu'au licenciement. L'absence injustifi\u00e9e peut constituer une cause r\u00e9elle et s\u00e9rieuse de licenciement.",
+      "text": "Si vous ne respectez pas l'obligation d'information et de transmission vis-\u00e0-vis de votre employeur, vous risquez alors une\u00a0sanction disciplinaire pouvant aller jusqu'au licenciement. L'absence injustifi\u00e9e peut constituer une cause r\u00e9elle et s\u00e9rieuse de licenciement."
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quel feuillet de l'arr\u00eat maladie le salari\u00e9 doit adresser \u00e0 son organisme de S\u00e9curit\u00e9 sociale ?",
+      "text": "Quel feuillet de l'arr\u00eat maladie le salari\u00e9 doit adresser \u00e0 son organisme de S\u00e9curit\u00e9 sociale ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez transmettre les feuillets n\u00b01 et n\u00b02 du certificat de prolongation \u00e0 la ",
+      "text": "Vous devez transmettre les feuillets n\u00b01 et n\u00b02 du certificat de prolongation \u00e0 la "
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "CPAM",
+      "text": "CPAM",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou \u00e0 la ",
+      "text": " ou \u00e0 la "
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MSA",
+      "text": "MSA",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et le feuillet n\u00b03 \u00e0 votre employeur.",
+      "text": " et le feuillet n\u00b03 \u00e0 votre employeur."
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Attention",
+      "text": "Attention"
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si la prolongation de l\u2019arr\u00eat est prescrite sur support papier, le m\u00e9decin doit utiliser le nouveau formulaire Cerfa s\u00e9curis\u00e9 comportant des dispositifs d\u2019authentification renforc\u00e9s, notamment une \u00e9tiquette holographique. Les anciens formulaires papier, photocopies ou scans ne seront plus accept\u00e9s, et leur utilisation pourra entra\u00eener le refus de la prise en charge de l\u2019arr\u00eat de travail.",
+      "text": "Si la prolongation de l\u2019arr\u00eat est prescrite sur support papier, le m\u00e9decin doit utiliser le nouveau formulaire Cerfa s\u00e9curis\u00e9 comportant des dispositifs d\u2019authentification renforc\u00e9s, notamment une \u00e9tiquette holographique. Les anciens formulaires papier, photocopies ou scans ne seront plus accept\u00e9s, et leur utilisation pourra entra\u00eener le refus de la prise en charge de l\u2019arr\u00eat de travail."
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cependant, dans le cadre d'une t\u00e9l\u00e9consultation, les feuillets n\u00b01 et n\u00b02 sont g\u00e9n\u00e9ralement ",
+      "text": "Cependant, dans le cadre d'une t\u00e9l\u00e9consultation, les feuillets n\u00b01 et n\u00b02 sont g\u00e9n\u00e9ralement "
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "transmis automatiquement et de mani\u00e8re d\u00e9mat\u00e9rialis\u00e9e \u00e0 la CPAM",
+      "text": "transmis automatiquement et de mani\u00e8re d\u00e9mat\u00e9rialis\u00e9e \u00e0 la CPAM",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par le m\u00e9decin via un syst\u00e8me s\u00e9curis\u00e9. Le ",
+      "text": " par le m\u00e9decin via un syst\u00e8me s\u00e9curis\u00e9. Le "
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "volet n\u00b03 vous est alors directement adress\u00e9",
+      "text": "volet n\u00b03 vous est alors directement adress\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (par e-mail, via la plateforme de t\u00e9l\u00e9consultation ou votre compte Ameli), et vous devez ",
+      "text": " (par e-mail, via la plateforme de t\u00e9l\u00e9consultation ou votre compte Ameli), et vous devez "
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019envoyer vous-m\u00eame \u00e0 votre employeur dans les d\u00e9lais requis",
+      "text": "l\u2019envoyer vous-m\u00eame \u00e0 votre employeur dans les d\u00e9lais requis",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement",
+      "text": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement"
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Que se passe-t-il si le salari\u00e9 transmet l'arr\u00eat maladie en retard \u00e0 son organisme de S\u00e9curit\u00e9 sociale ?",
+      "text": "Que se passe-t-il si le salari\u00e9 transmet l'arr\u00eat maladie en retard \u00e0 son organisme de S\u00e9curit\u00e9 sociale ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous transmettez votre arr\u00eat de travail apr\u00e8s le d\u00e9lai de 48 heures, votre caisse d'assurance maladie vous informe du retard et vous avertit des cons\u00e9quences en cas de nouvel envoi tardif.",
+      "text": "Si vous transmettez votre arr\u00eat de travail apr\u00e8s le d\u00e9lai de 48 heures, votre caisse d'assurance maladie vous informe du retard et vous avertit des cons\u00e9quences en cas de nouvel envoi tardif."
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de nouvel envoi tardif dans les 2 ans, vos indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 50 % pour la p\u00e9riode comprise entre la date de prescription de l'arr\u00eat et sa date d'envoi.",
+      "text": "En cas de nouvel envoi tardif dans les 2 ans, vos indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 50 % pour la p\u00e9riode comprise entre la date de prescription de l'arr\u00eat et sa date d'envoi."
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de nouveau retard, une r\u00e9duction plus importante peut s'appliquer. Depuis le 1",
+      "text": "En cas de nouveau retard, une r\u00e9duction plus importante peut s'appliquer. Depuis le 1"
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "er",
+      "text": "er"
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " janvier 2026, lorsque l'arr\u00eat est re\u00e7u par la caisse apr\u00e8s la fin de la p\u00e9riode prescrite, les indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 100 % pour toute la p\u00e9riode concern\u00e9e.",
+      "text": " janvier 2026, lorsque l'arr\u00eat est re\u00e7u par la caisse apr\u00e8s la fin de la p\u00e9riode prescrite, les indemnit\u00e9s journali\u00e8res peuvent \u00eatre r\u00e9duites de 100 % pour toute la p\u00e9riode concern\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aucune r\u00e9duction n'est appliqu\u00e9e si vous justifiez d'une hospitalisation ou de l'impossibilit\u00e9 de transmettre votre arr\u00eat dans le d\u00e9lai de 48 heures.",
+      "text": "Aucune r\u00e9duction n'est appliqu\u00e9e si vous justifiez d'une hospitalisation ou de l'impossibilit\u00e9 de transmettre votre arr\u00eat dans le d\u00e9lai de 48 heures."
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles obligations le salari\u00e9 doit respecter pendant l'arr\u00eat de travail ?",
+      "text": "Quelles obligations le salari\u00e9 doit respecter pendant l'arr\u00eat de travail ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Durant l'arr\u00eat de travail, vous devez respecter les obligations suivantes :",
+      "text": "Durant l'arr\u00eat de travail, vous devez respecter les obligations suivantes :"
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Suivre les prescriptions de votre m\u00e9decin",
+      "text": "Suivre les prescriptions de votre m\u00e9decin",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vous soumettre aux contr\u00f4les m\u00e9dicaux organis\u00e9s par votre employeur et/ou la S\u00e9curit\u00e9 sociale",
+      "text": "Vous soumettre aux contr\u00f4les m\u00e9dicaux organis\u00e9s par votre employeur et/ou la S\u00e9curit\u00e9 sociale",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Respecter l'interdiction de sortie ou les heures de sorties autoris\u00e9es",
+      "text": "Respecter l'interdiction de sortie ou les heures de sorties autoris\u00e9es",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vous abstenir de toute activit\u00e9, sauf autorisation de votre m\u00e9decin traitant",
+      "text": "Vous abstenir de toute activit\u00e9, sauf autorisation de votre m\u00e9decin traitant",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous ne respectez pas ces obligations, le versement des indemnit\u00e9s journali\u00e8res est suspendu.",
+      "text": "Si vous ne respectez pas ces obligations, le versement des indemnit\u00e9s journali\u00e8res est suspendu."
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De plus, si vous exercez une activit\u00e9 r\u00e9mun\u00e9r\u00e9e non autoris\u00e9e par votre m\u00e9decin traitant, vous vous exposez \u00e0 une sanction financi\u00e8re.",
+      "text": "De plus, si vous exercez une activit\u00e9 r\u00e9mun\u00e9r\u00e9e non autoris\u00e9e par votre m\u00e9decin traitant, vous vous exposez \u00e0 une sanction financi\u00e8re."
+    },
+    {
+      "self_ref": "#/texts/173",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Sur le m\u00eame sujet",
+      "text": "Sur le m\u00eame sujet",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qui peut m'aider ?",
+      "text": "Qui peut m'aider ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/175",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?",
+      "text": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?"
+    },
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Pour toute information sur votre indemnisation par la s\u00e9curit\u00e9 sociale ou sur les contr\u00f4les m\u00e9dicaux Caisse primaire d'assurance maladie (CPAM)",
+      "text": "Pour toute information sur votre indemnisation par la s\u00e9curit\u00e9 sociale ou sur les contr\u00f4les m\u00e9dicaux Caisse primaire d'assurance maladie (CPAM)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/177",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Si vous relevez du r\u00e9gime agricole Mutualit\u00e9 sociale agricole (MSA)",
+      "text": "Si vous relevez du r\u00e9gime agricole Mutualit\u00e9 sociale agricole (MSA)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Pour toute information concernant votre arr\u00eat de travail ou sa prolongation M\u00e9decin",
+      "text": "Pour toute information concernant votre arr\u00eat de travail ou sa prolongation M\u00e9decin",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/179",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/35"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Pour des informations relatives au droit du travail Renseignement administratif par t\u00e9l\u00e9phone - All\u00f4 Service Public",
+      "text": "Pour des informations relatives au droit du travail Renseignement administratif par t\u00e9l\u00e9phone - All\u00f4 Service Public",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/180",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/36"
+        },
+        {
+          "$ref": "#/groups/37"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/181",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour plus d'informations sur ce sujet, vous pouvez contacter All\u00f4 Service Public. ",
+      "text": "Pour plus d'informations sur ce sujet, vous pouvez contacter All\u00f4 Service Public. "
+    },
+    {
+      "self_ref": "#/texts/182",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Attention\u00a0: le service n'a pas acc\u00e8s aux dossiers personnels des usagers et ne peut donc pas renseigner sur leur \u00e9tat d'avancement.",
+      "text": "Attention\u00a0: le service n'a pas acc\u00e8s aux dossiers personnels des usagers et ne peut donc pas renseigner sur leur \u00e9tat d'avancement.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/183",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Il ",
+      "text": " Il "
+    },
+    {
+      "self_ref": "#/texts/184",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ne r\u00e9pond pas",
+      "text": "ne r\u00e9pond pas",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/185",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " aux questions portant sur l'indemnisation du ch\u00f4mage et les d\u00e9marches aupr\u00e8s de ",
+      "text": " aux questions portant sur l'indemnisation du ch\u00f4mage et les d\u00e9marches aupr\u00e8s de "
+    },
+    {
+      "self_ref": "#/texts/186",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "France Travail",
+      "text": "France Travail",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/187",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (anciennement P\u00f4le emploi), les ",
+      "text": " (anciennement P\u00f4le emploi), les "
+    },
+    {
+      "self_ref": "#/texts/188",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "fonctionnaires",
+      "text": "fonctionnaires",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/189",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou ",
+      "text": " ou "
+    },
+    {
+      "self_ref": "#/texts/190",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "contractuels",
+      "text": "contractuels",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/191",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " de la f",
+      "text": " de la f"
+    },
+    {
+      "self_ref": "#/texts/192",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "onction publique",
+      "text": "onction publique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/193",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", le montant ou le versement des ",
+      "text": ", le montant ou le versement des "
+    },
+    {
+      "self_ref": "#/texts/194",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "cotisations",
+      "text": "cotisations",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/195",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " sociales, salariales ou patronales.",
+      "text": " sociales, salariales ou patronales."
+    },
+    {
+      "self_ref": "#/texts/196",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/38"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/197",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lundi",
+      "text": "Lundi",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/198",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : de\u00a008h30 \u00e0 17h30",
+      "text": " : de\u00a008h30 \u00e0 17h30"
+    },
+    {
+      "self_ref": "#/texts/199",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/39"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/200",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mardi",
+      "text": "Mardi",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/201",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : de\u00a008h30 \u00e0 12h15",
+      "text": " : de\u00a008h30 \u00e0 12h15"
+    },
+    {
+      "self_ref": "#/texts/202",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/40"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/203",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mercredi",
+      "text": "Mercredi",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/204",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : de\u00a008h30 \u00e0 12h15",
+      "text": " : de\u00a008h30 \u00e0 12h15"
+    },
+    {
+      "self_ref": "#/texts/205",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/41"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/206",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Jeudi",
+      "text": "Jeudi",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/207",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : de\u00a008h30 \u00e0 17h30",
+      "text": " : de\u00a008h30 \u00e0 17h30"
+    },
+    {
+      "self_ref": "#/texts/208",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/42"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/209",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vendredi",
+      "text": "Vendredi",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/210",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : de\u00a013h00 \u00e0 16h15",
+      "text": " : de\u00a013h00 \u00e0 16h15"
+    },
+    {
+      "self_ref": "#/texts/211",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/43"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/212",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Service ",
+      "text": "Service "
+    },
+    {
+      "self_ref": "#/texts/213",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Gratuit",
+      "text": "Gratuit",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/214",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les informateurs qui vous r\u00e9pondent appartiennent au minist\u00e8re charg\u00e9 du travail.",
+      "text": "Les informateurs qui vous r\u00e9pondent appartiennent au minist\u00e8re charg\u00e9 du travail.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,1318 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10717306894980353675,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/groups/11"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "R\u00e8gles douloureuses : consultation et traitement",
+      "text": "R\u00e8gles douloureuses : consultation et traitement"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : R\u00e8gles douloureuses",
+      "text": "Cet article fait partie du dossier : R\u00e8gles douloureuses"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "25 juin 2025",
+      "text": "25 juin 2025"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lors de la consultation pour r\u00e8gles douloureuses, le m\u00e9decin examine sa patiente. Il ne demande un bilan compl\u00e9mentaire (\u00e9chographie abdominale, etc.) que s'il suspecte une maladie en cause dans la dysm\u00e9norrh\u00e9e. Les m\u00e9dicaments anti-inflammatoires non st\u00e9ro\u00efdiens calment les sympt\u00f4mes.",
+      "text": "Lors de la consultation pour r\u00e8gles douloureuses, le m\u00e9decin examine sa patiente. Il ne demande un bilan compl\u00e9mentaire (\u00e9chographie abdominale, etc.) que s'il suspecte une maladie en cause dans la dysm\u00e9norrh\u00e9e. Les m\u00e9dicaments anti-inflammatoires non st\u00e9ro\u00efdiens calment les sympt\u00f4mes."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La consultation en cas de r\u00e8gles douloureuses",
+      "text": "La consultation en cas de r\u00e8gles douloureuses",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L'examen gyn\u00e9cologique",
+      "text": "L'examen gyn\u00e9cologique",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le m\u00e9decin traitant ou le gyn\u00e9cologue examine sa patiente. En cas de dysm\u00e9norrh\u00e9e chez une jeune fille vierge, l\u2019examen gyn\u00e9cologique n\u2019est pas effectu\u00e9.",
+      "text": "Le m\u00e9decin traitant ou le gyn\u00e9cologue examine sa patiente. En cas de dysm\u00e9norrh\u00e9e chez une jeune fille vierge, l\u2019examen gyn\u00e9cologique n\u2019est pas effectu\u00e9."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si besoin, le m\u00e9decin propose de pratiquer un d\u00e9pistage du cancer du col de l'ut\u00e9rus par frottis.",
+      "text": "Si besoin, le m\u00e9decin propose de pratiquer un d\u00e9pistage du cancer du col de l'ut\u00e9rus par frottis."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le bilan, si n\u00e9cessaire",
+      "text": "Le bilan, si n\u00e9cessaire",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le bilan compl\u00e9mentaire est r\u00e9alis\u00e9 si une cause expliquant les ",
+      "text": "Le bilan compl\u00e9mentaire est r\u00e9alis\u00e9 si une cause expliquant les "
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs lors des r\u00e8gles",
+      "text": "douleurs lors des r\u00e8gles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est suspect\u00e9e.",
+      "text": " est suspect\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Une \u00e9chographie abdominopelvienne",
+      "text": "Une \u00e9chographie abdominopelvienne",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'\u00e9chographie abdominopelvienne avec doppler est l'examen demand\u00e9 un premi\u00e8re intention.",
+      "text": "L'\u00e9chographie abdominopelvienne avec doppler est l'examen demand\u00e9 un premi\u00e8re intention."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'\u00e9chographie par voie transcutan\u00e9e sus-pubienne consiste \u00e0 d\u00e9placer la sonde d'\u00e9chographie sur la paroi abdominale, mais ce mode d'exploration peut \u00eatre insuffisant, surtout si des l\u00e9sions d'endom\u00e9triose sont recherch\u00e9es, car les organes sont \u00e0 distance de la sonde.",
+      "text": "L'\u00e9chographie par voie transcutan\u00e9e sus-pubienne consiste \u00e0 d\u00e9placer la sonde d'\u00e9chographie sur la paroi abdominale, mais ce mode d'exploration peut \u00eatre insuffisant, surtout si des l\u00e9sions d'endom\u00e9triose sont recherch\u00e9es, car les organes sont \u00e0 distance de la sonde."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Afin d'obtenir une meilleure d\u00e9tection, l'",
+      "text": "Afin d'obtenir une meilleure d\u00e9tection, l'"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e9chographie pelvienne",
+      "text": "\u00e9chographie pelvienne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0est r\u00e9alis\u00e9e par ",
+      "text": "\u00a0est r\u00e9alis\u00e9e par "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "voie endovaginale",
+      "text": "voie endovaginale",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (la sonde de l\u2019\u00e9chographe est plac\u00e9e dans le vagin). Cette technique permet de mieux rep\u00e9rer les l\u00e9sions car la sonde introduite dans le vagin est plus proche de l'ut\u00e9rus et des ovaires.",
+      "text": " (la sonde de l\u2019\u00e9chographe est plac\u00e9e dans le vagin). Cette technique permet de mieux rep\u00e9rer les l\u00e9sions car la sonde introduite dans le vagin est plus proche de l'ut\u00e9rus et des ovaires."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette technique n'est pas utilisable chez la jeune femme vierge. Avant de commencer l'examen, l'\u00e9chographiste explique la proc\u00e9dure et demande \u00e0 sa patiente son accord.",
+      "text": "Cette technique n'est pas utilisable chez la jeune femme vierge. Avant de commencer l'examen, l'\u00e9chographiste explique la proc\u00e9dure et demande \u00e0 sa patiente son accord."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Une Imagerie par R\u00e9sonance Magn\u00e9tique (IRM)",
+      "text": "Une Imagerie par R\u00e9sonance Magn\u00e9tique (IRM)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plus rarement, une IRM abdominopelvienne vient compl\u00e9ter le bilan.",
+      "text": "Plus rarement, une IRM abdominopelvienne vient compl\u00e9ter le bilan."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement de la dysm\u00e9norrh\u00e9e",
+      "text": "Le traitement de la dysm\u00e9norrh\u00e9e",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le m\u00e9decin choisit un traitement adapt\u00e9 en fonction :",
+      "text": "Le m\u00e9decin choisit un traitement adapt\u00e9 en fonction :"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "de l\u2019intensit\u00e9 des ",
+      "text": "de l\u2019intensit\u00e9 des "
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs menstruelles",
+      "text": "douleurs menstruelles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ;",
+      "text": " ;"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "de l'\u00e2ge de la patiente et de la nature de la dysm\u00e9norrh\u00e9e\u00a0: ",
+      "text": "de l'\u00e2ge de la patiente et de la nature de la dysm\u00e9norrh\u00e9e\u00a0: "
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e primaire",
+      "text": "dysm\u00e9norrh\u00e9e primaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " de l'adolescente ou ",
+      "text": " de l'adolescente ou "
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e secondaire",
+      "text": "dysm\u00e9norrh\u00e9e secondaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " due \u00e0 une maladie sous-jacente.",
+      "text": " due \u00e0 une maladie sous-jacente."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les m\u00e9dicaments anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) calment les douleurs menstruelles",
+      "text": "Les m\u00e9dicaments anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) calment les douleurs menstruelles",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces m\u00e9dicaments (ibuprof\u00e8ne, flurbiprof\u00e8ne) freinent ou stoppent la fabrication des prostaglandines. Par cons\u00e9quence, ils diminuent les contractions de l'ut\u00e9rus et donc les ",
+      "text": "Ces m\u00e9dicaments (ibuprof\u00e8ne, flurbiprof\u00e8ne) freinent ou stoppent la fabrication des prostaglandines. Par cons\u00e9quence, ils diminuent les contractions de l'ut\u00e9rus et donc les "
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs menstruelles",
+      "text": "douleurs menstruelles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour une efficacit\u00e9 optimale, votre m\u00e9decin vous donne les conseils suivants :",
+      "text": "Pour une efficacit\u00e9 optimale, votre m\u00e9decin vous donne les conseils suivants :"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "prenez le traitement d\u00e8s le d\u00e9but des douleurs. Le traitement est plus efficace si vous le prenez le plus t\u00f4t possible ;",
+      "text": "prenez le traitement d\u00e8s le d\u00e9but des douleurs. Le traitement est plus efficace si vous le prenez le plus t\u00f4t possible ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ne prenez pas deux m\u00e9dicaments AINS en m\u00eame temps ;",
+      "text": "ne prenez pas deux m\u00e9dicaments AINS en m\u00eame temps ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la dur\u00e9e du traitement est br\u00e8ve",
+      "text": "la dur\u00e9e du traitement est br\u00e8ve",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Deux \u00e0 trois jours au maximum suffisent pour \u00eatre soulag\u00e9e\u00a0;",
+      "text": ". Deux \u00e0 trois jours au maximum suffisent pour \u00eatre soulag\u00e9e\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ne d\u00e9passez jamais la dose maximale recommand\u00e9e et prenez la dose minimale efficace.",
+      "text": "ne d\u00e9passez jamais la dose maximale recommand\u00e9e et prenez la dose minimale efficace.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce traitement est contre-indiqu\u00e9 si vous \u00eates atteinte de certaines maladies (ulc\u00e8re digestif, maladie grave du c\u0153ur, du foie ou des reins) et en cas de varicelle.",
+      "text": "Ce traitement est contre-indiqu\u00e9 si vous \u00eates atteinte de certaines maladies (ulc\u00e8re digestif, maladie grave du c\u0153ur, du foie ou des reins) et en cas de varicelle."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Si le m\u00e9dicament AINS ne soulage pas suffisamment",
+      "text": "Si le m\u00e9dicament AINS ne soulage pas suffisamment",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si la patiente n'est pas suffisamment soulag\u00e9e par un m\u00e9dicament anti-inflammatoire non st\u00e9ro\u00efdien (AINS), il existe d'autres solutions pour faire dispara\u00eetre ",
+      "text": "Si la patiente n'est pas suffisamment soulag\u00e9e par un m\u00e9dicament anti-inflammatoire non st\u00e9ro\u00efdien (AINS), il existe d'autres solutions pour faire dispara\u00eetre "
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les douleurs lors des r\u00e8gles.",
+      "text": "les douleurs lors des r\u00e8gles.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le m\u00e9decin peut prescrire une contraception hormonale :",
+      "text": "Le m\u00e9decin peut prescrire une contraception hormonale :"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un contraceptif oral \u0153stroprogestatif. En effet, sous contraceptif, les r\u00e8gles sont plus faibles et les contractions ut\u00e9rines moins fortes. Le contraceptif peut \u00eatre \u00e9ventuellement pris en continu pour stopper la survenue des r\u00e8gles ;",
+      "text": "un contraceptif oral \u0153stroprogestatif. En effet, sous contraceptif, les r\u00e8gles sont plus faibles et les contractions ut\u00e9rines moins fortes. Le contraceptif peut \u00eatre \u00e9ventuellement pris en continu pour stopper la survenue des r\u00e8gles ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "dans certains cas, un contraceptif oral progestatif qui supprime les r\u00e8gles.",
+      "text": "dans certains cas, un contraceptif oral progestatif qui supprime les r\u00e8gles.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De m\u00eame, la pose d'un st\u00e9rilet d\u00e9livrant de la progest\u00e9rone \u00e0 l'int\u00e9rieur de l'ut\u00e9rus permet d'obtenir \u00e9galement de bons r\u00e9sultats.",
+      "text": "De m\u00eame, la pose d'un st\u00e9rilet d\u00e9livrant de la progest\u00e9rone \u00e0 l'int\u00e9rieur de l'ut\u00e9rus permet d'obtenir \u00e9galement de bons r\u00e9sultats."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement si une maladie sous-jacente est d\u00e9tect\u00e9e",
+      "text": "Le traitement si une maladie sous-jacente est d\u00e9tect\u00e9e",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si le bilan m\u00e9dical compl\u00e9mentaire a diagnostiqu\u00e9 une maladie en cause dans la dysm\u00e9norrh\u00e9e (endom\u00e9triose, fibrome, malformation ut\u00e9rovaginale...), un traitement adapt\u00e9 \u00e0 cette maladie est mis en route et fait r\u00e9gresser les ",
+      "text": "Si le bilan m\u00e9dical compl\u00e9mentaire a diagnostiqu\u00e9 une maladie en cause dans la dysm\u00e9norrh\u00e9e (endom\u00e9triose, fibrome, malformation ut\u00e9rovaginale...), un traitement adapt\u00e9 \u00e0 cette maladie est mis en route et fait r\u00e9gresser les "
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs menstruelles",
+      "text": "douleurs menstruelles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comprendre avec des images et des mots simples",
+      "text": "Comprendre avec des images et des mots simples",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez lire la bande dessin\u00e9e La consultation de gyn\u00e9cologie sur le site santebd.org. La BD d\u00e9crit de mani\u00e8re simple le d\u00e9roulement d\u2019une consultation avec un m\u00e9decin gyn\u00e9cologue. Mise en garde : cette bande dessin\u00e9e pr\u00e9sente des sc\u00e8nes de nudit\u00e9 \u00e0 caract\u00e8re sexuel et n'est pas adapt\u00e9e \u00e0 de jeunes enfants.",
+      "text": "Vous pouvez lire la bande dessin\u00e9e La consultation de gyn\u00e9cologie sur le site santebd.org. La BD d\u00e9crit de mani\u00e8re simple le d\u00e9roulement d\u2019une consultation avec un m\u00e9decin gyn\u00e9cologue. Mise en garde : cette bande dessin\u00e9e pr\u00e9sente des sc\u00e8nes de nudit\u00e9 \u00e0 caract\u00e8re sexuel et n'est pas adapt\u00e9e \u00e0 de jeunes enfants."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce document a \u00e9t\u00e9 r\u00e9alis\u00e9 par l\u2019association CoActis Sant\u00e9 avec des personnes en situation de handicap. Il contient des images et des mots simples. C\u2019est pourquoi il est facile \u00e0 lire et \u00e0 comprendre (FALC).",
+      "text": "Ce document a \u00e9t\u00e9 r\u00e9alis\u00e9 par l\u2019association CoActis Sant\u00e9 avec des personnes en situation de handicap. Il contient des images et des mots simples. C\u2019est pourquoi il est facile \u00e0 lire et \u00e0 comprendre (FALC)."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Health service. Period pain. Site internet : NHS. Londres ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "text": "National Health service. Period pain. Site internet : NHS. Londres ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Fevre A, Burette J, Bonneau S, Derniaux E, Graesslin O. Dysm\u00e9norrh\u00e9es. EMC - Gyn\u00e9cologie 2014;9(3):1-10 [Article 161-A-10]",
+      "text": "Fevre A, Burette J, Bonneau S, Derniaux E, Graesslin O. Dysm\u00e9norrh\u00e9es. EMC - Gyn\u00e9cologie 2014;9(3):1-10 [Article 161-A-10]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Debain L, Sauvanet E, Petit E, Azria E. Dysm\u00e9norrh\u00e9e. EMC - AKOS (Trait\u00e9 de M\u00e9decine) 2016;11(3):1-5 [Article 1-0457]",
+      "text": "Debain L, Sauvanet E, Petit E, Azria E. Dysm\u00e9norrh\u00e9e. EMC - AKOS (Trait\u00e9 de M\u00e9decine) 2016;11(3):1-5 [Article 1-0457]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The American College of obstetricians and gynecologists. Dysmenorrhea : Painful Periods. Site internet : Acog. Washington ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "text": "The American College of obstetricians and gynecologists. Dysmenorrhea : Painful Periods. Site internet : Acog. Washington ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Better Health Channel (BHC). Menstruation-dysmenorrhoea. Site internet : BHC. Victoria (Australie) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "text": "Better Health Channel (BHC). Menstruation-dysmenorrhoea. Site internet : BHC. Victoria (Australie) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Anti-inflammatoires non st\u00e9ro\u00efdiens (AINS). Site internet : Ansm. Saint-Denis La Plaine (France) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "text": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Anti-inflammatoires non st\u00e9ro\u00efdiens (AINS). Site internet : Ansm. Saint-Denis La Plaine (France) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

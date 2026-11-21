@@ -1,0 +1,1010 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 3265619986783608979,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/11"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/13"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/21"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Je suis parent d'une jeune personne atteinte d'endom\u00e9triose",
+      "text": "Je suis parent d'une jeune personne atteinte d'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En tant que parent d\u2019une jeune atteinte d\u2019endom\u00e9triose, on est d\u2019autant plus concern\u00e9 par la maladie ! Comment l\u2019accompagner dans son diagnostic ? Comment l\u2019aider \u00e0 poursuivre ses \u00e9tudes malgr\u00e9 l\u2019absent\u00e9isme que peut entrainer la maladie ?",
+      "text": "En tant que parent d\u2019une jeune atteinte d\u2019endom\u00e9triose, on est d\u2019autant plus concern\u00e9 par la maladie ! Comment l\u2019accompagner dans son diagnostic ? Comment l\u2019aider \u00e0 poursuivre ses \u00e9tudes malgr\u00e9 l\u2019absent\u00e9isme que peut entrainer la maladie ?"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nous vous conseillons, en premier lieu, de consulter notre page d\u00e9di\u00e9e \u00e0 l\u2019entourage afin d\u2019avoir des conseils plus g\u00e9n\u00e9ralistes sur comment aider et accompagner votre enfant.",
+      "text": "Nous vous conseillons, en premier lieu, de consulter notre page d\u00e9di\u00e9e \u00e0 l\u2019entourage afin d\u2019avoir des conseils plus g\u00e9n\u00e9ralistes sur comment aider et accompagner votre enfant."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Aider son enfant \u00e0 obtenir un diagnostic",
+      "text": "Aider son enfant \u00e0 obtenir un diagnostic",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous venez d\u2019avoir le diagnostic d\u2019endom\u00e9triose pour votre enfant, surtout ne vous affolez pas : une prise en charge au plus t\u00f4t permettra d\u00e9j\u00e0 de pr\u00e9server sa qualit\u00e9 de vie et lui \u00e9vitera de souffrir.",
+      "text": "Si vous venez d\u2019avoir le diagnostic d\u2019endom\u00e9triose pour votre enfant, surtout ne vous affolez pas : une prise en charge au plus t\u00f4t permettra d\u00e9j\u00e0 de pr\u00e9server sa qualit\u00e9 de vie et lui \u00e9vitera de souffrir."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si le diagnostic n\u2019est pas pos\u00e9, mais que la p\u00e9riode des r\u00e8gles est tr\u00e8s douloureuse, vous devez savoir que :",
+      "text": "Si le diagnostic n\u2019est pas pos\u00e9, mais que la p\u00e9riode des r\u00e8gles est tr\u00e8s douloureuse, vous devez savoir que :"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutes les douleurs de r\u00e8gles ne sont pas li\u00e9es \u00e0 l\u2019endom\u00e9triose",
+      "text": "Toutes les douleurs de r\u00e8gles ne sont pas li\u00e9es \u00e0 l\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", il existe ce qu\u2019on appelle des dysm\u00e9norrh\u00e9es primaires, qui sont handicapantes, mais ne sont pas de l\u2019endom\u00e9triose.",
+      "text": ", il existe ce qu\u2019on appelle des dysm\u00e9norrh\u00e9es primaires, qui sont handicapantes, mais ne sont pas de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Souvent chez les jeunes, il est ",
+      "text": "Souvent chez les jeunes, il est "
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "difficile d\u2019avoir un diagnostic certain",
+      "text": "difficile d\u2019avoir un diagnostic certain",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", les l\u00e9sions \u00e9tant souvent trop petites pour \u00eatre per\u00e7ues \u00e0 l\u2019imagerie. N\u00e9anmoins un m\u00e9decin ou une sage-femme form\u00e9s, pourront facilement suspecter la maladie et proposer un plan d\u2019actions.",
+      "text": ", les l\u00e9sions \u00e9tant souvent trop petites pour \u00eatre per\u00e7ues \u00e0 l\u2019imagerie. N\u00e9anmoins un m\u00e9decin ou une sage-femme form\u00e9s, pourront facilement suspecter la maladie et proposer un plan d\u2019actions."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Echographie, IRM, chirurgie (si elle est n\u00e9cessaire et le plus tard possible) doivent \u00eatre r\u00e9alis\u00e9es par des ",
+      "text": "Echographie, IRM, chirurgie (si elle est n\u00e9cessaire et le plus tard possible) doivent \u00eatre r\u00e9alis\u00e9es par des "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decins qui connaissent l\u2019endom\u00e9triose.",
+      "text": "m\u00e9decins qui connaissent l\u2019endom\u00e9triose.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce qui alerte",
+      "text": "Ce qui alerte",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : le caract\u00e8re cyclique de la douleur, sa r\u00e9sistance \u00e0 un antalgique basique (type parac\u00e9tamol) ou un antispasmodique (type Spasfon), le fait qu\u2019elle entraine un absent\u00e9isme scolaire.",
+      "text": " : le caract\u00e8re cyclique de la douleur, sa r\u00e9sistance \u00e0 un antalgique basique (type parac\u00e9tamol) ou un antispasmodique (type Spasfon), le fait qu\u2019elle entraine un absent\u00e9isme scolaire."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Endom\u00e9triose ou non, si la douleur impacte son quotidien et bouleverse sa qualit\u00e9 de vie, conduit \u00e0 l\u2019absent\u00e9isme scolaire, alors il est important d\u2019agir pour soulager les sympt\u00f4mes de votre enfant.",
+      "text": "Endom\u00e9triose ou non, si la douleur impacte son quotidien et bouleverse sa qualit\u00e9 de vie, conduit \u00e0 l\u2019absent\u00e9isme scolaire, alors il est important d\u2019agir pour soulager les sympt\u00f4mes de votre enfant."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Aider son enfant \u00e0 vivre avec la maladie",
+      "text": "Aider son enfant \u00e0 vivre avec la maladie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il est important est de prendre en charge les sympt\u00f4mes avant tout ! D\u2019un commun accord avec les professionnels de sant\u00e9 qui interviennent, vous d\u00e9ciderez du plan d\u2019actions :",
+      "text": "Il est important est de prendre en charge les sympt\u00f4mes avant tout ! D\u2019un commun accord avec les professionnels de sant\u00e9 qui interviennent, vous d\u00e9ciderez du plan d\u2019actions :"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Traitement antalgique",
+      "text": "Traitement antalgique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour soulager la douleur.",
+      "text": " pour soulager la douleur."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Traitement hormonal",
+      "text": "Traitement hormonal",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour stopper les r\u00e8gles (ce qui emp\u00eache les potentielles l\u00e9sions d\u2019endom\u00e9triose de saigner chaque mois au moment des r\u00e8gles), sur d\u00e9cision partag\u00e9e entre vous, votre jeune et le professionnel de sant\u00e9.",
+      "text": " pour stopper les r\u00e8gles (ce qui emp\u00eache les potentielles l\u00e9sions d\u2019endom\u00e9triose de saigner chaque mois au moment des r\u00e8gles), sur d\u00e9cision partag\u00e9e entre vous, votre jeune et le professionnel de sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Si un traitement hormonal est prescrit, il faut avoir en t\u00eate qu\u2019il faut a minima 4 mois pour s\u2019assurer de l\u2019efficacit\u00e9 du traitement sur les l\u00e9sions d\u2019endom\u00e9triose et donc sur les sympt\u00f4mes associ\u00e9s. Ainsi, il faut parfois essayer plusieurs traitements avant de trouver le bon. Les soins de supports pourront aider \u00e0 soulager la douleur en attendant son action.",
+      "text": " Si un traitement hormonal est prescrit, il faut avoir en t\u00eate qu\u2019il faut a minima 4 mois pour s\u2019assurer de l\u2019efficacit\u00e9 du traitement sur les l\u00e9sions d\u2019endom\u00e9triose et donc sur les sympt\u00f4mes associ\u00e9s. Ainsi, il faut parfois essayer plusieurs traitements avant de trouver le bon. Les soins de supports pourront aider \u00e0 soulager la douleur en attendant son action.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Soins de supports",
+      "text": "Soins de supports",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour g\u00e9rer le quotidien : relaxation (hypnose, sophrologie), acupuncture, ost\u00e9opathie, kin\u00e9sith\u00e9rapie (kin\u00e9s form\u00e9s en pelvi-p\u00e9rin\u00e9ologie).",
+      "text": " pour g\u00e9rer le quotidien : relaxation (hypnose, sophrologie), acupuncture, ost\u00e9opathie, kin\u00e9sith\u00e9rapie (kin\u00e9s form\u00e9s en pelvi-p\u00e9rin\u00e9ologie)."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " A noter, chez beaucoup de personnes atteintes d\u2019endom\u00e9triose, l\u2019alimentation anti-inflammatoire est une aide pr\u00e9cieuse. Certaines ont aussi test\u00e9 les probiotiques qui assurent un confort intestinal et permettent de diminuer les sensations de ballonnements. Nous vous recommandons de vous faire accompagner par des professionnels comp\u00e9tents en la mati\u00e8re, surtout en ce qui concerne l\u2019alimentation.",
+      "text": " A noter, chez beaucoup de personnes atteintes d\u2019endom\u00e9triose, l\u2019alimentation anti-inflammatoire est une aide pr\u00e9cieuse. Certaines ont aussi test\u00e9 les probiotiques qui assurent un confort intestinal et permettent de diminuer les sensations de ballonnements. Nous vous recommandons de vous faire accompagner par des professionnels comp\u00e9tents en la mati\u00e8re, surtout en ce qui concerne l\u2019alimentation.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour \u00eatre orient\u00e9e vers des professionnels de sant\u00e9 form\u00e9s ou sensibilis\u00e9s \u00e0 l\u2019endom\u00e9triose, contactez les b\u00e9n\u00e9voles r\u00e9gionales.",
+      "text": "Pour \u00eatre orient\u00e9e vers des professionnels de sant\u00e9 form\u00e9s ou sensibilis\u00e9s \u00e0 l\u2019endom\u00e9triose, contactez les b\u00e9n\u00e9voles r\u00e9gionales."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Voici quelques id\u00e9es pour parler d\u2019endom\u00e9triose avec votre enfant :",
+      "text": "Voici quelques id\u00e9es pour parler d\u2019endom\u00e9triose avec votre enfant :"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Lire ensemble \u00ab L\u2019endom\u00e9triose de Clara \u2013 Comprendre la maladie pour les 15-25 ans\u00ab",
+      "text": "Lire ensemble \u00ab L\u2019endom\u00e9triose de Clara \u2013 Comprendre la maladie pour les 15-25 ans\u00ab",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "En apprendre plus sur l\u2019endom\u00e9triose en consultant la page d\u00e9di\u00e9e aux jeunes",
+      "text": "En apprendre plus sur l\u2019endom\u00e9triose en consultant la page d\u00e9di\u00e9e aux jeunes",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Accompagner \u00e0 poursuivre sa scolarit\u00e9",
+      "text": "Accompagner \u00e0 poursuivre sa scolarit\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si l\u2019endom\u00e9triose a des r\u00e9percussions sur la capacit\u00e9 \u00e0 suivre les cours, on peut \u00e9tablir un\u00a0",
+      "text": "Si l\u2019endom\u00e9triose a des r\u00e9percussions sur la capacit\u00e9 \u00e0 suivre les cours, on peut \u00e9tablir un\u00a0"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Projet d\u2019Accueil Individualis\u00e9",
+      "text": "Projet d\u2019Accueil Individualis\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0ou PAI !",
+      "text": "\u00a0ou PAI !"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Son objectif est de d\u00e9finir les adaptations que l\u2019\u00e9tablissement va pouvoir apporter \u00e0 la scolarit\u00e9 : traitements adapt\u00e9s, protocole d\u2019urgence, rattrapage des cours en cas d\u2019absence, temps suppl\u00e9mentaires pour les examens \u2026",
+      "text": "Son objectif est de d\u00e9finir les adaptations que l\u2019\u00e9tablissement va pouvoir apporter \u00e0 la scolarit\u00e9 : traitements adapt\u00e9s, protocole d\u2019urgence, rattrapage des cours en cas d\u2019absence, temps suppl\u00e9mentaires pour les examens \u2026"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Avec le PAI, il sera peut-\u00eatre plus facile d\u2019aller prendre un m\u00e9dicament, s\u2019allonger avec une bouillotte quelques instants, voire de r\u00e9duire les absences dues \u00e0 la douleur inflig\u00e9e par la maladie.",
+      "text": "Avec le PAI, il sera peut-\u00eatre plus facile d\u2019aller prendre un m\u00e9dicament, s\u2019allonger avec une bouillotte quelques instants, voire de r\u00e9duire les absences dues \u00e0 la douleur inflig\u00e9e par la maladie."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comment faire ?",
+      "text": "Comment faire ?"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les parents doivent remplir ce formulaire dans lequel sont pr\u00e9cis\u00e9s les sympt\u00f4mes et les protocoles de soins n\u00e9cessaires.",
+      "text": "Les parents doivent remplir ce formulaire dans lequel sont pr\u00e9cis\u00e9s les sympt\u00f4mes et les protocoles de soins n\u00e9cessaires.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Ainsi, le chef d\u2019\u00e9tablissement, en collaboration avec la m\u00e9decine scolaire et/ou l\u2019infirmierie scolaire, \u00e9laborera un projet d\u2019accueil.",
+      "text": "Ainsi, le chef d\u2019\u00e9tablissement, en collaboration avec la m\u00e9decine scolaire et/ou l\u2019infirmierie scolaire, \u00e9laborera un projet d\u2019accueil.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Le m\u00e9decin traitant, ou le praticien qui suit la pathologie, leur transmettra une ordonnance indiquant les traitements ad\u00e9quats.",
+      "text": "Le m\u00e9decin traitant, ou le praticien qui suit la pathologie, leur transmettra une ordonnance indiquant les traitements ad\u00e9quats.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Le projet sera sign\u00e9 par l\u2019ensemble des acteurs du protocole : parents, enfant, responsable de l\u2019\u00e9tablissement, personnels de sant\u00e9, \u2026",
+      "text": "Le projet sera sign\u00e9 par l\u2019ensemble des acteurs du protocole : parents, enfant, responsable de l\u2019\u00e9tablissement, personnels de sant\u00e9, \u2026",
+      "enumerated": true,
+      "marker": "4."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,291 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 16979540233150754549,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Infertilit\u00e9 et endom\u00e9triose",
+      "text": "Infertilit\u00e9 et endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "30 \u00e0 40 % des cas d'infertilit\u00e9 sont dus \u00e0 l'endom\u00e9triose",
+      "text": "30 \u00e0 40 % des cas d'infertilit\u00e9 sont dus \u00e0 l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019",
+      "text": "L\u2019"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose est souvent diagnostiqu\u00e9e lors d\u2019un bilan d\u2019infertilit\u00e9",
+      "text": "endom\u00e9triose est souvent diagnostiqu\u00e9e lors d\u2019un bilan d\u2019infertilit\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". On associe souvent cette maladie \u00e0 l\u2019infertilit\u00e9 or toutes les femmes atteintes d\u2019endom\u00e9triose ne sont pas concern\u00e9es ; 30 \u00e0 40% doivent faire face \u00e0 un probl\u00e8me d\u2019infertilit\u00e9.",
+      "text": ". On associe souvent cette maladie \u00e0 l\u2019infertilit\u00e9 or toutes les femmes atteintes d\u2019endom\u00e9triose ne sont pas concern\u00e9es ; 30 \u00e0 40% doivent faire face \u00e0 un probl\u00e8me d\u2019infertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La grossesse et l\u2019endom\u00e9triose",
+      "text": "La grossesse et l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Rassurez-vous, endom\u00e9triose et ad\u00e9nomyose ne riment pas avec infertilit\u00e9. Nombreuses sont les femmes qui r\u00e9ussissent \u00e0 avoir un b\u00e9b\u00e9 de fa\u00e7on spontan\u00e9e ou avec l\u2019aide de la procr\u00e9ation m\u00e9dicale assist\u00e9e. Souvent, de nombreux m\u00e9decins conseillent \u00e0 leurs patientes atteintes d\u2019endom\u00e9triose de ne pas trop retarder leur premi\u00e8re grossesse. En effet, l\u2019endom\u00e9triose ne cr\u00e9e pas un environnement favorable \u00e0 la f\u00e9condation.",
+      "text": "Rassurez-vous, endom\u00e9triose et ad\u00e9nomyose ne riment pas avec infertilit\u00e9. Nombreuses sont les femmes qui r\u00e9ussissent \u00e0 avoir un b\u00e9b\u00e9 de fa\u00e7on spontan\u00e9e ou avec l\u2019aide de la procr\u00e9ation m\u00e9dicale assist\u00e9e. Souvent, de nombreux m\u00e9decins conseillent \u00e0 leurs patientes atteintes d\u2019endom\u00e9triose de ne pas trop retarder leur premi\u00e8re grossesse. En effet, l\u2019endom\u00e9triose ne cr\u00e9e pas un environnement favorable \u00e0 la f\u00e9condation."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Les m\u00e9canismes d\u2019infertilit\u00e9 en cause sont nombreux et toutes les \u00e9tapes de la reproduction peuvent \u00eatre affect\u00e9es : troubles de l\u2019ovulation, diminution de la r\u00e9serve folliculaire, anomalies de la f\u00e9condation, troubles de la captation ovocytaire, troubles du transport des gam\u00e8tes, trouble de l\u2019implantation. Suite \u00e0 la r\u00e9gurgitation menstruelle, il existe une inflammation du liquide p\u00e9riton\u00e9al qui perturbe la rencontre entre l\u2019ovocyte et le spermatozo\u00efde, avec pour cons\u00e9quence une diminution des chances de grossesse in vivo. Il existe aussi des facteurs anatomiques qui contribuent \u00e0 l\u2019infertilit\u00e9 des patientes endom\u00e9triosiques : adh\u00e9rences p\u00e9ri-tubo-ovariennes, alt\u00e9rations tubaires, l\u00e9sions annexielles (endom\u00e9triomes* ovariens) notamment dans les formes s\u00e9v\u00e8res bilat\u00e9rales. Des facteurs d\u00e9favorables \u00e0 la fertilit\u00e9 peuvent aussi \u00eatre induits par des gestes chirurgicaux mal adapt\u00e9s ou r\u00e9p\u00e9titifs. Enfin, la fr\u00e9quence souvent plus limit\u00e9e des rapports sexuels, du fait d\u2019une dyspareunie invalidante, contribue bien s\u00fbr \u00e0 une moindre exposition aux chances de grossesse. \u00bb",
+      "text": "\u00ab Les m\u00e9canismes d\u2019infertilit\u00e9 en cause sont nombreux et toutes les \u00e9tapes de la reproduction peuvent \u00eatre affect\u00e9es : troubles de l\u2019ovulation, diminution de la r\u00e9serve folliculaire, anomalies de la f\u00e9condation, troubles de la captation ovocytaire, troubles du transport des gam\u00e8tes, trouble de l\u2019implantation. Suite \u00e0 la r\u00e9gurgitation menstruelle, il existe une inflammation du liquide p\u00e9riton\u00e9al qui perturbe la rencontre entre l\u2019ovocyte et le spermatozo\u00efde, avec pour cons\u00e9quence une diminution des chances de grossesse in vivo. Il existe aussi des facteurs anatomiques qui contribuent \u00e0 l\u2019infertilit\u00e9 des patientes endom\u00e9triosiques : adh\u00e9rences p\u00e9ri-tubo-ovariennes, alt\u00e9rations tubaires, l\u00e9sions annexielles (endom\u00e9triomes* ovariens) notamment dans les formes s\u00e9v\u00e8res bilat\u00e9rales. Des facteurs d\u00e9favorables \u00e0 la fertilit\u00e9 peuvent aussi \u00eatre induits par des gestes chirurgicaux mal adapt\u00e9s ou r\u00e9p\u00e9titifs. Enfin, la fr\u00e9quence souvent plus limit\u00e9e des rapports sexuels, du fait d\u2019une dyspareunie invalidante, contribue bien s\u00fbr \u00e0 une moindre exposition aux chances de grossesse. \u00bb"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment faire face \u00e0 l\u2019infertilit\u00e9 quand on est atteinte d\u2019endom\u00e9triose ?",
+      "text": "Comment faire face \u00e0 l\u2019infertilit\u00e9 quand on est atteinte d\u2019endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019AMP et La FIV",
+      "text": "L\u2019AMP et La FIV",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019Adoption",
+      "text": "L\u2019Adoption",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans tous les cas et face \u00e0 la persistance des sympt\u00f4mes, un\u00a0",
+      "text": "Dans tous les cas et face \u00e0 la persistance des sympt\u00f4mes, un\u00a0"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "avis m\u00e9dical est indiqu\u00e9",
+      "text": "avis m\u00e9dical est indiqu\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Surtout si ces sympt\u00f4mes sont associ\u00e9s \u00e0 de la fi\u00e8vre ou \u00e0 de fortes douleurs.",
+      "text": ". Surtout si ces sympt\u00f4mes sont associ\u00e9s \u00e0 de la fi\u00e8vre ou \u00e0 de fortes douleurs."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

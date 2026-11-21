@@ -4,7 +4,7 @@
   "name": "page",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 6058904702748032892,
+    "binary_hash": 10549460774912510646,
     "filename": "page.md"
   },
   "furniture": {
@@ -1399,8 +1399,8 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": ": titleContent. Par exemple, l\u2019employeur ne peut pas faire la demande \u00e0 la place de la personne.",
-      "text": ": titleContent. Par exemple, l\u2019employeur ne peut pas faire la demande \u00e0 la place de la personne."
+      "orig": ". Par exemple, l\u2019employeur ne peut pas faire la demande \u00e0 la place de la personne.",
+      "text": ". Par exemple, l\u2019employeur ne peut pas faire la demande \u00e0 la place de la personne."
     },
     {
       "self_ref": "#/texts/38",
@@ -1670,8 +1670,8 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": ": titleContent instruit la demande.",
-      "text": ": titleContent instruit la demande."
+      "orig": " instruit la demande.",
+      "text": " instruit la demande."
     },
     {
       "self_ref": "#/texts/58",
@@ -1756,8 +1756,8 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": ": titleContent.",
-      "text": ": titleContent."
+      "orig": ".",
+      "text": "."
     },
     {
       "self_ref": "#/texts/64",
@@ -2007,8 +2007,8 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": ": titleContent. Ce recours doit \u00eatre exerc\u00e9 ",
-      "text": ": titleContent. Ce recours doit \u00eatre exerc\u00e9 "
+      "orig": ". Ce recours doit \u00eatre exerc\u00e9 ",
+      "text": ". Ce recours doit \u00eatre exerc\u00e9 "
     },
     {
       "self_ref": "#/texts/81",
@@ -2136,8 +2136,8 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": ": titleContent ou implicite, vous avez ",
-      "text": ": titleContent ou implicite, vous avez "
+      "orig": " ou implicite, vous avez ",
+      "text": " ou implicite, vous avez "
     },
     {
       "self_ref": "#/texts/90",

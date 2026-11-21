@@ -1,0 +1,1600 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 16793484189680042647,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/77"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/31"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/34"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans l\u2019enseignement sup\u00e9rieur, les \u00e9tudiants en situation de handicap, concern\u00e9s par un trouble sp\u00e9cifique ou une maladie invalidante peuvent b\u00e9n\u00e9ficier d\u2019un accompagnement et d\u2019am\u00e9nagements adapt\u00e9s pour leurs \u00e9tudes.",
+      "text": "Dans l\u2019enseignement sup\u00e9rieur, les \u00e9tudiants en situation de handicap, concern\u00e9s par un trouble sp\u00e9cifique ou une maladie invalidante peuvent b\u00e9n\u00e9ficier d\u2019un accompagnement et d\u2019am\u00e9nagements adapt\u00e9s pour leurs \u00e9tudes."
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mon Parcours Handicap revient sur les interlocuteurs \u00e0 solliciter et les diff\u00e9rentes proc\u00e9dures pour b\u00e9n\u00e9ficier d\u2019un plan d\u2019accompagnement de l\u2019\u00e9tudiant en situation de handicap (PAEH) dans l\u2019enseignement sup\u00e9rieur.",
+      "text": "Mon Parcours Handicap revient sur les interlocuteurs \u00e0 solliciter et les diff\u00e9rentes proc\u00e9dures pour b\u00e9n\u00e9ficier d\u2019un plan d\u2019accompagnement de l\u2019\u00e9tudiant en situation de handicap (PAEH) dans l\u2019enseignement sup\u00e9rieur."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous \u00eates \u00e9tudiant au sein d\u2019un lyc\u00e9e (BTS, CPGE, DN MADE, etc.), un article sp\u00e9cifique d\u00e9taille la continuit\u00e9 des plans d\u2019accompagnement : consulter l'article",
+      "text": "Si vous \u00eates \u00e9tudiant au sein d\u2019un lyc\u00e9e (BTS, CPGE, DN MADE, etc.), un article sp\u00e9cifique d\u00e9taille la continuit\u00e9 des plans d\u2019accompagnement : consulter l'article"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "1) Le RSE : r\u00e9gime sp\u00e9cial d\u2019\u00e9tudes pour tous les \u00e9tudiants \u00e0 besoins particuliers",
+      "text": "1) Le RSE : r\u00e9gime sp\u00e9cial d\u2019\u00e9tudes pour tous les \u00e9tudiants \u00e0 besoins particuliers",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les \u00e9tablissements d\u2019enseignement sup\u00e9rieur mettent en place le r\u00e9gime sp\u00e9cial d\u2019\u00e9tudes (RSE) pour les \u00e9tudiants \u00e0 besoins particuliers inscrits en licence, licence professionnelle ou master.",
+      "text": "Les \u00e9tablissements d\u2019enseignement sup\u00e9rieur mettent en place le r\u00e9gime sp\u00e9cial d\u2019\u00e9tudes (RSE) pour les \u00e9tudiants \u00e0 besoins particuliers inscrits en licence, licence professionnelle ou master."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le RSE peut s\u2019appliquer \u00e0 tout \u00e9tudiant \u00e0 besoins particuliers :",
+      "text": "Le RSE peut s\u2019appliquer \u00e0 tout \u00e9tudiant \u00e0 besoins particuliers :"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e9tudiants en situation de handicap ;",
+      "text": "\u00e9tudiants en situation de handicap ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e9tudiants concern\u00e9s par une maladie invalidante ;",
+      "text": "\u00e9tudiants concern\u00e9s par une maladie invalidante ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e9tudiantes enceintes ;",
+      "text": "\u00e9tudiantes enceintes ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e9tudiants aidants ;",
+      "text": "\u00e9tudiants aidants ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e9tudiants sportifs de haut niveau ;",
+      "text": "\u00e9tudiants sportifs de haut niveau ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e9tudiants engag\u00e9s",
+      "text": "\u00e9tudiants engag\u00e9s",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "etc.",
+      "text": "etc.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le RSE permet aux \u00e9tudiants de concilier leurs \u00e9tudes avec leurs besoins sp\u00e9cifiques par la mise en place ",
+      "text": "Le RSE permet aux \u00e9tudiants de concilier leurs \u00e9tudes avec leurs besoins sp\u00e9cifiques par la mise en place "
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "de modalit\u00e9s p\u00e9dagogiques sp\u00e9ciales.",
+      "text": "de modalit\u00e9s p\u00e9dagogiques sp\u00e9ciales.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Les \u00e9tudiants peuvent par exemple b\u00e9n\u00e9ficier d\u2019une adaptation de leur emploi du temps, d\u2019une adaptation de la dur\u00e9e du cursus, d\u2019un tutorat, etc.",
+      "text": " Les \u00e9tudiants peuvent par exemple b\u00e9n\u00e9ficier d\u2019une adaptation de leur emploi du temps, d\u2019une adaptation de la dur\u00e9e du cursus, d\u2019un tutorat, etc."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le choix de ces modalit\u00e9s p\u00e9dagogiques sp\u00e9ciales est d\u00e9fini par votre \u00e9tablissement.",
+      "text": "Le choix de ces modalit\u00e9s p\u00e9dagogiques sp\u00e9ciales est d\u00e9fini par votre \u00e9tablissement."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Renseignez-vous aupr\u00e8s du service de scolarit\u00e9 de votre \u00e9tablissement. Une demande est \u00e0 d\u00e9poser aupr\u00e8s de votre \u00e9tablissement avec des justificatifs \u00e0 l'appui.",
+      "text": "Renseignez-vous aupr\u00e8s du service de scolarit\u00e9 de votre \u00e9tablissement. Une demande est \u00e0 d\u00e9poser aupr\u00e8s de votre \u00e9tablissement avec des justificatifs \u00e0 l'appui.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Ressources utiles",
+      "text": "Ressources utiles",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Trouver la liste compl\u00e8te des personnes concern\u00e9es | \u00e9tudiant.gouv.fr",
+      "text": "Trouver la liste compl\u00e8te des personnes concern\u00e9es | \u00e9tudiant.gouv.fr",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Consulter\u00a0: Arr\u00eat\u00e9 du 22 janvier 2014 fixant le cadre national des formations conduisant \u00e0 la d\u00e9livrance des dipl\u00f4mes nationaux de licence, de licence professionnelle et de master (Article 12 de juillet 2018) & le Code de l'\u00e9ducation (Article L611-11)",
+      "text": "Consulter\u00a0: Arr\u00eat\u00e9 du 22 janvier 2014 fixant le cadre national des formations conduisant \u00e0 la d\u00e9livrance des dipl\u00f4mes nationaux de licence, de licence professionnelle et de master (Article 12 de juillet 2018) & le Code de l'\u00e9ducation (Article L611-11)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "2) Le PAEH : plan d\u2019accompagnement de l\u2019\u00e9tudiant en situation de handicap",
+      "text": "2) Le PAEH : plan d\u2019accompagnement de l\u2019\u00e9tudiant en situation de handicap",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "En quoi consiste le PAEH ?",
+      "text": "En quoi consiste le PAEH ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans les \u00e9tablissements d\u2019enseignement sup\u00e9rieur, tout \u00e9tudiant en situation de handicap peut b\u00e9n\u00e9ficier d\u2019am\u00e9nagements r\u00e9pondant \u00e0 ses besoins.",
+      "text": "Dans les \u00e9tablissements d\u2019enseignement sup\u00e9rieur, tout \u00e9tudiant en situation de handicap peut b\u00e9n\u00e9ficier d\u2019am\u00e9nagements r\u00e9pondant \u00e0 ses besoins."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il peut s\u2019agir :",
+      "text": "Il peut s\u2019agir :"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019am\u00e9nagements organisationnels",
+      "text": "d\u2019am\u00e9nagements organisationnels",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : adaptation de l\u2019emploi du temps, acc\u00e8s \u00e0 une salle de repos, etc.\u00a0;",
+      "text": " : adaptation de l\u2019emploi du temps, acc\u00e8s \u00e0 une salle de repos, etc.\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019aides techniques ou mat\u00e9rielles",
+      "text": "d\u2019aides techniques ou mat\u00e9rielles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : pr\u00eat d\u2019ordinateur, mobilier ergonomique, etc.\u00a0;",
+      "text": " : pr\u00eat d\u2019ordinateur, mobilier ergonomique, etc.\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019aides humaines",
+      "text": "d\u2019aides humaines",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : prise de note, secr\u00e9tariat d\u2019examen, tutorat m\u00e9thodologique ou disciplinaire, etc.",
+      "text": " : prise de note, secr\u00e9tariat d\u2019examen, tutorat m\u00e9thodologique ou disciplinaire, etc."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "tout autre am\u00e9nagement ou adaptation p\u00e9dagogique",
+      "text": "tout autre am\u00e9nagement ou adaptation p\u00e9dagogique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " n\u00e9cessaire \u00e0 votre parcours\u00a0: adaptations p\u00e9dagogiques des \u00e9valuations, adaptations de la p\u00e9riode de stage, etc.",
+      "text": " n\u00e9cessaire \u00e0 votre parcours\u00a0: adaptations p\u00e9dagogiques des \u00e9valuations, adaptations de la p\u00e9riode de stage, etc."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces am\u00e9nagements peuvent concerner les examens, le suivi de la formation, et la vie \u00e9tudiante.",
+      "text": "Ces am\u00e9nagements peuvent concerner les examens, le suivi de la formation, et la vie \u00e9tudiante."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les am\u00e9nagements n\u00e9cessaires au bon d\u00e9roulement de votre parcours sont formalis\u00e9s dans un plan d\u2019accompagnement de l\u2019\u00e9tudiant handicap\u00e9 (PAEH).",
+      "text": "Les am\u00e9nagements n\u00e9cessaires au bon d\u00e9roulement de votre parcours sont formalis\u00e9s dans un plan d\u2019accompagnement de l\u2019\u00e9tudiant handicap\u00e9 (PAEH)."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter\u00a0:",
+      "text": "\u00c0 noter\u00a0:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " le nom du document peut varier selon les \u00e9tablissements.",
+      "text": " le nom du document peut varier selon les \u00e9tablissements."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c0 qui s\u2019adresse le PAEH ?",
+      "text": "\u00c0 qui s\u2019adresse le PAEH ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour b\u00e9n\u00e9ficier d\u2019un PAEH, il n\u2019est pas obligatoire ",
+      "text": "Pour b\u00e9n\u00e9ficier d\u2019un PAEH, il n\u2019est pas obligatoire "
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019avoir un dossier \u00e0 la MDPH.",
+      "text": "d\u2019avoir un dossier \u00e0 la MDPH.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le PAEH s\u2019adresse \u00e0 tout \u00e9tudiant ayant des besoins d\u2019am\u00e9nagements ou d\u2019accompagnement li\u00e9s \u00e0 une situation de handicap, un trouble sp\u00e9cifique ou une maladie invalidante.",
+      "text": "Le PAEH s\u2019adresse \u00e0 tout \u00e9tudiant ayant des besoins d\u2019am\u00e9nagements ou d\u2019accompagnement li\u00e9s \u00e0 une situation de handicap, un trouble sp\u00e9cifique ou une maladie invalidante."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 savoir",
+      "text": "\u00c0 savoir",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " :",
+      "text": " :"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez b\u00e9n\u00e9ficier d\u2019un PAEH pour la poursuite de vos \u00e9tudes, si au lyc\u00e9e vous avez b\u00e9n\u00e9fici\u00e9 d\u2019un\u00a0:",
+      "text": "Vous pouvez b\u00e9n\u00e9ficier d\u2019un PAEH pour la poursuite de vos \u00e9tudes, si au lyc\u00e9e vous avez b\u00e9n\u00e9fici\u00e9 d\u2019un\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2022\u00a0\u00a0\u00a0 Plan d\u2019accompagnement personnalis\u00e9 (PAP)",
+      "text": "\u2022\u00a0\u00a0\u00a0 Plan d\u2019accompagnement personnalis\u00e9 (PAP)"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2022\u00a0\u00a0\u00a0 Projet d\u2019accueil individualis\u00e9 (PAI)",
+      "text": "\u2022\u00a0\u00a0\u00a0 Projet d\u2019accueil individualis\u00e9 (PAI)"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2022\u00a0\u00a0\u00a0 Projet personnalis\u00e9 de scolarisation (PPS)",
+      "text": "\u2022\u00a0\u00a0\u00a0 Projet personnalis\u00e9 de scolarisation (PPS)"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles sont les \u00e9tapes pour b\u00e9n\u00e9ficier d\u2019un PAEH ?",
+      "text": "Quelles sont les \u00e9tapes pour b\u00e9n\u00e9ficier d\u2019un PAEH ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9tape 1 : Prendre contact avec le service ou mission handicap",
+      "text": "\u00c9tape 1 : Prendre contact avec le service ou mission handicap",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En amont de la rentr\u00e9e,",
+      "text": "En amont de la rentr\u00e9e,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " il est conseill\u00e9 de prendre contact avec le service ou mission handicap de l\u2019\u00e9tablissement. Selon la taille des \u00e9tablissements, il peut s\u2019agir d\u2019une seule personne\u00a0: un r\u00e9f\u00e9rent handicap. ",
+      "text": " il est conseill\u00e9 de prendre contact avec le service ou mission handicap de l\u2019\u00e9tablissement. Selon la taille des \u00e9tablissements, il peut s\u2019agir d\u2019une seule personne\u00a0: un r\u00e9f\u00e9rent handicap. "
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce service ou cette mission handicap",
+      "text": "Ce service ou cette mission handicap",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " a pour mission de mettre en \u0153uvre et de coordonner l\u2019accueil et l\u2019accompagnement des \u00e9tudiants en situation de handicap.",
+      "text": " a pour mission de mettre en \u0153uvre et de coordonner l\u2019accueil et l\u2019accompagnement des \u00e9tudiants en situation de handicap."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il \u00e9value vos besoins d\u2019adaptation en coop\u00e9ration avec ",
+      "text": "Il \u00e9value vos besoins d\u2019adaptation en coop\u00e9ration avec "
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le service de sant\u00e9 \u00e9tudiante (SSE)",
+      "text": "le service de sant\u00e9 \u00e9tudiante (SSE)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et l\u2019\u00e9quipe p\u00e9dagogique.",
+      "text": " et l\u2019\u00e9quipe p\u00e9dagogique."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9tape 2 : obtenir l\u2019avis d\u2019un m\u00e9decin agr\u00e9\u00e9",
+      "text": "\u00c9tape 2 : obtenir l\u2019avis d\u2019un m\u00e9decin agr\u00e9\u00e9",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La mission handicap ou le r\u00e9f\u00e9rent handicap vous oriente vers ",
+      "text": "La mission handicap ou le r\u00e9f\u00e9rent handicap vous oriente vers "
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "un m\u00e9decin agr\u00e9\u00e9,",
+      "text": "un m\u00e9decin agr\u00e9\u00e9,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " d\u00e9sign\u00e9 par la CDAPH.",
+      "text": " d\u00e9sign\u00e9 par la CDAPH."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce m\u00e9decin a la comp\u00e9tence d\u2019\u00e9valuer les besoins des personnes en situation de handicap dans le cadre de leur parcours de formation. Il s\u2019agit en g\u00e9n\u00e9ral du m\u00e9decin du service de sant\u00e9 \u00e9tudiante (SSE) de votre \u00e9tablissement ou d\u2019un m\u00e9decin conventionn\u00e9 avec l\u2019\u00e9tablissement.",
+      "text": "Ce m\u00e9decin a la comp\u00e9tence d\u2019\u00e9valuer les besoins des personnes en situation de handicap dans le cadre de leur parcours de formation. Il s\u2019agit en g\u00e9n\u00e9ral du m\u00e9decin du service de sant\u00e9 \u00e9tudiante (SSE) de votre \u00e9tablissement ou d\u2019un m\u00e9decin conventionn\u00e9 avec l\u2019\u00e9tablissement."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le m\u00e9decin rend un avis dans lequel il propose des am\u00e9nagements.",
+      "text": "Le m\u00e9decin rend un avis dans lequel il propose des am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter",
+      "text": "\u00c0 noter",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : L\u2019avis du m\u00e9decin est ",
+      "text": " : L\u2019avis du m\u00e9decin est "
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "obligatoire",
+      "text": "obligatoire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour les am\u00e9nagements d\u2019examen.",
+      "text": " pour les am\u00e9nagements d\u2019examen."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9tape 3 : obtenir la d\u00e9cision d\u2019am\u00e9nagements et la mise en place du PAEH",
+      "text": "\u00c9tape 3 : obtenir la d\u00e9cision d\u2019am\u00e9nagements et la mise en place du PAEH",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La d\u00e9cision finale d\u2019am\u00e9nagements est valid\u00e9e par votre \u00e9tablissement. Cette d\u00e9cision s\u2019appuie sur l\u2019\u00e9valuation de vos besoins par la mission handicap, sur l\u2019avis m\u00e9dical et les pr\u00e9conisations d\u2019am\u00e9nagements.",
+      "text": "La d\u00e9cision finale d\u2019am\u00e9nagements est valid\u00e9e par votre \u00e9tablissement. Cette d\u00e9cision s\u2019appuie sur l\u2019\u00e9valuation de vos besoins par la mission handicap, sur l\u2019avis m\u00e9dical et les pr\u00e9conisations d\u2019am\u00e9nagements."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de difficult\u00e9,",
+      "text": "En cas de difficult\u00e9,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " les am\u00e9nagements peuvent \u00eatre discut\u00e9s dans le cadre d\u2019une \u00e9quipe plurielle qui r\u00e9unit des repr\u00e9sentants de l\u2019\u00e9quipe p\u00e9dagogique, de la mission handicap, du service de sant\u00e9 \u00e9tudiante, et tout professionnel jug\u00e9 utile \u00e0 l\u2019\u00e9tude de vos besoins. En tant qu\u2019\u00e9tudiant, vous pouvez participer \u00e0 cette r\u00e9union.",
+      "text": " les am\u00e9nagements peuvent \u00eatre discut\u00e9s dans le cadre d\u2019une \u00e9quipe plurielle qui r\u00e9unit des repr\u00e9sentants de l\u2019\u00e9quipe p\u00e9dagogique, de la mission handicap, du service de sant\u00e9 \u00e9tudiante, et tout professionnel jug\u00e9 utile \u00e0 l\u2019\u00e9tude de vos besoins. En tant qu\u2019\u00e9tudiant, vous pouvez participer \u00e0 cette r\u00e9union."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les am\u00e9nagements sont notifi\u00e9s et formalis\u00e9s dans le cadre d\u2019",
+      "text": "Les am\u00e9nagements sont notifi\u00e9s et formalis\u00e9s dans le cadre d\u2019"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "un plan d\u2019accompagnement de l\u2019\u00e9tudiant handicap\u00e9 (PAEH)",
+      "text": "un plan d\u2019accompagnement de l\u2019\u00e9tudiant handicap\u00e9 (PAEH)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Cela se d\u00e9roule en g\u00e9n\u00e9ral au d\u00e9but du premier semestre de l\u2019ann\u00e9e universitaire.",
+      "text": ". Cela se d\u00e9roule en g\u00e9n\u00e9ral au d\u00e9but du premier semestre de l\u2019ann\u00e9e universitaire."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour obtenir des informations d\u00e9taill\u00e9es votre futur \u00e9tablissement et le contact email de la mission ou r\u00e9f\u00e9rent handicap : consulter la page d\u00e9di\u00e9e | etudiant.gouv.fr",
+      "text": "Pour obtenir des informations d\u00e9taill\u00e9es votre futur \u00e9tablissement et le contact email de la mission ou r\u00e9f\u00e9rent handicap : consulter la page d\u00e9di\u00e9e | etudiant.gouv.fr"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,10 +1,6 @@
 # Trouver la filière Endométriose la plus proche de chez moi
 
-Dossier
-
 Publié le 24/11/2025
-
-Sommaire
 
 Dossier constitué avec :  Les filières régionales Endométriose
 

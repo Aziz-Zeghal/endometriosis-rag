@@ -53,6 +53,78 @@
   licence: all-rights-reserved
   crawl_delay_s: 10
 
+# Ameli pages on related themes: painful periods, abnormal bleeding (adenomyosis),
+# ovarian cysts (endometrioma), infertility work-up and fertility preservation.
+- id: ameli-regles-douleurs
+  url: https://www.ameli.fr/assure/sante/themes/regles-douloureuses/douleurs-regles
+  source: Ameli
+  title: "Douleurs pendant les règles ou dysménorrhée : quelles sont les causes ?"
+  published: 2026-09-29
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-regles-que-faire
+  url: https://www.ameli.fr/assure/sante/themes/regles-douloureuses/que-faire-quand-consulter
+  source: Ameli
+  title: "Douleurs pendant les règles : que faire pour être soulagée ?"
+  published: 2025-06-25
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-regles-consultation
+  url: https://www.ameli.fr/assure/sante/themes/regles-douloureuses/consultation-traitement
+  source: Ameli
+  title: "Règles douloureuses : consultation et traitement"
+  published: 2025-06-25
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-saignements-adenomyose
+  url: https://www.ameli.fr/assure/sante/themes/saignements-gynecologiques-anormaux/saignements-entre-les-regles-ou-regles-abondantes-longues-les-causes
+  source: Ameli
+  title: "Saignements entre les règles ou règles très abondantes : quelles causes ?"
+  published: 2026-06-25
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-kyste-ovarien
+  url: https://www.ameli.fr/assure/sante/themes/kyste-ovarien-ovaire/definition-causes
+  source: Ameli
+  title: "Kyste ovarien : définition et causes"
+  published: 2024-01-26
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-bilan-infertilite
+  url: https://www.ameli.fr/assure/sante/devenir-parent/concevoir-un-enfant/fertilite-infertilite-sterilite/bilan-medical-infertilite-sterilite
+  source: Ameli
+  title: "Bilan médical de l'infertilité"
+  published: 2026-11-04
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-autoconservation
+  url: https://www.ameli.fr/assure/sante/devenir-parent/concevoir-un-enfant/procreation-medicalement-assistee-pma-amp/autoconservation-des-gametes-et-tissus-germinaux-en-vue-d-une-amp
+  source: Ameli
+  title: "Autoconservation des gamètes et tissus germinaux à des fins ultérieures d'AMP"
+  published: 2025-09-30
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
 # Santé.fr: dated articles and easy-to-read (FALC) sheets.
 # FALC sheets: the PDFs are byte-identical to the 2022-12 versions, so `published` is
 # 2022-12-01 (used by the recency rule) and `checked` is the page's republication date.
@@ -132,6 +204,115 @@
   format: pdf
   licence: all-rights-reserved
 
+# Santé.fr endometriosis dossier: symptoms, pain, daily life, work and rights, myths.
+- id: santefr-douleurs-neurologiques
+  url: https://www.sante.fr/endometriose/symptomes-de-lendometriose-les-douleurs-neurologiques
+  source: Santé.fr
+  title: "Symptômes de l'endométriose : les douleurs neurologiques"
+  published: 2025-03-03
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-diagnostic-tardif
+  url: https://www.sante.fr/endometriose/le-diagnostic-souvent-tardif-de-lendometriose
+  source: Santé.fr
+  title: "Le diagnostic souvent tardif de l'endométriose"
+  published: 2025-01-06
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-evaluer-douleur
+  url: https://www.sante.fr/endometriose/evaluer-la-douleur-due-lendometriose
+  source: Santé.fr
+  title: "Évaluer la douleur due à l'endométriose"
+  published: 2025-01-06
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-qualite-vie
+  url: https://www.sante.fr/endometriose/evaluer-la-qualite-de-vie-en-cas-dendometriose
+  source: Santé.fr
+  title: "Évaluer la qualité de vie en cas d'endométriose"
+  published: 2025-01-06
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-grossesse-accouchement
+  url: https://www.sante.fr/endometriose/endometriose-deroulement-de-la-grossesse-et-accouchement
+  source: Santé.fr
+  title: "Endométriose : déroulement de la grossesse et accouchement"
+  published: 2024-03-04
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-temps-partiel-therapeutique
+  url: https://www.sante.fr/endometriose/quest-ce-que-le-temps-partiel-therapeutique
+  source: Santé.fr
+  title: "Qu'est-ce que le temps partiel thérapeutique ?"
+  published: 2024-03-07
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-arret-maladie-employeur
+  url: https://www.sante.fr/endometriose/doit-preciser-la-raison-dun-arret-maladie-son-employeur
+  source: Santé.fr
+  title: "Doit-on préciser la raison d'un arrêt maladie à son employeur ?"
+  published: 2024-03-08
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-ald31-demande
+  url: https://www.sante.fr/endometriose/la-demande-dadmission-en-ald-31-pour-les-femmes-atteintes-dendometriose
+  source: Santé.fr
+  title: "La demande d'admission en ALD 31 pour les femmes atteintes d'endométriose"
+  published: 2024-03-01
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-douleur-chronique-sdc
+  url: https://www.sante.fr/endometriose/les-structures-specialisees-douleur-chronique-sdc
+  source: Santé.fr
+  title: "Les structures spécialisées douleur chronique - SDC"
+  published: 2026-02-10
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-activite-physique
+  url: https://www.sante.fr/endometriose/en-mouvement-avec-lendometriose-les-bonnes-pratiques
+  source: Santé.fr
+  title: "En mouvement avec l'endométriose : les bonnes pratiques"
+  published: 2025-02-25
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-complements-alimentaires
+  url: https://www.sante.fr/endometriose/decryptage/nos-reponses/certains-complements-alimentaires-peuvent-ils-soulager-lendometriose
+  source: Santé.fr
+  title: "Certains compléments alimentaires peuvent-ils soulager l'endométriose ?"
+  published: 2022-04-08
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-petite-chronique
+  url: https://www.sante.fr/petite-chronique-de-lendometriose
+  source: Santé.fr
+  title: "Petite chronique de l'endométriose"
+  published: 2024-04-02
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
 # EndoFrance (patient association): dates are the pages' last update.
 - id: endofrance-faq
   url: https://www.endofrance.org/la-maladie-endometriose/faq-foire-aux-questions/
@@ -187,6 +368,133 @@
   format: html
   licence: all-rights-reserved
 
+# EndoFrance symptom, treatment, fertility and daily-life pages, and pages for relatives.
+- id: endofrance-regles-douloureuses
+  url: https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/regles-douloureuses/
+  source: EndoFrance
+  title: "Règles douloureuses et Endométriose"
+  published: 2026-03-12
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-douleurs-pelviennes
+  url: https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/douleurs-pelviennes-lombaires/
+  source: EndoFrance
+  title: "Douleurs pelviennes et Endométriose"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-troubles-digestifs
+  url: https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/troubles-digestifs/
+  source: EndoFrance
+  title: "Troubles digestifs et Endométriose"
+  published: 2025-12-29
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-troubles-urinaires
+  url: https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/troubles-urinaires/
+  source: EndoFrance
+  title: "Troubles urinaires et Endométriose"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-fatigue
+  url: https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/fatigue-chronique/
+  source: EndoFrance
+  title: "Fatigue chronique et Endométriose"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-dyspareunie
+  url: https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/dyspareunie-douleurs-rapports-sexuels/
+  source: EndoFrance
+  title: "La dyspareunie : douleurs lors des rapports sexuels"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-infertilite
+  url: https://www.endofrance.org/la-maladie-endometriose/symptomes-endometriose/infertilite/
+  source: EndoFrance
+  title: "Infertilité et endométriose"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-preservation-ovocytaire
+  url: https://www.endofrance.org/la-maladie-endometriose/la-preservation-ovocytaire/
+  source: EndoFrance
+  title: "La préservation ovocytaire"
+  published: 2025-12-18
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-traitements
+  url: https://www.endofrance.org/traitements-endometriose/
+  source: EndoFrance
+  title: "Les traitements de l'endométriose"
+  published: 2025-12-18
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-adenomyose
+  url: https://www.endofrance.org/la-maladie-endometriose/adenomyose-endometriose/
+  source: EndoFrance
+  title: "Qu'est-ce que l'adénomyose ?"
+  published: 2026-01-14
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-menopause
+  url: https://www.endofrance.org/la-maladie-endometriose/menopause-endometriose/
+  source: EndoFrance
+  title: "La ménopause et l'Endométriose"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-vivre-avec
+  url: https://www.endofrance.org/la-maladie-endometriose/vivre-avec-lendometriose/
+  source: EndoFrance
+  title: "Vivre avec l'Endométriose"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-entourage
+  url: https://www.endofrance.org/la-maladie-endometriose/entourage/
+  source: EndoFrance
+  title: "Accompagner une proche atteinte d'endométriose"
+  published: 2025-12-18
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-parent-jeune
+  url: https://www.endofrance.org/la-maladie-endometriose/entourage/je-suis-parent-dune-jeune-personne-atteinte/
+  source: EndoFrance
+  title: "Je suis parent d'une jeune personne atteinte"
+  published: 2026-05-28
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
 # Rights and work: open government licence.
 - id: sp-ald
   url: https://www.service-public.gouv.fr/particuliers/vosdroits/F34068
@@ -214,6 +522,121 @@
   audience: patient
   format: html
   licence: etalab-2.0
+
+# School and studies: PAI, exam adjustments, higher education. Sick leave.
+- id: sp-pai
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F21392
+  source: Service-Public
+  title: "Qu'est-ce qu'un projet d'accueil individualisé (PAI) ?"
+  checked: 2025-05-21
+  audience: patient
+  format: html
+  licence: etalab-2.0
+
+- id: sp-amenagement-examens-lycee
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F15112
+  source: Service-Public
+  title: "Un jeune en situation de handicap peut-il avoir un aménagement pour passer ses examens ?"
+  checked: 2025-09-25
+  audience: patient
+  format: html
+  licence: etalab-2.0
+
+- id: mph-etudes-amenagements
+  url: https://www.monparcourshandicap.gouv.fr/etudes-superieures/quels-interlocuteurs-et-procedures-pour-beneficier-damenagements-dans-0
+  source: Mon Parcours Handicap
+  title: "Quels interlocuteurs et procédures pour bénéficier d'aménagements dans l'enseignement supérieur ?"
+  published: 2026-01-13
+  audience: patient
+  format: html
+  licence: etalab-2.0
+
+- id: sp-arret-maladie
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F303
+  source: Service-Public
+  title: "Arrêt maladie : démarches à effectuer par le salarié"
+  checked: 2026-09-01
+  audience: patient
+  format: html
+  licence: etalab-2.0
+
+# Étudiant.gouv: study adjustments for endometriosis. No reuse terms found, so treated as
+# all rights reserved. Mentions menstrual leave (see docs/sources.md).
+- id: etudiant-gouv-amenagements-endometriose
+  url: https://www.etudiant.gouv.fr/fr/amenagements-endometriose
+  source: Étudiant.gouv
+  title: "Endométriose : les aménagements d'études qui s'adaptent à vos besoins"
+  published: 2024-03-05
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+# ENDOmind France: ALD 31 application and refusal booklet. Only the year is shown.
+- id: endomind-livret-refus-ald31
+  url: https://www.endomind.org/_files/ugd/ebf679_5e46ecbf4da9451093b4090d75664c55.pdf
+  source: ENDOmind France
+  title: "Livret endométriose : refus d'ALD hors liste (ALD 31) – les étapes pour contester la décision"
+  published: 2026-01-01
+  audience: patient
+  format: pdf
+  licence: all-rights-reserved
+
+# WHO fact sheet (French): non-commercial reuse with attribution.
+- id: oms-aide-memoire-endometriose
+  url: https://www.who.int/fr/news-room/fact-sheets/detail/endometriosis
+  source: OMS
+  title: "Endométriose – Principaux repères"
+  published: 2025-10-15
+  audience: patient
+  format: html
+  licence: who-non-commercial-with-attribution
+
+# French-language university hospitals (Switzerland, Belgium): not French care context,
+# so answers should say where the source comes from.
+- id: hug-traitements
+  url: https://www.hug.ch/gynecologie/quels-traitements-pour-endometriose
+  source: HUG
+  title: "Les traitements pour l'endométriose"
+  published: 2025-09-02
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: hug-douleurs-menstruelles-ados
+  url: https://enfants-ados.hug.ch/gynecologie-pediatrique/douleurs-menstruelles
+  source: HUG
+  title: "Les douleurs menstruelles"
+  published: 2026-10-23
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: hug-carnet-suivi
+  url: https://www.hug.ch/sites/interhug/files/documents/endometriose_suivi.pdf
+  source: HUG
+  title: "Soulager l'endométriose – Carnet de suivi des douleurs, symptômes et traitements"
+  published: 2024-08-01
+  audience: patient
+  format: pdf
+  licence: all-rights-reserved
+
+- id: chuv-endometriose-adenomyose
+  url: https://www.chuv.ch/fr/fertilite/umr-home/endometriose
+  source: CHUV
+  title: "Endométriose et adénomyose"
+  published: 2026-11-09
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: helora-endometriose
+  url: https://www.helora.be/sites/default/files/uploads/Documents/Services%20m%C3%A9dicaux%20et%20param%C3%A9dicaux/Gyn%C3%A9cologie-Obst%C3%A9trique-Maternit%C3%A9/CLIN-DOC-058%20-%20Endometriose.pdf
+  source: HELORA
+  title: "Clinique Mon(s) endométriose – Prise en charge multidisciplinaire de l'endométriose"
+  published: 2026-02-01
+  audience: patient
+  format: pdf
+  licence: all-rights-reserved
 
 # HAS summary sheets, shared with the GP corpus (same ids and fields in gp.yaml).
 - id: has-fiche-diagnostic

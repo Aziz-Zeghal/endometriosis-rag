@@ -1,0 +1,1001 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 6240236086092351307,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/6"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "furniture",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "furniture",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/12"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/27"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/30"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/36"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/27"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Date de validation : d\u00e9cembre 2023",
+      "text": "Date de validation : d\u00e9cembre 2023",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Documents : 2",
+      "text": "Documents : 2",
+      "hyperlink": "https://has-sante.fr/jcms/p_3486036/fr/evaluation-du-test-salivaire-endotest-dans-les-situations-complexes-de-diagnostic-d-endometriose#ancreDocAss",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "T\u00e9l\u00e9charger le document",
+      "text": "T\u00e9l\u00e9charger le document",
+      "hyperlink": "jcms/p_3486165/fr/evaluation-du-test-salivaire-endotest-dans-les-situations-complexes-de-diagnostic-d-endometriose-rapport-d-evaluation"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "Ajouter \u00e0 ma selection",
+      "text": "Ajouter \u00e0 ma selection",
+      "hyperlink": "plugins/ModuleHAS2019/jsp/selection/userSelectionAdd.jsp?idPub=p_3486036"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "Citer cette publication ",
+      "text": "Citer cette publication ",
+      "hyperlink": "plugins/ModuleHAS2019/jsp/modal/citerModal.jsp"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "Impression",
+      "text": "Impression",
+      "hyperlink": "https://has-sante.fr/jcms/p_3486036/fr/evaluation-du-test-salivaire-endotest-dans-les-situations-complexes-de-diagnostic-d-endometriose?portal=p_3058934"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "\u00c9valuation du test salivaire Endotest\u00ae dans les situations complexes de diagnostic d'endom\u00e9triose",
+      "text": "\u00c9valuation du test salivaire Endotest\u00ae dans les situations complexes de diagnostic d'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Evaluation des technologies de sant\u00e9 - Mis en ligne le 08 janv. 2024 - Mis \u00e0 jour le 24 avr. 2024",
+      "text": "Evaluation des technologies de sant\u00e9 - Mis en ligne le 08 janv. 2024 - Mis \u00e0 jour le 24 avr. 2024"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "1. Objectif",
+      "text": "1. Objectif",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00c9valuer sur auto-saisine de la Haute Autorit\u00e9 de sant\u00e9 (HAS) en juillet 2023 l\u2019utilit\u00e9 clinique du test salivaire Endotest\u00ae pour les situations complexes de diagnostic de l\u2019endom\u00e9triose.",
+      "text": "\u00c9valuer sur auto-saisine de la Haute Autorit\u00e9 de sant\u00e9 (HAS) en juillet 2023 l'utilit\u00e9 clinique du test salivaire Endotest\u00ae pour les situations complexes de diagnostic de l'endom\u00e9triose.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Ce travail a l\u2019objectif d\u2019\u00e9clairer la d\u00e9cision du Coll\u00e8ge de la HAS en vue de statuer sur le bien-fond\u00e9 d\u2019un remboursement du test par l\u2019Assurance Maladie dans une indication pertinente.",
+      "text": "Ce travail a l'objectif d'\u00e9clairer la d\u00e9cision du Coll\u00e8ge de la HAS en vue de statuer sur le bien-fond\u00e9 d'un remboursement du test par l'Assurance Maladie dans une indication pertinente.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Au moment de l\u2019\u00e9valuation, ce test signature \u00e0 109 microARN dos\u00e9s par une m\u00e9thode sophistiqu\u00e9e de s\u00e9quen\u00e7age haut d\u00e9bit dans la salive est en phase de validation des performances diagnostiques et est le seul disposant d\u2019un marquage CE dans l\u2019endom\u00e9triose.",
+      "text": "Au moment de l'\u00e9valuation, ce test signature \u00e0 109 microARN dos\u00e9s par une m\u00e9thode sophistiqu\u00e9e de s\u00e9quen\u00e7age haut d\u00e9bit dans la salive est en phase de validation des performances diagnostiques et est le seul disposant d'un marquage CE dans l'endom\u00e9triose.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "2. M\u00e9thode",
+      "text": "2. M\u00e9thode",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/texts/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette \u00e9valuation est bas\u00e9e sur :",
+      "text": "Cette \u00e9valuation est bas\u00e9e sur :"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la consultation pr\u00e9alable des associations de patientes (besoin \u00e0 couvrir, contexte m\u00e9dical) ;",
+      "text": "la consultation pr\u00e9alable des associations de patientes (besoin \u00e0 couvrir, contexte m\u00e9dical) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019analyse critique des donn\u00e9es cliniques finalis\u00e9es (non encore publi\u00e9es) de l\u2019\u00e9tude de validation ENDOmiARN salive test (NCT05244668) qui ont \u00e9t\u00e9 fournies par le fabricant, sans besoin de r\u00e9aliser une nouvelle revue syst\u00e9matique de la litt\u00e9rature par ailleurs ;",
+      "text": "l'analyse critique des donn\u00e9es cliniques finalis\u00e9es (non encore publi\u00e9es) de l'\u00e9tude de validation ENDOmiARN salive test (NCT05244668) qui ont \u00e9t\u00e9 fournies par le fabricant, sans besoin de r\u00e9aliser une nouvelle revue syst\u00e9matique de la litt\u00e9rature par ailleurs ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la consultation d\u2019experts multidisciplinaires en audition (gyn\u00e9cologues, radiologue, biologiste m\u00e9dical) pour contextualiser les r\u00e9sultats de l\u2019\u00e9tude ;",
+      "text": "la consultation d'experts multidisciplinaires en audition (gyn\u00e9cologues, radiologue, biologiste m\u00e9dical) pour contextualiser les r\u00e9sultats de l'\u00e9tude ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la r\u00e9action par \u00e9crit des parties prenantes au travail d\u2019expertise (organismes professionnels, associations de patientes) ;",
+      "text": "la r\u00e9action par \u00e9crit des parties prenantes au travail d'expertise (organismes professionnels, associations de patientes) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019analyse du travail en Commission d\u2019Evaluation des tests diagnostiques, pronostiques et pr\u00e9dictifs ;",
+      "text": "l'analyse du travail en Commission d'Evaluation des tests diagnostiques, pronostiques et pr\u00e9dictifs ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la validation finale par le Coll\u00e8ge de la HAS.",
+      "text": "la validation finale par le Coll\u00e8ge de la HAS.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "3. R\u00e9sultats",
+      "text": "3. R\u00e9sultats",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les donn\u00e9es recevables concernent une sous \u00e9tude de 237 patientes suspectes d\u2019endom\u00e9triose ayant une discordance clinico-radiologique et une indication de coelioscopie pos\u00e9e en r\u00e9union de concertation pluridisciplinaire (situations cliniques complexes). Le risque de biais et l\u2019applicabilit\u00e9 clinique de l\u2019\u00e9tude sont incertains avec l\u2019outil international QUADAS 2.",
+      "text": "Les donn\u00e9es recevables concernent une sous \u00e9tude de 237 patientes suspectes d'endom\u00e9triose ayant une discordance clinico-radiologique et une indication de coelioscopie pos\u00e9e en r\u00e9union de concertation pluridisciplinaire (situations cliniques complexes). Le risque de biais et l'applicabilit\u00e9 clinique de l'\u00e9tude sont incertains avec l'outil international QUADAS 2.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les donn\u00e9es disponibles ne permettent pas de montrer directement un impact favorable du test sur la prise en charge des patientes.",
+      "text": "Les donn\u00e9es disponibles ne permettent pas de montrer directement un impact favorable du test sur la prise en charge des patientes.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les performances diagnostiques du test sont \u00e9lev\u00e9es pour une pr\u00e9valence de la maladie de 49% : sensibilit\u00e9 : 0,95 IC95% [0,89 \u2013 0,98] ; sp\u00e9cificit\u00e9 : 0,94 IC95% [0,88 - 0,98] valeur pr\u00e9dictive n\u00e9gative : 0,95 IC95% [0,91 -0,99] ; rapport de vraisemblance n\u00e9gatif : 0,05.",
+      "text": "Les performances diagnostiques du test sont \u00e9lev\u00e9es pour une pr\u00e9valence de la maladie de 49% : sensibilit\u00e9 : 0,95 IC95% [0,89 - 0,98] ; sp\u00e9cificit\u00e9 : 0,94 IC95% [0,88 - 0,98] valeur pr\u00e9dictive n\u00e9gative : 0,95 IC95% [0,91 -0,99] ; rapport de vraisemblance n\u00e9gatif : 0,05.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Ces performances restent stables en d\u00e9pit de plusieurs tests de robustesse (analyses de sensibilit\u00e9 par une m\u00e9thode d\u2019imputation), le risque d\u2019erreurs diagnostiques \u00e9tant toutefois \u00e0 prendre en compte pour un test n\u00e9gatif en cas de pr\u00e9valence de 75% (14% de faux n\u00e9gatifs).",
+      "text": "Ces performances restent stables en d\u00e9pit de plusieurs tests de robustesse (analyses de sensibilit\u00e9 par une m\u00e9thode d'imputation), le risque d'erreurs diagnostiques \u00e9tant toutefois \u00e0 prendre en compte pour un test n\u00e9gatif en cas de pr\u00e9valence de 75% (14% de faux n\u00e9gatifs).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La m\u00e9thode de mod\u00e9lisation de l\u2019impact sur la prise en charge des patientes par les courbes d\u2019analyse de d\u00e9cision montre que la strat\u00e9gie avec Endotest\u00ae est sup\u00e9rieure aux strat\u00e9gies par d\u00e9faut (sans Endotest\u00ae) qui \u00e9quivaut \u00e0 r\u00e9aliser trois tests (en cas de pr\u00e9valence de 50%) \u00e0 cinq tests (en cas de pr\u00e9valence de 75%) pour \u00e9viter (possiblement) une coelioscopie inutile \u00e0 une patiente (preuve indirecte bas\u00e9e sur des performances diagnostiques).",
+      "text": "La m\u00e9thode de mod\u00e9lisation de l'impact sur la prise en charge des patientes par les courbes d'analyse de d\u00e9cision montre que la strat\u00e9gie avec Endotest\u00ae est sup\u00e9rieure aux strat\u00e9gies par d\u00e9faut (sans Endotest\u00ae) qui \u00e9quivaut \u00e0 r\u00e9aliser trois tests (en cas de pr\u00e9valence de 50%) \u00e0 cinq tests (en cas de pr\u00e9valence de 75%) pour \u00e9viter (possiblement) une coelioscopie inutile \u00e0 une patiente (preuve indirecte bas\u00e9e sur des performances diagnostiques).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Selon les experts, de nombreux \u00e9l\u00e9ments cliniques non ou insuffisamment renseign\u00e9s dans l\u2019\u00e9tude ne permettent pas de conclure avec confiance sur l\u2019applicabilit\u00e9 effective des r\u00e9sultats \u00e0 la pratique courante.",
+      "text": "Selon les experts, de nombreux \u00e9l\u00e9ments cliniques non ou insuffisamment renseign\u00e9s dans l'\u00e9tude ne permettent pas de conclure avec confiance sur l'applicabilit\u00e9 effective des r\u00e9sultats \u00e0 la pratique courante.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        },
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "4. Conclusion",
+      "text": "4. Conclusion",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Si Endotest\u00ae pr\u00e9sente un caract\u00e8re novateur ind\u00e9niable, un tr\u00e8s fort potentiel soulign\u00e9 par les experts et des performances diagnostiques valid\u00e9es, une \u00e9tude diagnostique comparative et interventionnelle compl\u00e9mentaire d\u2019impact avant-apr\u00e8s le r\u00e9sultat du test sur la d\u00e9cision et la prise en charge des patientes (notamment en termes de r\u00e9duction du nombre des coelioscopies inutiles) s\u2019av\u00e8re maintenant n\u00e9cessaire pour d\u00e9montrer l\u2019utilit\u00e9 clinique du test et ainsi pouvoir r\u00e9pondre aux attentes importantes des patientes et des cliniciens, quant \u00e0 son usage dans la pratique.",
+      "text": "Si Endotest\u00ae pr\u00e9sente un caract\u00e8re novateur ind\u00e9niable, un tr\u00e8s fort potentiel soulign\u00e9 par les experts et des performances diagnostiques valid\u00e9es, une \u00e9tude diagnostique comparative et interventionnelle compl\u00e9mentaire d'impact avant-apr\u00e8s le r\u00e9sultat du test sur la d\u00e9cision et la prise en charge des patientes (notamment en termes de r\u00e9duction du nombre des coelioscopies inutiles) s'av\u00e8re maintenant n\u00e9cessaire pour d\u00e9montrer l'utilit\u00e9 clinique du test et ainsi pouvoir r\u00e9pondre aux attentes importantes des patientes et des cliniciens, quant \u00e0 son usage dans la pratique.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Si le remboursement p\u00e9renne d\u2019Endotest\u00ae ne peut encore \u00eatre envisag\u00e9 \u00e0 ce stade, Endotest\u00ae est n\u00e9anmoins susceptible de r\u00e9pondre favorablement aux crit\u00e8res d\u2019\u00e9ligibilit\u00e9 du forfait innovation. Ce dernier pourrait alors permettre un acc\u00e8s pr\u00e9coce s\u00e9curis\u00e9 au test, avec une prise en charge d\u00e9rogatoire conditionn\u00e9e \u00e0 la r\u00e9alisation de l\u2019\u00e9tude d\u2019utilit\u00e9 clinique. Dans le cadre de ses actions d\u2019accompagnement, la HAS pourra assurer un soutien m\u00e9thodologique pour l\u2019\u00e9laboration de l\u2019\u00e9tude d\u2019utilit\u00e9 clinique.",
+      "text": "Si le remboursement p\u00e9renne d'Endotest\u00ae ne peut encore \u00eatre envisag\u00e9 \u00e0 ce stade, Endotest\u00ae est n\u00e9anmoins susceptible de r\u00e9pondre favorablement aux crit\u00e8res d'\u00e9ligibilit\u00e9 du forfait innovation. Ce dernier pourrait alors permettre un acc\u00e8s pr\u00e9coce s\u00e9curis\u00e9 au test, avec une prise en charge d\u00e9rogatoire conditionn\u00e9e \u00e0 la r\u00e9alisation de l'\u00e9tude d'utilit\u00e9 clinique. Dans le cadre de ses actions d'accompagnement, la HAS pourra assurer un soutien m\u00e9thodologique pour l'\u00e9laboration de l'\u00e9tude d'utilit\u00e9 clinique.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La HAS propose \u00e0 ce stade les \u00e9l\u00e9ments concrets suivants :",
+      "text": "La HAS propose \u00e0 ce stade les \u00e9l\u00e9ments concrets suivants :",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019acc\u00e8s aux donn\u00e9es de r\u00e9p\u00e9tabilit\u00e9 et de reproductibilit\u00e9 des r\u00e9sultats du test chez une m\u00eame patiente \u00e0 des moments diff\u00e9rents du cycle et la constatation d\u2019une normalisation du test au d\u00e9cours d\u2019une r\u00e9section chirurgicale compl\u00e8te ;",
+      "text": "l'acc\u00e8s aux donn\u00e9es de r\u00e9p\u00e9tabilit\u00e9 et de reproductibilit\u00e9 des r\u00e9sultats du test chez une m\u00eame patiente \u00e0 des moments diff\u00e9rents du cycle et la constatation d'une normalisation du test au d\u00e9cours d'une r\u00e9section chirurgicale compl\u00e8te ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la r\u00e9alisation, dans le cadre du Forfait Innovation, d\u2019une \u00e9tude interventionnelle et comparative diagnostique \u00e9valuant l\u2019impact d\u00e9cisionnel sur la prise en charge des patientes avant-apr\u00e8s le r\u00e9sultat du test chez toutes les patientes (",
+      "text": "la r\u00e9alisation, dans le cadre du Forfait Innovation, d'une \u00e9tude interventionnelle et comparative diagnostique \u00e9valuant l'impact d\u00e9cisionnel sur la prise en charge des patientes avant-apr\u00e8s le r\u00e9sultat du test chez toutes les patientes ("
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "change-in-management study",
+      "text": "change-in-management study",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") o\u00f9 toutes les patientes recevraient le test salivaire ;",
+      "text": ") o\u00f9 toutes les patientes recevraient le test salivaire ;"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019objectif principal de cette \u00e9tude de confirmation serait la diminution du nombre de coelioscopies inutiles d\u00e9coulant de la d\u00e9cision finale partag\u00e9e avec la patiente sur un nombre suffisant de patientes \u00e0 d\u2019autres \u00e9l\u00e9ments informatifs pour confirmer les donn\u00e9es de performances diagnostiques et de reproductibilit\u00e9 analytique qu\u2019\u00e0 obtenir des donn\u00e9es de satisfaction et de qualit\u00e9 des soins per\u00e7ue par la patiente (PREMs",
+      "text": "l'objectif principal de cette \u00e9tude de confirmation serait la diminution du nombre de coelioscopies inutiles d\u00e9coulant de la d\u00e9cision finale partag\u00e9e avec la patiente sur un nombre suffisant de patientes \u00e0 d'autres \u00e9l\u00e9ments informatifs pour confirmer les donn\u00e9es de performances diagnostiques et de reproductibilit\u00e9 analytique qu'\u00e0 obtenir des donn\u00e9es de satisfaction et de qualit\u00e9 des soins per\u00e7ue par la patiente (PREMs"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "[1]",
+      "text": "[1]",
+      "hyperlink": "https://has-sante.fr/jcms/p_3486036/fr/evaluation-du-test-salivaire-endotest-dans-les-situations-complexes-de-diagnostic-d-endometriose#_ftn1"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") ;",
+      "text": ") ;"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "en plus du fabricant, la r\u00e9flexion et les attentes des professionnels et des patientes concern\u00e9s \u00e0 la recherche de consensus au moment de la r\u00e9daction du protocole pourra concerner le contexte de soins (centre de niveau 3, r\u00e9union m\u00e9dico-chirurgicale), la population cible et son profil clinique ainsi que le bilan d\u2019imagerie \u00e0 r\u00e9aliser pr\u00e9alablement au test, les crit\u00e8res de jugement pertinents, l\u2019algorithme d\u00e9cisionnel du test en cas de test positif ou n\u00e9gatif ;",
+      "text": "en plus du fabricant, la r\u00e9flexion et les attentes des professionnels et des patientes concern\u00e9s \u00e0 la recherche de consensus au moment de la r\u00e9daction du protocole pourra concerner le contexte de soins (centre de niveau 3, r\u00e9union m\u00e9dico-chirurgicale), la population cible et son profil clinique ainsi que le bilan d'imagerie \u00e0 r\u00e9aliser pr\u00e9alablement au test, les crit\u00e8res de jugement pertinents, l'algorithme d\u00e9cisionnel du test en cas de test positif ou n\u00e9gatif ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la r\u00e9alisation d\u2019une enqu\u00eate de pratiques pour estimer le volume de prescription du test dans la population cible de la HAS (avant une coelioscopie) et au-del\u00e0 du cadre restreint de celle-ci (en aval d\u2019un bilan d\u2019imagerie non contributif) ;",
+      "text": "la r\u00e9alisation d'une enqu\u00eate de pratiques pour estimer le volume de prescription du test dans la population cible de la HAS (avant une coelioscopie) et au-del\u00e0 du cadre restreint de celle-ci (en aval d'un bilan d'imagerie non contributif) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la r\u00e9alisation d\u2019une enqu\u00eate d\u2019acceptabilit\u00e9 \u00e0 destination des patientes \u00ab IRM n\u00e9gative ou incertaine tout venant \u00bb sur les enjeux propos\u00e9s par cette \u00e9tude clinique et les modalit\u00e9s d\u2019utilisation du test en cas de test n\u00e9gatif ou positif (",
+      "text": "la r\u00e9alisation d'une enqu\u00eate d'acceptabilit\u00e9 \u00e0 destination des patientes \u00ab IRM n\u00e9gative ou incertaine tout venant \u00bb sur les enjeux propos\u00e9s par cette \u00e9tude clinique et les modalit\u00e9s d'utilisation du test en cas de test n\u00e9gatif ou positif ("
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "via ",
+      "text": "via ",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019aide par exemple d\u2019une association de patientes).",
+      "text": "l'aide par exemple d'une association de patientes)."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "[1] ",
+      "text": "[1] ",
+      "hyperlink": "https://has-sante.fr/jcms/p_3486036/fr/evaluation-du-test-salivaire-endotest-dans-les-situations-complexes-de-diagnostic-d-endometriose#_ftnref1"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Patient-reported experience measures",
+      "text": "Patient-reported experience measures",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

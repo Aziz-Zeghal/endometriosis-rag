@@ -1,0 +1,1816 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4325897902659436120,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/groups/18"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/41"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/45"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/72"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Douleurs pendant les r\u00e8gles ou dysm\u00e9norrh\u00e9e : quelles sont les causes ?",
+      "text": "Douleurs pendant les r\u00e8gles ou dysm\u00e9norrh\u00e9e : quelles sont les causes ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : R\u00e8gles douloureuses",
+      "text": "Cet article fait partie du dossier : R\u00e8gles douloureuses"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "29 septembre 2026",
+      "text": "29 septembre 2026"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les douleurs lors des r\u00e8gles sont appel\u00e9es dysm\u00e9norrh\u00e9e. La dysm\u00e9norrh\u00e9e primaire appara\u00eet d\u00e8s les premi\u00e8res r\u00e8gles chez l'adolescente et elle est sans gravit\u00e9 le plus souvent. Elle est secondaire lorsqu'elle survient chez la jeune femme \u00e0 distance de la pubert\u00e9. Dans ce dernier cas, une maladie en cause est recherch\u00e9e.",
+      "text": "Les douleurs lors des r\u00e8gles sont appel\u00e9es dysm\u00e9norrh\u00e9e. La dysm\u00e9norrh\u00e9e primaire appara\u00eet d\u00e8s les premi\u00e8res r\u00e8gles chez l'adolescente et elle est sans gravit\u00e9 le plus souvent. Elle est secondaire lorsqu'elle survient chez la jeune femme \u00e0 distance de la pubert\u00e9. Dans ce dernier cas, une maladie en cause est recherch\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qu'est-ce que les r\u00e8gles douloureuses ou dysm\u00e9norrh\u00e9e ?",
+      "text": "Qu'est-ce que les r\u00e8gles douloureuses ou dysm\u00e9norrh\u00e9e ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La ",
+      "text": "La "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e",
+      "text": "dysm\u00e9norrh\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est le terme m\u00e9dical donn\u00e9 aux douleurs abdominopelviennes qui pr\u00e9c\u00e8dent ou accompagnent les r\u00e8gles ou ",
+      "text": " est le terme m\u00e9dical donn\u00e9 aux douleurs abdominopelviennes qui pr\u00e9c\u00e8dent ou accompagnent les r\u00e8gles ou "
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs menstruelles",
+      "text": "douleurs menstruelles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces douleurs durent en g\u00e9n\u00e9ral un ou trois jours.",
+      "text": "Ces douleurs durent en g\u00e9n\u00e9ral un ou trois jours."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles commencent avec les saignements et sont maximales lorsque le saignement est le plus important. Elles peuvent \u00eatre d\u00e9j\u00e0 ressenties un peu avant les r\u00e8gles et parfois se prolonger un peu apr\u00e8s elles.",
+      "text": "Elles commencent avec les saignements et sont maximales lorsque le saignement est le plus important. Elles peuvent \u00eatre d\u00e9j\u00e0 ressenties un peu avant les r\u00e8gles et parfois se prolonger un peu apr\u00e8s elles."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles sont cycliques et ",
+      "text": "Elles sont cycliques et "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "reviennent \u00e0 chaque menstruation",
+      "text": "reviennent \u00e0 chaque menstruation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les douleurs menstruelles sont habituellement ressenties dans le ",
+      "text": "Les douleurs menstruelles sont habituellement ressenties dans le "
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "bas du ventre",
+      "text": "bas du ventre",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (pelvis), mais peuvent s\u2019\u00e9tendre au dos et aux cuisses.",
+      "text": " (pelvis), mais peuvent s\u2019\u00e9tendre au dos et aux cuisses."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les r\u00e9gions de l'abdomen",
+      "text": "Les r\u00e9gions de l'abdomen",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'intensit\u00e9 des douleurs est variable. La personne peut ressentir une simple g\u00eane, des douleurs mod\u00e9r\u00e9es ou intenses \u00e0 type de ",
+      "text": "L'intensit\u00e9 des douleurs est variable. La personne peut ressentir une simple g\u00eane, des douleurs mod\u00e9r\u00e9es ou intenses \u00e0 type de "
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "crampes",
+      "text": "crampes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", de spasmes dans le bas du ventre, l'emp\u00eachant d'assurer ses activit\u00e9s habituelles.",
+      "text": ", de spasmes dans le bas du ventre, l'emp\u00eachant d'assurer ses activit\u00e9s habituelles."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les r\u00e8gles peuvent \u00eatre pr\u00e9c\u00e9d\u00e9es d'un ",
+      "text": "Les r\u00e8gles peuvent \u00eatre pr\u00e9c\u00e9d\u00e9es d'un "
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "syndrome pr\u00e9menstruel",
+      "text": "syndrome pr\u00e9menstruel",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " d\u00e9butant quelques jours avant leur survenue et associant un gonflement et des douleurs des seins, un ballonnement abdominal, des \u0153d\u00e8mes des extr\u00e9mit\u00e9s, une irritabilit\u00e9 ou une anxi\u00e9t\u00e9, des c\u00e9phal\u00e9es.",
+      "text": " d\u00e9butant quelques jours avant leur survenue et associant un gonflement et des douleurs des seins, un ballonnement abdominal, des \u0153d\u00e8mes des extr\u00e9mit\u00e9s, une irritabilit\u00e9 ou une anxi\u00e9t\u00e9, des c\u00e9phal\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les douleurs survenant lors des r\u00e8gles peuvent s'accompagner de :",
+      "text": "Les douleurs survenant lors des r\u00e8gles peuvent s'accompagner de :"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "naus\u00e9es, vomissements ;",
+      "text": "naus\u00e9es, vomissements ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "migraine ;",
+      "text": "migraine ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "diarrh\u00e9e ;",
+      "text": "diarrh\u00e9e ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fatigue ;",
+      "text": "fatigue ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sensation de malaise.",
+      "text": "sensation de malaise.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Une urgence : le choc toxique au moment des r\u00e8gles",
+      "text": "Une urgence : le choc toxique au moment des r\u00e8gles",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'utilisation de protections p\u00e9riodiques internes (tampons et cupules) peut \u00eatre \u00e0 l'origine d'un ",
+      "text": "L'utilisation de protections p\u00e9riodiques internes (tampons et cupules) peut \u00eatre \u00e0 l'origine d'un "
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "choc toxique d'origine toxi-infectieuse",
+      "text": "choc toxique d'origine toxi-infectieuse",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Au cours des r\u00e8gles ou juste apr\u00e8s, surviennent une fi\u00e8vre importante, des douleurs abdominales, des troubles digestifs (vomissements, diarrh\u00e9e), un malaise et des douleurs musculaires.",
+      "text": ". Au cours des r\u00e8gles ou juste apr\u00e8s, surviennent une fi\u00e8vre importante, des douleurs abdominales, des troubles digestifs (vomissements, diarrh\u00e9e), un malaise et des douleurs musculaires."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le traitement est urgent.",
+      "text": "Le traitement est urgent."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour en savoir plus, consulter l'article\u00a0\u00ab\u00a0Protections intimes et risque de choc toxique lors des r\u00e8gles\u00a0\u00bb",
+      "text": "Pour en savoir plus, consulter l'article\u00a0\u00ab\u00a0Protections intimes et risque de choc toxique lors des r\u00e8gles\u00a0\u00bb"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Douleurs pendant les r\u00e8gles : quelles sont les causes ?",
+      "text": "Douleurs pendant les r\u00e8gles : quelles sont les causes ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les ",
+      "text": "Les "
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs menstruelles (li\u00e9es aux r\u00e8gles)",
+      "text": "douleurs menstruelles (li\u00e9es aux r\u00e8gles)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " peuvent\u00a0:",
+      "text": " peuvent\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "appara\u00eetre d\u00e8s l\u2019adolescence (",
+      "text": "appara\u00eetre d\u00e8s l\u2019adolescence ("
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e primaire",
+      "text": "dysm\u00e9norrh\u00e9e primaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") et \u00eatre le plus souvent sans gravit\u00e9\u00a0;",
+      "text": ") et \u00eatre le plus souvent sans gravit\u00e9\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "survenir plus tard, \u00e0 l\u2019\u00e2ge adulte (",
+      "text": "survenir plus tard, \u00e0 l\u2019\u00e2ge adulte ("
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e secondaire",
+      "text": "dysm\u00e9norrh\u00e9e secondaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") et \u00eatre li\u00e9e \u00e0 une maladie.",
+      "text": ") et \u00eatre li\u00e9e \u00e0 une maladie."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La dysm\u00e9norrh\u00e9e primaire ou r\u00e8gles douloureuses d\u00e8s l'adolescence",
+      "text": "La dysm\u00e9norrh\u00e9e primaire ou r\u00e8gles douloureuses d\u00e8s l'adolescence",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La ",
+      "text": "La "
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e primaire",
+      "text": "dysm\u00e9norrh\u00e9e primaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " apparait \u00e0 l**'adolescence**, dans les mois suivant les premi\u00e8res r\u00e8gles, \u00e0 la pubert\u00e9. Elle est tr\u00e8s courante et, le plus souvent, sans gravit\u00e9.",
+      "text": " apparait \u00e0 l**'adolescence**, dans les mois suivant les premi\u00e8res r\u00e8gles, \u00e0 la pubert\u00e9. Elle est tr\u00e8s courante et, le plus souvent, sans gravit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit d\u2019un ph\u00e9nom\u00e8ne li\u00e9 \u00e0 un exc\u00e8s de s\u00e9cr\u00e9tion de prostaglandines par la muqueuse ut\u00e9rine (endom\u00e8tre) au moment des r\u00e8gles. Les prostaglandines sont des substances qui provoquent des contractions ut\u00e9rines et facilitent l\u2019expulsion de la muqueuse ut\u00e9rine. Un exc\u00e8s de prostaglandines provoque une augmentation anormale de la contractilit\u00e9 et du tonus du muscle ut\u00e9rin. Ces contractions anormalement fr\u00e9quentes privent le muscle ut\u00e9rin d'oxyg\u00e8ne (hypoxie) par compression des petits vaisseaux et cette hypoxie provoque les douleurs.",
+      "text": "Il s\u2019agit d\u2019un ph\u00e9nom\u00e8ne li\u00e9 \u00e0 un exc\u00e8s de s\u00e9cr\u00e9tion de prostaglandines par la muqueuse ut\u00e9rine (endom\u00e8tre) au moment des r\u00e8gles. Les prostaglandines sont des substances qui provoquent des contractions ut\u00e9rines et facilitent l\u2019expulsion de la muqueuse ut\u00e9rine. Un exc\u00e8s de prostaglandines provoque une augmentation anormale de la contractilit\u00e9 et du tonus du muscle ut\u00e9rin. Ces contractions anormalement fr\u00e9quentes privent le muscle ut\u00e9rin d'oxyg\u00e8ne (hypoxie) par compression des petits vaisseaux et cette hypoxie provoque les douleurs."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La ",
+      "text": "La "
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e primaire",
+      "text": "dysm\u00e9norrh\u00e9e primaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est favoris\u00e9e par la survenue pr\u00e9coce des r\u00e8gles, par l'existence d'ant\u00e9c\u00e9dents familiaux de dysm\u00e9norrh\u00e9e et le fait de ne pas avoir eu de grossesse (nulliparit\u00e9). Le tabagisme aurait un r\u00f4le aggravant.",
+      "text": " est favoris\u00e9e par la survenue pr\u00e9coce des r\u00e8gles, par l'existence d'ant\u00e9c\u00e9dents familiaux de dysm\u00e9norrh\u00e9e et le fait de ne pas avoir eu de grossesse (nulliparit\u00e9). Le tabagisme aurait un r\u00f4le aggravant."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "R\u00e8gles douloureuses : un probl\u00e8me fr\u00e9quent chez la jeune femme",
+      "text": "R\u00e8gles douloureuses : un probl\u00e8me fr\u00e9quent chez la jeune femme",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "50 \u00e0 70 % des adolescentes ont des r\u00e8gles douloureuses de fa\u00e7on permanente ou occasionnelle.",
+      "text": "50 \u00e0 70 % des adolescentes ont des r\u00e8gles douloureuses de fa\u00e7on permanente ou occasionnelle."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Puis la fr\u00e9quence de la dysm\u00e9norrh\u00e9e diminue apr\u00e8s 18 ans. Les douleurs lors des r\u00e8gles sont la premi\u00e8re cause d'absent\u00e9isme scolaire de l'adolescente et d'absent\u00e9isme professionnel de la femme jeune.",
+      "text": "Puis la fr\u00e9quence de la dysm\u00e9norrh\u00e9e diminue apr\u00e8s 18 ans. Les douleurs lors des r\u00e8gles sont la premi\u00e8re cause d'absent\u00e9isme scolaire de l'adolescente et d'absent\u00e9isme professionnel de la femme jeune."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans la majorit\u00e9 des cas, les ",
+      "text": "Dans la majorit\u00e9 des cas, les "
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs menstruelles",
+      "text": "douleurs menstruelles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (lors des r\u00e8gles) s\u2019att\u00e9nuent ou disparaissent spontan\u00e9ment au bout de quelques ann\u00e9es ou \u00e0 la suite d'une premi\u00e8re grossesse.",
+      "text": " (lors des r\u00e8gles) s\u2019att\u00e9nuent ou disparaissent spontan\u00e9ment au bout de quelques ann\u00e9es ou \u00e0 la suite d'une premi\u00e8re grossesse."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cependant, si la dysm\u00e9norrh\u00e9e s\u2019aggrave et que les douleurs sont tr\u00e8s fortes, une cause sous-jacente est recherch\u00e9e :",
+      "text": "Cependant, si la dysm\u00e9norrh\u00e9e s\u2019aggrave et que les douleurs sont tr\u00e8s fortes, une cause sous-jacente est recherch\u00e9e :"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une malformation du vagin ou de l\u2019ut\u00e9rus ;",
+      "text": "une malformation du vagin ou de l\u2019ut\u00e9rus ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une endom\u00e9triose, qui peut se d\u00e9velopper d\u00e8s l'adolescence.",
+      "text": "une endom\u00e9triose, qui peut se d\u00e9velopper d\u00e8s l'adolescence.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "N'h\u00e9sitez pas \u00e0 parler \u00e0 votre m\u00e9decin de vos douleurs lors des examens de suivi pr\u00e9vus au cours de l'adolescence.",
+      "text": "N'h\u00e9sitez pas \u00e0 parler \u00e0 votre m\u00e9decin de vos douleurs lors des examens de suivi pr\u00e9vus au cours de l'adolescence."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La dysm\u00e9norrh\u00e9e secondaire de la femme adulte",
+      "text": "La dysm\u00e9norrh\u00e9e secondaire de la femme adulte",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La ",
+      "text": "La "
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dysm\u00e9norrh\u00e9e secondaire",
+      "text": "dysm\u00e9norrh\u00e9e secondaire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " apparait plus tardivement, chez une femme qui, jusque-l\u00e0, avait des r\u00e8gles peu ou pas douloureuses. Les douleurs peuvent \u00eatre accompagn\u00e9es d\u2019autres sympt\u00f4mes (saignements entre les r\u00e8gles, r\u00e8gles anormalement abondantes, douleurs lors des rapports sexuels, etc.)",
+      "text": " apparait plus tardivement, chez une femme qui, jusque-l\u00e0, avait des r\u00e8gles peu ou pas douloureuses. Les douleurs peuvent \u00eatre accompagn\u00e9es d\u2019autres sympt\u00f4mes (saignements entre les r\u00e8gles, r\u00e8gles anormalement abondantes, douleurs lors des rapports sexuels, etc.)"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans ces cas, une cause est toujours recherch\u00e9e d'embl\u00e9e. Il peut s\u2019agir :",
+      "text": "Dans ces cas, une cause est toujours recherch\u00e9e d'embl\u00e9e. Il peut s\u2019agir :"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d'une endom\u00e9triose\u00a0: maladie d\u00e9finie par la ",
+      "text": "d'une endom\u00e9triose\u00a0: maladie d\u00e9finie par la "
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pr\u00e9sence, en dehors de l\u2019ut\u00e9rus, de fragments de muqueuse ut\u00e9rine (endom\u00e8tre",
+      "text": "pr\u00e9sence, en dehors de l\u2019ut\u00e9rus, de fragments de muqueuse ut\u00e9rine (endom\u00e8tre",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "). Les l\u00e9sions peuvent \u00eatre superficielles, au niveau du p\u00e9ritoine, ou profondes dans la r\u00e9gion pelvienne. L'ad\u00e9nomyose\u00a0est caract\u00e9ris\u00e9e par la pr\u00e9sence de fragments de la muqueuse ut\u00e9rine dans le muscle de l\u2019ut\u00e9rus (myom\u00e8tre). Les l\u00e9sions d'endom\u00e9triose pr\u00e9sentent les m\u00eames caract\u00e9ristiques que la muqueuse ut\u00e9rine. Elles sont donc sensibles aux hormones ovariennes (\u0153strog\u00e8nes) et \u00e0 chaque cycle menstruel, elles se d\u00e9veloppent et saignent\u00a0;",
+      "text": "). Les l\u00e9sions peuvent \u00eatre superficielles, au niveau du p\u00e9ritoine, ou profondes dans la r\u00e9gion pelvienne. L'ad\u00e9nomyose\u00a0est caract\u00e9ris\u00e9e par la pr\u00e9sence de fragments de la muqueuse ut\u00e9rine dans le muscle de l\u2019ut\u00e9rus (myom\u00e8tre). Les l\u00e9sions d'endom\u00e9triose pr\u00e9sentent les m\u00eames caract\u00e9ristiques que la muqueuse ut\u00e9rine. Elles sont donc sensibles aux hormones ovariennes (\u0153strog\u00e8nes) et \u00e0 chaque cycle menstruel, elles se d\u00e9veloppent et saignent\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'un fibrome ut\u00e9rin ;",
+      "text": "d'un fibrome ut\u00e9rin ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des polypes de l'endom\u00e8tre ut\u00e9rin ;",
+      "text": "des polypes de l'endom\u00e8tre ut\u00e9rin ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'un dispositif intra-ut\u00e9rin au cuivre (st\u00e9rilet) surtout s'il est d\u00e9plac\u00e9 ;",
+      "text": "d'un dispositif intra-ut\u00e9rin au cuivre (st\u00e9rilet) surtout s'il est d\u00e9plac\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'un changement de contraception hormonale.",
+      "text": "d'un changement de contraception hormonale.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vid\u00e9o\u00a0: Pourquoi a-t-on mal au ventre quand on a ses r\u00e8gles\u00a0?",
+      "text": "Vid\u00e9o\u00a0: Pourquoi a-t-on mal au ventre quand on a ses r\u00e8gles\u00a0?",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a9 Pulsations Multimedia \u00ab All\u00f4 Docteurs \u00bb",
+      "text": "\u00a9 Pulsations Multimedia \u00ab All\u00f4 Docteurs \u00bb"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pour s'informer sur les r\u00e8gles douloureuses, consulter des extraits de la BD : Voyage en gyn\u00e9cologie",
+      "text": "Pour s'informer sur les r\u00e8gles douloureuses, consulter des extraits de la BD : Voyage en gyn\u00e9cologie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comprendre avec des images et des mots simples",
+      "text": "Comprendre avec des images et des mots simples",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez lire la bande dessin\u00e9e La douleur \u2013 Pour dire et soulager ma douleur sur le site santebd.org. La BD d\u00e9crit de mani\u00e8re simple les causes de la douleur et comment l\u2019exprimer.",
+      "text": "Vous pouvez lire la bande dessin\u00e9e La douleur \u2013 Pour dire et soulager ma douleur sur le site santebd.org. La BD d\u00e9crit de mani\u00e8re simple les causes de la douleur et comment l\u2019exprimer."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce document a \u00e9t\u00e9 r\u00e9alis\u00e9 par l\u2019association CoActis Sant\u00e9 avec des personnes en situation de handicap. Il contient des images et des mots simples. C\u2019est pourquoi il est facile \u00e0 lire et \u00e0 comprendre (FALC).",
+      "text": "Ce document a \u00e9t\u00e9 r\u00e9alis\u00e9 par l\u2019association CoActis Sant\u00e9 avec des personnes en situation de handicap. Il contient des images et des mots simples. C\u2019est pourquoi il est facile \u00e0 lire et \u00e0 comprendre (FALC)."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Health service. Period pain. Site internet : NHS. Londres ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "text": "National Health service. Period pain. Site internet : NHS. Londres ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Fevre A, Burette J, Bonneau S, Derniaux E, Graesslin O. Dysm\u00e9norrh\u00e9es. EMC - Gyn\u00e9cologie 2014;9(3):1-10 [Article 161-A-10]",
+      "text": "Fevre A, Burette J, Bonneau S, Derniaux E, Graesslin O. Dysm\u00e9norrh\u00e9es. EMC - Gyn\u00e9cologie 2014;9(3):1-10 [Article 161-A-10]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Debain L, Sauvanet E, Petit E, Azria E. Dysm\u00e9norrh\u00e9e. EMC - AKOS (Trait\u00e9 de M\u00e9decine) 2016;11(3):1-5 [Article 1-0457]",
+      "text": "Debain L, Sauvanet E, Petit E, Azria E. Dysm\u00e9norrh\u00e9e. EMC - AKOS (Trait\u00e9 de M\u00e9decine) 2016;11(3):1-5 [Article 1-0457]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The American College of obstetricians and gynecologists. Dysmenorrhea : Painful Periods. Site internet : Acog. Washington ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "text": "The American College of obstetricians and gynecologists. Dysmenorrhea : Painful Periods. Site internet : Acog. Washington ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

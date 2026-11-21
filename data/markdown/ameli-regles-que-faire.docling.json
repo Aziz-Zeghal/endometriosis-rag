@@ -1,0 +1,933 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1328391714015796321,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/groups/7"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Douleurs pendant les r\u00e8gles : que faire pour \u00eatre soulag\u00e9e ?",
+      "text": "Douleurs pendant les r\u00e8gles : que faire pour \u00eatre soulag\u00e9e ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : R\u00e8gles douloureuses",
+      "text": "Cet article fait partie du dossier : R\u00e8gles douloureuses"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "25 juin 2025",
+      "text": "25 juin 2025"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lors des premiers \u00e9pisodes douloureux survenant pendant les r\u00e8gles (douleurs menstruelles), des mesures simples et la prise pr\u00e9coce d'un anti-inflammatoire non st\u00e9ro\u00efdien suffisent \u00e0 calmer les sympt\u00f4mes. Cependant, dans certaines situations (douleurs non calm\u00e9es par le traitement...), un avis m\u00e9dical est n\u00e9cessaire.",
+      "text": "Lors des premiers \u00e9pisodes douloureux survenant pendant les r\u00e8gles (douleurs menstruelles), des mesures simples et la prise pr\u00e9coce d'un anti-inflammatoire non st\u00e9ro\u00efdien suffisent \u00e0 calmer les sympt\u00f4mes. Cependant, dans certaines situations (douleurs non calm\u00e9es par le traitement...), un avis m\u00e9dical est n\u00e9cessaire."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Que faire d\u00e8s les premi\u00e8res douleurs des r\u00e8gles ?",
+      "text": "Que faire d\u00e8s les premi\u00e8res douleurs des r\u00e8gles ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lors d'un ",
+      "text": "Lors d'un "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "premier \u00e9pisode de r\u00e8gles douloureuses",
+      "text": "premier \u00e9pisode de r\u00e8gles douloureuses",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", vous pouvez demander conseil \u00e0 votre pharmacien. Il pourra vous conseiller\u00a0un m\u00e9dicament vendu sans ordonnance permettant de soulager les douleurs dues aux r\u00e8gles. Les m\u00e9dicaments les plus efficaces sont les anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) qui diminuent la s\u00e9cr\u00e9tion des prostaglandines, \u00e0 l'origine des douleurs.",
+      "text": ", vous pouvez demander conseil \u00e0 votre pharmacien. Il pourra vous conseiller\u00a0un m\u00e9dicament vendu sans ordonnance permettant de soulager les douleurs dues aux r\u00e8gles. Les m\u00e9dicaments les plus efficaces sont les anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) qui diminuent la s\u00e9cr\u00e9tion des prostaglandines, \u00e0 l'origine des douleurs."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour une efficacit\u00e9 optimale, suivez les conseils suivants :",
+      "text": "Pour une efficacit\u00e9 optimale, suivez les conseils suivants :"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "n'attendez pas que la douleur soit install\u00e9e. Le traitement est plus efficace si vous le prenez le plus t\u00f4t possible, d\u00e8s l'apparition des douleurs ;",
+      "text": "n'attendez pas que la douleur soit install\u00e9e. Le traitement est plus efficace si vous le prenez le plus t\u00f4t possible, d\u00e8s l'apparition des douleurs ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ne prenez pas deux m\u00e9dicaments AINS en m\u00eame temps ;",
+      "text": "ne prenez pas deux m\u00e9dicaments AINS en m\u00eame temps ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la dur\u00e9e du traitement est br\u00e8ve. Deux \u00e0 trois jours au maximum suffisent pour \u00eatre soulag\u00e9e. Si la douleur persiste, parlez-en \u00e0 votre m\u00e9decin ;",
+      "text": "la dur\u00e9e du traitement est br\u00e8ve. Deux \u00e0 trois jours au maximum suffisent pour \u00eatre soulag\u00e9e. Si la douleur persiste, parlez-en \u00e0 votre m\u00e9decin ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ne d\u00e9passez jamais la dose maximale recommand\u00e9e et prenez la dose minimale efficace.",
+      "text": "ne d\u00e9passez jamais la dose maximale recommand\u00e9e et prenez la dose minimale efficace.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce traitement est contre-indiqu\u00e9 si vous \u00eates atteinte de certaines maladies (ulc\u00e8re digestif, maladie grave du c\u0153ur, du foie ou des reins) et en cas de varicelle.",
+      "text": "Ce traitement est contre-indiqu\u00e9 si vous \u00eates atteinte de certaines maladies (ulc\u00e8re digestif, maladie grave du c\u0153ur, du foie ou des reins) et en cas de varicelle."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des mesures simples peuvent \u00e9galement att\u00e9nuer la ",
+      "text": "Des mesures simples peuvent \u00e9galement att\u00e9nuer la "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleur lors des r\u00e8gles",
+      "text": "douleur lors des r\u00e8gles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez :",
+      "text": "Vous pouvez :"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "appliquer une source de chaleur sur votre ventre (une bouillotte) ou prendre un bain ou une douche chaude ;",
+      "text": "appliquer une source de chaleur sur votre ventre (une bouillotte) ou prendre un bain ou une douche chaude ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "masser votre ventre ;",
+      "text": "masser votre ventre ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "arr\u00eater de fumer (le tabac peut \u00eatre un facteur aggravant) ;",
+      "text": "arr\u00eater de fumer (le tabac peut \u00eatre un facteur aggravant) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "faire des exercices doux (marche, natation...)",
+      "text": "faire des exercices doux (marche, natation...)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quand devez-vous consulter en cas de r\u00e8gles douloureuses ?",
+      "text": "Quand devez-vous consulter en cas de r\u00e8gles douloureuses ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consultez votre m\u00e9decin si les ",
+      "text": "Consultez votre m\u00e9decin si les "
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs lors des r\u00e8gles",
+      "text": "douleurs lors des r\u00e8gles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0:",
+      "text": "\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ne sont pas soulag\u00e9es par les m\u00e9dicaments anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) ;",
+      "text": "ne sont pas soulag\u00e9es par les m\u00e9dicaments anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "apparaissent \u00e0 l'\u00e2ge adulte (jusque-l\u00e0, vos r\u00e8gles \u00e9taient peu douloureuses) ;",
+      "text": "apparaissent \u00e0 l'\u00e2ge adulte (jusque-l\u00e0, vos r\u00e8gles \u00e9taient peu douloureuses) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "s'aggravent anormalement ;",
+      "text": "s'aggravent anormalement ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "durent plusieurs jours, avant et apr\u00e8s les r\u00e8gles ;",
+      "text": "durent plusieurs jours, avant et apr\u00e8s les r\u00e8gles ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ont un retentissement important sur votre votre vie quotidienne (absent\u00e9isme scolaire ou professionnel).",
+      "text": "ont un retentissement important sur votre votre vie quotidienne (absent\u00e9isme scolaire ou professionnel).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consultez \u00e9galement si vous avez des ",
+      "text": "Consultez \u00e9galement si vous avez des "
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sympt\u00f4mes associ\u00e9s \u00e0 la douleur",
+      "text": "sympt\u00f4mes associ\u00e9s \u00e0 la douleur",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0:",
+      "text": "\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fi\u00e8vre ;",
+      "text": "fi\u00e8vre ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "pertes vaginales (\u00e9coulement vaginal anormal) ;",
+      "text": "pertes vaginales (\u00e9coulement vaginal anormal) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "saignements entre les r\u00e8gles (m\u00e9trorragies) ;",
+      "text": "saignements entre les r\u00e8gles (m\u00e9trorragies) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "r\u00e8gles anormalement abondantes (m\u00e9norragies) ;",
+      "text": "r\u00e8gles anormalement abondantes (m\u00e9norragies) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "douleurs lors des rapports sexuels ;",
+      "text": "douleurs lors des rapports sexuels ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "syndrome de l'intestin irritable.",
+      "text": "syndrome de l'intestin irritable.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Health service. Period pain. Site internet : NHS. Londres ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "text": "National Health service. Period pain. Site internet : NHS. Londres ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Fevre A, Burette J, Bonneau S, Derniaux E, Graesslin O. Dysm\u00e9norrh\u00e9es. EMC - Gyn\u00e9cologie 2014;9(3):1-10 [Article 161-A-10]",
+      "text": "Fevre A, Burette J, Bonneau S, Derniaux E, Graesslin O. Dysm\u00e9norrh\u00e9es. EMC - Gyn\u00e9cologie 2014;9(3):1-10 [Article 161-A-10]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Debain L, Sauvanet E, Petit E, Azria E. Dysm\u00e9norrh\u00e9e. EMC - AKOS (Trait\u00e9 de M\u00e9decine) 2016;11(3):1-5 [Article 1-0457]",
+      "text": "Debain L, Sauvanet E, Petit E, Azria E. Dysm\u00e9norrh\u00e9e. EMC - AKOS (Trait\u00e9 de M\u00e9decine) 2016;11(3):1-5 [Article 1-0457]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The American College of obstetricians and gynecologists. Dysmenorrhea : Painful Periods. Site internet : Acog. Washington ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "text": "The American College of obstetricians and gynecologists. Dysmenorrhea : Painful Periods. Site internet : Acog. Washington ; 2022 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Better Health Channel (BHC). Menstruation-dysmenorrhoea. Site internet : BHC. Victoria (Australie) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "text": "Better Health Channel (BHC). Menstruation-dysmenorrhoea. Site internet : BHC. Victoria (Australie) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Anti-inflammatoires non st\u00e9ro\u00efdiens (AINS). Site internet : Ansm. Saint-Denis La Plaine (France) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "text": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Anti-inflammatoires non st\u00e9ro\u00efdiens (AINS). Site internet : Ansm. Saint-Denis La Plaine (France) ; 2024 [consult\u00e9 le 25 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Liste des m\u00e9dicaments de m\u00e9dication officinale. Site internet : ANSM. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 2O juin 2025]",
+      "text": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Liste des m\u00e9dicaments de m\u00e9dication officinale. Site internet : ANSM. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 2O juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

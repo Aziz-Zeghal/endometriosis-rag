@@ -1,0 +1,1918 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 861717259180889203,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/groups/14"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/72"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/texts/94"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Bilan m\u00e9dical de l'infertilit\u00e9",
+      "text": "Bilan m\u00e9dical de l'infertilit\u00e9"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : Fertilit\u00e9, infertilit\u00e9 et st\u00e9rilit\u00e9",
+      "text": "Cet article fait partie du dossier : Fertilit\u00e9, infertilit\u00e9 et st\u00e9rilit\u00e9"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "04 novembre 2026",
+      "text": "04 novembre 2026"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une consultation m\u00e9dicale pour infertilit\u00e9 s'envisage, le plus souvent, lors de l'absence de grossesse au bout d'un an de rapports sexuels r\u00e9guliers, avant 35 ans. Ce d\u00e9lai est plus court (6 mois) apr\u00e8s 35 ans ou s'il existe des probl\u00e8mes m\u00e9dicaux ant\u00e9rieurs du couple pouvant \u00eatre en cause dans une baisse de la fertilit\u00e9.",
+      "text": "Une consultation m\u00e9dicale pour infertilit\u00e9 s'envisage, le plus souvent, lors de l'absence de grossesse au bout d'un an de rapports sexuels r\u00e9guliers, avant 35 ans. Ce d\u00e9lai est plus court (6 mois) apr\u00e8s 35 ans ou s'il existe des probl\u00e8mes m\u00e9dicaux ant\u00e9rieurs du couple pouvant \u00eatre en cause dans une baisse de la fertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La premi\u00e8re consultation m\u00e9dicale en cas d'infertilit\u00e9",
+      "text": "La premi\u00e8re consultation m\u00e9dicale en cas d'infertilit\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une consultation m\u00e9dicale est conseill\u00e9e lorsqu'un couple h\u00e9t\u00e9rosexuel n'arrive pas \u00e0 concevoir un enfant apr\u00e8s 12 mois de rapports r\u00e9guliers (deux ou trois fois par semaine) aux p\u00e9riodes propices, en l'absence de contraception.",
+      "text": "Une consultation m\u00e9dicale est conseill\u00e9e lorsqu'un couple h\u00e9t\u00e9rosexuel n'arrive pas \u00e0 concevoir un enfant apr\u00e8s 12 mois de rapports r\u00e9guliers (deux ou trois fois par semaine) aux p\u00e9riodes propices, en l'absence de contraception."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette consultation a lieu beaucoup plus t\u00f4t, souvent apr\u00e8s 6 mois d'essais infructueux, si la femme a plus de 35 ans ou s'il existe une maladie de l'appareil g\u00e9nital connue ou suspect\u00e9e chez l'homme ou la femme pouvant \u00eatre responsable d'une ",
+      "text": "Cette consultation a lieu beaucoup plus t\u00f4t, souvent apr\u00e8s 6 mois d'essais infructueux, si la femme a plus de 35 ans ou s'il existe une maladie de l'appareil g\u00e9nital connue ou suspect\u00e9e chez l'homme ou la femme pouvant \u00eatre responsable d'une "
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "baisse de la fertilit\u00e9",
+      "text": "baisse de la fertilit\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette consultation permet :",
+      "text": "Cette consultation permet :"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "de confirmer le diagnostic d'infertilit\u00e9 par son anciennet\u00e9 ;",
+      "text": "de confirmer le diagnostic d'infertilit\u00e9 par son anciennet\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "de retrouver une cause parfois simple d'infertilit\u00e9 qui peut \u00eatre facilement modifi\u00e9e (par exemple : mauvaise connaissance des processus de la f\u00e9condation et des p\u00e9riodes de f\u00e9condit\u00e9) ;",
+      "text": "de retrouver une cause parfois simple d'infertilit\u00e9 qui peut \u00eatre facilement modifi\u00e9e (par exemple : mauvaise connaissance des processus de la f\u00e9condation et des p\u00e9riodes de f\u00e9condit\u00e9) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'envisager, apr\u00e8s un examen m\u00e9dical du couple, les examens compl\u00e9mentaires n\u00e9cessaires.",
+      "text": "d'envisager, apr\u00e8s un examen m\u00e9dical du couple, les examens compl\u00e9mentaires n\u00e9cessaires.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La consultation m\u00e9dicale n\u00e9cessite la pr\u00e9sence des deux membres du couple, tous deux concern\u00e9s par l'exploration de l'infertilit\u00e9.",
+      "text": "La consultation m\u00e9dicale n\u00e9cessite la pr\u00e9sence des deux membres du couple, tous deux concern\u00e9s par l'exploration de l'infertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En premier lieu, le m\u00e9decin recherche l'existence de facteurs favorisant la baisse de fertilit\u00e9 f\u00e9minine ou masculine :",
+      "text": "En premier lieu, le m\u00e9decin recherche l'existence de facteurs favorisant la baisse de fertilit\u00e9 f\u00e9minine ou masculine :"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l'\u00e2ge ;",
+      "text": "l'\u00e2ge ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "pour la femme : l'\u00e2ge de sa pubert\u00e9, la r\u00e9gularit\u00e9 des cycles menstruels (\u00e9pisodes d'am\u00e9norrh\u00e9e, etc.), l'existence de douleurs menstruelles, le pass\u00e9 gyn\u00e9cologique (fausses couches, IVG, syndrome des ovaires polykystiques, endom\u00e9triose...), son pass\u00e9 m\u00e9dical et chirurgical pouvant avoir un impact sur la fertilit\u00e9 (fibrome ut\u00e9rin, salpingite, IST, endom\u00e9triose par exemple) ;",
+      "text": "pour la femme : l'\u00e2ge de sa pubert\u00e9, la r\u00e9gularit\u00e9 des cycles menstruels (\u00e9pisodes d'am\u00e9norrh\u00e9e, etc.), l'existence de douleurs menstruelles, le pass\u00e9 gyn\u00e9cologique (fausses couches, IVG, syndrome des ovaires polykystiques, endom\u00e9triose...), son pass\u00e9 m\u00e9dical et chirurgical pouvant avoir un impact sur la fertilit\u00e9 (fibrome ut\u00e9rin, salpingite, IST, endom\u00e9triose par exemple) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "pour l'homme : torsion du testicule, testicule non descendu, chirurgie de hernie inguinale, IST, etc. ;",
+      "text": "pour l'homme : torsion du testicule, testicule non descendu, chirurgie de hernie inguinale, IST, etc. ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l'existence d'une maladie chronique actuelle (diab\u00e8te, maladie auto-immune...) ;",
+      "text": "l'existence d'une maladie chronique actuelle (diab\u00e8te, maladie auto-immune...) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l'existence d'une maladie g\u00e9n\u00e9tique ou d'une difficult\u00e9 \u00e0 concevoir un enfant chez des parents proches ;",
+      "text": "l'existence d'une maladie g\u00e9n\u00e9tique ou d'une difficult\u00e9 \u00e0 concevoir un enfant chez des parents proches ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le mode de vie\u00a0:",
+      "text": "le mode de vie\u00a0:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le travail (exposition \u00e0 des compos\u00e9s toxiques sur la reproduction, comme les solvants organiques, l'exposition \u00e0 la chaleur, aux pesticides...) ;",
+      "text": "le travail (exposition \u00e0 des compos\u00e9s toxiques sur la reproduction, comme les solvants organiques, l'exposition \u00e0 la chaleur, aux pesticides...) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l'environnement (produits toxiques \u00e0 proximit\u00e9 des lieux de vie) ;",
+      "text": "l'environnement (produits toxiques \u00e0 proximit\u00e9 des lieux de vie) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le tabagisme ;",
+      "text": "le tabagisme ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les addictions \u00e0 des substances (drogues, cannabis, h\u00e9ro\u00efne et alcool) ;",
+      "text": "les addictions \u00e0 des substances (drogues, cannabis, h\u00e9ro\u00efne et alcool) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la vie sexuelle : date d'arr\u00eat de la contraception et pratiques sexuelles (fr\u00e9quence et r\u00e9gularit\u00e9 des rapports sexuels, troubles de la libido, troubles de l'\u00e9rection...)",
+      "text": "la vie sexuelle : date d'arr\u00eat de la contraception et pratiques sexuelles (fr\u00e9quence et r\u00e9gularit\u00e9 des rapports sexuels, troubles de la libido, troubles de l'\u00e9rection...)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le m\u00e9decin proc\u00e8de ensuite \u00e0 l'examen des deux membres du couple. L'examen clinique comporte un examen g\u00e9n\u00e9ral, avec mesure du poids, de la taille et de l'IMC compl\u00e9t\u00e9 d'un examen gyn\u00e9cologique avec frottis du col de l'ut\u00e9rus si n\u00e9cessaire, chez la femme et d'un examen des organes g\u00e9nitaux chez l'homme.",
+      "text": "Le m\u00e9decin proc\u00e8de ensuite \u00e0 l'examen des deux membres du couple. L'examen clinique comporte un examen g\u00e9n\u00e9ral, avec mesure du poids, de la taille et de l'IMC compl\u00e9t\u00e9 d'un examen gyn\u00e9cologique avec frottis du col de l'ut\u00e9rus si n\u00e9cessaire, chez la femme et d'un examen des organes g\u00e9nitaux chez l'homme."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Afin d'\u00e9valuer la dur\u00e9e, la r\u00e9gularit\u00e9 des cycles menstruels, la qualit\u00e9 de l'ovulation et, ainsi, de fixer les dates des examens \u00e0 faire, le m\u00e9decin peut demander \u00e0 sa patiente de r\u00e9aliser une ou plusieurs courbes de temp\u00e9rature. La ",
+      "text": "Afin d'\u00e9valuer la dur\u00e9e, la r\u00e9gularit\u00e9 des cycles menstruels, la qualit\u00e9 de l'ovulation et, ainsi, de fixer les dates des examens \u00e0 faire, le m\u00e9decin peut demander \u00e0 sa patiente de r\u00e9aliser une ou plusieurs courbes de temp\u00e9rature. La "
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "courbe de temp\u00e9rature",
+      "text": "courbe de temp\u00e9rature",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est r\u00e9alis\u00e9e sur une p\u00e9riode maximale de trois mois. La femme est invit\u00e9e \u00e0 noter la temp\u00e9rature prise par un thermom\u00e8tre m\u00e9dical, tous les matins avant le lever, \u00e0 partir du premier jour des r\u00e8gles, et la reporter sur une courbe.",
+      "text": " est r\u00e9alis\u00e9e sur une p\u00e9riode maximale de trois mois. La femme est invit\u00e9e \u00e0 noter la temp\u00e9rature prise par un thermom\u00e8tre m\u00e9dical, tous les matins avant le lever, \u00e0 partir du premier jour des r\u00e8gles, et la reporter sur une courbe."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les examens compl\u00e9mentaires explorant la fertilit\u00e9 : le bilan d'infertilit\u00e9",
+      "text": "Les examens compl\u00e9mentaires explorant la fertilit\u00e9 : le bilan d'infertilit\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En g\u00e9n\u00e9ral, apr\u00e8s un examen m\u00e9dical, le m\u00e9decin prescrit tout d'abord au couple h\u00e9t\u00e9rosexuel les examens les plus simples. Il peut, si n\u00e9cessaire, envisager un bilan plus complet pour explorer la ",
+      "text": "En g\u00e9n\u00e9ral, apr\u00e8s un examen m\u00e9dical, le m\u00e9decin prescrit tout d'abord au couple h\u00e9t\u00e9rosexuel les examens les plus simples. Il peut, si n\u00e9cessaire, envisager un bilan plus complet pour explorer la "
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "baisse de la fertilit\u00e9",
+      "text": "baisse de la fertilit\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Recherche d'une baisse de la fertilit\u00e9 chez la femme",
+      "text": "Recherche d'une baisse de la fertilit\u00e9 chez la femme",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La prescription m\u00e9dicale des examens compl\u00e9mentaires et leur ordre de priorit\u00e9 d\u00e9pendent des r\u00e9sultats de l'examen clinique et des donn\u00e9es de l'interrogatoire.",
+      "text": "La prescription m\u00e9dicale des examens compl\u00e9mentaires et leur ordre de priorit\u00e9 d\u00e9pendent des r\u00e9sultats de l'examen clinique et des donn\u00e9es de l'interrogatoire."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Prise de sang",
+      "text": "Prise de sang",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mesurer les taux hormonaux",
+      "text": "Mesurer les taux hormonaux",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un dosage de la TSH \u00e9tudie le fonctionnement de la thyro\u00efde. Le dosage de diverses hormones (estradiol, progest\u00e9rone, LH, FSH) permet de d\u00e9tecter certaines anomalies du fonctionnement ovarien ou de l'hypophyse.",
+      "text": "Un dosage de la TSH \u00e9tudie le fonctionnement de la thyro\u00efde. Le dosage de diverses hormones (estradiol, progest\u00e9rone, LH, FSH) permet de d\u00e9tecter certaines anomalies du fonctionnement ovarien ou de l'hypophyse."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsqu'une ",
+      "text": "Lorsqu'une "
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "baisse de la r\u00e9serve ovarienne",
+      "text": "baisse de la r\u00e9serve ovarienne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est suspect\u00e9e ou lorsqu'une assistance m\u00e9dicale \u00e0 la procr\u00e9ation est envisag\u00e9e, le dosage de l'hormone anti\u2013mull\u00e9rienne AMH qui est un marqueur de la r\u00e9serve ovarienne en follicules est demand\u00e9e.",
+      "text": " est suspect\u00e9e ou lorsqu'une assistance m\u00e9dicale \u00e0 la procr\u00e9ation est envisag\u00e9e, le dosage de l'hormone anti\u2013mull\u00e9rienne AMH qui est un marqueur de la r\u00e9serve ovarienne en follicules est demand\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Rechercher des maladies virales ou bact\u00e9riennes",
+      "text": "Rechercher des maladies virales ou bact\u00e9riennes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Diverses s\u00e9rologies sont demand\u00e9es : VIH, VHB, VHC, syphilis, rub\u00e9ole, toxoplasmose, varicelle, chlamydia, etc.",
+      "text": "Diverses s\u00e9rologies sont demand\u00e9es : VIH, VHB, VHC, syphilis, rub\u00e9ole, toxoplasmose, varicelle, chlamydia, etc."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9chographie abdomino-pelvienne par voie endovaginale",
+      "text": "\u00c9chographie abdomino-pelvienne par voie endovaginale",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'\u00e9chographie abdomino-pelvienne, en g\u00e9n\u00e9ral effectu\u00e9e par voie endovaginale, permet d'\u00e9valuer la r\u00e9serve ovarienne en follicules et de rechercher certaines causes ovariennes (kyste ovarien, syndrome des ovaires polykystiques...), ut\u00e9rines (fibrome, polypes, malformations...) ou une endom\u00e9triose.",
+      "text": "L'\u00e9chographie abdomino-pelvienne, en g\u00e9n\u00e9ral effectu\u00e9e par voie endovaginale, permet d'\u00e9valuer la r\u00e9serve ovarienne en follicules et de rechercher certaines causes ovariennes (kyste ovarien, syndrome des ovaires polykystiques...), ut\u00e9rines (fibrome, polypes, malformations...) ou une endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Hyst\u00e9rosalpingographie (hyst\u00e9rographie) et hyst\u00e9roscopie",
+      "text": "Hyst\u00e9rosalpingographie (hyst\u00e9rographie) et hyst\u00e9roscopie",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet examen radiologique visualise la cavit\u00e9 de l'ut\u00e9rus et les trompes au moyen d'un produit inject\u00e9 dans l'ut\u00e9rus. Il met en \u00e9vidence des anomalies de l'ut\u00e9rus (fibrome, polypes, ut\u00e9rus cloisonn\u00e9...), ou une obstruction des trompes ut\u00e9rines, emp\u00eachant la migration de l'ovule dans l'ut\u00e9rus. Il s'effectue en premi\u00e8re partie du cycle, apr\u00e8s les r\u00e8gles.",
+      "text": "Cet examen radiologique visualise la cavit\u00e9 de l'ut\u00e9rus et les trompes au moyen d'un produit inject\u00e9 dans l'ut\u00e9rus. Il met en \u00e9vidence des anomalies de l'ut\u00e9rus (fibrome, polypes, ut\u00e9rus cloisonn\u00e9...), ou une obstruction des trompes ut\u00e9rines, emp\u00eachant la migration de l'ovule dans l'ut\u00e9rus. Il s'effectue en premi\u00e8re partie du cycle, apr\u00e8s les r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet examen peut \u00eatre remplac\u00e9 ou compl\u00e9t\u00e9 par une hyst\u00e9roscopie qui consiste \u00e0 observer l'int\u00e9rieur de l'ut\u00e9rus au moyen d'une fibre optique introduite dans la cavit\u00e9 ut\u00e9rine.",
+      "text": "Cet examen peut \u00eatre remplac\u00e9 ou compl\u00e9t\u00e9 par une hyst\u00e9roscopie qui consiste \u00e0 observer l'int\u00e9rieur de l'ut\u00e9rus au moyen d'une fibre optique introduite dans la cavit\u00e9 ut\u00e9rine."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "C\u0153lioscopie abdomino-pelvienne",
+      "text": "C\u0153lioscopie abdomino-pelvienne",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La c\u0153lioscopie abdomino-pelvienne permet de diagnostiquer des anomalies des trompes ou des maladies pelviennes (ex : endom\u00e9triose ...) et traiter certaines d\u2019entre elles.",
+      "text": "La c\u0153lioscopie abdomino-pelvienne permet de diagnostiquer des anomalies des trompes ou des maladies pelviennes (ex : endom\u00e9triose ...) et traiter certaines d\u2019entre elles."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "D'autres examens peuvent \u00eatre n\u00e9cessaires",
+      "text": "D'autres examens peuvent \u00eatre n\u00e9cessaires",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit de :",
+      "text": "Il s\u2019agit de :"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une biopsie de l'endom\u00e8tre (muqueuse interne de l'ut\u00e9rus) effectu\u00e9e dans la seconde partie du cycle ;",
+      "text": "une biopsie de l'endom\u00e8tre (muqueuse interne de l'ut\u00e9rus) effectu\u00e9e dans la seconde partie du cycle ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un compl\u00e9ment de bilan hormonal (par ex dosage de la prolactine en cas de suspicion d'anomalie de l'hypophyse, dosage des androg\u00e8nes en cas de suspicion de syndrome des ovaires polykystiques) ;",
+      "text": "un compl\u00e9ment de bilan hormonal (par ex dosage de la prolactine en cas de suspicion d'anomalie de l'hypophyse, dosage des androg\u00e8nes en cas de suspicion de syndrome des ovaires polykystiques) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une IRM de la r\u00e9gion abdomino\u2013pelvienne ;",
+      "text": "une IRM de la r\u00e9gion abdomino\u2013pelvienne ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un caryotype, \u00e0 la recherche d'une anomalie chromosomique.",
+      "text": "un caryotype, \u00e0 la recherche d'une anomalie chromosomique.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Recherche d'une baisse de la fertilit\u00e9 chez l'homme",
+      "text": "Recherche d'une baisse de la fertilit\u00e9 chez l'homme",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La prescription des examens compl\u00e9mentaires chez l'homme d\u00e9pend des r\u00e9sultats de l'examen clinique et des donn\u00e9es de l'interrogatoire.",
+      "text": "La prescription des examens compl\u00e9mentaires chez l'homme d\u00e9pend des r\u00e9sultats de l'examen clinique et des donn\u00e9es de l'interrogatoire."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Prise de sang pour recherche de maladies virales ou bact\u00e9riennes",
+      "text": "Prise de sang pour recherche de maladies virales ou bact\u00e9riennes",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Diverses s\u00e9rologies sont demand\u00e9es : VIH, VHB, VHC, syphilis.",
+      "text": "Diverses s\u00e9rologies sont demand\u00e9es : VIH, VHB, VHC, syphilis."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Spermogramme",
+      "text": "Spermogramme",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet examen est indispensable car il permet d'identifier la plupart des infertilit\u00e9s masculines. Pratiqu\u00e9 en laboratoire, il consiste \u00e0 recueillir du sperme par masturbation, apr\u00e8s trois \u00e0 cinq jours sans rapport sexuel afin d'obtenir un sperme riche en spermatozo\u00efdes. Le sperme est alors examin\u00e9 au microscope afin d'effectuer une num\u00e9ration des spermatozo\u00efdes et d'observer leur morphologie. Un nombre insuffisant de spermatozo\u00efdes, ou la pr\u00e9dominance de spermatozo\u00efdes de morphologie anormale peut \u00eatre \u00e0 l'origine de la st\u00e9rilit\u00e9.",
+      "text": "Cet examen est indispensable car il permet d'identifier la plupart des infertilit\u00e9s masculines. Pratiqu\u00e9 en laboratoire, il consiste \u00e0 recueillir du sperme par masturbation, apr\u00e8s trois \u00e0 cinq jours sans rapport sexuel afin d'obtenir un sperme riche en spermatozo\u00efdes. Le sperme est alors examin\u00e9 au microscope afin d'effectuer une num\u00e9ration des spermatozo\u00efdes et d'observer leur morphologie. Un nombre insuffisant de spermatozo\u00efdes, ou la pr\u00e9dominance de spermatozo\u00efdes de morphologie anormale peut \u00eatre \u00e0 l'origine de la st\u00e9rilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le spermogramme ne doit pas \u00eatre r\u00e9alis\u00e9 si l'homme a de la fi\u00e8vre ou prend des m\u00e9dicaments.",
+      "text": "Le spermogramme ne doit pas \u00eatre r\u00e9alis\u00e9 si l'homme a de la fi\u00e8vre ou prend des m\u00e9dicaments."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas d'anomalie, l'examen doit \u00eatre renouvel\u00e9 pour confirmer, ou non, les anomalies observ\u00e9es.",
+      "text": "En cas d'anomalie, l'examen doit \u00eatre renouvel\u00e9 pour confirmer, ou non, les anomalies observ\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet examen peut \u00eatre compl\u00e9t\u00e9 par la recherche d'un germe dans le sperme (",
+      "text": "Cet examen peut \u00eatre compl\u00e9t\u00e9 par la recherche d'un germe dans le sperme ("
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "spermoculture",
+      "text": "spermoculture",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") ou un ",
+      "text": ") ou un "
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "test de migration-survie des spermatozo\u00efdes",
+      "text": "test de migration-survie des spermatozo\u00efdes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui calcule la proportion des spermatozo\u00efdes encore mobiles \u00e0 24 heures.",
+      "text": " qui calcule la proportion des spermatozo\u00efdes encore mobiles \u00e0 24 heures."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "En cas d'anomalies de ce premier bilan, d'autres examens sont prescrits",
+      "text": "En cas d'anomalies de ce premier bilan, d'autres examens sont prescrits",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s'agit :",
+      "text": "Il s'agit :"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d'un bilan plus pouss\u00e9 du sperme, \u00e0 la recherche d'",
+      "text": "d'un bilan plus pouss\u00e9 du sperme, \u00e0 la recherche d'"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "anticorps anti\u2013spermatozo\u00efdes",
+      "text": "anticorps anti\u2013spermatozo\u00efdes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou d'anomalies de la composition du sperme\u00a0;",
+      "text": " ou d'anomalies de la composition du sperme\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'une \u00e9chographie des organes g\u00e9nitaux (testicules, prostate) ;",
+      "text": "d'une \u00e9chographie des organes g\u00e9nitaux (testicules, prostate) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'un bilan hormonal (testost\u00e9rone, FSH...) ;",
+      "text": "d'un bilan hormonal (testost\u00e9rone, FSH...) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'une analyse du caryotype (ensemble des chromosomes d'une cellule) lorsqu'une infertilit\u00e9 d'origine chromosomique est suspect\u00e9e et \u00e9ventuellement des tests g\u00e9n\u00e9tiques ;",
+      "text": "d'une analyse du caryotype (ensemble des chromosomes d'une cellule) lorsqu'une infertilit\u00e9 d'origine chromosomique est suspect\u00e9e et \u00e9ventuellement des tests g\u00e9n\u00e9tiques ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "d'une biopsie testiculaire.",
+      "text": "d'une biopsie testiculaire.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Examen concernant le couple infertile : test de H\u00fchner ou test post\u2013co\u00eftal",
+      "text": "Examen concernant le couple infertile : test de H\u00fchner ou test post\u2013co\u00eftal",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce test n'est pas recommand\u00e9 dans le bilan initial, mais cet examen tr\u00e8s sp\u00e9cialis\u00e9 peut \u00eatre demand\u00e9 dans un deuxi\u00e8me temps.",
+      "text": "Ce test n'est pas recommand\u00e9 dans le bilan initial, mais cet examen tr\u00e8s sp\u00e9cialis\u00e9 peut \u00eatre demand\u00e9 dans un deuxi\u00e8me temps."
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019examen consiste \u00e0 pr\u00e9lever de la ",
+      "text": "L\u2019examen consiste \u00e0 pr\u00e9lever de la "
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "glaire cervicale",
+      "text": "glaire cervicale",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (substance transparente s\u00e9cr\u00e9t\u00e9e au moment de l'ovulation et permettant aux spermatozo\u00efdes de remonter dans l'ut\u00e9rus) au cours d'un examen gyn\u00e9cologique r\u00e9alis\u00e9 dans les six \u00e0 douze heures qui suivent un rapport sexuel.",
+      "text": " (substance transparente s\u00e9cr\u00e9t\u00e9e au moment de l'ovulation et permettant aux spermatozo\u00efdes de remonter dans l'ut\u00e9rus) au cours d'un examen gyn\u00e9cologique r\u00e9alis\u00e9 dans les six \u00e0 douze heures qui suivent un rapport sexuel."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'objectif de cet examen est de s'assurer de :",
+      "text": "L'objectif de cet examen est de s'assurer de :"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la qualit\u00e9 de la glaire cervicale de la femme,",
+      "text": "la qualit\u00e9 de la glaire cervicale de la femme,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la pr\u00e9sence et la mobilit\u00e9 des spermatozo\u00efdes de l'homme dans celle-ci.",
+      "text": "la pr\u00e9sence et la mobilit\u00e9 des spermatozo\u00efdes de l'homme dans celle-ci.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il permet d\u2019\u00e9tudier l\u2019",
+      "text": "Il permet d\u2019\u00e9tudier l\u2019"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "interaction glaire cervicale-spermatozo\u00efdes",
+      "text": "interaction glaire cervicale-spermatozo\u00efdes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et de rechercher des anomalies\u00a0: insuffisance de la glaire et/ou du sperme, suspicion d\u2019anomalies immunologiques en pr\u00e9sence d\u2019une glaire et d\u2019un sperme normaux.",
+      "text": " et de rechercher des anomalies\u00a0: insuffisance de la glaire et/ou du sperme, suspicion d\u2019anomalies immunologiques en pr\u00e9sence d\u2019une glaire et d\u2019un sperme normaux."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour aller plus loin, consulter le portail \u00ab Ma fertilit\u00e9 \u00bb, accessible sur Sant\u00e9.fr",
+      "text": "Pour aller plus loin, consulter le portail \u00ab Ma fertilit\u00e9 \u00bb, accessible sur Sant\u00e9.fr"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Agence de la biom\u00e9decine. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation. Site internet : Agence de la biom\u00e9decine. Saint\u2013Denis La Plaine (France) ; 2023 [consult\u00e9 le 22 mai 2024]",
+      "text": "Agence de la biom\u00e9decine. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation. Site internet : Agence de la biom\u00e9decine. Saint\u2013Denis La Plaine (France) ; 2023 [consult\u00e9 le 22 mai 2024]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Soci\u00e9t\u00e9 fran\u00e7aise d'endocrinologie. Infertilit\u00e9 du couple : conduite de la premi\u00e8re consultation. Site internet : SFE. Paris ; 2020 [consult\u00e9 le 22 mai 2024]",
+      "text": "Soci\u00e9t\u00e9 fran\u00e7aise d'endocrinologie. Infertilit\u00e9 du couple : conduite de la premi\u00e8re consultation. Site internet : SFE. Paris ; 2020 [consult\u00e9 le 22 mai 2024]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sonigo C. ",
+      "text": "Sonigo C. "
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "et al.",
+      "text": "et al.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Prise en charge de premi\u00e8re intention du couple infertile\u00a0: mise \u00e0 jour des RPC 2010 du CNGOF. Gyn\u00e9cologie Obst\u00e9trique Fertilit\u00e9 & S\u00e9nologie. Elsevier Masson. 2024;52(5):305-335",
+      "text": " Prise en charge de premi\u00e8re intention du couple infertile\u00a0: mise \u00e0 jour des RPC 2010 du CNGOF. Gyn\u00e9cologie Obst\u00e9trique Fertilit\u00e9 & S\u00e9nologie. Elsevier Masson. 2024;52(5):305-335"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP). Des techniques pour aider les couples infertiles. Site internet : Inserm. Paris ; 2018 [consult\u00e9 le 22 mai 2024]",
+      "text": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP). Des techniques pour aider les couples infertiles. Site internet : Inserm. Paris ; 2018 [consult\u00e9 le 22 mai 2024]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Infertilit\u00e9. Site internet : Inserm. Paris ; 2019 [consult\u00e9 le 22 mai 2024]",
+      "text": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Infertilit\u00e9. Site internet : Inserm. Paris ; 2019 [consult\u00e9 le 22 mai 2024]",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}
