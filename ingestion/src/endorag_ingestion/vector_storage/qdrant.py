@@ -1,5 +1,9 @@
-"""Qdrant vector store (local mode) with hybrid dense + BM25 search fused by RRF."""
+"""Qdrant vector store (local mode) with hybrid dense + BM25 search fused by RRF.
 
+Each hit also carries its raw dense cosine similarity, since RRF scores are rank-based.
+"""
+
+import math
 import unicodedata
 from pathlib import Path
 
@@ -26,6 +30,11 @@ def fold_accents(text: str) -> str:
 def _dimension(embedding: Embeddings) -> int:
     """`embedding.dimension` when the embedding has one (ours do), else probed once."""
     return getattr(embedding, "dimension", None) or len(embedding.embed_query("dimension"))
+
+
+def _cosine(a: list[float], b: list[float]) -> float:
+    norm = math.hypot(*a) * math.hypot(*b)
+    return sum(x * y for x, y in zip(a, b, strict=True)) / norm if norm else 0.0
 
 
 class QdrantStore(BaseVectorStore):
@@ -138,9 +147,14 @@ class QdrantStore(BaseVectorStore):
             query=models.FusionQuery(fusion=models.Fusion.RRF),
             limit=k,
             with_payload=True,
+            with_vectors=[DENSE],
         )
         return [
-            ScoredChunk(chunk=Chunk.model_validate(p.payload), score=p.score)
+            ScoredChunk(
+                chunk=Chunk.model_validate(p.payload),
+                score=p.score,
+                dense_score=_cosine(query_vector, p.vector[DENSE]),
+            )
             for p in response.points
         ]
 

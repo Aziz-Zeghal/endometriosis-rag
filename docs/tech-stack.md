@@ -8,7 +8,7 @@ one-line justification.
 | Layer | Choice | Rather than | Because |
 |---|---|---|---|
 | Generation LLM | **Nemotron 3 Ultra** (550B total, ~55B active, MoE) via an OpenAI-compatible API | A local 7–30B model | Much higher answer quality in French with no GPU cost. The OpenAI-compatible API keeps us provider-agnostic: only `base_url` changes in production. |
-| Classifier LLM | **A smaller model on the same endpoint** (e.g. Nemotron 3 Super 120B, availability to verify) | The 550B model for every node | Routing and safety checks are short classification tasks, so a smaller model lowers latency. |
+| Classifier LLM | **A separate setting (`LLM_SMALL_MODEL`)**; the demo sets it to Nemotron 3 Ultra with reasoning off | A smaller model (Nemotron 3.5 Lightning, Nemotron 3 Super) | Measured on the demo gateway: Lightning reasons at length (12 s per routing call) and Super is not served, while Ultra without reasoning classifies in about 0.8 s (D-25). The setting stays so a deployment with a fast small model can use it. |
 | LLM client | `langchain-openai` `ChatOpenAI(base_url=…)` | A provider-specific SDK | The endpoint speaks the OpenAI API, and LangGraph integrates natively. |
 | Structured output | `with_structured_output(..., method="json_mode", include_raw=True)` | `json_schema` / tool calling | Support for strict JSON schema across endpoints is unconfirmed. JSON mode plus schema-in-prompt is portable, and `include_raw` lets us fall back safely on parse errors. |
 | Orchestration | **LangGraph** ≥ 1.2 | A linear LangChain chain | Safety routing and refuse-vs-clarify branches read naturally as a graph, and the graph is also the documentation. |

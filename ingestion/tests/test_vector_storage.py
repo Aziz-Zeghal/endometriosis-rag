@@ -96,6 +96,15 @@ def test_add_then_search_returns_the_matching_chunk(store):
     assert hits[0].chunk == CHUNKS[3]
 
 
+def test_hits_carry_the_raw_dense_cosine_similarity(store):
+    store.embedding = ONE_HOT
+    store.add_documents(CHUNKS)
+    hits = store.search("IRM pelvienne lésions profondes", k=4)
+    scores = {CHUNKS.index(h.chunk): h.dense_score for h in hits}
+    # one_hot(3) == one_hot(0): identical to chunks 0 and 3, orthogonal to chunks 1 and 2
+    assert scores == pytest.approx({0: 1.0, 1: 0.0, 2: 0.0, 3: 1.0})
+
+
 def test_exact_term_wins_through_bm25_with_flat_dense_vectors(store):
     store.add_documents(CHUNKS)
     hits = store.search("diénogest", k=5)

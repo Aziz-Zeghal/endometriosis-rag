@@ -18,7 +18,10 @@ Profile = Literal["patient", "gp"]
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_file=ROOT_DIR / ".env", extra="ignore")
+    # hide_input_in_errors: a validation error would otherwise echo the API key.
+    model_config = SettingsConfigDict(
+        env_file=ROOT_DIR / ".env", extra="ignore", hide_input_in_errors=True
+    )
 
     profile: Profile = "patient"
     embedder: str = "nemotron-3-embed-1b"

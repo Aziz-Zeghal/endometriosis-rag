@@ -26,6 +26,8 @@ cp .env.example .env   # then fill in LLM_BASE_URL and LLM_API_KEY
 
 ruff check . && ruff format --check .
 pytest
+
+uvicorn endorag_back.routes.entrypoint:create_app --factory   # backend on :8000
 ```
 
 ## Documentation

@@ -113,7 +113,10 @@ class ScoredChunk(BaseModel):
     model_config = ConfigDict(frozen=True)
 
     chunk: Chunk
-    score: float
+    score: float  # the store's ranking score (RRF for the hybrid search: rank-based)
+    # Cosine similarity of the query and chunk dense vectors: comparable across queries, so
+    # it can tell weak evidence apart. None when the store does not compute it.
+    dense_score: float | None = None
 
 
 class DocumentResult(BaseModel):
