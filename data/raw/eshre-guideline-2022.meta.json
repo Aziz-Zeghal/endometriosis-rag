@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8951218/fullTextXML",
+  "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8951218/fullTextXML",
+  "status": 200,
+  "content_type": "application/xml",
+  "retrieved": "2026-11-21",
+  "sha256": "84a7d66c0a1e6f22a86a606c802a16abfd9c9bad87bdfd3d76f3a1fdd3fe646f"
+}

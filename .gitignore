@@ -232,6 +232,7 @@ __marimo__/
 
 # Data: the corpus snapshot (data/raw, data/markdown) is committed; the index is rebuilt
 data/qdrant/
+data/cache/
 
 # Model and tool caches
 .hf_cache/
