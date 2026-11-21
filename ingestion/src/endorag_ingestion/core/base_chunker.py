@@ -1,5 +1,6 @@
-"""Structure- and token-aware chunking with docling's HybridChunker."""
+"""Base classes for chunking strategies."""
 
+from abc import ABC, abstractmethod
 from typing import TYPE_CHECKING
 
 from docling_core.transforms.chunker.hierarchical_chunker import (
@@ -9,11 +10,18 @@ from docling_core.transforms.chunker.hierarchical_chunker import (
 from docling_core.transforms.serializer.markdown import MarkdownTableSerializer
 from docling_core.types.doc import DocItemLabel, DoclingDocument, InlineGroup, TextItem
 
-from endorag_ingestion.converters.cleaning import clean_text
-from endorag_ingestion.core import Chunk, Chunker, ConvertedDocument
+from endorag_ingestion.core.cleaning import clean_text
+from endorag_ingestion.core.models import Chunk, ConvertedDocument
 
 if TYPE_CHECKING:
+    from docling_core.transforms.chunker.hybrid_chunker import HybridChunker
     from docling_core.transforms.chunker.tokenizer.base import BaseTokenizer
+
+
+class BaseChunker(ABC):
+    @abstractmethod
+    def chunk(self, document: ConvertedDocument) -> list[Chunk]:
+        """Split a converted document into retrievable chunks carrying its citation metadata."""
 
 
 class _MarkdownTables(ChunkingSerializerProvider):
@@ -52,15 +60,20 @@ def _join_inline_runs(document: DoclingDocument) -> DoclingDocument:
     return doc
 
 
-class HybridChunkerAdapter(Chunker):
-    """Adapts docling's `HybridChunker` to the `Chunker` interface.
+class BaseHybridChunker(BaseChunker):
+    """BaseChunker backed by docling's `HybridChunker`.
 
     The chunker follows the DoclingDocument's structure (sections, paragraphs, list items,
     tables kept as Markdown tables), splits pieces that exceed `max_tokens` of the embedder's
     tokenizer (headings included) and merges small neighbours under the same headings. Chunk
-    text is then cleaned and near-empty chunks are dropped.
+    text is then cleaned and chunks with fewer than `min_chars` letters and digits are dropped.
+
+    Each chunk keeps its context the way docling's `contextualize()` does, but as metadata:
+    `heading_path` (the manifest title first) and the page of its first item. The heading
+    path is prepended to the text only when embedding (`Chunk.embedding_text`).
 
     `tokenizer` is a Hugging Face model id, loaded on first use, or a ready tokenizer.
+    Subclasses may add modality-specific chunks on top of _text_chunks().
     """
 
     def __init__(
@@ -69,9 +82,11 @@ class HybridChunkerAdapter(Chunker):
         self.tokenizer = tokenizer
         self.max_tokens = max_tokens
         self.min_chars = min_chars
-        self._chunker = None
+        self._chunker: HybridChunker | None = None
 
-    def _hybrid(self):
+    @property
+    def chunker(self) -> "HybridChunker":
+        """docling's HybridChunker, built on first use (the tokenizer may be downloaded)."""
         if self._chunker is None:
             from docling_core.transforms.chunker.hybrid_chunker import HybridChunker
             from docling_core.transforms.chunker.tokenizer.huggingface import (
@@ -88,15 +103,16 @@ class HybridChunkerAdapter(Chunker):
             )
         return self._chunker
 
-    def chunk(self, doc: ConvertedDocument) -> list[Chunk]:
-        e = doc.entry
+    def _text_chunks(self, document: ConvertedDocument) -> list[Chunk]:
+        """Text chunks with their heading path, page and the entry's citation metadata."""
+        e = document.entry
         titles = {
             item.text
-            for item, _ in doc.document.iterate_items()
+            for item, _ in document.document.iterate_items()
             if item.label == DocItemLabel.TITLE
         }
         pieces: list[tuple[list[str], str, int | None]] = []
-        for c in self._hybrid().chunk(dl_doc=_join_inline_runs(doc.document)):
+        for c in self.chunker.chunk(dl_doc=_join_inline_runs(document.document)):
             text = clean_text(c.text)
             if sum(ch.isalnum() for ch in text) < self.min_chars:
                 continue
@@ -115,7 +131,7 @@ class HybridChunkerAdapter(Chunker):
                 title=e.title,
                 url=str(e.url),
                 published=e.citation_date,
-                retrieved=doc.retrieved,
+                retrieved=document.retrieved,
                 audience=e.audience,
                 licence=e.licence,
                 format=e.format,
@@ -123,3 +139,7 @@ class HybridChunkerAdapter(Chunker):
             )
             for i, (path, text, page) in enumerate(pieces)
         ]
+
+    def chunk(self, document: ConvertedDocument) -> list[Chunk]:
+        """Default chunking is text only."""
+        return self._text_chunks(document)

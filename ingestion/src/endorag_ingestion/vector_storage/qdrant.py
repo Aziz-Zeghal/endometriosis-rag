@@ -4,10 +4,11 @@ import unicodedata
 from pathlib import Path
 
 from fastembed import SparseEmbedding, SparseTextEmbedding
+from langchain_core.embeddings import Embeddings
 from qdrant_client import QdrantClient, models
 
-from endorag_ingestion.core import Chunk, Embedder, ScoredChunk, VectorStore
-from endorag_ingestion.settings import CACHE_DIR
+from endorag_ingestion.core import BaseVectorStore, Chunk, ScoredChunk
+from endorag_ingestion.core.settings import CACHE_DIR
 
 DENSE = "dense"
 SPARSE = "bm25"
@@ -22,8 +23,13 @@ def fold_accents(text: str) -> str:
     return "".join(c for c in decomposed if not unicodedata.combining(c))
 
 
-class QdrantStore(VectorStore):
-    """Stores chunks with a dense vector (from its embedder) and a BM25 sparse vector.
+def _dimension(embedding: Embeddings) -> int:
+    """`embedding.dimension` when the embedding has one (ours do), else probed once."""
+    return getattr(embedding, "dimension", None) or len(embedding.embed_query("dimension"))
+
+
+class QdrantStore(BaseVectorStore):
+    """Stores chunks with a dense vector (from its embedding) and a BM25 sparse vector.
 
     Local mode locks its directory: only one client per path at a time, so call `close()`.
     Pass `client` (e.g. `QdrantClient(":memory:")`) instead of `path` in tests.
@@ -32,7 +38,7 @@ class QdrantStore(VectorStore):
     def __init__(
         self,
         collection: str,
-        embedder: Embedder,
+        embedding: Embeddings,
         path: Path | None = None,
         client: QdrantClient | None = None,
         batch_size: int = 128,
@@ -41,10 +47,10 @@ class QdrantStore(VectorStore):
             raise ValueError("pass exactly one of 'path' or 'client'")
         self.client = client or QdrantClient(path=str(path))
         self.collection = collection
-        self.embedder = embedder
+        self.embedding = embedding
         self.batch_size = batch_size
         self._bm25: SparseTextEmbedding | None = None
-        self._ensure_collection(embedder.dimension)
+        self._ensure_collection(_dimension(embedding))
 
     def _ensure_collection(self, dimension: int) -> None:
         if self.client.collection_exists(self.collection):
@@ -89,8 +95,8 @@ class QdrantStore(VectorStore):
             indices=embedding.indices.tolist(), values=embedding.values.tolist()
         )
 
-    def add(self, chunks: list[Chunk]) -> int:
-        vectors = self.embedder.embed_documents([c.embedding_text for c in chunks])
+    def add_documents(self, chunks: list[Chunk]) -> list[str]:
+        vectors = self.embedding.embed_documents([c.embedding_text for c in chunks])
         if len(chunks) != len(vectors):
             raise ValueError(f"{len(chunks)} chunks but {len(vectors)} vectors")
         for start in range(0, len(chunks), self.batch_size):
@@ -107,31 +113,30 @@ class QdrantStore(VectorStore):
                 )
             ]
             self.client.upsert(self.collection, points=points)
-        return len(chunks)
+        return [c.point_id for c in chunks]
 
-    def delete_by_doc_id(self, doc_id: str) -> None:
-        self.client.delete(
-            self.collection,
-            points_selector=models.FilterSelector(
-                filter=models.Filter(
-                    must=[
-                        models.FieldCondition(key="doc_id", match=models.MatchValue(value=doc_id))
-                    ]
-                )
-            ),
+    def delete_by_metadata(self, field: str, value: str) -> int:
+        selector = models.Filter(
+            must=[models.FieldCondition(key=field, match=models.MatchValue(value=value))]
         )
+        deleted = self.client.count(self.collection, count_filter=selector, exact=True).count
+        if deleted:
+            self.client.delete(
+                self.collection, points_selector=models.FilterSelector(filter=selector)
+            )
+        return deleted
 
-    def search(self, query: str, limit: int) -> list[ScoredChunk]:
-        query_vector = self.embedder.embed_query(query)
+    def search(self, query: str, k: int) -> list[ScoredChunk]:
+        query_vector = self.embedding.embed_query(query)
         sparse = self._sparse(next(iter(self.bm25.query_embed(fold_accents(query)))))
         response = self.client.query_points(
             self.collection,
             prefetch=[
-                models.Prefetch(query=query_vector, using=DENSE, limit=limit * 4),
-                models.Prefetch(query=sparse, using=SPARSE, limit=limit * 4),
+                models.Prefetch(query=query_vector, using=DENSE, limit=k * 4),
+                models.Prefetch(query=sparse, using=SPARSE, limit=k * 4),
             ],
             query=models.FusionQuery(fusion=models.Fusion.RRF),
-            limit=limit,
+            limit=k,
             with_payload=True,
         )
         return [

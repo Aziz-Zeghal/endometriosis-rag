@@ -1,4 +1,4 @@
-from endorag_ingestion.settings import MANIFESTS_DIR, ROOT_DIR, Settings
+from endorag_ingestion.core.settings import MANIFESTS_DIR, ROOT_DIR, Settings
 
 
 def test_root_dir_is_repo_root():

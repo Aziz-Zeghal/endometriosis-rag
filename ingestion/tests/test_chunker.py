@@ -10,10 +10,10 @@ from docling_core.types.doc import (
     Formatting,
     ProvenanceItem,
 )
-from endorag_ingestion.chunkers import HybridChunkerAdapter
-from endorag_ingestion.converters.html import to_docling
+from endorag_ingestion.chunker import HybridTextChunker
+from endorag_ingestion.converter.html import to_docling
 from endorag_ingestion.core import ConvertedDocument
-from endorag_ingestion.settings import Settings
+from endorag_ingestion.core.settings import Settings
 from fakes import TODAY, WordTokenizer, make_entry
 
 FIXTURES = Path(__file__).parent / "fixtures" / "chunker"
@@ -32,8 +32,8 @@ def fixture(name: str) -> str:
     return (FIXTURES / name).read_text(encoding="utf-8")
 
 
-def chunker(max_tokens: int = 64) -> HybridChunkerAdapter:
-    return HybridChunkerAdapter(WordTokenizer(max_tokens=max_tokens))
+def chunker(max_tokens: int = 64) -> HybridTextChunker:
+    return HybridTextChunker(WordTokenizer(max_tokens=max_tokens))
 
 
 def test_nested_heading_paths():
@@ -66,7 +66,7 @@ def test_long_section_split_under_max_tokens():
     ]
     markdown = "# Titre\n\n## Long\n\n" + " ".join(sentences)
     tokenizer = WordTokenizer(max_tokens=60)
-    chunks = HybridChunkerAdapter(tokenizer).chunk(doc(markdown))
+    chunks = HybridTextChunker(tokenizer).chunk(doc(markdown))
     assert len(chunks) > 3
     # The budget covers the headings too, as in HybridChunker.contextualize.
     assert all(tokenizer.count_tokens("Titre\nLong\n" + c.text) <= 60 for c in chunks)
@@ -211,7 +211,7 @@ def test_real_tokenizer_keeps_chunks_under_max_tokens():
     settings = Settings(_env_file=None)
     sentences = [f"La phrase {i} décrit la dysménorrhée et la dyspareunie." for i in range(300)]
     markdown = "# Titre\n\n## Long\n\n" + " ".join(sentences)
-    chunks = HybridChunkerAdapter(settings.chunk_tokenizer, max_tokens=128).chunk(doc(markdown))
+    chunks = HybridTextChunker(settings.chunk_tokenizer, max_tokens=128).chunk(doc(markdown))
     tokenizer = HuggingFaceTokenizer.from_pretrained(settings.chunk_tokenizer)
     assert len(chunks) > 5
     assert all(tokenizer.count_tokens("Titre\nLong\n" + c.text) <= 128 for c in chunks)

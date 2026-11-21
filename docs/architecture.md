@@ -23,32 +23,37 @@ Data funnel: a few dozen curated sources become a few thousand clean, cited chun
 
 ```mermaid
 flowchart LR
-    M[Manifest<br/>YAML: id, url, source, title,<br/>published, licence, audience, format] --> C[Connector<br/>fetch + cache]
+    M[Manifest<br/>YAML: id, url, source, title,<br/>published, licence, audience, format] --> C[Connector<br/>download + cache]
     C --> V[Converter<br/>HTML/PDF/XML → DoclingDocument]
     V --> K[Chunker<br/>docling HybridChunker,<br/>token- and structure-aware]
-    K --> S[(Store<br/>embeds with its Embedder,<br/>then indexes in Qdrant)]
+    K --> S[(Vector storage<br/>embeds with its Embeddings,<br/>then indexes in Qdrant)]
 ```
 
-| Step | Interface (`core/`) | Input → Output | Default implementation |
+| Step | Base class (`core/`) | Input → Output | Default implementation |
 |---|---|---|---|
-| Connector | `Connector` | manifest entry → raw bytes on disk (cached) | `HttpConnector` (httpx, robots.txt, per-host delay) |
-| Converter | `Converter` | raw file → `ConvertedDocument` (docling `DoclingDocument` + Markdown snapshot + metadata) | `HtmlConverter` (trafilatura Markdown parsed by docling's Markdown backend; docling HTML backend as fallback), `PdfConverter` (docling, keeps page numbers), `JatsConverter` (docling JATS), routed by `format` and cached by `RoutingConverter`. Tables of contents are removed by label (`DOCUMENT_INDEX`), and the dot-leader line filter on chunk text catches the rest; the back matter (from the first heading such as References, Sources, Participants, Remerciements or Acknowledgements to the end) and annexes that are blank report forms (`[<>]` fields) are removed too; page headers and footers are docling furniture, left out of chunks. |
-| Chunker | `Chunker` | `ConvertedDocument` → `list[Chunk]` | `HybridChunkerAdapter`: docling `HybridChunker` with the embedder's tokenizer (`nvidia/Nemotron-3-Embed-1B-BF16`), at most 512 tokens per chunk headings included, small neighbours under the same headings merged, tables serialized as Markdown tables. Chunk text is cleaned (bullet glyphs, dot leaders, entities, links, table padding) and near-empty chunks are dropped. |
-| Embedder | `Embedder` | `embed_documents(list[str])` and `embed_query(str)` → dense vectors. They are separate because some models need different query and passage prefixes. | `OpenAICompatibleEmbedder` (default: `nemotron-3-embed-1b` through the LLM endpoint; batched, retried, cached on disk); `SentenceTransformerEmbedder` (optional local models, `[local]` extra) |
-| Store | `VectorStore` | `add(list[Chunk])` → count; `search(query, k)` → scored chunks | `QdrantStore` (local mode). It **owns its `Embedder`**, so documents and queries are always embedded by the same model and callers pass text, never vectors. It computes the BM25 sparse vectors itself with fastembed and fuses dense and sparse results with RRF. |
+| Connector | `BaseConnector` | `download(entry)`: manifest entry → `RawDocument`, raw bytes cached on disk by the base class | `HttpConnector` (httpx, robots.txt, per-host delay, retries) implements `_download_to()` |
+| Converter | `BaseConverter` | `convert(raw)`: raw file → `ConvertedDocument` (docling `DoclingDocument` + Markdown snapshot + metadata), through `_parse` → `_repair` (on failure) → `_enrich` (cleaning) | `HtmlConverter` (trafilatura Markdown parsed by docling's Markdown backend; docling HTML backend as fallback), `PdfConverter` (docling, keeps page numbers), `JatsConverter` (docling JATS), routed by `format` and cached by `RoutingConverter`. Tables of contents are removed by label (`DOCUMENT_INDEX`), and the dot-leader line filter on chunk text catches the rest; the back matter (from the first heading such as References, Sources, Participants, Remerciements, Acknowledgements or a final Contact block to the end) and annexes that are blank report forms (`[<>]` fields) are removed too; page headers and footers are docling furniture, left out of chunks. Web pages also lose share and rating widgets, glossary tooltips and their trailing related-links block (from a heading such as « Voir aussi », « En savoir plus » or « Les autres symptômes » to the end). |
+| Chunker | `BaseChunker`, `BaseHybridChunker` | `chunk(document)`: `ConvertedDocument` → `list[Chunk]` | `HybridTextChunker` (text chunks of `BaseHybridChunker`): docling `HybridChunker` with the embedder's tokenizer (`nvidia/Nemotron-3-Embed-1B-BF16`), at most 512 tokens per chunk headings included, small neighbours under the same headings merged, tables serialized as Markdown tables. Chunk text is cleaned (bullet glyphs, dot leaders, entities, links, table padding) and near-empty chunks are dropped. |
+| Embedder | LangChain `Embeddings` | `embed_documents(list[str])` and `embed_query(str)` → dense vectors. They are separate because some models need different query and passage prefixes. Not a pipeline step: injected into the vector storage. | `OpenAICompatibleEmbedder` (default: `nemotron-3-embed-1b` through the LLM endpoint; batched, retried, cached on disk); `SentenceTransformerEmbedder` (optional local models, `[local]` extra). Both expose `dimension`, chosen by `make_embedder(settings)`. |
+| Vector storage | `BaseVectorStore` | `add_documents(chunks)` → ids; `delete_by_metadata(field, value)` → count; `upsert_documents(chunks, key_field="doc_id")` (in the base class: delete per key value, then add); `search(query, k)` → scored chunks | `QdrantStore` (local mode). It **owns its `Embeddings`**, so documents and queries are always embedded by the same model and callers pass text, never vectors. It computes the BM25 sparse vectors itself with fastembed and fuses dense and sparse results with RRF. |
 
 ### Design rules
 
-- **Strategy pattern.** Each step is an abstract class in `core/`. Swapping a source, an
-  embedding model or a vector database means instantiating a different class in the
-  pipeline factory. Nothing else changes. This is how the GP profile and the production
-  deployment reuse the same code.
-- **Template method.** `Pipeline.run()` owns the sequence and the error handling:
-  fetch → convert → chunk → index (the store embeds), one document at a time.
-- **Per-document fault isolation.** A document that fails to fetch or convert is logged and
+- **Strategy pattern.** Each step is a `Base*` class in `core/`, one per file
+  (`base_connector.py`, `base_converter.py`, `base_chunker.py`, `base_vector_store.py`,
+  `base_pipeline.py`); embeddings use LangChain's `Embeddings` interface directly. Swapping a
+  source, an embedding model or a vector database means instantiating a different class in
+  the composition root (`factory.py`). Nothing else changes. This is how the GP profile and
+  the production deployment reuse the same code.
+- **Template method.** `BasePipeline.run()` owns the sequence and the error handling:
+  `_download` → `_convert` → `_chunk` → `_store` (`storage.upsert_documents`, which embeds),
+  one document at a time. `BaseConverter.convert()` does the same for a conversion:
+  `_parse` (format-specific), `_repair` (optional retry on failure), `_enrich` (cleaning).
+  `close()` releases the connector, the converter and the storage.
+- **Per-document fault isolation.** A document that fails to download or convert is logged and
   skipped; the run continues.
-- **Idempotent re-ingestion.** Before upserting a document, the store deletes the existing
-  points whose `doc_id` matches. Point ids are `uuid5(doc_id#chunk_index)`, since Qdrant
+- **Idempotent re-ingestion.** `upsert_documents` deletes the existing points whose
+  `doc_id` matches (`delete_by_metadata`) before adding the new ones. Point ids are `uuid5(doc_id#chunk_index)`, since Qdrant
   requires UUIDs or integers. Re-running ingestion, even after a page has changed, never
   leaves stale or duplicate chunks.
 - **Metadata stays out of the embedded text.** Source, URL, date and heading path live in
@@ -242,16 +247,17 @@ endometriosis-rag/
 │   ├── pyproject.toml            # package: endorag_ingestion
 │   ├── manifests/                # patient.yaml, gp.yaml (URLs + metadata only)
 │   ├── src/endorag_ingestion/
-│   │   ├── settings.py           # paths and config (see below)
-│   │   ├── core/                 # interfaces + Pydantic models: Connector, Converter, Chunker,
-│   │   │                         # Embedder, VectorStore, ManifestEntry, ConvertedDocument, Chunk
-│   │   ├── connectors/           # http.py
-│   │   ├── converters/           # html.py (trafilatura), pdf.py and jats.py (docling),
-│   │   │                         # cleaning.py, routing.py (cache)
-│   │   ├── chunkers/             # hybrid.py (docling HybridChunker)
-│   │   ├── embedders/            # openai_compatible.py, sentence_transformers.py (optional)
-│   │   ├── stores/               # qdrant.py (dense + BM25, RRF)
-│   │   ├── pipeline.py           # template method: fetch → convert → chunk → embed → upsert
+│   │   ├── core/                 # base_connector.py, base_converter.py, base_chunker.py,
+│   │   │                         # base_vector_store.py, base_pipeline.py (one Base* class each),
+│   │   │                         # models.py (Pydantic), cleaning.py, settings.py (see below)
+│   │   ├── connector/            # http_connector.py
+│   │   ├── converter/            # html.py (trafilatura), pdf.py and jats.py (docling),
+│   │   │                         # routing.py (dispatch on format + cache)
+│   │   ├── chunker/              # hybrid.py (HybridTextChunker: text chunks of core BaseHybridChunker)
+│   │   ├── embedder/             # openai_compatible.py, sentence_transformers.py (optional)
+│   │   ├── vector_storage/       # qdrant.py (dense + BM25, RRF)
+│   │   ├── factory.py            # composition root: build_pipeline(settings)
+│   │   ├── manifest.py           # load and validate the manifests
 │   │   └── cli.py                # `endorag-ingest --profile patient`
 │   └── tests/
 ├── back/                         # read side
@@ -274,18 +280,20 @@ endometriosis-rag/
 └── .env.example
 ```
 
-The back reuses the ingestion package's embedders, store and models, instead of copying them
+The back reuses the ingestion package's embedder (`make_embedder`), vector storage
+(`QdrantStore.search`) and models (`ScoredChunk`, `Chunk`), instead of copying them
 or manipulating `PYTHONPATH`. The vector space and payload schema are defined once, on the
 write side.
 
 ### Settings and paths
 
-Each Python part has a `settings.py` with a `pydantic-settings` `Settings` class and
-module-level path constants derived from the repo root. Nothing hard-codes a path elsewhere.
+Each Python part has a settings module (`core/settings.py` in ingestion) with a
+`pydantic-settings` `Settings` class and module-level path constants derived from the repo
+root. Nothing hard-codes a path elsewhere.
 
 ```python
-# ingestion/src/endorag_ingestion/settings.py
-ROOT_DIR = Path(__file__).resolve().parents[3]
+# ingestion/src/endorag_ingestion/core/settings.py
+ROOT_DIR = Path(__file__).resolve().parents[4]
 DATA_DIR = ROOT_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"  # fetched HTML/PDF cache
 MARKDOWN_DIR = DATA_DIR / "markdown"  # converted documents: .md + .docling.json

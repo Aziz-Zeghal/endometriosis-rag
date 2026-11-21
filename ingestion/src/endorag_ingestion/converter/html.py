@@ -11,22 +11,30 @@ from docling_core.types.doc import DoclingDocument
 from lxml import etree
 from trafilatura.utils import load_html
 
-from endorag_ingestion.converters.cleaning import clean_text, to_converted
-from endorag_ingestion.core import ConvertedDocument, Converter, RawDocument
+from endorag_ingestion.core import BaseConverter, RawDocument
+from endorag_ingestion.core.cleaning import clean_text, remove_web_trailer
 
 logger = logging.getLogger(__name__)
 
 _MD_HEADING = re.compile(r"^#{1,6} ", re.M)
-# Page widgets, matched on class tokens: share buttons, "was this page useful?" ratings
-# and blocks the site itself hides when printing; plus Santé.fr's "about the publisher" box.
-_WIDGET_CLASS = r"(^|[\s_-])(share|feedback|notation|no-print)([\s_-]|$)"
-_WIDGETS = f"//*[re:test(@class, '{_WIDGET_CLASS}', 'i')] | //*[@id='source-info']"
+# Indented text that is not a list item: Markdown would make it a code block. A list
+# marker alone on its line takes the indented text that follows.
+_INDENTED_TEXT = re.compile(r"^[ \t]+(?=\S)(?![-*+] |\d+\. )", re.M)
+_BARE_MARKER = re.compile(r"^([ \t]*(?:[-*+]|\d+\.))[ \t]*\n[ \t]+(?=\S)", re.M)
+# Page widgets, matched on class tokens: share buttons, "was this page useful?" ratings,
+# blocks the site itself hides when printing, tables of contents ("Sommaire") and Santé.fr's
+# content-type label; plus Santé.fr's "about the publisher" box and tooltips (Service-Public
+# glossary tooltips hold a "titleContent" placeholder).
+_WIDGET_CLASS = r"(^|[\s_-])(share|feedback|notation|no-print|btn-summary|content-type)([\s_-]|$)"
+_WIDGETS = (
+    f"//*[re:test(@class, '{_WIDGET_CLASS}', 'i')] | //*[@id='source-info'] | //*[@role='tooltip']"
+)
 # Also dropped before the docling fallback, which keeps everything it is given.
 _CHROME = ".//nav|.//aside|.//form|.//img|.//picture|.//figure"
 _NS = {"re": "http://exslt.org/regular-expressions"}
 
 
-class HtmlConverter(Converter):
+class HtmlConverter(BaseConverter):
     """Drops navigation, footers and cookie banners; keeps headings, paragraphs and tables.
 
     Extraction runs in precision mode first. If that loses most headings or most of the
@@ -35,20 +43,24 @@ class HtmlConverter(Converter):
     backend: trafilatura keeps only the first block matching its content selectors, which
     drops pages split into many `class="content"` blocks (Santé.fr filières).
 
+    The fallback stays in _parse rather than _repair: it is not a failure to recover from
+    but a quality check on a successful extraction, and it reuses the parsed page.
     Either way the result is a DoclingDocument, chunked like the PDFs; HTML has no pages.
+    Pages without `<main>` use the block around the `<h1>` that holds most headings.
     """
 
-    def convert(self, raw: RawDocument) -> ConvertedDocument:
+    def _parse(self, raw: RawDocument) -> DoclingDocument:
         tree = load_html(raw.path.read_bytes())
         if tree is None:
             raise ValueError(f"{raw.entry.id}: could not parse HTML")
+        for el in tree.xpath(_WIDGETS, namespaces=_NS):
+            el.drop_tree()
         # trafilatura drops <button> with its text: unwrap it to keep accordion headings
         # (`<h2><button>Title</button></h2>`) and inline glossary terms.
         etree.strip_tags(tree, "button")
-        for el in tree.xpath(_WIDGETS, namespaces=_NS):
-            el.drop_tree()
-        expected = _html_heading_count(tree)
         main = next(iter(tree.xpath("//main")), None)
+        root = main if main is not None else _title_block(tree)
+        expected = _html_heading_count(tree if root is None else root)
         main_chars = len(" ".join(main.text_content().split())) if main is not None else 0
 
         def poor(md: str) -> bool:
@@ -59,11 +71,16 @@ class HtmlConverter(Converter):
             markdown = _extract(tree, favor_recall=True)
         if poor(markdown):
             logger.warning("%s: trafilatura lost headings or text", raw.entry.id)
-            if main is not None:
-                return to_converted(raw, _docling_main(main))
+            if root is not None:
+                return _docling_main(root)
         if not markdown:
             raise ValueError(f"{raw.entry.id}: no content extracted")
-        return to_converted(raw, to_docling(clean_text(markdown).encode(), "page.md"))
+        markdown = _INDENTED_TEXT.sub("", _BARE_MARKER.sub(r"\1 ", markdown))
+        return to_docling(clean_text(markdown).encode(), "page.md")
+
+    def _enrich(self, document: DoclingDocument) -> None:
+        """Also remove the related-links block that ends the page."""
+        super()._enrich(remove_web_trailer(document))
 
 
 def _extract(tree: etree._Element, **mode: bool) -> str:
@@ -100,9 +117,18 @@ def _docling_main(main: etree._Element) -> DoclingDocument:
     return to_docling(html, "page.html")
 
 
-def _html_heading_count(tree: etree._Element) -> int:
-    """h1-h3 tags in <main> when the page has one, else in the whole page."""
-    root = next(iter(tree.xpath("//main")), tree)
+def _title_block(tree: etree._Element) -> etree._Element | None:
+    """For pages without `<main>` (CHUV): the nearest ancestor of the `<h1>` holding at
+    least half of the page's h1-h3 headings."""
+    total = _html_heading_count(tree)
+    for h1 in tree.xpath("//h1")[:1]:
+        for block in h1.iterancestors():
+            if _html_heading_count(block) * 2 >= total:
+                return block
+    return None
+
+
+def _html_heading_count(root: etree._Element) -> int:
     return len(root.xpath(".//h1|.//h2|.//h3"))
 
 

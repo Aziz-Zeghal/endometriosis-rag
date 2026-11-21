@@ -1,10 +1,11 @@
 """PDF to a DoclingDocument with docling (layout model, table structure, no OCR)."""
 
-from endorag_ingestion.converters.cleaning import to_converted
-from endorag_ingestion.core import ConvertedDocument, Converter, RawDocument
+from docling_core.types.doc import DoclingDocument
+
+from endorag_ingestion.core import BaseConverter, RawDocument
 
 
-class PdfConverter(Converter):
+class PdfConverter(BaseConverter):
     """The docling converter loads models, so it is built on first use and then reused.
 
     OCR is off: the corpus PDFs have a text layer, and OCR is the slowest step. The
@@ -26,5 +27,5 @@ class PdfConverter(Converter):
             )
         return self._docling
 
-    def convert(self, raw: RawDocument) -> ConvertedDocument:
-        return to_converted(raw, self._converter().convert(raw.path).document)
+    def _parse(self, raw: RawDocument) -> DoclingDocument:
+        return self._converter().convert(raw.path).document

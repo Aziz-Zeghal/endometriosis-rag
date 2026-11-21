@@ -2,8 +2,8 @@ from pathlib import Path
 
 import httpx
 import pytest
+from endorag_ingestion.core.settings import Settings
 from endorag_ingestion.manifest import load_entries, load_manifest
-from endorag_ingestion.settings import Settings
 
 FIXTURES = Path(__file__).parent / "fixtures" / "manifests"
 EXCLUDED_HOSTS = ("cngof.fr", "info-endometriose")
@@ -24,10 +24,14 @@ def test_excluded_publishers_absent(profile):
         assert not any(host in str(entry.url) for host in EXCLUDED_HOSTS), entry.id
 
 
-def test_patient_corpus_has_about_25_enabled_entries():
+def test_patient_corpus_has_about_70_enabled_entries():
     enabled = load_entries("patient")
-    assert 20 <= len(enabled) <= 30
+    assert 60 <= len(enabled) <= 75
     assert "inserm-dossier" not in {e.id for e in enabled}
+
+
+def test_gp_corpus_has_12_enabled_entries():
+    assert len(load_entries("gp")) == 12
 
 
 def test_ameli_entries_have_crawl_delay():
@@ -74,7 +78,7 @@ def test_enabled_urls_answer_200(profile):
         failures = {
             e.id: status
             for e in load_entries(profile)
-            if (status := client.get(str(e.url)).status_code) != 200
+            if (status := client.get(str(e.fetch_url or e.url)).status_code) != 200
         }
     assert not failures
 

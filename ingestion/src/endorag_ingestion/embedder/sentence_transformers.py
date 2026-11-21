@@ -1,6 +1,6 @@
 """Local embedding models (optional `[local]` extra)."""
 
-from endorag_ingestion.core import Embedder
+from langchain_core.embeddings import Embeddings
 
 # model id -> (query prefix, document prefix)
 PRESETS: dict[str, tuple[str, str]] = {
@@ -11,7 +11,12 @@ PRESETS: dict[str, tuple[str, str]] = {
 }
 
 
-class SentenceTransformerEmbedder(Embedder):
+class SentenceTransformerEmbedder(Embeddings):
+    """A LangChain `Embeddings` running a sentence-transformers model on the CPU.
+
+    Queries and passages are separate because some models need different prefixes.
+    """
+
     def __init__(self, model_id: str, query_prefix: str = "", document_prefix: str = "") -> None:
         try:
             from sentence_transformers import SentenceTransformer

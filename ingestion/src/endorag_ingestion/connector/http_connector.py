@@ -1,19 +1,16 @@
-"""Polite HTTP connector: robots.txt, per-host delay, retries and an offline-first disk cache."""
+"""Polite HTTP connector: robots.txt, per-host delay and retries (the disk cache is in the base)."""
 
-import hashlib
-import json
 import logging
 import time
 from collections.abc import Callable
-from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.robotparser import RobotFileParser
 
 import httpx
 
-from endorag_ingestion.core import Connector, ManifestEntry, RawDocument
-from endorag_ingestion.settings import RAW_DIR, Settings
+from endorag_ingestion.core import BaseConnector, ManifestEntry, Settings
+from endorag_ingestion.core.settings import RAW_DIR
 
 logger = logging.getLogger(__name__)
 
@@ -24,10 +21,11 @@ class FetchError(Exception):
     """The document cannot be fetched (robots.txt, bad content, HTTP error)."""
 
 
-class HttpConnector(Connector):
-    """Fetches a manifest entry once and caches it as `<raw_dir>/<doc_id>.<ext>` + `.meta.json`.
+class HttpConnector(BaseConnector):
+    """Downloads a manifest entry over HTTP (`fetch_url`, else `url`).
 
-    Cached files are returned without any network access; `refresh=True` forces a re-fetch.
+    Cached files are returned by `BaseConnector.download()` without any network access;
+    `refresh=True` forces a new download.
     """
 
     def __init__(
@@ -43,9 +41,8 @@ class HttpConnector(Connector):
         sleep: Callable[[float], None] = time.sleep,
         clock: Callable[[], float] = time.monotonic,
     ) -> None:
+        super().__init__(raw_dir, refresh)
         self.user_agent = (settings or Settings()).user_agent
-        self.raw_dir = raw_dir
-        self.refresh = refresh
         self.default_delay_s = default_delay_s
         self.retries = retries
         self.sleep = sleep
@@ -62,20 +59,14 @@ class HttpConnector(Connector):
             self._client = httpx.Client(follow_redirects=True, timeout=self._timeout_s)
         return self._client
 
-    def fetch(self, entry: ManifestEntry) -> RawDocument:
+    def close(self) -> None:
+        if self._client is not None:
+            self._client.close()
+            self._client = None
+
+    def _download_to(self, entry: ManifestEntry, path: Path) -> dict:
         if entry.format not in ("html", "pdf", "xml"):
             raise FetchError(f"{entry.id}: format {entry.format!r} is not served over HTTP")
-        path = self.raw_dir / f"{entry.id}.{entry.format}"
-        meta_path = self.raw_dir / f"{entry.id}.meta.json"
-        if not self.refresh and path.exists() and meta_path.exists():
-            meta = json.loads(meta_path.read_text(encoding="utf-8"))
-            return RawDocument(
-                entry=entry,
-                path=path,
-                content_type=meta.get("content_type"),
-                retrieved=date.fromisoformat(meta["retrieved"]),
-            )
-
         url = str(entry.fetch_url or entry.url)
         robots = self._robots_for(url)
         if not robots.can_fetch(self.user_agent, url):
@@ -96,21 +87,14 @@ class HttpConnector(Connector):
         content_type = response.headers.get("content-type")
         self._check_content(entry, response.content, content_type)
 
-        retrieved = date.today()
-        self.raw_dir.mkdir(parents=True, exist_ok=True)
         path.write_bytes(response.content)
-        meta = {
+        logger.info("Fetched %s -> %s", url, path.name)
+        return {
             "url": url,
             "final_url": final_url,
             "status": response.status_code,
             "content_type": content_type,
-            "retrieved": retrieved.isoformat(),
-            "sha256": hashlib.sha256(response.content).hexdigest(),
         }
-        # Written last: a complete meta file marks a complete cache entry.
-        meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
-        logger.info("Fetched %s -> %s", url, path.name)
-        return RawDocument(entry=entry, path=path, content_type=content_type, retrieved=retrieved)
 
     def _robots_for(self, url: str) -> RobotFileParser:
         parts = urlsplit(url)

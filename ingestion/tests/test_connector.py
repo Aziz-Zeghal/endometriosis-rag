@@ -6,8 +6,8 @@ from pathlib import Path
 
 import httpx
 import pytest
-from endorag_ingestion.connectors import FetchError, HttpConnector
-from endorag_ingestion.settings import Settings
+from endorag_ingestion.connector import FetchError, HttpConnector
+from endorag_ingestion.core.settings import Settings
 from fakes import make_entry
 
 FIXTURES = Path(__file__).parent / "fixtures" / "connector"
@@ -70,9 +70,9 @@ def make_connector(tmp_path: Path, server: Server, clock: FakeClock | None = Non
     )
 
 
-def test_fetch_writes_raw_file_and_meta(tmp_path):
+def test_download_writes_raw_file_and_meta(tmp_path):
     server = Server({"/robots.txt": httpx.Response(200, text=ROBOTS), "/doc-a": html_response()})
-    raw = make_connector(tmp_path, server).fetch(make_entry("doc-a"))
+    raw = make_connector(tmp_path, server).download(make_entry("doc-a"))
 
     assert raw.path == tmp_path / "doc-a.html"
     assert raw.path.read_bytes() == HTML
@@ -92,7 +92,7 @@ def test_cache_hit_makes_no_network_call(tmp_path):
     )
 
     server = Server({})
-    raw = make_connector(tmp_path, server).fetch(make_entry("doc-a"))
+    raw = make_connector(tmp_path, server).download(make_entry("doc-a"))
 
     assert server.requests == []
     assert raw.retrieved == date(2026, 3, 1)
@@ -101,14 +101,14 @@ def test_cache_hit_makes_no_network_call(tmp_path):
 
 def test_second_run_is_offline_and_refresh_refetches(tmp_path):
     server = Server({"/robots.txt": httpx.Response(200, text=ROBOTS), "/doc-a": html_response()})
-    make_connector(tmp_path, server).fetch(make_entry("doc-a"))
+    make_connector(tmp_path, server).download(make_entry("doc-a"))
     n = len(server.requests)
 
-    make_connector(tmp_path, server).fetch(make_entry("doc-a"))
+    make_connector(tmp_path, server).download(make_entry("doc-a"))
     assert len(server.requests) == n
 
     server.routes["/doc-a"] = html_response(b"<html><p>Mise a jour</p></html>")
-    raw = make_connector(tmp_path, server, refresh=True).fetch(make_entry("doc-a"))
+    raw = make_connector(tmp_path, server, refresh=True).download(make_entry("doc-a"))
     assert raw.path.read_bytes() == b"<html><p>Mise a jour</p></html>"
 
 
@@ -117,7 +117,7 @@ def test_robots_disallow_raises_without_fetching(tmp_path):
     entry = make_entry("doc-a", url="https://example.org/prive/page")
 
     with pytest.raises(FetchError, match=r"robots\.txt"):
-        make_connector(tmp_path, server).fetch(entry)
+        make_connector(tmp_path, server).download(entry)
     assert server.paths() == ["/robots.txt"]
     assert not list(tmp_path.iterdir())
 
@@ -131,8 +131,8 @@ def test_robots_is_fetched_once_per_host(tmp_path):
         }
     )
     connector = make_connector(tmp_path, server)
-    connector.fetch(make_entry("doc-a"))
-    connector.fetch(make_entry("doc-b"))
+    connector.download(make_entry("doc-a"))
+    connector.download(make_entry("doc-b"))
     assert server.paths().count("/robots.txt") == 1
 
 
@@ -146,8 +146,8 @@ def test_crawl_delay_is_honoured_between_requests_to_a_host(tmp_path):
     )
     clock = FakeClock()
     connector = make_connector(tmp_path, server, clock)
-    connector.fetch(make_entry("doc-a", crawl_delay_s=10))  # robots.txt then doc-a
-    connector.fetch(make_entry("doc-b"))  # default delay
+    connector.download(make_entry("doc-a", crawl_delay_s=10))  # robots.txt then doc-a
+    connector.download(make_entry("doc-b"))  # default delay
 
     assert clock.sleeps == [10, 2]
 
@@ -160,7 +160,7 @@ def test_transient_errors_are_retried_with_backoff(tmp_path):
         }
     )
     clock = FakeClock()
-    raw = make_connector(tmp_path, server, clock, default_delay_s=0).fetch(make_entry("doc-a"))
+    raw = make_connector(tmp_path, server, clock, default_delay_s=0).download(make_entry("doc-a"))
 
     assert raw.path.exists()
     assert server.paths().count("/doc-a") == 3
@@ -170,14 +170,14 @@ def test_transient_errors_are_retried_with_backoff(tmp_path):
 def test_http_error_raises_and_caches_nothing(tmp_path):
     server = Server({"/robots.txt": httpx.Response(404), "/doc-a": httpx.Response(410)})
     with pytest.raises(FetchError, match="HTTP 410"):
-        make_connector(tmp_path, server).fetch(make_entry("doc-a"))
+        make_connector(tmp_path, server).download(make_entry("doc-a"))
     assert not list(tmp_path.iterdir())
 
 
 def test_pdf_entry_is_saved_as_pdf(tmp_path):
     server = Server({"/robots.txt": httpx.Response(404), "/guide": pdf_response()})
     entry = make_entry("guide", url="https://example.org/guide", format="pdf")
-    raw = make_connector(tmp_path, server).fetch(entry)
+    raw = make_connector(tmp_path, server).download(entry)
 
     assert raw.path == tmp_path / "guide.pdf"
     assert raw.content_type == "application/pdf"
@@ -188,7 +188,7 @@ def test_html_error_page_served_for_a_pdf_is_rejected(tmp_path):
     entry = make_entry("guide", url="https://example.org/guide", format="pdf")
 
     with pytest.raises(FetchError, match="expected a PDF"):
-        make_connector(tmp_path, server).fetch(entry)
+        make_connector(tmp_path, server).download(entry)
     assert not list(tmp_path.iterdir())
 
 
@@ -202,8 +202,8 @@ def test_robots_crawl_delay_is_a_floor_for_entry_delay(tmp_path):
     )
     clock = FakeClock()
     connector = make_connector(tmp_path, server, clock)
-    connector.fetch(make_entry("doc-a", crawl_delay_s=1))
-    connector.fetch(make_entry("doc-b", crawl_delay_s=1))
+    connector.download(make_entry("doc-a", crawl_delay_s=1))
+    connector.download(make_entry("doc-b", crawl_delay_s=1))
 
     assert clock.sleeps == [10, 10]
 
@@ -219,7 +219,7 @@ def test_redirect_to_host_disallowed_by_robots_is_rejected(tmp_path):
         return httpx.Response(404)
 
     with pytest.raises(FetchError, match=r"redirect target disallowed"):
-        make_connector(tmp_path, handler).fetch(make_entry("doc-a"))
+        make_connector(tmp_path, handler).download(make_entry("doc-a"))
     assert not list(tmp_path.iterdir())
 
 
@@ -228,20 +228,20 @@ def test_robots_server_error_is_cached_per_host(tmp_path):
     connector = make_connector(tmp_path, server, retries=0)
     for doc_id in ("doc-a", "doc-b"):
         with pytest.raises(FetchError, match=r"robots\.txt"):
-            connector.fetch(make_entry(doc_id))
+            connector.download(make_entry(doc_id))
     assert server.paths() == ["/robots.txt"]
 
 
 def test_content_type_is_case_insensitive(tmp_path):
     page = httpx.Response(200, content=HTML, headers={"content-type": "Text/HTML"})
     server = Server({"/robots.txt": httpx.Response(404), "/doc-a": page})
-    assert make_connector(tmp_path, server).fetch(make_entry("doc-a")).path.exists()
+    assert make_connector(tmp_path, server).download(make_entry("doc-a")).path.exists()
 
 
 def test_pdf_with_leading_bytes_is_accepted(tmp_path):
     server = Server({"/robots.txt": httpx.Response(404), "/guide": pdf_response(b"\r\n" + PDF)})
     entry = make_entry("guide", url="https://example.org/guide", format="pdf")
-    assert make_connector(tmp_path, server).fetch(entry).path.exists()
+    assert make_connector(tmp_path, server).download(entry).path.exists()
 
 
 def test_retry_after_is_honoured_on_429(tmp_path):
@@ -252,13 +252,13 @@ def test_retry_after_is_honoured_on_429(tmp_path):
         }
     )
     clock = FakeClock()
-    make_connector(tmp_path, server, clock, default_delay_s=0).fetch(make_entry("doc-a"))
+    make_connector(tmp_path, server, clock, default_delay_s=0).download(make_entry("doc-a"))
     assert clock.sleeps == [60]
 
 
 def test_meta_records_http_status(tmp_path):
     server = Server({"/robots.txt": httpx.Response(404), "/doc-a": html_response()})
-    make_connector(tmp_path, server).fetch(make_entry("doc-a"))
+    make_connector(tmp_path, server).download(make_entry("doc-a"))
     assert json.loads((tmp_path / "doc-a.meta.json").read_text())["status"] == 200
 
 
@@ -273,7 +273,7 @@ def test_xml_entry_is_downloaded_from_fetch_url(tmp_path):
         }
     )
     entry = make_entry("doc-x", format="xml", fetch_url="https://example.org/api/full.xml")
-    raw = make_connector(tmp_path, server).fetch(entry)
+    raw = make_connector(tmp_path, server).download(entry)
 
     assert raw.path == tmp_path / "doc-x.xml"
     assert "/doc-x" not in server.paths()
@@ -284,4 +284,20 @@ def test_xml_entry_is_downloaded_from_fetch_url(tmp_path):
 def test_xml_entry_rejects_a_pdf(tmp_path):
     server = Server({"/robots.txt": httpx.Response(200, text=ROBOTS), "/doc-x": pdf_response()})
     with pytest.raises(FetchError, match="expected XML"):
-        make_connector(tmp_path, server).fetch(make_entry("doc-x", format="xml"))
+        make_connector(tmp_path, server).download(make_entry("doc-x", format="xml"))
+
+
+def test_close_closes_the_http_client(tmp_path):
+    server = Server({"/robots.txt": httpx.Response(200, text=ROBOTS), "/doc-a": html_response()})
+    connector = make_connector(tmp_path, server)
+    client = connector.client
+    connector.download(make_entry("doc-a"))
+    connector.close()
+    assert client.is_closed
+    connector.close()  # idempotent
+
+
+def test_close_without_a_client_opens_none(tmp_path):
+    connector = HttpConnector(Settings(_env_file=None), raw_dir=tmp_path)
+    connector.close()
+    assert connector._client is None

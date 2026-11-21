@@ -6,7 +6,7 @@ from typing import Literal
 from pydantic import AliasChoices, Field, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-ROOT_DIR = Path(__file__).resolve().parents[3]
+ROOT_DIR = Path(__file__).resolve().parents[4]
 DATA_DIR = ROOT_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"  # fetched HTML/PDF snapshot (committed)
 MARKDOWN_DIR = DATA_DIR / "markdown"  # converted documents: .md + .docling.json (committed)

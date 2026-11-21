@@ -7,8 +7,8 @@ from typing import Annotated
 import typer
 
 from endorag_ingestion import factory
+from endorag_ingestion.core.settings import Profile, Settings
 from endorag_ingestion.manifest import load_entries
-from endorag_ingestion.settings import Profile, Settings
 
 app = typer.Typer(add_completion=False, no_args_is_help=True)
 
@@ -18,7 +18,7 @@ EmbedderOpt = Annotated[str | None, typer.Option(help="Override the embedder fro
 
 @app.callback()
 def main(verbose: Annotated[bool, typer.Option("--verbose", "-v")] = False) -> None:
-    """Ingestion pipeline: manifest -> fetch -> convert -> chunk -> embed -> Qdrant."""
+    """Ingestion pipeline: manifest -> download -> convert -> chunk -> embed -> Qdrant."""
     logging.basicConfig(
         stream=sys.stderr,
         level=logging.DEBUG if verbose else logging.INFO,
@@ -53,9 +53,9 @@ def run(
     pipeline = factory.build_pipeline(settings, refresh=refresh)
     try:
         summary = pipeline.run(entries)
-        total = pipeline.store.count()
+        total = pipeline.storage.count()
     finally:
-        pipeline.store.close()
+        pipeline.close()
 
     typer.echo(f"{'doc_id':<32} {'status':<8} {'chunks':>6}  error")
     for r in summary.results:
@@ -79,9 +79,9 @@ def query(
     """Hybrid search (dense + BM25) and print the top chunks with their sources."""
     pipeline = factory.build_pipeline(_settings(profile, embedder))
     try:
-        hits = pipeline.store.search(text, limit=k)
+        hits = pipeline.storage.search(text, k=k)
     finally:
-        pipeline.store.close()
+        pipeline.close()
     for rank, hit in enumerate(hits, 1):
         c = hit.chunk
         typer.echo(f"{rank}. [{hit.score:.4f}] {c.doc_id}  ({c.source}, {c.published})")
@@ -96,10 +96,10 @@ def stats(profile: ProfileOpt = "patient", embedder: EmbedderOpt = None) -> None
     settings = _settings(profile, embedder)
     pipeline = factory.build_pipeline(settings)
     try:
-        total = pipeline.store.count()
-        counts = pipeline.store.chunk_counts()
+        total = pipeline.storage.count()
+        counts = pipeline.storage.chunk_counts()
     finally:
-        pipeline.store.close()
+        pipeline.close()
     typer.echo(f"collection: {settings.collection_name()}")
     typer.echo(f"points: {total}, documents: {len(counts)}")
     for doc_id, n in counts.items():

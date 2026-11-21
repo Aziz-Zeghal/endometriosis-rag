@@ -1,4 +1,4 @@
-"""Clean-up shared by the converters and the chunker.
+"""Clean-up shared by the converters (`BaseConverter._enrich`) and the chunker.
 
 Structure is cleaned on the DoclingDocument (items removed by label or heading); what remains of the
 old Markdown clean-up runs on text: the Markdown snapshot and every chunk's text.
@@ -9,8 +9,6 @@ import re
 
 from docling_core.types.doc import DocItemLabel, DoclingDocument, NodeItem
 
-from endorag_ingestion.core import ConvertedDocument, RawDocument
-
 # "12", "- 12 -", "12/30", "Page 12", "Page 12 sur 30", "p. 12"
 _PAGE_NUMBER = re.compile(
     r"^\s*(?:-\s*)?(?:page|p\.)?\s*\d{1,3}\s*(?:(?:/|sur|of)\s*\d{1,3})?(?:\s*-)?\s*$", re.I
@@ -19,11 +17,19 @@ _PAGE_NUMBER = re.compile(
 _BULLET_GLYPHS = re.compile(r"^(\s*[-*] )(?:[●■▪►•◦]\s*)+", re.M)
 _MD_LINK = re.compile(r"!?\[([^\]]*)\]\([^)]*\)")
 _TOC_LINE = re.compile(r"\.{10,}\s*\d{0,3}\s*$")  # "8.3 Préservation ........ 33"
-# A heading that opens the back matter, matched on the whole heading text.
+# A heading that opens the back matter, matched on the whole heading text. Brochures end
+# with a contact block (addresses, phone numbers, staff names).
 _BACK_MATTER = re.compile(
     r"(?:► )?(?:références(?: bibliographiques)?|references|bibliographie|sources"
-    r"|participants|remerciements|acknowledgements|supplementary data)\s*:?",
+    r"|participants|remerciements|acknowledgements|supplementary data"
+    r"|contacts?|nous contacter|pour prendre contact avec nous|informations pratiques"
+    r"|scannez pour .*)\s*:?",
     re.I,
+)
+# A heading that opens the related-links block ending a web page (other articles,
+# downloads). HTML only: in PDFs such headings ("En savoir plus") start real sections.
+_WEB_TRAILER = re.compile(
+    r"(?:les autres symptômes|en savoir plus|voir aussi|documents)\s*:?", re.I
 )
 _ANNEX = re.compile(r"annexe \d+\b", re.I)
 _BLANK = "[<>]"  # fill-in field of a report template (HAS imaging guideline annexes)
@@ -34,20 +40,34 @@ def clean_document(doc: DoclingDocument) -> DoclingDocument:
     (`DOCUMENT_INDEX` items), the back matter and annexes that are blank forms.
 
     As chunks, these match queries on keywords and carry no content. The back matter
-    (references, participants, acknowledgements) starts at its first heading and runs to the
-    end of the document. Page headers and footers need no removal: docling puts them in the
-    furniture layer, which the Markdown export and the chunker leave out.
+    (references, participants, acknowledgements, contact blocks) starts at its first
+    heading and runs to the end of the document. Page headers and footers need no removal:
+    docling puts them in the furniture layer, which the Markdown export and the chunker
+    leave out.
     """
     items = [item for item, _ in doc.iterate_items()]
-    end = next(
-        (i for i, item in enumerate(items) if _is_heading(item, _BACK_MATTER.fullmatch)),
-        len(items),
-    )
+    end = _first_heading(items, _BACK_MATTER)
     toc = [item for item in items[:end] if item.label == DocItemLabel.DOCUMENT_INDEX]
     removed = toc + _blank_forms(items[:end]) + items[end:]
     if removed:
         doc.delete_items(node_items=removed)
     return doc
+
+
+def remove_web_trailer(doc: DoclingDocument) -> DoclingDocument:
+    """Remove the related-links block that ends a web page, in place: from the first heading
+    such as "Voir aussi" or "Les autres symptômes" to the end of the document."""
+    items = [item for item, _ in doc.iterate_items()]
+    removed = items[_first_heading(items, _WEB_TRAILER) :]
+    if removed:
+        doc.delete_items(node_items=removed)
+    return doc
+
+
+def _first_heading(items: list[NodeItem], pattern: re.Pattern) -> int:
+    """Index of the first heading matching `pattern` as a whole, or len(items)."""
+    matches = (i for i, item in enumerate(items) if _is_heading(item, pattern.fullmatch))
+    return next(matches, len(items))
 
 
 def _is_heading(item: NodeItem, match) -> bool:
@@ -84,14 +104,3 @@ def _compact_table_row(line: str) -> str:
     if not line.lstrip().startswith("|"):
         return line
     return re.sub(r"-{4,}", "---", re.sub(r" {2,}", " ", line))
-
-
-def to_converted(raw: RawDocument, doc: DoclingDocument) -> ConvertedDocument:
-    """Clean a converter's DoclingDocument and add its Markdown snapshot."""
-    doc = clean_document(doc)
-    markdown = clean_text(doc.export_to_markdown(image_placeholder=""))
-    if not markdown:
-        raise ValueError(f"{raw.entry.id}: no content extracted")
-    return ConvertedDocument(
-        entry=raw.entry, document=doc, markdown=markdown + "\n", retrieved=raw.retrieved
-    )

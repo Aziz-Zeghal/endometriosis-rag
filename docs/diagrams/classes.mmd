@@ -1,15 +1,7 @@
 classDiagram
-  class HybridChunkerAdapter {
-    max_tokens : int
-    min_chars : int
-    tokenizer : str
-    chunk(doc: ConvertedDocument) list[Chunk]
+  class HybridTextChunker {
   }
-  style HybridChunkerAdapter fill:#99DDFF
-  class _MarkdownTables {
-    get_serializer(doc)
-  }
-  style _MarkdownTables fill:#99DDFF
+  style HybridTextChunker fill:#99DDFF
   class FetchError {
   }
   style FetchError fill:#44BB99
@@ -17,58 +9,74 @@ classDiagram
     client : httpx.Client
     clock
     default_delay_s : float
-    raw_dir
-    refresh : bool
     retries : int
     sleep
     user_agent : str
-    fetch(entry: ManifestEntry) RawDocument
+    close() None
   }
   style HttpConnector fill:#44BB99
   class HtmlConverter {
-    convert(raw: RawDocument) ConvertedDocument
   }
   style HtmlConverter fill:#BBCC33
   class JatsConverter {
-    convert(raw: RawDocument) ConvertedDocument
   }
   style JatsConverter fill:#BBCC33
   class PdfConverter {
-    convert(raw: RawDocument) ConvertedDocument
   }
   style PdfConverter fill:#BBCC33
   class RoutingConverter {
     converters : dict
     markdown_dir : Path
+    close() None
     convert(raw: RawDocument) ConvertedDocument
   }
   style RoutingConverter fill:#BBCC33
-  class Chunker {
-    chunk(doc: ConvertedDocument)* list[Chunk]
+  class BaseChunker {
+    chunk(document: ConvertedDocument)* list[Chunk]
   }
-  style Chunker fill:#AAAA00
-  class Connector {
-    fetch(entry: ManifestEntry)* RawDocument
+  style BaseChunker fill:#AAAA00
+  class BaseHybridChunker {
+    chunker : 'HybridChunker'
+    max_tokens : int
+    min_chars : int
+    tokenizer : str
+    chunk(document: ConvertedDocument) list[Chunk]
   }
-  style Connector fill:#AAAA00
-  class Converter {
-    convert(raw: RawDocument)* ConvertedDocument
+  style BaseHybridChunker fill:#AAAA00
+  class _MarkdownTables {
+    get_serializer(doc)
   }
-  style Converter fill:#AAAA00
-  class Embedder {
-    dimension : int
-    name : str
-    embed_documents(texts: list[str])* list[list[float]]
-    embed_query(text: str)* list[float]
+  style _MarkdownTables fill:#AAAA00
+  class BaseConnector {
+    raw_dir : Path
+    refresh : bool
+    close()* None
+    download(entry: ManifestEntry) RawDocument
   }
-  style Embedder fill:#AAAA00
-  class VectorStore {
-    embedder
-    add(chunks: list[Chunk])* int
-    delete_by_doc_id(doc_id: str)* None
-    search(query: str, limit: int)* list[ScoredChunk]
+  style BaseConnector fill:#AAAA00
+  class BaseConverter {
+    close()* None
+    convert(raw: RawDocument) ConvertedDocument
   }
-  style VectorStore fill:#AAAA00
+  style BaseConverter fill:#AAAA00
+  class BasePipeline {
+    chunker
+    connector
+    converter
+    storage
+    close() None
+    run(entries: list[ManifestEntry]) RunSummary
+  }
+  style BasePipeline fill:#AAAA00
+  class BaseVectorStore {
+    embedding
+    add_documents(chunks: list[Chunk])* list[str]
+    close()* None
+    delete_by_metadata(field: str, value: str)* int
+    search(query: str, k: int)* list[ScoredChunk]
+    upsert_documents(chunks: list[Chunk], key_field: str) list[str]
+  }
+  style BaseVectorStore fill:#AAAA00
   class Chunk {
     audience : Literal
     chunk_index : int
@@ -144,6 +152,20 @@ classDiagram
     score : float
   }
   style ScoredChunk fill:#AAAA00
+  class Settings {
+    chunk_max_tokens : int
+    chunk_min_chars : int
+    chunk_tokenizer : str
+    embedder : str
+    llm_api_key : SecretStr | None
+    llm_base_url : str | None
+    model_config
+    profile : Literal
+    qdrant_path : Path
+    user_agent : str
+    collection_name() str
+  }
+  style Settings fill:#AAAA00
   class EmbeddingCache {
     get_many(texts: list[str]) dict[str, list[float]]
     key(text: str) str
@@ -168,62 +190,32 @@ classDiagram
     from_preset(model_id: str) 'SentenceTransformerEmbedder'
   }
   style SentenceTransformerEmbedder fill:#EEDD88
-  class Pipeline {
-    chunker
-    connector
-    converter
-    store
-    chunk(doc: ConvertedDocument) list[Chunk]
-    convert(raw: RawDocument) ConvertedDocument
-    fetch(entry: ManifestEntry) RawDocument
-    index(doc_id: str, chunks: list[Chunk]) int
-    process(entry: ManifestEntry) int
-    run(entries: list[ManifestEntry]) RunSummary
-  }
-  style Pipeline fill:#77AADD
-  class Settings {
-    chunk_max_tokens : int
-    chunk_min_chars : int
-    chunk_tokenizer : str
-    embedder : str
-    llm_api_key : SecretStr | None
-    llm_base_url : str | None
-    model_config
-    profile : Literal
-    qdrant_path : Path
-    user_agent : str
-    collection_name() str
-  }
-  style Settings fill:#77AADD
   class QdrantStore {
     batch_size : int
     bm25 : SparseTextEmbedding
     client
     collection : str
-    embedder
-    add(chunks: list[Chunk]) int
+    embedding
+    add_documents(chunks: list[Chunk]) list[str]
     chunk_counts() dict[str, int]
     close() None
     count() int
-    delete_by_doc_id(doc_id: str) None
-    search(query: str, limit: int) list[ScoredChunk]
+    delete_by_metadata(field: str, value: str) int
+    search(query: str, k: int) list[ScoredChunk]
   }
   style QdrantStore fill:#EE8866
-  HybridChunkerAdapter --|> Chunker
-  HttpConnector --|> Connector
-  HtmlConverter --|> Converter
-  JatsConverter --|> Converter
-  PdfConverter --|> Converter
-  RoutingConverter --|> Converter
-  OpenAICompatibleEmbedder --|> Embedder
-  SentenceTransformerEmbedder --|> Embedder
-  QdrantStore --|> VectorStore
-  VectorStore --> Embedder : embedder
+  HybridTextChunker --|> BaseHybridChunker
+  HttpConnector --|> BaseConnector
+  HtmlConverter --|> BaseConverter
+  JatsConverter --|> BaseConverter
+  PdfConverter --|> BaseConverter
+  RoutingConverter --|> BaseConverter
+  BaseHybridChunker --|> BaseChunker
+  QdrantStore --|> BaseVectorStore
   ScoredChunk --> Chunk : chunk
   ConvertedDocument --> ManifestEntry : entry
   RawDocument --> ManifestEntry : entry
-  Chunker --o Pipeline : chunker
-  Connector --o Pipeline : connector
-  Converter --o Pipeline : converter
-  Embedder --o QdrantStore : embedder
-  VectorStore --o Pipeline : store
+  BaseChunker --o BasePipeline : chunker
+  BaseConnector --o BasePipeline : connector
+  BaseConverter --o BasePipeline : converter
+  BaseVectorStore --o BasePipeline : storage

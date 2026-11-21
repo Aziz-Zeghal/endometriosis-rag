@@ -7,30 +7,31 @@ from pathlib import Path
 
 from docling_core.types.doc import DoclingDocument
 
-from endorag_ingestion.converters.html import HtmlConverter
-from endorag_ingestion.converters.jats import JatsConverter
-from endorag_ingestion.converters.pdf import PdfConverter
-from endorag_ingestion.core import ConvertedDocument, Converter, RawDocument
-from endorag_ingestion.settings import MARKDOWN_DIR
+from endorag_ingestion.converter.html import HtmlConverter
+from endorag_ingestion.converter.jats import JatsConverter
+from endorag_ingestion.converter.pdf import PdfConverter
+from endorag_ingestion.core import BaseConverter, ConvertedDocument, RawDocument
+from endorag_ingestion.core.settings import MARKDOWN_DIR
 
 logger = logging.getLogger(__name__)
 
 # Bump when a converter or the cleaning changes its output, so the cache is redone.
-CONVERTER_VERSION = 9
+CONVERTER_VERSION = 10
 
 
-class RoutingConverter(Converter):
+class RoutingConverter(BaseConverter):
     """Picks the converter for `entry.format` and caches its output in `MARKDOWN_DIR`.
 
     The cache holds `<doc_id>.docling.json` (the DoclingDocument, which the chunker reads)
     and `<doc_id>.md` (a readable snapshot). Both are reused when `<doc_id>.meta.json`
     records the sha256 of the same raw file and the current `CONVERTER_VERSION`, so the
     index can be rebuilt from the committed files without running trafilatura or docling.
+    Each leaf converter runs its own full lifecycle (_parse, _repair, _enrich) in convert().
     """
 
     def __init__(
         self,
-        converters: dict[str, Converter] | None = None,
+        converters: dict[str, BaseConverter] | None = None,
         markdown_dir: Path = MARKDOWN_DIR,
     ) -> None:
         self.converters = converters or {
@@ -69,6 +70,15 @@ class RoutingConverter(Converter):
         doc.document.save_as_json(json_path)
         meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
         return doc
+
+    def _parse(self, raw: RawDocument) -> DoclingDocument:
+        # Never called: convert() delegates to a leaf converter's own convert().
+        raise NotImplementedError("RoutingConverter dispatches in convert()")
+
+    def close(self) -> None:
+        """Close each distinct leaf converter once."""
+        for converter in set(self.converters.values()):
+            converter.close()
 
     @staticmethod
     def _cached_meta(meta_path: Path) -> dict | None:

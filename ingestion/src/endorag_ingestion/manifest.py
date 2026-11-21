@@ -6,7 +6,7 @@ import yaml
 from pydantic import ValidationError
 
 from endorag_ingestion.core import ManifestEntry
-from endorag_ingestion.settings import MANIFESTS_DIR
+from endorag_ingestion.core.settings import MANIFESTS_DIR
 
 
 def load_manifest(profile: str, manifests_dir: Path = MANIFESTS_DIR) -> list[ManifestEntry]:

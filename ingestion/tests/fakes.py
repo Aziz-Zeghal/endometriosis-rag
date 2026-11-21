@@ -6,17 +6,17 @@ from pathlib import Path
 from docling_core.transforms.chunker.tokenizer.base import BaseTokenizer
 from docling_core.types.doc import DocItemLabel, DoclingDocument
 from endorag_ingestion.core import (
+    BaseChunker,
+    BaseConnector,
+    BaseConverter,
+    BaseVectorStore,
     Chunk,
-    Chunker,
-    Connector,
     ConvertedDocument,
-    Converter,
-    Embedder,
     ManifestEntry,
     RawDocument,
     ScoredChunk,
-    VectorStore,
 )
+from langchain_core.embeddings import Embeddings
 
 TODAY = date(2026, 11, 21)
 
@@ -36,38 +36,38 @@ def make_entry(doc_id: str = "doc-a", **kw) -> ManifestEntry:
     return ManifestEntry(**data)
 
 
-class FakeConnector(Connector):
-    def __init__(self, failing: set[str] | None = None) -> None:
+class FakeConnector(BaseConnector):
+    """Downloads into `raw_dir` (a test's tmp_path): a few bytes per entry, no network."""
+
+    def __init__(self, raw_dir: Path, failing: set[str] | None = None) -> None:
+        super().__init__(raw_dir=raw_dir)
         self.failing = failing or set()
 
-    def fetch(self, entry: ManifestEntry) -> RawDocument:
+    def _download_to(self, entry: ManifestEntry, path: Path) -> dict:
         if entry.id in self.failing:
             raise ConnectionError(f"cannot fetch {entry.id}")
-        return RawDocument(entry=entry, path=Path(f"/fake/{entry.id}"), retrieved=TODAY)
+        path.write_bytes(entry.id.encode())
+        return {"content_type": "text/plain"}
 
 
-class FakeConverter(Converter):
+class FakeConverter(BaseConverter):
+    """A title and `paragraphs` paragraphs; BaseConverter adds the Markdown snapshot."""
+
     def __init__(self, paragraphs: int = 2) -> None:
         self.paragraphs = paragraphs
 
-    def convert(self, raw: RawDocument) -> ConvertedDocument:
-        paragraphs = [f"Paragraph {i} of {raw.entry.id}." for i in range(self.paragraphs)]
+    def _parse(self, raw: RawDocument) -> DoclingDocument:
         document = DoclingDocument(name=raw.entry.id)
         document.add_title(raw.entry.title)
-        for p in paragraphs:
-            document.add_text(label=DocItemLabel.TEXT, text=p)
-        return ConvertedDocument(
-            entry=raw.entry,
-            document=document,
-            markdown=f"# {raw.entry.title}\n\n" + "\n\n".join(paragraphs),
-            retrieved=raw.retrieved,
-        )
+        for i in range(self.paragraphs):
+            document.add_text(label=DocItemLabel.TEXT, text=f"Paragraph {i} of {raw.entry.id}.")
+        return document
 
 
-class FakeChunker(Chunker):
-    def chunk(self, doc: ConvertedDocument) -> list[Chunk]:
-        e = doc.entry
-        parts = [p for p in doc.markdown.split("\n\n")[1:] if p.strip()]
+class FakeChunker(BaseChunker):
+    def chunk(self, document: ConvertedDocument) -> list[Chunk]:
+        e = document.entry
+        parts = [p for p in document.markdown.split("\n\n")[1:] if p.strip()]
         return [
             Chunk(
                 doc_id=e.id,
@@ -78,7 +78,7 @@ class FakeChunker(Chunker):
                 title=e.title,
                 url=str(e.url),
                 published=e.citation_date,
-                retrieved=doc.retrieved,
+                retrieved=document.retrieved,
                 audience=e.audience,
                 licence=e.licence,
                 format=e.format,
@@ -102,7 +102,7 @@ class WordTokenizer(BaseTokenizer):
         return self.count_tokens  # semchunk accepts a token-counting function
 
 
-class FakeEmbedder(Embedder):
+class FakeEmbedder(Embeddings):
     name = "fake"
 
     @property
@@ -116,20 +116,23 @@ class FakeEmbedder(Embedder):
         return [float(len(text)), float(text.count(" ")), 1.0]
 
 
-class InMemoryStore(VectorStore):
-    def __init__(self, embedder: Embedder | None = None) -> None:
-        self.embedder = embedder or FakeEmbedder()
+class InMemoryStore(BaseVectorStore):
+    def __init__(self, embedding: Embeddings | None = None) -> None:
+        self.embedding = embedding or FakeEmbedder()
         self.points: dict[str, tuple[Chunk, list[float]]] = {}
 
-    def add(self, chunks: list[Chunk]) -> int:
-        vectors = self.embedder.embed_documents([c.embedding_text for c in chunks])
+    def add_documents(self, chunks: list[Chunk]) -> list[str]:
+        vectors = self.embedding.embed_documents([c.embedding_text for c in chunks])
         for c, v in zip(chunks, vectors, strict=True):
             self.points[c.point_id] = (c, v)
-        return len(chunks)
+        return [c.point_id for c in chunks]
 
-    def delete_by_doc_id(self, doc_id: str) -> None:
-        self.points = {k: p for k, p in self.points.items() if p[0].doc_id != doc_id}
+    def delete_by_metadata(self, field: str, value: str) -> int:
+        kept = {k: p for k, p in self.points.items() if getattr(p[0], field) != value}
+        deleted = len(self.points) - len(kept)
+        self.points = kept
+        return deleted
 
-    def search(self, query: str, limit: int) -> list[ScoredChunk]:
+    def search(self, query: str, k: int) -> list[ScoredChunk]:
         hits = [ScoredChunk(chunk=c, score=1.0) for c, _ in self.points.values()]
-        return hits[:limit]
+        return hits[:k]

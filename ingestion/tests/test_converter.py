@@ -4,17 +4,17 @@ from pathlib import Path
 
 import pytest
 from docling_core.types.doc import DocItemLabel, DoclingDocument, TableCell, TableData
-from endorag_ingestion.connectors import HttpConnector
-from endorag_ingestion.converters import HtmlConverter, PdfConverter, RoutingConverter, routing
-from endorag_ingestion.converters import html as html_converter
-from endorag_ingestion.converters.cleaning import clean_document, clean_text
-from endorag_ingestion.converters.routing import CONVERTER_VERSION
+from endorag_ingestion.connector import HttpConnector
+from endorag_ingestion.converter import HtmlConverter, PdfConverter, RoutingConverter, routing
+from endorag_ingestion.converter import html as html_converter
+from endorag_ingestion.converter.routing import CONVERTER_VERSION
 from endorag_ingestion.core import RawDocument
+from endorag_ingestion.core.cleaning import clean_document, clean_text
+from endorag_ingestion.core.settings import RAW_DIR
 from endorag_ingestion.manifest import load_entries
-from endorag_ingestion.settings import RAW_DIR
 from fakes import TODAY, FakeConverter, make_entry
 
-FIXTURES = Path(__file__).parent / "fixtures" / "converters"
+FIXTURES = Path(__file__).parent / "fixtures" / "converter"
 
 
 class MustNotConvert(FakeConverter):
@@ -34,6 +34,40 @@ class CountingConverter(FakeConverter):
     def convert(self, raw):
         self.calls += 1
         return super().convert(raw)
+
+
+def test_convert_repairs_once_then_enriches(tmp_path):
+    class Repairing(FakeConverter):
+        def __init__(self):
+            super().__init__()
+            self.parsed = []
+
+        def _parse(self, raw):
+            self.parsed.append(raw.path.name)
+            if raw.path.name == "broken.html":
+                raise KeyError("broken relationship")
+            document = super()._parse(raw)
+            document.add_heading("Références")  # back matter, removed by _enrich
+            document.add_text(DocItemLabel.TEXT, "Chapron C. 2019.")
+            return document
+
+        def _repair(self, raw, error):
+            return raw.model_copy(update={"path": tmp_path / "fixed.html"})
+
+    converter = Repairing()
+    doc = converter.convert(raw_doc(tmp_path / "broken.html"))
+    assert converter.parsed == ["broken.html", "fixed.html"]
+    assert doc.markdown.startswith("# Title doc-a")
+    assert "Chapron" not in doc.markdown
+
+
+def test_convert_reraises_without_repair():
+    class Failing(FakeConverter):
+        def _parse(self, raw):
+            raise KeyError("broken")
+
+    with pytest.raises(KeyError):
+        Failing().convert(raw_doc(Path("/nowhere.html")))
 
 
 def test_html_keeps_headings_and_drops_boilerplate():
@@ -114,17 +148,20 @@ def test_html_keeps_every_block_of_pages_split_into_content_divs():
 
 WIDGETS_HTML = """<html><body><main><article>
 <div class="fr-share"><p class="fr-share__title">Partager la page</p></div>
+<p class="content-type article">Article</p>
+<button class="btn-summary btn-link">Sommaire</button>
 <h1>Reconnaissance de la qualité de travailleur handicapé</h1>
 <h2>À quoi sert la RQTH ?</h2>
 <p>La RQTH permet de bénéficier d'aménagements du poste de travail et d'un accompagnement
 par des organismes spécialisés dans la recherche d'emploi.</p>
 <h2>Comment l'obtenir ?</h2>
 <p>La demande se fait auprès de la maison départementale des personnes handicapées, avec un
-certificat médical de moins d'un an.</p>
+<span>certificat médical<span role="tooltip">: titleContent</span></span> de moins d'un an.</p>
 <div class="sp-notation sp-no-print"><h2>Cette page vous a-t-elle été utile ?</h2>
 <ul><li>1</li><li>2</li><li>3</li></ul><p>Pas du tout</p><p>Parfait !</p></div>
 <div class="accordion" id="source-info"><button>A propos de Service Public d'Information</button>
 <p>Le Service Public d'Information en Santé associe les institutions publiques.</p></div>
+<h3>Voir aussi</h3><ul><li>Allocation aux adultes handicapés : conditions et montant</li></ul>
 </article></main></body></html>"""
 
 
@@ -134,8 +171,40 @@ def test_html_drops_share_and_rating_widgets(tmp_path):
     md = HtmlConverter().convert(raw_doc(page)).markdown
 
     assert "## Comment l'obtenir ?" in md.splitlines()
-    for widget in ("Partager", "utile", "Pas du tout", "Parfait", "Service Public"):
+    assert "certificat médical de moins d'un an" in md
+    widgets = ("Partager", "utile", "Pas du tout", "Parfait", "Service Public", "Article")
+    for widget in (*widgets, "Sommaire", "titleContent", "Voir aussi", "Allocation"):
         assert widget not in md
+
+
+def test_html_without_main_uses_the_block_around_the_title(tmp_path, monkeypatch):
+    monkeypatch.setattr(html_converter.trafilatura, "extract", lambda tree, **kw: "Menu")
+    page = tmp_path / "page.html"
+    page.write_text(
+        "<html><body><div class='menu'><h3>Actualités</h3><p>Journée mondiale</p></div>"
+        "<section><div><h1>Endométriose</h1><h3>Qu'est-ce que c'est ?</h3>"
+        "<p>Une maladie gynécologique fréquente.</p>"
+        "<h3>Quelles sont les causes ?</h3><p>Plusieurs théories existent.</p>"
+        "<h2>Contact</h2><p>Tél. 01 23 45 67 89</p></div></section></body></html>",
+        encoding="utf-8",
+    )
+    md = HtmlConverter().convert(raw_doc(page)).markdown
+    assert "### Quelles sont les causes ?" in md.splitlines()
+    for chrome in ("Actualités", "Journée", "Contact", "Tél."):
+        assert chrome not in md
+
+
+def test_html_indented_text_is_not_a_code_block(tmp_path, monkeypatch):
+    md = (
+        "# Titre\n\n## Soins\n\nSont proposés :\n\n            l'acupuncture\n\n"
+        "- \n      le yoga\n- \n      la relaxation\n"
+    )
+    monkeypatch.setattr(html_converter.trafilatura, "extract", lambda tree, **kw: md)
+    page = tmp_path / "page.html"
+    page.write_text("<main><h1>Titre</h1><h2>Soins</h2><p>l'acupuncture</p></main>")
+    out = HtmlConverter().convert(raw_doc(page)).markdown
+    assert "```" not in out and "l'acupuncture" in out.splitlines()
+    assert "- le yoga" in out.splitlines() and "- la relaxation" in out.splitlines()
 
 
 def test_clean_text_reduces_links_to_text_and_decodes_entities():
@@ -203,6 +272,18 @@ def test_clean_document_drops_back_matter_to_the_end():
     assert "PARTICIPANTS/MATERIALS" in md and "hormonaux" in md
     for back in ("Participants", "Dr A", "Abréviations", "Chapron"):
         assert back not in md
+
+
+def test_clean_document_drops_a_final_contact_block():
+    doc = DoclingDocument(name="doc")
+    doc.add_heading("Le partenariat avec l'équipe soignante")
+    doc.add_text(DocItemLabel.TEXT, "Notez vos douleurs avant la consultation.")
+    doc.add_heading("CONTACTS")
+    doc.add_text(DocItemLabel.TEXT, "Secrétariat : 01 23 45 67 89")
+
+    md = clean_document(doc).export_to_markdown()
+    assert "Notez vos douleurs" in md
+    assert "CONTACTS" not in md and "Secrétariat" not in md
 
 
 def test_clean_document_drops_annexes_that_are_blank_forms():
@@ -300,7 +381,7 @@ def test_committed_snapshot_is_a_cache_hit_for_every_entry(profile):
     # A cache miss raises instead of converting (and overwriting the snapshot).
     router = RoutingConverter({fmt: MustNotConvert() for fmt in ("html", "pdf", "xml")})
     for entry in load_entries(profile):
-        raw = HttpConnector(raw_dir=RAW_DIR).fetch(entry)  # cached raw file, no network
+        raw = HttpConnector(raw_dir=RAW_DIR).download(entry)  # cached raw file, no network
         assert router.convert(raw).document.texts, entry.id
 
 

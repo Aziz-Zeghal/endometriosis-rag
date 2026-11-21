@@ -1,6 +1,6 @@
 import pytest
 from endorag_ingestion import cli, factory
-from endorag_ingestion.pipeline import Pipeline
+from endorag_ingestion.core import BasePipeline
 from fakes import FakeChunker, FakeConnector, FakeConverter, InMemoryStore
 from typer.testing import CliRunner
 
@@ -26,14 +26,14 @@ class StatsStore(InMemoryStore):
 
 
 @pytest.fixture
-def built(monkeypatch):
+def built(monkeypatch, tmp_path):
     """Replaces build_pipeline with fakes; records the settings it was called with."""
     state = {"store": StatsStore(), "failing": set(), "calls": []}
 
     def fake_build(settings, refresh=False):
         state["calls"].append((settings, refresh))
-        return Pipeline(
-            FakeConnector(state["failing"]),
+        return BasePipeline(
+            FakeConnector(tmp_path, state["failing"]),
             FakeConverter(),
             FakeChunker(),
             state["store"],

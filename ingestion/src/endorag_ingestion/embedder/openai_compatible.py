@@ -10,10 +10,10 @@ from array import array
 from pathlib import Path
 
 import openai
+from langchain_core.embeddings import Embeddings
 from langchain_openai import OpenAIEmbeddings
 
-from endorag_ingestion.core import Embedder
-from endorag_ingestion.settings import CACHE_DIR
+from endorag_ingestion.core.settings import CACHE_DIR
 
 log = logging.getLogger(__name__)
 
@@ -72,8 +72,12 @@ def default_cache_path(model: str) -> Path:
     return CACHE_DIR / "embeddings" / f"{safe}.sqlite"
 
 
-class OpenAICompatibleEmbedder(Embedder):
-    """`OpenAIEmbeddings` against the LLM endpoint, protected against disconnections."""
+class OpenAICompatibleEmbedder(Embeddings):
+    """`OpenAIEmbeddings` against the LLM endpoint, protected against disconnections.
+
+    A LangChain `Embeddings`, plus `name` and `dimension` (the vector store sizes its
+    collection with it).
+    """
 
     def __init__(
         self,

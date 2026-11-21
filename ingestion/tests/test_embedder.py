@@ -4,13 +4,13 @@ import threading
 import httpx
 import openai
 import pytest
-from endorag_ingestion.embedders import (
+from endorag_ingestion.core.settings import Settings
+from endorag_ingestion.embedder import (
     OpenAICompatibleEmbedder,
     SentenceTransformerEmbedder,
     make_embedder,
     openai_compatible,
 )
-from endorag_ingestion.settings import Settings
 
 
 def transient_error() -> Exception:

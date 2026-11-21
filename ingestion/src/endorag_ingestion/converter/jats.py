@@ -1,10 +1,11 @@
 """JATS XML (open-access journal full text) to a DoclingDocument with docling. No models."""
 
-from endorag_ingestion.converters.cleaning import to_converted
-from endorag_ingestion.core import ConvertedDocument, Converter, RawDocument
+from docling_core.types.doc import DoclingDocument
+
+from endorag_ingestion.core import BaseConverter, RawDocument
 
 
-class JatsConverter(Converter):
+class JatsConverter(BaseConverter):
     def __init__(self) -> None:
         self._docling = None
 
@@ -16,5 +17,5 @@ class JatsConverter(Converter):
             self._docling = DocumentConverter(allowed_formats=[InputFormat.XML_JATS])
         return self._docling
 
-    def convert(self, raw: RawDocument) -> ConvertedDocument:
-        return to_converted(raw, self._converter().convert(raw.path).document)
+    def _parse(self, raw: RawDocument) -> DoclingDocument:
+        return self._converter().convert(raw.path).document

@@ -7,10 +7,10 @@ are skipped if they are neither cached nor downloadable.
 from datetime import date
 
 import pytest
-from endorag_ingestion.core import Chunk, Embedder
-from endorag_ingestion.pipeline import Pipeline
-from endorag_ingestion.stores import QdrantStore
-from endorag_ingestion.stores import qdrant as qdrant_module
+from endorag_ingestion.core import Chunk
+from endorag_ingestion.vector_storage import QdrantStore
+from endorag_ingestion.vector_storage import qdrant as qdrant_module
+from langchain_core.embeddings import Embeddings
 from qdrant_client import QdrantClient
 
 TEXTS = {
@@ -46,7 +46,7 @@ def one_hot(i: int) -> list[float]:
     return [1.0 if j == i % 3 else 0.0 for j in range(3)]
 
 
-class LookupEmbedder(Embedder):
+class LookupEmbedder(Embeddings):
     """Dense vectors looked up by text (FLAT by default), so tests control the dense side."""
 
     name = "lookup"
@@ -72,10 +72,10 @@ ONE_HOT = LookupEmbedder(
 )
 
 
-def make_store(embedder: Embedder | None = None, **kw) -> QdrantStore:
+def make_store(embedding: Embeddings | None = None, **kw) -> QdrantStore:
     if "path" not in kw:
         kw["client"] = QdrantClient(":memory:")
-    return QdrantStore("test", embedder or LookupEmbedder(), **kw)
+    return QdrantStore("test", embedding or LookupEmbedder(), **kw)
 
 
 @pytest.fixture
@@ -90,64 +90,64 @@ def store():
 
 
 def test_add_then_search_returns_the_matching_chunk(store):
-    store.embedder = ONE_HOT
-    store.add(CHUNKS)
-    hits = store.search("IRM pelvienne lésions profondes", limit=2)
+    store.embedding = ONE_HOT
+    store.add_documents(CHUNKS)
+    hits = store.search("IRM pelvienne lésions profondes", k=2)
     assert hits[0].chunk == CHUNKS[3]
 
 
 def test_exact_term_wins_through_bm25_with_flat_dense_vectors(store):
-    store.add(CHUNKS)
-    hits = store.search("diénogest", limit=5)
+    store.add_documents(CHUNKS)
+    hits = store.search("diénogest", k=5)
     assert hits[0].chunk.doc_id == "ameli-traitement"
     assert hits[0].chunk.chunk_index == 0
 
 
 def test_exact_term_matches_when_typed_without_accents(store):
-    store.add(CHUNKS)
-    hits = store.search("dienogest", limit=5)
+    store.add_documents(CHUNKS)
+    hits = store.search("dienogest", k=5)
     assert hits[0].chunk == CHUNKS[0]
     assert hits[0].chunk.text.startswith("Le diénogest")  # payload keeps its accents
 
 
 def test_bm25_stems_french_words(store):
-    store.add(CHUNKS)
-    hits = store.search("traitements hormonaux", limit=5)
+    store.add_documents(CHUNKS)
+    hits = store.search("traitements hormonaux", k=5)
     assert hits[0].chunk == CHUNKS[1]
 
 
-def test_delete_by_doc_id_removes_only_that_document(store):
-    store.add(CHUNKS)
-    store.delete_by_doc_id("ameli-traitement")
+def test_delete_by_metadata_removes_only_that_document(store):
+    store.add_documents(CHUNKS)
+    assert store.delete_by_metadata("doc_id", "ameli-traitement") == 2
+    assert store.delete_by_metadata("doc_id", "ameli-traitement") == 0
     assert store.count() == 2
     assert store.chunk_counts() == {"has-diagnostic": 2}
 
 
 def test_readding_is_idempotent(store):
-    assert store.add(CHUNKS) == 4
-    store.add(CHUNKS)
+    assert store.add_documents(CHUNKS) == [c.point_id for c in CHUNKS]
+    store.add_documents(CHUNKS)
     assert store.count() == 4
     assert store.chunk_counts() == {"ameli-traitement": 2, "has-diagnostic": 2}
 
 
-def test_reingesting_with_fewer_chunks_leaves_no_stale_points(store):
-    pipeline = Pipeline(None, None, None, store)
-    pipeline.index("ameli-traitement", CHUNKS)
-    pipeline.index("ameli-traitement", CHUNKS[:1])
+def test_upserting_fewer_chunks_leaves_no_stale_points(store):
+    store.upsert_documents(CHUNKS)
+    store.upsert_documents(CHUNKS[:1])
     assert store.count() == 3
-    assert [h.chunk for h in store.search("chirurgie", limit=10)].count(CHUNKS[1]) == 0
+    assert [h.chunk for h in store.search("chirurgie", k=10)].count(CHUNKS[1]) == 0
 
 
 def test_payload_round_trips_to_chunk(store):
-    store.embedder = ONE_HOT
-    store.add(CHUNKS)
-    found = [h.chunk for h in store.search("endométriose", limit=10)]
+    store.embedding = ONE_HOT
+    store.add_documents(CHUNKS)
+    found = [h.chunk for h in store.search("endométriose", k=10)]
     assert sorted(found, key=lambda c: c.point_id) == sorted(CHUNKS, key=lambda c: c.point_id)
 
 
 def test_add_in_several_batches(store):
     store.batch_size = 3
-    store.add(CHUNKS)
+    store.add_documents(CHUNKS)
     assert store.count() == 4
 
 
@@ -156,9 +156,9 @@ def test_mismatched_vectors_are_rejected(store):
         def embed_documents(self, texts):
             return [FLAT]
 
-    store.embedder = Broken()
+    store.embedding = Broken()
     with pytest.raises(ValueError):
-        store.add(CHUNKS)
+        store.add_documents(CHUNKS)
 
 
 def test_search_embeds_the_query_with_the_store_embedder(store):
@@ -169,10 +169,10 @@ def test_search_embeds_the_query_with_the_store_embedder(store):
             seen.append(text)
             return FLAT
 
-    store.embedder = Spy()
-    store.add(CHUNKS)
-    seen.clear()  # add() embedded the documents through the same embedder
-    store.search("chirurgie", limit=1)
+    store.embedding = Spy()
+    store.add_documents(CHUNKS)
+    seen.clear()  # add_documents() embedded the documents through the same embedder
+    store.search("chirurgie", k=1)
     assert seen == ["chirurgie"]
 
 
@@ -196,7 +196,7 @@ def test_bm25_load_error_keeps_the_original_cause(monkeypatch):
 def test_local_path_mode_persists(tmp_path):
     s = make_store(path=tmp_path)
     try:
-        s.add(CHUNKS[:1])
+        s.add_documents(CHUNKS[:1])
     except RuntimeError as exc:
         pytest.skip(str(exc))
     finally:
@@ -204,3 +204,16 @@ def test_local_path_mode_persists(tmp_path):
     s = make_store(path=tmp_path)
     assert s.count() == 1
     s.close()
+
+
+def test_dimension_is_probed_for_an_embedding_without_one():
+    class Plain(Embeddings):
+        def embed_documents(self, texts):
+            return [FLAT for _ in texts]
+
+        def embed_query(self, text):
+            return FLAT
+
+    store = QdrantStore("test", Plain(), client=QdrantClient(":memory:"))
+    params = store.client.get_collection("test").config.params
+    assert params.vectors[qdrant_module.DENSE].size == 3

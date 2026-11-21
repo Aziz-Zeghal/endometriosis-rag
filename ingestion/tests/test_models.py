@@ -22,17 +22,17 @@ def test_entry_rejects_bad_id_and_format():
         make_entry(format="docx")
 
 
-def test_point_id_is_stable_and_unique():
+def test_point_id_is_stable_and_unique(tmp_path):
     entry = make_entry()
-    doc = FakeConverter(paragraphs=3).convert(FakeConnector().fetch(entry))
+    doc = FakeConverter(paragraphs=3).convert(FakeConnector(tmp_path).download(entry))
     chunks = FakeChunker().chunk(doc)
     again = FakeChunker().chunk(doc)
     assert [c.point_id for c in chunks] == [c.point_id for c in again]
     assert len({c.point_id for c in chunks}) == 3
 
 
-def test_embedding_text_has_headings_but_no_metadata():
+def test_embedding_text_has_headings_but_no_metadata(tmp_path):
     entry = make_entry()
-    chunk = FakeChunker().chunk(FakeConverter().convert(FakeConnector().fetch(entry)))[0]
+    chunk = FakeChunker().chunk(FakeConverter().convert(FakeConnector(tmp_path).download(entry)))[0]
     assert chunk.embedding_text.startswith(entry.title)
     assert str(entry.url) not in chunk.embedding_text
