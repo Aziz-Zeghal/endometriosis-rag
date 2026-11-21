@@ -14,11 +14,11 @@ one-line justification.
 | Orchestration | **LangGraph** ≥ 1.2 | A linear LangChain chain | Safety routing and refuse-vs-clarify branches read naturally as a graph, and the graph is also the documentation. |
 | API | **FastAPI** ≥ 0.165 + uvicorn | Flask | Async streaming, typed models, OpenAPI docs for free. |
 | Streaming | `StreamingResponse` emitting the AI SDK UI message stream | `sse-starlette`, LangGraph Server | The protocol is a handful of `data:` lines, so no extra dependency or server is needed, and the frontend gets typed source parts. |
-| Embeddings | **Chosen by benchmark** among Qwen3-Embedding-4B, Nemotron-3-Embed-1B, bge-m3, gemini-embedding-001 (see below) | Picking from a leaderboard | Public French benchmarks disagree and none is medical. Our own golden set decides, and the result is published in `eval/reports/`. |
-| Reranker | **BAAI/bge-reranker-v2-m3** (local, ~1.2 GB fp16) | Qwen3-Reranker-0.6B, Jina rerankers | Apache-2.0, a plain sentence-transformers `CrossEncoder`, and the strongest MIRACL score (a benchmark that includes French) among small rerankers. jina-reranker-v3 is CC BY-NC. |
+| Embeddings | **Nemotron-3-Embed-1B through the OpenAI-compatible endpoint** (default, served by NVIDIA NIM); `gemini-embedding-001` as the API alternative; the same Nemotron weights locally (`[local]` extra) as the offline fallback | Local GPU models by default | Best French retrieval scores on the shortlist, no model download or GPU needed, identical locally and in a Codespace. Requests are batched (16 texts), retried with backoff and cached on disk, so an interrupted run resumes without re-embedding. |
+| Reranker | **None in v1**, behind a `Reranker` interface | A local cross-encoder by default | Hybrid search with RRF is a strong baseline for a few hundred chunks. If the benchmark shows a gap, `BAAI/bge-reranker-v2-m3` (Apache-2.0, `[local]` extra) is the candidate; jina-reranker-v3 is CC BY-NC. |
 | Vector store | **Qdrant, local mode** (`QdrantClient(path=…)`) | Chroma, FAISS, Elasticsearch | Qdrant is the only embedded option with **native hybrid search** (dense + sparse BM25, RRF fusion). The same client code runs against a Qdrant server or Qdrant Cloud. Chroma has no hybrid search in local mode. FAISS is an index, not a database. Elasticsearch needs a JVM container, and its RRF retriever requires an Enterprise licence. |
 | Sparse retrieval | BM25 sparse vectors via `fastembed` (`Qdrant/bm25`, French stemming **(to verify)**) | No lexical search | Exact medical terms (diénogest, adénomyose, endométriome) are where dense retrieval fails. |
-| PDF conversion | **docling** ≥ 2.151 | pymupdf4llm, unstructured | A layout model recovers real section headings for heading-aware chunks, and it runs on the GPU. pymupdf4llm is AGPL **(to verify)**. |
+| PDF conversion | **docling** ≥ 2.151 | pymupdf4llm, unstructured | A layout model recovers real section headings for heading-aware chunks. It needs PyTorch, installed as the CPU build: fast enough for a dozen PDFs. pymupdf4llm is AGPL **(to verify)**. |
 | HTML conversion | **trafilatura** ≥ 2.3 (Markdown output) | docling's HTML backend, markitdown | trafilatura strips navigation, footers and cookie banners, which the others keep. Heading preservation must be checked on day 1 **(to verify)**. |
 | Chunking | `langchain-text-splitters`: `MarkdownHeaderTextSplitter` then `RecursiveCharacterTextSplitter` (~1,000–1,500 chars, ~150 overlap) | docling `HybridChunker`, chonkie | One splitter for both HTML and PDF Markdown, and it keeps the heading path as metadata for citations. |
 | Fetching | `httpx` + `urllib.robotparser` + per-host delay + disk cache | Scrapy | A few dozen known URLs: a cached, rate-limited loop is short and reproducible offline. |
@@ -44,35 +44,38 @@ one-line justification.
 
 ## Embedding shortlist
 
-All candidates fit on the 16 GB GPU together with the reranker (the conversion step
-runs separately, at ingestion time).
+The default is `nemotron-3-embed-1b` through the API. Local candidates are optional and run
+on the CPU build of PyTorch (a few hundred chunks take minutes); a GPU only speeds them up.
 
-| Model | Params | Dims | Max tokens | VRAM (fp16, est.) | Licence | Why on the list |
+The endpoint sends the same `input_type` for documents and queries, so the embeddings are
+symmetric. The local fallback reproduces this by using the same prompt on both sides, which
+keeps API and local vectors in the same space.
+
+| Model | Params | Dims | Max tokens | Memory (fp16, est.) | Licence | Why on the list |
 |---|---|---|---|---|---|---|
 | `Qwen/Qwen3-Embedding-4B` | 4B | 2560 (MRL) | 32k | ~8 GB | Apache-2.0 | Strongest open model that fits on Alloprof (65.4), Syntec (89.9) and MIRACL-HN fr (60.2) nDCG@10 (MTEB results repo). Instruction prefix on queries only. |
-| `nvidia/Nemotron-3-Embed-1B-BF16` | 1.1B | 2048 | 32k | ~2.3 GB | OpenMDW-1.1 (commercial OK) | 2026 NVIDIA model. Leads on the French RTEB tasks (French1 88.8, FrenchLegal1 94.6), even ahead of Qwen3-4B. Has no Alloprof or Syntec results. Needs recent sentence-transformers/transformers. `query:` / `passage:` prefixes. |
+| `nvidia/Nemotron-3-Embed-1B-BF16` (**default, via API**) | 1.1B | 2048 | 32k | ~2.3 GB | OpenMDW-1.1 (commercial OK) | 2026 NVIDIA model. Leads on the French RTEB tasks (French1 88.8, FrenchLegal1 94.6), even ahead of Qwen3-4B. Has no Alloprof or Syntec results. Needs recent sentence-transformers/transformers. `query:` / `passage:` prefixes. |
 | `BAAI/bge-m3` | ~0.57B | 1024 | 8k | ~1.1 GB | MIT | Robust baseline, no prefixes, widely known. |
-| `gemini-embedding-001` (API) | API | 3072 (MRL) | 2k | 0 | Proprietary API | Zero-VRAM option with strong French scores. Trade-off: data leaves the machine. |
+| `gemini-embedding-001` (API) | API | 3072 (MRL) | 2k | 0 | Proprietary API | API alternative with strong French scores. Trade-off: data leaves the machine. |
 
 Notes:
 - `nvidia/Nemotron-3.5-Embed-1B` (Oct 2026) exists but publishes no text-retrieval French
   scores and targets multimodal documents. It is a stretch candidate only.
-- The 8B models (Qwen3-Embedding-8B, Nemotron-3-Embed-8B) do not fit next to a reranker
-  at fp16.
+- The 8B models (Qwen3-Embedding-8B, Nemotron-3-Embed-8B) are too slow on CPU and are
+  not on the list.
 - Method: [evaluation.md](evaluation.md#embedding-benchmark).
 
-## GPU environment
+## Python environment
 
-The RTX 5060 Ti is Blackwell (sm_120), so PyTorch must come from a CUDA ≥ 12.8 build,
-installed before docling and sentence-transformers. Check
-`torch.cuda.is_available()` before any long conversion, because a wrong wheel silently
-falls back to CPU.
+docling is the only dependency that needs PyTorch. `ingestion/pyproject.toml` pins `torch`
+and `torchvision` to the CPU wheel index through `[tool.uv.sources]`, so no CUDA wheels are
+downloaded.
 
 ```bash
 conda env create -f environment.yml        # python 3.12 only, env name: endorag
 conda activate endorag
-uv pip install torch --index-url https://download.pytorch.org/whl/cu128   # (to verify: exact index)
 uv pip install -e "./ingestion[dev]" -e "./back[dev]"
+uv pip install -e "./ingestion[local]"     # optional: local embedding models
 uv pip install -r eval/requirements.txt    # ragas, only for evaluation
 ruff check . && ruff format --check .
 ```

@@ -1,0 +1,46 @@
+[project]
+name = "endorag-ingestion"
+version = "0.1.0"
+description = "Ingestion pipeline: manifest -> fetch -> convert -> chunk -> embed -> Qdrant"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.10",
+    "pydantic-settings>=2.16",
+    "pyyaml>=6.0",
+    "httpx>=0.28",
+    "trafilatura>=2.3",
+    "docling>=2.151",
+    "langchain-text-splitters>=1.1",
+    "torch>=2.9",  # pulled by docling; CPU build, see [tool.uv.sources]
+    "torchvision>=0.24",
+    "langchain-openai>=1.8",
+    "qdrant-client>=1.20",
+    "fastembed>=0.9",
+    "typer>=0.19",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "ruff>=0.9"]
+# Optional local embedding models for the benchmark (run on the CPU build of torch)
+local = ["sentence-transformers>=6.3"]
+
+[project.scripts]
+endorag-ingest = "endorag_ingestion.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/endorag_ingestion"]
+
+# docling needs PyTorch. The CPU build is enough for a few PDFs and keeps the
+# install small (no CUDA wheels), identical locally and in a Codespace.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchvision = { index = "pytorch-cpu" }

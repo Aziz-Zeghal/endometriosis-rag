@@ -10,6 +10,22 @@ emergencies to 15 / 112.
 > agency, health insurer, regional network, association or website has deployed, funded,
 > reviewed or endorsed this project. Answers are general information, not medical advice.
 
+## Setup
+
+Python runs in a conda environment; packages are installed with `uv pip` (no `.venv`).
+No GPU is needed: embeddings and generation use an OpenAI-compatible API, and PyTorch
+(for PDF conversion) is installed as the CPU build.
+
+```bash
+conda env create -f environment.yml
+conda activate endorag
+uv pip install -e "./ingestion[dev]" -e "./back[dev]"
+cp .env.example .env   # then fill in LLM_BASE_URL and LLM_API_KEY
+
+ruff check . && ruff format --check .
+pytest
+```
+
 ## Documentation
 
 See [docs/](docs/README.md): scenario, scope, architecture, tech stack, sources,

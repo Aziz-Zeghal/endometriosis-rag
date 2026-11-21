@@ -5,7 +5,7 @@ Three tiers, from cheapest and deterministic to most expensive and judgement-bas
 | Tier | What | Needs network | When |
 |---|---|---|---|
 | 1. Unit and guardrail tests | Safety gate keywords, router edges with a fake LLM, chunker, store | No | Every commit |
-| 2. Retrieval benchmark | Embedding × reranker comparison on the golden set | GPU (+ API for remote embedders) | When retrieval changes |
+| 2. Retrieval benchmark | Embedding comparison (API vs local models) on the golden set | API, optional local models | When retrieval changes |
 | 3. RAGAS + live guardrails | Faithfulness, answer relevancy, context precision; answer-content safety checks | LLM endpoint | Before each release; nightly in production |
 
 ## Golden set
@@ -46,8 +46,8 @@ collection from the same chunks, run the golden questions that have
 `expected_route == "question"` and a non-empty `reference_doc_ids`, and report:
 
 - **Hit@5** and **MRR@10**, measured at document level against `reference_doc_ids`;
-- the same metrics with the reranker on;
-- indexing time, query latency and VRAM.
+- the same metrics with a reranker on, if the gap justifies one;
+- indexing time and query latency.
 
 The result table goes to `eval/reports/`. We measured instead of picking from a leaderboard.
 

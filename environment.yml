@@ -1,0 +1,7 @@
+# Interpreter only: Python packages are installed with `uv pip install -e` (see README).
+name: endorag
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip

@@ -35,7 +35,7 @@ flowchart LR
 | Connector | `Connector` | manifest entry → raw bytes on disk (cached) | `HttpConnector` (httpx, robots.txt, per-host delay) |
 | Converter | `Converter` | raw file → `ConvertedDocument` (Markdown + metadata) | `HtmlConverter` (trafilatura), `PdfConverter` (docling), routed by `format` |
 | Chunker | `Chunker` | `ConvertedDocument` → `list[Chunk]` | `MarkdownChunker` (header split, then recursive split) |
-| Embedder | `Embedder` | `embed_documents(list[str])` and `embed_query(str)` → dense vectors. They are separate because some models need different query and passage prefixes. | `SentenceTransformerEmbedder` (local GPU); `OpenAICompatibleEmbedder` (remote endpoint) |
+| Embedder | `Embedder` | `embed_documents(list[str])` and `embed_query(str)` → dense vectors. They are separate because some models need different query and passage prefixes. | `OpenAICompatibleEmbedder` (default: `nemotron-3-embed-1b` through the LLM endpoint; batched, retried, cached on disk); `SentenceTransformerEmbedder` (optional local models, `[local]` extra) |
 | Store | `VectorStore` | `list[Chunk]` + vectors → upserted ids; query → scored chunks | `QdrantStore` (local mode). It computes the BM25 sparse vectors itself with fastembed and fuses dense and sparse results with RRF. |
 
 ### Design rules
@@ -94,7 +94,7 @@ flowchart TD
     RT -->|chitchat| CC[chitchat]
     RT -->|out_of_scope| OOS[out_of_scope<br/>polite refusal]
     RT -->|question| RW[rewrite<br/>standalone query from history]
-    RW --> RE[retrieve<br/>hybrid search → rerank →<br/>threshold → dedup]
+    RW --> RE[retrieve<br/>hybrid search → (rerank) →<br/>threshold → dedup]
     RE -->|enough evidence| GE[generate<br/>cited answer]
     RE -->|weak evidence| TR[triage]
     TR -->|ambiguous| CL[clarify<br/>ask a precise question]
@@ -117,7 +117,7 @@ flowchart TD
 | `chitchat` | Greetings and thanks, plus a short presentation of what the assistant can do. It is a template, so no ungrounded medical text can come out of it. | No (template) | Text |
 | `out_of_scope` | Polite refusal that restates the assistant's scope. | No (template) | Text |
 | `rewrite` | Turns a follow-up ("et pendant la grossesse ?") into a standalone query using the last turns. In v1 it only resolves conversation context. Lay vocabulary is handled by dense retrieval, and lay-to-clinical expansion is on the backlog. | Small model | Query string |
-| `retrieve` | Hybrid search (dense + BM25, RRF fusion) for top-k candidates, a cross-encoder rerank, a relevance threshold, then near-duplicate removal. | No | Ranked chunks with scores |
+| `retrieve` | Hybrid search (dense + BM25, RRF fusion) for top-k candidates, an optional rerank (off in v1), a relevance threshold, then near-duplicate removal. | No | Ranked chunks with scores |
 | `generate` | Emits the chunks it was given as sources, then answers **only** from them, in French, with numbered citations `[1]`, `[2]`. If the router flagged a diagnosis or prescription request, it gives general information, never concludes "vous avez / vous n'avez pas", and explicitly refers the user to a health professional. | Main model (Nemotron 3 Ultra) | Streamed text |
 | `triage` | Runs when evidence is weak (no chunk above threshold, or too few). Decides between *ambiguous question* and *not in the corpus*. | Small model | `clarify | refuse` |
 | `clarify` | Asks one precise follow-up question. | Main model | Text |
@@ -197,7 +197,7 @@ implementations next to them, wiring in one place.
 
 | Pattern | Where | What it buys |
 |---|---|---|
-| **Strategy** | `Retriever` (hybrid Qdrant), `Reranker` (cross-encoder, none), `ChatModelProvider` (any OpenAI-compatible endpoint), `SafetyCheck` (keyword, LLM) | Swap Qdrant for Azure AI Search, or the local reranker for Cohere, by instantiating another class. The graph code does not change. |
+| **Strategy** | `Retriever` (hybrid Qdrant), `Reranker` (none in v1; local cross-encoder or a managed reranker later), `ChatModelProvider` (any OpenAI-compatible endpoint), `SafetyCheck` (keyword, LLM) | Swap Qdrant for Azure AI Search, or add a managed reranker such as Cohere, by instantiating another class. The graph code does not change. |
 | **Composite** | `CompositeSafetyCheck([KeywordSafetyCheck(), LlmSafetyCheck()])` | Each check stays small and testable. The gate triggers if any check triggers, and a failing check never disables the others. |
 | **Template method** | `BaseNode.__call__(state)` runs `_prepare(state)`, then `_execute(...)`, then `_to_update(...)`, with shared logging, timing and error handling. Template answers (`emergency`, `chitchat`, `out_of_scope`, `refuse`) subclass `TemplateNode`, which only declares the prompt file. | Every node behaves the same way on errors and in traces. Adding a node means filling in one or two methods. |
 | **Factory** | `back/src/graph/builder.py` builds the graph from `Settings` and the active profile | One place decides which strategies are used |
@@ -223,7 +223,7 @@ endometriosis-rag/
 │   │   ├── connectors/           # http.py
 │   │   ├── converters/           # html.py (trafilatura), pdf.py (docling), routing.py
 │   │   ├── chunkers/             # markdown.py
-│   │   ├── embedders/            # sentence_transformers.py, openai_compatible.py
+│   │   ├── embedders/            # openai_compatible.py, sentence_transformers.py (optional)
 │   │   ├── stores/               # qdrant.py (dense + BM25, RRF)
 │   │   ├── pipeline.py           # template method: fetch → convert → chunk → embed → upsert
 │   │   └── cli.py                # `endorag-ingest --profile patient`
@@ -261,18 +261,21 @@ module-level path constants derived from the repo root. Nothing hard-codes a pat
 # ingestion/src/endorag_ingestion/settings.py
 ROOT_DIR = Path(__file__).resolve().parents[3]
 DATA_DIR = ROOT_DIR / "data"
-RAW_DIR = DATA_DIR / "raw"            # fetched HTML/PDF cache
+RAW_DIR = DATA_DIR / "raw"  # fetched HTML/PDF cache
 MARKDOWN_DIR = DATA_DIR / "markdown"  # converted documents
-QDRANT_DIR = DATA_DIR / "qdrant"      # local vector database
+QDRANT_DIR = DATA_DIR / "qdrant"  # local vector database
 MANIFESTS_DIR = ROOT_DIR / "ingestion" / "manifests"
+
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=ROOT_DIR / ".env", extra="ignore")
     profile: Literal["patient", "gp"] = "patient"
-    embedder: str = "BAAI/bge-m3"
+    embedder: str = "nemotron-3-embed-1b"
     qdrant_path: Path = QDRANT_DIR
     llm_base_url: str
-    llm_api_key: SecretStr = Field(validation_alias=AliasChoices("LLM_API_KEY", "FREELLMAPI_API_KEY"))
+    llm_api_key: SecretStr = Field(
+        validation_alias=AliasChoices("LLM_API_KEY", "FREELLMAPI_API_KEY")
+    )
 ```
 
 Every value can be overridden from `.env`. Only `.env.example` is committed.

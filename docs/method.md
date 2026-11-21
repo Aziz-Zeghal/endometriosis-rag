@@ -128,8 +128,8 @@ arrives.
 | D-01 | Generation with Nemotron 3 Ultra through an OpenAI-compatible API | French answer quality with no local GPU; `base_url` portability to a NIM or Foundry | Adopted |
 | D-02 | **Qdrant (local mode) instead of Chroma**, initially proposed | Chroma's hybrid search is cloud-only; Qdrant runs dense + BM25 with RRF fusion locally | Changed after research |
 | D-03 | Elasticsearch is a production option, not the local store | Native RRF needs an Enterprise licence; JVM container overhead for a few thousand chunks | Adopted |
-| D-04 | Embedding model chosen by benchmark (4 candidates) | Public French benchmarks disagree, and none is medical | Pending benchmark |
-| D-05 | NVIDIA embeddings run locally | Not served by the LLM endpoint used | Adopted |
+| D-04 | API embeddings by default: Nemotron-3-Embed-1B served by NVIDIA NIM; the same weights locally as the offline fallback | Best French scores on the shortlist, small install with no GPU, identical in a Codespace; batching, retries and an on-disk cache protect against disconnections. The golden-set benchmark confirms or revises the choice. | Changed: was local GPU models |
+| D-05 | PyTorch installed as the CPU build, only for docling; no reranker in v1 | The CUDA build is several GB for a dozen PDFs; hybrid search with RRF is the baseline, a reranker is added only if measured useful | Adopted |
 | D-06 | React + assistant-ui directly, no Streamlit prototype | Avoids building the UI twice; a ready-made chat runtime keeps hand-written code small | Adopted |
 | D-07 | Commit a snapshot of the corpus, with attribution, for the demonstration; rebuild the index from it | The corpus is a few MB; the demo must run offline or in a Codespace. Publishers with a TDM opt-out stay excluded. Initially manifests only. | Changed |
 | D-08 | Fictional, undated awareness campaign; patient space plus a GP space; adult personas in the live demo | Three scenarios scored out of 60 (46, 40, 40); real campaign formats researched; deployer kept unnamed to avoid impersonation | Adopted |
