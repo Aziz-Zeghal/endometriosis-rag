@@ -55,8 +55,9 @@ flowchart LR
 - **Metadata stays out of the embedded text.** Source, URL, date and heading path live in
   the payload. The embedded text is the chunk content, optionally prefixed with its heading
   path (headings carry meaning; URLs and dates do not).
-- **Corpus snapshot committed, index rebuilt.** Fetched pages (`data/raw/`) and converted
-  Markdown (`data/markdown/`) are committed so the demo runs offline or in a Codespace.
+- **Corpus snapshot committed, index rebuilt.** Fetched pages (`data/raw/<id>.<ext>` +
+  `.meta.json`) and converted Markdown (`data/markdown/<id>.md` + `.meta.json` recording the
+  source hash and converter version) are committed so the demo runs offline or in a Codespace.
   The vector index (`data/qdrant/`) is gitignored and rebuilt from the snapshot (see
   [sources.md](sources.md#licensing-strategy)).
 

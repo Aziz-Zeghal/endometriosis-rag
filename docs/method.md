@@ -118,6 +118,34 @@ acceptance criteria, and links to the spec section it implements.
   checks before a release.
 - Evaluation findings feed back into the specs and the decision log.
 
+### M1 retrospective
+
+Each issue was built, then reviewed by someone whose only job was to break it, then fixed
+with a regression test. A final pass re-checked every acceptance criterion from a clean
+shell. What this caught:
+
+- **Silent coverage loss.** The ESHRE guideline page is behind a bot challenge, so the GP
+  corpus would quietly have missed its main international source. It is now fetched as
+  open-access JATS XML, with citations still pointing to the article page.
+- **Conversion losing content.** On one Santé.fr page, trafilatura kept only 1.3 KB of 5 KB
+  (the regional network list). The HTML converter now falls back to docling when headings
+  or text are lost.
+- **Misleading dates.** Easy-to-read sheets republished in 2026 contain 2022 text; they are
+  now dated by their content so the recency rule ranks them correctly.
+- **Log leak.** The embedding client logged the full endpoint URL; the logger is now
+  silenced.
+
+Inputs for M2, measured on real queries:
+
+- Fused RRF scores are rank-based (an off-corpus question scores like a good one), so the
+  "weak evidence" threshold must use the raw dense similarity, not the fused score.
+- Multi-topic questions (ALD + RQTH + work) return only one topic in the top 5: retrieve
+  more candidates, then deduplicate.
+- A French question does not surface the English ESHRE chunks in the top 5 (BM25 favours
+  French text); the dense candidates need a larger share.
+- Some noise is indexed (bibliographies, report templates in annexes, duplicate chunks):
+  deduplicate at retrieval time.
+
 ## Decision log
 
 Decisions are recorded with the evidence behind them. They are revisited when new evidence
@@ -137,6 +165,7 @@ arrives.
 | D-10 | One editable package per layer (`ingestion/`, `back/`), shared models | The back reuses the write side's embedder, store and schema without copying them | Adopted |
 | D-11 | GitHub Codespace as the demo fallback, with a public OpenAI-compatible endpoint | Removes the dependency on the local machine and network; only `LLM_BASE_URL` and the key change (Codespaces secret) | Adopted |
 | D-12 | 119 added to the fixed emergency message | The campaign reaches young people, minors included | Adopted |
+| D-13 | Embeddings robust to disconnections: batches of 16, retries with backoff, sqlite cache written after every batch | A batch of 128 times out at the endpoint; a cut connection must not lose a run. A second run takes 4 s instead of 3 min. | Adopted |
 
 ## Timeline
 
@@ -144,3 +173,4 @@ arrives.
 |---|---|
 | 2026-11-20 | Framing, four research tracks with verification, stack decisions |
 | 2026-11-21 | Specs reviewed and committed, milestones and M1 issues created, scenario chosen and corpus adjusted to its personas |
+| 2026-11-21 | M1 done: environment, ingestion pipeline and both indexes built from the committed snapshot (patient 24 docs / 375 chunks, GP 8 docs / 538 chunks) |
