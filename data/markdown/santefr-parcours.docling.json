@@ -1,0 +1,1445 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 641839867477538496,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/65"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/texts/44"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/47"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Endom\u00e9triose - Je ressens des sympt\u00f4mes : quelle prise en charge?",
+      "text": "Endom\u00e9triose - Je ressens des sympt\u00f4mes : quelle prise en charge?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 24/02/2025",
+      "text": "Publi\u00e9 le 24/02/2025"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En France, l\u2019endom\u00e9triose affecterait pr\u00e8s d\u2019une femme sur dix en \u00e2ge de procr\u00e9er et constituerait l'une des principales causes d\u2019infertilit\u00e9. En cas de sympt\u00f4mes, le premier r\u00e9flexe est de se tourner vers son m\u00e9decin traitant, gyn\u00e9cologue ou sage-femme habituels. Comment s\u2019organise ensuite la prise en charge adapt\u00e9e?",
+      "text": "En France, l\u2019endom\u00e9triose affecterait pr\u00e8s d\u2019une femme sur dix en \u00e2ge de procr\u00e9er et constituerait l'une des principales causes d\u2019infertilit\u00e9. En cas de sympt\u00f4mes, le premier r\u00e9flexe est de se tourner vers son m\u00e9decin traitant, gyn\u00e9cologue ou sage-femme habituels. Comment s\u2019organise ensuite la prise en charge adapt\u00e9e?"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Vers qui se tourner en cas de sympt\u00f4mes d\u2019endom\u00e9triose ?",
+      "text": "Vers qui se tourner en cas de sympt\u00f4mes d\u2019endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les patientes sont invit\u00e9es, en cas de sympt\u00f4mes, \u00e0 contacter leur m\u00e9decin traitant, leur gyn\u00e9cologue ou leur sage-femme habituels",
+      "text": "Les patientes sont invit\u00e9es, en cas de sympt\u00f4mes, \u00e0 contacter leur m\u00e9decin traitant, leur gyn\u00e9cologue ou leur sage-femme habituels",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui sera \u00e0 m\u00eame de rep\u00e9rer une \u00e9ventuelle suspicion d\u2019endom\u00e9triose et de les orienter le cas \u00e9ch\u00e9ant au sein de la fili\u00e8re endom\u00e9triose de la r\u00e9gion pour un diagnostic et une prise en charge adapt\u00e9e.",
+      "text": " qui sera \u00e0 m\u00eame de rep\u00e9rer une \u00e9ventuelle suspicion d\u2019endom\u00e9triose et de les orienter le cas \u00e9ch\u00e9ant au sein de la fili\u00e8re endom\u00e9triose de la r\u00e9gion pour un diagnostic et une prise en charge adapt\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Au sein des r\u00e9gions, les fili\u00e8res endom\u00e9triose s\u2019appuient en effet sur un tissu de professionnels de sant\u00e9 de contact",
+      "text": "Au sein des r\u00e9gions, les fili\u00e8res endom\u00e9triose s\u2019appuient en effet sur un tissu de professionnels de sant\u00e9 de contact",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", qui ne sont pas identifi\u00e9s comme membres constitutifs de la fili\u00e8re, mais sont sensibilis\u00e9s \u00e0 l\u2019endom\u00e9triose et \u00e0 m\u00eame de rep\u00e9rer et de suspecter la pathologie puis de vous orienter vers un professionnel de premier recours de la fili\u00e8re. Il s\u2019agit par exemple de professionnels de sant\u00e9 lib\u00e9raux, de professionnels de la m\u00e9decine scolaire, des services de sant\u00e9 au travail, etc.",
+      "text": ", qui ne sont pas identifi\u00e9s comme membres constitutifs de la fili\u00e8re, mais sont sensibilis\u00e9s \u00e0 l\u2019endom\u00e9triose et \u00e0 m\u00eame de rep\u00e9rer et de suspecter la pathologie puis de vous orienter vers un professionnel de premier recours de la fili\u00e8re. Il s\u2019agit par exemple de professionnels de sant\u00e9 lib\u00e9raux, de professionnels de la m\u00e9decine scolaire, des services de sant\u00e9 au travail, etc."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pourquoi des fili\u00e8res de soins Endom\u00e9triose ?",
+      "text": "Pourquoi des fili\u00e8res de soins Endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose est une maladie inflammatoire chronique dont les origines et le d\u00e9veloppement sont encore aujourd\u2019hui insuffisamment connus",
+      "text": "L\u2019endom\u00e9triose est une maladie inflammatoire chronique dont les origines et le d\u00e9veloppement sont encore aujourd\u2019hui insuffisamment connus",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Ses manifestations (sympt\u00f4mes, douleurs, impacts) varient fortement d\u2019une femme \u00e0 une autre, ind\u00e9pendamment du nombre et de la localisation des atteintes.",
+      "text": ". Ses manifestations (sympt\u00f4mes, douleurs, impacts) varient fortement d\u2019une femme \u00e0 une autre, ind\u00e9pendamment du nombre et de la localisation des atteintes."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019acc\u00e8s pr\u00e9coce \u00e0 des soins pluridisciplinaires de qualit\u00e9 est essentiel au regard de la complexit\u00e9 diagnostique et de prise en charge li\u00e9e aux diff\u00e9rentes dimensions de la maladie. ",
+      "text": "L\u2019acc\u00e8s pr\u00e9coce \u00e0 des soins pluridisciplinaires de qualit\u00e9 est essentiel au regard de la complexit\u00e9 diagnostique et de prise en charge li\u00e9e aux diff\u00e9rentes dimensions de la maladie. "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aussi, la prise en charge de l\u2019endom\u00e9triose est pluridisciplinaire et l\u2019engagement de nombreux praticiens est n\u00e9cessaire pour que soient prises en compte les diff\u00e9rentes dimensions de la maladie. Il est donc essentiel que les patientes puissent avoir un acc\u00e8s pr\u00e9coce \u00e0 ces soins.",
+      "text": "Aussi, la prise en charge de l\u2019endom\u00e9triose est pluridisciplinaire et l\u2019engagement de nombreux praticiens est n\u00e9cessaire pour que soient prises en compte les diff\u00e9rentes dimensions de la maladie. Il est donc essentiel que les patientes puissent avoir un acc\u00e8s pr\u00e9coce \u00e0 ces soins.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est l\u00e0 tout l\u2019objectif des fili\u00e8res endom\u00e9triose : dans une logique de collaboration interprofessionnelle, ",
+      "text": "C\u2019est l\u00e0 tout l\u2019objectif des fili\u00e8res endom\u00e9triose : dans une logique de collaboration interprofessionnelle, "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "assurer aux patientes des prises en charge adapt\u00e9es et de qualit\u00e9 sur l\u2019ensemble du territoire",
+      "text": "assurer aux patientes des prises en charge adapt\u00e9es et de qualit\u00e9 sur l\u2019ensemble du territoire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Une fili\u00e8re de soins endom\u00e9triose, c\u2019est quoi ?",
+      "text": "Une fili\u00e8re de soins endom\u00e9triose, c\u2019est quoi ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les fili\u00e8res endom\u00e9triose garantissant un acc\u00e8s \u00e0 une prise en charge adapt\u00e9e et de qualit\u00e9 pour les personnes atteintes d\u2019endom\u00e9triose",
+      "text": "Les fili\u00e8res endom\u00e9triose garantissant un acc\u00e8s \u00e0 une prise en charge adapt\u00e9e et de qualit\u00e9 pour les personnes atteintes d\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", tout \u00e2ge confondu.",
+      "text": ", tout \u00e2ge confondu."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces fili\u00e8res rassemblent dans chaque r\u00e9gion des structures et des professionnels de sant\u00e9 sp\u00e9cialis\u00e9s dans la prise en charge de l\u2019endom\u00e9triose.",
+      "text": "Ces fili\u00e8res rassemblent dans chaque r\u00e9gion des structures et des professionnels de sant\u00e9 sp\u00e9cialis\u00e9s dans la prise en charge de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles s\u2019organisent pour r\u00e9pondre aux besoins des femmes concern\u00e9es",
+      "text": "Elles s\u2019organisent pour r\u00e9pondre aux besoins des femmes concern\u00e9es",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", am\u00e9liorer leur diagnostic, coordonner leur parcours de soins afin que leurs prises en charge soient au mieux adapt\u00e9es \u00e0 l\u2019intensit\u00e9 et \u00e0 la complexit\u00e9 de la pathologie.",
+      "text": ", am\u00e9liorer leur diagnostic, coordonner leur parcours de soins afin que leurs prises en charge soient au mieux adapt\u00e9es \u00e0 l\u2019intensit\u00e9 et \u00e0 la complexit\u00e9 de la pathologie."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Au sein de chaque fili\u00e8re, la ou les instances de gouvernance sont compos\u00e9s d\u2019acteurs de ville, d\u2019\u00e9tablissements de sant\u00e9 publics et priv\u00e9s, des repr\u00e9sentants des usagers et des associations de patient(e)s.",
+      "text": "Au sein de chaque fili\u00e8re, la ou les instances de gouvernance sont compos\u00e9s d\u2019acteurs de ville, d\u2019\u00e9tablissements de sant\u00e9 publics et priv\u00e9s, des repr\u00e9sentants des usagers et des associations de patient(e)s."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter que les associations de patient(e)s localement install\u00e9es ont un r\u00f4le majeur dans l\u2019orientation des patientes et dans l\u2019explication des diff\u00e9rents niveaux de recours.",
+      "text": "A noter que les associations de patient(e)s localement install\u00e9es ont un r\u00f4le majeur dans l\u2019orientation des patientes et dans l\u2019explication des diff\u00e9rents niveaux de recours."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les fili\u00e8res se veulent aussi un lieu de partage pour l\u2019ensemble des praticiens",
+      "text": "Les fili\u00e8res se veulent aussi un lieu de partage pour l\u2019ensemble des praticiens",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : m\u00e9decins traitants, gyn\u00e9cologues, sages-femmes, radiologues, m\u00e9decins de l\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation ou des centres antidouleurs, sexologues, psychologues\u2026 A ce titre, les fili\u00e8res assurent la collaboration des acteurs par la mise en place de r\u00e9unions de concertation pluridisciplinaire (RCP), permettant ainsi de mieux identifier pour une patiente donn\u00e9e les diff\u00e9rents niveaux de recours et par cons\u00e9quent d\u2019adapter le niveau et le contenu de la prise en charge.",
+      "text": " : m\u00e9decins traitants, gyn\u00e9cologues, sages-femmes, radiologues, m\u00e9decins de l\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation ou des centres antidouleurs, sexologues, psychologues\u2026 A ce titre, les fili\u00e8res assurent la collaboration des acteurs par la mise en place de r\u00e9unions de concertation pluridisciplinaire (RCP), permettant ainsi de mieux identifier pour une patiente donn\u00e9e les diff\u00e9rents niveaux de recours et par cons\u00e9quent d\u2019adapter le niveau et le contenu de la prise en charge."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les fili\u00e8res contribuent \u00e9galement \u00e0 l\u2019am\u00e9lioration des pratiques professionnelles, \u00e0 informer le grand public notamment sur l\u2019offre de soins disponible.",
+      "text": "Les fili\u00e8res contribuent \u00e9galement \u00e0 l\u2019am\u00e9lioration des pratiques professionnelles, \u00e0 informer le grand public notamment sur l\u2019offre de soins disponible."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quel est le parcours de soins au sein d\u2019une fili\u00e8re endom\u00e9triose ?",
+      "text": "Quel est le parcours de soins au sein d\u2019une fili\u00e8re endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chaque fili\u00e8re r\u00e9gionale participe \u00e0 la constitution d\u2019une offre de soins gradu\u00e9e qu\u2019elle coordonne sur son territoire en lien avec l\u2019existant.",
+      "text": "Chaque fili\u00e8re r\u00e9gionale participe \u00e0 la constitution d\u2019une offre de soins gradu\u00e9e qu\u2019elle coordonne sur son territoire en lien avec l\u2019existant."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette offre est constitu\u00e9e de trois niveaux de recours, en fonction de l\u2019offre de soins propos\u00e9e.",
+      "text": "Cette offre est constitu\u00e9e de trois niveaux de recours, en fonction de l\u2019offre de soins propos\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ainsi, le parcours de soins d\u2019une patiente peut inclure la sollicitation de plusieurs niveaux selon ses besoins.",
+      "text": "Ainsi, le parcours de soins d\u2019une patiente peut inclure la sollicitation de plusieurs niveaux selon ses besoins."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "1er niveau de recours :",
+      "text": "1er niveau de recours :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A quel moment du parcours de soins ?",
+      "text": "A quel moment du parcours de soins ?",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour le diagnostic ou la prise en charge de proximit\u00e9, il est assur\u00e9 par des professionnels de sant\u00e9 de ville voire hospitaliers (lorsque le territoire ne poss\u00e8de pas d\u2019offre de ville), identifi\u00e9s par la fili\u00e8re, qui ",
+      "text": "Pour le diagnostic ou la prise en charge de proximit\u00e9, il est assur\u00e9 par des professionnels de sant\u00e9 de ville voire hospitaliers (lorsque le territoire ne poss\u00e8de pas d\u2019offre de ville), identifi\u00e9s par la fili\u00e8re, qui "
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "disposent de comp\u00e9tences pour le diagnostic ou la prise en charge ou le suivi global int\u00e9grant l\u2019information et l\u2019\u00e9ducation des patientes",
+      "text": "disposent de comp\u00e9tences pour le diagnostic ou la prise en charge ou le suivi global int\u00e9grant l\u2019information et l\u2019\u00e9ducation des patientes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", au-del\u00e0 de leur fonction de d\u00e9tection qu\u2019ils partagent avec les professionnels de sant\u00e9 de contact qui sont en dehors de la fili\u00e8re mais sensibilis\u00e9s \u00e0 l\u2019endom\u00e9triose (voir ci-dessus).",
+      "text": ", au-del\u00e0 de leur fonction de d\u00e9tection qu\u2019ils partagent avec les professionnels de sant\u00e9 de contact qui sont en dehors de la fili\u00e8re mais sensibilis\u00e9s \u00e0 l\u2019endom\u00e9triose (voir ci-dessus)."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les professionnels de sant\u00e9 identifi\u00e9s par la fili\u00e8re et mobilis\u00e9s \u00e0 ce niveau de recours sont : les m\u00e9decins g\u00e9n\u00e9raliste, les gyn\u00e9cologues, les radiologues et les sages-femmes.",
+      "text": "Les professionnels de sant\u00e9 identifi\u00e9s par la fili\u00e8re et mobilis\u00e9s \u00e0 ce niveau de recours sont : les m\u00e9decins g\u00e9n\u00e9raliste, les gyn\u00e9cologues, les radiologues et les sages-femmes."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "2\u00e8me niveau de recours :",
+      "text": "2\u00e8me niveau de recours :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A quel moment du parcours de soins ?",
+      "text": "A quel moment du parcours de soins ?",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour le diagnostic et la prise en charge de seconde intention, c\u2019est-\u00e0-dire lorsque ",
+      "text": "Pour le diagnostic et la prise en charge de seconde intention, c\u2019est-\u00e0-dire lorsque "
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les patientes ne r\u00e9pondent pas aux traitements initiaux et notamment pour les formes d\u2019hypersensibilisation pelvienne",
+      "text": "les patientes ne r\u00e9pondent pas aux traitements initiaux et notamment pour les formes d\u2019hypersensibilisation pelvienne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les professionnels de sant\u00e9 identifi\u00e9s par la fili\u00e8re et mobilis\u00e9s \u00e0 ce niveau de recours sont :",
+      "text": "Les professionnels de sant\u00e9 identifi\u00e9s par la fili\u00e8re et mobilis\u00e9s \u00e0 ce niveau de recours sont :"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des professionnels r\u00e9f\u00e9rents",
+      "text": "des professionnels r\u00e9f\u00e9rents",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", de ville ou en \u00e9tablissement de sant\u00e9 (gyn\u00e9cologues r\u00e9f\u00e9rents, \u00e9chographistes r\u00e9f\u00e9rents, radiologues r\u00e9f\u00e9rents, sp\u00e9cialistes de la reproduction et de l\u2019aide m\u00e9dicale \u00e0 la reproduction)",
+      "text": ", de ville ou en \u00e9tablissement de sant\u00e9 (gyn\u00e9cologues r\u00e9f\u00e9rents, \u00e9chographistes r\u00e9f\u00e9rents, radiologues r\u00e9f\u00e9rents, sp\u00e9cialistes de la reproduction et de l\u2019aide m\u00e9dicale \u00e0 la reproduction)"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des professionnelles ayant les comp\u00e9tences requises",
+      "text": "des professionnelles ayant les comp\u00e9tences requises",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour l\u2019\u00e9valuation de la douleur (gyn\u00e9cologue, algologue, psychologue, sexologue, assistante sociale).",
+      "text": " pour l\u2019\u00e9valuation de la douleur (gyn\u00e9cologue, algologue, psychologue, sexologue, assistante sociale)."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ils interviennent dans un ou plusieurs centres multidisciplinaires r\u00e9f\u00e9rents pour le diagnostic et la prise en charge de seconde intention.",
+      "text": "Ils interviennent dans un ou plusieurs centres multidisciplinaires r\u00e9f\u00e9rents pour le diagnostic et la prise en charge de seconde intention."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "3\u00e8me niveau de recours :",
+      "text": "3\u00e8me niveau de recours :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A quel moment du parcours de soins ?",
+      "text": "A quel moment du parcours de soins ?",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour 4 types d\u2019expertises articul\u00e9es entre elles et li\u00e9es \u00e0 4 composantes de l\u2019endom\u00e9triose :",
+      "text": "Pour 4 types d\u2019expertises articul\u00e9es entre elles et li\u00e9es \u00e0 4 composantes de l\u2019endom\u00e9triose :"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La chirurgie pour les endom\u00e9trioses complexes",
+      "text": "La chirurgie pour les endom\u00e9trioses complexes",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019expertise en radiologie / imagerie de l\u2019endom\u00e9triose",
+      "text": "L\u2019expertise en radiologie / imagerie de l\u2019endom\u00e9triose",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La prise en charge de la douleur via les structures douleur chronique (SDC) r\u00e9f\u00e9renc\u00e9es",
+      "text": "La prise en charge de la douleur via les structures douleur chronique (SDC) r\u00e9f\u00e9renc\u00e9es",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La prise en charge de l\u2019infertilit\u00e9 via les centres autoris\u00e9s pour l\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP).",
+      "text": "La prise en charge de l\u2019infertilit\u00e9 via les centres autoris\u00e9s pour l\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les professionnels de sant\u00e9 identifi\u00e9s par la fili\u00e8re et mobilis\u00e9s \u00e0 ce niveau de recours sont des \u00e9quipes pluriprofessionnelles expertes incluant :",
+      "text": "Les professionnels de sant\u00e9 identifi\u00e9s par la fili\u00e8re et mobilis\u00e9s \u00e0 ce niveau de recours sont des \u00e9quipes pluriprofessionnelles expertes incluant :"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des radiologues sp\u00e9cialis\u00e9s dans l\u2019endom\u00e9triose,",
+      "text": "des radiologues sp\u00e9cialis\u00e9s dans l\u2019endom\u00e9triose,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des gyn\u00e9cologues m\u00e9dicaux et chirurgicaux experts,",
+      "text": "des gyn\u00e9cologues m\u00e9dicaux et chirurgicaux experts,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des urologues,",
+      "text": "des urologues,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des chirurgiens digestifs,",
+      "text": "des chirurgiens digestifs,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des praticiens sp\u00e9cialis\u00e9s en assistance m\u00e9dicale \u00e0 la procr\u00e9ation",
+      "text": "des praticiens sp\u00e9cialis\u00e9s en assistance m\u00e9dicale \u00e0 la procr\u00e9ation",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des algologues.",
+      "text": "des algologues.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En savoir plus :",
+      "text": "En savoir plus :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

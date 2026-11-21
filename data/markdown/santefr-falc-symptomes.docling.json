@@ -1,0 +1,774 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "santefr-falc-symptomes",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 1024403235301021102,
+    "filename": "santefr-falc-symptomes.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 767.4599999999999,
+            "r": 469.12672000000003,
+            "b": 751.8550663129973,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Quels sont les sympt\u00f4mes d'une endom\u00e9triose ?",
+      "text": "Quels sont les sympt\u00f4mes d'une endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 719.14,
+            "r": 436.82967999999994,
+            "b": 659.7514588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "Les sympt\u00f4mes d'une maladie sont des signes que le corps nous envoie. Par exemple le nez qui coule est le sympt\u00f4me d'un rhume.",
+      "text": "Les sympt\u00f4mes d'une maladie sont des signes que le corps nous envoie. Par exemple le nez qui coule est le sympt\u00f4me d'un rhume."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 635.86,
+            "r": 454.6532,
+            "b": 623.9914588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "1 femme sur 3 atteinte d'endom\u00e9triose n'a aucun sympt\u00f4me.",
+      "text": "1 femme sur 3 atteinte d'endom\u00e9triose n'a aucun sympt\u00f4me."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 612.1,
+            "r": 470.42008,
+            "b": 576.4714588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "La plupart des sympt\u00f4mes de l'endom\u00e9triose sont des douleurs dans le bas du ventre pendant les r\u00e8gles.",
+      "text": "La plupart des sympt\u00f4mes de l'endom\u00e9triose sont des douleurs dans le bas du ventre pendant les r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 564.5500000000001,
+            "r": 389.2492,
+            "b": 528.9214588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "Mais il peut y avoir d'autres douleurs ailleurs, par exemple dans le bas du dos ou dans l'estomac.",
+      "text": "Mais il peut y avoir d'autres douleurs ailleurs, par exemple dans le bas du dos ou dans l'estomac."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 481.27000000000004,
+            "r": 406.4092,
+            "b": 469.4014588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut avoir aussi d'autres sympt\u00f4mes.",
+      "text": "L'endom\u00e9triose peut avoir aussi d'autres sympt\u00f4mes.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 457.99288,
+            "r": 319.0492,
+            "b": 445.55379014736843,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Par exemple les femmes peuvent avoir :",
+      "text": "Par exemple les femmes peuvent avoir :"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 421.39000000000004,
+            "r": 490.31919999999997,
+            "b": 385.6414588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "\u00b7 des saignements importants ou irr\u00e9guliers pendant les r\u00e8gles. Parfois le sang est sombre, \u00e9pais, moins liquide.",
+      "text": "des saignements importants ou irr\u00e9guliers pendant les r\u00e8gles. Parfois le sang est sombre, \u00e9pais, moins liquide.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 373.25,
+            "r": 413.6753599999997,
+            "b": 361.38145888594164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "\u00b7 de la fatigue, malgr\u00e9 une bonne nuit de sommeil.",
+      "text": "de la fatigue, malgr\u00e9 une bonne nuit de sommeil.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 349.01000000000005,
+            "r": 485.0392,
+            "b": 337.1414588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "\u00b7 de gros changements d'humeur avant ou pendant les r\u00e8gles.",
+      "text": "de gros changements d'humeur avant ou pendant les r\u00e8gles.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 324.7700000000001,
+            "r": 356.4892,
+            "b": 312.9014588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "\u00b7 des difficult\u00e9s \u00e0 uriner ou aller \u00e0 la selle.",
+      "text": "des difficult\u00e9s \u00e0 uriner ou aller \u00e0 la selle.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 300.5300000000001,
+            "r": 463.40792000000005,
+            "b": 264.9014588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "\u00b7 un essoufflement quand les morceaux d'endom\u00e8tre sont dans les poumons. Ceci est tr\u00e8s rare.",
+      "text": "un essoufflement quand les morceaux d'endom\u00e8tre sont dans les poumons. Ceci est tr\u00e8s rare.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 252.52999999999997,
+            "r": 437.6758399999998,
+            "b": 169.3514588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "\u00b7 des difficult\u00e9s pour avoir des enfants. On parle d'infertilit\u00e9. Environ 1 femme sur 3 qui ne peut pas avoir d'enfant souffre d'endom\u00e9triose.",
+      "text": "des difficult\u00e9s pour avoir des enfants. On parle d'infertilit\u00e9. Environ 1 femme sur 3 qui ne peut pas avoir d'enfant souffre d'endom\u00e9triose.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 145.46000000000004,
+            "r": 483.7192,
+            "b": 109.83145888594163,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "Quand il n'y a pas de douleurs, les m\u00e9decins peuvent difficilement diagnostiquer l'endom\u00e9triose.",
+      "text": "Quand il n'y a pas de douleurs, les m\u00e9decins peuvent difficilement diagnostiquer l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 85.94399999999996,
+            "r": 315.51584000000014,
+            "b": 74.07545888594166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut passer inaper\u00e7ue.",
+      "text": "L'endom\u00e9triose peut passer inaper\u00e7ue."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 293.81,
+            "t": 62.18399999999997,
+            "r": 301.586,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 151.82,
+            "t": 733.21,
+            "r": 513.7876,
+            "b": 669.2488063660477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "Ce document accessible \u00e0 tous a \u00e9t\u00e9 transcrit par Com'access avec la m\u00e9thode du Facile \u00e0 Lire et \u00e0 Comprendre (FALC) Pour en savoir plus sur le FALC vous pouvez aller sur le site : www.inclusioneurope.eu/easy-to-read",
+      "text": "Ce document accessible \u00e0 tous a \u00e9t\u00e9 transcrit par Com'access avec la m\u00e9thode du Facile \u00e0 Lire et \u00e0 Comprendre (FALC) Pour en savoir plus sur le FALC vous pouvez aller sur le site : www.inclusioneurope.eu/easy-to-read"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 151.82,
+            "t": 660.13,
+            "r": 380.6510000000002,
+            "b": 651.0088063660477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "\u00a9 Logo europ\u00e9en Facile \u00e0 lire : Inclusion Europe",
+      "text": "\u00a9 Logo europ\u00e9en Facile \u00e0 lire : Inclusion Europe"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 623.53,
+            "r": 492.0331599999999,
+            "b": 577.9288063660478,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "Les pictogrammes sont tir\u00e9s d'une banque d'images libres de droit \u00a9Flaticon Nous remercions vivement Joanna, Julie et Tracy de l'ESAT Moskowa (association APTE) pour la relecture et la validation du document.",
+      "text": "Les pictogrammes sont tir\u00e9s d'une banque d'images libres de droit \u00a9Flaticon Nous remercions vivement Joanna, Julie et Tracy de l'ESAT Moskowa (association APTE) pour la relecture et la validation du document."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 293.81,
+            "t": 62.18399999999997,
+            "r": 301.586,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 509.6881370882381,
+            "t": 705.9042835893426,
+            "r": 553.9915967206507,
+            "b": 662.7744249183492,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 509.01352313969767,
+            "t": 469.2323906528355,
+            "r": 559.7194901106662,
+            "b": 406.9189757923842,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.33141523886047,
+            "t": 729.8026475108094,
+            "r": 142.4891135595949,
+            "b": 655.6889775784962,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 2
+    }
+  }
+}

@@ -5,6 +5,7 @@ from datetime import date
 from pathlib import Path
 from typing import Literal, Self
 
+from docling_core.types.doc import DoclingDocument
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl, model_validator
 
 Audience = Literal["patient", "gp", "both"]
@@ -56,12 +57,13 @@ class RawDocument(BaseModel):
 
 
 class ConvertedDocument(BaseModel):
-    """A document converted to Markdown, headings preserved."""
+    """A converted document: docling's structured document, plus a Markdown snapshot."""
 
     model_config = ConfigDict(frozen=True)
 
     entry: ManifestEntry
-    markdown: str
+    document: DoclingDocument  # headings, items and (for PDFs) page numbers; what gets chunked
+    markdown: str  # human-readable export, for review and debugging
     retrieved: date
 
 
@@ -82,12 +84,20 @@ class Chunk(BaseModel):
     audience: Audience
     licence: str
     format: Format
+    page: int | None = None  # page of the chunk's first item; None for HTML and XML
     start_seconds: float | None = None
 
     @property
     def point_id(self) -> str:
         """`uuid5(doc_id#chunk_index)`: Qdrant needs UUIDs, and re-ingestion stays idempotent."""
         return str(uuid.uuid5(POINT_NAMESPACE, f"{self.doc_id}#{self.chunk_index}"))
+
+    @property
+    def citation_url(self) -> str:
+        """`url`, pointing at the chunk's page for PDFs (`#page=N`, read by PDF viewers)."""
+        if self.format == "pdf" and self.page is not None:
+            return f"{self.url}#page={self.page}"
+        return self.url
 
     @property
     def embedding_text(self) -> str:

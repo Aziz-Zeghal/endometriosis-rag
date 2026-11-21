@@ -1,0 +1,2248 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 5078030940429645600,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/groups/12"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/82"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/86"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Le vocabulaire m\u00e9dical de l'endom\u00e9triose",
+      "text": "Le vocabulaire m\u00e9dical de l'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "LES BASES : Comprendre l\u2019endom\u00e9triose, l\u2019ad\u00e9nomyose, le p\u00e9ritoine et l\u2019endom\u00e8tre",
+      "text": "LES BASES : Comprendre l\u2019endom\u00e9triose, l\u2019ad\u00e9nomyose, le p\u00e9ritoine et l\u2019endom\u00e8tre",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour bien comprendre l\u2019endom\u00e9triose et ses cons\u00e9quences, il est important de conna\u00eetre quelques notions de base : ce qu\u2019est la maladie, ce que recouvre l\u2019ad\u00e9nomyose, ainsi que le r\u00f4le du p\u00e9ritoine et de l\u2019endom\u00e8tre. Ces rep\u00e8res anatomiques et physiopathologiques permettent de mieux saisir l\u2019origine des sympt\u00f4mes et les m\u00e9canismes en jeu",
+      "text": "Pour bien comprendre l\u2019endom\u00e9triose et ses cons\u00e9quences, il est important de conna\u00eetre quelques notions de base : ce qu\u2019est la maladie, ce que recouvre l\u2019ad\u00e9nomyose, ainsi que le r\u00f4le du p\u00e9ritoine et de l\u2019endom\u00e8tre. Ces rep\u00e8res anatomiques et physiopathologiques permettent de mieux saisir l\u2019origine des sympt\u00f4mes et les m\u00e9canismes en jeu"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces d\u00e9finitions ont \u00e9t\u00e9 valid\u00e9es par un\u00a0membre du\u00a0comit\u00e9 scientifique d\u2019EndoFrance.",
+      "text": "Ces d\u00e9finitions ont \u00e9t\u00e9 valid\u00e9es par un\u00a0membre du\u00a0comit\u00e9 scientifique d\u2019EndoFrance.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les bases : d\u00e9finir l\u2019endom\u00e9triose et l\u2019ad\u00e9nomyose",
+      "text": "Les bases : d\u00e9finir l\u2019endom\u00e9triose et l\u2019ad\u00e9nomyose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose",
+      "text": "Endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019INSERM (Institut nationale de la sant\u00e9 et de la recherche m\u00e9dicale) donne la d\u00e9finition suivante : l\u2019endom\u00e9triose est une maladie caract\u00e9ris\u00e9e par la pr\u00e9sence anormale, en dehors de la cavit\u00e9 ut\u00e9rine, de fragments de tissu semblable \u00e0 celui de la muqueuse de l\u2019ut\u00e9rus. Ces fragments vont s\u2019implanter et prolif\u00e9rer sur de nombreux organes sous l\u2019effet de stimulations hormonales. Les principaux sympt\u00f4mes sont des douleurs (douleurs pelviennes notamment, surtout pendant les r\u00e8gles) et, dans certains cas, une infertilit\u00e9.",
+      "text": "L\u2019INSERM (Institut nationale de la sant\u00e9 et de la recherche m\u00e9dicale) donne la d\u00e9finition suivante : l\u2019endom\u00e9triose est une maladie caract\u00e9ris\u00e9e par la pr\u00e9sence anormale, en dehors de la cavit\u00e9 ut\u00e9rine, de fragments de tissu semblable \u00e0 celui de la muqueuse de l\u2019ut\u00e9rus. Ces fragments vont s\u2019implanter et prolif\u00e9rer sur de nombreux organes sous l\u2019effet de stimulations hormonales. Les principaux sympt\u00f4mes sont des douleurs (douleurs pelviennes notamment, surtout pendant les r\u00e8gles) et, dans certains cas, une infertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chaque mois, au moment des r\u00e8gles, des micro-h\u00e9morragies surviennent au niveau des l\u00e9sions d\u2019endom\u00e9triose. Le sang ainsi accumul\u00e9 \u00e0 l\u2019int\u00e9rieur de l\u2019abdomen ne peut pas \u00eatre \u00e9limin\u00e9, et subit une d\u00e9gradation progressive qui lib\u00e8re des enzymes responsables d\u2019une intense r\u00e9action inflammatoire.",
+      "text": "Chaque mois, au moment des r\u00e8gles, des micro-h\u00e9morragies surviennent au niveau des l\u00e9sions d\u2019endom\u00e9triose. Le sang ainsi accumul\u00e9 \u00e0 l\u2019int\u00e9rieur de l\u2019abdomen ne peut pas \u00eatre \u00e9limin\u00e9, et subit une d\u00e9gradation progressive qui lib\u00e8re des enzymes responsables d\u2019une intense r\u00e9action inflammatoire."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consultez \u00e9galement la page\u00a0D\u00e9finition de l\u2019endom\u00e9triose.",
+      "text": "Consultez \u00e9galement la page\u00a0D\u00e9finition de l\u2019endom\u00e9triose.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Ad\u00e9nomyose",
+      "text": "Ad\u00e9nomyose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019ad\u00e9nomyose est caract\u00e9ris\u00e9e par la pr\u00e9sence anormale de tissu semblable \u00e0 l\u2019endom\u00e8tre (la muqueuse qui tapisse l\u2019int\u00e9rieur de l\u2019ut\u00e9rus) \u00e0 l\u2019int\u00e9rieur du muscle ut\u00e9rin, appel\u00e9 myom\u00e8tre. Cette infiltration provoque un \u00e9paississement et une modification du muscle, pouvant entra\u00eener des r\u00e8gles tr\u00e8s douloureuses, des saignements abondants et parfois des douleurs pelviennes chroniques. Comme l\u2019endom\u00e8tre, ce tissu r\u00e9agit aux hormones du cycle menstruel, ce qui peut expliquer l\u2019apparition ou l\u2019aggravation des sympt\u00f4mes au moment des r\u00e8gles.",
+      "text": "L\u2019ad\u00e9nomyose est caract\u00e9ris\u00e9e par la pr\u00e9sence anormale de tissu semblable \u00e0 l\u2019endom\u00e8tre (la muqueuse qui tapisse l\u2019int\u00e9rieur de l\u2019ut\u00e9rus) \u00e0 l\u2019int\u00e9rieur du muscle ut\u00e9rin, appel\u00e9 myom\u00e8tre. Cette infiltration provoque un \u00e9paississement et une modification du muscle, pouvant entra\u00eener des r\u00e8gles tr\u00e8s douloureuses, des saignements abondants et parfois des douleurs pelviennes chroniques. Comme l\u2019endom\u00e8tre, ce tissu r\u00e9agit aux hormones du cycle menstruel, ce qui peut expliquer l\u2019apparition ou l\u2019aggravation des sympt\u00f4mes au moment des r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consultez \u00e9galement la page\u00a0D\u00e9finition de\u00a0l\u2019ad\u00e9nomyose.",
+      "text": "Consultez \u00e9galement la page\u00a0D\u00e9finition de\u00a0l\u2019ad\u00e9nomyose.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e8tre",
+      "text": "Endom\u00e8tre",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e8tre est la muqueuse qui tapisse l\u2019int\u00e9rieur de l\u2019ut\u00e9rus. Son r\u00f4le principal est de s\u2019\u00e9paissir chaque mois sous l\u2019effet des hormones afin de permettre l\u2019implantation \u00e9ventuelle d\u2019un embryon. En l\u2019absence de grossesse, cette muqueuse se d\u00e9sagr\u00e8ge et s\u2019\u00e9limine lors des menstruations. Le d\u00e9veloppement et la r\u00e9g\u00e9n\u00e9ration de l\u2019endom\u00e8tre n\u00e9cessite l\u2019action de deux hormones secr\u00e9t\u00e9es par l\u2019ovaire: les \u0153strog\u00e8nes et la progest\u00e9rone.",
+      "text": "L\u2019endom\u00e8tre est la muqueuse qui tapisse l\u2019int\u00e9rieur de l\u2019ut\u00e9rus. Son r\u00f4le principal est de s\u2019\u00e9paissir chaque mois sous l\u2019effet des hormones afin de permettre l\u2019implantation \u00e9ventuelle d\u2019un embryon. En l\u2019absence de grossesse, cette muqueuse se d\u00e9sagr\u00e8ge et s\u2019\u00e9limine lors des menstruations. Le d\u00e9veloppement et la r\u00e9g\u00e9n\u00e9ration de l\u2019endom\u00e8tre n\u00e9cessite l\u2019action de deux hormones secr\u00e9t\u00e9es par l\u2019ovaire: les \u0153strog\u00e8nes et la progest\u00e9rone."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "P\u00e9ritoine",
+      "text": "P\u00e9ritoine",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le p\u00e9ritoine est une fine membrane qui tapisse l\u2019int\u00e9rieur du ventre et du bassin, et qui recouvre la plupart des organes qui s\u2019y trouvent, comme l\u2019estomac, les intestins, le foie, l\u2019ut\u00e9rus ou la vessie. Certains organes, comme les reins, sont situ\u00e9s juste derri\u00e8re cette membrane.",
+      "text": "Le p\u00e9ritoine est une fine membrane qui tapisse l\u2019int\u00e9rieur du ventre et du bassin, et qui recouvre la plupart des organes qui s\u2019y trouvent, comme l\u2019estomac, les intestins, le foie, l\u2019ut\u00e9rus ou la vessie. Certains organes, comme les reins, sont situ\u00e9s juste derri\u00e8re cette membrane."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de l\u2019endom\u00e9triose : comprendre les termes m\u00e9dicaux",
+      "text": "Les sympt\u00f4mes de l\u2019endom\u00e9triose : comprendre les termes m\u00e9dicaux",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de l\u2019endom\u00e9triose sont le plus souvent douloureux. Pour mieux les comprendre, on utilise souvent la table des 5D, qui regroupe cinq grandes cat\u00e9gories de douleurs. Chacune de ces cat\u00e9gories peut constituer un signe clinique \u00e9vocateur de la maladie.",
+      "text": "Les sympt\u00f4mes de l\u2019endom\u00e9triose sont le plus souvent douloureux. Pour mieux les comprendre, on utilise souvent la table des 5D, qui regroupe cinq grandes cat\u00e9gories de douleurs. Chacune de ces cat\u00e9gories peut constituer un signe clinique \u00e9vocateur de la maladie."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les formes : Les diff\u00e9rentes localisations possibles de l\u2019endom\u00e9triose",
+      "text": "Les formes : Les diff\u00e9rentes localisations possibles de l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe autant de formes d\u2019endom\u00e9triose que de personnes menstru\u00e9es et de femmes concern\u00e9es. Il n\u2019existe aucune corr\u00e9lation entre l\u2019intensit\u00e9 des douleurs et la forme de la maladie. Il est \u00e9galement possible de pr\u00e9senter plusieurs formes d\u2019endom\u00e9triose simultan\u00e9ment.",
+      "text": "Il existe autant de formes d\u2019endom\u00e9triose que de personnes menstru\u00e9es et de femmes concern\u00e9es. Il n\u2019existe aucune corr\u00e9lation entre l\u2019intensit\u00e9 des douleurs et la forme de la maladie. Il est \u00e9galement possible de pr\u00e9senter plusieurs formes d\u2019endom\u00e9triose simultan\u00e9ment."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dysm\u00e9norrh\u00e9e",
+      "text": "Dysm\u00e9norrh\u00e9e",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Terme utilis\u00e9 pour d\u00e9signer les douleurs qui accompagnent les r\u00e8gles. Elles sont g\u00e9n\u00e9ralement ressenties dans le bas-ventre, le bas du dos ou le haut des cuisses. Dans certains cas, ces douleurs peuvent appara\u00eetre avant le d\u00e9but des r\u00e8gles ou persister apr\u00e8s leur fin. Les dysm\u00e9norrh\u00e9es peuvent \u00eatre li\u00e9es \u00e0 l\u2019endom\u00e9triose, \u00e0 l\u2019ad\u00e9nomyose, ou \u00e0 d\u2019autres situations gyn\u00e9cologiques.",
+      "text": "Terme utilis\u00e9 pour d\u00e9signer les douleurs qui accompagnent les r\u00e8gles. Elles sont g\u00e9n\u00e9ralement ressenties dans le bas-ventre, le bas du dos ou le haut des cuisses. Dans certains cas, ces douleurs peuvent appara\u00eetre avant le d\u00e9but des r\u00e8gles ou persister apr\u00e8s leur fin. Les dysm\u00e9norrh\u00e9es peuvent \u00eatre li\u00e9es \u00e0 l\u2019endom\u00e9triose, \u00e0 l\u2019ad\u00e9nomyose, ou \u00e0 d\u2019autres situations gyn\u00e9cologiques."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dyspareunies",
+      "text": "Dyspareunies",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Terme utilis\u00e9 pour d\u00e9signer les douleurs ressenties pendant ou apr\u00e8s les rapports sexuels. Dans l\u2019endom\u00e9triose, il s\u2019agit le plus souvent de dyspareunies profondes c\u2019est-\u00e0-dire de douleurs situ\u00e9es dans le bas-ventre, ressenties lors de la p\u00e9n\u00e9tration profonde. Ces douleurs peuvent \u00eatre li\u00e9es :",
+      "text": "Terme utilis\u00e9 pour d\u00e9signer les douleurs ressenties pendant ou apr\u00e8s les rapports sexuels. Dans l\u2019endom\u00e9triose, il s\u2019agit le plus souvent de dyspareunies profondes c\u2019est-\u00e0-dire de douleurs situ\u00e9es dans le bas-ventre, ressenties lors de la p\u00e9n\u00e9tration profonde. Ces douleurs peuvent \u00eatre li\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 des l\u00e9sions situ\u00e9es pr\u00e8s du vagin ou au niveau de la cloison recto-vaginale ;",
+      "text": "\u00e0 des l\u00e9sions situ\u00e9es pr\u00e8s du vagin ou au niveau de la cloison recto-vaginale ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 des l\u00e9sions situ\u00e9es pr\u00e8s du vagin ou au niveau de la cloison recto-vaginale ;",
+      "text": "\u00e0 des l\u00e9sions situ\u00e9es pr\u00e8s du vagin ou au niveau de la cloison recto-vaginale ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 une inflammation provoqu\u00e9e par une endom\u00e9triose superficielle en regard du fond vaginal ;",
+      "text": "\u00e0 une inflammation provoqu\u00e9e par une endom\u00e9triose superficielle en regard du fond vaginal ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 une inflammation provoqu\u00e9e par une endom\u00e9triose superficielle en regard du fond vaginal ;",
+      "text": "\u00e0 une inflammation provoqu\u00e9e par une endom\u00e9triose superficielle en regard du fond vaginal ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou, dans certains cas, \u00e0 une ad\u00e9nomyose s\u00e9v\u00e8re.",
+      "text": "ou, dans certains cas, \u00e0 une ad\u00e9nomyose s\u00e9v\u00e8re.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 une inflammation provoqu\u00e9e par une endom\u00e9triose superficielle en regard du fond vaginal ;",
+      "text": "\u00e0 une inflammation provoqu\u00e9e par une endom\u00e9triose superficielle en regard du fond vaginal ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dysch\u00e9sies",
+      "text": "Dysch\u00e9sies",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Terme employ\u00e9 pour exprimer une\u00a0",
+      "text": "Terme employ\u00e9 pour exprimer une\u00a0"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "difficult\u00e9 douloureuse pour \u00e9liminer les selles",
+      "text": "difficult\u00e9 douloureuse pour \u00e9liminer les selles",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Les dysch\u00e9sies t\u00e9moignent souvent de l\u00e9sions situ\u00e9es au niveau de la cloison recto-vaginale qui touchent le rectum, mais elles peuvent \u00eatre \u00e9galement le r\u00e9sultat de l\u2019inflammation qui accompagne une endom\u00e9triose superficielle localis\u00e9e \u00e0 proximit\u00e9 du rectum.",
+      "text": ". Les dysch\u00e9sies t\u00e9moignent souvent de l\u00e9sions situ\u00e9es au niveau de la cloison recto-vaginale qui touchent le rectum, mais elles peuvent \u00eatre \u00e9galement le r\u00e9sultat de l\u2019inflammation qui accompagne une endom\u00e9triose superficielle localis\u00e9e \u00e0 proximit\u00e9 du rectum."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Troubles de transit catam\u00e9niaux",
+      "text": "Troubles de transit catam\u00e9niaux",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Terme utilis\u00e9 pour d\u00e9crire les modifications du transit intestinal qui apparaissent au moment des r\u00e8gles. Ces troubles peuvent se manifester par des diarrh\u00e9es (selles plus fr\u00e9quentes ou plus molles), mais aussi par de la constipation catam\u00e9niale, qui est \u00e9galement fr\u00e9quemment rapport\u00e9e par les patientes.",
+      "text": "Terme utilis\u00e9 pour d\u00e9crire les modifications du transit intestinal qui apparaissent au moment des r\u00e8gles. Ces troubles peuvent se manifester par des diarrh\u00e9es (selles plus fr\u00e9quentes ou plus molles), mais aussi par de la constipation catam\u00e9niale, qui est \u00e9galement fr\u00e9quemment rapport\u00e9e par les patientes."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces sympt\u00f4mes sont typiques en cas d\u2019endom\u00e9triose digestive, mais ils peuvent aussi r\u00e9sulter de l\u2019inflammation li\u00e9e \u00e0 une endom\u00e9triose superficielle situ\u00e9e pr\u00e8s du rectum.",
+      "text": "Ces sympt\u00f4mes sont typiques en cas d\u2019endom\u00e9triose digestive, mais ils peuvent aussi r\u00e9sulter de l\u2019inflammation li\u00e9e \u00e0 une endom\u00e9triose superficielle situ\u00e9e pr\u00e8s du rectum."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il est \u00e9galement fr\u00e9quent que des patientes pr\u00e9sentant une endom\u00e9triose aient, en parall\u00e8le, des troubles digestifs fonctionnels (comme le syndrome de l\u2019intestin irritable), ou plus rarement une maladie digestive inflammatoire (maladie de Crohn, rectocolite h\u00e9morragique). Certaines \u00e9tudes estiment que 50 \u00e0 60 % des patientes concern\u00e9es peuvent pr\u00e9senter des sympt\u00f4mes digestifs associ\u00e9s.",
+      "text": "Il est \u00e9galement fr\u00e9quent que des patientes pr\u00e9sentant une endom\u00e9triose aient, en parall\u00e8le, des troubles digestifs fonctionnels (comme le syndrome de l\u2019intestin irritable), ou plus rarement une maladie digestive inflammatoire (maladie de Crohn, rectocolite h\u00e9morragique). Certaines \u00e9tudes estiment que 50 \u00e0 60 % des patientes concern\u00e9es peuvent pr\u00e9senter des sympt\u00f4mes digestifs associ\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Dysuries",
+      "text": "Dysuries",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Terme employ\u00e9 pour d\u00e9signer des difficult\u00e9s,\u00a0",
+      "text": "Terme employ\u00e9 pour d\u00e9signer des difficult\u00e9s,\u00a0"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des troubles au moment de la miction",
+      "text": "des troubles au moment de la miction",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0(action d\u2019uriner). Ces troubles peuvent s\u2019accompagner de douleurs qui t\u00e9moignent de l\u00e9sions situ\u00e9es sur la vessie. Dans certains cas, les dysuries sont le r\u00e9sultat de l\u2019atteinte des nerfs de la vessie par une endom\u00e9triose de la cloison recto-vaginale.",
+      "text": "\u00a0(action d\u2019uriner). Ces troubles peuvent s\u2019accompagner de douleurs qui t\u00e9moignent de l\u00e9sions situ\u00e9es sur la vessie. Dans certains cas, les dysuries sont le r\u00e9sultat de l\u2019atteinte des nerfs de la vessie par une endom\u00e9triose de la cloison recto-vaginale."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pollakiurie",
+      "text": "Pollakiurie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mictions fr\u00e9quentes",
+      "text": "Mictions fr\u00e9quentes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", surtout si accompagn\u00e9es de levers nocturnes. Elle peut \u00eatre le r\u00e9sultat d\u2019une atteinte s\u00e9v\u00e8re de la vessie par une endom\u00e9triose profonde, ou simplement celui de l\u2019irritation de la vessie par une endom\u00e9triose superficielle. Assez souvent, il s\u2019agit d\u2019une pathologie urinaire associ\u00e9e \u00e0 l\u2019endom\u00e9triose et appel\u00e9e \u00ab bladder pain syndrome \u00bb ou \u00ab cystite interstitielle \u00bb. Cette pathologie n\u00e9cessite une prise en charge sp\u00e9cialis\u00e9e en urologie.",
+      "text": ", surtout si accompagn\u00e9es de levers nocturnes. Elle peut \u00eatre le r\u00e9sultat d\u2019une atteinte s\u00e9v\u00e8re de la vessie par une endom\u00e9triose profonde, ou simplement celui de l\u2019irritation de la vessie par une endom\u00e9triose superficielle. Assez souvent, il s\u2019agit d\u2019une pathologie urinaire associ\u00e9e \u00e0 l\u2019endom\u00e9triose et appel\u00e9e \u00ab bladder pain syndrome \u00bb ou \u00ab cystite interstitielle \u00bb. Cette pathologie n\u00e9cessite une prise en charge sp\u00e9cialis\u00e9e en urologie."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Douleurs pelviennes chroniques",
+      "text": "Douleurs pelviennes chroniques",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Terme utilis\u00e9 pour d\u00e9signer des douleurs persistantes ou r\u00e9currentes qui ne sont plus rythm\u00e9es par le cycle menstruel. Elles sont localis\u00e9es dans la r\u00e9gion pelvienne, c\u2019est-\u00e0-dire la partie basse du ventre, o\u00f9 se situent la vessie, l\u2019ut\u00e9rus, les trompes, les ovaires et le rectum.",
+      "text": "Terme utilis\u00e9 pour d\u00e9signer des douleurs persistantes ou r\u00e9currentes qui ne sont plus rythm\u00e9es par le cycle menstruel. Elles sont localis\u00e9es dans la r\u00e9gion pelvienne, c\u2019est-\u00e0-dire la partie basse du ventre, o\u00f9 se situent la vessie, l\u2019ut\u00e9rus, les trompes, les ovaires et le rectum."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces douleurs sont souvent complexes \u00e0 traiter. Elles peuvent concerner des formes s\u00e9v\u00e8res d\u2019endom\u00e9triose, des situations multi-op\u00e9r\u00e9es, ou des patientes pr\u00e9sentant d\u2019autres pathologies douloureuses abdomino-pelviennes associ\u00e9es (syndrome de l\u2019intestin irritable, bladder pain syndrome, n\u00e9vralgie pudendale, fibromyalgie, troubles musculo-squelettiques, etc.).",
+      "text": "Ces douleurs sont souvent complexes \u00e0 traiter. Elles peuvent concerner des formes s\u00e9v\u00e8res d\u2019endom\u00e9triose, des situations multi-op\u00e9r\u00e9es, ou des patientes pr\u00e9sentant d\u2019autres pathologies douloureuses abdomino-pelviennes associ\u00e9es (syndrome de l\u2019intestin irritable, bladder pain syndrome, n\u00e9vralgie pudendale, fibromyalgie, troubles musculo-squelettiques, etc.)."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles peuvent \u00eatre li\u00e9es :",
+      "text": "Elles peuvent \u00eatre li\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 une composante neuropathique (douleurs provenant des nerfs p\u00e9riph\u00e9riques) ;",
+      "text": "\u00e0 une composante neuropathique (douleurs provenant des nerfs p\u00e9riph\u00e9riques) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 des adh\u00e9rences ;",
+      "text": "\u00e0 des adh\u00e9rences ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou \u00e0 des cicatrices post-chirurgicales.",
+      "text": "ou \u00e0 des cicatrices post-chirurgicales.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce type de douleurs n\u00e9cessite une prise en charge sp\u00e9cialis\u00e9e, souvent dans un centre de la douleur, o\u00f9 une \u00e9valuation globale et des traitements adapt\u00e9s peuvent \u00eatre propos\u00e9s.",
+      "text": "Ce type de douleurs n\u00e9cessite une prise en charge sp\u00e9cialis\u00e9e, souvent dans un centre de la douleur, o\u00f9 une \u00e9valuation globale et des traitements adapt\u00e9s peuvent \u00eatre propos\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose superficielle",
+      "text": "Endom\u00e9triose superficielle",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose superficielle correspond \u00e0 la pr\u00e9sence de petites l\u00e9sions situ\u00e9es \u00e0 la surface du p\u00e9ritoine, la membrane qui tapisse l\u2019int\u00e9rieur du ventre et du bassin. Ces l\u00e9sions sont souvent millim\u00e9triques, parfois difficiles \u00e0 voir lors des examens, mais elles peuvent provoquer des douleurs importantes.",
+      "text": "L\u2019endom\u00e9triose superficielle correspond \u00e0 la pr\u00e9sence de petites l\u00e9sions situ\u00e9es \u00e0 la surface du p\u00e9ritoine, la membrane qui tapisse l\u2019int\u00e9rieur du ventre et du bassin. Ces l\u00e9sions sont souvent millim\u00e9triques, parfois difficiles \u00e0 voir lors des examens, mais elles peuvent provoquer des douleurs importantes."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose profonde",
+      "text": "Endom\u00e9triose profonde",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose profonde d\u00e9signe des l\u00e9sions situ\u00e9es sous la surface du p\u00e9ritoine, g\u00e9n\u00e9ralement \u00e0 plus de 5 mm de profondeur, et pouvant atteindre diff\u00e9rentes structures anatomiques pelviennes telles que les ligaments ut\u00e9ro-sacr\u00e9s, la cloison recto-vaginale, le vagin, le rectum ou la vessie.",
+      "text": "L\u2019endom\u00e9triose profonde d\u00e9signe des l\u00e9sions situ\u00e9es sous la surface du p\u00e9ritoine, g\u00e9n\u00e9ralement \u00e0 plus de 5 mm de profondeur, et pouvant atteindre diff\u00e9rentes structures anatomiques pelviennes telles que les ligaments ut\u00e9ro-sacr\u00e9s, la cloison recto-vaginale, le vagin, le rectum ou la vessie."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triome",
+      "text": "Endom\u00e9triome",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les endom\u00e9triomes sont des l\u00e9sions kystiques contenant un liquide \u00e9pais de couleur chocolat. Leur d\u00e9veloppement se fait sous la forme d\u2019une \u00ab invagination \u00bb du tissu endom\u00e9trial qui \u00ab refoule \u00bb progressivement le tissu ovarien.",
+      "text": "Les endom\u00e9triomes sont des l\u00e9sions kystiques contenant un liquide \u00e9pais de couleur chocolat. Leur d\u00e9veloppement se fait sous la forme d\u2019une \u00ab invagination \u00bb du tissu endom\u00e9trial qui \u00ab refoule \u00bb progressivement le tissu ovarien."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose thoracique",
+      "text": "Endom\u00e9triose thoracique",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose thoracique correspond \u00e0 la pr\u00e9sence de de cellules semblables \u00e0 l\u2019endom\u00e8tre au niveau de la cavit\u00e9 thoracique. Elle peut toucher la pl\u00e8vre, le diaphragme ou, plus rarement, les poumons. Cette forme, moins fr\u00e9quente, peut provoquer des sympt\u00f4mes survenant souvent en p\u00e9riode menstruelle, tels que douleurs thoraciques, difficult\u00e9 respiratoire, toux sanguinolente ou collapsus pulmonaire catam\u00e9nial (pneumothorax survenant pendant les r\u00e8gles). L\u2019endom\u00e9triose thoracique est g\u00e9n\u00e9ralement associ\u00e9e \u00e0 une endom\u00e9triose pelvienne profonde ou \u00e9tendue, et n\u00e9cessite une prise en charge multidisciplinaire.",
+      "text": "L\u2019endom\u00e9triose thoracique correspond \u00e0 la pr\u00e9sence de de cellules semblables \u00e0 l\u2019endom\u00e8tre au niveau de la cavit\u00e9 thoracique. Elle peut toucher la pl\u00e8vre, le diaphragme ou, plus rarement, les poumons. Cette forme, moins fr\u00e9quente, peut provoquer des sympt\u00f4mes survenant souvent en p\u00e9riode menstruelle, tels que douleurs thoraciques, difficult\u00e9 respiratoire, toux sanguinolente ou collapsus pulmonaire catam\u00e9nial (pneumothorax survenant pendant les r\u00e8gles). L\u2019endom\u00e9triose thoracique est g\u00e9n\u00e9ralement associ\u00e9e \u00e0 une endom\u00e9triose pelvienne profonde ou \u00e9tendue, et n\u00e9cessite une prise en charge multidisciplinaire."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose pari\u00e9tale",
+      "text": "Endom\u00e9triose pari\u00e9tale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose pari\u00e9tale correspond \u00e0 la pr\u00e9sence de cellules semblables \u00e0 l\u2019endom\u00e8tre au niveau de la paroi abdominale. Cette forme survient le plus souvent sur ou \u00e0 proximit\u00e9 d\u2019une cicatrice, notamment apr\u00e8s une chirurgie gyn\u00e9cologique ou obst\u00e9tricale (comme une c\u00e9sarienne, une laparotomie ou parfois une laparoscopie).",
+      "text": "L\u2019endom\u00e9triose pari\u00e9tale correspond \u00e0 la pr\u00e9sence de cellules semblables \u00e0 l\u2019endom\u00e8tre au niveau de la paroi abdominale. Cette forme survient le plus souvent sur ou \u00e0 proximit\u00e9 d\u2019une cicatrice, notamment apr\u00e8s une chirurgie gyn\u00e9cologique ou obst\u00e9tricale (comme une c\u00e9sarienne, une laparotomie ou parfois une laparoscopie)."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pour aller plus loin",
+      "text": "Pour aller plus loin",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Adh\u00e9rences endom\u00e9triosiques",
+      "text": "Adh\u00e9rences endom\u00e9triosiques",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les adh\u00e9rences sont g\u00e9n\u00e9ralement la cons\u00e9quence des ph\u00e9nom\u00e8nes inflammatoires cycliques, qui entra\u00eenent des accolements de diff\u00e9rentes structures anatomiques (les ovaires \u00e0 l\u2019ut\u00e9rus, le colon \u00e0 l\u2019ut\u00e9rus, etc.).",
+      "text": "Les adh\u00e9rences sont g\u00e9n\u00e9ralement la cons\u00e9quence des ph\u00e9nom\u00e8nes inflammatoires cycliques, qui entra\u00eenent des accolements de diff\u00e9rentes structures anatomiques (les ovaires \u00e0 l\u2019ut\u00e9rus, le colon \u00e0 l\u2019ut\u00e9rus, etc.)."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Nodules endom\u00e9triosiques",
+      "text": "Nodules endom\u00e9triosiques",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les nodules d\u2019endom\u00e9triose sont des l\u00e9sions qui s\u2019infiltrent en profondeur, au-del\u00e0 du p\u00e9ritoine, et peuvent concerner certains organes voisins comme le vagin, le rectum, l\u2019intestin, la vessie ou les uret\u00e8res.",
+      "text": "Les nodules d\u2019endom\u00e9triose sont des l\u00e9sions qui s\u2019infiltrent en profondeur, au-del\u00e0 du p\u00e9ritoine, et peuvent concerner certains organes voisins comme le vagin, le rectum, l\u2019intestin, la vessie ou les uret\u00e8res."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles se pr\u00e9sentent souvent sous forme de nodules, compos\u00e9s en grande partie de tissu fibreux. Le tissu endom\u00e9trial sensible aux hormones y est g\u00e9n\u00e9ralement moins pr\u00e9sent que dans d\u2019autres formes d\u2019endom\u00e9triose. Cette composition explique que ces l\u00e9sions puissent \u00eatre moins sensibles aux traitements hormonaux que les l\u00e9sions plus superficielles.",
+      "text": "Elles se pr\u00e9sentent souvent sous forme de nodules, compos\u00e9s en grande partie de tissu fibreux. Le tissu endom\u00e9trial sensible aux hormones y est g\u00e9n\u00e9ralement moins pr\u00e9sent que dans d\u2019autres formes d\u2019endom\u00e9triose. Cette composition explique que ces l\u00e9sions puissent \u00eatre moins sensibles aux traitements hormonaux que les l\u00e9sions plus superficielles."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les traitements hormonaux, notamment ceux qui induisent une am\u00e9norrh\u00e9e (absence de r\u00e8gles) peuvent contribuer \u00e0 diminuer les douleurs, limiter l\u2019inflammation et stabiliser l\u2019\u00e9volution de la maladie. En revanche, ils entra\u00eenent rarement la disparition compl\u00e8te des nodules profonds.",
+      "text": "Les traitements hormonaux, notamment ceux qui induisent une am\u00e9norrh\u00e9e (absence de r\u00e8gles) peuvent contribuer \u00e0 diminuer les douleurs, limiter l\u2019inflammation et stabiliser l\u2019\u00e9volution de la maladie. En revanche, ils entra\u00eenent rarement la disparition compl\u00e8te des nodules profonds."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Nodules profonds endom\u00e9triosiques",
+      "text": "Nodules profonds endom\u00e9triosiques",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Terme employ\u00e9 pour d\u00e9finir des l\u00e9sions profondes, constitu\u00e9es d\u2019un fort contingent de tissu fibreux (responsable de leur consistance dure) et d\u2019un pourcentage variable de tissu endom\u00e9trial (responsable de leur croissance au moment des r\u00e8gles). Les nodules profonds ont une forte tendance \u00e0 infiltrer les organes voisins. Ils concernent souvent la partie sup\u00e9rieure et post\u00e9rieure du vagin, la face ant\u00e9rolat\u00e9rale du rectum, les uret\u00e8res, les ligaments ut\u00e9ro-sacr\u00e9s (amarrant l\u2019ut\u00e9rus vers l\u2019arri\u00e8re), la vessie, ou ailleurs dans la cavit\u00e9 abdominale. G\u00e9n\u00e9ralement, les nodules situ\u00e9s au niveau du vagin, du rectum et des uret\u00e8res peuvent \u00eatre palp\u00e9s lors d\u2019un examen gyn\u00e9cologique minutieux, sous la forme de petits pois sensibles au contact.",
+      "text": "Terme employ\u00e9 pour d\u00e9finir des l\u00e9sions profondes, constitu\u00e9es d\u2019un fort contingent de tissu fibreux (responsable de leur consistance dure) et d\u2019un pourcentage variable de tissu endom\u00e9trial (responsable de leur croissance au moment des r\u00e8gles). Les nodules profonds ont une forte tendance \u00e0 infiltrer les organes voisins. Ils concernent souvent la partie sup\u00e9rieure et post\u00e9rieure du vagin, la face ant\u00e9rolat\u00e9rale du rectum, les uret\u00e8res, les ligaments ut\u00e9ro-sacr\u00e9s (amarrant l\u2019ut\u00e9rus vers l\u2019arri\u00e8re), la vessie, ou ailleurs dans la cavit\u00e9 abdominale. G\u00e9n\u00e9ralement, les nodules situ\u00e9s au niveau du vagin, du rectum et des uret\u00e8res peuvent \u00eatre palp\u00e9s lors d\u2019un examen gyn\u00e9cologique minutieux, sous la forme de petits pois sensibles au contact."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les outils du diagnostic : les examens radiologiques.",
+      "text": "Les outils du diagnostic : les examens radiologiques.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les examens d\u2019imagerie occupent une place essentielle dans le diagnostic de l\u2019endom\u00e9triose.",
+      "text": "Les examens d\u2019imagerie occupent une place essentielle dans le diagnostic de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En 2025, la Soci\u00e9t\u00e9 d\u2019Imagerie de la Femme (SIFEM), la Soci\u00e9t\u00e9 Fran\u00e7aise de Radiologie (SFR) et le Conseil National Professionnel (CNP) de Radiologie, en collaboration avec le Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), ont actualis\u00e9 les recommandations relatives aux bonnes pratiques en \u00e9chographie et en IRM dans l\u2019endom\u00e9triose. Le 15 mai 2025, la Haute Autorit\u00e9 de Sant\u00e9 (HAS) a publi\u00e9 l\u2019actualisation de ses recommandations de bonne pratique \u00ab Actualisation de la place des diff\u00e9rents examens d\u2019imagerie pour le diagnostic d\u2019endom\u00e9triose\u00ab , qui pr\u00e9cise la place respective des diff\u00e9rents examens d\u2019imagerie.",
+      "text": "En 2025, la Soci\u00e9t\u00e9 d\u2019Imagerie de la Femme (SIFEM), la Soci\u00e9t\u00e9 Fran\u00e7aise de Radiologie (SFR) et le Conseil National Professionnel (CNP) de Radiologie, en collaboration avec le Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), ont actualis\u00e9 les recommandations relatives aux bonnes pratiques en \u00e9chographie et en IRM dans l\u2019endom\u00e9triose. Le 15 mai 2025, la Haute Autorit\u00e9 de Sant\u00e9 (HAS) a publi\u00e9 l\u2019actualisation de ses recommandations de bonne pratique \u00ab Actualisation de la place des diff\u00e9rents examens d\u2019imagerie pour le diagnostic d\u2019endom\u00e9triose\u00ab , qui pr\u00e9cise la place respective des diff\u00e9rents examens d\u2019imagerie."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9chographie sus pubienne  / \u00c9chographie endovaginale",
+      "text": "\u00c9chographie sus pubienne  / \u00c9chographie endovaginale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019\u00e9chographie est un examen d\u2019imagerie utilisant les ultrasons pour visualiser les organes internes. Pour explorer plus pr\u00e9cis\u00e9ment l\u2019ut\u00e9rus, les ovaires et la r\u00e9gion pelvienne. Une fine sonde est introduite dans le vagin afin d\u2019obtenir des images d\u00e9taill\u00e9es. L\u2019\u00e9chographie est particuli\u00e8rement utile pour d\u00e9tecter la pr\u00e9sence de kystes ovariens (endom\u00e9triomes) et certaines l\u00e9sions d\u2019endom\u00e9triose. Toutefois, des l\u00e9sions superficielles ou tr\u00e8s petites peuvent ne pas \u00eatre visibles. L\u2019\u00e9chographie endovaginale est ",
+      "text": "L\u2019\u00e9chographie est un examen d\u2019imagerie utilisant les ultrasons pour visualiser les organes internes. Pour explorer plus pr\u00e9cis\u00e9ment l\u2019ut\u00e9rus, les ovaires et la r\u00e9gion pelvienne. Une fine sonde est introduite dans le vagin afin d\u2019obtenir des images d\u00e9taill\u00e9es. L\u2019\u00e9chographie est particuli\u00e8rement utile pour d\u00e9tecter la pr\u00e9sence de kystes ovariens (endom\u00e9triomes) et certaines l\u00e9sions d\u2019endom\u00e9triose. Toutefois, des l\u00e9sions superficielles ou tr\u00e8s petites peuvent ne pas \u00eatre visibles. L\u2019\u00e9chographie endovaginale est "
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u2019examen d\u2019imagerie de premi\u00e8re intention",
+      "text": "l\u2019examen d\u2019imagerie de premi\u00e8re intention",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " dans le cadre de la suspicion d\u2019endom\u00e9triose. Elle doit \u00eatre r\u00e9alis\u00e9e par un radiologue form\u00e9.",
+      "text": " dans le cadre de la suspicion d\u2019endom\u00e9triose. Elle doit \u00eatre r\u00e9alis\u00e9e par un radiologue form\u00e9."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "IRM",
+      "text": "IRM",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019IRM est une technique d\u2019imagerie qui utilise un champ magn\u00e9tique et des ondes radio pour produire des images en 2D ou 3D, particuli\u00e8rement performantes pour l\u2019\u00e9tude des tissus mous (ut\u00e9rus, ovaires, rectum, vessie, ligaments pelviens, etc.).",
+      "text": "L\u2019IRM est une technique d\u2019imagerie qui utilise un champ magn\u00e9tique et des ondes radio pour produire des images en 2D ou 3D, particuli\u00e8rement performantes pour l\u2019\u00e9tude des tissus mous (ut\u00e9rus, ovaires, rectum, vessie, ligaments pelviens, etc.)."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le cadre de l\u2019endom\u00e9triose, l\u2019IRM permet :",
+      "text": "Dans le cadre de l\u2019endom\u00e9triose, l\u2019IRM permet :"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "de visualiser les ",
+      "text": "de visualiser les "
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "kystes ovariens (endom\u00e9triomes)",
+      "text": "kystes ovariens (endom\u00e9triomes)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ;",
+      "text": " ;"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019identifier des ",
+      "text": "d\u2019identifier des "
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u00e9sions profondes",
+      "text": "l\u00e9sions profondes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (ligaments ut\u00e9ro-sacr\u00e9s, cloison recto-vaginale, rectum, vessie) ;",
+      "text": " (ligaments ut\u00e9ro-sacr\u00e9s, cloison recto-vaginale, rectum, vessie) ;"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "de compl\u00e9ter l\u2019\u00e9chographie endovaginale en recherchant des atteintes invisibles lors du premier examen.",
+      "text": "de compl\u00e9ter l\u2019\u00e9chographie endovaginale en recherchant des atteintes invisibles lors du premier examen.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019IRM ne remplace pas l\u2019\u00e9chographie endovaginale, mais intervient en ",
+      "text": "L\u2019IRM ne remplace pas l\u2019\u00e9chographie endovaginale, mais intervient en "
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "deuxi\u00e8me intention",
+      "text": "deuxi\u00e8me intention",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "C\u0153lioscopie (ou laparoscopie)",
+      "text": "C\u0153lioscopie (ou laparoscopie)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Technique chirurgicale, mini-invasive. Elle consiste en l\u2019introduction d\u2019une petite cam\u00e9ra via le nombril, et de diff\u00e9rents instruments via des incisions de 5 \u00e0 10 mm. Dans le cadre d\u2019une endom\u00e9triose, la c\u0153lioscopie appara\u00eet comme l\u2019examen de r\u00e9f\u00e9rence pour la pose d\u2019un diagnostic complet. Elle permet en effet de visualiser directement les l\u00e9sions, de pr\u00e9lever des biopsies afin de confirmer le diagnostic et de r\u00e9aliser des interventions chirurgicales curatives extr\u00eamement complexes.",
+      "text": "Technique chirurgicale, mini-invasive. Elle consiste en l\u2019introduction d\u2019une petite cam\u00e9ra via le nombril, et de diff\u00e9rents instruments via des incisions de 5 \u00e0 10 mm. Dans le cadre d\u2019une endom\u00e9triose, la c\u0153lioscopie appara\u00eet comme l\u2019examen de r\u00e9f\u00e9rence pour la pose d\u2019un diagnostic complet. Elle permet en effet de visualiser directement les l\u00e9sions, de pr\u00e9lever des biopsies afin de confirmer le diagnostic et de r\u00e9aliser des interventions chirurgicales curatives extr\u00eamement complexes."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter : les derni\u00e8res recommandations pour la pratique clinique de l\u2019endom\u00e9triose ne sont pas en faveur de la coelioscopie a vis\u00e9e diagnostique. Elle ne doit \u00eatre envisag\u00e9e que si un geste chirurgical justifi\u00e9 y est associ\u00e9.",
+      "text": "A noter : les derni\u00e8res recommandations pour la pratique clinique de l\u2019endom\u00e9triose ne sont pas en faveur de la coelioscopie a vis\u00e9e diagnostique. Elle ne doit \u00eatre envisag\u00e9e que si un geste chirurgical justifi\u00e9 y est associ\u00e9.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Laparotomie ou laparatomie",
+      "text": "Laparotomie ou laparatomie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est un acte chirurgical qui consiste \u00e0 ouvrir l\u2019abdomen de mani\u00e8re horizontale ou verticale afin d\u2019acc\u00e9der \u00e0 la cavit\u00e9 abdominale. Longtemps utilis\u00e9e dans le cadre du traitement chirurgical de l\u2019endom\u00e9triose, la laparotomie a progressivement c\u00e9d\u00e9 sa place \u00e0 la coeliosocopie. Aujourd\u2019hui et sauf urgence, c\u2019est la coelioscopie qui est privil\u00e9gi\u00e9e.",
+      "text": "C\u2019est un acte chirurgical qui consiste \u00e0 ouvrir l\u2019abdomen de mani\u00e8re horizontale ou verticale afin d\u2019acc\u00e9der \u00e0 la cavit\u00e9 abdominale. Longtemps utilis\u00e9e dans le cadre du traitement chirurgical de l\u2019endom\u00e9triose, la laparotomie a progressivement c\u00e9d\u00e9 sa place \u00e0 la coeliosocopie. Aujourd\u2019hui et sauf urgence, c\u2019est la coelioscopie qui est privil\u00e9gi\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Hyst\u00e9rographie ou hyst\u00e9rosalpingographie",
+      "text": "Hyst\u00e9rographie ou hyst\u00e9rosalpingographie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Examen radiologique de l\u2019ut\u00e9rus et des trompes, utilisant les rayons X et effectu\u00e9 apr\u00e8s l\u2019introduction, via une petite sonde, d\u2019un liquide opaque dans le col de l\u2019ut\u00e9rus. L\u2019hyst\u00e9rographie permet ainsi de rechercher les malformations ut\u00e9rines, les d\u00e9formations de la cavit\u00e9 ut\u00e9rine par des adh\u00e9rences ou la perm\u00e9abilit\u00e9 des trompes. Cet examen, qui a un r\u00f4le important dans l\u2019exploration d\u2019une infertilit\u00e9, n**\u2019est toutefois pas recommand\u00e9 en premi\u00e8re intention pour le diagnostic d\u2019une endom\u00e9triose.**",
+      "text": "Examen radiologique de l\u2019ut\u00e9rus et des trompes, utilisant les rayons X et effectu\u00e9 apr\u00e8s l\u2019introduction, via une petite sonde, d\u2019un liquide opaque dans le col de l\u2019ut\u00e9rus. L\u2019hyst\u00e9rographie permet ainsi de rechercher les malformations ut\u00e9rines, les d\u00e9formations de la cavit\u00e9 ut\u00e9rine par des adh\u00e9rences ou la perm\u00e9abilit\u00e9 des trompes. Cet examen, qui a un r\u00f4le important dans l\u2019exploration d\u2019une infertilit\u00e9, n**\u2019est toutefois pas recommand\u00e9 en premi\u00e8re intention pour le diagnostic d\u2019une endom\u00e9triose.**"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9chographie endorectale",
+      "text": "\u00c9chographie endorectale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e9alisation d\u2019une \u00e9chographie pelvienne \u00e0 l\u2019aide d\u2019une sonde fine qui est introduite dans le rectum. Cet examen est r\u00e9serv\u00e9 \u00e0 l\u2019exploration des l\u00e9sions d\u2019endom\u00e9triose profonde qui pourraient concerner le rectum, jusqu\u2019\u00e0 25 cm au dessus de l\u2019anus.",
+      "text": "R\u00e9alisation d\u2019une \u00e9chographie pelvienne \u00e0 l\u2019aide d\u2019une sonde fine qui est introduite dans le rectum. Cet examen est r\u00e9serv\u00e9 \u00e0 l\u2019exploration des l\u00e9sions d\u2019endom\u00e9triose profonde qui pourraient concerner le rectum, jusqu\u2019\u00e0 25 cm au dessus de l\u2019anus."
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Coloscanner \u00e0 l\u2019air, coloscopie virtuelle, uroscanner",
+      "text": "Coloscanner \u00e0 l\u2019air, coloscopie virtuelle, uroscanner",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Examens par tomographie comput\u00e9ris\u00e9e, qui r\u00e9alisent une exploration fine de l\u2019ensemble du rectum et du colon, respectivement des uret\u00e8res, dans le cas de certaines formes s\u00e9v\u00e8res d\u2019endom\u00e9triose profonde.",
+      "text": "Examens par tomographie comput\u00e9ris\u00e9e, qui r\u00e9alisent une exploration fine de l\u2019ensemble du rectum et du colon, respectivement des uret\u00e8res, dans le cas de certaines formes s\u00e9v\u00e8res d\u2019endom\u00e9triose profonde."
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les examens compl\u00e9mentaires et techniques chirurgicales",
+      "text": "Les examens compl\u00e9mentaires et techniques chirurgicales",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les examens compl\u00e9mentaires permettent d\u2019affiner le diagnostic, d\u2019\u00e9valuer l\u2019\u00e9tendue des l\u00e9sions et d\u2019orienter la prise en charge la plus adapt\u00e9e \u00e0 chaque patiente.",
+      "text": "Les examens compl\u00e9mentaires permettent d\u2019affiner le diagnostic, d\u2019\u00e9valuer l\u2019\u00e9tendue des l\u00e9sions et d\u2019orienter la prise en charge la plus adapt\u00e9e \u00e0 chaque patiente."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c9chographie endorectale",
+      "text": "\u00c9chographie endorectale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s\u2019agit d\u2019une \u00e9chographie r\u00e9alis\u00e9e \u00e0 l\u2019aide d\u2019une sonde fine introduite dans le rectum. Cet examen permet d\u2019explorer de fa\u00e7on pr\u00e9cise les l\u00e9sions d\u2019endom\u00e9triose profonde susceptibles d\u2019atteindre la paroi du rectum ou la jonction recto-sigmo\u00efdienne, jusqu\u2019\u00e0 environ 25 cm au-dessus de l\u2019anus. L\u2019\u00e9chographie endorectale est particuli\u00e8rement utile pour \u00e9valuer la profondeur d\u2019infiltration rectale et pr\u00e9ciser l\u2019extension des l\u00e9sions avant une prise en charge sp\u00e9cialis\u00e9e.",
+      "text": "Il s\u2019agit d\u2019une \u00e9chographie r\u00e9alis\u00e9e \u00e0 l\u2019aide d\u2019une sonde fine introduite dans le rectum. Cet examen permet d\u2019explorer de fa\u00e7on pr\u00e9cise les l\u00e9sions d\u2019endom\u00e9triose profonde susceptibles d\u2019atteindre la paroi du rectum ou la jonction recto-sigmo\u00efdienne, jusqu\u2019\u00e0 environ 25 cm au-dessus de l\u2019anus. L\u2019\u00e9chographie endorectale est particuli\u00e8rement utile pour \u00e9valuer la profondeur d\u2019infiltration rectale et pr\u00e9ciser l\u2019extension des l\u00e9sions avant une prise en charge sp\u00e9cialis\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Hyst\u00e9rographie ou hyst\u00e9rosalpingographie",
+      "text": "Hyst\u00e9rographie ou hyst\u00e9rosalpingographie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Examen radiologique de l\u2019ut\u00e9rus et des trompes, utilisant les rayons X et effectu\u00e9 apr\u00e8s l\u2019introduction, via une petite sonde, d\u2019un liquide opaque dans le col de l\u2019ut\u00e9rus. L\u2019hyst\u00e9rographie permet ainsi de rechercher les malformations ut\u00e9rines, les d\u00e9formations de la cavit\u00e9 ut\u00e9rine par des adh\u00e9rences ou la perm\u00e9abilit\u00e9 des trompes. Cet examen, qui a un r\u00f4le important dans l\u2019exploration d\u2019une infertilit\u00e9, n**\u2019est toutefois pas recommand\u00e9 en premi\u00e8re intention pour le diagnostic d\u2019une endom\u00e9triose.**",
+      "text": "Examen radiologique de l\u2019ut\u00e9rus et des trompes, utilisant les rayons X et effectu\u00e9 apr\u00e8s l\u2019introduction, via une petite sonde, d\u2019un liquide opaque dans le col de l\u2019ut\u00e9rus. L\u2019hyst\u00e9rographie permet ainsi de rechercher les malformations ut\u00e9rines, les d\u00e9formations de la cavit\u00e9 ut\u00e9rine par des adh\u00e9rences ou la perm\u00e9abilit\u00e9 des trompes. Cet examen, qui a un r\u00f4le important dans l\u2019exploration d\u2019une infertilit\u00e9, n**\u2019est toutefois pas recommand\u00e9 en premi\u00e8re intention pour le diagnostic d\u2019une endom\u00e9triose.**"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Coloscanner \u00e0 l\u2019air, coloscopie virtuelle, uroscanner",
+      "text": "Coloscanner \u00e0 l\u2019air, coloscopie virtuelle, uroscanner",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce sont des examens r\u00e9alis\u00e9s par tomodensitom\u00e9trie (scanner).",
+      "text": "Ce sont des examens r\u00e9alis\u00e9s par tomodensitom\u00e9trie (scanner)."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Le coloscanner \u00e0 l\u2019air, ou coloscopie virtuelle, permet une exploration d\u00e9taill\u00e9e du rectum et du c\u00f4lon gr\u00e2ce \u00e0 une insufflation d\u2019air ou de CO\u2082.",
+      "text": "Le coloscanner \u00e0 l\u2019air, ou coloscopie virtuelle, permet une exploration d\u00e9taill\u00e9e du rectum et du c\u00f4lon gr\u00e2ce \u00e0 une insufflation d\u2019air ou de CO\u2082.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019uroscanner permet d\u2019examiner l\u2019appareil urinaire, en particulier les uret\u00e8res.",
+      "text": "L\u2019uroscanner permet d\u2019examiner l\u2019appareil urinaire, en particulier les uret\u00e8res.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces examens peuvent \u00eatre utiles dans l\u2019\u00e9valuation de certaines formes s\u00e9v\u00e8res d\u2019endom\u00e9triose profonde digestive ou urologique, notamment en contexte pr\u00e9op\u00e9ratoire. Ils ne sont pas recommand\u00e9s en premi\u00e8re intention pour le diagnostic de l\u2019endom\u00e9triose. Selon les recommandations de la Haute Autorit\u00e9 de Sant\u00e9 (HAS, 2017), la c\u0153lioscopie ne doit pas \u00eatre r\u00e9alis\u00e9e dans un but purement diagnostique.",
+      "text": "Ces examens peuvent \u00eatre utiles dans l\u2019\u00e9valuation de certaines formes s\u00e9v\u00e8res d\u2019endom\u00e9triose profonde digestive ou urologique, notamment en contexte pr\u00e9op\u00e9ratoire. Ils ne sont pas recommand\u00e9s en premi\u00e8re intention pour le diagnostic de l\u2019endom\u00e9triose. Selon les recommandations de la Haute Autorit\u00e9 de Sant\u00e9 (HAS, 2017), la c\u0153lioscopie ne doit pas \u00eatre r\u00e9alis\u00e9e dans un but purement diagnostique."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Chirurgie robot-assist\u00e9e",
+      "text": "Chirurgie robot-assist\u00e9e",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La chirurgie robot-assist\u00e9e est une technique chirurgicale mini-invasive dans laquelle le chirurgien r\u00e9alise l\u2019intervention en manipulant un robot depuis une console. Le robot reproduit ses gestes avec une tr\u00e8s grande pr\u00e9cision gr\u00e2ce \u00e0 des instruments articul\u00e9s et une vision en 3D haute d\u00e9finition. Dans l\u2019endom\u00e9triose, cette approche peut \u00eatre particuli\u00e8rement utile pour :",
+      "text": "La chirurgie robot-assist\u00e9e est une technique chirurgicale mini-invasive dans laquelle le chirurgien r\u00e9alise l\u2019intervention en manipulant un robot depuis une console. Le robot reproduit ses gestes avec une tr\u00e8s grande pr\u00e9cision gr\u00e2ce \u00e0 des instruments articul\u00e9s et une vision en 3D haute d\u00e9finition. Dans l\u2019endom\u00e9triose, cette approche peut \u00eatre particuli\u00e8rement utile pour :"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "traiter des l\u00e9sions profondes situ\u00e9es dans des zones difficiles d\u2019acc\u00e8s (rectum, cloison recto-vaginale, uret\u00e8res, vessie) ;",
+      "text": "traiter des l\u00e9sions profondes situ\u00e9es dans des zones difficiles d\u2019acc\u00e8s (rectum, cloison recto-vaginale, uret\u00e8res, vessie) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "effectuer des dissections fines lorsque les structures anatomiques sont tr\u00e8s proches ou enflamm\u00e9es ;",
+      "text": "effectuer des dissections fines lorsque les structures anatomiques sont tr\u00e8s proches ou enflamm\u00e9es ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "am\u00e9liorer la pr\u00e9cision des gestes, notamment dans les cas complexes ou n\u00e9cessitant une reconstruction.",
+      "text": "am\u00e9liorer la pr\u00e9cision des gestes, notamment dans les cas complexes ou n\u00e9cessitant une reconstruction.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La chirurgie robot-assist\u00e9e ne remplace pas la c\u0153lioscopie classique, mais constitue une option suppl\u00e9mentaire dans les centres disposant de cette technologie. Le choix d\u00e9pend de l\u2019exp\u00e9rience de l\u2019\u00e9quipe chirurgicale et de la complexit\u00e9 des l\u00e9sions.",
+      "text": "La chirurgie robot-assist\u00e9e ne remplace pas la c\u0153lioscopie classique, mais constitue une option suppl\u00e9mentaire dans les centres disposant de cette technologie. Le choix d\u00e9pend de l\u2019exp\u00e9rience de l\u2019\u00e9quipe chirurgicale et de la complexit\u00e9 des l\u00e9sions."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Informations : ",
+      "text": "Informations : "
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les informations contenues sur ce site ne remplacent pas une consultation avec un m\u00e9decin",
+      "text": "Les informations contenues sur ce site ne remplacent pas une consultation avec un m\u00e9decin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Pour obtenir les coordonn\u00e9es d\u2019un sp\u00e9cialiste de l\u2019endom\u00e9triose, renseignez-vous aupr\u00e8s des fili\u00e8res de soins ou contactez nos b\u00e9n\u00e9voles en r\u00e9gion",
+      "text": ". Pour obtenir les coordonn\u00e9es d\u2019un sp\u00e9cialiste de l\u2019endom\u00e9triose, renseignez-vous aupr\u00e8s des fili\u00e8res de soins ou contactez nos b\u00e9n\u00e9voles en r\u00e9gion"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

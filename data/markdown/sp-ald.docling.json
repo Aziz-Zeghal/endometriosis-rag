@@ -1,0 +1,3666 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 8366187947655617460,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/texts/130"
+      },
+      {
+        "$ref": "#/texts/131"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/texts/135"
+      },
+      {
+        "$ref": "#/texts/136"
+      },
+      {
+        "$ref": "#/texts/137"
+      },
+      {
+        "$ref": "#/texts/138"
+      },
+      {
+        "$ref": "#/texts/139"
+      },
+      {
+        "$ref": "#/groups/20"
+      },
+      {
+        "$ref": "#/texts/143"
+      },
+      {
+        "$ref": "#/texts/144"
+      },
+      {
+        "$ref": "#/texts/145"
+      },
+      {
+        "$ref": "#/texts/146"
+      },
+      {
+        "$ref": "#/groups/21"
+      },
+      {
+        "$ref": "#/texts/150"
+      },
+      {
+        "$ref": "#/texts/151"
+      },
+      {
+        "$ref": "#/texts/152"
+      },
+      {
+        "$ref": "#/texts/153"
+      },
+      {
+        "$ref": "#/groups/22"
+      },
+      {
+        "$ref": "#/texts/156"
+      },
+      {
+        "$ref": "#/texts/157"
+      },
+      {
+        "$ref": "#/groups/23"
+      },
+      {
+        "$ref": "#/texts/161"
+      },
+      {
+        "$ref": "#/texts/162"
+      },
+      {
+        "$ref": "#/groups/24"
+      },
+      {
+        "$ref": "#/groups/25"
+      },
+      {
+        "$ref": "#/texts/170"
+      },
+      {
+        "$ref": "#/groups/26"
+      },
+      {
+        "$ref": "#/texts/178"
+      },
+      {
+        "$ref": "#/texts/179"
+      },
+      {
+        "$ref": "#/texts/180"
+      },
+      {
+        "$ref": "#/texts/181"
+      },
+      {
+        "$ref": "#/texts/182"
+      },
+      {
+        "$ref": "#/texts/183"
+      },
+      {
+        "$ref": "#/texts/184"
+      },
+      {
+        "$ref": "#/texts/185"
+      },
+      {
+        "$ref": "#/groups/29"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/142"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/154"
+        },
+        {
+          "$ref": "#/texts/155"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/158"
+        },
+        {
+          "$ref": "#/texts/159"
+        },
+        {
+          "$ref": "#/texts/160"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/166"
+        },
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/168"
+        },
+        {
+          "$ref": "#/texts/169"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/171"
+        },
+        {
+          "$ref": "#/texts/174"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/texts/171"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/172"
+        },
+        {
+          "$ref": "#/texts/173"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "$ref": "#/texts/174"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/175"
+        },
+        {
+          "$ref": "#/texts/176"
+        },
+        {
+          "$ref": "#/texts/177"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/186"
+        },
+        {
+          "$ref": "#/texts/192"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "$ref": "#/texts/186"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/187"
+        },
+        {
+          "$ref": "#/texts/188"
+        },
+        {
+          "$ref": "#/texts/189"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/31",
+      "parent": {
+        "$ref": "#/texts/186"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/190"
+        },
+        {
+          "$ref": "#/texts/191"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Prise en charge d'une affection de longue dur\u00e9e (ALD) par l'Assurance maladie",
+      "text": "Prise en charge d'une affection de longue dur\u00e9e (ALD) par l'Assurance maladie"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "V\u00e9rifi\u00e9 le 15 octobre 2026 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)",
+      "text": "V\u00e9rifi\u00e9 le 15 octobre 2026 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Quel est le taux de prise en charge des ALD ? Certaines sont exon\u00e9rantes : les frais li\u00e9s aux soins sont rembours\u00e9s au maximum du plafond. Vous \u00eates exon\u00e9r\u00e9 du ticket mod\u00e9rateur. Le protocole de soins ouvre les droits au 100 %. D'autres ne sont pas exon\u00e9rantes : vous \u00eates alors rembours\u00e9 aux taux habituels. Nous vous pr\u00e9sentons les informations \u00e0 conna\u00eetre.",
+      "text": "Quel est le taux de prise en charge des ALD ? Certaines sont exon\u00e9rantes : les frais li\u00e9s aux soins sont rembours\u00e9s au maximum du plafond. Vous \u00eates exon\u00e9r\u00e9 du ticket mod\u00e9rateur. Le protocole de soins ouvre les droits au 100 %. D'autres ne sont pas exon\u00e9rantes : vous \u00eates alors rembours\u00e9 aux taux habituels. Nous vous pr\u00e9sentons les informations \u00e0 conna\u00eetre."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ALD exon\u00e9rantes",
+      "text": "ALD exon\u00e9rantes",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ALD non exon\u00e9rantes",
+      "text": "ALD non exon\u00e9rantes",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "ALD exon\u00e9rantes",
+      "text": "ALD exon\u00e9rantes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s'agit d'affections comportant un traitement prolong\u00e9 et th\u00e9rapeutique particuli\u00e8rement co\u00fbteuse.",
+      "text": "Il s'agit d'affections comportant un traitement prolong\u00e9 et th\u00e9rapeutique particuli\u00e8rement co\u00fbteuse."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles sont les ALD concern\u00e9es par l'exon\u00e9ration ?",
+      "text": "Quelles sont les ALD concern\u00e9es par l'exon\u00e9ration ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Diff\u00e9rentes pathologies sont concern\u00e9es par les ALD. Certaines figurent sur une liste.",
+      "text": "Diff\u00e9rentes pathologies sont concern\u00e9es par les ALD. Certaines figurent sur une liste."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Liste des ALD 30",
+      "text": "Liste des ALD 30",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Initialement, il y avait 30 affections. Aujourd'hui, l'hypertension art\u00e9rielle s\u00e9v\u00e8re n'est plus incluse dans cette liste. Toutefois, on continue \u00e0 l'appeler\u00a0: liste ",
+      "text": "Initialement, il y avait 30 affections. Aujourd'hui, l'hypertension art\u00e9rielle s\u00e9v\u00e8re n'est plus incluse dans cette liste. Toutefois, on continue \u00e0 l'appeler\u00a0: liste "
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ALD 30",
+      "text": "ALD 30",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s'agit des affections suivantes :",
+      "text": "Il s'agit des affections suivantes :"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Accident vasculaire c\u00e9r\u00e9bral invalidant",
+      "text": "Accident vasculaire c\u00e9r\u00e9bral invalidant",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Insuffisances m\u00e9dullaires et autres cytop\u00e9nies chroniques",
+      "text": "Insuffisances m\u00e9dullaires et autres cytop\u00e9nies chroniques",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Art\u00e9riopathies chroniques avec manifestations isch\u00e9miques",
+      "text": "Art\u00e9riopathies chroniques avec manifestations isch\u00e9miques",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Bilharziose compliqu\u00e9e",
+      "text": "Bilharziose compliqu\u00e9e",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Insuffisance cardiaque grave, troubles du rythme graves, cardiopathies valvulaires graves, cardiopathies cong\u00e9nitales graves",
+      "text": "Insuffisance cardiaque grave, troubles du rythme graves, cardiopathies valvulaires graves, cardiopathies cong\u00e9nitales graves",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Maladies chroniques actives du foie (h\u00e9patite B ou C) et cirrhoses",
+      "text": "Maladies chroniques actives du foie (h\u00e9patite B ou C) et cirrhoses",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "D\u00e9ficit immunitaire primitif grave n\u00e9cessitant un traitement prolong\u00e9, infection par le virus de l'immuno-d\u00e9ficience humaine (VIH)",
+      "text": "D\u00e9ficit immunitaire primitif grave n\u00e9cessitant un traitement prolong\u00e9, infection par le virus de l'immuno-d\u00e9ficience humaine (VIH)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Diab\u00e8te de type 1 et diab\u00e8te de type 2 de l'adulte ou de l'enfant",
+      "text": "Diab\u00e8te de type 1 et diab\u00e8te de type 2 de l'adulte ou de l'enfant",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Formes graves des affections neurologiques et musculaires (dont myopathie), \u00e9pilepsie grave",
+      "text": "Formes graves des affections neurologiques et musculaires (dont myopathie), \u00e9pilepsie grave",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "H\u00e9moglobinopathies, h\u00e9molyses, chroniques constitutionnelles et acquises s\u00e9v\u00e8res",
+      "text": "H\u00e9moglobinopathies, h\u00e9molyses, chroniques constitutionnelles et acquises s\u00e9v\u00e8res",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "H\u00e9mophilies et affections constitutionnelles de l'h\u00e9mostase graves",
+      "text": "H\u00e9mophilies et affections constitutionnelles de l'h\u00e9mostase graves",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Maladie coronaire : infarctus du myocarde",
+      "text": "Maladie coronaire : infarctus du myocarde",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Insuffisance respiratoire chronique grave (exemple : asthme grave)",
+      "text": "Insuffisance respiratoire chronique grave (exemple : asthme grave)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Maladie d'Alzheimer et autres d\u00e9mences",
+      "text": "Maladie d'Alzheimer et autres d\u00e9mences",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Maladie de Parkinson",
+      "text": "Maladie de Parkinson",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Maladies m\u00e9taboliques h\u00e9r\u00e9ditaires n\u00e9cessitant un traitement prolong\u00e9 sp\u00e9cialis\u00e9",
+      "text": "Maladies m\u00e9taboliques h\u00e9r\u00e9ditaires n\u00e9cessitant un traitement prolong\u00e9 sp\u00e9cialis\u00e9",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Mucoviscidose",
+      "text": "Mucoviscidose",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "N\u00e9phropathie chronique grave et syndrome n\u00e9phrotique primitif (insuffisance r\u00e9nale)",
+      "text": "N\u00e9phropathie chronique grave et syndrome n\u00e9phrotique primitif (insuffisance r\u00e9nale)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Parapl\u00e9gie",
+      "text": "Parapl\u00e9gie",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vascularites, lupus \u00e9ryth\u00e9mateux syst\u00e9mique, scl\u00e9rodermie syst\u00e9mique",
+      "text": "Vascularites, lupus \u00e9ryth\u00e9mateux syst\u00e9mique, scl\u00e9rodermie syst\u00e9mique",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Polyarthrite rhumato\u00efde \u00e9volutive",
+      "text": "Polyarthrite rhumato\u00efde \u00e9volutive",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Affections psychiatriques de longue dur\u00e9e (exemples : d\u00e9pression r\u00e9currente, troubles bipolaires)",
+      "text": "Affections psychiatriques de longue dur\u00e9e (exemples : d\u00e9pression r\u00e9currente, troubles bipolaires)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Rectocolite h\u00e9morragique et maladie de Crohn \u00e9volutives",
+      "text": "Rectocolite h\u00e9morragique et maladie de Crohn \u00e9volutives",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Scl\u00e9rose en plaques",
+      "text": "Scl\u00e9rose en plaques",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Scoliose idiopathique structurale \u00e9volutive",
+      "text": "Scoliose idiopathique structurale \u00e9volutive",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Spondylarthrite grave",
+      "text": "Spondylarthrite grave",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Suites de transplantation d'organe",
+      "text": "Suites de transplantation d'organe",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Tuberculose active, l\u00e8pre",
+      "text": "Tuberculose active, l\u00e8pre",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Tumeur maligne (cancer), affection maligne du tissu lymphatique ou h\u00e9matopo\u00ef\u00e9tique (exemple : lymphome).",
+      "text": "Tumeur maligne (cancer), affection maligne du tissu lymphatique ou h\u00e9matopo\u00ef\u00e9tique (exemple : lymphome).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "En savoir plus sur la possibilit\u00e9 de d\u00e9signer un infirmier r\u00e9f\u00e9rent",
+      "text": "En savoir plus sur la possibilit\u00e9 de d\u00e9signer un infirmier r\u00e9f\u00e9rent",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous \u00eates atteint d\u2019une ALD 30, vous pouvez d\u00e9clarer \u00e0 votre caisse d\u2019Assurance maladie le nom de l'infirmier r\u00e9f\u00e9rent que vous avez choisi avec son accord.",
+      "text": "Si vous \u00eates atteint d\u2019une ALD 30, vous pouvez d\u00e9clarer \u00e0 votre caisse d\u2019Assurance maladie le nom de l'infirmier r\u00e9f\u00e9rent que vous avez choisi avec son accord."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'infirmier r\u00e9f\u00e9rent assure une mission de pr\u00e9vention, de suivi et de recours, en lien \u00e9troit avec le m\u00e9decin traitant et le pharmacien correspondant.",
+      "text": "L'infirmier r\u00e9f\u00e9rent assure une mission de pr\u00e9vention, de suivi et de recours, en lien \u00e9troit avec le m\u00e9decin traitant et le pharmacien correspondant."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "ALD dites \u00ab hors liste \u00bb (ALD 31)",
+      "text": "ALD dites \u00ab hors liste \u00bb (ALD 31)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 ces affections ALD 30 s'ajoutent ",
+      "text": "\u00c0 ces affections ALD 30 s'ajoutent "
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "celles dites \"hors liste\"",
+      "text": "celles dites \"hors liste\"",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (ALD 31, en r\u00e9f\u00e9rence \u00e0 l'ALD 30).",
+      "text": " (ALD 31, en r\u00e9f\u00e9rence \u00e0 l'ALD 30)."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles ne figurent donc pas sur la liste des ALD 30.",
+      "text": "Elles ne figurent donc pas sur la liste des ALD 30."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces maladies \u00e9voluent sur une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois avec un traitement est particuli\u00e8rement co\u00fbteux.",
+      "text": "Ces maladies \u00e9voluent sur une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois avec un traitement est particuli\u00e8rement co\u00fbteux."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La prise en charge doit comprendre obligatoirement un traitement m\u00e9dicamenteux ou un appareillage.",
+      "text": "La prise en charge doit comprendre obligatoirement un traitement m\u00e9dicamenteux ou un appareillage."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "2 crit\u00e8res parmi les 4 suivants sont \u00e9galement obligatoires :",
+      "text": "2 crit\u00e8res parmi les 4 suivants sont \u00e9galement obligatoires :"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Hospitalisation \u00e0 venir",
+      "text": "Hospitalisation \u00e0 venir",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s",
+      "text": "Actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Actes biologiques r\u00e9p\u00e9t\u00e9s",
+      "text": "Actes biologiques r\u00e9p\u00e9t\u00e9s",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Soins param\u00e9dicaux fr\u00e9quents et r\u00e9guliers.",
+      "text": "Soins param\u00e9dicaux fr\u00e9quents et r\u00e9guliers.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Exemple :",
+      "text": "Exemple :"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Maladie de Paget, ulc\u00e8res chroniques ou r\u00e9cidivants avec retentissement fonctionnel s\u00e9v\u00e8re, endom\u00e9triose",
+      "text": "Maladie de Paget, ulc\u00e8res chroniques ou r\u00e9cidivants avec retentissement fonctionnel s\u00e9v\u00e8re, endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Polypathologies (ALD 32)",
+      "text": "Polypathologies (ALD 32)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le terme polypathologies est employ\u00e9 lorsque vous \u00eates atteint de plusieurs affections caract\u00e9ris\u00e9es, entra\u00eenant un \u00e9tat pathologique invalidant et n\u00e9cessitant des soins continus d'une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois et particuli\u00e8rement co\u00fbteux (ALD 32).",
+      "text": "Le terme polypathologies est employ\u00e9 lorsque vous \u00eates atteint de plusieurs affections caract\u00e9ris\u00e9es, entra\u00eenant un \u00e9tat pathologique invalidant et n\u00e9cessitant des soins continus d'une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois et particuli\u00e8rement co\u00fbteux (ALD 32)."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Exemple :",
+      "text": "Exemple :"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une personne de 90 ans atteinte de polyarthrose avec troubles de la marche, incontinence urinaire et tremblements essentiels.",
+      "text": "Une personne de 90 ans atteinte de polyarthrose avec troubles de la marche, incontinence urinaire et tremblements essentiels."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quelles sont les conditions de prise en charge des ALD exon\u00e9rantes ?",
+      "text": "Quelles sont les conditions de prise en charge des ALD exon\u00e9rantes ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "3 types d'ALD exon\u00e9rantes existent : ALD 30, ALD 31 et ALD 32.",
+      "text": "3 types d'ALD exon\u00e9rantes existent : ALD 30, ALD 31 et ALD 32."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ALD 30",
+      "text": "ALD 30",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ALD 31",
+      "text": "ALD 31",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ALD 32",
+      "text": "ALD 32",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "ALD 30",
+      "text": "ALD 30",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les frais ",
+      "text": "Les frais "
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "li\u00e9s aux soins de l'ALD",
+      "text": "li\u00e9s aux soins de l'ALD",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " sont rembours\u00e9s au maximum du plafond de remboursement par l\u2019Assurance maladie. On parle ",
+      "text": " sont rembours\u00e9s au maximum du plafond de remboursement par l\u2019Assurance maladie. On parle "
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019exon\u00e9ration du ticket mod\u00e9rateur",
+      "text": "d\u2019exon\u00e9ration du ticket mod\u00e9rateur",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0ou parfois de \u00ab\u00a0prise en charge \u00e0 100\u00a0%\u00a0\u00bb.",
+      "text": "\u00a0ou parfois de \u00ab\u00a0prise en charge \u00e0 100\u00a0%\u00a0\u00bb."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre m\u00e9decin traitant \u00e9tablit pour vous une demande de prise en charge \u00e0 100 % concernant les soins et les traitements li\u00e9s \u00e0 votre ALD.",
+      "text": "Votre m\u00e9decin traitant \u00e9tablit pour vous une demande de prise en charge \u00e0 100 % concernant les soins et les traitements li\u00e9s \u00e0 votre ALD."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous b\u00e9n\u00e9ficiez du tiers payant : vous n'avancez pas les frais des soins et traitement en rapport avec votre ALD.",
+      "text": "Vous b\u00e9n\u00e9ficiez du tiers payant : vous n'avancez pas les frais des soins et traitement en rapport avec votre ALD."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les soins et les traitements sont pris en charge \u00e0 100 % sur la base du tarif de la S\u00e9curit\u00e9 sociale.",
+      "text": "Les soins et les traitements sont pris en charge \u00e0 100 % sur la base du tarif de la S\u00e9curit\u00e9 sociale."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 cet effet, un mod\u00e8le sp\u00e9cifique d'ordonnance, appel\u00e9e ",
+      "text": "\u00c0 cet effet, un mod\u00e8le sp\u00e9cifique d'ordonnance, appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ordonnance bizone",
+      "text": "ordonnance bizone",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", a \u00e9t\u00e9 cr\u00e9\u00e9. Cette ordonnance comporte 2 zones distinctes :",
+      "text": ", a \u00e9t\u00e9 cr\u00e9\u00e9. Cette ordonnance comporte 2 zones distinctes :"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une partie haute r\u00e9serv\u00e9e aux soins en rapport avec l'ALD, pris en charge \u00e0 100 %",
+      "text": "Une partie haute r\u00e9serv\u00e9e aux soins en rapport avec l'ALD, pris en charge \u00e0 100 %",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une partie basse r\u00e9serv\u00e9e aux soins sans rapport avec l'ALD, rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale.",
+      "text": "Une partie basse r\u00e9serv\u00e9e aux soins sans rapport avec l'ALD, rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certains frais restent ",
+      "text": "Certains frais restent "
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e0 votre charge",
+      "text": "\u00e0 votre charge",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " comme\u00a0:",
+      "text": " comme\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les d\u00e9passements d'honoraires",
+      "text": "Les d\u00e9passements d'honoraires",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La participation forfaitaire de 2 \u20ac",
+      "text": "La participation forfaitaire de 2 \u20ac",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La franchise m\u00e9dicale",
+      "text": "La franchise m\u00e9dicale",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Forfait hospitalier",
+      "text": "Forfait hospitalier",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Frais li\u00e9s aux m\u00e9dicaments \u00e0 service m\u00e9dical rendu (SMR) faible.",
+      "text": "Frais li\u00e9s aux m\u00e9dicaments \u00e0 service m\u00e9dical rendu (SMR) faible.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre compl\u00e9mentaire peut prendre en charge le forfait hospitalier et le d\u00e9passement d'honoraires.",
+      "text": "Votre compl\u00e9mentaire peut prendre en charge le forfait hospitalier et le d\u00e9passement d'honoraires."
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'exon\u00e9ration est accord\u00e9e pour une dur\u00e9e initiale variant suivant l'affection.",
+      "text": "L'exon\u00e9ration est accord\u00e9e pour une dur\u00e9e initiale variant suivant l'affection.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elle est ",
+      "text": "Elle est "
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "renouvelable",
+      "text": "renouvelable",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour une p\u00e9riode \u00e9quivalente ou pour 10 ans.",
+      "text": " pour une p\u00e9riode \u00e9quivalente ou pour 10 ans."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 la fin de la p\u00e9riode accord\u00e9e par votre protocole de soins, si votre maladie n\u00e9cessite toujours des soins actifs, votre m\u00e9decin fait une demande de renouvellement d'ALD. Ce renouvellement est possible tant que votre \u00e9tat de sant\u00e9 le justifie, sans limite d'\u00e2ge ou de nombre de renouvellement.",
+      "text": "\u00c0 la fin de la p\u00e9riode accord\u00e9e par votre protocole de soins, si votre maladie n\u00e9cessite toujours des soins actifs, votre m\u00e9decin fait une demande de renouvellement d'ALD. Ce renouvellement est possible tant que votre \u00e9tat de sant\u00e9 le justifie, sans limite d'\u00e2ge ou de nombre de renouvellement."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 savoir",
+      "text": "\u00c0 savoir"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les frais de transport pour traitement ou examen li\u00e9s \u00e0 l'ALD des patients pr\u00e9sentant une des incapacit\u00e9s n\u00e9cessitant un transport sanitaire (position allong\u00e9e, besoin oxyg\u00e8ne ou de surveillance...) sont pris en charge sur prescription m\u00e9dicale.",
+      "text": "Les frais de transport pour traitement ou examen li\u00e9s \u00e0 l'ALD des patients pr\u00e9sentant une des incapacit\u00e9s n\u00e9cessitant un transport sanitaire (position allong\u00e9e, besoin oxyg\u00e8ne ou de surveillance...) sont pris en charge sur prescription m\u00e9dicale."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "ALD 31",
+      "text": "ALD 31",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les frais li\u00e9s aux soins de l'ALD sont rembours\u00e9s au maximum du plafond de remboursement par l\u2019Assurance maladie. On parle d\u2019exon\u00e9ration du ticket mod\u00e9rateur ou parfois de \u00ab prise en charge \u00e0 100 % \u00bb.",
+      "text": "Les frais li\u00e9s aux soins de l'ALD sont rembours\u00e9s au maximum du plafond de remboursement par l\u2019Assurance maladie. On parle d\u2019exon\u00e9ration du ticket mod\u00e9rateur ou parfois de \u00ab prise en charge \u00e0 100 % \u00bb."
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre m\u00e9decin traitant \u00e9tablit pour vous une demande de prise en charge \u00e0 100 % concernant les soins et les traitements li\u00e9s \u00e0 votre ALD.",
+      "text": "Votre m\u00e9decin traitant \u00e9tablit pour vous une demande de prise en charge \u00e0 100 % concernant les soins et les traitements li\u00e9s \u00e0 votre ALD."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous b\u00e9n\u00e9ficiez du tiers payant : vous n'avancez pas les frais des soins et traitement en rapport avec votre ALD.",
+      "text": "Vous b\u00e9n\u00e9ficiez du tiers payant : vous n'avancez pas les frais des soins et traitement en rapport avec votre ALD."
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les soins et les traitements sont pris en charge \u00e0 100\u00a0% sur la base du tarif de la s\u00e9curit\u00e9 sociale. \u00c0 cet effet, un mod\u00e8le sp\u00e9cifique d'ordonnance, appel\u00e9e ",
+      "text": "Les soins et les traitements sont pris en charge \u00e0 100\u00a0% sur la base du tarif de la s\u00e9curit\u00e9 sociale. \u00c0 cet effet, un mod\u00e8le sp\u00e9cifique d'ordonnance, appel\u00e9e "
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ordonnance bizone",
+      "text": "ordonnance bizone",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", a \u00e9t\u00e9 cr\u00e9\u00e9. L'ordonnance comporte 2 zones distinctes :",
+      "text": ", a \u00e9t\u00e9 cr\u00e9\u00e9. L'ordonnance comporte 2 zones distinctes :"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une partie haute r\u00e9serv\u00e9e aux soins en rapport avec l'ALD, pris en charge \u00e0 100 %",
+      "text": "Une partie haute r\u00e9serv\u00e9e aux soins en rapport avec l'ALD, pris en charge \u00e0 100 %",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une partie basse r\u00e9serv\u00e9e aux soins sans rapport avec l'ALD, rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale.",
+      "text": "Une partie basse r\u00e9serv\u00e9e aux soins sans rapport avec l'ALD, rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 savoir",
+      "text": "\u00c0 savoir"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les frais de transport pour traitement ou examen li\u00e9s \u00e0 l'ALD des patients pr\u00e9sentant une des incapacit\u00e9s n\u00e9cessitant un transport sanitaire (position allong\u00e9e, besoin oxyg\u00e8ne ou de surveillance...) sont pris en charge sur prescription m\u00e9dicale.",
+      "text": "Les frais de transport pour traitement ou examen li\u00e9s \u00e0 l'ALD des patients pr\u00e9sentant une des incapacit\u00e9s n\u00e9cessitant un transport sanitaire (position allong\u00e9e, besoin oxyg\u00e8ne ou de surveillance...) sont pris en charge sur prescription m\u00e9dicale."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certains frais restent ",
+      "text": "Certains frais restent "
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e0 votre charge",
+      "text": "\u00e0 votre charge",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " comme\u00a0:",
+      "text": " comme\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les d\u00e9passements d'honoraires",
+      "text": "Les d\u00e9passements d'honoraires",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La participation forfaitaire de 2 \u20ac",
+      "text": "La participation forfaitaire de 2 \u20ac",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La franchise m\u00e9dicale",
+      "text": "La franchise m\u00e9dicale",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Forfait hospitalier",
+      "text": "Forfait hospitalier",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Frais li\u00e9s aux m\u00e9dicaments \u00e0 service m\u00e9dical rendu (SMR) faible.",
+      "text": "Frais li\u00e9s aux m\u00e9dicaments \u00e0 service m\u00e9dical rendu (SMR) faible.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre compl\u00e9mentaire peut prendre en charge le forfait hospitalier et le d\u00e9passement d'honoraires.",
+      "text": "Votre compl\u00e9mentaire peut prendre en charge le forfait hospitalier et le d\u00e9passement d'honoraires."
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La dur\u00e9e des actes et prestations n\u00e9cessaires est propos\u00e9e par le m\u00e9decin, examin\u00e9e et valid\u00e9e par le service m\u00e9dical de l'Assurance maladie.",
+      "text": "La dur\u00e9e des actes et prestations n\u00e9cessaires est propos\u00e9e par le m\u00e9decin, examin\u00e9e et valid\u00e9e par le service m\u00e9dical de l'Assurance maladie."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 la fin de la p\u00e9riode accord\u00e9e par votre protocole de soins, si votre maladie n\u00e9cessite toujours des soins actifs, votre m\u00e9decin fait une ",
+      "text": "\u00c0 la fin de la p\u00e9riode accord\u00e9e par votre protocole de soins, si votre maladie n\u00e9cessite toujours des soins actifs, votre m\u00e9decin fait une "
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "demande de renouvellement",
+      "text": "demande de renouvellement",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " d'ALD.",
+      "text": " d'ALD."
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce renouvellement est possible tant que votre \u00e9tat de sant\u00e9 le justifie, sans limite d'\u00e2ge ou de nombre de renouvellement.",
+      "text": "Ce renouvellement est possible tant que votre \u00e9tat de sant\u00e9 le justifie, sans limite d'\u00e2ge ou de nombre de renouvellement."
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "ALD 32",
+      "text": "ALD 32",
+      "level": 4
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On parle de cumul de plusieurs affections entra\u00eenant un ",
+      "text": "On parle de cumul de plusieurs affections entra\u00eenant un "
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00e9tat pathologique invalidant",
+      "text": "\u00e9tat pathologique invalidant",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " n\u00e9cessitant un traitement\u00a0:",
+      "text": " n\u00e9cessitant un traitement\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "D'une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois",
+      "text": "D'une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Et particuli\u00e8rement co\u00fbteux en raison du co\u00fbt ou de la fr\u00e9quence des actes, prestations et traitements.",
+      "text": "Et particuli\u00e8rement co\u00fbteux en raison du co\u00fbt ou de la fr\u00e9quence des actes, prestations et traitements.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Exemple :",
+      "text": "Exemple :"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une personne de 90 ans atteinte de polyarthrose avec troubles de la marche, incontinence urinaire et tremblements essentiels.",
+      "text": "Une personne de 90 ans atteinte de polyarthrose avec troubles de la marche, incontinence urinaire et tremblements essentiels."
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il n'y a ",
+      "text": "Il n'y a "
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pas de ticket mod\u00e9rateur",
+      "text": "pas de ticket mod\u00e9rateur",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", c'est-\u00e0-dire de reste \u00e0 charge une fois que l'Assurance maladie a rembours\u00e9 sa part.",
+      "text": ", c'est-\u00e0-dire de reste \u00e0 charge une fois que l'Assurance maladie a rembours\u00e9 sa part."
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "En quoi consiste le protocole de soins ?",
+      "text": "En quoi consiste le protocole de soins ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le protocole de soins se traduit par un formulaire \u00e9tabli par votre m\u00e9decin traitant, en concertation avec les autres m\u00e9decins qui suivent votre ALD.",
+      "text": "Le protocole de soins se traduit par un formulaire \u00e9tabli par votre m\u00e9decin traitant, en concertation avec les autres m\u00e9decins qui suivent votre ALD."
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le protocole a une dur\u00e9e d\u00e9termin\u00e9e.",
+      "text": "Le protocole a une dur\u00e9e d\u00e9termin\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il permet la prise en charge \u00e0 100 % (sur la base du tarif de la S\u00e9curit\u00e9 sociale), apr\u00e8s accord du m\u00e9decin conseil de l'Assurance maladie.",
+      "text": "Il permet la prise en charge \u00e0 100 % (sur la base du tarif de la S\u00e9curit\u00e9 sociale), apr\u00e8s accord du m\u00e9decin conseil de l'Assurance maladie."
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il se compose de 3 volets :",
+      "text": "Il se compose de 3 volets :"
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "1 est conserv\u00e9 par votre m\u00e9decin traitant",
+      "text": "1 est conserv\u00e9 par votre m\u00e9decin traitant",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "1 est pour le m\u00e9decin conseil de l'Assurance maladie",
+      "text": "1 est pour le m\u00e9decin conseil de l'Assurance maladie",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "1 vous est destin\u00e9.",
+      "text": "1 vous est destin\u00e9.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devrez signer ce protocole de soins et le pr\u00e9senter \u00e0 chaque m\u00e9decin consult\u00e9 pour b\u00e9n\u00e9ficier de la prise en charge \u00e0 100 % pour les soins li\u00e9s \u00e0 votre maladie.",
+      "text": "Vous devrez signer ce protocole de soins et le pr\u00e9senter \u00e0 chaque m\u00e9decin consult\u00e9 pour b\u00e9n\u00e9ficier de la prise en charge \u00e0 100 % pour les soins li\u00e9s \u00e0 votre maladie."
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter",
+      "text": "\u00c0 noter"
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans certains cas, notamment lorsque le diagnostic est \u00e9tabli lors d'une hospitalisation ou dans un contexte d'urgence, un m\u00e9decin autre que votre m\u00e9decin traitant peut \u00e9tablir ce protocole de soins et donc faire cette demande.",
+      "text": "Dans certains cas, notamment lorsque le diagnostic est \u00e9tabli lors d'une hospitalisation ou dans un contexte d'urgence, un m\u00e9decin autre que votre m\u00e9decin traitant peut \u00e9tablir ce protocole de soins et donc faire cette demande."
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le protocole indique les informations suivantes :",
+      "text": "Le protocole indique les informations suivantes :"
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Soins, examens biologiques et traitements n\u00e9cessaires \u00e0 la prise en charge et au suivi de votre maladie",
+      "text": "Soins, examens biologiques et traitements n\u00e9cessaires \u00e0 la prise en charge et au suivi de votre maladie",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Soins et les traitements pris en charge \u00e0 100 % et ceux qui sont rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale. Certains soins et traitements peuvent ne pas \u00eatre pris en charge, comme par exemple les sp\u00e9cialit\u00e9s pharmaceutiques non inscrites sur la liste des m\u00e9dicaments remboursables",
+      "text": "Soins et les traitements pris en charge \u00e0 100 % et ceux qui sont rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale. Certains soins et traitements peuvent ne pas \u00eatre pris en charge, comme par exemple les sp\u00e9cialit\u00e9s pharmaceutiques non inscrites sur la liste des m\u00e9dicaments remboursables",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "M\u00e9decins sp\u00e9cialistes en \u00ab acc\u00e8s direct \u00bb, sans passage par le m\u00e9decin traitant.",
+      "text": "M\u00e9decins sp\u00e9cialistes en \u00ab acc\u00e8s direct \u00bb, sans passage par le m\u00e9decin traitant.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La prise en charge par les organismes d'Assurance maladie des actes et prestations des ayants droit mineurs et majeurs infect\u00e9s par le virus de l'immunod\u00e9ficience humaine ou par le virus de l'h\u00e9patite C est prot\u00e9g\u00e9e par le secret. L'Assurance maladie ne fera donc pas mention de ces traitements dans les relev\u00e9s transmis aux parents ou repr\u00e9sentant l\u00e9gal qu'il s'agisse du d\u00e9compte papier ou du compte Ameli.",
+      "text": "La prise en charge par les organismes d'Assurance maladie des actes et prestations des ayants droit mineurs et majeurs infect\u00e9s par le virus de l'immunod\u00e9ficience humaine ou par le virus de l'h\u00e9patite C est prot\u00e9g\u00e9e par le secret. L'Assurance maladie ne fera donc pas mention de ces traitements dans les relev\u00e9s transmis aux parents ou repr\u00e9sentant l\u00e9gal qu'il s'agisse du d\u00e9compte papier ou du compte Ameli."
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 savoir",
+      "text": "\u00c0 savoir"
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le cadre du parcours de soins des patients atteints d'une ALD, tout m\u00e9decin intervenant dans la prise en charge peut prescrire une activit\u00e9 physique adapt\u00e9e \u00e0 la pathologie, aux capacit\u00e9s physiques et au risque m\u00e9dical. Mais elle ne sera pas prise en charge par l'Assurance maladie.",
+      "text": "Dans le cadre du parcours de soins des patients atteints d'une ALD, tout m\u00e9decin intervenant dans la prise en charge peut prescrire une activit\u00e9 physique adapt\u00e9e \u00e0 la pathologie, aux capacit\u00e9s physiques et au risque m\u00e9dical. Mais elle ne sera pas prise en charge par l'Assurance maladie."
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "ALD non exon\u00e9rantes",
+      "text": "ALD non exon\u00e9rantes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les ALD non exon\u00e9rantes sont des affections qui n\u00e9cessitent une interruption de travail ou des soins continus d'une dur\u00e9e pr\u00e9visible ",
+      "text": "Les ALD non exon\u00e9rantes sont des affections qui n\u00e9cessitent une interruption de travail ou des soins continus d'une dur\u00e9e pr\u00e9visible "
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sup\u00e9rieure \u00e0 6 mois.",
+      "text": "sup\u00e9rieure \u00e0 6 mois.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Exemple :",
+      "text": "Exemple :"
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 la suite d'une fracture de l\u2019\u00e9paule qui s'est compliqu\u00e9e avec la survenue d'une infection, vous \u00eates arr\u00eat\u00e9 pendant plus de 6 mois et vous obtenez une ALD non exon\u00e9rante. Vos soins sont rembours\u00e9s aux taux habituels.",
+      "text": "\u00c0 la suite d'une fracture de l\u2019\u00e9paule qui s'est compliqu\u00e9e avec la survenue d'une infection, vous \u00eates arr\u00eat\u00e9 pendant plus de 6 mois et vous obtenez une ALD non exon\u00e9rante. Vos soins sont rembours\u00e9s aux taux habituels."
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elles n'ouvrent ",
+      "text": "Elles n'ouvrent "
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pas droit \u00e0 l'exon\u00e9ration du ticket mod\u00e9rateur",
+      "text": "pas droit \u00e0 l'exon\u00e9ration du ticket mod\u00e9rateur",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Tous vos soins dispens\u00e9s dans le cadre de l'ALD sont donc rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale.",
+      "text": "Tous vos soins dispens\u00e9s dans le cadre de l'ALD sont donc rembours\u00e9s aux taux habituels de la S\u00e9curit\u00e9 sociale."
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette ALD \u00ab non exon\u00e9rante \u00bb vous permet de b\u00e9n\u00e9ficier d'un arr\u00eat de travail de plus de 6 mois",
+      "text": "Cette ALD \u00ab non exon\u00e9rante \u00bb vous permet de b\u00e9n\u00e9ficier d'un arr\u00eat de travail de plus de 6 mois"
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous \u00eates en arr\u00eat de travail pour longue maladie, vous pouvez percevoir des indemnit\u00e9s journali\u00e8res au-del\u00e0 du 6",
+      "text": "Si vous \u00eates en arr\u00eat de travail pour longue maladie, vous pouvez percevoir des indemnit\u00e9s journali\u00e8res au-del\u00e0 du 6"
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "e",
+      "text": "e"
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " mois, si votre \u00e9tat de sant\u00e9 le justifie. Il faut l'accord du m\u00e9decin conseil de l'Assurance maladie.",
+      "text": " mois, si votre \u00e9tat de sant\u00e9 le justifie. Il faut l'accord du m\u00e9decin conseil de l'Assurance maladie."
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis le 15 octobre 2026",
+      "text": "Depuis le 15 octobre 2026",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", la dur\u00e9e d'un arr\u00eat de travail ininterrompu ne peut ",
+      "text": ", la dur\u00e9e d'un arr\u00eat de travail ininterrompu ne peut "
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pas d\u00e9passer 1 an",
+      "text": "pas d\u00e9passer 1 an",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (3 ans auparavant).",
+      "text": " (3 ans auparavant)."
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette r\u00e8gle s\u2019applique :",
+      "text": "Cette r\u00e8gle s\u2019applique :"
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aux arr\u00eats ",
+      "text": "aux arr\u00eats "
+    },
+    {
+      "self_ref": "#/texts/173",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "prescrits",
+      "text": "prescrits",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/28"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/175",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "et aux arr\u00eats ",
+      "text": "et aux arr\u00eats "
+    },
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "en cours au 15 octobre 2026 lorsque l\u2019incapacit\u00e9 de travail atteint 6 mois \u00e0 compter de cette date",
+      "text": "en cours au 15 octobre 2026 lorsque l\u2019incapacit\u00e9 de travail atteint 6 mois \u00e0 compter de cette date",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/177",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (par exemple, un assur\u00e9 dont l'arr\u00eat a commenc\u00e9 en mai 2026 basculera dans le nouveau dispositif lorsqu'il atteindra le cap des 6 mois d'arr\u00eat, c\u2019est-\u00e0-dire en novembre 2026).",
+      "text": " (par exemple, un assur\u00e9 dont l'arr\u00eat a commenc\u00e9 en mai 2026 basculera dans le nouveau dispositif lorsqu'il atteindra le cap des 6 mois d'arr\u00eat, c\u2019est-\u00e0-dire en novembre 2026)."
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces nouvelles dispositions ne concernent donc pas le salari\u00e9 dont l\u2019arr\u00eat de travail d\u00e9passe d\u00e9j\u00e0 6 mois au 15 octobre 2026. Le salari\u00e9 se trouvant dans ce cas continue de relever des r\u00e8gles ant\u00e9rieures, avec une indemnisation pouvant aller jusqu\u2019\u00e0 3 ans : par exemple, un assur\u00e9 en arr\u00eat depuis janvier 2026, c\u2019est-\u00e0-dire plus de 9 mois au 15 octobre 2026, se voit appliquer l\u2019ancien plafond de 3 ans.",
+      "text": "Ces nouvelles dispositions ne concernent donc pas le salari\u00e9 dont l\u2019arr\u00eat de travail d\u00e9passe d\u00e9j\u00e0 6 mois au 15 octobre 2026. Le salari\u00e9 se trouvant dans ce cas continue de relever des r\u00e8gles ant\u00e9rieures, avec une indemnisation pouvant aller jusqu\u2019\u00e0 3 ans : par exemple, un assur\u00e9 en arr\u00eat depuis janvier 2026, c\u2019est-\u00e0-dire plus de 9 mois au 15 octobre 2026, se voit appliquer l\u2019ancien plafond de 3 ans."
+    },
+    {
+      "self_ref": "#/texts/179",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Accompagnement pr\u00e9ventif lors d\u2019une pathologie \u00e0 risque d\u2019\u00e9volution vers une ALD",
+      "text": "Accompagnement pr\u00e9ventif lors d\u2019une pathologie \u00e0 risque d\u2019\u00e9volution vers une ALD",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/180",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La loi du 30 d\u00e9cembre 2025 de financement de la S\u00e9curit\u00e9 sociale pour 2026 pr\u00e9voit la prise en charge de prestations d\u2019accompagnement pr\u00e9ventif \u00e0 destination des assur\u00e9s souffrant d\u2019une pathologie \u00e0 risque d\u2019\u00e9volution vers une ALD.",
+      "text": "La loi du 30 d\u00e9cembre 2025 de financement de la S\u00e9curit\u00e9 sociale pour 2026 pr\u00e9voit la prise en charge de prestations d\u2019accompagnement pr\u00e9ventif \u00e0 destination des assur\u00e9s souffrant d\u2019une pathologie \u00e0 risque d\u2019\u00e9volution vers une ALD."
+    },
+    {
+      "self_ref": "#/texts/181",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un d\u00e9cret doit organiser la mise en \u0153uvre de cette mesure.",
+      "text": "Un d\u00e9cret doit organiser la mise en \u0153uvre de cette mesure."
+    },
+    {
+      "self_ref": "#/texts/182",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D\u00e8s sa publication, cette page sera mise \u00e0 jour.",
+      "text": "D\u00e8s sa publication, cette page sera mise \u00e0 jour."
+    },
+    {
+      "self_ref": "#/texts/183",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans l'attente, les informations sur cette page restent valables.",
+      "text": "Dans l'attente, les informations sur cette page restent valables."
+    },
+    {
+      "self_ref": "#/texts/184",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qui peut m'aider ?",
+      "text": "Qui peut m'aider ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/185",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?",
+      "text": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?"
+    },
+    {
+      "self_ref": "#/texts/186",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/30"
+        },
+        {
+          "$ref": "#/groups/31"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/187",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sant\u00e9 Info Droits Ligne t\u00e9l\u00e9phonique cr\u00e9\u00e9e par un collectif d'associations d'usagers pour fournir des informations juridiques ou sociales li\u00e9es \u00e0 la sant\u00e9 ",
+      "text": "Sant\u00e9 Info Droits Ligne t\u00e9l\u00e9phonique cr\u00e9\u00e9e par un collectif d'associations d'usagers pour fournir des informations juridiques ou sociales li\u00e9es \u00e0 la sant\u00e9 "
+    },
+    {
+      "self_ref": "#/texts/188",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Par t\u00e9l\u00e9phone 01 53 62 40 30",
+      "text": "Par t\u00e9l\u00e9phone 01 53 62 40 30",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/189",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Prix d'une communication normale Service ouvert :",
+      "text": " Prix d'une communication normale Service ouvert :"
+    },
+    {
+      "self_ref": "#/texts/190",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les lundi, mercredi et vendredi de 14h \u00e0 18h",
+      "text": "Les lundi, mercredi et vendredi de 14h \u00e0 18h",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/191",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les mardi et jeudi de 14h \u00e0 20h.",
+      "text": "Les mardi et jeudi de 14h \u00e0 20h.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/192",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Ameli",
+      "text": "Ameli",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

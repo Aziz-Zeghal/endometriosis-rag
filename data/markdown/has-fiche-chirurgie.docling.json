@@ -1,0 +1,2905 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "has-fiche-chirurgie",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 14029919298535739743,
+    "filename": "has-fiche-chirurgie.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 77.6015,
+            "t": 724.4204,
+            "r": 517.6789000000001,
+            "b": 710.6940188605108,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "SYNTH\u00c8SE DE LA RECOMMANDATION DE BONNE PRATIQUE",
+      "text": "SYNTH\u00c8SE DE LA RECOMMANDATION DE BONNE PRATIQUE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 81.3898,
+            "t": 677.1374999999999,
+            "r": 513.8203,
+            "b": 650.1391043737574,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Prise en charge de l'endom\u00e9triose",
+      "text": "Prise en charge de l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 172.4288,
+            "t": 635.2022000000001,
+            "r": 422.8214,
+            "b": 618.1505817097416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Traitement chirurgical et fertilit\u00e9",
+      "text": "Traitement chirurgical et fertilit\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 244.2735,
+            "t": 590.8809,
+            "r": 350.9834999999999,
+            "b": 576.6712180914512,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "D\u00e9cembre 2017",
+      "text": "D\u00e9cembre 2017"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.433,
+            "t": 496.6304,
+            "r": 355.1498,
+            "b": 483.8844746561886,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "TRAITEMENT CHIRURGICAL DE L'ENDOM\u00c9TRIOSE",
+      "text": "TRAITEMENT CHIRURGICAL DE L'ENDOM\u00c9TRIOSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 461.01320000000004,
+            "r": 248.3031000000001,
+            "b": 451.5400787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Le choix du traitement chirurgical est guid\u00e9 par :",
+      "text": "Le choix du traitement chirurgical est guid\u00e9 par :"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.063,
+            "t": 446.1372,
+            "r": 286.4573,
+            "b": 436.4140787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf l'efficacit\u00e9 et les effets ind\u00e9sirables des traitements ;",
+      "text": "\u25cf l'efficacit\u00e9 et les effets ind\u00e9sirables des traitements ;",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.063,
+            "t": 431.01120000000003,
+            "r": 253.29430000000008,
+            "b": 421.28807872763423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf l'intensit\u00e9 et la caract\u00e9risation de la douleur ;",
+      "text": "\u25cf l'intensit\u00e9 et la caract\u00e9risation de la douleur ;",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.063,
+            "t": 415.8852,
+            "r": 262.7343,
+            "b": 406.16207872763414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf la s\u00e9v\u00e9rit\u00e9 et la localisation de l'endom\u00e9triose ;",
+      "text": "\u25cf la s\u00e9v\u00e9rit\u00e9 et la localisation de l'endom\u00e9triose ;",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.063,
+            "t": 400.7592,
+            "r": 335.5943,
+            "b": 391.03607872763416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf les attentes de la patiente et un \u00e9ventuel souhait de grossesse.",
+      "text": "\u25cf les attentes de la patiente et un \u00e9ventuel souhait de grossesse.",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 379.00530000000003,
+            "r": 259.40310000000005,
+            "b": 369.53217872763423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Lors d'un traitement chirurgical de l'endom\u00e9triose :",
+      "text": "Lors d'un traitement chirurgical de l'endom\u00e9triose :"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.063,
+            "t": 364.1293,
+            "r": 285.50430000000006,
+            "b": 354.40617872763414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf pr\u00e9f\u00e9rer la voie d'abord chirurgicale c\u0153lioscopique ;",
+      "text": "\u25cf pr\u00e9f\u00e9rer la voie d'abord chirurgicale c\u0153lioscopique ;",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.063,
+            "t": 349.0033,
+            "r": 508.43429999999995,
+            "b": 339.28017872763417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf en cas d'atteinte profonde : pr\u00e9server les nerfs v\u00e9g\u00e9tatifs pelviens \u00e0 chaque fois que cela est possible.",
+      "text": "\u25cf en cas d'atteinte profonde : pr\u00e9server les nerfs v\u00e9g\u00e9tatifs pelviens \u00e0 chaque fois que cela est possible.",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 314.17080799999997,
+            "r": 360.737928,
+            "b": 303.0070862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triose pelvienne minime \u00e0 l\u00e9g\u00e8re (stades I et II ASRM) 1",
+      "text": "Endom\u00e9triose pelvienne minime \u00e0 l\u00e9g\u00e8re (stades I et II ASRM) 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 294.40690000000006,
+            "r": 475.474,
+            "b": 284.93377872763415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Traiter de mani\u00e8re compl\u00e8te les l\u00e9sions d'endom\u00e9triose pelvienne d\u00e9couvertes \u00e0 la c\u0153lioscopie.",
+      "text": "\u25a0 \u25a0 Traiter de mani\u00e8re compl\u00e8te les l\u00e9sions d'endom\u00e9triose pelvienne d\u00e9couvertes \u00e0 la c\u0153lioscopie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 278.57219999999995,
+            "r": 527.005,
+            "b": 269.09907872763415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Les techniques d'ex\u00e9r\u00e8se et de destruction ont des efficacit\u00e9s comparables pour l'am\u00e9lioration des douleurs.",
+      "text": "\u25a0 \u25a0 Les techniques d'ex\u00e9r\u00e8se et de destruction ont des efficacit\u00e9s comparables pour l'am\u00e9lioration des douleurs.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 262.73760000000004,
+            "r": 559.8429999999995,
+            "b": 240.26447872763413,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 En cas d'infertilit\u00e9, le traitement des l\u00e9sions, associ\u00e9 \u00e0 l'adh\u00e9siolyse, permet une augmentation du taux de grossesses spontan\u00e9es.",
+      "text": "\u25a0 \u25a0 En cas d'infertilit\u00e9, le traitement des l\u00e9sions, associ\u00e9 \u00e0 l'adh\u00e9siolyse, permet une augmentation du taux de grossesses spontan\u00e9es.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 214.77639999999997,
+            "r": 154.62910000000005,
+            "b": 203.99138624754426,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triome ovarien",
+      "text": "Endom\u00e9triome ovarien",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 195.39109999999994,
+            "r": 559.8449999999998,
+            "b": 159.91797872763425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            276
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Proc\u00e9der \u00e0 une kystectomie intra-p\u00e9riton\u00e9ale c\u0153lioscopique. Si la kystectomie risque de conduire \u00e0 une ovariectomie partielle ou totale en raison de difficult\u00e9s op\u00e9ratoires alors que la patiente souhaite pr\u00e9server son ovaire, il est pr\u00e9f\u00e9rable d'abandonner la kystectomie.",
+      "text": "\u25a0 \u25a0 Proc\u00e9der \u00e0 une kystectomie intra-p\u00e9riton\u00e9ale c\u0153lioscopique. Si la kystectomie risque de conduire \u00e0 une ovariectomie partielle ou totale en raison de difficult\u00e9s op\u00e9ratoires alors que la patiente souhaite pr\u00e9server son ovaire, il est pr\u00e9f\u00e9rable d'abandonner la kystectomie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 153.55650000000003,
+            "r": 421.9440000000001,
+            "b": 144.08337872763423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Rechercher et traiter d'\u00e9ventuelles autres localisations pelviennes de l'endom\u00e9triose.",
+      "text": "\u25a0 \u25a0 Rechercher et traiter d'\u00e9ventuelles autres localisations pelviennes de l'endom\u00e9triose.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 137.72180000000003,
+            "r": 426.9579999999999,
+            "b": 128.24867872763423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 En cas d'endom\u00e9triomes r\u00e9cidivants : la scl\u00e9roth\u00e9rapie \u00e0 l'\u00e9thanol peut \u00eatre propos\u00e9e.",
+      "text": "\u25a0 \u25a0 En cas d'endom\u00e9triomes r\u00e9cidivants : la scl\u00e9roth\u00e9rapie \u00e0 l'\u00e9thanol peut \u00eatre propos\u00e9e.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 121.8872,
+            "r": 559.8169999999994,
+            "b": 99.4140787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 \u00c9viter de r\u00e9aliser une ponction \u00e9choguid\u00e9e simple en raison du risque de la persistance ou de la r\u00e9cidive rapide des douleurs et des endom\u00e9triomes.",
+      "text": "\u25a0 \u25a0 \u00c9viter de r\u00e9aliser une ponction \u00e9choguid\u00e9e simple en raison du risque de la persistance ou de la r\u00e9cidive rapide des douleurs et des endom\u00e9triomes.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 93.05250000000001,
+            "r": 559.8425000000001,
+            "b": 70.57937872763421,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 \u00c9viter la technique destructive par coagulation bipolaire en raison d'un risque de baisse de grossesses postop\u00e9ratoires et de r\u00e9cidives.",
+      "text": "\u25a0 \u25a0 \u00c9viter la technique destructive par coagulation bipolaire en raison d'un risque de baisse de grossesses postop\u00e9ratoires et de r\u00e9cidives.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 35.4331,
+            "t": 31.239799999999946,
+            "r": 260.8618000000001,
+            "b": 23.661302982107372,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "1. ASRM : www.fertstert.org/article/S0015-0282(97)81391-X/pdf",
+      "text": "1. ASRM : www.fertstert.org/article/S0015-0282(97)81391-X/pdf"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 799.2378,
+            "r": 255.48810000000012,
+            "b": 788.4527862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triose profonde infiltrant la vessie",
+      "text": "Endom\u00e9triose profonde infiltrant la vessie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 779.8525,
+            "r": 559.8259999999998,
+            "b": 757.3793787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            202
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Proc\u00e9der \u00e0 une cystectomie partielle. Cette technique est efficace \u00e0 long terme sur la diminution des sympt\u00f4mes douloureux et sur le risque de r\u00e9cidive, avec un faible taux de complications s\u00e9v\u00e8res.",
+      "text": "\u25a0 \u25a0 Proc\u00e9der \u00e0 une cystectomie partielle. Cette technique est efficace \u00e0 long terme sur la diminution des sympt\u00f4mes douloureux et sur le risque de r\u00e9cidive, avec un faible taux de complications s\u00e9v\u00e8res.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 751.0178999999999,
+            "r": 445.863,
+            "b": 741.5447787276341,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 \u00c9viter la r\u00e9section d'un nodule d'endom\u00e9triose v\u00e9sicale uniquement par voie transur\u00e9trale.",
+      "text": "\u25a0 \u25a0 \u00c9viter la r\u00e9section d'un nodule d'endom\u00e9triose v\u00e9sicale uniquement par voie transur\u00e9trale.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 716.0567,
+            "r": 227.97710000000012,
+            "b": 705.2716862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triose profonde des uret\u00e8res",
+      "text": "Endom\u00e9triose profonde des uret\u00e8res",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 696.6714,
+            "r": 559.8396999999995,
+            "b": 661.1982787276341,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            349
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Les techniques conservatrices (ur\u00e9t\u00e9rolyse) ou radicales (r\u00e9section ur\u00e9t\u00e9rale avec anastomose termino-terminale ou r\u00e9section ur\u00e9t\u00e9rale et r\u00e9implantation v\u00e9sicale) sont efficaces sur la diminution des sympt\u00f4mes douloureux, de la dilatation des voies urinaires sup\u00e9rieures et sur le risque de r\u00e9cidive avec un faible taux de complications s\u00e9v\u00e8res.",
+      "text": "\u25a0 \u25a0 Les techniques conservatrices (ur\u00e9t\u00e9rolyse) ou radicales (r\u00e9section ur\u00e9t\u00e9rale avec anastomose termino-terminale ou r\u00e9section ur\u00e9t\u00e9rale et r\u00e9implantation v\u00e9sicale) sont efficaces sur la diminution des sympt\u00f4mes douloureux, de la dilatation des voies urinaires sup\u00e9rieures et sur le risque de r\u00e9cidive avec un faible taux de complications s\u00e9v\u00e8res.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 654.8367999999999,
+            "r": 315.23400000000004,
+            "b": 645.3636787276341,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Pour les techniques radicales (anastomose, r\u00e9implantation) :",
+      "text": "\u25a0 \u25a0 Pour les techniques radicales (anastomose, r\u00e9implantation) :",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 46.063,
+            "t": 639.9608,
+            "r": 464.4843000000002,
+            "b": 630.2376787276341,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf prise en charge par une \u00e9quipe chirurgicale multidisciplinaire (gyn\u00e9cologique et urologique) ;",
+      "text": "\u25cf prise en charge par une \u00e9quipe chirurgicale multidisciplinaire (gyn\u00e9cologique et urologique) ;",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 46.063,
+            "t": 624.8348,
+            "r": 545.6742999999997,
+            "b": 602.1116787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf surveillance postop\u00e9ratoire par imagerie (risque de st\u00e9nose de l'anastomose ur\u00e9t\u00e9ro-ur\u00e9t\u00e9rale ou du site de r\u00e9implantation ur\u00e9t\u00e9rov\u00e9sicale et risque d'atrophie r\u00e9nale).",
+      "text": "\u25cf surveillance postop\u00e9ratoire par imagerie (risque de st\u00e9nose de l'anastomose ur\u00e9t\u00e9ro-ur\u00e9t\u00e9rale ou du site de r\u00e9implantation ur\u00e9t\u00e9rov\u00e9sicale et risque d'atrophie r\u00e9nale).",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 576.6237,
+            "r": 315.98810000000003,
+            "b": 565.8386862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triose profonde infiltrant le colon et le rectum",
+      "text": "Endom\u00e9triose profonde infiltrant le colon et le rectum",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 557.2384,
+            "r": 276.797,
+            "b": 547.7652787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Utiliser de pr\u00e9f\u00e9rence la voie d'abord c\u0153lioscopique.",
+      "text": "\u25a0 \u25a0 Utiliser de pr\u00e9f\u00e9rence la voie d'abord c\u0153lioscopique.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 541.4037,
+            "r": 461.347,
+            "b": 531.9305787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Proc\u00e9der \u00e0 une r\u00e9section des l\u00e9sions pelviennes d'endom\u00e9triose aussi compl\u00e8te que possible.",
+      "text": "\u25a0 \u25a0 Proc\u00e9der \u00e0 une r\u00e9section des l\u00e9sions pelviennes d'endom\u00e9triose aussi compl\u00e8te que possible.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 525.5690999999999,
+            "r": 410.74699999999996,
+            "b": 516.0959787276341,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 \u00c9viter l'utilisation de barri\u00e8res anti-adh\u00e9rentielles autour de l'anastomose digestive.",
+      "text": "\u25a0 \u25a0 \u00c9viter l'utilisation de barri\u00e8res anti-adh\u00e9rentielles autour de l'anastomose digestive.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 509.73440000000005,
+            "r": 559.8359999999996,
+            "b": 487.26127872763425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 En cas d'endom\u00e9triose du bas rectum : discuter de la n\u00e9cessit\u00e9 de r\u00e9aliser une d\u00e9rivation digestive temporaire et en informer la patiente.",
+      "text": "\u25a0 \u25a0 En cas d'endom\u00e9triose du bas rectum : discuter de la n\u00e9cessit\u00e9 de r\u00e9aliser une d\u00e9rivation digestive temporaire et en informer la patiente.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 480.8998,
+            "r": 358.51699999999994,
+            "b": 471.4266787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Informer la patiente du risque de complications postop\u00e9ratoires graves.",
+      "text": "\u25a0 \u25a0 Informer la patiente du risque de complications postop\u00e9ratoires graves.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 465.06510000000003,
+            "r": 282.9170000000001,
+            "b": 455.5919787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Mettre en place une prise en charge multidisciplinaire.",
+      "text": "\u25a0 \u25a0 Mettre en place une prise en charge multidisciplinaire.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 430.104,
+            "r": 415.0870999999999,
+            "b": 419.3189862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "Int\u00e9r\u00eat de l'hyst\u00e9rectomie conservatrice ou avec annexectomie bilat\u00e9rale",
+      "text": "Int\u00e9r\u00eat de l'hyst\u00e9rectomie conservatrice ou avec annexectomie bilat\u00e9rale",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 410.7187,
+            "r": 335.75699999999995,
+            "b": 401.2455787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Peut \u00eatre propos\u00e9e chez les patientes sans souhait de grossesse.",
+      "text": "\u25a0 \u25a0 Peut \u00eatre propos\u00e9e chez les patientes sans souhait de grossesse.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 394.884,
+            "r": 218.44700000000006,
+            "b": 385.4108787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Permet de r\u00e9duire le risque de r\u00e9cidive.",
+      "text": "\u25a0 \u25a0 Permet de r\u00e9duire le risque de r\u00e9cidive.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 379.04940000000005,
+            "r": 326.84700000000004,
+            "b": 369.5762787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Discuter avec la patiente du choix de la conservation ovarienne.",
+      "text": "\u25a0 \u25a0 Discuter avec la patiente du choix de la conservation ovarienne.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 363.21470000000005,
+            "r": 491.3569999999998,
+            "b": 353.7415787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Si besoin, un traitement hormonal de la m\u00e9nopause (THM) peut \u00eatre propos\u00e9 en cas d'endom\u00e9triose.",
+      "text": "\u25a0 \u25a0 Si besoin, un traitement hormonal de la m\u00e9nopause (THM) peut \u00eatre propos\u00e9 en cas d'endom\u00e9triose.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 328.2535999999999,
+            "r": 404.6481,
+            "b": 317.4685862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triose extra-pelvienne : pari\u00e9tale, diaphragmatique, thoracique",
+      "text": "Endom\u00e9triose extra-pelvienne : pari\u00e9tale, diaphragmatique, thoracique",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 308.8683,
+            "r": 467.4869999999999,
+            "b": 299.3951787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Pr\u00e9voir une consultation avec un gyn\u00e9cologue pour rechercher une atteinte pelvienne associ\u00e9e.",
+      "text": "\u25a0 \u25a0 Pr\u00e9voir une consultation avec un gyn\u00e9cologue pour rechercher une atteinte pelvienne associ\u00e9e.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 293.03370000000007,
+            "r": 314.02700000000004,
+            "b": 283.56057872763415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Proposer un traitement chirurgical (efficace sur les douleurs).",
+      "text": "\u25a0 \u25a0 Proposer un traitement chirurgical (efficace sur les douleurs).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.433,
+            "t": 223.654,
+            "r": 270.91240000000005,
+            "b": 210.90807465618866,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "PRISE EN CHARGE DE L'INFERTILIT\u00c9",
+      "text": "PRISE EN CHARGE DE L'INFERTILIT\u00c9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 188.03679999999997,
+            "r": 559.8460999999998,
+            "b": 152.56367872763417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            289
+          ]
+        }
+      ],
+      "orig": "Elle doit \u00eatre conduite par des \u00e9quipes pluridisciplinaires comprenant des radiologues sp\u00e9cialis\u00e9s en imagerie de la femme, des gyn\u00e9cologues m\u00e9dicaux, des chirurgiens gyn\u00e9cologues, urologues et digestifs, des praticiens sp\u00e9cialis\u00e9s en AMP, des praticiens de la douleur et des psychologues.",
+      "text": "Elle doit \u00eatre conduite par des \u00e9quipes pluridisciplinaires comprenant des radiologues sp\u00e9cialis\u00e9s en imagerie de la femme, des gyn\u00e9cologues m\u00e9dicaux, des chirurgiens gyn\u00e9cologues, urologues et digestifs, des praticiens sp\u00e9cialis\u00e9s en AMP, des praticiens de la douleur et des psychologues."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 146.20220000000006,
+            "r": 559.8261,
+            "b": 123.72907872763415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            162
+          ]
+        }
+      ],
+      "orig": "En cas d'endom\u00e9triose minime \u00e0 l\u00e9g\u00e8re, l'utilisation d'une stimulation ovarienne, avec ou sans ins\u00e9mination intra-ut\u00e9rine, en postop\u00e9ratoire, peut \u00eatre envisag\u00e9e.",
+      "text": "En cas d'endom\u00e9triose minime \u00e0 l\u00e9g\u00e8re, l'utilisation d'une stimulation ovarienne, avec ou sans ins\u00e9mination intra-ut\u00e9rine, en postop\u00e9ratoire, peut \u00eatre envisag\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 117.71177999999998,
+            "r": 559.8425000000001,
+            "b": 94.89437872763415,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            127
+          ]
+        }
+      ],
+      "orig": "Apr\u00e8s une chirurgie, utiliser l'Endometriosis Fertility Index 2 pour guider la strat\u00e9gie en vue de l'obtention d'une grossesse.",
+      "text": "Apr\u00e8s une chirurgie, utiliser l'Endometriosis Fertility Index 2 pour guider la strat\u00e9gie en vue de l'obtention d'une grossesse."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 88.53290000000004,
+            "r": 559.8000999999997,
+            "b": 66.05977872763424,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "\u00c9viter la prescription d'un traitement hormonal antigonadotrope qui ne permet pas d'augmenter le taux de grossesses hors FIV, y compris en postop\u00e9ratoire.",
+      "text": "\u00c9viter la prescription d'un traitement hormonal antigonadotrope qui ne permet pas d'augmenter le taux de grossesses hors FIV, y compris en postop\u00e9ratoire."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 35.4331,
+            "t": 31.239799999999946,
+            "r": 337.7823999999996,
+            "b": 23.661302982107372,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "2. Endometriosis Fertility Index : www.fertstert.org/article/S0015-0282(09)03714-5/pdf",
+      "text": "2. Endometriosis Fertility Index : www.fertstert.org/article/S0015-0282(09)03714-5/pdf",
+      "hyperlink": "http://www.fertstert.org/article/S0015-0282(09)03714-5/pdf"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 799.2378,
+            "r": 355.786,
+            "b": 788.4527862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "Principes de la prise en charge en FIV en cas d'endom\u00e9triose",
+      "text": "Principes de la prise en charge en FIV en cas d'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 779.8525,
+            "r": 559.8339999999993,
+            "b": 744.3793787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            301
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Les r\u00e9sultats de la prise en charge en AMP par FIV en termes de taux de grossesses et de naissances ne semblent pas affect\u00e9s par l'existence d'une endom\u00e9triose ou par son stade. En cas d'endom\u00e9triose, le nombre d'ovocytes recueillis semble \u00eatre plus faible, notamment en cas d'endom\u00e9triose s\u00e9v\u00e8re.",
+      "text": "\u25a0 \u25a0 Les r\u00e9sultats de la prise en charge en AMP par FIV en termes de taux de grossesses et de naissances ne semblent pas affect\u00e9s par l'existence d'une endom\u00e9triose ou par son stade. En cas d'endom\u00e9triose, le nombre d'ovocytes recueillis semble \u00eatre plus faible, notamment en cas d'endom\u00e9triose s\u00e9v\u00e8re.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 738.0178999999999,
+            "r": 559.8269999999995,
+            "b": 715.5447787276341,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Les \u00e9tudes sur la stimulation de l'ovulation pour FIV ne montrent pas d'aggravation des sympt\u00f4mes li\u00e9s aux l\u00e9sions d'endom\u00e9triose, ni d'acc\u00e9l\u00e9ration de son \u00e9volution, ou d'augmentation du taux de r\u00e9cidive de la maladie.",
+      "text": "\u25a0 \u25a0 Les \u00e9tudes sur la stimulation de l'ovulation pour FIV ne montrent pas d'aggravation des sympt\u00f4mes li\u00e9s aux l\u00e9sions d'endom\u00e9triose, ni d'acc\u00e9l\u00e9ration de son \u00e9volution, ou d'augmentation du taux de r\u00e9cidive de la maladie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 709.1832999999999,
+            "r": 154.04500000000002,
+            "b": 699.7101787276341,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 En cas d'endom\u00e9triose :",
+      "text": "\u25a0 \u25a0 En cas d'endom\u00e9triose :",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 46.063,
+            "t": 694.3072,
+            "r": 443.3541999999999,
+            "b": 684.5840787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf il n'y a pas lieu de privil\u00e9gier l'ICSI par rapport \u00e0 la FIV classique en premi\u00e8re intention ;",
+      "text": "\u25cf il n'y a pas lieu de privil\u00e9gier l'ICSI par rapport \u00e0 la FIV classique en premi\u00e8re intention ;",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 46.063,
+            "t": 679.1812,
+            "r": 312.2342,
+            "b": 669.4580787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf utiliser un protocole agoniste ou un protocole antagoniste.",
+      "text": "\u25cf utiliser un protocole agoniste ou un protocole antagoniste.",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 663.0966,
+            "r": 183.505,
+            "b": 653.6234787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 En cas d'endom\u00e9triose et FIV :",
+      "text": "\u25a0 \u25a0 En cas d'endom\u00e9triose et FIV :",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 46.063,
+            "t": 648.2207,
+            "r": 545.6531999999999,
+            "b": 625.4975787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            127
+          ]
+        }
+      ],
+      "orig": "\u25cf \u25cf mettre en place un pr\u00e9traitement avant stimulation par analogue agoniste de la GnRH ou par contraception \u0153stroprogestative.",
+      "text": "\u25cf mettre en place un pr\u00e9traitement avant stimulation par analogue agoniste de la GnRH ou par contraception \u0153stroprogestative.",
+      "enumerated": false,
+      "marker": "\u25cf"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 600.0095,
+            "r": 207.82500000000007,
+            "b": 589.2244862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "FIV et endom\u00e9triose superficielle",
+      "text": "FIV et endom\u00e9triose superficielle",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 580.6242,
+            "r": 559.834,
+            "b": 558.1510787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            153
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser un traitement chirurgical de l'endom\u00e9triose superficielle dans le seul but d'augmenter les chances de grossesse en FIV.",
+      "text": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser un traitement chirurgical de l'endom\u00e9triose superficielle dans le seul but d'augmenter les chances de grossesse en FIV.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 532.663,
+            "r": 144.234,
+            "b": 521.8779862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "FIV et endom\u00e9triome",
+      "text": "FIV et endom\u00e9triome",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 513.2777,
+            "r": 497.73499999999996,
+            "b": 503.8045787276342,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser un traitement chirurgical dans le seul but d'am\u00e9liorer les r\u00e9sultats de la FIV.",
+      "text": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser un traitement chirurgical dans le seul but d'am\u00e9liorer les r\u00e9sultats de la FIV.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 497.4431,
+            "r": 559.8425000000001,
+            "b": 474.96997872763416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser une aspiration transvaginale syst\u00e9matique sous contr\u00f4le \u00e9chographique des endom\u00e9triomes avant FIV afin d'augmenter les taux de grossesses.",
+      "text": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser une aspiration transvaginale syst\u00e9matique sous contr\u00f4le \u00e9chographique des endom\u00e9triomes avant FIV afin d'augmenter les taux de grossesses.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 468.6084,
+            "r": 559.8089999999996,
+            "b": 446.13527872763416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 En cas d'endom\u00e9triome pouvant g\u00eaner la ponction ovocytaire, celui-ci peut \u00eatre drain\u00e9 par voie vaginale \u00e9cho-guid\u00e9e avec ou sans alcoolisation.",
+      "text": "\u25a0 \u25a0 En cas d'endom\u00e9triome pouvant g\u00eaner la ponction ovocytaire, celui-ci peut \u00eatre drain\u00e9 par voie vaginale \u00e9cho-guid\u00e9e avec ou sans alcoolisation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 420.6473,
+            "r": 191.29200000000006,
+            "b": 409.8622862475442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "FIV et endom\u00e9triose profonde",
+      "text": "FIV et endom\u00e9triose profonde",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 401.262,
+            "r": 354.7179999999999,
+            "b": 391.78887872763414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Une FIV peut \u00eatre propos\u00e9e afin d'augmenter les taux de grossesses.",
+      "text": "\u25a0 \u25a0 Une FIV peut \u00eatre propos\u00e9e afin d'augmenter les taux de grossesses.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 385.4273,
+            "r": 559.8019999999997,
+            "b": 362.95417872763414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser un traitement chirurgical de l'endom\u00e9triose profonde avant FIV dans le seul but d'am\u00e9liorer les r\u00e9sultats de la FIV.",
+      "text": "\u25a0 \u25a0 Il n'y a pas lieu de r\u00e9aliser un traitement chirurgical de l'endom\u00e9triose profonde avant FIV dans le seul but d'am\u00e9liorer les r\u00e9sultats de la FIV.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 356.59270000000004,
+            "r": 559.8489999999991,
+            "b": 334.11957872763423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 En cas d'\u00e9chec d'une ou plusieurs tentatives de FIV dans un contexte d'endom\u00e9triose profonde, mettre en place une concertation m\u00e9dico-chirurgicale.",
+      "text": "\u25a0 \u25a0 En cas d'\u00e9chec d'une ou plusieurs tentatives de FIV dans un contexte d'endom\u00e9triose profonde, mettre en place une concertation m\u00e9dico-chirurgicale.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 308.63149999999996,
+            "r": 201.7090000000001,
+            "b": 297.84648624754425,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "FIV et endom\u00e9triose r\u00e9cidivante",
+      "text": "FIV et endom\u00e9triose r\u00e9cidivante",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 289.24620000000004,
+            "r": 559.7949999999994,
+            "b": 266.77307872763424,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Mettre en place une concertation m\u00e9dico-chirurgicale pour discuter d'une prise en charge adapt\u00e9e en tenant compte de la symptomatologie, des risques op\u00e9ratoires et des facteurs d'infertilit\u00e9 associ\u00e9s.",
+      "text": "\u25a0 \u25a0 Mettre en place une concertation m\u00e9dico-chirurgicale pour discuter d'une prise en charge adapt\u00e9e en tenant compte de la symptomatologie, des risques op\u00e9ratoires et des facteurs d'infertilit\u00e9 associ\u00e9s.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 241.28509999999994,
+            "r": 292.1950000000001,
+            "b": 230.50008624754423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Pr\u00e9servation de la fertilit\u00e9 en cas d'endom\u00e9triose",
+      "text": "Pr\u00e9servation de la fertilit\u00e9 en cas d'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 35.433,
+            "t": 221.89970000000005,
+            "r": 358.0319999999999,
+            "b": 212.42657872763414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "\u25a0 \u25a0 Discuter avec la patiente des possibilit\u00e9s de pr\u00e9servation de la fertilit\u00e9.",
+      "text": "\u25a0 \u25a0 Discuter avec la patiente des possibilit\u00e9s de pr\u00e9servation de la fertilit\u00e9.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 170.8971,
+            "t": 63.36569999999995,
+            "r": 424.3470999999999,
+            "b": 53.892578727634145,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "\u00ab Prise en charge de l'endom\u00e9triose \u00bb - D\u00e9cembre 2017.",
+      "text": "\u00ab Prise en charge de l'endom\u00e9triose \u00bb - D\u00e9cembre 2017."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 579.9812999999999,
+            "t": 267.86189999999976,
+            "r": 584.7178606361829,
+            "b": 168.5679,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "\u00a9 Haute Autorit\u00e9 de Sant\u00e9 - D\u00e9cembre 2017",
+      "text": "\u00a9 Haute Autorit\u00e9 de Sant\u00e9 - D\u00e9cembre 2017"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 108.6339,
+            "t": 77.20029999999997,
+            "r": 486.5938999999999,
+            "b": 67.72717872763417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "Ce document pr\u00e9sente les points essentiels des recommandations de bonne pratique",
+      "text": "Ce document pr\u00e9sente les points essentiels des recommandations de bonne pratique"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 46.5929,
+            "t": 49.53100000000006,
+            "r": 548.6798999999999,
+            "b": 39.72644204322205,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "Ces recommandations et l'argumentaire scientifique sont consultables dans leur int\u00e9gralit\u00e9 sur www.has-sante.fr",
+      "text": "Ces recommandations et l'argumentaire scientifique sont consultables dans leur int\u00e9gralit\u00e9 sur www.has-sante.fr"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 260.9459,
+            "t": 27.192499999999995,
+            "r": 334.3159,
+            "b": 17.387942043221983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "D\u00e9cembre 2017",
+      "text": "D\u00e9cembre 2017"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 87.53733982014495,
+            "t": 826.4054823879164,
+            "r": 279.6904682002739,
+            "b": 753.6532683720894,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 349.21979527579697,
+            "t": 824.9436916097835,
+            "r": 506.3888995334702,
+            "b": 755.7128366135079,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 264.52519702803846,
+            "t": 131.60176264384575,
+            "r": 329.3158416899611,
+            "b": 101.50388854328071,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 3
+    }
+  }
+}

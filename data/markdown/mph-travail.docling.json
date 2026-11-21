@@ -1,0 +1,3428 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 916590204366654420,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/groups/20"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/groups/21"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/groups/22"
+      },
+      {
+        "$ref": "#/groups/23"
+      },
+      {
+        "$ref": "#/groups/24"
+      },
+      {
+        "$ref": "#/groups/27"
+      },
+      {
+        "$ref": "#/texts/136"
+      },
+      {
+        "$ref": "#/texts/137"
+      },
+      {
+        "$ref": "#/texts/138"
+      },
+      {
+        "$ref": "#/groups/28"
+      },
+      {
+        "$ref": "#/groups/31"
+      },
+      {
+        "$ref": "#/texts/155"
+      },
+      {
+        "$ref": "#/groups/32"
+      },
+      {
+        "$ref": "#/groups/33"
+      },
+      {
+        "$ref": "#/groups/34"
+      },
+      {
+        "$ref": "#/groups/35"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/texts/85"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/127"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/texts/123"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/texts/127"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/148"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "$ref": "#/texts/141"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/142"
+        },
+        {
+          "$ref": "#/texts/143"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "$ref": "#/texts/144"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        },
+        {
+          "$ref": "#/texts/158"
+        },
+        {
+          "$ref": "#/texts/159"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/160"
+        },
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/166"
+        },
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/168"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La journ\u00e9e mondiale de lutte contre l\u2019endom\u00e9triose a lieu ",
+      "text": "La journ\u00e9e mondiale de lutte contre l\u2019endom\u00e9triose a lieu "
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le 28 mars 2026.",
+      "text": "le 28 mars 2026.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Encore mal comprise, les \u00e9v\u00e9nements de sensibilisation se multiplient en mars pour ",
+      "text": "Encore mal comprise, les \u00e9v\u00e9nements de sensibilisation se multiplient en mars pour "
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sensibiliser le grand public",
+      "text": "sensibiliser le grand public",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " \u00e0 l\u2019endom\u00e9triose et ",
+      "text": " \u00e0 l\u2019endom\u00e9triose et "
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aider les femmes",
+      "text": "aider les femmes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui sont concern\u00e9es\u00a0: semaine europ\u00e9enne du 2 au 8 mars, mois de sensibilisation\u2026 Cette ann\u00e9e, un des th\u00e8mes abord\u00e9s est \u00ab ",
+      "text": " qui sont concern\u00e9es\u00a0: semaine europ\u00e9enne du 2 au 8 mars, mois de sensibilisation\u2026 Cette ann\u00e9e, un des th\u00e8mes abord\u00e9s est \u00ab "
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose n\u2019attend pas",
+      "text": "L\u2019endom\u00e9triose n\u2019attend pas",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0\u00bb\u00a0: ne pas attendre pour obtenir un diagnostic, des soins ou voir son activit\u00e9 professionnelle impact\u00e9e.",
+      "text": "\u00a0\u00bb\u00a0: ne pas attendre pour obtenir un diagnostic, des soins ou voir son activit\u00e9 professionnelle impact\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mon parcours handicap fait le point sur cette maladie, ",
+      "text": "Mon parcours handicap fait le point sur cette maladie, "
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les am\u00e9nagements",
+      "text": "les am\u00e9nagements",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " dont peuvent b\u00e9n\u00e9ficier les malades dans leur vie professionnelle, quand demander l",
+      "text": " dont peuvent b\u00e9n\u00e9ficier les malades dans leur vie professionnelle, quand demander l"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "a reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH)",
+      "text": "a reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et quels sont les accompagnements possibles.",
+      "text": " et quels sont les accompagnements possibles."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "1) Qu\u2019est-ce que l\u2019endom\u00e9triose ?",
+      "text": "1) Qu\u2019est-ce que l\u2019endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019",
+      "text": "L\u2019"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose",
+      "text": "endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " est une maladie gyn\u00e9cologique, inflammatoire et chronique qui est fr\u00e9quente chez les femmes. Selon l\u2019OMS, ",
+      "text": " est une maladie gyn\u00e9cologique, inflammatoire et chronique qui est fr\u00e9quente chez les femmes. Selon l\u2019OMS, "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pr\u00e8s de 10% des femmes",
+      "text": "pr\u00e8s de 10% des femmes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " en \u00e2ge de procr\u00e9er en sont atteintes. Les premiers sympt\u00f4mes de l\u2019endom\u00e9triose peuvent appara\u00eetre d\u00e8s le d\u00e9but des r\u00e8gles et se poursuivre jusqu\u2019\u00e0 la m\u00e9nopause.",
+      "text": " en \u00e2ge de procr\u00e9er en sont atteintes. Les premiers sympt\u00f4mes de l\u2019endom\u00e9triose peuvent appara\u00eetre d\u00e8s le d\u00e9but des r\u00e8gles et se poursuivre jusqu\u2019\u00e0 la m\u00e9nopause."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de l\u2019endom\u00e9triose",
+      "text": "Les sympt\u00f4mes de l\u2019endom\u00e9triose",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de l'endom\u00e9triose sont ",
+      "text": "Les sympt\u00f4mes de l'endom\u00e9triose sont "
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "tr\u00e8s variables d'une femme \u00e0 l'autre.",
+      "text": "tr\u00e8s variables d'une femme \u00e0 l'autre.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Ils peuvent inclure\u00a0des douleurs pelviennes qui peuvent survenir \u00e0 diff\u00e9rents moments, pendant\u00a0:",
+      "text": " Ils peuvent inclure\u00a0des douleurs pelviennes qui peuvent survenir \u00e0 diff\u00e9rents moments, pendant\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les rapports sexuels (dyspareunie) ;",
+      "text": "les rapports sexuels (dyspareunie) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les examens gyn\u00e9cologiques ;",
+      "text": "les examens gyn\u00e9cologiques ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "les r\u00e8gles ;",
+      "text": "les r\u00e8gles ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019\u00e9limination des selles ;",
+      "text": "l\u2019\u00e9limination des selles ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le sommeil qui peut entra\u00eener une fatigue importante et chronique ;",
+      "text": "le sommeil qui peut entra\u00eener une fatigue importante et chronique ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou \u00e0 tout moment dans la journ\u00e9e (plus ou moins pr\u00e9sentes).",
+      "text": "ou \u00e0 tout moment dans la journ\u00e9e (plus ou moins pr\u00e9sentes).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces ",
+      "text": "Ces "
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sympt\u00f4mes",
+      "text": "sympt\u00f4mes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ne sont pas n\u00e9cessairement associ\u00e9s \u00e0 une endom\u00e9triose.",
+      "text": " ne sont pas n\u00e9cessairement associ\u00e9s \u00e0 une endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En France, on estime ",
+      "text": "En France, on estime "
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le retard de diagnostic \u00e0 7 ans en moyenne",
+      "text": "le retard de diagnostic \u00e0 7 ans en moyenne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (source\u00a0: sant\u00e9.fr). C\u2019est pourquoi il est important de ne pas attendre pour consulter un professionnel de sant\u00e9 en cas de doute.",
+      "text": " (source\u00a0: sant\u00e9.fr). C\u2019est pourquoi il est important de ne pas attendre pour consulter un professionnel de sant\u00e9 en cas de doute."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de douleurs importantes et r\u00e9currentes dans le bassin ou bas du ventre (douleurs pelviennes), il est recommand\u00e9 de ",
+      "text": "En cas de douleurs importantes et r\u00e9currentes dans le bassin ou bas du ventre (douleurs pelviennes), il est recommand\u00e9 de "
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "consulter rapidement un gyn\u00e9cologue ou un m\u00e9decin",
+      "text": "consulter rapidement un gyn\u00e9cologue ou un m\u00e9decin",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui sera en mesure d\u2019\u00e9tablir un diagnostic en s\u2019appuyant sur une \u00e9chographie, une IRM ou une biopsie.",
+      "text": " qui sera en mesure d\u2019\u00e9tablir un diagnostic en s\u2019appuyant sur une \u00e9chographie, une IRM ou une biopsie."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter\u00a0:",
+      "text": "\u00c0 noter\u00a0:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Dans certains cas, l'endom\u00e9triose est indolore et \u00eatre sans cons\u00e9quence sur la fertilit\u00e9 ou, au contraire, a un retentissement sur la f\u00e9condit\u00e9. Son diagnostic est alors pos\u00e9 lors d'un bilan d'infertilit\u00e9.",
+      "text": " Dans certains cas, l'endom\u00e9triose est indolore et \u00eatre sans cons\u00e9quence sur la fertilit\u00e9 ou, au contraire, a un retentissement sur la f\u00e9condit\u00e9. Son diagnostic est alors pos\u00e9 lors d'un bilan d'infertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L'info en plus",
+      "text": "L'info en plus",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e8gles douloureuses \u00e0 l'adolescence",
+      "text": "R\u00e8gles douloureuses \u00e0 l'adolescence",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La pr\u00e9sence de douleurs lors des r\u00e8gles \u00e0 l'adolescence, apr\u00e8s la pubert\u00e9, peut \u00eatre ",
+      "text": "La pr\u00e9sence de douleurs lors des r\u00e8gles \u00e0 l'adolescence, apr\u00e8s la pubert\u00e9, peut \u00eatre "
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le premier sympt\u00f4me d'une endom\u00e9triose.",
+      "text": "le premier sympt\u00f4me d'une endom\u00e9triose.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Parlez-en \u00e0 votre m\u00e9decin lors du bilan de suivi m\u00e9dical entre 15-16 ans.",
+      "text": " Parlez-en \u00e0 votre m\u00e9decin lors du bilan de suivi m\u00e9dical entre 15-16 ans."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c0 savoir",
+      "text": "\u00c0 savoir",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019Association fran\u00e7aise de lutte contre l\u2019endom\u00e9triose organise de nombreux \u00e9v\u00e9nements ouverts \u00e0 tous et gratuits dans l\u2019ann\u00e9e: retrouvez tous les \u00e9v\u00e9nements sur le site EndoFrance.",
+      "text": "L\u2019Association fran\u00e7aise de lutte contre l\u2019endom\u00e9triose organise de nombreux \u00e9v\u00e9nements ouverts \u00e0 tous et gratuits dans l\u2019ann\u00e9e: retrouvez tous les \u00e9v\u00e9nements sur le site EndoFrance."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "2) Endom\u00e9triose : quels am\u00e9nagements au travail ?",
+      "text": "2) Endom\u00e9triose : quels am\u00e9nagements au travail ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose peut impacter votre vie ",
+      "text": "L\u2019endom\u00e9triose peut impacter votre vie "
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "personnelle et professionnelle.",
+      "text": "personnelle et professionnelle.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elle peut entrainer des difficult\u00e9s comme des douleurs aigu\u00ebs qui n\u00e9cessitent ",
+      "text": "Elle peut entrainer des difficult\u00e9s comme des douleurs aigu\u00ebs qui n\u00e9cessitent "
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des am\u00e9nagements sp\u00e9cifiques",
+      "text": "des am\u00e9nagements sp\u00e9cifiques",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour faciliter votre quotidien au travail.",
+      "text": " pour faciliter votre quotidien au travail."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Consulter le m\u00e9decin du travail",
+      "text": "Consulter le m\u00e9decin du travail",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La premi\u00e8re \u00e9tape est de consulter le m\u00e9decin du travail. Il pourra vous conseiller des ",
+      "text": "La premi\u00e8re \u00e9tape est de consulter le m\u00e9decin du travail. Il pourra vous conseiller des "
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "am\u00e9nagements de poste adapt\u00e9s",
+      "text": "am\u00e9nagements de poste adapt\u00e9s",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " \u00e0 vos difficult\u00e9s.",
+      "text": " \u00e0 vos difficult\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il est important d\u2019expliquer au m\u00e9decin vos sympt\u00f4mes et leurs impacts sur votre quotidien au travail. Vous pouvez b\u00e9n\u00e9ficier d\u2019am\u00e9nagements d\u2019horaires, de poste, ou des jours de t\u00e9l\u00e9travail suppl\u00e9mentaires pour faciliter votre quotidien de travail.",
+      "text": "Il est important d\u2019expliquer au m\u00e9decin vos sympt\u00f4mes et leurs impacts sur votre quotidien au travail. Vous pouvez b\u00e9n\u00e9ficier d\u2019am\u00e9nagements d\u2019horaires, de poste, ou des jours de t\u00e9l\u00e9travail suppl\u00e9mentaires pour faciliter votre quotidien de travail."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous n\u2019\u00eates pas oblig\u00e9e d\u2019en parler \u00e0 votre sup\u00e9rieur hi\u00e9rarchique ou employeur.",
+      "text": "Vous n\u2019\u00eates pas oblig\u00e9e d\u2019en parler \u00e0 votre sup\u00e9rieur hi\u00e9rarchique ou employeur."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Acc\u00e9der \u00e0 un mi-temps th\u00e9rapeutique",
+      "text": "Acc\u00e9der \u00e0 un mi-temps th\u00e9rapeutique",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas d\u2019",
+      "text": "En cas d\u2019"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "arr\u00eat de longue dur\u00e9e",
+      "text": "arr\u00eat de longue dur\u00e9e",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " suite \u00e0 des sympt\u00f4mes importants, aggravation ou une hospitalisation, li\u00e9s \u00e0 votre endom\u00e9triose, vous devez penser \u00e0 consulter le m\u00e9decin du travail avant la date de reprise du travail. Celui-ci peut vous proposer un ",
+      "text": " suite \u00e0 des sympt\u00f4mes importants, aggravation ou une hospitalisation, li\u00e9s \u00e0 votre endom\u00e9triose, vous devez penser \u00e0 consulter le m\u00e9decin du travail avant la date de reprise du travail. Celui-ci peut vous proposer un "
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "mi-temps th\u00e9rapeutique",
+      "text": "mi-temps th\u00e9rapeutique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour votre reprise, si n\u00e9cessaire.",
+      "text": " pour votre reprise, si n\u00e9cessaire."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Tout savoir sur la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH)",
+      "text": "Tout savoir sur la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH)"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une vid\u00e9o propos\u00e9e par le site Mon Parcours Handicap.gouv.fr",
+      "text": "Une vid\u00e9o propos\u00e9e par le site Mon Parcours Handicap.gouv.fr"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH), c\u2019est quoi ?",
+      "text": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH), c\u2019est quoi ?"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est une d\u00e9cision administrative qui vous permet de b\u00e9n\u00e9ficier de diff\u00e9rents droits pour faciliter votre recherche d\u2019emploi, votre insertion professionnelle, votre maintien dans l\u2019emploi et vos projets de formation.",
+      "text": "C\u2019est une d\u00e9cision administrative qui vous permet de b\u00e9n\u00e9ficier de diff\u00e9rents droits pour faciliter votre recherche d\u2019emploi, votre insertion professionnelle, votre maintien dans l\u2019emploi et vos projets de formation."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parmi les avantages offerts par la RQTH :",
+      "text": "Parmi les avantages offerts par la RQTH :"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un accompagnement par des organismes sp\u00e9cialis\u00e9s dans la recherche d'emploi. Par exemple : Cap emploi, France Travail ou les missions locales ;",
+      "text": "un accompagnement par des organismes sp\u00e9cialis\u00e9s dans la recherche d'emploi. Par exemple : Cap emploi, France Travail ou les missions locales ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un acc\u00e8s \u00e0 des dispositifs sp\u00e9cifiques d\u2019orientation, de formation ou \u00e0 des contrats sp\u00e9cifiques. Par exemple : un stage de r\u00e9adaptation ou un stage de r\u00e9\u00e9ducation, un contrat d\u2019apprentissage am\u00e9nag\u00e9 ou un emploi accompagn\u00e9 ;",
+      "text": "un acc\u00e8s \u00e0 des dispositifs sp\u00e9cifiques d\u2019orientation, de formation ou \u00e0 des contrats sp\u00e9cifiques. Par exemple : un stage de r\u00e9adaptation ou un stage de r\u00e9\u00e9ducation, un contrat d\u2019apprentissage am\u00e9nag\u00e9 ou un emploi accompagn\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un acc\u00e8s facilit\u00e9 \u00e0 la fonction publique. Par exemple : un concours am\u00e9nag\u00e9 ou un recrutement contractuel sp\u00e9cifique ;",
+      "text": "un acc\u00e8s facilit\u00e9 \u00e0 la fonction publique. Par exemple : un concours am\u00e9nag\u00e9 ou un recrutement contractuel sp\u00e9cifique ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des am\u00e9nagements de vos conditions de travail. Par exemple : vos horaires de travail ;",
+      "text": "des am\u00e9nagements de vos conditions de travail. Par exemple : vos horaires de travail ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des aides sp\u00e9cifiques de l\u2019Association de gestion du fonds pour l\u2019insertion professionnelle des personnes handicap\u00e9es (Agefiph), si vous travaillez dans le secteur priv\u00e9, ou du Fonds pour l'insertion des personnes handicap\u00e9es dans la fonction publique (Fiphfp), si vous travaillez dans le secteur public. Par exemple : des am\u00e9nagements de poste de travail, du mat\u00e9riel adapt\u00e9 ou des aides au d\u00e9placement.",
+      "text": "des aides sp\u00e9cifiques de l\u2019Association de gestion du fonds pour l\u2019insertion professionnelle des personnes handicap\u00e9es (Agefiph), si vous travaillez dans le secteur priv\u00e9, ou du Fonds pour l'insertion des personnes handicap\u00e9es dans la fonction publique (Fiphfp), si vous travaillez dans le secteur public. Par exemple : des am\u00e9nagements de poste de travail, du mat\u00e9riel adapt\u00e9 ou des aides au d\u00e9placement.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Qui peut b\u00e9n\u00e9ficier de la RQTH ?",
+      "text": "Qui peut b\u00e9n\u00e9ficier de la RQTH ?"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toute personne dont les possibilit\u00e9s d\u2019obtenir ou de conserver un emploi sont r\u00e9duites en raison de la d\u00e9gradation au moins d\u2019une fonction :",
+      "text": "Toute personne dont les possibilit\u00e9s d\u2019obtenir ou de conserver un emploi sont r\u00e9duites en raison de la d\u00e9gradation au moins d\u2019une fonction :"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "physique ;",
+      "text": "physique ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sensorielle ;",
+      "text": "sensorielle ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mentale ;",
+      "text": "mentale ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou psychique.",
+      "text": "ou psychique.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bon \u00e0 savoir\u00a0!",
+      "text": "Bon \u00e0 savoir\u00a0!"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous b\u00e9n\u00e9ficiez aussi des droits ouverts par la RQTH\u00a0:",
+      "text": "Vous b\u00e9n\u00e9ficiez aussi des droits ouverts par la RQTH\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "si vous \u00eates b\u00e9n\u00e9ficiaire de l\u2019obligation d\u2019emploi des travailleurs handicap\u00e9s (OETH) ;",
+      "text": "si vous \u00eates b\u00e9n\u00e9ficiaire de l\u2019obligation d\u2019emploi des travailleurs handicap\u00e9s (OETH) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou si vous avez entre 15 et 20 ans et que vous avez\u00a0:",
+      "text": "ou si vous avez entre 15 et 20 ans et que vous avez\u00a0:",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la prestation de compensation du handicap (PCH),",
+      "text": "la prestation de compensation du handicap (PCH),",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou l\u2019allocation d\u2019\u00e9ducation de l\u2019enfant handicap\u00e9 (AEEH),",
+      "text": "ou l\u2019allocation d\u2019\u00e9ducation de l\u2019enfant handicap\u00e9 (AEEH),",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou un projet personnalis\u00e9 de scolarisation (PPS).",
+      "text": "ou un projet personnalis\u00e9 de scolarisation (PPS).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comment effectuer votre demande de RQTH ?",
+      "text": "Comment effectuer votre demande de RQTH ?"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez remplir le formulaire Cerfa num\u00e9ro 15692*01 de demande \u00e0 la maison d\u00e9partementale des personnes handicap\u00e9es :",
+      "text": "Vous devez remplir le formulaire Cerfa num\u00e9ro 15692*01 de demande \u00e0 la maison d\u00e9partementale des personnes handicap\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "joindre les pi\u00e8ces justificatives demand\u00e9es ;",
+      "text": "joindre les pi\u00e8ces justificatives demand\u00e9es ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "et d\u00e9poser votre dossier en ligne, par courrier ou directement aupr\u00e8s de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre lieu de r\u00e9sidence.",
+      "text": "et d\u00e9poser votre dossier en ligne, par courrier ou directement aupr\u00e8s de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre lieu de r\u00e9sidence.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez effectuer une demande de RQTH \u00e0 partir de l\u2019\u00e2ge de 16 ans\u00a0; 15 ans si vous r\u00e9alisez une formation en apprentissage ou un stage.",
+      "text": "Vous pouvez effectuer une demande de RQTH \u00e0 partir de l\u2019\u00e2ge de 16 ans\u00a0; 15 ans si vous r\u00e9alisez une formation en apprentissage ou un stage."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La RQTH est attribu\u00e9e pour une dur\u00e9e renouvelable de 1 \u00e0 10 ans.",
+      "text": "La RQTH est attribu\u00e9e pour une dur\u00e9e renouvelable de 1 \u00e0 10 ans."
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Et de fa\u00e7on d\u00e9finitive si votre situation de handicap ne pourra jamais s\u2019am\u00e9liorer.",
+      "text": "Et de fa\u00e7on d\u00e9finitive si votre situation de handicap ne pourra jamais s\u2019am\u00e9liorer."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour en savoir plus, rendez-vous sur notre site internet\u00a0:",
+      "text": "Pour en savoir plus, rendez-vous sur notre site internet\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "www.monparcourshandicap.gouv.fr",
+      "text": "www.monparcourshandicap.gouv.fr",
+      "hyperlink": "http://www.monparcourshandicap.gouv.fr/"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mon Parcours Handicap vous accompagne au quotidien pour conna\u00eetre vos droits, effectuer vos d\u00e9marches ou identifier vos interlocuteurs et plus encore.",
+      "text": "Mon Parcours Handicap vous accompagne au quotidien pour conna\u00eetre vos droits, effectuer vos d\u00e9marches ou identifier vos interlocuteurs et plus encore."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab\u00a0R\u00e9publique fran\u00e7aise\u00a0\u00bb",
+      "text": "\u00ab\u00a0R\u00e9publique fran\u00e7aise\u00a0\u00bb"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab\u00a0Mon Parcours Handicap\u00a0\u00bb",
+      "text": "\u00ab\u00a0Mon Parcours Handicap\u00a0\u00bb"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab\u00a0Un site d\u00e9velopp\u00e9 par le Service public de l\u2019autonomie et la Caisse des D\u00e9p\u00f4ts\u00a0\u00bb",
+      "text": "\u00ab\u00a0Un site d\u00e9velopp\u00e9 par le Service public de l\u2019autonomie et la Caisse des D\u00e9p\u00f4ts\u00a0\u00bb"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Revalorisation des indemnit\u00e9s journali\u00e8res de S\u00e9curit\u00e9 sociale 2026",
+      "text": "Revalorisation des indemnit\u00e9s journali\u00e8res de S\u00e9curit\u00e9 sociale 2026",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Comme chaque ann\u00e9e, les indemnit\u00e9s journali\u00e8res de la S\u00e9curit\u00e9 sociale sont revues \u00e0 la hausse. Cette revalorisation est prise en compte pour les arr\u00eats d\u00e9marrant \u00e0 compter de f\u00e9vrier 2026.",
+      "text": "Comme chaque ann\u00e9e, les indemnit\u00e9s journali\u00e8res de la S\u00e9curit\u00e9 sociale sont revues \u00e0 la hausse. Cette revalorisation est prise en compte pour les arr\u00eats d\u00e9marrant \u00e0 compter de f\u00e9vrier 2026."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ainsi, en 2026, ",
+      "text": "Ainsi, en 2026, "
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "le plafond de l\u2019indemnit\u00e9 journali\u00e8re",
+      "text": "le plafond de l\u2019indemnit\u00e9 journali\u00e8re",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " en cas de maladie s\u2019\u00e9l\u00e8ve \u00e0 41,95 euros par jour.",
+      "text": " en cas de maladie s\u2019\u00e9l\u00e8ve \u00e0 41,95 euros par jour."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cliquez pour savoir plus sur les indemnit\u00e9s journali\u00e8res en 2026.",
+      "text": "Cliquez pour savoir plus sur les indemnit\u00e9s journali\u00e8res en 2026."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le secteur public, la r\u00e9mun\u00e9ration en cas de maladie est diff\u00e9rente.",
+      "text": "Dans le secteur public, la r\u00e9mun\u00e9ration en cas de maladie est diff\u00e9rente."
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cliquez pour en savoir plus sur la r\u00e9mun\u00e9ration des indemnit\u00e9s journali\u00e8res dans le service public",
+      "text": "Cliquez pour en savoir plus sur la r\u00e9mun\u00e9ration des indemnit\u00e9s journali\u00e8res dans le service public"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter\u00a0:",
+      "text": "\u00c0 noter\u00a0:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Votre entreprise peut appliquer une convention collective sp\u00e9cifique \u00e0 votre branche professionnelle, ou avoir conclu un accord interne qui pr\u00e9voit un maintien de votre salaire m\u00eame pendant les ",
+      "text": " Votre entreprise peut appliquer une convention collective sp\u00e9cifique \u00e0 votre branche professionnelle, ou avoir conclu un accord interne qui pr\u00e9voit un maintien de votre salaire m\u00eame pendant les "
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "3 jours de carence.",
+      "text": "3 jours de carence.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Renseignez-vous aupr\u00e8s du service ressources humaines de votre entreprise.",
+      "text": " Renseignez-vous aupr\u00e8s du service ressources humaines de votre entreprise."
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Demander la RQTH",
+      "text": "Demander la RQTH",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si l\u2019endom\u00e9triose dont vous souffrez, a des r\u00e9percussions importantes sur votre capacit\u00e9 \u00e0 travailler, \u00e0 obtenir un emploi ou \u00e0 vous maintenir dans votre emploi, le m\u00e9decin peut vous proposer de d\u00e9poser une demande de ",
+      "text": "Si l\u2019endom\u00e9triose dont vous souffrez, a des r\u00e9percussions importantes sur votre capacit\u00e9 \u00e0 travailler, \u00e0 obtenir un emploi ou \u00e0 vous maintenir dans votre emploi, le m\u00e9decin peut vous proposer de d\u00e9poser une demande de "
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9",
+      "text": "reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " (",
+      "text": " ("
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "RQTH",
+      "text": "RQTH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ") \u00e0 la Maison d\u00e9partementale des personnes handicap\u00e9es (MDPH).",
+      "text": ") \u00e0 la Maison d\u00e9partementale des personnes handicap\u00e9es (MDPH)."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La ",
+      "text": "La "
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "RQTH",
+      "text": "RQTH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " permet de b\u00e9n\u00e9ficier d\u2019aides pour compenser les cons\u00e9quences de la maladie et favoriser votre maintien en emploi avec notamment\u00a0:",
+      "text": " permet de b\u00e9n\u00e9ficier d\u2019aides pour compenser les cons\u00e9quences de la maladie et favoriser votre maintien en emploi avec notamment\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des ",
+      "text": "des "
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "am\u00e9nagements des horaires",
+      "text": "am\u00e9nagements des horaires",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " de travail\u00a0;",
+      "text": " de travail\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/26"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des ",
+      "text": "des "
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "adaptations du poste de travail",
+      "text": "adaptations du poste de travail",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0;",
+      "text": "\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas d\u2019endom\u00e9triose, la RQTH peut \u00eatre attribu\u00e9e pour une ",
+      "text": "En cas d\u2019endom\u00e9triose, la RQTH peut \u00eatre attribu\u00e9e pour une "
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "dur\u00e9e de 1 \u00e0 10 ans et est renouvelable.",
+      "text": "dur\u00e9e de 1 \u00e0 10 ans et est renouvelable.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Elle peut vous permettre d\u2019obtenir ",
+      "text": " Elle peut vous permettre d\u2019obtenir "
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "des aides",
+      "text": "des aides",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par l\u2019Association de gestion du fonds pour l\u2019insertion des personnes handicap\u00e9es (Agefiph) ou par le fonds pour l\u2019insertion des personnes handicap\u00e9es dans la fonction publique (Fiphfp).",
+      "text": " par l\u2019Association de gestion du fonds pour l\u2019insertion des personnes handicap\u00e9es (Agefiph) ou par le fonds pour l\u2019insertion des personnes handicap\u00e9es dans la fonction publique (Fiphfp)."
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D\u2019autres droits pourront vous \u00eatre attribu\u00e9s par la MDPH apr\u00e8s \u00e9valuation globale de votre dossier.",
+      "text": "D\u2019autres droits pourront vous \u00eatre attribu\u00e9s par la MDPH apr\u00e8s \u00e9valuation globale de votre dossier."
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "3) Qui peut vous accompagner pour votre endom\u00e9triose ?",
+      "text": "3) Qui peut vous accompagner pour votre endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas d\u2019endom\u00e9triose, vous pouvez vous faire accompagner par :",
+      "text": "En cas d\u2019endom\u00e9triose, vous pouvez vous faire accompagner par :"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "votre m\u00e9decin traitant ou gyn\u00e9cologue ;",
+      "text": "votre m\u00e9decin traitant ou gyn\u00e9cologue ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "le m\u00e9decin du travail ou de pr\u00e9vention dans la fonction publique ;",
+      "text": "le m\u00e9decin du travail ou de pr\u00e9vention dans la fonction publique ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/29"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Handigyn\u00e9co selon votre lieu de r\u00e9sidence\u00a0;",
+      "text": "Handigyn\u00e9co selon votre lieu de r\u00e9sidence\u00a0;",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0ce programme permet aux femmes en situation de handicap vivant en maisons d\u2019accueil sp\u00e9cialis\u00e9 (MAS) ou en foyer d\u2019accueil m\u00e9dicalis\u00e9 (FAM) d'avoir acc\u00e8s \u00e0 des soins gyn\u00e9cologiques et \u00e0 un suivi de leur sant\u00e9 adapt\u00e9s\u00a0;",
+      "text": "\u00a0ce programme permet aux femmes en situation de handicap vivant en maisons d\u2019accueil sp\u00e9cialis\u00e9 (MAS) ou en foyer d\u2019accueil m\u00e9dicalis\u00e9 (FAM) d'avoir acc\u00e8s \u00e0 des soins gyn\u00e9cologiques et \u00e0 un suivi de leur sant\u00e9 adapt\u00e9s\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/30"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les\u00a0",
+      "text": "les\u00a0"
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "centres ressources INTIMAGIR",
+      "text": "centres ressources INTIMAGIR",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0d\u00e9di\u00e9s aux questions de l\u2019intimit\u00e9 des personnes en situation de handicap. Il ne s\u2019agit pas de centres m\u00e9dicaux mais des sexologues pourront vous r\u00e9pondre ou vous orienter\u00a0;",
+      "text": "\u00a0d\u00e9di\u00e9s aux questions de l\u2019intimit\u00e9 des personnes en situation de handicap. Il ne s\u2019agit pas de centres m\u00e9dicaux mais des sexologues pourront vous r\u00e9pondre ou vous orienter\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des b\u00e9n\u00e9voles d\u2019associations comme EndoFrance\u2026",
+      "text": "des b\u00e9n\u00e9voles d\u2019associations comme EndoFrance\u2026",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parler de votre endom\u00e9triose",
+      "text": "Parler de votre endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " au travail n\u2019est ",
+      "text": " au travail n\u2019est "
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pas une obligation",
+      "text": "pas une obligation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Mais il peut \u00eatre n\u00e9cessaire de le faire si la maladie a un retentissement sur votre sant\u00e9, votre moral et votre capacit\u00e9 \u00e0 travailler. ",
+      "text": ". Mais il peut \u00eatre n\u00e9cessaire de le faire si la maladie a un retentissement sur votre sant\u00e9, votre moral et votre capacit\u00e9 \u00e0 travailler. "
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Expliquez les sympt\u00f4mes",
+      "text": "Expliquez les sympt\u00f4mes",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " que vous rencontrez et comment ils peuvent influencer votre pr\u00e9sence au travail et vos besoins en mati\u00e8re d'am\u00e9nagements. Cela vous peut vous aider \u00e0 \u00eatre mieux comprise et aid\u00e9e.",
+      "text": " que vous rencontrez et comment ils peuvent influencer votre pr\u00e9sence au travail et vos besoins en mati\u00e8re d'am\u00e9nagements. Cela vous peut vous aider \u00e0 \u00eatre mieux comprise et aid\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Connaissez-vous l\u2019annuaire de l\u2019accessibilit\u00e9 des cabinets m\u00e9dicaux et param\u00e9dicaux ?",
+      "text": "Connaissez-vous l\u2019annuaire de l\u2019accessibilit\u00e9 des cabinets m\u00e9dicaux et param\u00e9dicaux ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "APF France handicap",
+      "text": "APF France handicap",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " a lanc\u00e9 avec le Service Public d\u2019Information en Sant\u00e9, l\u2019",
+      "text": " a lanc\u00e9 avec le Service Public d\u2019Information en Sant\u00e9, l\u2019"
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "annuaire de l'accessibilit\u00e9 des cabinets m\u00e9dicaux et param\u00e9dicaux",
+      "text": "annuaire de l'accessibilit\u00e9 des cabinets m\u00e9dicaux et param\u00e9dicaux",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: m\u00e9decins, chirurgiens-dentistes, sage-femmes, infirmiers, masseurs-kin\u00e9sith\u00e9rapeutes, orthophonistes, orthoptistes, p\u00e9dicures-podologues\u2026",
+      "text": "\u00a0: m\u00e9decins, chirurgiens-dentistes, sage-femmes, infirmiers, masseurs-kin\u00e9sith\u00e9rapeutes, orthophonistes, orthoptistes, p\u00e9dicures-podologues\u2026"
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il s'adresse aux personnes \u00e0 ",
+      "text": "Il s'adresse aux personnes \u00e0 "
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "besoins sp\u00e9cifiques",
+      "text": "besoins sp\u00e9cifiques",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: personnes en situation de handicap (moteur, visuel, auditif, intellectuel, troubles du spectre de l\u2019autisme, cognitif, psychique), personnes en situation d'ob\u00e9sit\u00e9 et personnes ne parlant pas ou peu fran\u00e7ais.",
+      "text": "\u00a0: personnes en situation de handicap (moteur, visuel, auditif, intellectuel, troubles du spectre de l\u2019autisme, cognitif, psychique), personnes en situation d'ob\u00e9sit\u00e9 et personnes ne parlant pas ou peu fran\u00e7ais."
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet annuaire r\u00e9unit d\u00e9j\u00e0 ",
+      "text": "Cet annuaire r\u00e9unit d\u00e9j\u00e0 "
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "plus de 7 000 professionnels de sant\u00e9",
+      "text": "plus de 7 000 professionnels de sant\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et devrait s\u2019enrichir au fur et \u00e0 mesure par les professionnels de sant\u00e9.",
+      "text": " et devrait s\u2019enrichir au fur et \u00e0 mesure par les professionnels de sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les professionnels inscrits ont r\u00e9pondu \u00e0 un certain nombre de questions portant sur ",
+      "text": "Les professionnels inscrits ont r\u00e9pondu \u00e0 un certain nombre de questions portant sur "
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l'ensemble du parcours dans leur cabinet m\u00e9dical",
+      "text": "l'ensemble du parcours dans leur cabinet m\u00e9dical",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0: les modalit\u00e9s de prise de rendez-vous, le mat\u00e9riel, les formations ou exp\u00e9riences sp\u00e9cifiques et les actes de soin. Une personne malentendante peut-elle prendre rendez-vous autrement que par t\u00e9l\u00e9phone\u00a0? Y a-t-il une place de stationnement \u00e0 proximit\u00e9\u00a0? Le mat\u00e9riel est-il adapt\u00e9 aux personnes en situation d'ob\u00e9sit\u00e9\u00a0?",
+      "text": "\u00a0: les modalit\u00e9s de prise de rendez-vous, le mat\u00e9riel, les formations ou exp\u00e9riences sp\u00e9cifiques et les actes de soin. Une personne malentendante peut-elle prendre rendez-vous autrement que par t\u00e9l\u00e9phone\u00a0? Y a-t-il une place de stationnement \u00e0 proximit\u00e9\u00a0? Le mat\u00e9riel est-il adapt\u00e9 aux personnes en situation d'ob\u00e9sit\u00e9\u00a0?"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -19,7 +19,7 @@ class Connector(ABC):
 
 
 class Converter(ABC):
-    """Turns a raw file into Markdown with its headings preserved."""
+    """Turns a raw file into a DoclingDocument (headings, items, pages) and a Markdown snapshot."""
 
     @abstractmethod
     def convert(self, raw: RawDocument) -> ConvertedDocument: ...

@@ -113,12 +113,12 @@ Pour en savoir plus sur le sujet, l’ANACT (Agence Nationale pour les Condition
 
 L’Assurance Maladie consacre un épisode de son podcast « 50 % » à la santé gynécologique et hormonale des femmes. Endométriose, périménopause, ménopause : cet épisode explore des sujets qui sont longtemps restés invisibles ou tabous et met en avant les actions menées pour améliorer le repérage, l’information et l’accompagnement des femmes.
 
-- Haute Autorité de santé. Prise en charge de l'endométriose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 \[consulté le 18 juin 2025\]
-- Haute Autorité de santé. Place des différents examens d’imagerie pour le diagnostic d’endométriose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 \[consulté le 6 juin 2025\]
-- National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 \[consulté le 18 juin 2025\]
-- Institut national de la santé et de la recherche médicale. Endométriose. Site internet : Inserm. Paris ; 2024 \[consulté le 18 juin 2025\]
+- Haute Autorité de santé. Prise en charge de l'endométriose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 [consulté le 18 juin 2025]
+- Haute Autorité de santé. Place des différents examens d’imagerie pour le diagnostic d’endométriose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 [consulté le 6 juin 2025]
+- National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 [consulté le 18 juin 2025]
+- Institut national de la santé et de la recherche médicale. Endométriose. Site internet : Inserm. Paris ; 2024 [consulté le 18 juin 2025]
 - Closon F, Brichant G, Tebache L, Pinzauti S, Nisolle M. L'endométriose de l'adolescente. Médecine thérapeutique / Médecine de la reproduction, gynécologie et endocrinologie. 2013;15(3):228-33
-- Ministère du Travail, de la santé, des solidarités et de la famille. Endométriose. Site internet : Ministère du Travail, de la santé, des solidarités et de la famille. Paris ; 2025 \[consulté le 18 juin 2025\]
-- Resendo. Réseau ville-hôpital. L'endométriose. Site internet : Resendo. Paris ; 2025 \[consulté le 18 juin 2025\]
-- Agence nationale pour l'amélioration des conditions de travail. Endométriose et travail : comprendre et agir. Guide pour les dirigeants et manageurs. Site internet : Anact. Lyon (France) ; 2024 \[consulté le 18 juin 2025\]
+- Ministère du Travail, de la santé, des solidarités et de la famille. Endométriose. Site internet : Ministère du Travail, de la santé, des solidarités et de la famille. Paris ; 2025 [consulté le 18 juin 2025]
+- Resendo. Réseau ville-hôpital. L'endométriose. Site internet : Resendo. Paris ; 2025 [consulté le 18 juin 2025]
+- Agence nationale pour l'amélioration des conditions de travail. Endométriose et travail : comprendre et agir. Guide pour les dirigeants et manageurs. Site internet : Anact. Lyon (France) ; 2024 [consulté le 18 juin 2025]
 - Donati A, Giola F, Privitera G *et al*. Diet and physical activity coaching for well-being and pain reduction in patients with symptomatic endometriosis: a randomized-controlled clinical trial. European Journal of Obstetrics and Gynecology and Reproductive Biology, 2026;326

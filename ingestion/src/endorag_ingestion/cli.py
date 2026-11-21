@@ -86,7 +86,7 @@ def query(
         c = hit.chunk
         typer.echo(f"{rank}. [{hit.score:.4f}] {c.doc_id}  ({c.source}, {c.published})")
         typer.echo(f"   {' > '.join(c.heading_path)}")
-        typer.echo(f"   {c.url}")
+        typer.echo(f"   {c.citation_url}")
         typer.echo(f"   {' '.join(c.text.split())[:200]}\n")
 
 

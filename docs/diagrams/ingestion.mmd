@@ -6,7 +6,7 @@ classDiagram
       profile: patient | gp
       embedder: str
       qdrant_path: Path
-      chunk_size / chunk_overlap / chunk_min_chars
+      chunk_tokenizer / chunk_max_tokens / chunk_min_chars
       llm_base_url / llm_api_key
       collection_name() str
     }
@@ -27,14 +27,16 @@ classDiagram
     }
     class ConvertedDocument {
       entry: ManifestEntry
+      document: DoclingDocument
       markdown: str
       retrieved
     }
     class Chunk {
       doc_id / chunk_index / text
-      heading_path
+      heading_path / page
       source / title / url / published
       point_id
+      citation_url
       embedding_text
     }
     class ScoredChunk {
@@ -85,10 +87,11 @@ classDiagram
     }
     class RoutingConverter {
       dispatch on entry.format
-      Markdown cache (sha256 + version)
+      cache .docling.json + .md (sha256 + version)
     }
     class HtmlConverter {
-      trafilatura, docling fallback
+      trafilatura to Markdown, docling MD backend
+      docling HTML fallback
     }
     class PdfConverter {
       docling, CPU, no OCR
@@ -96,8 +99,10 @@ classDiagram
     class JatsConverter {
       docling JATS backend
     }
-    class MarkdownChunker {
-      headers h1-h3, then recursive split
+    class HybridChunkerAdapter {
+      docling HybridChunker, merge_peers
+      embedder tokenizer, 512 tokens
+      clean text, drop tiny chunks
     }
     class OpenAICompatibleEmbedder {
       batches of 16, retries
@@ -131,7 +136,7 @@ classDiagram
   Converter <|.. HtmlConverter
   Converter <|.. PdfConverter
   Converter <|.. JatsConverter
-  Chunker <|.. MarkdownChunker
+  Chunker <|.. HybridChunkerAdapter
   Embedder <|.. OpenAICompatibleEmbedder
   Embedder <|.. SentenceTransformerEmbedder
   VectorStore <|.. QdrantStore

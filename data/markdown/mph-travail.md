@@ -86,13 +86,13 @@ Vous bénéficiez aussi des droits ouverts par la RQTH :
 
 - si vous êtes bénéficiaire de l’obligation d’emploi des travailleurs handicapés (OETH) ;
 - ou si vous avez entre 15 et 20 ans et que vous avez :
-  - la prestation de compensation du handicap (PCH),
-  - ou l’allocation d’éducation de l’enfant handicapé (AEEH),
-  - ou un projet personnalisé de scolarisation (PPS).
+    - la prestation de compensation du handicap (PCH),
+    - ou l’allocation d’éducation de l’enfant handicapé (AEEH),
+    - ou un projet personnalisé de scolarisation (PPS).
 
 Comment effectuer votre demande de RQTH ?
 
-Vous devez remplir le formulaire Cerfa numéro 15692\*01 de demande à la maison départementale des personnes handicapées :
+Vous devez remplir le formulaire Cerfa numéro 15692*01 de demande à la maison départementale des personnes handicapées :
 
 - joindre les pièces justificatives demandées ;
 - et déposer votre dossier en ligne, par courrier ou directement auprès de la maison départementale des personnes handicapées (MDPH) de votre lieu de résidence.

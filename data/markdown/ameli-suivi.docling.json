@@ -1,0 +1,1701 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 14006225738249715036,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/groups/13"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/18"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/85"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Endom\u00e9triose : suivi m\u00e9dical et vie quotidienne",
+      "text": "Endom\u00e9triose : suivi m\u00e9dical et vie quotidienne"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : Endom\u00e9triose",
+      "text": "Cet article fait partie du dossier : Endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "09 avril 2026",
+      "text": "09 avril 2026"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour \u00e9valuer l\u2019efficacit\u00e9 du traitement et l\u2019\u00e9volution de l\u2019endom\u00e9triose, des examens de contr\u00f4le sont fix\u00e9s r\u00e9guli\u00e8rement. Au quotidien, il est important de soulager ses douleurs, d'\u00eatre active physiquement et aid\u00e9e psychologiquement, si besoin.",
+      "text": "Pour \u00e9valuer l\u2019efficacit\u00e9 du traitement et l\u2019\u00e9volution de l\u2019endom\u00e9triose, des examens de contr\u00f4le sont fix\u00e9s r\u00e9guli\u00e8rement. Au quotidien, il est important de soulager ses douleurs, d'\u00eatre active physiquement et aid\u00e9e psychologiquement, si besoin."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La surveillance m\u00e9dicale de l\u2019endom\u00e9triose",
+      "text": "La surveillance m\u00e9dicale de l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous pr\u00e9sentez une ",
+      "text": "Si vous pr\u00e9sentez une "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose",
+      "text": "endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", un suivi r\u00e9gulier est indiqu\u00e9 tout au long votre p\u00e9riode d\u2019activit\u00e9 g\u00e9nitale, pour\u00a0:",
+      "text": ", un suivi r\u00e9gulier est indiqu\u00e9 tout au long votre p\u00e9riode d\u2019activit\u00e9 g\u00e9nitale, pour\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "faire le point sur les \u00e9ventuels soins dispens\u00e9s (efficacit\u00e9 et bonne tol\u00e9rance) et v\u00e9rifier que votre prise en charge est optimale ;",
+      "text": "faire le point sur les \u00e9ventuels soins dispens\u00e9s (efficacit\u00e9 et bonne tol\u00e9rance) et v\u00e9rifier que votre prise en charge est optimale ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "observer l\u2019\u00e9volution de la maladie ;",
+      "text": "observer l\u2019\u00e9volution de la maladie ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "vous apprendre \u00e0 mieux vivre avec celle-ci au quotidien.",
+      "text": "vous apprendre \u00e0 mieux vivre avec celle-ci au quotidien.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette surveillance est men\u00e9e par l\u2019\u00e9quipe pluridisciplinaire qui a mis au point votre traitement (m\u00e9decin traitant, gyn\u00e9cologue, chirurgien, radiologue, etc.)",
+      "text": "Cette surveillance est men\u00e9e par l\u2019\u00e9quipe pluridisciplinaire qui a mis au point votre traitement (m\u00e9decin traitant, gyn\u00e9cologue, chirurgien, radiologue, etc.)"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elle s\u2019appuie sur plusieurs consultations et examens (\u00e9chographies, IRM, etc.), selon un rythme fix\u00e9 en concertation avec vous.",
+      "text": "Elle s\u2019appuie sur plusieurs consultations et examens (\u00e9chographies, IRM, etc.), selon un rythme fix\u00e9 en concertation avec vous."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Apr\u00e8s la m\u00e9nopause, les sympt\u00f4mes et l\u00e9sions disparaissant, ce suivi est espac\u00e9 ou arr\u00eat\u00e9.",
+      "text": "Apr\u00e8s la m\u00e9nopause, les sympt\u00f4mes et l\u00e9sions disparaissant, ce suivi est espac\u00e9 ou arr\u00eat\u00e9."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez contribuer vous-m\u00eame \u00e0 son bon d\u00e9roulement, en appliquant quelques conseils :",
+      "text": "Vous pouvez contribuer vous-m\u00eame \u00e0 son bon d\u00e9roulement, en appliquant quelques conseils :"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Apprenez \u00e0 mieux conna\u00eetre votre affection en \u00e9changeant avec votre m\u00e9decin traitant et les sp\u00e9cialistes qui vous soignent. Ils r\u00e9pondront \u00e0 vos questions et vous donneront des conseils personnalis\u00e9s.",
+      "text": "Apprenez \u00e0 mieux conna\u00eetre votre affection en \u00e9changeant avec votre m\u00e9decin traitant et les sp\u00e9cialistes qui vous soignent. Ils r\u00e9pondront \u00e0 vos questions et vous donneront des conseils personnalis\u00e9s.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Respectez le rythme des rendez-vous et examens programm\u00e9s avec l\u2019\u00e9quipe qui vous suit.",
+      "text": "Respectez le rythme des rendez-vous et examens programm\u00e9s avec l\u2019\u00e9quipe qui vous suit.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avertissez sans d\u00e9lai votre m\u00e9decin devant tout sympt\u00f4me inhabituel ou nouveau qui vous inqui\u00e8te (reprise des douleurs, troubles urinaires).",
+      "text": "Avertissez sans d\u00e9lai votre m\u00e9decin devant tout sympt\u00f4me inhabituel ou nouveau qui vous inqui\u00e8te (reprise des douleurs, troubles urinaires).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque vous consultez un professionnel de sant\u00e9 pour une autre maladie, pr\u00e9cisez-lui que vous \u00eates ",
+      "text": "Lorsque vous consultez un professionnel de sant\u00e9 pour une autre maladie, pr\u00e9cisez-lui que vous \u00eates "
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "soign\u00e9e pour une endom\u00e9triose",
+      "text": "soign\u00e9e pour une endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour une bonne efficacit\u00e9 de votre traitement, respectez-le et ne l\u2019interrompez jamais sans avis m\u00e9dical. Signalez \u00e0 votre m\u00e9decin tout effet secondaire d\u00fb au traitement, pour chercher comment l\u2019att\u00e9nuer ou le pr\u00e9venir.",
+      "text": "Pour une bonne efficacit\u00e9 de votre traitement, respectez-le et ne l\u2019interrompez jamais sans avis m\u00e9dical. Signalez \u00e0 votre m\u00e9decin tout effet secondaire d\u00fb au traitement, pour chercher comment l\u2019att\u00e9nuer ou le pr\u00e9venir."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La vie quotidienne avec une endom\u00e9triose",
+      "text": "La vie quotidienne avec une endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Gr\u00e2ce au traitement, les ",
+      "text": "Gr\u00e2ce au traitement, les "
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs d'endom\u00e9triose",
+      "text": "douleurs d'endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " s\u2019estompent et la vie de tous les jours s\u2019am\u00e9liore.",
+      "text": " s\u2019estompent et la vie de tous les jours s\u2019am\u00e9liore."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'activit\u00e9 physique est conseill\u00e9e car elle am\u00e9liore l'\u00e9quilibre psychosomatique et diminue le ressenti douloureux. Pour \u00eatre b\u00e9n\u00e9fique, l'activit\u00e9 physique choisie ne doit pas d\u00e9clencher de douleurs et \u00eatre pratiqu\u00e9e de fa\u00e7on r\u00e9guli\u00e8re, au moins 15 minutes par jour.",
+      "text": "L'activit\u00e9 physique est conseill\u00e9e car elle am\u00e9liore l'\u00e9quilibre psychosomatique et diminue le ressenti douloureux. Pour \u00eatre b\u00e9n\u00e9fique, l'activit\u00e9 physique choisie ne doit pas d\u00e9clencher de douleurs et \u00eatre pratiqu\u00e9e de fa\u00e7on r\u00e9guli\u00e8re, au moins 15 minutes par jour."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'adoption d'un r\u00e9gime alimentaire de type m\u00e9diterran\u00e9en peut aussi am\u00e9liorer la douleur et la qualit\u00e9 de vie chez les femmes atteintes d'endom\u00e9triose.",
+      "text": "L'adoption d'un r\u00e9gime alimentaire de type m\u00e9diterran\u00e9en peut aussi am\u00e9liorer la douleur et la qualit\u00e9 de vie chez les femmes atteintes d'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une\u00a0",
+      "text": "Une\u00a0"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aide psychologique",
+      "text": "aide psychologique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00a0peut se r\u00e9v\u00e9ler utile et am\u00e9liorer les r\u00e9sultats du traitement m\u00e9dical\u00a0:",
+      "text": "\u00a0peut se r\u00e9v\u00e9ler utile et am\u00e9liorer les r\u00e9sultats du traitement m\u00e9dical\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "quand les douleurs alt\u00e8rent la qualit\u00e9 de vie et ont des r\u00e9percussions psychologiques ;",
+      "text": "quand les douleurs alt\u00e8rent la qualit\u00e9 de vie et ont des r\u00e9percussions psychologiques ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ou \u00e0 l\u2019inverse, lorsque des facteurs psychologiques augmentent le ressenti douloureux.",
+      "text": "ou \u00e0 l\u2019inverse, lorsque des facteurs psychologiques augmentent le ressenti douloureux.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La psychoth\u00e9rapie aide \u00e0 la ma\u00eetrise de l'anxi\u00e9t\u00e9, du stress et des r\u00e9percussions psychologiques de l'endom\u00e9triose.",
+      "text": "La psychoth\u00e9rapie aide \u00e0 la ma\u00eetrise de l'anxi\u00e9t\u00e9, du stress et des r\u00e9percussions psychologiques de l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Mon soutien psy : remboursement de s\u00e9ances chez le psychologue",
+      "text": "Mon soutien psy : remboursement de s\u00e9ances chez le psychologue",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le dispositif Mon soutien psy permet \u00e0 toute personne (adolescents, adultes et \u00e9galement enfants d\u00e8s 3 ans) angoiss\u00e9e, d\u00e9prim\u00e9e ou en souffrance psychique, de b\u00e9n\u00e9ficier de s\u00e9ances d\u2019accompagnement psychologique avec une prise en charge par l\u2019Assurance Maladie.",
+      "text": "Le dispositif Mon soutien psy permet \u00e0 toute personne (adolescents, adultes et \u00e9galement enfants d\u00e8s 3 ans) angoiss\u00e9e, d\u00e9prim\u00e9e ou en souffrance psychique, de b\u00e9n\u00e9ficier de s\u00e9ances d\u2019accompagnement psychologique avec une prise en charge par l\u2019Assurance Maladie."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis le 15 juin 2024, vous avez le choix entre prendre rendez-vous directement avec un psychologue conventionn\u00e9 et partenaire du dispositif ou consulter d\u2019abord votre m\u00e9decin pour faire le point sur votre \u00e9tat de sant\u00e9.",
+      "text": "Depuis le 15 juin 2024, vous avez le choix entre prendre rendez-vous directement avec un psychologue conventionn\u00e9 et partenaire du dispositif ou consulter d\u2019abord votre m\u00e9decin pour faire le point sur votre \u00e9tat de sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019accompagnement psychologique comprend :",
+      "text": "L\u2019accompagnement psychologique comprend :"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une premi\u00e8re s\u00e9ance qui est un entretien d\u2019\u00e9valuation ;",
+      "text": "une premi\u00e8re s\u00e9ance qui est un entretien d\u2019\u00e9valuation ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "entre 1 et 11 s\u00e9ances de suivi psychologique. Ce nombre est adapt\u00e9 \u00e0 vos besoins par le psychologue.",
+      "text": "entre 1 et 11 s\u00e9ances de suivi psychologique. Ce nombre est adapt\u00e9 \u00e0 vos besoins par le psychologue.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00c0 noter : pour les mineurs atteints d\u2019affection de longue dur\u00e9e (hors ALD pour affection psychiatrique de longue dur\u00e9e), le nombre de s\u00e9ances n\u2019est plus plafonn\u00e9 depuis le 12 juin 2026, lorsque ces s\u00e9ances s'inscrivent dans un protocole de soin.",
+      "text": "\u00c0 noter : pour les mineurs atteints d\u2019affection de longue dur\u00e9e (hors ALD pour affection psychiatrique de longue dur\u00e9e), le nombre de s\u00e9ances n\u2019est plus plafonn\u00e9 depuis le 12 juin 2026, lorsque ces s\u00e9ances s'inscrivent dans un protocole de soin.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour en savoir plus, consulter l'article : Remboursement de s\u00e9ances chez le psychologue : Mon soutien psy.",
+      "text": "Pour en savoir plus, consulter l'article : Remboursement de s\u00e9ances chez le psychologue : Mon soutien psy."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des ",
+      "text": "Des "
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "th\u00e9rapies non m\u00e9dicamenteuses",
+      "text": "th\u00e9rapies non m\u00e9dicamenteuses",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " sont souvent utiles pour am\u00e9liorer la qualit\u00e9 de vie et lutter contre la douleur, en compl\u00e9ment de la prise en charge m\u00e9dicale\u00a0:",
+      "text": " sont souvent utiles pour am\u00e9liorer la qualit\u00e9 de vie et lutter contre la douleur, en compl\u00e9ment de la prise en charge m\u00e9dicale\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019acupuncture ;",
+      "text": "l\u2019acupuncture ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019ost\u00e9opathie (th\u00e9rapie manuelle non manipulative, telle que la fasciath\u00e9rapie).",
+      "text": "l\u2019ost\u00e9opathie (th\u00e9rapie manuelle non manipulative, telle que la fasciath\u00e9rapie).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D'autres techniques sont int\u00e9ressantes telles que la relaxation, le yoga, la sophrologie ou l'hypnose.",
+      "text": "D'autres techniques sont int\u00e9ressantes telles que la relaxation, le yoga, la sophrologie ou l'hypnose."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 ce jour, les donn\u00e9es scientifiques sont insuffisantes pour recommander un r\u00e9gime alimentaire ou la prise de suppl\u00e9ments vitaminiques.",
+      "text": "\u00c0 ce jour, les donn\u00e9es scientifiques sont insuffisantes pour recommander un r\u00e9gime alimentaire ou la prise de suppl\u00e9ments vitaminiques."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous avez besoin d\u2019informations et d\u2019\u00e9coute, contactez les associations de patients.",
+      "text": "Si vous avez besoin d\u2019informations et d\u2019\u00e9coute, contactez les associations de patients."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose : quel impact sur le travail ?",
+      "text": "Endom\u00e9triose : quel impact sur le travail ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose et g\u00eane \u00e0 l'activit\u00e9 professionnelle",
+      "text": "Endom\u00e9triose et g\u00eane \u00e0 l'activit\u00e9 professionnelle",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une femme ayant une endom\u00e9triose symptomatique, peut ressentir des difficult\u00e9s dans son activit\u00e9 professionnelle :",
+      "text": "Une femme ayant une endom\u00e9triose symptomatique, peut ressentir des difficult\u00e9s dans son activit\u00e9 professionnelle :"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des douleurs li\u00e9es \u00e0 des changements de position ou \u00e0 des positions tenues dans la dur\u00e9e (assis / debout ; marche / position statique) ;",
+      "text": "des douleurs li\u00e9es \u00e0 des changements de position ou \u00e0 des positions tenues dans la dur\u00e9e (assis / debout ; marche / position statique) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la n\u00e9cessit\u00e9 d'interrompre son activit\u00e9 pour des passages aux toilettes urgents, fr\u00e9quents, prolong\u00e9s ;",
+      "text": "la n\u00e9cessit\u00e9 d'interrompre son activit\u00e9 pour des passages aux toilettes urgents, fr\u00e9quents, prolong\u00e9s ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des difficult\u00e9s \u00e0 se concentrer, \u00e0 effectuer certaines t\u00e2ches ;",
+      "text": "des difficult\u00e9s \u00e0 se concentrer, \u00e0 effectuer certaines t\u00e2ches ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une fatigabilit\u00e9 responsable d'une diminution de la capacit\u00e9 de travail et de l'efficacit\u00e9 ;",
+      "text": "une fatigabilit\u00e9 responsable d'une diminution de la capacit\u00e9 de travail et de l'efficacit\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une diminution de la qualit\u00e9 de vie au travail avec sentiment de g\u00eane, de culpabilit\u00e9 et un risque d'isolement.",
+      "text": "une diminution de la qualit\u00e9 de vie au travail avec sentiment de g\u00eane, de culpabilit\u00e9 et un risque d'isolement.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose et arr\u00eats de travail",
+      "text": "Endom\u00e9triose et arr\u00eats de travail",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "En l'absence de traitement chirurgical",
+      "text": "En l'absence de traitement chirurgical",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous souffrez d'endom\u00e9triose, votre m\u00e9decin-traitant peut \u00eatre amen\u00e9 \u00e0 vous prescrire des arr\u00eats de travail en g\u00e9n\u00e9ral courts mais fr\u00e9quemment r\u00e9p\u00e9t\u00e9s.",
+      "text": "Si vous souffrez d'endom\u00e9triose, votre m\u00e9decin-traitant peut \u00eatre amen\u00e9 \u00e0 vous prescrire des arr\u00eats de travail en g\u00e9n\u00e9ral courts mais fr\u00e9quemment r\u00e9p\u00e9t\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Si vous \u00eates op\u00e9r\u00e9e",
+      "text": "Si vous \u00eates op\u00e9r\u00e9e",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'arr\u00eat est plus long et sa dur\u00e9e est adapt\u00e9e \u00e0 votre cas, selon :",
+      "text": "L'arr\u00eat est plus long et sa dur\u00e9e est adapt\u00e9e \u00e0 votre cas, selon :"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la nature de l'acte effectu\u00e9 ;",
+      "text": "la nature de l'acte effectu\u00e9 ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "votre \u00e9tat de sant\u00e9 g\u00e9n\u00e9ral ;",
+      "text": "votre \u00e9tat de sant\u00e9 g\u00e9n\u00e9ral ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "la nature de votre profession.",
+      "text": "la nature de votre profession.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans tous les cas, si vous \u00eates g\u00ean\u00e9e dans votre activit\u00e9 professionnelle par votre endom\u00e9triose, parlez-en \u00e0 votre m\u00e9decin. Il pourra vous orienter vers votre m\u00e9decin du travail qui analysera avec vous vos conditions de travail (transports, activit\u00e9s, etc.) et vos difficult\u00e9s \u00e0 exercer votre profession. Cette consultation permet d'\u00e9valuer votre aptitude aux fonctions qui vous sont attribu\u00e9es et de proposer si n\u00e9cessaire :",
+      "text": "Dans tous les cas, si vous \u00eates g\u00ean\u00e9e dans votre activit\u00e9 professionnelle par votre endom\u00e9triose, parlez-en \u00e0 votre m\u00e9decin. Il pourra vous orienter vers votre m\u00e9decin du travail qui analysera avec vous vos conditions de travail (transports, activit\u00e9s, etc.) et vos difficult\u00e9s \u00e0 exercer votre profession. Cette consultation permet d'\u00e9valuer votre aptitude aux fonctions qui vous sont attribu\u00e9es et de proposer si n\u00e9cessaire :"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des mesures sp\u00e9cifiques (am\u00e9nagement de poste ou d'activit\u00e9) ;",
+      "text": "des mesures sp\u00e9cifiques (am\u00e9nagement de poste ou d'activit\u00e9) ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "un am\u00e9nagement des horaires de travail et la mise en place du t\u00e9l\u00e9travail ;",
+      "text": "un am\u00e9nagement des horaires de travail et la mise en place du t\u00e9l\u00e9travail ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une reprise temporaire \u00e0 temps partiel pour motif th\u00e9rapeutique.",
+      "text": "une reprise temporaire \u00e0 temps partiel pour motif th\u00e9rapeutique.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour tout arr\u00eat de travail sup\u00e9rieur \u00e0 30 jours, une visite aupr\u00e8s du m\u00e9decin du travail est obligatoire dans un d\u00e9lai de huit jours apr\u00e8s votre retour en entreprise.",
+      "text": "Pour tout arr\u00eat de travail sup\u00e9rieur \u00e0 30 jours, une visite aupr\u00e8s du m\u00e9decin du travail est obligatoire dans un d\u00e9lai de huit jours apr\u00e8s votre retour en entreprise."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose invalidante et reconnaissance en Qualit\u00e9 de Travailleuse Handicap\u00e9e",
+      "text": "Endom\u00e9triose invalidante et reconnaissance en Qualit\u00e9 de Travailleuse Handicap\u00e9e",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous \u00eates salari\u00e9e, le service ressources humaines de votre entreprise peut vous accompagner dans votre demande de RQTH (Reconnaissance en Qualit\u00e9 de Travailleuse Handicap\u00e9e) en raison de votre endom\u00e9triose. La RQTH permet de b\u00e9n\u00e9ficier de mesures pour l\u2019am\u00e9nagement des horaires, du poste de travail, voire l\u2019appui \u00e0 une reconversion professionnelle.",
+      "text": "Si vous \u00eates salari\u00e9e, le service ressources humaines de votre entreprise peut vous accompagner dans votre demande de RQTH (Reconnaissance en Qualit\u00e9 de Travailleuse Handicap\u00e9e) en raison de votre endom\u00e9triose. La RQTH permet de b\u00e9n\u00e9ficier de mesures pour l\u2019am\u00e9nagement des horaires, du poste de travail, voire l\u2019appui \u00e0 une reconversion professionnelle."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour en savoir plus sur le sujet, l\u2019ANACT (Agence Nationale pour les Conditions de Travail) a publi\u00e9 un guide \u00ab Endom\u00e9triose : comprendre et agir \u00bb \u00e0 destination des employeurs pour les accompagner dans l\u2019adaptation de l\u2019emploi des salari\u00e9es souffrant d\u2019endom\u00e9triose.",
+      "text": "Pour en savoir plus sur le sujet, l\u2019ANACT (Agence Nationale pour les Conditions de Travail) a publi\u00e9 un guide \u00ab Endom\u00e9triose : comprendre et agir \u00bb \u00e0 destination des employeurs pour les accompagner dans l\u2019adaptation de l\u2019emploi des salari\u00e9es souffrant d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un podcast pour comprendre la sant\u00e9 gyn\u00e9cologique des femmes",
+      "text": "Un podcast pour comprendre la sant\u00e9 gyn\u00e9cologique des femmes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019Assurance Maladie consacre un \u00e9pisode de son podcast \u00ab 50 % \u00bb \u00e0 la sant\u00e9 gyn\u00e9cologique et hormonale des femmes. Endom\u00e9triose, p\u00e9rim\u00e9nopause, m\u00e9nopause : cet \u00e9pisode explore des sujets qui sont longtemps rest\u00e9s invisibles ou tabous et met en avant les actions men\u00e9es pour am\u00e9liorer le rep\u00e9rage, l\u2019information et l\u2019accompagnement des femmes.",
+      "text": "L\u2019Assurance Maladie consacre un \u00e9pisode de son podcast \u00ab 50 % \u00bb \u00e0 la sant\u00e9 gyn\u00e9cologique et hormonale des femmes. Endom\u00e9triose, p\u00e9rim\u00e9nopause, m\u00e9nopause : cet \u00e9pisode explore des sujets qui sont longtemps rest\u00e9s invisibles ou tabous et met en avant les actions men\u00e9es pour am\u00e9liorer le rep\u00e9rage, l\u2019information et l\u2019accompagnement des femmes."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Haute Autorit\u00e9 de sant\u00e9. Prise en charge de l'endom\u00e9triose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 [consult\u00e9 le 18 juin 2025]",
+      "text": "Haute Autorit\u00e9 de sant\u00e9. Prise en charge de l'endom\u00e9triose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Haute Autorit\u00e9 de sant\u00e9. Place des diff\u00e9rents examens d\u2019imagerie pour le diagnostic d\u2019endom\u00e9triose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 6 juin 2025]",
+      "text": "Haute Autorit\u00e9 de sant\u00e9. Place des diff\u00e9rents examens d\u2019imagerie pour le diagnostic d\u2019endom\u00e9triose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 6 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "text": "National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Endom\u00e9triose. Site internet : Inserm. Paris ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "text": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Endom\u00e9triose. Site internet : Inserm. Paris ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Closon F, Brichant G, Tebache L, Pinzauti S, Nisolle M. L'endom\u00e9triose de l'adolescente. M\u00e9decine th\u00e9rapeutique / M\u00e9decine de la reproduction, gyn\u00e9cologie et endocrinologie. 2013;15(3):228-33",
+      "text": "Closon F, Brichant G, Tebache L, Pinzauti S, Nisolle M. L'endom\u00e9triose de l'adolescente. M\u00e9decine th\u00e9rapeutique / M\u00e9decine de la reproduction, gyn\u00e9cologie et endocrinologie. 2013;15(3):228-33",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Endom\u00e9triose. Site internet : Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "text": "Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Endom\u00e9triose. Site internet : Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Resendo. R\u00e9seau ville-h\u00f4pital. L'endom\u00e9triose. Site internet : Resendo. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "text": "Resendo. R\u00e9seau ville-h\u00f4pital. L'endom\u00e9triose. Site internet : Resendo. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Agence nationale pour l'am\u00e9lioration des conditions de travail. Endom\u00e9triose et travail : comprendre et agir. Guide pour les dirigeants et manageurs. Site internet : Anact. Lyon (France) ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "text": "Agence nationale pour l'am\u00e9lioration des conditions de travail. Endom\u00e9triose et travail : comprendre et agir. Guide pour les dirigeants et manageurs. Site internet : Anact. Lyon (France) ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Donati A, Giola F, Privitera G ",
+      "text": "Donati A, Giola F, Privitera G "
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "et al",
+      "text": "et al",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Diet and physical activity coaching for well-being and pain reduction in patients with symptomatic endometriosis: a randomized-controlled clinical trial. European Journal of Obstetrics and Gynecology and Reproductive Biology, 2026;326",
+      "text": ". Diet and physical activity coaching for well-being and pain reduction in patients with symptomatic endometriosis: a randomized-controlled clinical trial. European Journal of Obstetrics and Gynecology and Reproductive Biology, 2026;326"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

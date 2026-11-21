@@ -1,0 +1,521 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10346509297724600076,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "L\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP ou PMA)",
+      "text": "L\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP ou PMA)"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019Assistance M\u00e9dicale \u00e0 la Procr\u00e9ation (AMP) est parfois appel\u00e9e \u00ab Procr\u00e9ation M\u00e9dicalement Assist\u00e9e \u00bb (PMA). Le terme \u00ab Assistance M\u00e9dicale \u00e0 la Procr\u00e9ation \u00bb est celui qui est inscrit dans la loi de bio\u00e9thique et dont l\u2019usage est privil\u00e9gi\u00e9 par l\u2019Agence de la biom\u00e9decine.",
+      "text": "L\u2019Assistance M\u00e9dicale \u00e0 la Procr\u00e9ation (AMP) est parfois appel\u00e9e \u00ab Procr\u00e9ation M\u00e9dicalement Assist\u00e9e \u00bb (PMA). Le terme \u00ab Assistance M\u00e9dicale \u00e0 la Procr\u00e9ation \u00bb est celui qui est inscrit dans la loi de bio\u00e9thique et dont l\u2019usage est privil\u00e9gi\u00e9 par l\u2019Agence de la biom\u00e9decine."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Recourir \u00e0 l\u2019AMP (ou PMA)",
+      "text": "Recourir \u00e0 l\u2019AMP (ou PMA)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose peut aussi \u00eatre totalement asymptomatique. Dans ce cas, elle est g\u00e9n\u00e9ralement d\u00e9couverte de fa\u00e7on fortuite alors que la patiente consulte en raison d\u2019une difficult\u00e9 \u00e0 concevoir un enfant.",
+      "text": "L\u2019endom\u00e9triose peut aussi \u00eatre totalement asymptomatique. Dans ce cas, elle est g\u00e9n\u00e9ralement d\u00e9couverte de fa\u00e7on fortuite alors que la patiente consulte en raison d\u2019une difficult\u00e9 \u00e0 concevoir un enfant.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Inserm, dossier Endom\u00e9triose, novembre 2013",
+      "text": "Inserm, dossier Endom\u00e9triose, novembre 2013",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pourquoi l\u2019endom\u00e9triose peut-elle rendre infertile ?",
+      "text": "Pourquoi l\u2019endom\u00e9triose peut-elle rendre infertile ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les l\u00e9sions d\u2019endom\u00e9triose dans le ventre cr\u00e9ent un climat inflammatoire qui est n\u00e9faste pour la f\u00e9condation (le liquide p\u00e9riton\u00e9al comporte des enzymes de l\u2019inflammation)",
+      "text": "Les l\u00e9sions d\u2019endom\u00e9triose dans le ventre cr\u00e9ent un climat inflammatoire qui est n\u00e9faste pour la f\u00e9condation (le liquide p\u00e9riton\u00e9al comporte des enzymes de l\u2019inflammation)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Au fur et \u00e0 mesure du d\u00e9veloppement de la maladie, les adh\u00e9rences vont comprimer les trompes ou boucher le pavillon de la trompe, emp\u00eachant la rencontre entre l\u2019ovule et le spermatozo\u00efde",
+      "text": "Au fur et \u00e0 mesure du d\u00e9veloppement de la maladie, les adh\u00e9rences vont comprimer les trompes ou boucher le pavillon de la trompe, emp\u00eachant la rencontre entre l\u2019ovule et le spermatozo\u00efde",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les kystes d\u2019endom\u00e9triose (endom\u00e9triomes) sur les ovaires emp\u00eachent le bon d\u00e9roulement de la folliculog\u00e9n\u00e8se (r\u00e9veil et maturation de l\u2019ovule chaque mois) et l\u2019ovulation (l\u2019ovule ne peut pas \u00eatre expuls\u00e9 vers la trompe pour \u00eatre f\u00e9cond\u00e9)",
+      "text": "Les kystes d\u2019endom\u00e9triose (endom\u00e9triomes) sur les ovaires emp\u00eachent le bon d\u00e9roulement de la folliculog\u00e9n\u00e8se (r\u00e9veil et maturation de l\u2019ovule chaque mois) et l\u2019ovulation (l\u2019ovule ne peut pas \u00eatre expuls\u00e9 vers la trompe pour \u00eatre f\u00e9cond\u00e9)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Les endom\u00e9triomes conduisent \u00e0 l\u2019alt\u00e9ration de la r\u00e9serve ovarienne, (le kyste \u00ab grignotte l\u2019ovaire \u00bb jusqu\u2019\u00e0 cr\u00e9er une insuffisance ovarienne)",
+      "text": "Les endom\u00e9triomes conduisent \u00e0 l\u2019alt\u00e9ration de la r\u00e9serve ovarienne, (le kyste \u00ab grignotte l\u2019ovaire \u00bb jusqu\u2019\u00e0 cr\u00e9er une insuffisance ovarienne)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Selon votre cas personnel, votre d\u00e9sir de vie, vos sympt\u00f4mes ou vos atteintes, votre m\u00e9decin discutera avec vous du choix th\u00e9rapeutique qui s\u2019offre \u00e0 vous : la chirurgie ou le recours \u00e0 l\u2019AMP.",
+      "text": "Selon votre cas personnel, votre d\u00e9sir de vie, vos sympt\u00f4mes ou vos atteintes, votre m\u00e9decin discutera avec vous du choix th\u00e9rapeutique qui s\u2019offre \u00e0 vous : la chirurgie ou le recours \u00e0 l\u2019AMP."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans tous les cas, une approche multidisciplinaire dans des centres de r\u00e9f\u00e9rences permettra de r\u00e9pondre \u00e0 votre attente.",
+      "text": "Dans tous les cas, une approche multidisciplinaire dans des centres de r\u00e9f\u00e9rences permettra de r\u00e9pondre \u00e0 votre attente."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les techniques de l\u2019AMP (OU PMA)",
+      "text": "Les techniques de l\u2019AMP (OU PMA)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019assurance maladie prend en charge \u00e0 100 % les frais li\u00e9s \u00e0 une AMP, dans la limite de six ins\u00e9minations artificielles et quatre F\u00e9condations In Vitro, jusqu\u2019\u00e0 obtention d\u2019une grossesse \u00e9chographique, et \u00e0 condition que l\u2019\u00e2ge de la femme ne d\u00e9passe pas 43 ans.",
+      "text": "L\u2019assurance maladie prend en charge \u00e0 100 % les frais li\u00e9s \u00e0 une AMP, dans la limite de six ins\u00e9minations artificielles et quatre F\u00e9condations In Vitro, jusqu\u2019\u00e0 obtention d\u2019une grossesse \u00e9chographique, et \u00e0 condition que l\u2019\u00e2ge de la femme ne d\u00e9passe pas 43 ans."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019ins\u00e9mination artificielle",
+      "text": "L\u2019ins\u00e9mination artificielle",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019ins\u00e9mination artificielle : c\u2019est la technique d\u2019AMP ",
+      "text": "L\u2019ins\u00e9mination artificielle : c\u2019est la technique d\u2019AMP "
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "la plus simple et la moins co\u00fbteuse",
+      "text": "la plus simple et la moins co\u00fbteuse",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Elle consiste \u00e0 ",
+      "text": ". Elle consiste \u00e0 "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "recueillir et pr\u00e9parer le sperme du conjoint ou d\u2019un donneur pour l\u2019injecter directement dans l\u2019ut\u00e9rus de la femme de fa\u00e7on synchronis\u00e9e avec l\u2019ovulation",
+      "text": "recueillir et pr\u00e9parer le sperme du conjoint ou d\u2019un donneur pour l\u2019injecter directement dans l\u2019ut\u00e9rus de la femme de fa\u00e7on synchronis\u00e9e avec l\u2019ovulation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Au pr\u00e9alable la femme suit un traitement pour stimuler l\u2019ovulation et obtenir des follicules susceptibles d\u2019\u00eatre f\u00e9cond\u00e9s.",
+      "text": ". Au pr\u00e9alable la femme suit un traitement pour stimuler l\u2019ovulation et obtenir des follicules susceptibles d\u2019\u00eatre f\u00e9cond\u00e9s."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La F\u00e9condation In Vitro (FIV)",
+      "text": "La F\u00e9condation In Vitro (FIV)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La F\u00e9condation In Vitro (FIV) est plus invasive. Elle consiste \u00e0 provoquer la rencontre du spermatozo\u00efde et de l\u2019ovule en laboratoire. La stimulation ovarienne sera r\u00e9alis\u00e9e avec un traitement hormonal plus fortement dos\u00e9. Les follicules matures sont pr\u00e9lev\u00e9s puis transmis en laboratoire o\u00f9 le sperme et l\u2019ovule seront mis en contact hors ut\u00e9rus, puis r\u00e9inject\u00e9s 2, 3 ou 5 jours apr\u00e8s dans l\u2019ut\u00e9rus de la future maman.",
+      "text": "La F\u00e9condation In Vitro (FIV) est plus invasive. Elle consiste \u00e0 provoquer la rencontre du spermatozo\u00efde et de l\u2019ovule en laboratoire. La stimulation ovarienne sera r\u00e9alis\u00e9e avec un traitement hormonal plus fortement dos\u00e9. Les follicules matures sont pr\u00e9lev\u00e9s puis transmis en laboratoire o\u00f9 le sperme et l\u2019ovule seront mis en contact hors ut\u00e9rus, puis r\u00e9inject\u00e9s 2, 3 ou 5 jours apr\u00e8s dans l\u2019ut\u00e9rus de la future maman."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le dossier de l\u2019Inserm d\u00e9di\u00e9 \u00e0 l\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation",
+      "text": "Le dossier de l\u2019Inserm d\u00e9di\u00e9 \u00e0 l\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab L\u2019endom\u00e9triose oblige \u00e0 recourir \u00e0 la PMA \u00bb I. Chanavaz-Lacheray \u2013 ",
+      "text": "\u00ab L\u2019endom\u00e9triose oblige \u00e0 recourir \u00e0 la PMA \u00bb I. Chanavaz-Lacheray \u2013 "
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose",
+      "text": "Les id\u00e9es re\u00e7ues sur l\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " \u2013 Editions le Cavalier Bleu f\u00e9vrier 2020",
+      "text": " \u2013 Editions le Cavalier Bleu f\u00e9vrier 2020"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

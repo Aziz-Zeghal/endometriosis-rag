@@ -1,0 +1,1186 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 14638442317771441527,
+    "filename": "page.html"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/13"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Trouver la fili\u00e8re Endom\u00e9triose la plus proche de chez moi",
+      "text": "Trouver la fili\u00e8re Endom\u00e9triose la plus proche de chez moi"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dossier",
+      "text": "Dossier"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 24/11/2025",
+      "text": "Publi\u00e9 le 24/11/2025"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sommaire",
+      "text": "Sommaire"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dossier constitu\u00e9 avec :  Les fili\u00e8res r\u00e9gionales Endom\u00e9triose",
+      "text": "Dossier constitu\u00e9 avec :  Les fili\u00e8res r\u00e9gionales Endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les fili\u00e8res territoriales d\u00e9di\u00e9es \u00e0 la prise en charge de l\u2019endom\u00e9triose ont pour objectif de permettre \u00e0 chaque Fran\u00e7aise, o\u00f9 qu\u2019elle soit dans le pays, d\u2019avoir acc\u00e8s \u00e0 une prise en charge adapt\u00e9e et de qualit\u00e9. Mises en place dans le cadre de la ",
+      "text": "Les fili\u00e8res territoriales d\u00e9di\u00e9es \u00e0 la prise en charge de l'endom\u00e9triose ont pour objectif de permettre \u00e0 chaque Fran\u00e7aise, o\u00f9 qu'elle soit dans le pays, d'avoir acc\u00e8s \u00e0 une prise en charge adapt\u00e9e et de qualit\u00e9. Mises en place dans le cadre de la "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "strat\u00e9gie nationale de lutte contre l\u2019endom\u00e9triose ",
+      "text": "strat\u00e9gie nationale de lutte contre l'endom\u00e9triose ",
+      "hyperlink": "https://sante.gouv.fr/IMG/pdf/strategie-endometriose.pdf"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pr\u00e9sent\u00e9e en f\u00e9vrier 2022, leur objectif est de r\u00e9pondre aux besoins des femmes concern\u00e9es, am\u00e9liorer leur diagnostic et mettre en place un parcours de soins adapt\u00e9 et de proximit\u00e9. Elles sont pour cela en lien avec les agences r\u00e9gionales de sant\u00e9 (ARS) et les autres acteurs de leurs territoires.",
+      "text": "pr\u00e9sent\u00e9e en f\u00e9vrier 2022, leur objectif est de r\u00e9pondre aux besoins des femmes concern\u00e9es, am\u00e9liorer leur diagnostic et mettre en place un parcours de soins adapt\u00e9 et de proximit\u00e9. Elles sont pour cela en lien avec les agences r\u00e9gionales de sant\u00e9 (ARS) et les autres acteurs de leurs territoires."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Trouvez sur cette page la fili\u00e8re Endom\u00e9triose la plus proche de chez vous.",
+      "text": "Trouvez sur cette page la fili\u00e8re Endom\u00e9triose la plus proche de chez vous.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment s\u2019organise la prise en charge ?",
+      "text": "Comment s'organise la prise en charge ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En lien avec leurs agences r\u00e9gionales de sant\u00e9 (ARS) et les autres acteurs de leurs territoires, les fili\u00e8res ont pour principale mission de constituer et de coordonner une offre de soins gradu\u00e9e pour am\u00e9liorer la pr\u00e9cocit\u00e9 du diagnostic, l\u2019orientation des femmes ainsi que la pertinence et la qualit\u00e9 des prises en charge :",
+      "text": "En lien avec leurs agences r\u00e9gionales de sant\u00e9 (ARS) et les autres acteurs de leurs territoires, les fili\u00e8res ont pour principale mission de constituer et de coordonner une offre de soins gradu\u00e9e pour am\u00e9liorer la pr\u00e9cocit\u00e9 du diagnostic, l'orientation des femmes ainsi que la pertinence et la qualit\u00e9 des prises en charge :"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "1er niveau de recours : professionnels de sant\u00e9 de ville voire hospitaliers (lorsque le territoire ne poss\u00e8de pas d\u2019offre de ville) pour le diagnostic ou la prise en charge de proximit\u00e9",
+      "text": "1er niveau de recours : professionnels de sant\u00e9 de ville voire hospitaliers (lorsque le territoire ne poss\u00e8de pas d'offre de ville) pour le diagnostic ou la prise en charge de proximit\u00e9",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "2\u00e8me niveau de recours : professionnels r\u00e9f\u00e9rents de ville ou en \u00e9tablissement de sant\u00e9 intervenant dans un ou plusieurs centres multidisciplinaires r\u00e9f\u00e9rents) pour le diagnostic et la prise en charge de seconde intention",
+      "text": "2\u00e8me niveau de recours : professionnels r\u00e9f\u00e9rents de ville ou en \u00e9tablissement de sant\u00e9 intervenant dans un ou plusieurs centres multidisciplinaires r\u00e9f\u00e9rents) pour le diagnostic et la prise en charge de seconde intention",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "3\u00e8me niveau de recours : professionnels experts dans leur domaine mobilis\u00e9s pour 4 types d\u2019expertise",
+      "text": "3\u00e8me niveau de recours : professionnels experts dans leur domaine mobilis\u00e9s pour 4 types d'expertise",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La chirurgie pour les endom\u00e9trioses complexes",
+      "text": "La chirurgie pour les endom\u00e9trioses complexes",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La radiologie / imagerie de l\u2019endom\u00e9triose",
+      "text": "La radiologie / imagerie de l'endom\u00e9triose",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La prise en charge de la douleur via les structures douleur chronique (SDC) r\u00e9f\u00e9renc\u00e9es.",
+      "text": "La prise en charge de la douleur via les structures douleur chronique (SDC) r\u00e9f\u00e9renc\u00e9es.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La prise en charge de l\u2019infertilit\u00e9 via les centres autoris\u00e9s pour l\u2019assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP).",
+      "text": "La prise en charge de l'infertilit\u00e9 via les centres autoris\u00e9s pour l'assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour en savoir plus sur les fili\u00e8res et la prise en charge : ",
+      "text": "Pour en savoir plus sur les fili\u00e8res et la prise en charge : ",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Je ressens des sympt\u00f4mes : quelle prise en charge ?",
+      "text": "Je ressens des sympt\u00f4mes : quelle prise en charge ?",
+      "hyperlink": "https://www.sante.fr/endometriose/parcours-prise-en-charge"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Auvergne Rh\u00f4ne Alpes : EndAURA",
+      "text": "Auvergne Rh\u00f4ne Alpes : EndAURA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "EndAURA est un r\u00e9seau de professionnels de la sant\u00e9, ax\u00e9 autour de la prise en charge des patientes atteintes d\u2019endom\u00e9triose au sein de la r\u00e9gion Auvergne Rh\u00f4ne-Alpes.",
+      "text": "EndAURA est un r\u00e9seau de professionnels de la sant\u00e9, ax\u00e9 autour de la prise en charge des patientes atteintes d'endom\u00e9triose au sein de la r\u00e9gion Auvergne Rh\u00f4ne-Alpes."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site de EndAURA",
+      "text": "Consulter le site de EndAURA",
+      "hyperlink": "https://www.endaura.fr/"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Bourgogne Franche Comt\u00e9 : EndoBFC",
+      "text": "Bourgogne Franche Comt\u00e9 : EndoBFC",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La fili\u00e8re EndoBFC constitue un r\u00e9seau rassemblant divers professionnels de la sant\u00e9 engag\u00e9s dans la prise en charge des patientes souffrant d'endom\u00e9triose en Bourgogne Franche-Comt\u00e9.",
+      "text": "La fili\u00e8re EndoBFC constitue un r\u00e9seau rassemblant divers professionnels de la sant\u00e9 engag\u00e9s dans la prise en charge des patientes souffrant d'endom\u00e9triose en Bourgogne Franche-Comt\u00e9."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site EndoBFC",
+      "text": "Consulter le site EndoBFC",
+      "hyperlink": "http://www.endo-bfc.fr/"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Bretagne : Endobreizh",
+      "text": "Bretagne : Endobreizh",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Endobreizh est la fili\u00e8re de sant\u00e9 bretonne pour la prise en charge des patientes souffrant d\u2019endom\u00e9triose.",
+      "text": "Endobreizh est la fili\u00e8re de sant\u00e9 bretonne pour la prise en charge des patientes souffrant d'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/texts/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site d'Endobreizh",
+      "text": "Consulter le site d'Endobreizh",
+      "hyperlink": "https://www.endobreizh.com/"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Centre-Val de Loire : EndoCentre",
+      "text": "Centre-Val de Loire : EndoCentre",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "EndoCentre est la fili\u00e8re de soin pour la prise en charge de l'endom\u00e9triose dans la r\u00e9gion Centre-Val de Loire.",
+      "text": "EndoCentre est la fili\u00e8re de soin pour la prise en charge de l'endom\u00e9triose dans la r\u00e9gion Centre-Val de Loire."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Centre Val de Loire : EndoCentre",
+      "text": "Centre Val de Loire : EndoCentre",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/texts/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site d'EndoCentre",
+      "text": "Consulter le site d'EndoCentre",
+      "hyperlink": "https://www.endocentrevdl.fr/"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Corse",
+      "text": "Corse",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/texts/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Site en cours de construction.",
+      "text": "Site en cours de construction."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Grand Est",
+      "text": "Grand Est",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Fili\u00e8re en cours de constitution.",
+      "text": "Fili\u00e8re en cours de constitution."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/groups/4"
+        },
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Hauts de France : EndHauts",
+      "text": "Hauts de France : EndHauts",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ENDHAUTS est la Fili\u00e8re de soins endom\u00e9triose des Hauts-de-France : un dispositif expert r\u00e9gional dont l\u2019action permet de structurer une offre de soins gradu\u00e9e, afin de garantir \u00e0 chaque patiente une prise en charge adapt\u00e9e sur l\u2019ensemble de la r\u00e9gion.",
+      "text": "ENDHAUTS est la Fili\u00e8re de soins endom\u00e9triose des Hauts-de-France : un dispositif expert r\u00e9gional dont l'action permet de structurer une offre de soins gradu\u00e9e, afin de garantir \u00e0 chaque patiente une prise en charge adapt\u00e9e sur l'ensemble de la r\u00e9gion."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Contacter la fili\u00e8re : ",
+      "text": "Contacter la fili\u00e8re : "
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "contact@endhauts.fr",
+      "text": "contact@endhauts.fr",
+      "hyperlink": "mailto:contact@endhauts.fr"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Hauts de France : ",
+      "text": "Hauts de France : "
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site Endhauts",
+      "text": "Consulter le site Endhauts",
+      "hyperlink": "https://endhauts.fr/"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Ile-de-France : Endo Ile-de-France",
+      "text": "Ile-de-France : Endo Ile-de-France",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Endo IDF, couvre toute l\u2019Ile-de-France et se d\u00e9cline en quatre fili\u00e8res territoriales de soins :\n\u2022 Endo centre Ouest IDF\n\u2022 Endo Nord est IDF\n\u2022 Endo sud IDF\n\u2022 Voyelle IDF Yvelines et Val d\u2019Oise Ouest",
+      "text": "Endo IDF, couvre toute l'Ile-de-France et se d\u00e9cline en quatre fili\u00e8res territoriales de soins :\n\u2022 Endo centre Ouest IDF\n\u2022 Endo Nord est IDF\n\u2022 Endo sud IDF\n\u2022 Voyelle IDF Yvelines et Val d'Oise Ouest"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site de Endo IDF",
+      "text": "Consulter le site de Endo IDF",
+      "hyperlink": "https://www.endo-idf.fr/"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Normandie",
+      "text": "Normandie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/texts/46"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site de Norm'Endo",
+      "text": "Consulter le site de Norm'Endo",
+      "hyperlink": "https://www.endometriose-normandie.fr/"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Nouvelle Aquitaine : Afena",
+      "text": "Nouvelle Aquitaine : Afena",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019AFENA est l'\u00ab Association Fili\u00e8re Endom\u00e9triose Nouvelle-Aquitaine \u00bb pour la prise en charge des femmes atteintes d\u2019endom\u00e9triose en Nouvelle Aquitaine.",
+      "text": "L'AFENA est l'\u00ab Association Fili\u00e8re Endom\u00e9triose Nouvelle-Aquitaine \u00bb pour la prise en charge des femmes atteintes d'endom\u00e9triose en Nouvelle Aquitaine."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site de l'AFENA",
+      "text": "Consulter le site de l'AFENA",
+      "hyperlink": "https://www.afena.fr/"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Contacter la fili\u00e8re : contact [at]afena.fr",
+      "text": "Contacter la fili\u00e8re : contact [at]afena.fr"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Ile de la R\u00e9union : EndoR\u00e9union",
+      "text": "Ile de la R\u00e9union : EndoR\u00e9union",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/texts/52"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "EndoR\u00e9union est la fili\u00e8re de soins pour la prise en charge de l'endom\u00e9triose dans la r\u00e9gion de l\u2019Ile de la R\u00e9union",
+      "text": "EndoR\u00e9union est la fili\u00e8re de soins pour la prise en charge de l'endom\u00e9triose dans la r\u00e9gion de l'Ile de la R\u00e9union"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/texts/52"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site d'EndoR\u00e9union",
+      "text": "Consulter le site d'EndoR\u00e9union",
+      "hyperlink": "https://www.endoreunion.re/"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Occitanie : EndOccitanie",
+      "text": "Occitanie : EndOccitanie",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La fili\u00e8re EndOccitanie est un r\u00e9seau r\u00e9gional de professionnel de sant\u00e9 d\u00e9di\u00e9 \u00e0 la prise en charge des patientes souffrant d\u2019endom\u00e9triose",
+      "text": "La fili\u00e8re EndOccitanie est un r\u00e9seau r\u00e9gional de professionnel de sant\u00e9 d\u00e9di\u00e9 \u00e0 la prise en charge des patientes souffrant d'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site d'EndOccitanie",
+      "text": "Consulter le site d'EndOccitanie",
+      "hyperlink": "https://www.endoccitanie.fr/"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pays de Loire : EndoRef Pays de la Loire",
+      "text": "Pays de Loire : EndoRef Pays de la Loire",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/texts/58"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La fili\u00e8re EndoRef Pays de la Loire est un r\u00e9seau de professionnels de sant\u00e9 et de soins de support qui s\u2019organisent pour am\u00e9liorer la prise en charge des femmes souffrant d\u2019endom\u00e9triose au sein de leur r\u00e9gion.",
+      "text": "La fili\u00e8re EndoRef Pays de la Loire est un r\u00e9seau de professionnels de sant\u00e9 et de soins de support qui s'organisent pour am\u00e9liorer la prise en charge des femmes souffrant d'endom\u00e9triose au sein de leur r\u00e9gion."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/texts/58"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Contacter la fili\u00e8re : coordination[at]endorefpdl.org",
+      "text": "Contacter la fili\u00e8re : coordination[at]endorefpdl.org"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/texts/58"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site d'EndoRef",
+      "text": "Consulter le site d'EndoRef",
+      "hyperlink": "https://urldefense.com/v3/__https:/www.endorefpdl.org/__;!!FiWPmuqhD5aF3oDTQnc!kiaXJ2z1KmuQ_qBd48BHacOp7UJziGgZMiAdjioN6VqsWeK-NhI5RaUh8L9qmLPZny7-4iyRDZlnu7AkhmR7g-ZpEUeJSCzHQquxCw$"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "PACA : Endosud",
+      "text": "PACA : Endosud",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/texts/62"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le R\u00e9seau Endosud est un r\u00e9seau cr\u00e9\u00e9 pour assurer une prise en charge de qualit\u00e9 des femmes atteintes d'endom\u00e9triose dans la r\u00e9gion Sud.",
+      "text": "Le R\u00e9seau Endosud est un r\u00e9seau cr\u00e9\u00e9 pour assurer une prise en charge de qualit\u00e9 des femmes atteintes d'endom\u00e9triose dans la r\u00e9gion Sud."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/texts/62"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consulter le site d'Endosud",
+      "text": "Consulter le site d'Endosud",
+      "hyperlink": "https://endosudpaca.fr/"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Actualit\u00e9s",
+      "text": "Actualit\u00e9s",
+      "level": 1
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

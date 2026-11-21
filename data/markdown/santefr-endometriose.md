@@ -55,7 +55,3 @@ La **prise en charge thérapeutique** repose principalement :
 Vous ressentez un ou plusieurs des symptômes évoqués ci-dessus ? N’hésitez pas à **en parler à votre médecin traitant, votre gynécologue ou votre sage-femme habituel** qui vous écoutera et sera à même de repérer une suspicion d’endométriose.
 
 Le cas échéant il vous orientera vers **la filière endométriose de votre région pour un diagnostic et une prise en charge adaptée**. Des **associations** peuvent également vous accompagner.
-
-Le Service Public d’Information en Santé, au sein du Ministère de la santé et de l'accès aux soins, associe les institutions et agences publiques missionnées dans les champs de la santé, ainsi que les partenaires privés à but non lucratif (associations, ordres professionnels, sociétés savantes, universités…).
-
-La démarche vise à assurer la cohérence et la cohésion des actions autour d’une vision commune de l’information publique en santé prévoyant également l’élaboration d’outils favorisant l’implication des usagers au processus d’amélioration du système de santé.

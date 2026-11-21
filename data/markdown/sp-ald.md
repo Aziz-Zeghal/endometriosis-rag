@@ -186,9 +186,7 @@ Il permet la prise en charge à 100 % (sur la base du tarif de la Sécurité soc
 Il se compose de 3 volets :
 
 - 1 est conservé par votre médecin traitant
-
 - 1 est pour le médecin conseil de l'Assurance maladie
-
 - 1 vous est destiné.
 
 Vous devrez signer ce protocole de soins et le présenter à chaque médecin consulté pour bénéficier de la prise en charge à 100 % pour les soins liés à votre maladie.
@@ -200,7 +198,6 @@ Dans certains cas, notamment lorsque le diagnostic est établi lors d'une hospit
 Le protocole indique les informations suivantes :
 
 - Soins, examens biologiques et traitements nécessaires à la prise en charge et au suivi de votre maladie
-
 - Soins et les traitements pris en charge à 100 % et ceux qui sont remboursés aux taux habituels de la Sécurité sociale. Certains soins et traitements peuvent ne pas être pris en charge, comme par exemple les spécialités pharmaceutiques non inscrites sur la liste des médicaments remboursables
 - Médecins spécialistes en « accès direct », sans passage par le médecin traitant.
 
@@ -224,14 +221,13 @@ Tous vos soins dispensés dans le cadre de l'ALD sont donc remboursés aux taux 
 
 Cette ALD « non exonérante » vous permet de bénéficier d'un arrêt de travail de plus de 6 mois
 
-Si vous êtes en arrêt de travail pour longue maladie, vous pouvez percevoir des indemnités journalières au-delà du 6<sup>e</sup> mois, si votre état de santé le justifie. Il faut l'accord du médecin conseil de l'Assurance maladie.
+Si vous êtes en arrêt de travail pour longue maladie, vous pouvez percevoir des indemnités journalières au-delà du 6e mois, si votre état de santé le justifie. Il faut l'accord du médecin conseil de l'Assurance maladie.
 
 **Depuis le 15 octobre 2026**, la durée d'un arrêt de travail ininterrompu ne peut **pas dépasser 1 an** (3 ans auparavant).
 
 Cette règle s’applique :
 
 - aux arrêts **prescrits**
-
 - et aux arrêts **en cours au 15 octobre 2026 lorsque l’incapacité de travail atteint 6 mois à compter de cette date** (par exemple, un assuré dont l'arrêt a commencé en mai 2026 basculera dans le nouveau dispositif lorsqu'il atteindra le cap des 6 mois d'arrêt, c’est-à-dire en novembre 2026).
 
 Ces nouvelles dispositions ne concernent donc pas le salarié dont l’arrêt de travail dépasse déjà 6 mois au 15 octobre 2026. Le salarié se trouvant dans ce cas continue de relever des règles antérieures, avec une indemnisation pouvant aller jusqu’à 3 ans : par exemple, un assuré en arrêt depuis janvier 2026, c’est-à-dire plus de 9 mois au 15 octobre 2026, se voit appliquer l’ancien plafond de 3 ans.
@@ -250,9 +246,7 @@ Dans l'attente, les informations sur cette page restent valables.
 
 Vous avez une question ? Vous souhaitez être accompagné(e) dans vos démarches ?
 
-- Santé Info Droits Ligne téléphonique créée par un collectif d'associations d'usagers pour fournir des informations juridiques ou sociales liées à la santé **Par téléphone**
-**01 53 62 40 30**
-Prix d'une communication normale Service ouvert :
-  - Les lundi, mercredi et vendredi de 14h à 18h
-  - Les mardi et jeudi de 14h à 20h.
+- Santé Info Droits Ligne téléphonique créée par un collectif d'associations d'usagers pour fournir des informations juridiques ou sociales liées à la santé **Par téléphone 01 53 62 40 30** Prix d'une communication normale Service ouvert :
+    - Les lundi, mercredi et vendredi de 14h à 18h
+    - Les mardi et jeudi de 14h à 20h.
 - Ameli

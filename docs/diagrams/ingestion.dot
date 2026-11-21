@@ -5,7 +5,7 @@ digraph G {
   edge [fontname="Helvetica", fontsize=9, color="#555555"];
 
   build [label="{«factory»\nbuild_pipeline|build_pipeline(settings) → Pipeline}", fillcolor="#fde2e4"];
-  Settings [label="{Settings|profile: patient \| gp\lembedder: str\lqdrant_path: Path\lchunk_size / overlap / min_chars\lllm_base_url / llm_api_key\l|collection_name() → str\l}", fillcolor="#fde2e4"];
+  Settings [label="{Settings|profile: patient \| gp\lembedder: str\lqdrant_path: Path\lchunk_tokenizer / max_tokens\lchunk_min_chars\lllm_base_url / llm_api_key\l|collection_name() → str\l}", fillcolor="#fde2e4"];
   Pipeline [label="{«template method»\nPipeline|run(entries) → RunSummary\lprocess(entry) → int\lfetch → convert → chunk → index\l}", fillcolor="#ffd6a5"];
 
   subgraph cluster_if { label="core/interfaces.py  (Strategy)"; style="rounded,filled"; fillcolor="#f1f1f1"; color="#bbbbbb";
@@ -18,11 +18,11 @@ digraph G {
 
   subgraph cluster_impl { label="implementations"; style="rounded,filled"; fillcolor="#f7f7f7"; color="#bbbbbb";
     HttpConnector [label="{HttpConnector|robots.txt, per-host delay\lretries, offline disk cache\l}", fillcolor="#caffbf"];
-    RoutingConverter [label="{RoutingConverter|dispatch on entry.format\lMarkdown cache (sha256+version)\l}", fillcolor="#caffbf"];
-    HtmlConverter [label="{HtmlConverter  (Converter)|trafilatura + docling fallback\l}", fillcolor="#caffbf"];
+    RoutingConverter [label="{RoutingConverter|dispatch on entry.format\lcache .docling.json + .md\l(sha256+version)\l}", fillcolor="#caffbf"];
+    HtmlConverter [label="{HtmlConverter  (Converter)|trafilatura → docling MD backend\ldocling HTML fallback\l}", fillcolor="#caffbf"];
     PdfConverter [label="{PdfConverter  (Converter)|docling, CPU, no OCR\l}", fillcolor="#caffbf"];
     JatsConverter [label="{JatsConverter  (Converter)|docling JATS (XML)\l}", fillcolor="#caffbf"];
-    MarkdownChunker [label="{MarkdownChunker|h1–h3 headers, then\lrecursive split 1200/150\l}", fillcolor="#caffbf"];
+    HybridChunker [label="{HybridChunkerAdapter|docling HybridChunker\lembedder tokenizer, 512 tokens\lclean text, drop tiny chunks\l}", fillcolor="#caffbf"];
     OpenAIEmb [label="{OpenAICompatibleEmbedder|nemotron-3-embed-1b (API)\lbatches of 16, retries\l}", fillcolor="#caffbf"];
     STEmb [label="{SentenceTransformerEmbedder|optional local models\l}", fillcolor="#caffbf"];
     Cache [label="{EmbeddingCache|sqlite: sha256(text) → vector\l}", fillcolor="#caffbf"];
@@ -32,8 +32,8 @@ digraph G {
   subgraph cluster_models { label="core/models.py  (Pydantic, data flowing through the pipeline)"; style="rounded,filled"; fillcolor="#eef4ff"; color="#bbbbbb";
     ManifestEntry [label="{ManifestEntry|id, url, fetch_url\lsource, title, licence\lpublished / checked\laudience, format, enabled\l}", fillcolor="#bde0fe"];
     RawDocument [label="{RawDocument|entry, path\lcontent_type, retrieved\l}", fillcolor="#bde0fe"];
-    ConvertedDocument [label="{ConvertedDocument|entry, markdown, retrieved\l}", fillcolor="#bde0fe"];
-    Chunk [label="{Chunk|doc_id, chunk_index, text\lheading_path, source, title\lurl, published\l|point_id, embedding_text\l}", fillcolor="#bde0fe"];
+    ConvertedDocument [label="{ConvertedDocument|entry, document: DoclingDocument\lmarkdown, retrieved\l}", fillcolor="#bde0fe"];
+    Chunk [label="{Chunk|doc_id, chunk_index, text\lheading_path, page, source\ltitle, url, published\l|point_id, citation_url\lembedding_text\l}", fillcolor="#bde0fe"];
     ScoredChunk [label="{ScoredChunk|chunk, score\l}", fillcolor="#bde0fe"];
     RunSummary [label="{RunSummary|results: list[DocumentResult]\lok / failed / skipped\l}", fillcolor="#bde0fe"];
     DocumentResult [label="{DocumentResult|doc_id, status, chunks, error\l}", fillcolor="#bde0fe"];
@@ -48,7 +48,7 @@ digraph G {
   Pipeline -> VectorStore [dir=back, arrowtail=odiamond, arrowhead=none];
   edge [dir=back, arrowtail=onormal, arrowhead=none, style=dashed];
   Connector -> HttpConnector; Converter -> RoutingConverter;
-  Chunker -> MarkdownChunker; Embedder -> OpenAIEmb; Embedder -> STEmb; VectorStore -> QdrantStore;
+  Chunker -> HybridChunker; Embedder -> OpenAIEmb; Embedder -> STEmb; VectorStore -> QdrantStore;
     edge [style=solid, arrowhead=none, dir=back, arrowtail=odiamond];
   VectorStore -> Embedder [label="owns: same model\nfor documents and queries", arrowtail=diamond];
   RoutingConverter -> HtmlConverter [label="html"]; RoutingConverter -> PdfConverter [label="pdf"]; RoutingConverter -> JatsConverter [label="xml"];

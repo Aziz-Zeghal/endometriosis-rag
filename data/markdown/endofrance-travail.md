@@ -128,11 +128,11 @@ Jouez et informez-vous grâce à « Endo’travail », le jeu pédagogique et in
 
 **Ce serious game à visée pédagogique a pour but d’informer salarié.e.s,  managers et ressources humaines sur les difficultés que rencontrent au quotidien les personnes atteintes d’endométriose.**
 
-Son objectif est d’aider à changer le regard de chacun sur cette maladie invisible qui impacte négativement le quotidien professionnel de 65 % de femmes.\* Il ouvre aussi sur des pistes pour favoriser le maintien dans l’emploi.
+Son objectif est d’aider à changer le regard de chacun sur cette maladie invisible qui impacte négativement le quotidien professionnel de 65 % de femmes.* Il ouvre aussi sur des pistes pour favoriser le maintien dans l’emploi.
 
 Ce jeu ne peut être exhaustif, chaque endométriose est unique, chaque situation professionnelle et personnelle aussi.
 
-\**Selon l’enquête Endovie – IPSOS – Gedeon Richter – EndoFrance 2020*
+**Selon l’enquête Endovie – IPSOS – Gedeon Richter – EndoFrance 2020*
 
 ## Parlons endométriose :
 

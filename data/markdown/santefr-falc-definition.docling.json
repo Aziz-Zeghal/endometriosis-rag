@@ -1,0 +1,1582 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "santefr-falc-definition",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 10101131093504051936,
+    "filename": "santefr-falc-definition.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/pictures/9"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/pictures/10"
+      },
+      {
+        "$ref": "#/pictures/11"
+      },
+      {
+        "$ref": "#/texts/36"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 755.4399999999999,
+            "r": 327.25672000000003,
+            "b": 739.8350663129974,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Qu'est-ce que l'endom\u00e9triose ?",
+      "text": "Qu'est-ce que l'endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 707.14,
+            "r": 437.8492,
+            "b": 647.7514588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e8tre se trouve dans l'ut\u00e9rus de la femme. C'est une fine pellicule sur la surface int\u00e9rieure de l'ut\u00e9rus. Un peu comme une fine couche de tissu.",
+      "text": "L'endom\u00e8tre se trouve dans l'ut\u00e9rus de la femme. C'est une fine pellicule sur la surface int\u00e9rieure de l'ut\u00e9rus. Un peu comme une fine couche de tissu."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 635.86,
+            "r": 480.93663999999995,
+            "b": 623.9914588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e8tre sert \u00e0 accueillir un f\u0153tus, c'est-\u00e0-dire un futur b\u00e9b\u00e9.",
+      "text": "L'endom\u00e8tre sert \u00e0 accueillir un f\u0153tus, c'est-\u00e0-dire un futur b\u00e9b\u00e9."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 600.1,
+            "r": 362.1259200000001,
+            "b": 540.6814588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "Chaque mois, le corps de la femme se pr\u00e9pare \u00e0 accueillir un f\u0153tus. Pour cela l'endom\u00e8tre s'\u00e9paissit.",
+      "text": "Chaque mois, le corps de la femme se pr\u00e9pare \u00e0 accueillir un f\u0153tus. Pour cela l'endom\u00e8tre s'\u00e9paissit."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 516.79,
+            "r": 452.65575999999993,
+            "b": 481.16145888594167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "Quand il n'y a pas de f\u0153tus, une partie de l'endom\u00e8tre se d\u00e9compose et est \u00e9limin\u00e9e par le vagin. Ce sont les r\u00e8gles.",
+      "text": "Quand il n'y a pas de f\u0153tus, une partie de l'endom\u00e8tre se d\u00e9compose et est \u00e9limin\u00e9e par le vagin. Ce sont les r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 457.27000000000004,
+            "r": 450.8480799999999,
+            "b": 350.4614588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            242
+          ]
+        }
+      ],
+      "orig": "Parfois de petits morceaux d'endom\u00e8tre sortent de l'ut\u00e9rus par le haut et atteignent l'int\u00e9rieur du ventre. Ils s'installent dans d'autres parties du corps, par exemple les organes du bas du ventre, les reins, la vessie, rarement les poumons.",
+      "text": "Parfois de petits morceaux d'endom\u00e8tre sortent de l'ut\u00e9rus par le haut et atteignent l'int\u00e9rieur du ventre. Ils s'installent dans d'autres parties du corps, par exemple les organes du bas du ventre, les reins, la vessie, rarement les poumons."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 338.57000000000005,
+            "r": 429.20919999999995,
+            "b": 326.70145888594163,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Cela provoque une maladie qui s'appelle l'endom\u00e9triose.",
+      "text": "Cela provoque une maladie qui s'appelle l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 314.81000000000006,
+            "r": 282.2756,
+            "b": 302.94145888594164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "C'est une maladie gyn\u00e9cologique.",
+      "text": "C'est une maladie gyn\u00e9cologique."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 291.05000000000007,
+            "r": 514.6792,
+            "b": 279.18145888594165,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose est tr\u00e8s douloureuse, en particulier pendant les r\u00e8gles.",
+      "text": "L'endom\u00e9triose est tr\u00e8s douloureuse, en particulier pendant les r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.65,
+            "t": 62.18399999999997,
+            "r": 300.63752,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 768.24,
+            "r": 437.32216,
+            "b": 685.0714588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            176
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose s'arr\u00eate \u00e0 la m\u00e9nopause, c'est-\u00e0 dire quand la femme n'a plus de r\u00e8gles, vers 50 ans. Aujourd'hui on pense que presque 1 femme sur 10 souffre d'une endom\u00e9triose.",
+      "text": "L'endom\u00e9triose s'arr\u00eate \u00e0 la m\u00e9nopause, c'est-\u00e0 dire quand la femme n'a plus de r\u00e8gles, vers 50 ans. Aujourd'hui on pense que presque 1 femme sur 10 souffre d'une endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 673.1800000000001,
+            "r": 387.11279999999994,
+            "b": 637.5514588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "Parmi les femmes qui ont des r\u00e8gles douloureuses, 1 sur 3 pourrait souffrir d'endom\u00e9triose.",
+      "text": "Parmi les femmes qui ont des r\u00e8gles douloureuses, 1 sur 3 pourrait souffrir d'endom\u00e9triose.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 613.6600000000001,
+            "r": 475.6792,
+            "b": 601.7914588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "Cela veut dire que cette maladie est fr\u00e9quente chez les femmes.",
+      "text": "Cela veut dire que cette maladie est fr\u00e9quente chez les femmes."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 589.9,
+            "r": 285.63224,
+            "b": 578.0314588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "Cette maladie peut \u00eatre reconnue",
+      "text": "Cette maladie peut \u00eatre reconnue"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 566.11,
+            "r": 289.50919999999996,
+            "b": 554.2414588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "comme une situation de handicap.",
+      "text": "comme une situation de handicap."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 542.35,
+            "r": 339.2912,
+            "b": 530.4814588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Certaines femmes doivent rester allong\u00e9es",
+      "text": "Certaines femmes doivent rester allong\u00e9es"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 518.59,
+            "r": 416.9902399999999,
+            "b": 506.7214588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "plusieurs jours chaque mois parce qu'elles ont tr\u00e8s mal.",
+      "text": "plusieurs jours chaque mois parce qu'elles ont tr\u00e8s mal."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 494.83000000000004,
+            "r": 293.27528,
+            "b": 482.9614588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Elles ne peuvent pas aller au travail.",
+      "text": "Elles ne peuvent pas aller au travail."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 459.07000000000005,
+            "r": 274.93536,
+            "b": 447.2014588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Nous ne connaissons pas encore",
+      "text": "Nous ne connaissons pas encore"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 435.43,
+            "r": 248.20752000000007,
+            "b": 423.56145888594165,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "les raisons de cette maladie.",
+      "text": "les raisons de cette maladie."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 399.67,
+            "r": 500.39919999999995,
+            "b": 387.80145888594166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "Aujourd'hui on ne gu\u00e9rit pas de l'endom\u00e9triose avant la m\u00e9nopause.",
+      "text": "Aujourd'hui on ne gu\u00e9rit pas de l'endom\u00e9triose avant la m\u00e9nopause."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 375.89000000000004,
+            "r": 294.18959999999987,
+            "b": 364.0214588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Mais on peut diminuer les douleurs.",
+      "text": "Mais on peut diminuer les douleurs.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 352.13000000000005,
+            "r": 499.7151199999999,
+            "b": 316.5014588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "Par exemple avec la pilule contraceptive, des m\u00e9dicaments contre la douleur, ou des op\u00e9rations chirurgicales.",
+      "text": "Par exemple avec la pilule contraceptive, des m\u00e9dicaments contre la douleur, ou des op\u00e9rations chirurgicales."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 292.61,
+            "r": 472.7573599999997,
+            "b": 256.9814588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "La pilule contraceptive c'est la pilule pour ne pas avoir d'enfant. On dit plus souvent seulement le mot pilule.",
+      "text": "La pilule contraceptive c'est la pilule pour ne pas avoir d'enfant. On dit plus souvent seulement le mot pilule."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 233.09000000000003,
+            "r": 404.88535999999993,
+            "b": 221.22145888594162,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Souvent les r\u00e8gles sont douloureuses \u00e0 l'adolescence.",
+      "text": "Souvent les r\u00e8gles sont douloureuses \u00e0 l'adolescence."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 209.33000000000004,
+            "r": 394.91336,
+            "b": 173.67145888594166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "Pour diminuer les douleurs, les m\u00e9decins proposent presque tout le temps la pilule.",
+      "text": "Pour diminuer les douleurs, les m\u00e9decins proposent presque tout le temps la pilule."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 149.77999999999997,
+            "r": 387.71720000000005,
+            "b": 90.3954588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 768.24,
+            "r": 424.1619999999999,
+            "b": 637.5514588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            132,
+            398
+          ]
+        }
+      ],
+      "orig": "Ces douleurs peuvent \u00eatre \u00e0 li\u00e9es \u00e0 l'endom\u00e9triose pour 2 adolescentes sur 3 qui ont mal. La pilule diminue les douleurs des r\u00e8gles mais elle cache les sympt\u00f4mes de l'endom\u00e9triose. Les sympt\u00f4mes, ce sont les signes de la maladie. C'est tr\u00e8s difficile de faire un diagnostic si la femme a peu de sympt\u00f4mes. Faire un diagnostic c'est savoir de quelle maladie il s'agit et pourquoi on a cette maladie.",
+      "text": "Ces douleurs peuvent \u00eatre \u00e0 li\u00e9es \u00e0 l'endom\u00e9triose pour 2 adolescentes sur 3 qui ont mal. La pilule diminue les douleurs des r\u00e8gles mais elle cache les sympt\u00f4mes de l'endom\u00e9triose. Les sympt\u00f4mes, ce sont les signes de la maladie. C'est tr\u00e8s difficile de faire un diagnostic si la femme a peu de sympt\u00f4mes. Faire un diagnostic c'est savoir de quelle maladie il s'agit et pourquoi on a cette maladie."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 293.81,
+            "t": 62.18399999999997,
+            "r": 301.586,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 613.6600000000001,
+            "r": 385.86296000000004,
+            "b": 578.0314588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "Une femme obtient un diagnostic d'endom\u00e9triose en moyenne 7 ans apr\u00e8s les premi\u00e8res douleurs.",
+      "text": "Une femme obtient un diagnostic d'endom\u00e9triose en moyenne 7 ans apr\u00e8s les premi\u00e8res douleurs."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 528.7900000000001,
+            "r": 420.12327999999997,
+            "b": 516.9214588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Si vous avez souvent des douleurs dans le bas du ventre",
+      "text": "Si vous avez souvent des douleurs dans le bas du ventre"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 505.15000000000003,
+            "r": 264.08048,
+            "b": 469.5214588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "ou m\u00eame ailleurs, C'est peut-\u00eatre l'endom\u00e9triose",
+      "text": "ou m\u00eame ailleurs, C'est peut-\u00eatre l'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 457.63000000000005,
+            "r": 238.1492,
+            "b": 445.7614588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Parlez-en \u00e0 votre m\u00e9decin.",
+      "text": "Parlez-en \u00e0 votre m\u00e9decin."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 421.87,
+            "r": 361.16743999999994,
+            "b": 386.24145888594165,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "Avoir des r\u00e8gles douloureuses ne veut pas dire qu'on va avoir mal toute sa vie.",
+      "text": "Avoir des r\u00e8gles douloureuses ne veut pas dire qu'on va avoir mal toute sa vie."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 151.82,
+            "t": 259.88,
+            "r": 513.7876,
+            "b": 195.91880636604776,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "Ce document accessible \u00e0 tous a \u00e9t\u00e9 transcrit par Com'access avec la m\u00e9thode du Facile \u00e0 Lire et \u00e0 Comprendre (FALC) Pour en savoir plus sur le FALC vous pouvez aller sur le site : www.inclusioneurope.eu/easy-to-read",
+      "text": "Ce document accessible \u00e0 tous a \u00e9t\u00e9 transcrit par Com'access avec la m\u00e9thode du Facile \u00e0 Lire et \u00e0 Comprendre (FALC) Pour en savoir plus sur le FALC vous pouvez aller sur le site : www.inclusioneurope.eu/easy-to-read"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 151.82,
+            "t": 186.76999999999998,
+            "r": 380.6510000000002,
+            "b": 177.64880636604778,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "\u00a9 Logo europ\u00e9en Facile \u00e0 lire : Inclusion Europe",
+      "text": "\u00a9 Logo europ\u00e9en Facile \u00e0 lire : Inclusion Europe"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 150.16999999999996,
+            "r": 492.0331599999999,
+            "b": 104.56880636604774,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "Les pictogrammes sont tir\u00e9s d'une banque d'images libres de droit \u00a9Flaticon Nous remercions vivement Joanna, Julie et Tracy de l'ESAT Moskowa (association APTE) pour la relecture et la validation du document.",
+      "text": "Les pictogrammes sont tir\u00e9s d'une banque d'images libres de droit \u00a9Flaticon Nous remercions vivement Joanna, Julie et Tracy de l'ESAT Moskowa (association APTE) pour la relecture et la validation du document."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 293.81,
+            "t": 62.18399999999997,
+            "r": 301.586,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 503.5341252044064,
+            "t": 748.3297566770431,
+            "r": 561.9026653397324,
+            "b": 699.6521005778188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 507.4513426853667,
+            "t": 522.5569135521823,
+            "r": 555.1878011654848,
+            "b": 474.7722695219715,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 514.8345413597159,
+            "t": 439.97275027603547,
+            "r": 553.2967117371015,
+            "b": 402.8353489297246,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 511.31052099240713,
+            "t": 378.10036406528354,
+            "r": 557.1363201125997,
+            "b": 332.17668822372326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 515.3729278564454,
+            "t": 574.9909876155173,
+            "r": 553.5734951925598,
+            "b": 537.2320327809531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 516.6097963023346,
+            "t": 403.5211358164155,
+            "r": 562.5171977694723,
+            "b": 357.8306226339816,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 517.9831665448695,
+            "t": 289.98715463090116,
+            "r": 547.5420544843226,
+            "b": 260.0725777074673,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 522.1625357567705,
+            "t": 224.07477754787703,
+            "r": 559.5946327281159,
+            "b": 184.09444565580463,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 504.7069188900123,
+            "t": 118.3718088442696,
+            "r": 559.355343066734,
+            "b": 74.51568556543202,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.00487629935246,
+            "t": 257.1864383768186,
+            "r": 142.53174369863217,
+            "b": 183.03564733799737,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 520.1072661861958,
+            "t": 723.1616769793368,
+            "r": 579.9798561536546,
+            "b": 680.3961940854178,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 431.5962151997202,
+            "t": 490.81737576083725,
+            "r": 520.277055156119,
+            "b": 426.0459425103919,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 3
+    }
+  }
+}

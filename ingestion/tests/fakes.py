@@ -3,6 +3,8 @@
 from datetime import date
 from pathlib import Path
 
+from docling_core.transforms.chunker.tokenizer.base import BaseTokenizer
+from docling_core.types.doc import DocItemLabel, DoclingDocument
 from endorag_ingestion.core import (
     Chunk,
     Chunker,
@@ -49,9 +51,16 @@ class FakeConverter(Converter):
         self.paragraphs = paragraphs
 
     def convert(self, raw: RawDocument) -> ConvertedDocument:
-        body = "\n\n".join(f"Paragraph {i} of {raw.entry.id}." for i in range(self.paragraphs))
+        paragraphs = [f"Paragraph {i} of {raw.entry.id}." for i in range(self.paragraphs)]
+        document = DoclingDocument(name=raw.entry.id)
+        document.add_title(raw.entry.title)
+        for p in paragraphs:
+            document.add_text(label=DocItemLabel.TEXT, text=p)
         return ConvertedDocument(
-            entry=raw.entry, markdown=f"# {raw.entry.title}\n\n{body}", retrieved=raw.retrieved
+            entry=raw.entry,
+            document=document,
+            markdown=f"# {raw.entry.title}\n\n" + "\n\n".join(paragraphs),
+            retrieved=raw.retrieved,
         )
 
 
@@ -76,6 +85,21 @@ class FakeChunker(Chunker):
             )
             for i, p in enumerate(parts)
         ]
+
+
+class WordTokenizer(BaseTokenizer):
+    """Offline stand-in for a Hugging Face tokenizer: one token per word."""
+
+    max_tokens: int = 64
+
+    def count_tokens(self, text: str) -> int:
+        return len(text.split())
+
+    def get_max_tokens(self) -> int:
+        return self.max_tokens
+
+    def get_tokenizer(self):
+        return self.count_tokens  # semchunk accepts a token-counting function
 
 
 class FakeEmbedder(Embedder):

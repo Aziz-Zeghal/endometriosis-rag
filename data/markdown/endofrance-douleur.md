@@ -114,7 +114,7 @@ Enfin, pour beaucoup, la chaleur d’une bouillotte, reste la meilleure alliée 
 
 *Plus d’information sur les autres pages du site ou auprès des bénévoles régionales.*
 
- *A lire « Les idées reçues sur l’endométriose »- février 2020 – Editions Le Cavalier Bleu*
+*A lire « Les idées reçues sur l’endométriose »- février 2020 – Editions Le Cavalier Bleu*
 
 ## Pour aller plus loin ...
 

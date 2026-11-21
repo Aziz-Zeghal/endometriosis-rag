@@ -1,0 +1,2551 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13775952312486477773,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/groups/24"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/groups/25"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/groups/26"
+      },
+      {
+        "$ref": "#/groups/27"
+      },
+      {
+        "$ref": "#/groups/28"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/groups/29"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/groups/30"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/66"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/54"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/texts/57"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/texts/60"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/texts/63"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/66"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/texts/70"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/73"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/texts/76"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/texts/80"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/texts/83"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/texts/86"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/texts/89"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Travailler avec l\u2019endom\u00e9triose",
+      "text": "Travailler avec l\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Concilier vie professionnelle et endom\u00e9triose",
+      "text": "Concilier vie professionnelle et endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pourtant, pour de nombreuses personnes atteintes, concilier la maladie avec les exigences du monde professionnel reste un v\u00e9ritable d\u00e9fi.",
+      "text": "Pourtant, pour de nombreuses personnes atteintes, concilier la maladie avec les exigences du monde professionnel reste un v\u00e9ritable d\u00e9fi."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Douleurs chroniques, fatigue intense, troubles de la concentration, rendez-vous m\u00e9dicaux, interventions chirurgicales\u2026 Les cons\u00e9quences de l\u2019endom\u00e9triose peuvent peser sur le quotidien au travail, fragiliser les parcours professionnels et parfois conduire \u00e0 renoncer \u00e0 certaines opportunit\u00e9s, voire \u00e0 un emploi.",
+      "text": "Douleurs chroniques, fatigue intense, troubles de la concentration, rendez-vous m\u00e9dicaux, interventions chirurgicales\u2026 Les cons\u00e9quences de l\u2019endom\u00e9triose peuvent peser sur le quotidien au travail, fragiliser les parcours professionnels et parfois conduire \u00e0 renoncer \u00e0 certaines opportunit\u00e9s, voire \u00e0 un emploi."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Selon l\u2019enqu\u00eate EndoVie, r\u00e9alis\u00e9e en 2020 par IPSOS, Gedeon Richter et EndoFrance, ",
+      "text": "Selon l\u2019enqu\u00eate EndoVie, r\u00e9alis\u00e9e en 2020 par IPSOS, Gedeon Richter et EndoFrance, "
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "65 % des femmes interrog\u00e9es d\u00e9clarent que l\u2019endom\u00e9triose a un impact n\u00e9gatif sur leur vie professionnelle.",
+      "text": "65 % des femmes interrog\u00e9es d\u00e9clarent que l\u2019endom\u00e9triose a un impact n\u00e9gatif sur leur vie professionnelle.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Derri\u00e8re ce chiffre, il y a des r\u00e9alit\u00e9s tr\u00e8s diff\u00e9rentes, souvent invisibles, qui n\u00e9cessitent d\u2019\u00eatre mieux comprises et prises en compte. L\u2019endom\u00e9triose ne se manifeste pas de la m\u00eame mani\u00e8re chez toutes les personnes concern\u00e9es. Ses cons\u00e9quences varient selon les sympt\u00f4mes, leur intensit\u00e9, les traitements et les contraintes li\u00e9es au poste occup\u00e9.",
+      "text": "Derri\u00e8re ce chiffre, il y a des r\u00e9alit\u00e9s tr\u00e8s diff\u00e9rentes, souvent invisibles, qui n\u00e9cessitent d\u2019\u00eatre mieux comprises et prises en compte. L\u2019endom\u00e9triose ne se manifeste pas de la m\u00eame mani\u00e8re chez toutes les personnes concern\u00e9es. Ses cons\u00e9quences varient selon les sympt\u00f4mes, leur intensit\u00e9, les traitements et les contraintes li\u00e9es au poste occup\u00e9."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des solutions peuvent \u00eatre envisag\u00e9es pour permettre de poursuivre son activit\u00e9 professionnelle dans de meilleures conditions : adaptation des horaires, t\u00e9l\u00e9travail lorsque le poste le permet, am\u00e9nagement du poste ou de certaines missions. Le m\u00e9decin du travail est un interlocuteur essentiel pour \u00e9valuer les besoins et proposer des adaptations adapt\u00e9es \u00e0 chaque situation. Il est soumis au secret m\u00e9dical.",
+      "text": "Des solutions peuvent \u00eatre envisag\u00e9es pour permettre de poursuivre son activit\u00e9 professionnelle dans de meilleures conditions : adaptation des horaires, t\u00e9l\u00e9travail lorsque le poste le permet, am\u00e9nagement du poste ou de certaines missions. Le m\u00e9decin du travail est un interlocuteur essentiel pour \u00e9valuer les besoins et proposer des adaptations adapt\u00e9es \u00e0 chaque situation. Il est soumis au secret m\u00e9dical."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il n\u2019appartient pas aux personnes atteintes de justifier sans cesse leur douleur ou de mettre leur sant\u00e9 de c\u00f4t\u00e9 pour continuer \u00e0 travailler.",
+      "text": "Il n\u2019appartient pas aux personnes atteintes de justifier sans cesse leur douleur ou de mettre leur sant\u00e9 de c\u00f4t\u00e9 pour continuer \u00e0 travailler.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La prise en compte de l\u2019endom\u00e9triose dans le monde professionnel passe aussi par une meilleure information des employeurs, des \u00e9quipes RH, des managers et des coll\u00e8gues.",
+      "text": "La prise en compte de l\u2019endom\u00e9triose dans le monde professionnel passe aussi par une meilleure information des employeurs, des \u00e9quipes RH, des managers et des coll\u00e8gues."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Faire \u00e9voluer les regards et les pratiques",
+      "text": "Faire \u00e9voluer les regards et les pratiques",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez EndoFrance, nous sommes convaincus que la sensibilisation est un levier essentiel pour faire \u00e9voluer les mentalit\u00e9s et favoriser un environnement de travail plus inclusif. ",
+      "text": "Chez EndoFrance, nous sommes convaincus que la sensibilisation est un levier essentiel pour faire \u00e9voluer les mentalit\u00e9s et favoriser un environnement de travail plus inclusif. "
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose ne doit plus \u00eatre un frein \u00e0 l\u2019\u00e9volution professionnelle, ni un sujet tabou dans les entreprises.",
+      "text": "L\u2019endom\u00e9triose ne doit plus \u00eatre un frein \u00e0 l\u2019\u00e9volution professionnelle, ni un sujet tabou dans les entreprises.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Reconna\u00eetre les difficult\u00e9s, ouvrir le dialogue, identifier les besoins et mettre en place des solutions concr\u00e8tes : chaque action compte pour permettre aux personnes concern\u00e9es de poursuivre leur parcours professionnel sans avoir \u00e0 sacrifier leur sant\u00e9.",
+      "text": "Reconna\u00eetre les difficult\u00e9s, ouvrir le dialogue, identifier les besoins et mettre en place des solutions concr\u00e8tes : chaque action compte pour permettre aux personnes concern\u00e9es de poursuivre leur parcours professionnel sans avoir \u00e0 sacrifier leur sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Informer, sensibiliser et agir : c\u2019est aussi notre engagement aupr\u00e8s du monde du travail.",
+      "text": "Informer, sensibiliser et agir : c\u2019est aussi notre engagement aupr\u00e8s du monde du travail.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Nos actions de sensibilisation en entreprise",
+      "text": "Nos actions de sensibilisation en entreprise",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Depuis 2020, EndoFrance intervient gratuitement aupr\u00e8s des entreprises et des collectivit\u00e9s",
+      "text": "Depuis 2020, EndoFrance intervient gratuitement aupr\u00e8s des entreprises et des collectivit\u00e9s",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour sensibiliser les salari\u00e9s, les managers et les \u00e9quipes RH \u00e0 l\u2019endom\u00e9triose et \u00e0 ses cons\u00e9quences sur la vie professionnelle. Gr\u00e2ce \u00e0 l\u2019engagement de nos b\u00e9n\u00e9voles, ces interventions permettent de mieux comprendre la maladie, de d\u00e9construire les id\u00e9es re\u00e7ues, de lever les tabous et d\u2019ouvrir le dialogue autour de situations encore trop souvent invisibles. Notre objectif est aussi d\u2019encourager les entreprises \u00e0 prendre en compte les difficult\u00e9s rencontr\u00e9es par les personnes atteintes et \u00e0 identifier des solutions concr\u00e8tes pour favoriser leur maintien dans l\u2019emploi.",
+      "text": " pour sensibiliser les salari\u00e9s, les managers et les \u00e9quipes RH \u00e0 l\u2019endom\u00e9triose et \u00e0 ses cons\u00e9quences sur la vie professionnelle. Gr\u00e2ce \u00e0 l\u2019engagement de nos b\u00e9n\u00e9voles, ces interventions permettent de mieux comprendre la maladie, de d\u00e9construire les id\u00e9es re\u00e7ues, de lever les tabous et d\u2019ouvrir le dialogue autour de situations encore trop souvent invisibles. Notre objectif est aussi d\u2019encourager les entreprises \u00e0 prendre en compte les difficult\u00e9s rencontr\u00e9es par les personnes atteintes et \u00e0 identifier des solutions concr\u00e8tes pour favoriser leur maintien dans l\u2019emploi."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "100 % des entreprises ayant r\u00e9pondu \u00e0 notre enqu\u00eate de satisfaction recommandent nos actions de sensibilisation !",
+      "text": "100 % des entreprises ayant r\u00e9pondu \u00e0 notre enqu\u00eate de satisfaction recommandent nos actions de sensibilisation !",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Un r\u00e9sultat qui t\u00e9moigne de l\u2019int\u00e9r\u00eat de ces \u00e9changes et nous encourage \u00e0 poursuivre notre mobilisation.",
+      "text": " Un r\u00e9sultat qui t\u00e9moigne de l\u2019int\u00e9r\u00eat de ces \u00e9changes et nous encourage \u00e0 poursuivre notre mobilisation."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous souhaitez organiser une sensibilisation dans votre entreprise ou votre collectivit\u00e9 ?",
+      "text": "Vous souhaitez organiser une sensibilisation dans votre entreprise ou votre collectivit\u00e9 ?",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nos interventions sont gratuites et peuvent \u00eatre organis\u00e9es en pr\u00e9sentiel ou \u00e0 distance, selon les disponibilit\u00e9s de nos b\u00e9n\u00e9voles.",
+      "text": "Nos interventions sont gratuites et peuvent \u00eatre organis\u00e9es en pr\u00e9sentiel ou \u00e0 distance, selon les disponibilit\u00e9s de nos b\u00e9n\u00e9voles."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour toute demande, contactez-nous \u00e0 ",
+      "text": "Pour toute demande, contactez-nous \u00e0 "
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "contact@endofrance.org",
+      "text": "contact@endofrance.org",
+      "hyperlink": "mailto:contact@endofrance.org"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou rapprochez-vous de nos b\u00e9n\u00e9voles en r\u00e9gion.",
+      "text": " ou rapprochez-vous de nos b\u00e9n\u00e9voles en r\u00e9gion."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ensemble, faisons \u00e9voluer les regards et les pratiques pour que l\u2019endom\u00e9triose ne soit plus un frein \u00e0 la vie professionnelle.",
+      "text": "Ensemble, faisons \u00e9voluer les regards et les pratiques pour que l\u2019endom\u00e9triose ne soit plus un frein \u00e0 la vie professionnelle.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un temps-partiel th\u00e9rapeutique",
+      "text": "Un temps-partiel th\u00e9rapeutique",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le temps partiel th\u00e9rapeutique permet \u00e0 un salari\u00e9 de reprendre ou de poursuivre son activit\u00e9 professionnelle selon un rythme adapt\u00e9 \u00e0 son \u00e9tat de sant\u00e9, lorsque cette organisation est m\u00e9dicalement justifi\u00e9e. Il est prescrit par le m\u00e9decin traitant. Un arr\u00eat de travail \u00e0 temps complet pr\u00e9alable n\u2019est pas obligatoirement n\u00e9cessaire pour un salari\u00e9.",
+      "text": "Le temps partiel th\u00e9rapeutique permet \u00e0 un salari\u00e9 de reprendre ou de poursuivre son activit\u00e9 professionnelle selon un rythme adapt\u00e9 \u00e0 son \u00e9tat de sant\u00e9, lorsque cette organisation est m\u00e9dicalement justifi\u00e9e. Il est prescrit par le m\u00e9decin traitant. Un arr\u00eat de travail \u00e0 temps complet pr\u00e9alable n\u2019est pas obligatoirement n\u00e9cessaire pour un salari\u00e9."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les modalit\u00e9s de reprise, notamment la dur\u00e9e et la r\u00e9partition du temps de travail, sont d\u00e9finies en concertation avec le salari\u00e9 et l\u2019employeur, en tenant compte des pr\u00e9conisations m\u00e9dicales et de l\u2019intervention du m\u00e9decin du travail. L\u2019employeur doit donner son accord \u00e0 l\u2019am\u00e9nagement propos\u00e9. Le temps partiel th\u00e9rapeutique est un dispositif temporaire dont la dur\u00e9e d\u00e9pend de l\u2019\u00e9volution de l\u2019\u00e9tat de sant\u00e9 et des conditions d\u2019indemnisation applicables. Il n\u2019existe pas de r\u00e8gle g\u00e9n\u00e9rale limitant sa dur\u00e9e \u00e0 quelques mois avec un seul renouvellement, ni de droit automatique \u00e0 deux ans pour les personnes reconnues en affection de longue dur\u00e9e (ALD).",
+      "text": "Les modalit\u00e9s de reprise, notamment la dur\u00e9e et la r\u00e9partition du temps de travail, sont d\u00e9finies en concertation avec le salari\u00e9 et l\u2019employeur, en tenant compte des pr\u00e9conisations m\u00e9dicales et de l\u2019intervention du m\u00e9decin du travail. L\u2019employeur doit donner son accord \u00e0 l\u2019am\u00e9nagement propos\u00e9. Le temps partiel th\u00e9rapeutique est un dispositif temporaire dont la dur\u00e9e d\u00e9pend de l\u2019\u00e9volution de l\u2019\u00e9tat de sant\u00e9 et des conditions d\u2019indemnisation applicables. Il n\u2019existe pas de r\u00e8gle g\u00e9n\u00e9rale limitant sa dur\u00e9e \u00e0 quelques mois avec un seul renouvellement, ni de droit automatique \u00e0 deux ans pour les personnes reconnues en affection de longue dur\u00e9e (ALD)."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pendant cette p\u00e9riode, le salari\u00e9 per\u00e7oit une r\u00e9mun\u00e9ration correspondant au travail effectu\u00e9. Sous r\u00e9serve de remplir les conditions requises et de l\u2019accord de la caisse d\u2019Assurance Maladie, des indemnit\u00e9s journali\u00e8res peuvent compl\u00e9ter cette r\u00e9mun\u00e9ration. Leur montant d\u00e9pend de la situation individuelle et ne garantit pas le maintien du salaire \u00e0 temps plein.",
+      "text": "Pendant cette p\u00e9riode, le salari\u00e9 per\u00e7oit une r\u00e9mun\u00e9ration correspondant au travail effectu\u00e9. Sous r\u00e9serve de remplir les conditions requises et de l\u2019accord de la caisse d\u2019Assurance Maladie, des indemnit\u00e9s journali\u00e8res peuvent compl\u00e9ter cette r\u00e9mun\u00e9ration. Leur montant d\u00e9pend de la situation individuelle et ne garantit pas le maintien du salaire \u00e0 temps plein."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La Reconnaissance de la Qualit\u00e9 de Travailleur Handicap\u00e9 (RQTH)",
+      "text": "La Reconnaissance de la Qualit\u00e9 de Travailleur Handicap\u00e9 (RQTH)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La Reconnaissance de la Qualit\u00e9 de Travailleur Handicap\u00e9 (RQTH) fait partie des dispositifs qui peuvent faciliter le maintien dans l\u2019emploi, l\u2019acc\u00e8s \u00e0 certains am\u00e9nagements du poste de travail ou l\u2019accompagnement dans un parcours professionnel.",
+      "text": "La Reconnaissance de la Qualit\u00e9 de Travailleur Handicap\u00e9 (RQTH) fait partie des dispositifs qui peuvent faciliter le maintien dans l\u2019emploi, l\u2019acc\u00e8s \u00e0 certains am\u00e9nagements du poste de travail ou l\u2019accompagnement dans un parcours professionnel."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Contrairement aux id\u00e9es re\u00e7ues, la RQTH ne signifie pas \u00eatre inapte \u00e0 travailler. Elle peut, au contraire, permettre de poursuivre son activit\u00e9 dans des conditions mieux adapt\u00e9es \u00e0 son \u00e9tat de sant\u00e9. L\u2019",
+      "text": "Contrairement aux id\u00e9es re\u00e7ues, la RQTH ne signifie pas \u00eatre inapte \u00e0 travailler. Elle peut, au contraire, permettre de poursuivre son activit\u00e9 dans des conditions mieux adapt\u00e9es \u00e0 son \u00e9tat de sant\u00e9. L\u2019"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose et l\u2019ad\u00e9nomyose ne donnent pas automatiquement droit \u00e0 une RQTH",
+      "text": "endom\u00e9triose et l\u2019ad\u00e9nomyose ne donnent pas automatiquement droit \u00e0 une RQTH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Chaque demande est \u00e9tudi\u00e9e selon les cons\u00e9quences de la maladie sur la capacit\u00e9 \u00e0 obtenir ou \u00e0 conserver un emploi.",
+      "text": ". Chaque demande est \u00e9tudi\u00e9e selon les cons\u00e9quences de la maladie sur la capacit\u00e9 \u00e0 obtenir ou \u00e0 conserver un emploi."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Un guide EndoFrance pour mieux comprendre vos droits et vos d\u00e9marches.",
+      "text": "Un guide EndoFrance pour mieux comprendre vos droits et vos d\u00e9marches.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parce qu\u2019il n\u2019est pas toujours facile de savoir vers qui se tourner, quelles d\u00e9marches entreprendre ou quels dispositifs peuvent \u00eatre mobilis\u00e9s, ",
+      "text": "Parce qu\u2019il n\u2019est pas toujours facile de savoir vers qui se tourner, quelles d\u00e9marches entreprendre ou quels dispositifs peuvent \u00eatre mobilis\u00e9s, "
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "EndoFrance a con\u00e7u un guide consacr\u00e9 \u00e0 la RQTH en cas d\u2019endom\u00e9triose ou d\u2019ad\u00e9nomyose, relu par une avocate en droit du travail.",
+      "text": "EndoFrance a con\u00e7u un guide consacr\u00e9 \u00e0 la RQTH en cas d\u2019endom\u00e9triose ou d\u2019ad\u00e9nomyose, relu par une avocate en droit du travail.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Notre objectif : vous apporter une information claire, accessible et des rep\u00e8res pour mieux comprendre vos droits et avancer dans vos d\u00e9marches.",
+      "text": "Notre objectif : vous apporter une information claire, accessible et des rep\u00e8res pour mieux comprendre vos droits et avancer dans vos d\u00e9marches."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce guide r\u00e9pond notamment aux questions suivantes :",
+      "text": "Ce guide r\u00e9pond notamment aux questions suivantes :"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour toute question propre \u00e0 votre situation, nous vous invitons \u00e0 vous rapprocher des organismes et professionnels comp\u00e9tents, notamment de votre MDPH, du m\u00e9decin du travail ou d\u2019un professionnel du droit.",
+      "text": "Pour toute question propre \u00e0 votre situation, nous vous invitons \u00e0 vous rapprocher des organismes et professionnels comp\u00e9tents, notamment de votre MDPH, du m\u00e9decin du travail ou d\u2019un professionnel du droit."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Mieux conna\u00eetre ses droits, c\u2019est aussi pouvoir faire des choix \u00e9clair\u00e9s pour pr\u00e9server sa sant\u00e9 et son parcours professionnel.",
+      "text": "Mieux conna\u00eetre ses droits, c\u2019est aussi pouvoir faire des choix \u00e9clair\u00e9s pour pr\u00e9server sa sant\u00e9 et son parcours professionnel.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Qu'est-ce que la RQTH et qui peut en b\u00e9n\u00e9ficier ?",
+      "text": "Qu'est-ce que la RQTH et qui peut en b\u00e9n\u00e9ficier ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Comment constituer et d\u00e9poser une demande aupr\u00e8s de la MDPH ?",
+      "text": "Comment constituer et d\u00e9poser une demande aupr\u00e8s de la MDPH ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Quels sont les droits des salari\u00e9s et des travailleurs ind\u00e9pendants ?",
+      "text": "Quels sont les droits des salari\u00e9s et des travailleurs ind\u00e9pendants ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Quels am\u00e9nagements et dispositifs peuvent faciliter le maintien dans l'emploi ?",
+      "text": "Quels am\u00e9nagements et dispositifs peuvent faciliter le maintien dans l'emploi ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Quelles aides peuvent \u00eatre envisag\u00e9es selon votre situation ?",
+      "text": "Quelles aides peuvent \u00eatre envisag\u00e9es selon votre situation ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vers quels organismes se tourner pour obtenir un accompagnement adapt\u00e9 ?",
+      "text": "Vers quels organismes se tourner pour obtenir un accompagnement adapt\u00e9 ?",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nos b\u00e9n\u00e9voles sont \u00e0 votre \u00e9coute pour \u00e9changer sur les cons\u00e9quences de l\u2019endom\u00e9triose et de l\u2019ad\u00e9nomyose dans votre quotidien et vous orienter vers les interlocuteurs comp\u00e9tents. ",
+      "text": "Nos b\u00e9n\u00e9voles sont \u00e0 votre \u00e9coute pour \u00e9changer sur les cons\u00e9quences de l\u2019endom\u00e9triose et de l\u2019ad\u00e9nomyose dans votre quotidien et vous orienter vers les interlocuteurs comp\u00e9tents. "
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nos b\u00e9n\u00e9voles ne sont pas form\u00e9s au conseil juridique et ne peuvent donc pas d\u00e9livrer d\u2019avis juridique ni assurer un accompagnement juridique individuel.",
+      "text": "Nos b\u00e9n\u00e9voles ne sont pas form\u00e9s au conseil juridique et ne peuvent donc pas d\u00e9livrer d\u2019avis juridique ni assurer un accompagnement juridique individuel.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est aussi pour cette raison que nous avons souhait\u00e9 mettre \u00e0 votre disposition ce guide, relu par une avocate en droit du travail, afin de vous aider \u00e0 mieux comprendre les dispositifs existants et \u00e0 identifier les d\u00e9marches possibles.",
+      "text": "C\u2019est aussi pour cette raison que nous avons souhait\u00e9 mettre \u00e0 votre disposition ce guide, relu par une avocate en droit du travail, afin de vous aider \u00e0 mieux comprendre les dispositifs existants et \u00e0 identifier les d\u00e9marches possibles."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Des ressources pour mieux comprendre et agir",
+      "text": "Des ressources pour mieux comprendre et agir",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Que vous soyez une personne atteinte d\u2019endom\u00e9triose, un employeur, un professionnel des ressources humaines ou de la sant\u00e9 au travail, EndoFrance met \u00e0 votre disposition des ressources pour mieux comprendre les enjeux de la maladie dans la vie professionnelle et identifier des pistes d\u2019action.",
+      "text": "Que vous soyez une personne atteinte d\u2019endom\u00e9triose, un employeur, un professionnel des ressources humaines ou de la sant\u00e9 au travail, EndoFrance met \u00e0 votre disposition des ressources pour mieux comprendre les enjeux de la maladie dans la vie professionnelle et identifier des pistes d\u2019action."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Guides et outils pratiques",
+      "text": "Guides et outils pratiques",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Guide du parcours de sant\u00e9 des personnes malades chroniques",
+      "text": "Guide du parcours de sant\u00e9 des personnes malades chroniques",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : des rep\u00e8res pour mieux conna\u00eetre les d\u00e9marches et les dispositifs existants.",
+      "text": " : des rep\u00e8res pour mieux conna\u00eetre les d\u00e9marches et les dispositifs existants."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Endo\u2019travail",
+      "text": "Endo\u2019travail",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : un jeu p\u00e9dagogique pour sensibiliser \u00e0 l\u2019endom\u00e9triose en entreprise et ouvrir le dialogue.",
+      "text": " : un jeu p\u00e9dagogique pour sensibiliser \u00e0 l\u2019endom\u00e9triose en entreprise et ouvrir le dialogue."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parlons Endom\u00e9triose",
+      "text": "Parlons Endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : un module interactif et gratuit, co-con\u00e7u avec le Lab Innov\u2019 de la Cramif, pour mieux comprendre, \u00e0 travers le quotidien de Clara, les cons\u00e9quences de l\u2019endom\u00e9triose sur la vie personnelle et professionnelle.",
+      "text": " : un module interactif et gratuit, co-con\u00e7u avec le Lab Innov\u2019 de la Cramif, pour mieux comprendre, \u00e0 travers le quotidien de Clara, les cons\u00e9quences de l\u2019endom\u00e9triose sur la vie personnelle et professionnelle."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Guide RQTH",
+      "text": "Guide RQTH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : pour comprendre comment, pour qui , quand ?",
+      "text": " : pour comprendre comment, pour qui , quand ?"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Livre blanc \u00ab Endom\u00e9triose & emploi \u00bb",
+      "text": "Livre blanc \u00ab Endom\u00e9triose & emploi \u00bb",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : pour mieux comprendre les cons\u00e9quences de la maladie sur les parcours professionnels.",
+      "text": " : pour mieux comprendre les cons\u00e9quences de la maladie sur les parcours professionnels."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Etudes et \u00e9clairages",
+      "text": "Etudes et \u00e9clairages",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Enqu\u00eate EndoVie",
+      "text": "Enqu\u00eate EndoVie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : les r\u00e9sultats de l\u2019\u00e9tude consacr\u00e9e au parcours de soins et \u00e0 la qualit\u00e9 de vie des personnes atteintes.",
+      "text": " : les r\u00e9sultats de l\u2019\u00e9tude consacr\u00e9e au parcours de soins et \u00e0 la qualit\u00e9 de vie des personnes atteintes."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Enqu\u00eate du Centre d\u2019\u00e9tudes de l\u2019emploi et du travail (CEET)",
+      "text": "Enqu\u00eate du Centre d\u2019\u00e9tudes de l\u2019emploi et du travail (CEET)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : une analyse sociologique des cons\u00e9quences de l\u2019endom\u00e9triose sur le travail, \u00e0 laquelle EndoFrance a contribu\u00e9.",
+      "text": " : une analyse sociologique des cons\u00e9quences de l\u2019endom\u00e9triose sur le travail, \u00e0 laquelle EndoFrance a contribu\u00e9."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Webconf\u00e9rence \u00ab Endom\u00e9triose et maladies gyn\u00e9cologiques invalidantes au travail \u00bb",
+      "text": "Webconf\u00e9rence \u00ab Endom\u00e9triose et maladies gyn\u00e9cologiques invalidantes au travail \u00bb",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : des \u00e9changes entre professionnels de sant\u00e9, m\u00e9decins du travail, repr\u00e9sentants d\u2019EndoFrance et patiente experte.",
+      "text": " : des \u00e9changes entre professionnels de sant\u00e9, m\u00e9decins du travail, repr\u00e9sentants d\u2019EndoFrance et patiente experte."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Articles et prises de position",
+      "text": "Articles et prises de position",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Endom\u00e9triose et emploi\u2026 Il faut agir et vite ! \u00bb",
+      "text": "\u00ab Endom\u00e9triose et emploi\u2026 Il faut agir et vite ! \u00bb",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : une tribune publi\u00e9e dans Lib\u00e9ration, cosign\u00e9e par EndoFrance et une avocate en droit du travail.",
+      "text": " : une tribune publi\u00e9e dans Lib\u00e9ration, cosign\u00e9e par EndoFrance et une avocate en droit du travail."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Endom\u00e9triose, comment concilier sa maladie et sa vie professionnelle ? \u00bb",
+      "text": "\u00ab Endom\u00e9triose, comment concilier sa maladie et sa vie professionnelle ? \u00bb",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : un article paru dans Sant\u00e9 Magazine.",
+      "text": " : un article paru dans Sant\u00e9 Magazine."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00ab Endom\u00e9triose et travail : les entreprises doivent soutenir les collaboratrices concern\u00e9es \u00bb",
+      "text": "\u00ab Endom\u00e9triose et travail : les entreprises doivent soutenir les collaboratrices concern\u00e9es \u00bb",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : une tribune publi\u00e9e sur le blog d\u2019Alternatives \u00e9conomiques, cosign\u00e9e : une tribune publi\u00e9e sur le blog d\u2019Alternatives \u00e9conomiques, cosign\u00e9e par EndoFrance et des professionnels du monde m\u00e9dical et universitaire.",
+      "text": " : une tribune publi\u00e9e sur le blog d\u2019Alternatives \u00e9conomiques, cosign\u00e9e : une tribune publi\u00e9e sur le blog d\u2019Alternatives \u00e9conomiques, cosign\u00e9e par EndoFrance et des professionnels du monde m\u00e9dical et universitaire."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plan R\u00e9gional Sant\u00e9 Travail des Hauts de France",
+      "text": "Plan R\u00e9gional Sant\u00e9 Travail des Hauts de France",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : membre du groupe de travail COTEC endom\u00e9triose",
+      "text": " : membre du groupe de travail COTEC endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Conna\u00eetre ses droits",
+      "text": "Conna\u00eetre ses droits",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sant\u00e9 Info Droits \u2013 France Assos Sant\u00e9 \u2013 ",
+      "text": "Sant\u00e9 Info Droits \u2013 France Assos Sant\u00e9 \u2013 "
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "https://france-assos-sante.org/sante-info-droits/",
+      "text": "https://france-assos-sante.org/sante-info-droits/",
+      "hyperlink": "https://france-assos-sante.org/sante-info-droits/"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une ligne d\u2019information juridique et sociale pour accompagner les personnes confront\u00e9es \u00e0 des questions li\u00e9es \u00e0 leur sant\u00e9, \u00e0 leur travail et \u00e0 leurs droits.",
+      "text": "Une ligne d\u2019information juridique et sociale pour accompagner les personnes confront\u00e9es \u00e0 des questions li\u00e9es \u00e0 leur sant\u00e9, \u00e0 leur travail et \u00e0 leurs droits."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Vos ressources",
+      "text": "Vos ressources",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Consultez",
+      "text": "Consultez",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " le service de pr\u00e9vention et sant\u00e9 au travail, le m\u00e9decin du travail pour parler de vos difficult\u00e9s et d\u00e9couvrir les solutions qui peuvent \u00eatre mises en place. Le r\u00e9f\u00e9rent handicap ou les services de Ressources Humaines de votre entreprise, pourront vous guider \u00e9galement.",
+      "text": " le service de pr\u00e9vention et sant\u00e9 au travail, le m\u00e9decin du travail pour parler de vos difficult\u00e9s et d\u00e9couvrir les solutions qui peuvent \u00eatre mises en place. Le r\u00e9f\u00e9rent handicap ou les services de Ressources Humaines de votre entreprise, pourront vous guider \u00e9galement."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une assistante sociale pourra vous aider \u00e0 remplir votre demande de RQTH aupr\u00e8s de la MDPH.",
+      "text": "Une assistante sociale pourra vous aider \u00e0 remplir votre demande de RQTH aupr\u00e8s de la MDPH."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "T\u00e9l\u00e9chargez",
+      "text": "T\u00e9l\u00e9chargez",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " et lisez le guide \u00ab\u00a0Parcours de sant\u00e9 des malades chroniques\u00a0\u00bb, le livre blanc \u00ab\u00a0Endom\u00e9triose & Emploi\u00a0\u00bb.",
+      "text": " et lisez le guide \u00ab\u00a0Parcours de sant\u00e9 des malades chroniques\u00a0\u00bb, le livre blanc \u00ab\u00a0Endom\u00e9triose & Emploi\u00a0\u00bb."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Regardez",
+      "text": "Regardez",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " la webconf\u00e9rence \u00ab\u00a0endom\u00e9triose et pathologies gyn\u00e9cologiques invalidantes au travail\u00a0\u00bb.",
+      "text": " la webconf\u00e9rence \u00ab\u00a0endom\u00e9triose et pathologies gyn\u00e9cologiques invalidantes au travail\u00a0\u00bb."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Jouez \u00e0 Endo\u2019Travail",
+      "text": "Jouez \u00e0 Endo\u2019Travail",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", mettez-vous dans la peau de Catherine, ou de son manager, obtenez des informations selon les choix que vous ferez !",
+      "text": ", mettez-vous dans la peau de Catherine, ou de son manager, obtenez des informations selon les choix que vous ferez !"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Vous \u00eates manager, DRH, RH, \u00e9lu CSE , Chef d\u2019entreprise :",
+      "text": "Vous \u00eates manager, DRH, RH, \u00e9lu CSE , Chef d\u2019entreprise :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans le cadre de la strat\u00e9gie nationale de lutte contre l\u2019endom\u00e9triose, nous avons travaill\u00e9 avec la Direction g\u00e9n\u00e9rale du travail sur les besoins des personnes atteintes d\u2019endom\u00e9triose. Cela a abouti \u00e0 la d\u00e9finition ",
+      "text": "Dans le cadre de la strat\u00e9gie nationale de lutte contre l\u2019endom\u00e9triose, nous avons travaill\u00e9 avec la Direction g\u00e9n\u00e9rale du travail sur les besoins des personnes atteintes d\u2019endom\u00e9triose. Cela a abouti \u00e0 la d\u00e9finition "
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u2019outils \u00e0 destination des managers, des Ressources Humaines, de la Direction pour les sensibiliser \u00e0 l\u2019endom\u00e9triose. Ces outils sont diffus\u00e9s par l\u2019Agence Nationale pour l\u2019Am\u00e9lioration des Conditions de Travail (ANACT).",
+      "text": "d\u2019outils \u00e0 destination des managers, des Ressources Humaines, de la Direction pour les sensibiliser \u00e0 l\u2019endom\u00e9triose. Ces outils sont diffus\u00e9s par l\u2019Agence Nationale pour l\u2019Am\u00e9lioration des Conditions de Travail (ANACT).",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endo'travail : le serious game qui l\u00e8ve les tabous sur l'endom\u00e9triose en entreprise !",
+      "text": "Endo'travail : le serious game qui l\u00e8ve les tabous sur l'endom\u00e9triose en entreprise !",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Jouez et informez-vous gr\u00e2ce \u00e0 \u00ab Endo\u2019travail \u00bb, le jeu p\u00e9dagogique et informatif qui l\u00e8ve les tabous sur l\u2019endom\u00e9triose au travail dont les sc\u00e9narios ont \u00e9t\u00e9 relus et valid\u00e9s par une Avocate en droit du travail et un M\u00e9decin du travail.",
+      "text": "Jouez et informez-vous gr\u00e2ce \u00e0 \u00ab Endo\u2019travail \u00bb, le jeu p\u00e9dagogique et informatif qui l\u00e8ve les tabous sur l\u2019endom\u00e9triose au travail dont les sc\u00e9narios ont \u00e9t\u00e9 relus et valid\u00e9s par une Avocate en droit du travail et un M\u00e9decin du travail."
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce serious game \u00e0 vis\u00e9e p\u00e9dagogique a pour but d\u2019informer salari\u00e9.e.s,\u00a0 managers et ressources humaines sur les difficult\u00e9s que rencontrent au quotidien les personnes atteintes d\u2019endom\u00e9triose.",
+      "text": "Ce serious game \u00e0 vis\u00e9e p\u00e9dagogique a pour but d\u2019informer salari\u00e9.e.s,\u00a0 managers et ressources humaines sur les difficult\u00e9s que rencontrent au quotidien les personnes atteintes d\u2019endom\u00e9triose.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Son objectif est d\u2019aider \u00e0 changer le regard de chacun sur cette maladie invisible qui impacte n\u00e9gativement le quotidien professionnel de 65 % de femmes.* Il ouvre aussi sur des pistes pour favoriser le maintien dans l\u2019emploi.",
+      "text": "Son objectif est d\u2019aider \u00e0 changer le regard de chacun sur cette maladie invisible qui impacte n\u00e9gativement le quotidien professionnel de 65 % de femmes.* Il ouvre aussi sur des pistes pour favoriser le maintien dans l\u2019emploi."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce jeu ne peut \u00eatre exhaustif, chaque endom\u00e9triose est unique, chaque situation professionnelle et personnelle aussi.",
+      "text": "Ce jeu ne peut \u00eatre exhaustif, chaque endom\u00e9triose est unique, chaque situation professionnelle et personnelle aussi."
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "*",
+      "text": "*"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Selon l\u2019enqu\u00eate Endovie \u2013 IPSOS \u2013 Gedeon Richter \u2013 EndoFrance 2020",
+      "text": "Selon l\u2019enqu\u00eate Endovie \u2013 IPSOS \u2013 Gedeon Richter \u2013 EndoFrance 2020",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Parlons endom\u00e9triose :",
+      "text": "Parlons endom\u00e9triose :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Parlons endom\u00e9triose, un module interactif de sensibilisation gratuit, co-con\u00e7u avec le Lab Innov\u2019 de la Cramif dans le cadre des Journ\u00e9es du don 2025 de la CNAM. Vous y suivez Clara, atteinte d\u2019endom\u00e9triose, dans sa journ\u00e9e, ses douleurs, ses silences. Un parcours immersif qui met des mots sur ce que des milliers de personnes traversent chaque jour sans pouvoir vraiment l\u2019expliquer \u00e0 leur entourage professionnel.",
+      "text": "Parlons endom\u00e9triose, un module interactif de sensibilisation gratuit, co-con\u00e7u avec le Lab Innov\u2019 de la Cramif dans le cadre des Journ\u00e9es du don 2025 de la CNAM. Vous y suivez Clara, atteinte d\u2019endom\u00e9triose, dans sa journ\u00e9e, ses douleurs, ses silences. Un parcours immersif qui met des mots sur ce que des milliers de personnes traversent chaque jour sans pouvoir vraiment l\u2019expliquer \u00e0 leur entourage professionnel."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Lisez nos articles parus dans la presse sur l\u2019endom\u00e9triose au travail",
+      "text": "Lisez nos articles parus dans la presse sur l\u2019endom\u00e9triose au travail",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour conna\u00eetre les r\u00e8gles de la s\u00e9curit\u00e9 sociale concernant l\u2019arr\u00eat maladie et le paiement des indemnit\u00e9s journali\u00e8res, nous vous invitons \u00e0 lire l\u2019article de Service-Public.fr, le site officiel de l\u2019administration fran\u00e7aise.",
+      "text": "Pour conna\u00eetre les r\u00e8gles de la s\u00e9curit\u00e9 sociale concernant l\u2019arr\u00eat maladie et le paiement des indemnit\u00e9s journali\u00e8res, nous vous invitons \u00e0 lire l\u2019article de Service-Public.fr, le site officiel de l\u2019administration fran\u00e7aise."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

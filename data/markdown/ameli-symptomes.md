@@ -213,15 +213,15 @@ L’Assurance Maladie consacre un épisode de son podcast « 50 % » à la sant�
 
 ## Pour s'informer sur l'endométriose, consulter des extraits de la BD : Voyage en gynécologie
 
-- Haute Autorité de santé. Prise en charge de l'endométriose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 \[consulté le 18 juin 2025\]
-- Haute Autorité de santé. Place des différents examens d’imagerie pour le diagnostic d’endométriose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 \[consulté le 6 juin 2025\]
-- National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 \[consulté le 18 juin 2025\]
-- Institut national de la santé et de la recherche médicale. Endométriose. Site internet : Inserm. Paris ; 2024 \[consulté le 18 juin 2025\]
+- Haute Autorité de santé. Prise en charge de l'endométriose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 [consulté le 18 juin 2025]
+- Haute Autorité de santé. Place des différents examens d’imagerie pour le diagnostic d’endométriose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 [consulté le 6 juin 2025]
+- National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 [consulté le 18 juin 2025]
+- Institut national de la santé et de la recherche médicale. Endométriose. Site internet : Inserm. Paris ; 2024 [consulté le 18 juin 2025]
 - Closon F, Brichant G, Tebache L, Pinzauti S, Nisolle M. L'endométriose de l'adolescente. Médecine thérapeutique / Médecine de la reproduction, gynécologie et endocrinologie. 2013;15(3):228-33
-- Ministère du Travail, de la santé, des solidarités et de la famille. Endométriose. Site internet : Ministère du Travail, de la santé, des solidarités et de la famille. Paris ; 2025 \[consulté le 18 juin 2025\]
-- Resendo. Réseau ville-hôpital. L'endométriose. Site internet : Resendo. Paris ; 2025 \[consulté le 18 juin 2025\]
-- Haute Autorité de santé. Évaluation du test salivaire Endotest® dans les situations complexes de diagnostic d’endométriose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2023 \[consulté le 18 juin 2025\]
-- Haute Autorité de santé. La HAS émet un avis favorable à l’octroi d’un forfait innovation pour le test salivaire Endotest. Site internet : HAS. Saint-Denis La Plaine (France) ; 2024 \[consulté le 18 juin 2025\]
+- Ministère du Travail, de la santé, des solidarités et de la famille. Endométriose. Site internet : Ministère du Travail, de la santé, des solidarités et de la famille. Paris ; 2025 [consulté le 18 juin 2025]
+- Resendo. Réseau ville-hôpital. L'endométriose. Site internet : Resendo. Paris ; 2025 [consulté le 18 juin 2025]
+- Haute Autorité de santé. Évaluation du test salivaire Endotest® dans les situations complexes de diagnostic d’endométriose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2023 [consulté le 18 juin 2025]
+- Haute Autorité de santé. La HAS émet un avis favorable à l’octroi d’un forfait innovation pour le test salivaire Endotest. Site internet : HAS. Saint-Denis La Plaine (France) ; 2024 [consulté le 18 juin 2025]
 - Velho R-V., Werner F., Mechsner S. Endo Belly : What Is It and Why Does It Happen ?-A Narrative Review. J Clin Med. 2023 Nov 19;12(22):7176
 - Arrêté du 6 février 2025 relatif à la prise en charge du dispositif médical in vitro ENDOTEST au titre de l'article L. 165-1-1 du code de la sécurité sociale
 - Arrêté du 19 mai 2025 modifiant l'arrêté du 6 février 2025 relatif à la prise en charge du dispositif médical in vitro ENDOTEST au titre de l'article L. 165-1-1 du code de la sécurité sociale

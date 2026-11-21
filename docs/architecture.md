@@ -24,16 +24,16 @@ Data funnel: a few dozen curated sources become a few thousand clean, cited chun
 ```mermaid
 flowchart LR
     M[Manifest<br/>YAML: id, url, source, title,<br/>published, licence, audience, format] --> C[Connector<br/>fetch + cache]
-    C --> V[Converter<br/>HTML/PDF → Markdown]
-    V --> K[Chunker<br/>heading-aware split]
+    C --> V[Converter<br/>HTML/PDF/XML → DoclingDocument]
+    V --> K[Chunker<br/>docling HybridChunker,<br/>token- and structure-aware]
     K --> S[(Store<br/>embeds with its Embedder,<br/>then indexes in Qdrant)]
 ```
 
 | Step | Interface (`core/`) | Input → Output | Default implementation |
 |---|---|---|---|
 | Connector | `Connector` | manifest entry → raw bytes on disk (cached) | `HttpConnector` (httpx, robots.txt, per-host delay) |
-| Converter | `Converter` | raw file → `ConvertedDocument` (Markdown + metadata) | `HtmlConverter` (trafilatura), `PdfConverter` (docling), routed by `format` |
-| Chunker | `Chunker` | `ConvertedDocument` → `list[Chunk]` | `MarkdownChunker` (header split, then recursive split) |
+| Converter | `Converter` | raw file → `ConvertedDocument` (docling `DoclingDocument` + Markdown snapshot + metadata) | `HtmlConverter` (trafilatura Markdown parsed by docling's Markdown backend; docling HTML backend as fallback), `PdfConverter` (docling, keeps page numbers), `JatsConverter` (docling JATS), routed by `format` and cached by `RoutingConverter`. Tables of contents are removed by label (`DOCUMENT_INDEX`), and the dot-leader line filter on chunk text catches the rest; the back matter (from the first heading such as References, Sources, Participants, Remerciements or Acknowledgements to the end) and annexes that are blank report forms (`[<>]` fields) are removed too; page headers and footers are docling furniture, left out of chunks. |
+| Chunker | `Chunker` | `ConvertedDocument` → `list[Chunk]` | `HybridChunkerAdapter`: docling `HybridChunker` with the embedder's tokenizer (`nvidia/Nemotron-3-Embed-1B-BF16`), at most 512 tokens per chunk headings included, small neighbours under the same headings merged, tables serialized as Markdown tables. Chunk text is cleaned (bullet glyphs, dot leaders, entities, links, table padding) and near-empty chunks are dropped. |
 | Embedder | `Embedder` | `embed_documents(list[str])` and `embed_query(str)` → dense vectors. They are separate because some models need different query and passage prefixes. | `OpenAICompatibleEmbedder` (default: `nemotron-3-embed-1b` through the LLM endpoint; batched, retried, cached on disk); `SentenceTransformerEmbedder` (optional local models, `[local]` extra) |
 | Store | `VectorStore` | `add(list[Chunk])` → count; `search(query, k)` → scored chunks | `QdrantStore` (local mode). It **owns its `Embedder`**, so documents and queries are always embedded by the same model and callers pass text, never vectors. It computes the BM25 sparse vectors itself with fastembed and fuses dense and sparse results with RRF. |
 
@@ -55,8 +55,11 @@ flowchart LR
   the payload. The embedded text is the chunk content, optionally prefixed with its heading
   path (headings carry meaning; URLs and dates do not).
 - **Corpus snapshot committed, index rebuilt.** Fetched pages (`data/raw/<id>.<ext>` +
-  `.meta.json`) and converted Markdown (`data/markdown/<id>.md` + `.meta.json` recording the
-  source hash and converter version) are committed so the demo runs offline or in a Codespace.
+  `.meta.json`) and converted documents (`data/markdown/<id>.docling.json`, the
+  DoclingDocument that gets chunked, plus a readable `<id>.md` and a `.meta.json` recording the
+  source hash and converter version) are committed so the demo runs offline or in a Codespace:
+  a rebuild runs neither trafilatura nor docling. Chunking only needs the embedder's
+  tokenizer (about 17 MB, downloaded once from Hugging Face).
   The vector index (`data/qdrant/`) is gitignored and rebuilt from the snapshot (see
   [sources.md](sources.md#licensing-strategy)).
 
@@ -75,12 +78,16 @@ flowchart LR
   "retrieved": "2026-11-21",
   "audience": "patient",
   "licence": "all-rights-reserved",
-  "format": "html | pdf | video",
+  "format": "html | pdf | xml | video",
+  "page": null,
   "start_seconds": null
 }
 ```
 
 `doc_id` is the manifest `id`. The golden set references documents by this id.
+`page` is the PDF page of the chunk's first item (`null` for HTML and XML); a PDF citation
+links to `url#page=N` (`Chunk.citation_url`). The heading path comes from docling's chunk
+headings, with the manifest title prepended when the document has no title of its own.
 `start_seconds` is only used by the optional video connector
 (see [sources.md](sources.md#optional-videos-with-french-captions)).
 
@@ -239,8 +246,9 @@ endometriosis-rag/
 │   │   ├── core/                 # interfaces + Pydantic models: Connector, Converter, Chunker,
 │   │   │                         # Embedder, VectorStore, ManifestEntry, ConvertedDocument, Chunk
 │   │   ├── connectors/           # http.py
-│   │   ├── converters/           # html.py (trafilatura), pdf.py (docling), routing.py
-│   │   ├── chunkers/             # markdown.py
+│   │   ├── converters/           # html.py (trafilatura), pdf.py and jats.py (docling),
+│   │   │                         # cleaning.py, routing.py (cache)
+│   │   ├── chunkers/             # hybrid.py (docling HybridChunker)
 │   │   ├── embedders/            # openai_compatible.py, sentence_transformers.py (optional)
 │   │   ├── stores/               # qdrant.py (dense + BM25, RRF)
 │   │   ├── pipeline.py           # template method: fetch → convert → chunk → embed → upsert
@@ -260,7 +268,7 @@ endometriosis-rag/
 │   └── tests/                    # tier 1: safety, routing, nodes (offline)
 ├── front/                        # Vite + React + TypeScript + assistant-ui: chat widget + demo host page (French UI)
 ├── eval/                         # golden sets, embedding benchmark, RAGAS runner, reports/
-├── data/                         # raw/ and markdown/ committed; qdrant/ gitignored
+├── data/                         # raw/ and markdown/ (.md + .docling.json) committed; qdrant/ gitignored
 ├── docs/
 ├── environment.yml               # conda env (python 3.12); packages installed with uv pip
 └── .env.example
@@ -280,7 +288,7 @@ module-level path constants derived from the repo root. Nothing hard-codes a pat
 ROOT_DIR = Path(__file__).resolve().parents[3]
 DATA_DIR = ROOT_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"  # fetched HTML/PDF cache
-MARKDOWN_DIR = DATA_DIR / "markdown"  # converted documents
+MARKDOWN_DIR = DATA_DIR / "markdown"  # converted documents: .md + .docling.json
 QDRANT_DIR = DATA_DIR / "qdrant"  # local vector database
 MANIFESTS_DIR = ROOT_DIR / "ingestion" / "manifests"
 
@@ -290,6 +298,9 @@ class Settings(BaseSettings):
     profile: Literal["patient", "gp"] = "patient"
     embedder: str = "nemotron-3-embed-1b"
     qdrant_path: Path = QDRANT_DIR
+    chunk_tokenizer: str = "nvidia/Nemotron-3-Embed-1B-BF16"  # the embedder's tokenizer
+    chunk_max_tokens: int = 512
+    chunk_min_chars: int = 40
     llm_base_url: str
     llm_api_key: SecretStr = Field(
         validation_alias=AliasChoices("LLM_API_KEY", "FREELLMAPI_API_KEY")

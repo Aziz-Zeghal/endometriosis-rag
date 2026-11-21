@@ -1,0 +1,543 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 8947337057633453637,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "D\u00e9sir de grossesse et endom\u00e9triose",
+      "text": "D\u00e9sir de grossesse et endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : Endom\u00e9triose",
+      "text": "Cet article fait partie du dossier : Endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "19 d\u00e9cembre 2025",
+      "text": "19 d\u00e9cembre 2025"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'endom\u00e9triose entra\u00eene, dans certains cas, une baisse de fertilit\u00e9. Il est possible de b\u00e9n\u00e9ficier d\u2019un bilan de fertilit\u00e9 compl\u00e9t\u00e9, si besoin, par un programme de soins adapt\u00e9, voire une assistance m\u00e9dicale \u00e0 la procr\u00e9ation. Un suivi renforc\u00e9 est pr\u00e9vu lors des grossesses.",
+      "text": "L'endom\u00e9triose entra\u00eene, dans certains cas, une baisse de fertilit\u00e9. Il est possible de b\u00e9n\u00e9ficier d\u2019un bilan de fertilit\u00e9 compl\u00e9t\u00e9, si besoin, par un programme de soins adapt\u00e9, voire une assistance m\u00e9dicale \u00e0 la procr\u00e9ation. Un suivi renforc\u00e9 est pr\u00e9vu lors des grossesses."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose et fertilit\u00e9",
+      "text": "Endom\u00e9triose et fertilit\u00e9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les principaux retentissements de l\u2019endom\u00e9triose sur la vie d\u2019une femme sont les douleurs et le risque d\u2019infertilit\u00e9.",
+      "text": "Les principaux retentissements de l\u2019endom\u00e9triose sur la vie d\u2019une femme sont les douleurs et le risque d\u2019infertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutefois, m\u00eame chez les femmes pr\u00e9sentant une endom\u00e9triose particuli\u00e8rement douloureuse, une grossesse peut survenir spontan\u00e9ment. L\u2019intensit\u00e9 des douleurs li\u00e9es \u00e0 cette maladie n\u2019a en effet pas de lien direct avec les probl\u00e8mes de fertilit\u00e9 qui d\u00e9pendent plut\u00f4t de la localisation des l\u00e9sions cr\u00e9\u00e9es par l\u2019endom\u00e9triose.",
+      "text": "Toutefois, m\u00eame chez les femmes pr\u00e9sentant une endom\u00e9triose particuli\u00e8rement douloureuse, une grossesse peut survenir spontan\u00e9ment. L\u2019intensit\u00e9 des douleurs li\u00e9es \u00e0 cette maladie n\u2019a en effet pas de lien direct avec les probl\u00e8mes de fertilit\u00e9 qui d\u00e9pendent plut\u00f4t de la localisation des l\u00e9sions cr\u00e9\u00e9es par l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Environ 30 % \u00e0 40 % des femmes touch\u00e9es par l\u2019endom\u00e9triose pr\u00e9sente une infertilit\u00e9, avec des taux de f\u00e9condit\u00e9 (chance de concevoir) \u00e9valu\u00e9s \u00e0 entre 2 et 10 % par cycle, contre 25 \u00e0 30 % au sein des couples fertiles. Le taux de grossesse spontan\u00e9e en cas d\u2019infertilit\u00e9 li\u00e9e \u00e0 une endom\u00e9triose est de 36 % \u00e0 3 ans, contre 55 % chez les couples qui pr\u00e9sentent une infertilit\u00e9 inexpliqu\u00e9e. Cette difficult\u00e9 est plus marqu\u00e9e si la femme est plus \u00e2g\u00e9e dans la mesure o\u00f9 l\u2019endom\u00e9triose est une maladie \u00e9volutive, qui progresse avec le temps.",
+      "text": "Environ 30 % \u00e0 40 % des femmes touch\u00e9es par l\u2019endom\u00e9triose pr\u00e9sente une infertilit\u00e9, avec des taux de f\u00e9condit\u00e9 (chance de concevoir) \u00e9valu\u00e9s \u00e0 entre 2 et 10 % par cycle, contre 25 \u00e0 30 % au sein des couples fertiles. Le taux de grossesse spontan\u00e9e en cas d\u2019infertilit\u00e9 li\u00e9e \u00e0 une endom\u00e9triose est de 36 % \u00e0 3 ans, contre 55 % chez les couples qui pr\u00e9sentent une infertilit\u00e9 inexpliqu\u00e9e. Cette difficult\u00e9 est plus marqu\u00e9e si la femme est plus \u00e2g\u00e9e dans la mesure o\u00f9 l\u2019endom\u00e9triose est une maladie \u00e9volutive, qui progresse avec le temps."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le lien entre endom\u00e9triose et infertilit\u00e9 fait l\u2019objet de travaux de recherche, et plusieurs hypoth\u00e8ses sont formul\u00e9es :",
+      "text": "Le lien entre endom\u00e9triose et infertilit\u00e9 fait l\u2019objet de travaux de recherche, et plusieurs hypoth\u00e8ses sont formul\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La pr\u00e9sence d\u2019amas de tissus endom\u00e9triaux, et notamment celle de kystes ovariens (endom\u00e9triomes) ou de l\u00e9sions sur les trompes de Fallope, peut cr\u00e9er une barri\u00e8re m\u00e9canique \u00e0 la f\u00e9condation.",
+      "text": "La pr\u00e9sence d\u2019amas de tissus endom\u00e9triaux, et notamment celle de kystes ovariens (endom\u00e9triomes) ou de l\u00e9sions sur les trompes de Fallope, peut cr\u00e9er une barri\u00e8re m\u00e9canique \u00e0 la f\u00e9condation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019ut\u00e9rus des patientes pr\u00e9sente des caract\u00e9ristiques d\u00e9favorables \u00e0 l\u2019implantation d\u2019un embryon.",
+      "text": "L\u2019ut\u00e9rus des patientes pr\u00e9sente des caract\u00e9ristiques d\u00e9favorables \u00e0 l\u2019implantation d\u2019un embryon.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Le capital ovocytaire (nombre d\u2019ovocytes pr\u00e9sents dans les ovaires) est alt\u00e9r\u00e9 (faible r\u00e9serve ovocytaire)",
+      "text": "Le capital ovocytaire (nombre d\u2019ovocytes pr\u00e9sents dans les ovaires) est alt\u00e9r\u00e9 (faible r\u00e9serve ovocytaire)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L\u2019inflammation intrap\u00e9riton\u00e9ale peut \u00eatre en cause en raison de sa toxicit\u00e9 sur les gam\u00e8tes.",
+      "text": "L\u2019inflammation intrap\u00e9riton\u00e9ale peut \u00eatre en cause en raison de sa toxicit\u00e9 sur les gam\u00e8tes.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La consultation pr\u00e9conceptionnelle",
+      "text": "La consultation pr\u00e9conceptionnelle",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous avez une endom\u00e9triose et un projet de grossesse, pr\u00e9voyez une consultation pr\u00e9conceptionnelle. N\u2019h\u00e9sitez pas \u00e0 aborder toutes vos difficult\u00e9s et appr\u00e9hensions li\u00e9es \u00e0 votre maladie et \u00e0 votre d\u00e9sir de grossesse. Votre m\u00e9decin ou votre sage-femme est l\u00e0 pour vous r\u00e9pondre et vous informer.",
+      "text": "Si vous avez une endom\u00e9triose et un projet de grossesse, pr\u00e9voyez une consultation pr\u00e9conceptionnelle. N\u2019h\u00e9sitez pas \u00e0 aborder toutes vos difficult\u00e9s et appr\u00e9hensions li\u00e9es \u00e0 votre maladie et \u00e0 votre d\u00e9sir de grossesse. Votre m\u00e9decin ou votre sage-femme est l\u00e0 pour vous r\u00e9pondre et vous informer."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour aider chaque femme atteinte d'endom\u00e9triose dans son projet d\u2019enfant, un bilan est recommand\u00e9. Il est suivi, en concertation avec elle, d\u2019un projet de soins adapt\u00e9s aux r\u00e9sultats de ce bilan.",
+      "text": "Pour aider chaque femme atteinte d'endom\u00e9triose dans son projet d\u2019enfant, un bilan est recommand\u00e9. Il est suivi, en concertation avec elle, d\u2019un projet de soins adapt\u00e9s aux r\u00e9sultats de ce bilan."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez les femmes qui n'ont pas eu d'enfants \u00e0 l'\u00e2ge de 30 ans, une \u00e9valuation de la \u00ab r\u00e9serve ovarienne \u00bb est demand\u00e9e (dosage sanguin de l'hormone anti\u2013mull\u00e9rienne AMH qui est un marqueur de la r\u00e9serve ovarienne en follicules) et une autoconservation des gam\u00e8tes leur est propos\u00e9e.",
+      "text": "Chez les femmes qui n'ont pas eu d'enfants \u00e0 l'\u00e2ge de 30 ans, une \u00e9valuation de la \u00ab r\u00e9serve ovarienne \u00bb est demand\u00e9e (dosage sanguin de l'hormone anti\u2013mull\u00e9rienne AMH qui est un marqueur de la r\u00e9serve ovarienne en follicules) et une autoconservation des gam\u00e8tes leur est propos\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une aide \u00e0 la procr\u00e9ation m\u00e9dicalement assist\u00e9e (ou assistance m\u00e9dicale \u00e0 la procr\u00e9ation) peut \u00eatre n\u00e9cessaire pour obtenir une grossesse.",
+      "text": "Une aide \u00e0 la procr\u00e9ation m\u00e9dicalement assist\u00e9e (ou assistance m\u00e9dicale \u00e0 la procr\u00e9ation) peut \u00eatre n\u00e9cessaire pour obtenir une grossesse."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Apr\u00e8s un bilan d\u2019infertilit\u00e9, en fonction des facteurs masculins, f\u00e9minins (dont le stade de l\u2019endom\u00e9triose) plusieurs techniques d\u2019aide m\u00e9dicale \u00e0 procr\u00e9ation sont propos\u00e9es.",
+      "text": "Apr\u00e8s un bilan d\u2019infertilit\u00e9, en fonction des facteurs masculins, f\u00e9minins (dont le stade de l\u2019endom\u00e9triose) plusieurs techniques d\u2019aide m\u00e9dicale \u00e0 procr\u00e9ation sont propos\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette prise en charge passe notamment par l\u2019ins\u00e9mination artificielle en cas d\u2019endom\u00e9triose l\u00e9g\u00e8re \u00e0 mod\u00e9r\u00e9e ou, dans les cas plus compliqu\u00e9s par la f\u00e9condation in vitro soit classique (FIV) soit avec micro injection de spermatozo\u00efdes directement dans l\u2019ovocyte (ICSI).",
+      "text": "Cette prise en charge passe notamment par l\u2019ins\u00e9mination artificielle en cas d\u2019endom\u00e9triose l\u00e9g\u00e8re \u00e0 mod\u00e9r\u00e9e ou, dans les cas plus compliqu\u00e9s par la f\u00e9condation in vitro soit classique (FIV) soit avec micro injection de spermatozo\u00efdes directement dans l\u2019ovocyte (ICSI)."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Actuellement, dans le cas d\u2019endom\u00e9triose s\u00e9v\u00e8re, ou en cas de pr\u00e9sence de facteurs masculins d'infertilit\u00e9 orientant vers une f\u00e9condation in vitro, le choix du protocole se porte sur un protocole sp\u00e9cifique, long ou \u00ab ultra long \u00bb. Le blocage par agoniste de Gn-RH est d\u00e9but\u00e9 avant la stimulation. Il permet une augmentation des chances de grossesse.",
+      "text": "Actuellement, dans le cas d\u2019endom\u00e9triose s\u00e9v\u00e8re, ou en cas de pr\u00e9sence de facteurs masculins d'infertilit\u00e9 orientant vers une f\u00e9condation in vitro, le choix du protocole se porte sur un protocole sp\u00e9cifique, long ou \u00ab ultra long \u00bb. Le blocage par agoniste de Gn-RH est d\u00e9but\u00e9 avant la stimulation. Il permet une augmentation des chances de grossesse."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lire l'article \u00ab Les techniques de l'AMP \u00bb",
+      "text": "Lire l'article \u00ab Les techniques de l'AMP \u00bb"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Endom\u00e9triose et grossesse",
+      "text": "Endom\u00e9triose et grossesse",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les sympt\u00f4mes de l\u2019endom\u00e9triose peuvent \u00eatre plus marqu\u00e9s au d\u00e9but de grossesse, puis ils s\u2019estompent, en raison de l\u2019impr\u00e9gnation hormonale sp\u00e9cifique de la grossesse.",
+      "text": "Les sympt\u00f4mes de l\u2019endom\u00e9triose peuvent \u00eatre plus marqu\u00e9s au d\u00e9but de grossesse, puis ils s\u2019estompent, en raison de l\u2019impr\u00e9gnation hormonale sp\u00e9cifique de la grossesse."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Certaines douleurs peuvent appara\u00eetre, en particulier dues \u00e0 la pression de l'ut\u00e9rus gravide sur les l\u00e9sions d'endom\u00e9triose jusque-l\u00e0 silencieuses, ou sur des adh\u00e9rences (cicatrices fibreuses) survenues apr\u00e8s la chirurgie.",
+      "text": "Certaines douleurs peuvent appara\u00eetre, en particulier dues \u00e0 la pression de l'ut\u00e9rus gravide sur les l\u00e9sions d'endom\u00e9triose jusque-l\u00e0 silencieuses, ou sur des adh\u00e9rences (cicatrices fibreuses) survenues apr\u00e8s la chirurgie."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Chez les femmes pr\u00e9sentant une ",
+      "text": "Chez les femmes pr\u00e9sentant une "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose",
+      "text": "endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", la grossesse fait l\u2019objet d\u2019une surveillance accrue.",
+      "text": ", la grossesse fait l\u2019objet d\u2019une surveillance accrue."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En pr\u00e9sence de l\u00e9sions d'endom\u00e9triose dans le muscle de l'ut\u00e9rus (ad\u00e9nomyose), le placenta peut s'ins\u00e9rer de fa\u00e7on anormale (placenta praevia).",
+      "text": "En pr\u00e9sence de l\u00e9sions d'endom\u00e9triose dans le muscle de l'ut\u00e9rus (ad\u00e9nomyose), le placenta peut s'ins\u00e9rer de fa\u00e7on anormale (placenta praevia)."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Apr\u00e8s l\u2019accouchement, les sympt\u00f4mes peuvent reprendre leur rythme cyclique li\u00e9 aux menstruations.",
+      "text": "Apr\u00e8s l\u2019accouchement, les sympt\u00f4mes peuvent reprendre leur rythme cyclique li\u00e9 aux menstruations."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

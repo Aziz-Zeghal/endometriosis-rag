@@ -37,14 +37,3 @@ Cette étude se déroule dans le cadre du forfait innovation, qui est un disposi
 Une fois les résultats de cette étude connus, la HAS rendra son avis définitif pour autoriser ou non l’inscription de la prise en charge du test dans le droit commun (il s’agit actuellement d’un dispositif dérogatoire et temporaire). Le cas échéant, cela permettrait à toutes les femmes qui en ont besoin de pouvoir bénéficier de ce test salivaire.
 
 **Pour aller plus loin :** rendez-vous dans notre espace d’information sur l’endométriose
-
-### Sources
-
-- https://sante.gouv.fr/actualites/presse/communiques-de-presse/article/diagnostic-de-l-endometriose-catherine-vautrin-et-yannick-neuder-actent-la
-- https://endofrance.org/lancement-de-letude-endobest-pour-valider-la-place-que-tiendra-le-test-salivaire-dans-le-diagnostic-de-lendometriose/
--
-https://www.sante.fr/endometriose/le-diagnostic-de-lendometriose
-
-Le Service Public d’Information en Santé, au sein du Ministère de la santé et de l'accès aux soins, associe les institutions et agences publiques missionnées dans les champs de la santé, ainsi que les partenaires privés à but non lucratif (associations, ordres professionnels, sociétés savantes, universités…).
-
-La démarche vise à assurer la cohérence et la cohésion des actions autour d’une vision commune de l’information publique en santé prévoyant également l’élaboration d’outils favorisant l’implication des usagers au processus d’amélioration du système de santé.

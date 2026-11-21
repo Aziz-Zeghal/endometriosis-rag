@@ -1,0 +1,2696 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "endomind-fiche-ressources",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 13162760056187827331,
+    "filename": "endomind-fiche-ressources.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/pictures/9"
+      },
+      {
+        "$ref": "#/pictures/10"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 137.20794670300194,
+            "t": 517.8020560386791,
+            "r": 458.2749379309584,
+            "b": 478.02392737608113,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "ENDOM\u00c9TRIOSE",
+      "text": "ENDOM\u00c9TRIOSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 118.97270196030388,
+            "t": 462.3718900852883,
+            "r": 476.5141131522454,
+            "b": 350.25453945413284,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "LES RESSOURCES POUR UN ACCOMPAGNEMENT ET UNE PRISE EN CHARGE DE L'ENDOM\u00c9TRIOSE",
+      "text": "LES RESSOURCES POUR UN ACCOMPAGNEMENT ET UNE PRISE EN CHARGE DE L'ENDOM\u00c9TRIOSE"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 764.8990179944417,
+            "r": 366.87284893676093,
+            "b": 750.8226063183906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "La prise en charge de l'endom\u00e9triose",
+      "text": "La prise en charge de l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 738.3214838316097,
+            "r": 536.1405146021727,
+            "b": 709.8810806416191,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            145
+          ]
+        }
+      ],
+      "orig": "En pr\u00e9sence de sympt\u00f4mes (Fiche R\u00e9flexe 1) ou d'une alt\u00e9ration de la qualit\u00e9 de vie (Fiche R\u00e9flexe 2), il est recommand\u00e9 d'orienter la personne :",
+      "text": "En pr\u00e9sence de sympt\u00f4mes (Fiche R\u00e9flexe 1) ou d'une alt\u00e9ration de la qualit\u00e9 de vie (Fiche R\u00e9flexe 2), il est recommand\u00e9 d'orienter la personne :"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 705.3090455271281,
+            "r": 536.1468340832038,
+            "b": 660.3624231848966,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "vers un professionnel de sant\u00e9 sensibilis\u00e9 qui, en cas de suspicion d'endom\u00e9triose, l'orientera vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie.",
+      "text": "vers un professionnel de sant\u00e9 sensibilis\u00e9 qui, en cas de suspicion d'endom\u00e9triose, l'orientera vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 la pathologie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 655.7903880704056,
+            "r": 414.4333884410394,
+            "b": 643.8562040326557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "ou, \u00e0 d\u00e9faut, directement vers la fili\u00e8re de soins r\u00e9gionale",
+      "text": "ou, \u00e0 d\u00e9faut, directement vers la fili\u00e8re de soins r\u00e9gionale",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 639.2841689181647,
+            "r": 488.06577589481964,
+            "b": 627.3499848804149,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "Les associations de patientes peuvent \u00e9galement aider \u00e0 l'orientation.",
+      "text": "Les associations de patientes peuvent \u00e9galement aider \u00e0 l'orientation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.5499901944303,
+            "t": 615.0057517358084,
+            "r": 536.1512355800133,
+            "b": 536.3791029275209,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            353
+          ]
+        }
+      ],
+      "orig": "Les fili\u00e8res de soins constituent le socle de la prise en charge m\u00e9dicale des personnes souffrant d'endom\u00e9triose en France, conform\u00e9ment \u00e0 la Strat\u00e9gie nationale de lutte contre l'endom\u00e9triose lanc\u00e9e en 2022. Ces fili\u00e8res rassemblent dans chaque r\u00e9gion des structures et des professionnels de sant\u00e9 sp\u00e9cialis\u00e9s dans la prise en charge de l'endom\u00e9triose.",
+      "text": "Les fili\u00e8res de soins constituent le socle de la prise en charge m\u00e9dicale des personnes souffrant d'endom\u00e9triose en France, conform\u00e9ment \u00e0 la Strat\u00e9gie nationale de lutte contre l'endom\u00e9triose lanc\u00e9e en 2022. Ces fili\u00e8res rassemblent dans chaque r\u00e9gion des structures et des professionnels de sant\u00e9 sp\u00e9cialis\u00e9s dans la prise en charge de l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.5499901944303,
+            "t": 516.2968934742777,
+            "r": 536.1503185561868,
+            "b": 487.69162554176586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "Les associations de patientes apportent, quant \u00e0 elles, soutien et informations aux personnes diagnostiqu\u00e9es ou en recherche de diagnostic.",
+      "text": "Les associations de patientes apportent, quant \u00e0 elles, soutien et informations aux personnes diagnostiqu\u00e9es ou en recherche de diagnostic."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.5499901944303,
+            "t": 469.27679545104854,
+            "r": 146.93893533951453,
+            "b": 457.3453211437952,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Messages cl\u00e9s :",
+      "text": "Messages cl\u00e9s :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.95454514334048,
+            "t": 438.93049105307796,
+            "r": 536.149007112645,
+            "b": 410.3252231205661,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "La prise en charge de l'endom\u00e9triose repose sur un \u00e9cosyst\u00e8me dans lequel une prise en charge adapt\u00e9e et de qualit\u00e9, ainsi qu'un soutien sont possibles.",
+      "text": "La prise en charge de l'endom\u00e9triose repose sur un \u00e9cosyst\u00e8me dans lequel une prise en charge adapt\u00e9e et de qualit\u00e9, ainsi qu'un soutien sont possibles.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 367.0429241585442,
+            "t": 200.63459492155005,
+            "r": 413.50921115413047,
+            "b": 186.41017660280136,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "EVARS",
+      "text": "EVARS"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 352.01597253266715,
+            "t": 317.695149437394,
+            "r": 399.4156674845293,
+            "b": 308.7445114090815,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "POUVOIRS",
+      "text": "POUVOIRS"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 359.19055074372636,
+            "t": 305.6906264175824,
+            "r": 394.72493531780174,
+            "b": 296.73998838927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "PUBLICS",
+      "text": "PUBLICS"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.3757317926776,
+            "t": 321.6836852712048,
+            "r": 174.33421573104013,
+            "b": 312.73304724289244,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "FILI\u00c8RES",
+      "text": "FILI\u00c8RES"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 151.18096097329305,
+            "t": 309.67916225139334,
+            "r": 162.5275212783449,
+            "b": 300.72852422308085,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "DE",
+      "text": "DE"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 143.04508306728798,
+            "t": 297.67463923158186,
+            "r": 170.64434893666805,
+            "b": 288.7240012032695,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "SOINS",
+      "text": "SOINS"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 132.32938977348562,
+            "t": 204.95103556543495,
+            "r": 200.3084117603953,
+            "b": 195.00708490859995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "ASSOCIATIONS",
+      "text": "ASSOCIATIONS"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 135.5176765161752,
+            "t": 192.898501285767,
+            "r": 196.7712539122728,
+            "b": 183.05310837701552,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "DE PATIENTES",
+      "text": "DE PATIENTES"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 20.80841217298279,
+            "t": 388.86602679310346,
+            "r": 114.46524265823535,
+            "b": 378.92335979124175,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Diagnostic et prise",
+      "text": "Diagnostic et prise"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 20.80841217298279,
+            "t": 375.3609383958155,
+            "r": 93.23680770859079,
+            "b": 365.4182713939538,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "en charge des",
+      "text": "en charge des"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 20.80841217298279,
+            "t": 361.8558499985275,
+            "r": 122.13586843987454,
+            "b": 351.9131829966658,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "personnes atteintes",
+      "text": "personnes atteintes"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 20.80841217298279,
+            "t": 348.3507616012395,
+            "r": 101.35993263796661,
+            "b": 338.4080945993779,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "d'endom\u00e9triose",
+      "text": "d'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 435.78065384247196,
+            "t": 383.0291790363055,
+            "r": 575.5748321837237,
+            "b": 359.5814236371558,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "ARS : structuration des fili\u00e8res de soin en r\u00e9gion",
+      "text": "ARS : structuration des fili\u00e8res de soin en r\u00e9gion"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 435.78065384247196,
+            "t": 329.00882544715364,
+            "r": 575.578965395448,
+            "b": 278.55089325342806,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "ARS, Assurance Maladie, Etat, collectivit\u00e9s locales : financement de la prise en charge et des associations",
+      "text": "ARS, Assurance Maladie, Etat, collectivit\u00e9s locales : financement de la prise en charge et des associations"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 448.286021321415,
+            "t": 198.5327147236584,
+            "r": 582.8361090680241,
+            "b": 175.08495932450876,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Rep\u00e9rage et orientation vers les fili\u00e8res de soin",
+      "text": "Rep\u00e9rage et orientation vers les fili\u00e8res de soin"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 448.286021321415,
+            "t": 144.5123611345067,
+            "r": 582.8426689135806,
+            "b": 107.55951733806899,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Soutien et orientation vers les associations de patientes",
+      "text": "Soutien et orientation vers les associations de patientes"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 17.03767201009697,
+            "t": 153.14598061477238,
+            "r": 129.15796351155524,
+            "b": 116.19313681833489,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "Soutien aux patientes et informations des personnes",
+      "text": "Soutien aux patientes et informations des personnes"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 80.4413280432841,
+            "r": 536.1463758105374,
+            "b": 52.00092485329344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "La prise en charge de la maladie doit \u00eatre pluridisciplinaire, ce qui n\u00e9cessite une coordination entre les diff\u00e9rents professionnels de sant\u00e9.",
+      "text": "La prise en charge de la maladie doit \u00eatre pluridisciplinaire, ce qui n\u00e9cessite une coordination entre les diff\u00e9rents professionnels de sant\u00e9.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 755.646939179945,
+            "r": 221.89287729392956,
+            "b": 741.5705275038939,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Les fili\u00e8res de soins",
+      "text": "Les fili\u00e8res de soins",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 720.5586501717279,
+            "r": 540.918804383535,
+            "b": 626.0933703727738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            463
+          ]
+        }
+      ],
+      "orig": "Les fili\u00e8res de soins rassemblent dans chaque r\u00e9gion des structures et des professionnels de sant\u00e9 sp\u00e9cialis\u00e9s dans le diagnostic et \u00e0 la prise en charge de l'endom\u00e9triose. Elles reposent sur des praticiens de premier recours, r\u00e9partis r\u00e9gionalement, qui collaborent avec des centres de ressources pour g\u00e9rer les cas les plus complexes. L'objectif est de fournir un accompagnement de qualit\u00e9 et des soins adapt\u00e9s \u00e0 l'intensit\u00e9 et \u00e0 la complexit\u00e9 de la pathologie.",
+      "text": "Les fili\u00e8res de soins rassemblent dans chaque r\u00e9gion des structures et des professionnels de sant\u00e9 sp\u00e9cialis\u00e9s dans le diagnostic et \u00e0 la prise en charge de l'endom\u00e9triose. Elles reposent sur des praticiens de premier recours, r\u00e9partis r\u00e9gionalement, qui collaborent avec des centres de ressources pour g\u00e9rer les cas les plus complexes. L'objectif est de fournir un accompagnement de qualit\u00e9 et des soins adapt\u00e9s \u00e0 l'intensit\u00e9 et \u00e0 la complexit\u00e9 de la pathologie."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 605.015116106042,
+            "r": 540.9129425149218,
+            "b": 560.0684937638106,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            192
+          ]
+        }
+      ],
+      "orig": "Premier recours : Les professionnels de sant\u00e9 de ville ou \u00e0 l'h\u00f4pital (lorsque le territoire ne poss\u00e8de pas d'offre de ville), sont charg\u00e9s du diagnostic ou de la prise en charge de proximit\u00e9.",
+      "text": "Premier recours : Les professionnels de sant\u00e9 de ville ou \u00e0 l'h\u00f4pital (lorsque le territoire ne poss\u00e8de pas d'offre de ville), sont charg\u00e9s du diagnostic ou de la prise en charge de proximit\u00e9.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 538.9902394970787,
+            "r": 540.9144538993754,
+            "b": 477.5373980026063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        }
+      ],
+      "orig": "Deuxi\u00e8me recours : Des centres multidisciplinaires sp\u00e9cialis\u00e9s prennent le relais pour des cas plus complexes, avec un diagnostic et la prise en charge de seconde intention, c'est-\u00e0-dire lorsque les personnes atteintes ne r\u00e9pondent pas aux traitements initiaux.",
+      "text": "Deuxi\u00e8me recours : Des centres multidisciplinaires sp\u00e9cialis\u00e9s prennent le relais pour des cas plus complexes, avec un diagnostic et la prise en charge de seconde intention, c'est-\u00e0-dire lorsque les personnes atteintes ne r\u00e9pondent pas aux traitements initiaux.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 79.94830811882035,
+            "t": 456.45914373587453,
+            "r": 540.9166519125348,
+            "b": 378.5000830891613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            353
+          ]
+        }
+      ],
+      "orig": "Troisi\u00e8me recours : Les experts interviennent pour des soins sp\u00e9cialis\u00e9s, incluant la chirurgie pour les endom\u00e9trioses complexes, l'imagerie avanc\u00e9e, la prise en charge de la douleur via des structures douleur chronique (SDC) r\u00e9f\u00e9renc\u00e9es et la prise en charge de l'infertilit\u00e9 via les centres autoris\u00e9s pour l'assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP).",
+      "text": "Troisi\u00e8me recours : Les experts interviennent pour des soins sp\u00e9cialis\u00e9s, incluant la chirurgie pour les endom\u00e9trioses complexes, l'imagerie avanc\u00e9e, la prise en charge de la douleur via des structures douleur chronique (SDC) r\u00e9f\u00e9renc\u00e9es et la prise en charge de l'infertilit\u00e9 via les centres autoris\u00e9s pour l'assistance m\u00e9dicale \u00e0 la procr\u00e9ation (AMP).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 77.04603926974822,
+            "t": 335.9297102910623,
+            "r": 202.9537968960284,
+            "b": 328.71186674720764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Absence de diagnostic et/ou de",
+      "text": "Absence de diagnostic et/ou de"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 102.02810817132865,
+            "t": 327.67660071494186,
+            "r": 177.97317472741764,
+            "b": 320.4587571710871,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "traitement m\u00e9dical",
+      "text": "traitement m\u00e9dical"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 294.752940288627,
+            "t": 341.5374433653722,
+            "r": 486.53033665542023,
+            "b": 332.1484832753224,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "Prise en charge de proximit\u00e9 en ville :",
+      "text": "Prise en charge de proximit\u00e9 en ville :"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.3881142779947,
+            "t": 330.7790652256725,
+            "r": 470.37757067308337,
+            "b": 323.56122168181787,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "rep\u00e9rage, prescription de traitements et",
+      "text": "rep\u00e9rage, prescription de traitements et"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 289.2664981272287,
+            "t": 322.5259556495522,
+            "r": 494.15296174955307,
+            "b": 315.30811210569743,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "d'examens compl\u00e9mentaires et suivi si stabilisation",
+      "text": "d'examens compl\u00e9mentaires et suivi si stabilisation"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 107.73729050594604,
+            "t": 229.91086910851425,
+            "r": 172.26427438617367,
+            "b": 222.69302556465948,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Diagnostic pos\u00e9",
+      "text": "Diagnostic pos\u00e9"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 267.90688783221253,
+            "t": 235.2762272849576,
+            "r": 356.49690613723243,
+            "b": 228.05838374110283,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "\u00c9chec d'un traitement",
+      "text": "\u00c9chec d'un traitement"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 282.71324776778084,
+            "t": 227.02311770883716,
+            "r": 344.9750045641207,
+            "b": 219.8052741649825,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "et / ou infertilit\u00e9",
+      "text": "et / ou infertilit\u00e9"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 420.67301830445683,
+            "t": 239.0276191286497,
+            "r": 503.48211101970077,
+            "b": 231.80977558479492,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Prise en charge dans",
+      "text": "Prise en charge dans"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 420.9074816446875,
+            "t": 230.77450955252925,
+            "r": 503.26014933979945,
+            "b": 223.5566660086746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "un centre de recours",
+      "text": "un centre de recours"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 420.4971707992838,
+            "t": 222.52139997640882,
+            "r": 505.2928350379785,
+            "b": 215.30355643255416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "hospitalier ou en ville",
+      "text": "hospitalier ou en ville"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 91.11383968358984,
+            "t": 111.58549803873825,
+            "r": 188.87537240428594,
+            "b": 104.36765449488348,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triose complexe",
+      "text": "Endom\u00e9triose complexe"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 274.43669185763736,
+            "t": 125.20392787130356,
+            "r": 351.6167503851865,
+            "b": 117.9860843274489,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Endom\u00e9triose avec",
+      "text": "Endom\u00e9triose avec"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 260.4275072788534,
+            "t": 116.95081829518313,
+            "r": 367.25724478435484,
+            "b": 109.73297475132847,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "atteinte digestive, urinaire,",
+      "text": "atteinte digestive, urinaire,"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 260.47439994689955,
+            "t": 108.69770871906269,
+            "r": 365.58085332077553,
+            "b": 101.47986517520803,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "endom\u00e9triose volumineux",
+      "text": "endom\u00e9triose volumineux"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 274.6594320308565,
+            "t": 100.44459914294225,
+            "r": 353.0397991126011,
+            "b": 93.2267555990876,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "/ d\u00e9sir de grossesse",
+      "text": "/ d\u00e9sir de grossesse"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 425.4326241111399,
+            "t": 120.70224805887358,
+            "r": 498.7248321862661,
+            "b": 113.48440451501892,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Prise en charge en",
+      "text": "Prise en charge en"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 420.8723121436529,
+            "t": 112.44913848275314,
+            "r": 503.2845629086287,
+            "b": 105.23129493889849,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "centre hospitalier ou",
+      "text": "centre hospitalier ou"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 432.85338882944137,
+            "t": 104.1960289066327,
+            "r": 492.94217862193034,
+            "b": 96.97818536277805,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "clinique expert",
+      "text": "clinique expert"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 55.9341840694089,
+            "t": 760.7959708951728,
+            "r": 539.7627034605875,
+            "b": 715.8493485529413,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "R\u00e9parties par r\u00e9gion, les fili\u00e8res de soins assurent ainsi une prise en charge compl\u00e8te et coordonn\u00e9e de l'endom\u00e9triose sur le territoire. Elles forment et sensibilisent les professionnels de sant\u00e9 et peuvent promouvoir la recherche sur la",
+      "text": "R\u00e9parties par r\u00e9gion, les fili\u00e8res de soins assurent ainsi une prise en charge compl\u00e8te et coordonn\u00e9e de l'endom\u00e9triose sur le territoire. Elles forment et sensibilisent les professionnels de sant\u00e9 et peuvent promouvoir la recherche sur la"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 54.7771009176207,
+            "t": 711.2773134384503,
+            "r": 539.7627033705537,
+            "b": 518.5185540550581,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            393
+          ]
+        }
+      ],
+      "orig": "maladie. Les fili\u00e8res proposent sur leur site internet un annuaire qui r\u00e9pertorie les professionnels de sant\u00e9 de chaque niveau de recours exer\u00e7ant dans leur r\u00e9gion. Il est possible de retrouver les liens sur les sites des associations, lesquelles actualisent r\u00e9guli\u00e8rement les donn\u00e9es sur les fili\u00e8res (certaines \u00e9tant toujours en cours de d\u00e9veloppement) : endomind.org endofrance.org sant\u00e9.fr",
+      "text": "maladie. Les fili\u00e8res proposent sur leur site internet un annuaire qui r\u00e9pertorie les professionnels de sant\u00e9 de chaque niveau de recours exer\u00e7ant dans leur r\u00e9gion. Il est possible de retrouver les liens sur les sites des associations, lesquelles actualisent r\u00e9guli\u00e8rement les donn\u00e9es sur les fili\u00e8res (certaines \u00e9tant toujours en cours de d\u00e9veloppement) : endomind.org endofrance.org sant\u00e9.fr"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 54.7771009176207,
+            "t": 456.26713805410384,
+            "r": 187.75596602789193,
+            "b": 442.1907263780528,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Les associations",
+      "text": "Les associations",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 54.7771009176207,
+            "t": 420.48761787468817,
+            "r": 531.3745786886656,
+            "b": 127.94770824884404,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1167
+          ]
+        }
+      ],
+      "orig": "Les associations de patientes jouent un r\u00f4le fondamental dans l'accompagnement des personnes atteintes d'endom\u00e9triose ou en recherche de diagnostic, leur offrant des ressources et un soutien pr\u00e9cieux. Elles mettent \u00e0 disposition des informations d\u00e9taill\u00e9es sur les sympt\u00f4mes, les options de traitement ou encore les droits des patientes, permettant \u00e0 ces derni\u00e8res de naviguer plus facilement dans leur parcours de soins. Elles cr\u00e9ent aussi des espaces d'\u00e9change et de partage, tels que des groupes de parole et des ateliers. Ces initiatives renforcent la solidarit\u00e9 et l'entraide entre les patientes, tout en att\u00e9nuant le sentiment d'isolement face \u00e0 la maladie. En parall\u00e8le, les associations sensibilisent le grand public et les professionnels de sant\u00e9 \u00e0 l'endom\u00e9triose, contribuant ainsi \u00e0 une meilleure compr\u00e9hension de cette maladie encore mal connue. Elles militent \u00e9galement pour une am\u00e9lioration de la prise en charge m\u00e9dicale et pour le d\u00e9veloppement de la recherche sur l'endom\u00e9triose, afin d'am\u00e9liorer la qualit\u00e9 de vie des personnes concern\u00e9es et de faire avancer la cause. Par leur engagement, les associations constituent une voix pour les patientes et",
+      "text": "Les associations de patientes jouent un r\u00f4le fondamental dans l'accompagnement des personnes atteintes d'endom\u00e9triose ou en recherche de diagnostic, leur offrant des ressources et un soutien pr\u00e9cieux. Elles mettent \u00e0 disposition des informations d\u00e9taill\u00e9es sur les sympt\u00f4mes, les options de traitement ou encore les droits des patientes, permettant \u00e0 ces derni\u00e8res de naviguer plus facilement dans leur parcours de soins. Elles cr\u00e9ent aussi des espaces d'\u00e9change et de partage, tels que des groupes de parole et des ateliers. Ces initiatives renforcent la solidarit\u00e9 et l'entraide entre les patientes, tout en att\u00e9nuant le sentiment d'isolement face \u00e0 la maladie. En parall\u00e8le, les associations sensibilisent le grand public et les professionnels de sant\u00e9 \u00e0 l'endom\u00e9triose, contribuant ainsi \u00e0 une meilleure compr\u00e9hension de cette maladie encore mal connue. Elles militent \u00e9galement pour une am\u00e9lioration de la prise en charge m\u00e9dicale et pour le d\u00e9veloppement de la recherche sur l'endom\u00e9triose, afin d'am\u00e9liorer la qualit\u00e9 de vie des personnes concern\u00e9es et de faire avancer la cause. Par leur engagement, les associations constituent une voix pour les patientes et"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 54.7771009176207,
+            "t": 123.37567313435306,
+            "r": 324.8830819857848,
+            "b": 111.44148909660316,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "un pilier essentiel dans leur parcours de sant\u00e9.",
+      "text": "un pilier essentiel dans leur parcours de sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 68.04540916477451,
+            "t": 776.8872164288886,
+            "r": 476.4021075922139,
+            "b": 761.0487785374105,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Retrouvez les trois associations nationales :",
+      "text": "Retrouvez les trois associations nationales :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.166059380080746,
+            "t": 700.0449956334619,
+            "r": 191.0181367540659,
+            "b": 624.2602408554557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            136
+          ]
+        }
+      ],
+      "orig": "ENDOmind, association de patientes fond\u00e9e en 2014. est agr\u00e9\u00e9e par le Minist\u00e8re de la sant\u00e9 et par le Minist\u00e8re de l'Education Nationale.",
+      "text": "ENDOmind, association de patientes fond\u00e9e en 2014. est agr\u00e9\u00e9e par le Minist\u00e8re de la sant\u00e9 et par le Minist\u00e8re de l'Education Nationale."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.166059380080746,
+            "t": 606.6761972838286,
+            "r": 194.25788638114076,
+            "b": 517.5530427415891,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            169
+          ]
+        }
+      ],
+      "orig": "Ses objectifs sont de mieux faire conna\u00eetre la maladie, de r\u00e9duire le d\u00e9lai de diagnostic, d'am\u00e9liorer la prise en charge et de soutenir la recherche sur l'endom\u00e9triose.",
+      "text": "Ses objectifs sont de mieux faire conna\u00eetre la maladie, de r\u00e9duire le d\u00e9lai de diagnostic, d'am\u00e9liorer la prise en charge et de soutenir la recherche sur l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.166059380080746,
+            "t": 499.96899916996205,
+            "r": 200.67967403959466,
+            "b": 397.50744486348924,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "Au quotidien, elle informe et accompagne les patientes, tout en collaborant avec les professionnels de sant\u00e9. Elle m\u00e8ne aussi un plaidoyer actif aupr\u00e8s des d\u00e9cideurs publics afin de d\u00e9fendre les int\u00e9r\u00eats des patientes.",
+      "text": "Au quotidien, elle informe et accompagne les patientes, tout en collaborant avec les professionnels de sant\u00e9. Elle m\u00e8ne aussi un plaidoyer actif aupr\u00e8s des d\u00e9cideurs publics afin de d\u00e9fendre les int\u00e9r\u00eats des patientes."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.166059380080746,
+            "t": 379.92340129186215,
+            "r": 201.6117667791927,
+            "b": 344.153845806556,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "ENDOmind oeuvre \u00e0 faire de l'endom\u00e9triose une vraie priorit\u00e9 de sant\u00e9 publique.",
+      "text": "ENDOmind oeuvre \u00e0 faire de l'endom\u00e9triose une vraie priorit\u00e9 de sant\u00e9 publique."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.166059380080746,
+            "t": 327.1470463239433,
+            "r": 170.2028098437814,
+            "b": 319.8679887563725,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "https://www.endomind.org/",
+      "text": "https://www.endomind.org/",
+      "hyperlink": "https://www.endomind.org/"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 214.91395589005145,
+            "t": 700.0449926412668,
+            "r": 362.3619333217215,
+            "b": 450.8607808790068,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            494
+          ]
+        }
+      ],
+      "orig": "Cr\u00e9\u00e9e en 2001 EndoFrance est reconnue d'int\u00e9r\u00eat g\u00e9n\u00e9ral, agr\u00e9\u00e9e par le Ministre en charge de la sant\u00e9 et le minist\u00e8re de l'Education nationale. Ses b\u00e9n\u00e9voles m\u00e8nent chaque ann\u00e9e des centaines d'actions de sensibilisation et d'information. Elles interviennent \u00e9galement en \u00e9tablissements scolaires et dans les entreprises. EndoFrance a publi\u00e9 \u00ab Id\u00e9es re\u00e7ues sur l'endom\u00e9triose \u00bb, \u00ab L'endom\u00e9triose de Clara - comprendre la maladie pour les 15-25 ans \u00bb et le livre blanc \u00ab Endom\u00e9triose & emploi \u00bb.",
+      "text": "Cr\u00e9\u00e9e en 2001 EndoFrance est reconnue d'int\u00e9r\u00eat g\u00e9n\u00e9ral, agr\u00e9\u00e9e par le Ministre en charge de la sant\u00e9 et le minist\u00e8re de l'Education nationale. Ses b\u00e9n\u00e9voles m\u00e8nent chaque ann\u00e9e des centaines d'actions de sensibilisation et d'information. Elles interviennent \u00e9galement en \u00e9tablissements scolaires et dans les entreprises. EndoFrance a publi\u00e9 \u00ab Id\u00e9es re\u00e7ues sur l'endom\u00e9triose \u00bb, \u00ab L'endom\u00e9triose de Clara - comprendre la maladie pour les 15-25 ans \u00bb et le livre blanc \u00ab Endom\u00e9triose & emploi \u00bb."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 214.91395589005145,
+            "t": 433.276718956612,
+            "r": 353.40339579988427,
+            "b": 344.15347140514496,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "Notre priorit\u00e9 : soutenir les femmes et les personnes menstru\u00e9es atteintes et leur entourage, informer tous les publics sur l'impact de l'endom\u00e9triose ou l'ad\u00e9nomyose au quotidien.",
+      "text": "Notre priorit\u00e9 : soutenir les femmes et les personnes menstru\u00e9es atteintes et leur entourage, informer tous les publics sur l'impact de l'endom\u00e9triose ou l'ad\u00e9nomyose au quotidien."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 214.91395589005145,
+            "t": 327.1466541741785,
+            "r": 295.19192807309696,
+            "b": 319.8675890101583,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "www.endofrance.org",
+      "text": "www.endofrance.org",
+      "hyperlink": "http://www.endofrance.org/"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 265.7125377286438,
+            "t": 234.15782819842968,
+            "r": 373.5489941451004,
+            "b": 222.22364416067978,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Fiche produite par",
+      "text": "Fiche produite par"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 265.7125377286438,
+            "t": 158.25876736089072,
+            "r": 340.6062307674801,
+            "b": 146.32458332314093,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Financ\u00e9e par",
+      "text": "Financ\u00e9e par"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 265.7125377286438,
+            "t": 79.21157865452369,
+            "r": 379.8512839485576,
+            "b": 67.27739461677379,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        },
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 387.79404634191405,
+            "t": 700.0449956334619,
+            "r": 525.5854249626877,
+            "b": 517.5530427415891,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            20,
+            373
+          ]
+        }
+      ],
+      "orig": "En partenariat avec En 2016, l'association lance la premi\u00e8re campagne nationale d'information et de sensibilisation \u00e0 l'endom\u00e9triose, intitul\u00e9e \u00abLes r\u00e8gles c'est naturel, pas la douleur \u00bb, pour toucher le grand public et les professionnels de sant\u00e9. Depuis, l'association InfoEndom\u00e9triose lib\u00e8re la parole, sensibilise et fait conna\u00eetre l'endom\u00e9triose au plus grand nombre.",
+      "text": "En partenariat avec En 2016, l'association lance la premi\u00e8re campagne nationale d'information et de sensibilisation \u00e0 l'endom\u00e9triose, intitul\u00e9e \u00abLes r\u00e8gles c'est naturel, pas la douleur \u00bb, pour toucher le grand public et les professionnels de sant\u00e9. Depuis, l'association InfoEndom\u00e9triose lib\u00e8re la parole, sensibilise et fait conna\u00eetre l'endom\u00e9triose au plus grand nombre."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 387.79404634191405,
+            "t": 499.96899916996205,
+            "r": 524.4682737714852,
+            "b": 397.50744486348924,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "Info-Endom\u00e9triose m\u00e8ne \u00e9galement des actions de plaidoyer des politiques et des pouvoirs publics d\u00e9bouchant sur des partenariats et des actions \u00e0 l'\u00e9chelle nationale et internationale.",
+      "text": "Info-Endom\u00e9triose m\u00e8ne \u00e9galement des actions de plaidoyer des politiques et des pouvoirs publics d\u00e9bouchant sur des partenariats et des actions \u00e0 l'\u00e9chelle nationale et internationale."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 387.79404634191405,
+            "t": 379.92340129186215,
+            "r": 503.30409709635245,
+            "b": 344.153845806556,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "Notre mission Informer, \u00e9duquer et mobiliser la soci\u00e9t\u00e9.",
+      "text": "Notre mission Informer, \u00e9duquer et mobiliser la soci\u00e9t\u00e9."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 387.79404634191405,
+            "t": 327.1470463239433,
+            "r": 519.1290885398049,
+            "b": 319.8679887563725,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "https://www.info-endometriose.fr/",
+      "text": "https://www.info-endometriose.fr/",
+      "hyperlink": "https://www.info-endometriose.fr/"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 354.97834703586244,
+            "t": 842.2499787,
+            "r": 595.5,
+            "b": 540.5197672599797,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 1.5905824899673462,
+            "t": 397.38907655480966,
+            "r": 591.6270921438332,
+            "b": 98.60902731007252,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.558665976428344,
+            "t": 366.65365949431583,
+            "r": 539.4164742079357,
+            "b": 46.94653652291947,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 108.86419122171081,
+            "t": 587.380244554149,
+            "r": 127.64053266000427,
+            "b": 565.6449763378998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 143.59038987895786,
+            "t": 560.2367064499274,
+            "r": 162.2283815985558,
+            "b": 538.5083748057032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 154.2453992958837,
+            "t": 533.3660119270953,
+            "r": 174.20637687580697,
+            "b": 511.41635027702586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 85.49209914111451,
+            "t": 750.6078918797464,
+            "r": 171.62733504276147,
+            "b": 717.887548055164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 251.35930931808164,
+            "t": 753.4767437302041,
+            "r": 328.28725671448166,
+            "b": 716.4857735653958,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 0.0,
+            "t": 290.2184289593944,
+            "r": 242.4298713223246,
+            "b": 0.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 426.13225760235883,
+            "t": 247.85192037944398,
+            "r": 526.4719595173061,
+            "b": 123.53708529034895,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 424.2212644743439,
+            "t": 87.70443118244293,
+            "r": 510.586280285112,
+            "b": 44.49919195077905,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 5
+    }
+  }
+}

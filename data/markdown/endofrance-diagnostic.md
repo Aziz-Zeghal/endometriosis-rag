@@ -54,7 +54,7 @@ En répondant aux questions, vous aurez un score de probabilité d’être attei
 
 Le questionnaire lui-même est une mesure rapportée par les patients (PRO = patient reported outcome), il ne nécessite pas d’intermédiaire médecin.
 
-L’étude prospective incluant des patientes porteuses d’endométriose avec preuve histologique de la maladie et des témoins, non atteints, a montré la pertinence de cet algorithme pour l’identification des patientes à haut risque de cette maladie (spécificité de 98,0%, rapport de vraisemblance positive de 30,5)\[4\]. Son efficacité selon les standards de validation des études diagnostiques est prouvée.
+L’étude prospective incluant des patientes porteuses d’endométriose avec preuve histologique de la maladie et des témoins, non atteints, a montré la pertinence de cet algorithme pour l’identification des patientes à haut risque de cette maladie (spécificité de 98,0%, rapport de vraisemblance positive de 30,5)[4]. Son efficacité selon les standards de validation des études diagnostiques est prouvée.
 
 De plus, l’utilisation de cet algorithme par les praticiens de première ligne (médecins généralistes, sages-femmes, gynécologues de villes) permettrait de trier les patientes nécessitant une IRM d’emblée afin de raccourcir les délais diagnostic.
 

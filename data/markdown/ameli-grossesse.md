@@ -50,14 +50,3 @@ Chez les femmes présentant une **endométriose**, la grossesse fait l’objet d
 En présence de lésions d'endométriose dans le muscle de l'utérus (adénomyose), le placenta peut s'insérer de façon anormale (placenta praevia).
 
 Après l’accouchement, les symptômes peuvent reprendre leur rythme cyclique lié aux menstruations.
-
-## Sources
-
-- Haute Autorité de santé. Prise en charge de l'endométriose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 \[consulté le 18 juin 2025\]
-- Haute Autorité de santé. Place des différents examens d’imagerie pour le diagnostic d’endométriose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 \[consulté le 6 juin 2025\]
-- National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 \[consulté le 18 juin 2025\]
-- Institut national de la santé et de la recherche médicale. Endométriose. Site internet : Inserm. Paris ; 2024 \[consulté le 18 juin 2025\]
-- Closon F, Brichant G, Tebache L, Pinzauti S, Nisolle M. L'endométriose de l'adolescente. Médecine thérapeutique / Médecine de la reproduction, gynécologie et endocrinologie. 2013;15(3):228-33
-- Ministère du Travail, de la santé, des solidarités et de la famille. Endométriose. Site internet : Ministère du Travail, de la santé, des solidarités et de la famille. Paris ; 2025 \[consulté le 18 juin 2025\]
-- Resendo. Réseau ville-hôpital. L'endométriose. Site internet : Resendo. Paris ; 2025 \[consulté le 18 juin 2025\]
-- Belaroussi I., Zanini A-S, Azria E. Endométriose et grossesse. Elsecier Masson. Endométriose. 2020;17:171-176

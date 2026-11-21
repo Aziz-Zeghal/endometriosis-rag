@@ -1,0 +1,1137 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 649735796906467418,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/55"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/44"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/47"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Le diagnostic de l\u2019endom\u00e9triose",
+      "text": "Le diagnostic de l\u2019endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment diagnostiquer l\u2019endom\u00e9triose ou l'adenomyose ? Quel professionnel de sant\u00e9 peut poser le diagnostic ?",
+      "text": "Comment diagnostiquer l\u2019endom\u00e9triose ou l'adenomyose ? Quel professionnel de sant\u00e9 peut poser le diagnostic ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous avez moins de 20 ans ? Consultez la page Adolescence pour obtenir des informations plus adapt\u00e9es :",
+      "text": "Vous avez moins de 20 ans ? Consultez la page Adolescence pour obtenir des informations plus adapt\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019interrogatoire de la patiente, quand il est bien men\u00e9, par les ",
+      "text": "L\u2019interrogatoire de la patiente, quand il est bien men\u00e9, par les "
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9decins g\u00e9n\u00e9ralistes, gyn\u00e9cologues ou sages-femmes,",
+      "text": "m\u00e9decins g\u00e9n\u00e9ralistes, gyn\u00e9cologues ou sages-femmes,",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " doit pouvoir orienter le diagnostic : questions sur le type de douleur, son intensit\u00e9, sa fr\u00e9quence, sa dur\u00e9e et ce qui la soulage. On doit \u00e9galement vous questionner sur les troubles associ\u00e9s : douleurs pendant les rapports sexuels, troubles digestifs, urinaires, saignements anarchiques, douleurs \u00e0 la marche\u2026",
+      "text": " doit pouvoir orienter le diagnostic : questions sur le type de douleur, son intensit\u00e9, sa fr\u00e9quence, sa dur\u00e9e et ce qui la soulage. On doit \u00e9galement vous questionner sur les troubles associ\u00e9s : douleurs pendant les rapports sexuels, troubles digestifs, urinaires, saignements anarchiques, douleurs \u00e0 la marche\u2026"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "examen clinique",
+      "text": "examen clinique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(examen gyn\u00e9cologique) est souvent n\u00e9cessaire pour aider au diagnostic et orienter la prescription d\u2019une \u00e9chographie ou d\u2019une IRM. Il peut inclure un toucher vaginal et/ou un toucher rectal, qui peuvent se r\u00e9v\u00e9ler utiles avant une prise en charge chirurgicale pour pr\u00e9ciser la nature ou l\u2019anatomie des l\u00e9sions et leurs retentissements. Cet examen ne sera pas pratiqu\u00e9 chez les jeunes personnes vierges.",
+      "text": "(examen gyn\u00e9cologique) est souvent n\u00e9cessaire pour aider au diagnostic et orienter la prescription d\u2019une \u00e9chographie ou d\u2019une IRM. Il peut inclure un toucher vaginal et/ou un toucher rectal, qui peuvent se r\u00e9v\u00e9ler utiles avant une prise en charge chirurgicale pour pr\u00e9ciser la nature ou l\u2019anatomie des l\u00e9sions et leurs retentissements. Cet examen ne sera pas pratiqu\u00e9 chez les jeunes personnes vierges."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces examens doivent bien s\u00fbr \u00eatre r\u00e9alis\u00e9s dans le respect des patient.e.s et de leur intimit\u00e9, avec une information pr\u00e9alable sur la n\u00e9cessit\u00e9 de ces gestes techniques et sur leur caract\u00e8re parfois douloureux compte-tenu de l\u2019endometriose. Ils seront pratiqu\u00e9s apr\u00e8s avoir obtenu le consentement de la personne. Ils peuvent \u00eatre stopp\u00e9s si la douleur est trop importante et si la personne le demande.",
+      "text": "Ces examens doivent bien s\u00fbr \u00eatre r\u00e9alis\u00e9s dans le respect des patient.e.s et de leur intimit\u00e9, avec une information pr\u00e9alable sur la n\u00e9cessit\u00e9 de ces gestes techniques et sur leur caract\u00e8re parfois douloureux compte-tenu de l\u2019endometriose. Ils seront pratiqu\u00e9s apr\u00e8s avoir obtenu le consentement de la personne. Ils peuvent \u00eatre stopp\u00e9s si la douleur est trop importante et si la personne le demande."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Selon les recommandations de la Haute autorit\u00e9 de Sant\u00e9 (HAS)",
+      "text": "Selon les recommandations de la Haute autorit\u00e9 de Sant\u00e9 (HAS)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", l\u2019\u00e9chographie pelvienne est l\u2019examen de 1e intention pour le diagnostic de l\u2019endom\u00e9triose. En 2e intention, c\u2019est l\u2019IRM qui est propos\u00e9e. Ces examens d\u2019imagerie doivent \u00eatre r\u00e9alis\u00e9s par des radiologues qui sont form\u00e9s \u00e0 l\u2019endom\u00e9triose.",
+      "text": ", l\u2019\u00e9chographie pelvienne est l\u2019examen de 1e intention pour le diagnostic de l\u2019endom\u00e9triose. En 2e intention, c\u2019est l\u2019IRM qui est propos\u00e9e. Ces examens d\u2019imagerie doivent \u00eatre r\u00e9alis\u00e9s par des radiologues qui sont form\u00e9s \u00e0 l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ci-dessous, vous trouverez des informations sur la r\u00e9alisation de ces examens.",
+      "text": "Ci-dessous, vous trouverez des informations sur la r\u00e9alisation de ces examens.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D\u00e9couvrez en bas de cette page les outils d\u2019aide au diagnostic qui b\u00e9n\u00e9ficient d\u2019un socle scientifique valid\u00e9 et dont les travaux de recherche ont fait l\u2019objet de publications fiables.",
+      "text": "D\u00e9couvrez en bas de cette page les outils d\u2019aide au diagnostic qui b\u00e9n\u00e9ficient d\u2019un socle scientifique valid\u00e9 et dont les travaux de recherche ont fait l\u2019objet de publications fiables."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les examens radiologiques pour le diagnostic de l\u2019endom\u00e9triose",
+      "text": "Les examens radiologiques pour le diagnostic de l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L'Echographie pelvienne / Echographie endovaginale",
+      "text": "L'Echographie pelvienne / Echographie endovaginale",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est l\u2019examen de premi\u00e8re intention recommand\u00e9 par la Haute autorit\u00e9 de Sant\u00e9 (HAS). C\u2019est un examen radiologique, utilisant les ultrasons, qui permet de visualiser les organes internes. Pour plus de pr\u00e9cisions et pour visualiser le col de l\u2019ut\u00e9rus, on pratique une \u00e9chographie endovaginale ou endo-pelvienne par l\u2019introduction d\u2019une sonde dans le vagin. Cet examen, habituellement indolore, est surtout utile pour ",
+      "text": "C\u2019est l\u2019examen de premi\u00e8re intention recommand\u00e9 par la Haute autorit\u00e9 de Sant\u00e9 (HAS). C\u2019est un examen radiologique, utilisant les ultrasons, qui permet de visualiser les organes internes. Pour plus de pr\u00e9cisions et pour visualiser le col de l\u2019ut\u00e9rus, on pratique une \u00e9chographie endovaginale ou endo-pelvienne par l\u2019introduction d\u2019une sonde dans le vagin. Cet examen, habituellement indolore, est surtout utile pour "
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u00e9celer la pr\u00e9sence de kystes ovariens",
+      "text": "d\u00e9celer la pr\u00e9sence de kystes ovariens",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Les autres l\u00e9sions peuvent malheureusement passer inaper\u00e7ues.",
+      "text": ". Les autres l\u00e9sions peuvent malheureusement passer inaper\u00e7ues."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter",
+      "text": "A noter",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : pour \u00eatre efficace, cet examen devra \u00eatre effectu\u00e9 par un radiologue form\u00e9 \u00e0 l\u2019endom\u00e9triose. Contactez les b\u00e9n\u00e9voles EndoFrance ou les fili\u00e8res de soins r\u00e9gionales pour avoir une orientation vers un sp\u00e9cialiste.",
+      "text": " : pour \u00eatre efficace, cet examen devra \u00eatre effectu\u00e9 par un radiologue form\u00e9 \u00e0 l\u2019endom\u00e9triose. Contactez les b\u00e9n\u00e9voles EndoFrance ou les fili\u00e8res de soins r\u00e9gionales pour avoir une orientation vers un sp\u00e9cialiste."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019\u00e9chographie endovaginale ne sera pas pratiqu\u00e9e chez les jeunes personnes vierges.",
+      "text": "L\u2019\u00e9chographie endovaginale ne sera pas pratiqu\u00e9e chez les jeunes personnes vierges.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L'IRM",
+      "text": "L'IRM",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est l\u2019examen de 2e intention recommand\u00e9 par la Haute autorit\u00e9 de Sant\u00e9 (HAS). Cet examen utilise une technique d\u2019imagerie par r\u00e9sonnance magn\u00e9tique permettant d\u2019obtenir des vues en 2D ou 3D. Cet examen offre une observation pr\u00e9cise des tissus \u00ab mous \u00bb, tels que les organes internes. Dans le cas d\u2019une endom\u00e9triose, l\u2019IRM permet de\u00a0",
+      "text": "C\u2019est l\u2019examen de 2e intention recommand\u00e9 par la Haute autorit\u00e9 de Sant\u00e9 (HAS). Cet examen utilise une technique d\u2019imagerie par r\u00e9sonnance magn\u00e9tique permettant d\u2019obtenir des vues en 2D ou 3D. Cet examen offre une observation pr\u00e9cise des tissus \u00ab mous \u00bb, tels que les organes internes. Dans le cas d\u2019une endom\u00e9triose, l\u2019IRM permet de\u00a0"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u00e9tecter des kystes, des nodules ou des l\u00e9sions d\u2019endom\u00e9triose profonde",
+      "text": "d\u00e9tecter des kystes, des nodules ou des l\u00e9sions d\u2019endom\u00e9triose profonde",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Elle est utilis\u00e9e en compl\u00e9ment d\u2019une \u00e9chographie endo-vaginale pour r\u00e9v\u00e9ler d\u2019autres atteintes. Notamment lorsqu\u2019un kyste d\u2019endom\u00e9triose (endom\u00e9triome) est vu \u00e0 l\u2019\u00e9chographie, car dans 50 \u00e0 80 % des cas, une l\u00e9sion d\u2019endom\u00e9triose profonde est associ\u00e9e au kyste.",
+      "text": ". Elle est utilis\u00e9e en compl\u00e9ment d\u2019une \u00e9chographie endo-vaginale pour r\u00e9v\u00e9ler d\u2019autres atteintes. Notamment lorsqu\u2019un kyste d\u2019endom\u00e9triose (endom\u00e9triome) est vu \u00e0 l\u2019\u00e9chographie, car dans 50 \u00e0 80 % des cas, une l\u00e9sion d\u2019endom\u00e9triose profonde est associ\u00e9e au kyste."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A noter",
+      "text": "A noter",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " : l\u2019IRM\u00a0 ne d\u00e9tecte pas l\u2019endom\u00e9triose superficielle ou p\u00e9riton\u00e9ale (qui reste en surface du p\u00e9ritoine, la membrane qui prot\u00e8ge les organes dans le ventre). Mais cela ne veut pas dire qu\u2019il n\u2019y a pas d\u2019endom\u00e9triose ! Les l\u00e9sions sont trop petites pour \u00eatre visibles, mais les sympt\u00f4mes qu\u2019elles induisent peuvent \u00eatre tr\u00e8s pr\u00e9sents.",
+      "text": " : l\u2019IRM\u00a0 ne d\u00e9tecte pas l\u2019endom\u00e9triose superficielle ou p\u00e9riton\u00e9ale (qui reste en surface du p\u00e9ritoine, la membrane qui prot\u00e8ge les organes dans le ventre). Mais cela ne veut pas dire qu\u2019il n\u2019y a pas d\u2019endom\u00e9triose ! Les l\u00e9sions sont trop petites pour \u00eatre visibles, mais les sympt\u00f4mes qu\u2019elles induisent peuvent \u00eatre tr\u00e8s pr\u00e9sents."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet examen doit lui aussi \u00eatre r\u00e9alis\u00e9 dans un centre de radiologie sp\u00e9cialis\u00e9 en recherche d\u2019endom\u00e9triose. Contactez les b\u00e9n\u00e9voles EndoFrance ou les fili\u00e8res de soins r\u00e9gionales pour avoir une orientation vers un sp\u00e9cialiste.",
+      "text": "Cet examen doit lui aussi \u00eatre r\u00e9alis\u00e9 dans un centre de radiologie sp\u00e9cialis\u00e9 en recherche d\u2019endom\u00e9triose. Contactez les b\u00e9n\u00e9voles EndoFrance ou les fili\u00e8res de soins r\u00e9gionales pour avoir une orientation vers un sp\u00e9cialiste."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les examens compl\u00e9mentaires qui peuvent \u00eatre demand\u00e9s dans le parcours de soins (une fois le diagnostic pos\u00e9)",
+      "text": "Les examens compl\u00e9mentaires qui peuvent \u00eatre demand\u00e9s dans le parcours de soins (une fois le diagnostic pos\u00e9)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La liste pr\u00e9sent\u00e9e ci-dessous n\u2019est pas exhaustive, votre m\u00e9decin ou votre sage-femme pourra vous prescrire d\u2019autres examens et vous orienter vers des experts si n\u00e9cessaire.",
+      "text": "La liste pr\u00e9sent\u00e9e ci-dessous n\u2019est pas exhaustive, votre m\u00e9decin ou votre sage-femme pourra vous prescrire d\u2019autres examens et vous orienter vers des experts si n\u00e9cessaire.",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Hyst\u00e9rographie ou Hyst\u00e9rosalpingographie",
+      "text": "Hyst\u00e9rographie ou Hyst\u00e9rosalpingographie",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Coloscanner \u00e0 l\u2019air, coloscopie virtuelle, uroscanner",
+      "text": "Coloscanner \u00e0 l\u2019air, coloscopie virtuelle, uroscanner",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Echographie endorectale",
+      "text": "Echographie endorectale",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les outils d'aide au diagnostic de l'endom\u00e9triose",
+      "text": "Les outils d'aide au diagnostic de l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L'algorithme \"Shiny Deva\"",
+      "text": "L'algorithme \"Shiny Deva\"",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est un outil num\u00e9rique d\u2019aide \u00e0 la d\u00e9cision innovant, d\u00e9velopp\u00e9 pour le d\u00e9pistage de l\u2019endom\u00e9triose \u00e0 partir d\u2019un auto-questionnaire de sympt\u00f4mes douloureux pelviens (ENDOL-4D). Les questions sont formul\u00e9es en langage \u00ab naturel \u00bb car le questionnaire a \u00e9t\u00e9 d\u00e9velopp\u00e9 \u00e0 partir des verbatims de patientes souffrant d\u2019endom\u00e9triose.",
+      "text": "C\u2019est un outil num\u00e9rique d\u2019aide \u00e0 la d\u00e9cision innovant, d\u00e9velopp\u00e9 pour le d\u00e9pistage de l\u2019endom\u00e9triose \u00e0 partir d\u2019un auto-questionnaire de sympt\u00f4mes douloureux pelviens (ENDOL-4D). Les questions sont formul\u00e9es en langage \u00ab naturel \u00bb car le questionnaire a \u00e9t\u00e9 d\u00e9velopp\u00e9 \u00e0 partir des verbatims de patientes souffrant d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En r\u00e9pondant aux questions, vous aurez un score de probabilit\u00e9 d\u2019\u00eatre atteinte ou non d\u2019endom\u00e9triose.",
+      "text": "En r\u00e9pondant aux questions, vous aurez un score de probabilit\u00e9 d\u2019\u00eatre atteinte ou non d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le questionnaire lui-m\u00eame est une mesure rapport\u00e9e par les patients (PRO = patient reported outcome), il ne n\u00e9cessite pas d\u2019interm\u00e9diaire m\u00e9decin.",
+      "text": "Le questionnaire lui-m\u00eame est une mesure rapport\u00e9e par les patients (PRO = patient reported outcome), il ne n\u00e9cessite pas d\u2019interm\u00e9diaire m\u00e9decin."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019\u00e9tude prospective incluant des patientes porteuses d\u2019endom\u00e9triose avec preuve histologique de la maladie et des t\u00e9moins, non atteints, a montr\u00e9 la pertinence de cet algorithme pour l\u2019identification des patientes \u00e0 haut risque de cette maladie (sp\u00e9cificit\u00e9 de 98,0%, rapport de vraisemblance positive de 30,5)[4]. Son efficacit\u00e9 selon les standards de validation des \u00e9tudes diagnostiques est prouv\u00e9e.",
+      "text": "L\u2019\u00e9tude prospective incluant des patientes porteuses d\u2019endom\u00e9triose avec preuve histologique de la maladie et des t\u00e9moins, non atteints, a montr\u00e9 la pertinence de cet algorithme pour l\u2019identification des patientes \u00e0 haut risque de cette maladie (sp\u00e9cificit\u00e9 de 98,0%, rapport de vraisemblance positive de 30,5)[4]. Son efficacit\u00e9 selon les standards de validation des \u00e9tudes diagnostiques est prouv\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "De plus, l\u2019utilisation de cet algorithme par les praticiens de premi\u00e8re ligne (m\u00e9decins g\u00e9n\u00e9ralistes, sages-femmes, gyn\u00e9cologues de villes) permettrait de trier les patientes n\u00e9cessitant une IRM d\u2019embl\u00e9e afin de raccourcir les d\u00e9lais diagnostic.",
+      "text": "De plus, l\u2019utilisation de cet algorithme par les praticiens de premi\u00e8re ligne (m\u00e9decins g\u00e9n\u00e9ralistes, sages-femmes, gyn\u00e9cologues de villes) permettrait de trier les patientes n\u00e9cessitant une IRM d\u2019embl\u00e9e afin de raccourcir les d\u00e9lais diagnostic."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019algorithme est accessible gratuitement en suivant le lien :",
+      "text": "L\u2019algorithme est accessible gratuitement en suivant le lien :"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L'application Luna For Health",
+      "text": "L'application Luna For Health",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LUNA est une application fond\u00e9e sur une expertise m\u00e9dicale, qui propose avant tout un suivi quotidien pour aller vers un accompagnement th\u00e9rapeutique individualis\u00e9 afin d\u2019orienter votre parcours de soins, recevoir des conseils et des alertes afin d\u2019am\u00e9liorer votre qualit\u00e9 de vie.",
+      "text": "LUNA est une application fond\u00e9e sur une expertise m\u00e9dicale, qui propose avant tout un suivi quotidien pour aller vers un accompagnement th\u00e9rapeutique individualis\u00e9 afin d\u2019orienter votre parcours de soins, recevoir des conseils et des alertes afin d\u2019am\u00e9liorer votre qualit\u00e9 de vie."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les missions de LUNA :",
+      "text": "Les missions de LUNA :",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D\u00e9pister\u00a0l\u2019endom\u00e9triose :",
+      "text": "D\u00e9pister\u00a0l\u2019endom\u00e9triose :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " gr\u00e2ce \u00e0 LunaEndoScore \u00ae, le premier Dispositif M\u00e9dical d\u2019aide au d\u00e9pistage de l\u2019endom\u00e9triose, valid\u00e9 scientifiquement et certifi\u00e9 CE, qui permet le calcul d\u2019un score de risque pour d\u00e9terminer la probabilit\u00e9 d\u2019\u00eatre atteinte d\u2019endom\u00e9triose, gr\u00e2ce \u00e0 vos r\u00e9ponses \u00e0 un questionnaire.",
+      "text": " gr\u00e2ce \u00e0 LunaEndoScore \u00ae, le premier Dispositif M\u00e9dical d\u2019aide au d\u00e9pistage de l\u2019endom\u00e9triose, valid\u00e9 scientifiquement et certifi\u00e9 CE, qui permet le calcul d\u2019un score de risque pour d\u00e9terminer la probabilit\u00e9 d\u2019\u00eatre atteinte d\u2019endom\u00e9triose, gr\u00e2ce \u00e0 vos r\u00e9ponses \u00e0 un questionnaire."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Identifier, mesurer et \u00e9valuer :",
+      "text": "Identifier, mesurer et \u00e9valuer :",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " LUNA d\u00e9termine votre profil de cycle menstruel, \u00e9value et analyse vos douleurs, votre qualit\u00e9 de vie et votre sexualit\u00e9 gr\u00e2ce \u00e0 des questionnaires scientifiquement valid\u00e9s et vous indique votre potentiel fertilit\u00e9. \u00a0Gr\u00e2ce \u00e0 la mise \u00e0 jour r\u00e9guli\u00e8re de vos donn\u00e9es, LUNA vous permet de suivre votre \u00e9volution en temps r\u00e9el, pour anticiper les phases de d\u00e9clin de votre bien-\u00eatre et qualit\u00e9 de vie pour reproduire les actions qui les ont am\u00e9lior\u00e9s. C\u2019est donc un accompagnement et des conseils personnalis\u00e9s en fonction des donn\u00e9es entr\u00e9es.",
+      "text": " LUNA d\u00e9termine votre profil de cycle menstruel, \u00e9value et analyse vos douleurs, votre qualit\u00e9 de vie et votre sexualit\u00e9 gr\u00e2ce \u00e0 des questionnaires scientifiquement valid\u00e9s et vous indique votre potentiel fertilit\u00e9. \u00a0Gr\u00e2ce \u00e0 la mise \u00e0 jour r\u00e9guli\u00e8re de vos donn\u00e9es, LUNA vous permet de suivre votre \u00e9volution en temps r\u00e9el, pour anticiper les phases de d\u00e9clin de votre bien-\u00eatre et qualit\u00e9 de vie pour reproduire les actions qui les ont am\u00e9lior\u00e9s. C\u2019est donc un accompagnement et des conseils personnalis\u00e9s en fonction des donn\u00e9es entr\u00e9es."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le + LUNA Education :",
+      "text": "Le + LUNA Education :",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LUNA propose des ressources et contenus p\u00e9dagogiques valid\u00e9s scientifiquement :",
+      "text": "LUNA propose des ressources et contenus p\u00e9dagogiques valid\u00e9s scientifiquement :"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Un glossaire de plus de 250 d\u00e9finitions",
+      "text": "Un glossaire de plus de 250 d\u00e9finitions",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des articles th\u00e9matiques pour apprendre et mieux comprendre votre cycle menstruel, votre fertilit\u00e9 et votre endom\u00e9triose",
+      "text": "Des articles th\u00e9matiques pour apprendre et mieux comprendre votre cycle menstruel, votre fertilit\u00e9 et votre endom\u00e9triose",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des r\u00e9ponses \u00e0 vos questions sur les sympt\u00f4mes, les douleurs mais aussi votre sant\u00e9 et votre quotidien.",
+      "text": "Des r\u00e9ponses \u00e0 vos questions sur les sympt\u00f4mes, les douleurs mais aussi votre sant\u00e9 et votre quotidien.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019appli LUNA s\u2019engage pour un cadre scientifiquement valid\u00e9 et la s\u00e9curit\u00e9 des donn\u00e9es. LUNA est disponible sur Apple Store et Play Store, gratuitement, sans publicit\u00e9, sans vente de donn\u00e9es. Qualit\u00e9 de s\u00e9curit\u00e9 : h\u00e9bergement HDS, Dispositifs M\u00e9dicaux certifi\u00e9s CE, norme ISO13485, cryptage.",
+      "text": "L\u2019appli LUNA s\u2019engage pour un cadre scientifiquement valid\u00e9 et la s\u00e9curit\u00e9 des donn\u00e9es. LUNA est disponible sur Apple Store et Play Store, gratuitement, sans publicit\u00e9, sans vente de donn\u00e9es. Qualit\u00e9 de s\u00e9curit\u00e9 : h\u00e9bergement HDS, Dispositifs M\u00e9dicaux certifi\u00e9s CE, norme ISO13485, cryptage."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

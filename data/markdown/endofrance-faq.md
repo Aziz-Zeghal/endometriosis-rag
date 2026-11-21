@@ -22,8 +22,7 @@ L’examen gynécologique (avec toucher vaginal voire rectal) pour vérifier not
 
 – **L’imagerie médicale** selon les recommandations mise à jour le 15 mai 2025 par la Haute Autorité de Santé
 
-- L’échographie pelvienne par voie endovaginale, réalisée par un praticien formé, est l’examen d’imagerie recommandé en première intention pour le diagnostic de l’endométriose.
-Elle permet notamment de diagnostiquer efficacement l’endométriose ovarienne (endométriomes).
+- L’échographie pelvienne par voie endovaginale, réalisée par un praticien formé, est l’examen d’imagerie recommandé en première intention pour le diagnostic de l’endométriose. Elle permet notamment de diagnostiquer efficacement l’endométriose ovarienne (endométriomes).
 - L’IRM pelvienne est recommandée en seconde intention, notamment lorsque l’échographie endovaginale est négative ou non réalisable, ou après échec d’un traitement médical. Elle est également indiquée dans le cadre d’un bilan pré-thérapeutique ou pré-chirurgical.
 - L’IRM permet une cartographie précise des lésions d’endométriose profonde, mais ne permet pas d’éliminer les formes superficielles ou péritonéales.
 - Les examens radiologiques peuvent être complétés éventuellement par d’autres examens spécifiques tels que l’échographie endoscopie rectale pour préciser si la cloison recto-vaginale est envahie ou non.
@@ -417,7 +416,7 @@ La grossesse met en sommeil l’endométriose.
 
 ## Est-il normal de ressentir des douleurs lors de la grossesse ?
 
-Des douleurs peuvent en effet être ressenties. L’embryon se développant, il nécessite plus de place et appuie sur les éventuels nodules ou endométriomes et tire sur les adhérences. De plus au cours du 1<sup>er</sup> et 3<sup>e</sup> trimestre de la grossesse, les ligaments « travaillent », s’étirent et cela fait mal. Toutefois, pour plus de sûreté, n’hésitez pas à consulter votre gynécologue dès que vous ressentez une douleur plus intense, surtout si elle s’apparente à des douleurs de règles et si elle est accompagnée de saignements ou fièvre.
+Des douleurs peuvent en effet être ressenties. L’embryon se développant, il nécessite plus de place et appuie sur les éventuels nodules ou endométriomes et tire sur les adhérences. De plus au cours du 1er et 3e trimestre de la grossesse, les ligaments « travaillent », s’étirent et cela fait mal. Toutefois, pour plus de sûreté, n’hésitez pas à consulter votre gynécologue dès que vous ressentez une douleur plus intense, surtout si elle s’apparente à des douleurs de règles et si elle est accompagnée de saignements ou fièvre.
 
 ## L’endométriose ou l’adénomyose ont-elles un impact sur l’accouchement ou le risque de fausses couches ?
 

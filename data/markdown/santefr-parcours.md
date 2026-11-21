@@ -86,7 +86,3 @@ Les professionnels de santé identifiés par la filière et mobilisés à ce niv
 - des algologues.
 
 **En savoir plus :**
-
-Le Service Public d’Information en Santé, au sein du Ministère de la santé et de l'accès aux soins, associe les institutions et agences publiques missionnées dans les champs de la santé, ainsi que les partenaires privés à but non lucratif (associations, ordres professionnels, sociétés savantes, universités…).
-
-La démarche vise à assurer la cohérence et la cohésion des actions autour d’une vision commune de l’information publique en santé prévoyant également l’élaboration d’outils favorisant l’implication des usagers au processus d’amélioration du système de santé.

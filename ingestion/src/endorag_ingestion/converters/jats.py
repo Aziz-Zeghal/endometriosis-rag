@@ -1,6 +1,6 @@
-"""JATS XML (open-access journal full text) to Markdown with docling. No models are loaded."""
+"""JATS XML (open-access journal full text) to a DoclingDocument with docling. No models."""
 
-from endorag_ingestion.converters.cleaning import clean_markdown
+from endorag_ingestion.converters.cleaning import to_converted
 from endorag_ingestion.core import ConvertedDocument, Converter, RawDocument
 
 
@@ -17,8 +17,4 @@ class JatsConverter(Converter):
         return self._docling
 
     def convert(self, raw: RawDocument) -> ConvertedDocument:
-        result = self._converter().convert(raw.path)
-        markdown = clean_markdown(result.document.export_to_markdown(image_placeholder=""))
-        if not markdown.strip():
-            raise ValueError(f"{raw.entry.id}: docling extracted no content from the XML")
-        return ConvertedDocument(entry=raw.entry, markdown=markdown, retrieved=raw.retrieved)
+        return to_converted(raw, self._converter().convert(raw.path).document)

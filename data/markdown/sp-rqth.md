@@ -74,11 +74,9 @@ Si la qualité de travailleur handicapé ne vous est pas reconnue parce que la C
 
 ###### Où s’adresser ?
 
-- France Travail pour demandeurs d'emploi - 3949 **Par téléphone**
-**39 49**
-  - Pour actualiser votre situation, signaler un changement de situation, vous informer d'un paiement : service automatisé 7 jours/7, 24 heures/24 - Service gratuit + prix appel
-  - Pour être mis en relation avec un conseiller pour vous inscrire, vous renseigner, modifier un rendez-vous : service accessible aux horaires fixés par chaque agence France Travail (anciennement Pôle emploi) - Service gratuit + prix appel
-**Depuis l'étranger : + 33 1 77 86 39 49**
+- France Travail pour demandeurs d'emploi - 3949 **Par téléphone 39 49**
+    - Pour actualiser votre situation, signaler un changement de situation, vous informer d'un paiement : service automatisé 7 jours/7, 24 heures/24 - Service gratuit + prix appel
+    - Pour être mis en relation avec un conseiller pour vous inscrire, vous renseigner, modifier un rendez-vous : service accessible aux horaires fixés par chaque agence France Travail (anciennement Pôle emploi) - Service gratuit + prix appel **Depuis l'étranger : + 33 1 77 86 39 49**
 
 Lorsque la RQTH est accordée, vous recevez un courrier attestant que vous avez la qualité de travailleur handicapé reconnue par la CDAPH.
 

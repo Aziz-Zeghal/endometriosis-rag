@@ -1,0 +1,423 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 5718604546111534854,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Endom\u00e9triose : en quoi consiste le test salivaire de l\u2019endom\u00e9triose ?",
+      "text": "Endom\u00e9triose : en quoi consiste le test salivaire de l\u2019endom\u00e9triose ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Publi\u00e9 le 26/03/2025",
+      "text": "Publi\u00e9 le 26/03/2025"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9",
+      "text": "Information propos\u00e9e par Service Public d\u2019Information en Sant\u00e9"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bien que l\u2019endom\u00e9triose touche pr\u00e8s d\u20191 femme sur 10, la maladie est souvent diagnostiqu\u00e9e tardivement. C\u2019est pourquoi, suivant l\u2019avis de la Haute autorit\u00e9 de sant\u00e9 (HAS), le minist\u00e8re de la Sant\u00e9 vient d\u2019autoriser la prise en charge d\u2019un test salivaire. Celui-ci reste prescrit uniquement en 3e intention, mais pourrait d\u00e9j\u00e0 b\u00e9n\u00e9ficier \u00e0 pr\u00e8s de 25 000 patientes dans les prochains mois \u00e0 compter de f\u00e9vrier 2025. Explications.",
+      "text": "Bien que l\u2019endom\u00e9triose touche pr\u00e8s d\u20191 femme sur 10, la maladie est souvent diagnostiqu\u00e9e tardivement. C\u2019est pourquoi, suivant l\u2019avis de la Haute autorit\u00e9 de sant\u00e9 (HAS), le minist\u00e8re de la Sant\u00e9 vient d\u2019autoriser la prise en charge d\u2019un test salivaire. Celui-ci reste prescrit uniquement en 3e intention, mais pourrait d\u00e9j\u00e0 b\u00e9n\u00e9ficier \u00e0 pr\u00e8s de 25 000 patientes dans les prochains mois \u00e0 compter de f\u00e9vrier 2025. Explications."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "7 ans en moyenne pour poser le diagnostic",
+      "text": "7 ans en moyenne pour poser le diagnostic",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019endom\u00e9triose se d\u00e9finit comme la pr\u00e9sence en dehors de la cavit\u00e9 ut\u00e9rine de tissu semblable \u00e0 celui de la muqueuse ut\u00e9rine. Lors de chaque cycle menstruel, ce tissu subit l\u2019influence des modifications hormonales. A la cl\u00e9 : des douleurs intenses pendant les r\u00e8gles ou lors des rapports sexuels, des troubles urinaires, des douleurs \u00e0 la d\u00e9f\u00e9cation, des douleurs en dehors du cycle dans le bas du ventre\u2026 et une qualit\u00e9 de vie parfois tr\u00e8s d\u00e9grad\u00e9e.",
+      "text": "L\u2019endom\u00e9triose se d\u00e9finit comme la pr\u00e9sence en dehors de la cavit\u00e9 ut\u00e9rine de tissu semblable \u00e0 celui de la muqueuse ut\u00e9rine. Lors de chaque cycle menstruel, ce tissu subit l\u2019influence des modifications hormonales. A la cl\u00e9 : des douleurs intenses pendant les r\u00e8gles ou lors des rapports sexuels, des troubles urinaires, des douleurs \u00e0 la d\u00e9f\u00e9cation, des douleurs en dehors du cycle dans le bas du ventre\u2026 et une qualit\u00e9 de vie parfois tr\u00e8s d\u00e9grad\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'endom\u00e9triose toucherait environ 10 % des femmes en \u00e2ge de procr\u00e9er, soit environ 1,5 \u00e0 2,5 millions de personnes en France. Il faut en moyenne 7 ans pour poser un diagnostic, notamment \u00e0 cause d\u2019un manque de connaissance de l\u2019endom\u00e9triose. L'am\u00e9lioration de la pr\u00e9cocit\u00e9 du diagnostic est l'un des enjeux de la Strat\u00e9gie nationale de lutte contre l'endom\u00e9triose.",
+      "text": "L'endom\u00e9triose toucherait environ 10 % des femmes en \u00e2ge de procr\u00e9er, soit environ 1,5 \u00e0 2,5 millions de personnes en France. Il faut en moyenne 7 ans pour poser un diagnostic, notamment \u00e0 cause d\u2019un manque de connaissance de l\u2019endom\u00e9triose. L'am\u00e9lioration de la pr\u00e9cocit\u00e9 du diagnostic est l'un des enjeux de la Strat\u00e9gie nationale de lutte contre l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Combien co\u00fbte ce test salivaire ?",
+      "text": "Combien co\u00fbte ce test salivaire ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En octobre 2024, la Haute autorit\u00e9 de sant\u00e9 (HAS) a donn\u00e9 un avis favorable pour la prise en charge par l\u2019Assurance maladie d\u2019un nouveau type de test dans le cas de diagnostics complexes de l\u2019endom\u00e9triose. Baptis\u00e9e Endotest\u00ae et d\u00e9velopp\u00e9e par le laboratoire lyonnais Ziwig, cette solution ne demande aux patientes qu\u2019un simple pr\u00e9l\u00e8vement salivaire. Gr\u00e2ce \u00e0 l\u2019analyse et au s\u00e9quen\u00e7age de l\u2019ARN contenu dans la salive, le test -encore \u00e0 l\u2019\u00e9tat de projet exp\u00e9rimental- permet de fournir en une dizaine de jours seulement un r\u00e9sultat estim\u00e9 fiable \u00e0 97 %.",
+      "text": "En octobre 2024, la Haute autorit\u00e9 de sant\u00e9 (HAS) a donn\u00e9 un avis favorable pour la prise en charge par l\u2019Assurance maladie d\u2019un nouveau type de test dans le cas de diagnostics complexes de l\u2019endom\u00e9triose. Baptis\u00e9e Endotest\u00ae et d\u00e9velopp\u00e9e par le laboratoire lyonnais Ziwig, cette solution ne demande aux patientes qu\u2019un simple pr\u00e9l\u00e8vement salivaire. Gr\u00e2ce \u00e0 l\u2019analyse et au s\u00e9quen\u00e7age de l\u2019ARN contenu dans la salive, le test -encore \u00e0 l\u2019\u00e9tat de projet exp\u00e9rimental- permet de fournir en une dizaine de jours seulement un r\u00e9sultat estim\u00e9 fiable \u00e0 97 %."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019avanc\u00e9e pour les patientes serait donc consid\u00e9rable, c\u2019est pourquoi le minist\u00e8re de la Sant\u00e9 a fait para\u00eetre en f\u00e9vrier 2025 un arr\u00eat\u00e9 pour suivre l\u2019avis de la HAS, et prendre en charge la solution Endotest\u00ae, dans le cadre pour l\u2019instant d\u2019un essai clinique et d\u2019une cohorte additionnelle. Pour les femmes auxquelles il sera prescrit, c\u2019est ainsi la S\u00e9curit\u00e9 sociale (via l\u2019Assurance maladie) qui paiera les plus de 800 euros que co\u00fbte aujourd\u2019hui ce test.",
+      "text": "L\u2019avanc\u00e9e pour les patientes serait donc consid\u00e9rable, c\u2019est pourquoi le minist\u00e8re de la Sant\u00e9 a fait para\u00eetre en f\u00e9vrier 2025 un arr\u00eat\u00e9 pour suivre l\u2019avis de la HAS, et prendre en charge la solution Endotest\u00ae, dans le cadre pour l\u2019instant d\u2019un essai clinique et d\u2019une cohorte additionnelle. Pour les femmes auxquelles il sera prescrit, c\u2019est ainsi la S\u00e9curit\u00e9 sociale (via l\u2019Assurance maladie) qui paiera les plus de 800 euros que co\u00fbte aujourd\u2019hui ce test."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Je pense souffrir d\u2019endom\u00e9triose, comment b\u00e9n\u00e9ficier de ce test ?",
+      "text": "Je pense souffrir d\u2019endom\u00e9triose, comment b\u00e9n\u00e9ficier de ce test ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si cette prise en charge devrait d\u00e9j\u00e0 b\u00e9n\u00e9ficier dans les prochains mois \u00e0 pr\u00e8s de 25 000 femmes, il n\u2019est pour l\u2019instant pas la solution de r\u00e9f\u00e9rence pour le diagnostic de l\u2019endom\u00e9triose et n\u2019arrive qu\u2019en 3e intention, et donc apr\u00e8s plusieurs \u00e9tapes de diagnostic dans le parcours de soin.",
+      "text": "Si cette prise en charge devrait d\u00e9j\u00e0 b\u00e9n\u00e9ficier dans les prochains mois \u00e0 pr\u00e8s de 25 000 femmes, il n\u2019est pour l\u2019instant pas la solution de r\u00e9f\u00e9rence pour le diagnostic de l\u2019endom\u00e9triose et n\u2019arrive qu\u2019en 3e intention, et donc apr\u00e8s plusieurs \u00e9tapes de diagnostic dans le parcours de soin."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le diagnostic de l\u2019endom\u00e9triose s\u2019appuie d\u2019abord sur une discussion entre le professionnel de sant\u00e9 (m\u00e9decin g\u00e9n\u00e9raliste, gyn\u00e9cologue, sage-femme) et la patiente au sujet de ses sympt\u00f4mes. Il peut \u00eatre suivi d\u2019un examen clinique gyn\u00e9cologique pour d\u00e9tecter des anomalies telles que des nodules ou des zones sensibles. Puis en 2e intention d\u2019un bilan d\u2019imagerie m\u00e9dical, s\u2019appuyant sur une \u00e9chographie et/ou une IRM.",
+      "text": "Le diagnostic de l\u2019endom\u00e9triose s\u2019appuie d\u2019abord sur une discussion entre le professionnel de sant\u00e9 (m\u00e9decin g\u00e9n\u00e9raliste, gyn\u00e9cologue, sage-femme) et la patiente au sujet de ses sympt\u00f4mes. Il peut \u00eatre suivi d\u2019un examen clinique gyn\u00e9cologique pour d\u00e9tecter des anomalies telles que des nodules ou des zones sensibles. Puis en 2e intention d\u2019un bilan d\u2019imagerie m\u00e9dical, s\u2019appuyant sur une \u00e9chographie et/ou une IRM."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutefois, ce bilan d\u2019imagerie se r\u00e9v\u00e8le parfois n\u00e9gatif ou incertain, et il ne suffit pas toujours \u00e0 confirmer les sympt\u00f4mes \u00e9voqu\u00e9s. ",
+      "text": "Toutefois, ce bilan d\u2019imagerie se r\u00e9v\u00e8le parfois n\u00e9gatif ou incertain, et il ne suffit pas toujours \u00e0 confirmer les sympt\u00f4mes \u00e9voqu\u00e9s. "
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "C\u2019est dans ce cadre et en 3e intention qu\u2019intervient \u00e0 pr\u00e9sent le test salivaire pour permettre aux patientes d\u2019\u00e9viter une coelioscopie, qui constituerait pour elles un nouvel examen invasif et parfois inutile.",
+      "text": "C\u2019est dans ce cadre et en 3e intention qu\u2019intervient \u00e0 pr\u00e9sent le test salivaire pour permettre aux patientes d\u2019\u00e9viter une coelioscopie, qui constituerait pour elles un nouvel examen invasif et parfois inutile.",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous avez des sympt\u00f4mes d\u2019endom\u00e9triose, parlez-en \u00e0 votre m\u00e9decin traitant, gyn\u00e9cologue ou sage-femme.",
+      "text": "Si vous avez des sympt\u00f4mes d\u2019endom\u00e9triose, parlez-en \u00e0 votre m\u00e9decin traitant, gyn\u00e9cologue ou sage-femme."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Pourquoi seulement 2 500 patientes sont-elles suivies dans le cadre de l\u2019essai clinique ?",
+      "text": "Pourquoi seulement 2 500 patientes sont-elles suivies dans le cadre de l\u2019essai clinique ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette prise en charge du test salivaire intervient dans le cadre de l\u2019\u00e9tude EndoBest, qui inclura 2 500 b\u00e9n\u00e9ficiaires. Celle-ci va pouvoir fournir des donn\u00e9es notamment sur la baisse du nombre de chirurgies (parfois n\u00e9cessaires au diagnostic), ou sur l\u2019impact sur la prise en charge globale des patientes.",
+      "text": "Cette prise en charge du test salivaire intervient dans le cadre de l\u2019\u00e9tude EndoBest, qui inclura 2 500 b\u00e9n\u00e9ficiaires. Celle-ci va pouvoir fournir des donn\u00e9es notamment sur la baisse du nombre de chirurgies (parfois n\u00e9cessaires au diagnostic), ou sur l\u2019impact sur la prise en charge globale des patientes."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette \u00e9tude se d\u00e9roule dans le cadre du forfait innovation, qui est un dispositif d\u00e9rogatoire et temporaire de soutien financier \u00e0 des technologies innovantes en phase pr\u00e9coce de d\u00e9veloppement clinique, port\u00e9 par le minist\u00e8re de la sant\u00e9.",
+      "text": "Cette \u00e9tude se d\u00e9roule dans le cadre du forfait innovation, qui est un dispositif d\u00e9rogatoire et temporaire de soutien financier \u00e0 des technologies innovantes en phase pr\u00e9coce de d\u00e9veloppement clinique, port\u00e9 par le minist\u00e8re de la sant\u00e9."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une fois les r\u00e9sultats de cette \u00e9tude connus, la HAS rendra son avis d\u00e9finitif pour autoriser ou non l\u2019inscription de la prise en charge du test dans le droit commun (il s\u2019agit actuellement d\u2019un dispositif d\u00e9rogatoire et temporaire). Le cas \u00e9ch\u00e9ant, cela permettrait \u00e0 toutes les femmes qui en ont besoin de pouvoir b\u00e9n\u00e9ficier de ce test salivaire.",
+      "text": "Une fois les r\u00e9sultats de cette \u00e9tude connus, la HAS rendra son avis d\u00e9finitif pour autoriser ou non l\u2019inscription de la prise en charge du test dans le droit commun (il s\u2019agit actuellement d\u2019un dispositif d\u00e9rogatoire et temporaire). Le cas \u00e9ch\u00e9ant, cela permettrait \u00e0 toutes les femmes qui en ont besoin de pouvoir b\u00e9n\u00e9ficier de ce test salivaire."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour aller plus loin\u202f:",
+      "text": "Pour aller plus loin\u202f:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " rendez-vous dans notre espace d\u2019information sur l\u2019endom\u00e9triose",
+      "text": " rendez-vous dans notre espace d\u2019information sur l\u2019endom\u00e9triose"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

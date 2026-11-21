@@ -1,0 +1,2031 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 3745636711596217308,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/groups/18"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/texts/69"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Traitement de l'endom\u00e9triose",
+      "text": "Traitement de l'endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cet article fait partie du dossier : Endom\u00e9triose",
+      "text": "Cet article fait partie du dossier : Endom\u00e9triose"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "09 avril 2026",
+      "text": "09 avril 2026"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour diminuer la douleur et les l\u00e9sions d\u2019endom\u00e9triose, diff\u00e9rents m\u00e9dicaments peuvent \u00eatre prescrits. Dans certains cas, une intervention chirurgicale est propos\u00e9e pour retirer les l\u00e9sions. Un soutien psychologique est parfois n\u00e9cessaire.",
+      "text": "Pour diminuer la douleur et les l\u00e9sions d\u2019endom\u00e9triose, diff\u00e9rents m\u00e9dicaments peuvent \u00eatre prescrits. Dans certains cas, une intervention chirurgicale est propos\u00e9e pour retirer les l\u00e9sions. Un soutien psychologique est parfois n\u00e9cessaire."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement hormonal de l\u2019endom\u00e9triose",
+      "text": "Le traitement hormonal de l\u2019endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le choix du traitement de l'endom\u00e9triose est personnalis\u00e9.",
+      "text": "Le choix du traitement de l'endom\u00e9triose est personnalis\u00e9."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si l'endom\u00e9triose n'est responsable d'aucun sympt\u00f4me, il est possible de ne pas mettre en route de traitement hormonal et une surveillance est propos\u00e9e pour \u00e9valuer l'\u00e9volution de la maladie.",
+      "text": "Si l'endom\u00e9triose n'est responsable d'aucun sympt\u00f4me, il est possible de ne pas mettre en route de traitement hormonal et une surveillance est propos\u00e9e pour \u00e9valuer l'\u00e9volution de la maladie."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans les autres situations, un traitement est mis en route. Il associe un traitement hormonal et un traitement antalgique.",
+      "text": "Dans les autres situations, un traitement est mis en route. Il associe un traitement hormonal et un traitement antalgique."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Afin de r\u00e9duire les ",
+      "text": "Afin de r\u00e9duire les "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u00e9sions d\u2019endom\u00e9triose",
+      "text": "l\u00e9sions d\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui sont hormono-d\u00e9pendantes et qui \u00e9voluent selon le cycle menstruel, le m\u00e9decin prescrit des m\u00e9dicaments qui provoquent l'arr\u00eat des r\u00e8gles (am\u00e9norrh\u00e9e). Gr\u00e2ce \u00e0 la suppression des r\u00e8gles et donc la disparition des saignements au niveau des l\u00e9sions d\u2019endom\u00e9triose, les douleurs s\u2019att\u00e9nuent ou disparaissent et les l\u00e9sions r\u00e9gressent. Cependant, certaines l\u00e9sions comme les adh\u00e9rences et les l\u00e9sions fibreuses cicatricielles sont insensibles aux hormones et ne r\u00e9gressent pas gr\u00e2ce \u00e0 ce traitement.",
+      "text": " qui sont hormono-d\u00e9pendantes et qui \u00e9voluent selon le cycle menstruel, le m\u00e9decin prescrit des m\u00e9dicaments qui provoquent l'arr\u00eat des r\u00e8gles (am\u00e9norrh\u00e9e). Gr\u00e2ce \u00e0 la suppression des r\u00e8gles et donc la disparition des saignements au niveau des l\u00e9sions d\u2019endom\u00e9triose, les douleurs s\u2019att\u00e9nuent ou disparaissent et les l\u00e9sions r\u00e9gressent. Cependant, certaines l\u00e9sions comme les adh\u00e9rences et les l\u00e9sions fibreuses cicatricielles sont insensibles aux hormones et ne r\u00e9gressent pas gr\u00e2ce \u00e0 ce traitement."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Fix\u00e9 en concertation avec la jeune femme, il tient compte des contre-indications des m\u00e9dicaments, de leurs effets ind\u00e9sirables possibles et de l'\u00e9tat de sant\u00e9 de la personne.",
+      "text": "Fix\u00e9 en concertation avec la jeune femme, il tient compte des contre-indications des m\u00e9dicaments, de leurs effets ind\u00e9sirables possibles et de l'\u00e9tat de sant\u00e9 de la personne."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un traitement hormonal de premi\u00e8re intention",
+      "text": "Un traitement hormonal de premi\u00e8re intention",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La contraception estroprogestative : certains contraceptifs estroprogestatifs utilis\u00e9s en continu suppriment les r\u00e8gles.",
+      "text": "La contraception estroprogestative : certains contraceptifs estroprogestatifs utilis\u00e9s en continu suppriment les r\u00e8gles.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La pose d'un syst\u00e8me intra-ut\u00e9rin au l\u00e9vonorgestrel (st\u00e9rilet ou dispositif intra-ut\u00e9rin).",
+      "text": "La pose d'un syst\u00e8me intra-ut\u00e9rin au l\u00e9vonorgestrel (st\u00e9rilet ou dispositif intra-ut\u00e9rin).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un traitement hormonal de deuxi\u00e8me intention",
+      "text": "Un traitement hormonal de deuxi\u00e8me intention",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La contraception microprogestative orale\u00a0au ",
+      "text": "La contraception microprogestative orale\u00a0au "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u00e9sogestrel",
+      "text": "d\u00e9sogestrel",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'implant \u00e0 l'\u00e9tonogestrel",
+      "text": "L'implant \u00e0 l'\u00e9tonogestrel",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Il s'agit d'un implant sous-cutan\u00e9, de longue dur\u00e9e d'action, lib\u00e9rant un progestatif.",
+      "text": ". Il s'agit d'un implant sous-cutan\u00e9, de longue dur\u00e9e d'action, lib\u00e9rant un progestatif."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Le di\u00e9nogest, hormone qui a un puissant effet progestatif.",
+      "text": "Le di\u00e9nogest, hormone qui a un puissant effet progestatif.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un traitement hormonal de troisi\u00e8me intention",
+      "text": "Un traitement hormonal de troisi\u00e8me intention",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "L\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran\u00ae)",
+      "text": "L\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran\u00ae)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La Haute Autorit\u00e9 se sant\u00e9 pr\u00e9cise qu'en l\u2019absence de donn\u00e9es r\u00e9centes, la place de l\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran\u00ae) dans le traitement de l\u2019endom\u00e9triose ne peut pas \u00eatre pr\u00e9cis\u00e9e. Si vous \u00eates ou avez \u00e9t\u00e9 trait\u00e9e par ce m\u00e9dicament, parlez-en \u00e0 votre m\u00e9decin.",
+      "text": "La Haute Autorit\u00e9 se sant\u00e9 pr\u00e9cise qu'en l\u2019absence de donn\u00e9es r\u00e9centes, la place de l\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran\u00ae) dans le traitement de l\u2019endom\u00e9triose ne peut pas \u00eatre pr\u00e9cis\u00e9e. Si vous \u00eates ou avez \u00e9t\u00e9 trait\u00e9e par ce m\u00e9dicament, parlez-en \u00e0 votre m\u00e9decin."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Il existe un risque augment\u00e9 de m\u00e9ningiome (tumeur, le plus souvent b\u00e9nigne, des m\u00e9ninges, enveloppes du cerveau et de la moelle \u00e9pini\u00e8re) associ\u00e9 \u00e0 l\u2019utilisation d\u2019ac\u00e9tate de nom\u00e9gestrol (Lut\u00e9nyl\u00ae et g\u00e9n\u00e9riques) et d\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran\u00ae et g\u00e9n\u00e9riques), surtout si le traitement est prolong\u00e9. C'est pourquoi, si le traitement est poursuivi au-del\u00e0 d\u2019un an, toute dispensation de ces m\u00e9dicaments en pharmacie n\u00e9cessitera de pr\u00e9senter une attestation annuelle d\u2019information co-sign\u00e9e par la patiente et son m\u00e9decin",
+      "text": "Il existe un risque augment\u00e9 de m\u00e9ningiome (tumeur, le plus souvent b\u00e9nigne, des m\u00e9ninges, enveloppes du cerveau et de la moelle \u00e9pini\u00e8re) associ\u00e9 \u00e0 l\u2019utilisation d\u2019ac\u00e9tate de nom\u00e9gestrol (Lut\u00e9nyl\u00ae et g\u00e9n\u00e9riques) et d\u2019ac\u00e9tate de chlormadinone (Lut\u00e9ran\u00ae et g\u00e9n\u00e9riques), surtout si le traitement est prolong\u00e9. C'est pourquoi, si le traitement est poursuivi au-del\u00e0 d\u2019un an, toute dispensation de ces m\u00e9dicaments en pharmacie n\u00e9cessitera de pr\u00e9senter une attestation annuelle d\u2019information co-sign\u00e9e par la patiente et son m\u00e9decin"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous prenez l'un de ces m\u00e9dicaments, parlez-en \u00e0 votre m\u00e9decin.",
+      "text": "Si vous prenez l'un de ces m\u00e9dicaments, parlez-en \u00e0 votre m\u00e9decin."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Les analogues de la gonadoliberine (GnRH)",
+      "text": "Les analogues de la gonadoliberine (GnRH)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces m\u00e9dicaments emp\u00eachent la production d\u2019hormones gonadotropes, qui stimulent les ovaires et provoquent par cons\u00e9quent une baisse du taux d\u2019estrog\u00e8nes (hypo-estrog\u00e9nie). Il s\u2019en suit la suppression des r\u00e8gles (am\u00e9norrh\u00e9e) et simultan\u00e9ment la disparition des saignements au niveau des l\u00e9sions d\u2019endom\u00e9triose.",
+      "text": "Ces m\u00e9dicaments emp\u00eachent la production d\u2019hormones gonadotropes, qui stimulent les ovaires et provoquent par cons\u00e9quent une baisse du taux d\u2019estrog\u00e8nes (hypo-estrog\u00e9nie). Il s\u2019en suit la suppression des r\u00e8gles (am\u00e9norrh\u00e9e) et simultan\u00e9ment la disparition des saignements au niveau des l\u00e9sions d\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ces m\u00e9dicaments sont prescrits sur une dur\u00e9e de 3 \u00e0 6\u00a0mois, au maximum d'un an.",
+      "text": "Ces m\u00e9dicaments sont prescrits sur une dur\u00e9e de 3 \u00e0 6\u00a0mois, au maximum d'un an."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ils pr\u00e9sentent des effets secondaires (bouff\u00e9es de chaleur, s\u00e9cheresse cutan\u00e9e, d\u00e9min\u00e9ralisation osseuse ou ost\u00e9oporose, li\u00e9s \u00e0 l\u2019hypo-estrog\u00e9nie qu'ils induisent. Ceux-ci sont corrig\u00e9s par l'",
+      "text": "Ils pr\u00e9sentent des effets secondaires (bouff\u00e9es de chaleur, s\u00e9cheresse cutan\u00e9e, d\u00e9min\u00e9ralisation osseuse ou ost\u00e9oporose, li\u00e9s \u00e0 l\u2019hypo-estrog\u00e9nie qu'ils induisent. Ceux-ci sont corrig\u00e9s par l'"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "add-back therapie",
+      "text": "add-back therapie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " qui consiste \u00e0 r\u00e9introduire,\u00a0avant le 3\u00e8me mois de traitement, un peu d\u2019estrog\u00e8nes dans l\u2019organisme, sous contr\u00f4le m\u00e9dical.",
+      "text": " qui consiste \u00e0 r\u00e9introduire,\u00a0avant le 3\u00e8me mois de traitement, un peu d\u2019estrog\u00e8nes dans l\u2019organisme, sous contr\u00f4le m\u00e9dical."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement des douleurs de l'endom\u00e9triose",
+      "text": "Le traitement des douleurs de l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le processus douloureux dans l'endom\u00e9triose",
+      "text": "Le processus douloureux dans l'endom\u00e9triose",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les douleurs sont li\u00e9es :",
+      "text": "Les douleurs sont li\u00e9es :"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "au processus inflammatoire ;",
+      "text": "au processus inflammatoire ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\u00e0 l'irritation de terminaisons nerveuses. Dans l'endom\u00e9triose, les douleurs sont essentiellement neuropathiques car dues \u00e0 une irritation des petits nerfs caus\u00e9e par les l\u00e9sions. Elles se manifestent sous forme de douleurs continues lancinantes et/ou par \u00e0 coups \u00e0 type d'\u00e9lancements souvent violents, ou de coups de poignard ;",
+      "text": "\u00e0 l'irritation de terminaisons nerveuses. Dans l'endom\u00e9triose, les douleurs sont essentiellement neuropathiques car dues \u00e0 une irritation des petits nerfs caus\u00e9e par les l\u00e9sions. Elles se manifestent sous forme de douleurs continues lancinantes et/ou par \u00e0 coups \u00e0 type d'\u00e9lancements souvent violents, ou de coups de poignard ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "et \u00e0 l'immobilit\u00e9 des tissus du bassin, \u00e0 vis\u00e9e antalgique, par r\u00e9action aux douleurs. Ainsi il existe un vrai cercle vicieux entre la douleur initialement nerveuse et ses cons\u00e9quences sur l'immobilit\u00e9 tissulaire elle-m\u00eame responsable de douleurs.",
+      "text": "et \u00e0 l'immobilit\u00e9 des tissus du bassin, \u00e0 vis\u00e9e antalgique, par r\u00e9action aux douleurs. Ainsi il existe un vrai cercle vicieux entre la douleur initialement nerveuse et ses cons\u00e9quences sur l'immobilit\u00e9 tissulaire elle-m\u00eame responsable de douleurs.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si les douleurs ne sont pas soulag\u00e9es de fa\u00e7on durable, le cerveau devient tr\u00e8s sensible au douleurs r\u00e9p\u00e9t\u00e9es, ce qui augmente le ressenti douloureux.",
+      "text": "Si les douleurs ne sont pas soulag\u00e9es de fa\u00e7on durable, le cerveau devient tr\u00e8s sensible au douleurs r\u00e9p\u00e9t\u00e9es, ce qui augmente le ressenti douloureux."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour am\u00e9liorer la qualit\u00e9 de vie, il est important de mettre en route le plus t\u00f4t possible un traitement contre la douleur. La prise en charge de la douleur est adapt\u00e9e \u00e0 chaque patiente.",
+      "text": "Pour am\u00e9liorer la qualit\u00e9 de vie, il est important de mettre en route le plus t\u00f4t possible un traitement contre la douleur. La prise en charge de la douleur est adapt\u00e9e \u00e0 chaque patiente."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quels m\u00e9dicaments antalgiques ?",
+      "text": "Quels m\u00e9dicaments antalgiques ?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour att\u00e9nuer les ",
+      "text": "Pour att\u00e9nuer les "
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "douleurs li\u00e9es \u00e0 l'endom\u00e9triose",
+      "text": "douleurs li\u00e9es \u00e0 l'endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", le m\u00e9decin prescrit des antalgiques en proc\u00e9dant par paliers selon leur efficacit\u00e9 (parac\u00e9tamol, anti-inflammatoires non st\u00e9ro\u00efdiens ou antalgiques plus puissants si n\u00e9cessaire).",
+      "text": ", le m\u00e9decin prescrit des antalgiques en proc\u00e9dant par paliers selon leur efficacit\u00e9 (parac\u00e9tamol, anti-inflammatoires non st\u00e9ro\u00efdiens ou antalgiques plus puissants si n\u00e9cessaire)."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) ne doivent pas \u00eatre utilis\u00e9s en cas de contre-indications, ni au long cours en raison de leurs effets secondaires gastriques et r\u00e9naux. S\u2019il est n\u00e9cessaire,par exemple au cours de r\u00e8gles douloureuses, le traitement doit respecter les r\u00e8gles suivantes et \u00eatre pris sur avis m\u00e9dical :",
+      "text": "Les anti-inflammatoires non st\u00e9ro\u00efdiens (AINS) ne doivent pas \u00eatre utilis\u00e9s en cas de contre-indications, ni au long cours en raison de leurs effets secondaires gastriques et r\u00e9naux. S\u2019il est n\u00e9cessaire,par exemple au cours de r\u00e8gles douloureuses, le traitement doit respecter les r\u00e8gles suivantes et \u00eatre pris sur avis m\u00e9dical :"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Utiliser l\u2019AINS \u00e0 la dose minimale efficace.",
+      "text": "Utiliser l\u2019AINS \u00e0 la dose minimale efficace.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Ne pas d\u00e9passer 5 jours de traitement contre la douleur.",
+      "text": "Ne pas d\u00e9passer 5 jours de traitement contre la douleur.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Arr\u00eater le traitement d\u00e8s la disparition des sympt\u00f4mes.",
+      "text": "Arr\u00eater le traitement d\u00e8s la disparition des sympt\u00f4mes.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "D'autres m\u00e9dicaments agissent sur les douleurs chroniques de l'endom\u00e9triose, comme les ",
+      "text": "D'autres m\u00e9dicaments agissent sur les douleurs chroniques de l'endom\u00e9triose, comme les "
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "m\u00e9dicaments anti-\u00e9pileptiques",
+      "text": "m\u00e9dicaments anti-\u00e9pileptiques",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " ou les ",
+      "text": " ou les "
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "antid\u00e9presseurs utilis\u00e9s \u00e0 vis\u00e9e antalgique",
+      "text": "antid\u00e9presseurs utilis\u00e9s \u00e0 vis\u00e9e antalgique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Ces derniers ne sont pas choisis pour leur action antid\u00e9pressive mais pour une authentique action antalgique ind\u00e9pendante.",
+      "text": ". Ces derniers ne sont pas choisis pour leur action antid\u00e9pressive mais pour une authentique action antalgique ind\u00e9pendante."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Dans les cas de douleurs rebelles aux traitements, il peut \u00eatre utile de s\u2019adresser \u00e0 un m\u00e9decin sp\u00e9cialiste de la prise en charge de la douleur dans un centre antidouleur.",
+      "text": "Dans les cas de douleurs rebelles aux traitements, il peut \u00eatre utile de s\u2019adresser \u00e0 un m\u00e9decin sp\u00e9cialiste de la prise en charge de la douleur dans un centre antidouleur."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "D'autres approches pour soulager la douleur de l'endom\u00e9triose",
+      "text": "D'autres approches pour soulager la douleur de l'endom\u00e9triose",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Des th\u00e9rapies non m\u00e9dicamenteuses sont souvent utiles pour am\u00e9liorer la qualit\u00e9 de vie et lutter contre la douleur, en compl\u00e9ment de la prise en charge m\u00e9dicale :",
+      "text": "Des th\u00e9rapies non m\u00e9dicamenteuses sont souvent utiles pour am\u00e9liorer la qualit\u00e9 de vie et lutter contre la douleur, en compl\u00e9ment de la prise en charge m\u00e9dicale :"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019acupuncture ;",
+      "text": "l\u2019acupuncture ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "l\u2019ost\u00e9opathie : th\u00e9rapie manuelle non manipulative, telle que la fasciath\u00e9rapie pour son action sur les tissus de la r\u00e9gion pelvienne.",
+      "text": "l\u2019ost\u00e9opathie : th\u00e9rapie manuelle non manipulative, telle que la fasciath\u00e9rapie pour son action sur les tissus de la r\u00e9gion pelvienne.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour soulager l'anxi\u00e9t\u00e9 et le stress, provoqu\u00e9s par les douleurs et qui les entretiennent, il existe plusieurs approches comme la psychoth\u00e9rapie, ou d'autres techniques telles que le yoga, la relaxation, la sophrologie ou l'hypnose.",
+      "text": "Pour soulager l'anxi\u00e9t\u00e9 et le stress, provoqu\u00e9s par les douleurs et qui les entretiennent, il existe plusieurs approches comme la psychoth\u00e9rapie, ou d'autres techniques telles que le yoga, la relaxation, la sophrologie ou l'hypnose."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Sympt\u00f4mes d'intestin irritable associ\u00e9s",
+      "text": "Sympt\u00f4mes d'intestin irritable associ\u00e9s",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'endom\u00e9triose est souvent associ\u00e9e \u00e0 des sympt\u00f4mes d'intestin irritable. Dans ce cas, une approche di\u00e9t\u00e9tique est souvent n\u00e9cessaire.",
+      "text": "L'endom\u00e9triose est souvent associ\u00e9e \u00e0 des sympt\u00f4mes d'intestin irritable. Dans ce cas, une approche di\u00e9t\u00e9tique est souvent n\u00e9cessaire."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lire\u00a0: Comment traiter un syndrome de l'intestin irritable\u00a0?",
+      "text": "Lire\u00a0: Comment traiter un syndrome de l'intestin irritable\u00a0?"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Le traitement chirurgical de l'endom\u00e9triose",
+      "text": "Le traitement chirurgical de l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une intervention chirurgicale peut \u00eatre n\u00e9cessaire. Elle est alors programm\u00e9e en concertation avec plusieurs sp\u00e9cialistes : gyn\u00e9co-obst\u00e9tricien, urologue (sp\u00e9cialiste de l\u2019appareil urinaire), chirurgien digestif, etc.",
+      "text": "Une intervention chirurgicale peut \u00eatre n\u00e9cessaire. Elle est alors programm\u00e9e en concertation avec plusieurs sp\u00e9cialistes : gyn\u00e9co-obst\u00e9tricien, urologue (sp\u00e9cialiste de l\u2019appareil urinaire), chirurgien digestif, etc."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Cette chirurgie est complexe, surtout si des l\u00e9sions sont implant\u00e9es sur des organes fonctionnels (vessie, rectum, colon, etc.). Elle doit donc \u00eatre men\u00e9e par des chirurgiens experts de l\u2019endom\u00e9triose.",
+      "text": "Cette chirurgie est complexe, surtout si des l\u00e9sions sont implant\u00e9es sur des organes fonctionnels (vessie, rectum, colon, etc.). Elle doit donc \u00eatre men\u00e9e par des chirurgiens experts de l\u2019endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L'int\u00e9r\u00eat de la chirurgie est \u00e9tudi\u00e9 :",
+      "text": "L'int\u00e9r\u00eat de la chirurgie est \u00e9tudi\u00e9 :"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "en cas d\u2019",
+      "text": "en cas d\u2019"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose",
+      "text": "endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " douloureuse, non contr\u00f4l\u00e9 par le traitement m\u00e9dicamenteux\u00a0;",
+      "text": " douloureuse, non contr\u00f4l\u00e9 par le traitement m\u00e9dicamenteux\u00a0;"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "en pr\u00e9sence d'une infertilit\u00e9 avec d\u00e9sir de grossesse et selon les organes atteints par l'endom\u00e9triose, sous r\u00e9serve que la chirurgie apporte plus d\u2019avantages (ex. : diminution des douleurs, am\u00e9lioration de la f\u00e9condit\u00e9) que d\u2019inconv\u00e9nients (ex. : incontinence urinaire).",
+      "text": "en pr\u00e9sence d'une infertilit\u00e9 avec d\u00e9sir de grossesse et selon les organes atteints par l'endom\u00e9triose, sous r\u00e9serve que la chirurgie apporte plus d\u2019avantages (ex. : diminution des douleurs, am\u00e9lioration de la f\u00e9condit\u00e9) que d\u2019inconv\u00e9nients (ex. : incontinence urinaire).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019intervention permet dans un premier temps de faire le point sur l\u2019\u00e9tendue et la nature des ",
+      "text": "L\u2019intervention permet dans un premier temps de faire le point sur l\u2019\u00e9tendue et la nature des "
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "l\u00e9sions d\u2019endom\u00e9triose",
+      "text": "l\u00e9sions d\u2019endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Puis, elle consiste \u00e0 d\u00e9truire les l\u00e9sions (par coagulation ou vaporisation au laser) ou \u00e0 les retirer (ex\u00e9r\u00e8se).\u00a0La difficult\u00e9 chirurgicale est\u00a0augment\u00e9e par la pr\u00e9sence de petites l\u00e9sions diss\u00e9min\u00e9es.\u00a0La chirurgie\u00a0est r\u00e9alis\u00e9e le plus souvent sous c\u0153lioscopie, technique\u00a0qui facilite les suites op\u00e9ratoires et limite les adh\u00e9rences.",
+      "text": ". Puis, elle consiste \u00e0 d\u00e9truire les l\u00e9sions (par coagulation ou vaporisation au laser) ou \u00e0 les retirer (ex\u00e9r\u00e8se).\u00a0La difficult\u00e9 chirurgicale est\u00a0augment\u00e9e par la pr\u00e9sence de petites l\u00e9sions diss\u00e9min\u00e9es.\u00a0La chirurgie\u00a0est r\u00e9alis\u00e9e le plus souvent sous c\u0153lioscopie, technique\u00a0qui facilite les suites op\u00e9ratoires et limite les adh\u00e9rences."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas d\u2019",
+      "text": "En cas d\u2019"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "endom\u00e9triose",
+      "text": "endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " profonde ou \u00e9tendue, une laparotomie (ouverture de la paroi abdominale) peut \u00eatre n\u00e9cessaire et\u00a0l'intervention est longue. Parfois l\u2019ablation d une l\u00e9sion digestive basse du rectum n\u00e9cessite la mise en place d'une poche de d\u00e9rivation des mati\u00e8res f\u00e9cales pendant 1 \u00e0 2\u00a0mois.",
+      "text": " profonde ou \u00e9tendue, une laparotomie (ouverture de la paroi abdominale) peut \u00eatre n\u00e9cessaire et\u00a0l'intervention est longue. Parfois l\u2019ablation d une l\u00e9sion digestive basse du rectum n\u00e9cessite la mise en place d'une poche de d\u00e9rivation des mati\u00e8res f\u00e9cales pendant 1 \u00e0 2\u00a0mois."
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Apr\u00e8s l\u2019op\u00e9ration, un traitement hormonal est prescrit, en l'absence de d\u00e9sir de grossesse, pour r\u00e9duire le risque de r\u00e9cidive douloureuse.",
+      "text": "Apr\u00e8s l\u2019op\u00e9ration, un traitement hormonal est prescrit, en l'absence de d\u00e9sir de grossesse, pour r\u00e9duire le risque de r\u00e9cidive douloureuse."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter\u00a0:",
+      "text": "\u00c0 noter\u00a0:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Avant d'\u00eatre op\u00e9r\u00e9(e), une consultation est obligatoire aupr\u00e8s d'un m\u00e9decin anesth\u00e9siste.",
+      "text": " Avant d'\u00eatre op\u00e9r\u00e9(e), une consultation est obligatoire aupr\u00e8s d'un m\u00e9decin anesth\u00e9siste."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Crit\u00e8res d'admission de l'endom\u00e9triose en ALD 31",
+      "text": "Crit\u00e8res d'admission de l'endom\u00e9triose en ALD 31",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour ",
+      "text": "Pour "
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les formes d'endom\u00e9triose",
+      "text": "les formes d'endom\u00e9triose",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " impactant la qualit\u00e9 de vie et n\u00e9cessitant, au cours de leur \u00e9volution, des examens et des soins nombreux, un acc\u00e8s \u00e0 la prise en charge \u00e0 100\u00a0% au titre de l'ALD\u00a031 (affection hors liste des 30 ALD) est possible si les crit\u00e8res d'admission sont remplis.",
+      "text": " impactant la qualit\u00e9 de vie et n\u00e9cessitant, au cours de leur \u00e9volution, des examens et des soins nombreux, un acc\u00e8s \u00e0 la prise en charge \u00e0 100\u00a0% au titre de l'ALD\u00a031 (affection hors liste des 30 ALD) est possible si les crit\u00e8res d'admission sont remplis."
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quels sont les crit\u00e8res d'admission en ALD 31 ?",
+      "text": "Quels sont les crit\u00e8res d'admission en ALD 31 ?",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une ALD dite \u00ab hors liste \u00bb ou ALD 31 est une maladie grave qui n'est pas dans la liste des 30 ALD, qui \u00e9volue sur une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois et dont le traitement est particuli\u00e8rement co\u00fbteux.",
+      "text": "Une ALD dite \u00ab hors liste \u00bb ou ALD 31 est une maladie grave qui n'est pas dans la liste des 30 ALD, qui \u00e9volue sur une dur\u00e9e pr\u00e9visible sup\u00e9rieure \u00e0 6 mois et dont le traitement est particuli\u00e8rement co\u00fbteux."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour que les examens et les soins soient accept\u00e9s en ALD hors liste 31, la prise en charge de l'endom\u00e9triose doit comprendre obligatoirement un traitement m\u00e9dicamenteux.",
+      "text": "Pour que les examens et les soins soient accept\u00e9s en ALD hors liste 31, la prise en charge de l'endom\u00e9triose doit comprendre obligatoirement un traitement m\u00e9dicamenteux."
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "2 crit\u00e8res parmi les 4 suivants sont \u00e9galement obligatoires et doivent donc \u00eatre pr\u00e9sents :",
+      "text": "2 crit\u00e8res parmi les 4 suivants sont \u00e9galement obligatoires et doivent donc \u00eatre pr\u00e9sents :"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "une hospitalisation \u00e0 venir ;",
+      "text": "une hospitalisation \u00e0 venir ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s ;",
+      "text": "des actes techniques m\u00e9dicaux r\u00e9p\u00e9t\u00e9s ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des actes biologiques r\u00e9p\u00e9t\u00e9s ;",
+      "text": "des actes biologiques r\u00e9p\u00e9t\u00e9s ;",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "des soins param\u00e9dicaux fr\u00e9quents et r\u00e9guliers.",
+      "text": "des soins param\u00e9dicaux fr\u00e9quents et r\u00e9guliers.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Un podcast pour comprendre la sant\u00e9 gyn\u00e9cologique des femmes",
+      "text": "Un podcast pour comprendre la sant\u00e9 gyn\u00e9cologique des femmes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019Assurance Maladie consacre un \u00e9pisode de son podcast \u00ab 50 % \u00bb \u00e0 la sant\u00e9 gyn\u00e9cologique et hormonale des femmes. Endom\u00e9triose, p\u00e9rim\u00e9nopause, m\u00e9nopause : cet \u00e9pisode explore des sujets qui sont longtemps rest\u00e9s invisibles ou tabous et met en avant les actions men\u00e9es pour am\u00e9liorer le rep\u00e9rage, l\u2019information et l\u2019accompagnement des femmes.",
+      "text": "L\u2019Assurance Maladie consacre un \u00e9pisode de son podcast \u00ab 50 % \u00bb \u00e0 la sant\u00e9 gyn\u00e9cologique et hormonale des femmes. Endom\u00e9triose, p\u00e9rim\u00e9nopause, m\u00e9nopause : cet \u00e9pisode explore des sujets qui sont longtemps rest\u00e9s invisibles ou tabous et met en avant les actions men\u00e9es pour am\u00e9liorer le rep\u00e9rage, l\u2019information et l\u2019accompagnement des femmes."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Haute Autorit\u00e9 de sant\u00e9. Prise en charge de l'endom\u00e9triose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 [consult\u00e9 le 18 juin 2025]",
+      "text": "Haute Autorit\u00e9 de sant\u00e9. Prise en charge de l'endom\u00e9triose. Site internet : HAS. Saint-Denis La Plaine (France) ; 2018 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Haute Autorit\u00e9 de sant\u00e9. Place des diff\u00e9rents examens d\u2019imagerie pour le diagnostic d\u2019endom\u00e9triose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 6 juin 2025]",
+      "text": "Haute Autorit\u00e9 de sant\u00e9. Place des diff\u00e9rents examens d\u2019imagerie pour le diagnostic d\u2019endom\u00e9triose. Recommandations de bonne pratique. Site internet : HAS. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 6 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "text": "National Health service (NHS). Endometriosis. Site internet : NHS. Londres ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Endom\u00e9triose. Site internet : Inserm. Paris ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "text": "Institut national de la sant\u00e9 et de la recherche m\u00e9dicale. Endom\u00e9triose. Site internet : Inserm. Paris ; 2024 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Closon F, Brichant G, Tebache L, Pinzauti S, Nisolle M. L'endom\u00e9triose de l'adolescente. M\u00e9decine th\u00e9rapeutique / M\u00e9decine de la reproduction, gyn\u00e9cologie et endocrinologie. 2013;15(3):228-33",
+      "text": "Closon F, Brichant G, Tebache L, Pinzauti S, Nisolle M. L'endom\u00e9triose de l'adolescente. M\u00e9decine th\u00e9rapeutique / M\u00e9decine de la reproduction, gyn\u00e9cologie et endocrinologie. 2013;15(3):228-33",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Endom\u00e9triose. Site internet : Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "text": "Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Endom\u00e9triose. Site internet : Minist\u00e8re du Travail, de la sant\u00e9, des solidarit\u00e9s et de la famille. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Resendo. R\u00e9seau ville-h\u00f4pital. L'endom\u00e9triose. Site internet : Resendo. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "text": "Resendo. R\u00e9seau ville-h\u00f4pital. L'endom\u00e9triose. Site internet : Resendo. Paris ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Progestatifs et risque de m\u00e9ningiome : recommandations pour limiter ce risque. Site internet : Ansm. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "text": "Agence nationale de s\u00e9curit\u00e9 du m\u00e9dicament et des produits de sant\u00e9. Progestatifs et risque de m\u00e9ningiome : recommandations pour limiter ce risque. Site internet : Ansm. Saint-Denis La Plaine (France) ; 2025 [consult\u00e9 le 18 juin 2025]",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

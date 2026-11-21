@@ -1,4 +1,5 @@
-"""HTML to Markdown with trafilatura: main content only, headings kept as `#` lines."""
+"""HTML to a DoclingDocument: trafilatura extracts the main content as Markdown (headings
+kept as `#` lines), then docling's Markdown backend parses it."""
 
 import copy
 import logging
@@ -6,19 +7,20 @@ import re
 from io import BytesIO
 
 import trafilatura
+from docling_core.types.doc import DoclingDocument
 from lxml import etree
 from trafilatura.utils import load_html
 
-from endorag_ingestion.converters.cleaning import clean_markdown
+from endorag_ingestion.converters.cleaning import clean_text, to_converted
 from endorag_ingestion.core import ConvertedDocument, Converter, RawDocument
 
 logger = logging.getLogger(__name__)
 
 _MD_HEADING = re.compile(r"^#{1,6} ", re.M)
 # Page widgets, matched on class tokens: share buttons, "was this page useful?" ratings
-# and blocks the site itself hides when printing.
+# and blocks the site itself hides when printing; plus Santé.fr's "about the publisher" box.
 _WIDGET_CLASS = r"(^|[\s_-])(share|feedback|notation|no-print)([\s_-]|$)"
-_WIDGETS = f"//*[re:test(@class, '{_WIDGET_CLASS}', 'i')]"
+_WIDGETS = f"//*[re:test(@class, '{_WIDGET_CLASS}', 'i')] | //*[@id='source-info']"
 # Also dropped before the docling fallback, which keeps everything it is given.
 _CHROME = ".//nav|.//aside|.//form|.//img|.//picture|.//figure"
 _NS = {"re": "http://exslt.org/regular-expressions"}
@@ -32,6 +34,8 @@ class HtmlConverter(Converter):
     structure. If both lose them, the page's `<main>` is converted with docling's HTML
     backend: trafilatura keeps only the first block matching its content selectors, which
     drops pages split into many `class="content"` blocks (Santé.fr filières).
+
+    Either way the result is a DoclingDocument, chunked like the PDFs; HTML has no pages.
     """
 
     def convert(self, raw: RawDocument) -> ConvertedDocument:
@@ -56,12 +60,10 @@ class HtmlConverter(Converter):
         if poor(markdown):
             logger.warning("%s: trafilatura lost headings or text", raw.entry.id)
             if main is not None:
-                markdown = _docling(main)
+                return to_converted(raw, _docling_main(main))
         if not markdown:
             raise ValueError(f"{raw.entry.id}: no content extracted")
-        return ConvertedDocument(
-            entry=raw.entry, markdown=clean_markdown(markdown), retrieved=raw.retrieved
-        )
+        return to_converted(raw, to_docling(clean_text(markdown).encode(), "page.md"))
 
 
 def _extract(tree: etree._Element, **mode: bool) -> str:
@@ -79,18 +81,23 @@ def _extract(tree: etree._Element, **mode: bool) -> str:
     )
 
 
-def _docling(main: etree._Element) -> str:
-    """Convert one element with docling's HTML backend (no models)."""
+def to_docling(content: bytes, filename: str) -> DoclingDocument:
+    """Parse HTML or Markdown (format from the file extension) with docling. No models."""
     from docling.datamodel.base_models import DocumentStream, InputFormat
     from docling.document_converter import DocumentConverter
 
+    stream = DocumentStream(name=filename, stream=BytesIO(content))
+    converter = DocumentConverter(allowed_formats=[InputFormat.HTML, InputFormat.MD])
+    return converter.convert(stream).document
+
+
+def _docling_main(main: etree._Element) -> DoclingDocument:
+    """Convert the page's <main> with docling's HTML backend, chrome removed."""
     main = copy.deepcopy(main)
     for el in main.xpath(_CHROME):
         el.drop_tree()
     html = b"<html><body>" + etree.tostring(main, encoding="utf-8") + b"</body></html>"
-    stream = DocumentStream(name="page.html", stream=BytesIO(html))
-    doc = DocumentConverter(allowed_formats=[InputFormat.HTML]).convert(stream).document
-    return doc.export_to_markdown(image_placeholder="")
+    return to_docling(html, "page.html")
 
 
 def _html_heading_count(tree: etree._Element) -> int:

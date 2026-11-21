@@ -1,0 +1,1626 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "santefr-falc-professionnels",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 5380312811614336659,
+    "filename": "santefr-falc-professionnels.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/40"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 767.4599999999999,
+            "r": 403.09672,
+            "b": 720.7550663129974,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "Quels professionnels de sant\u00e9 aller voir, si vous pensez souffrir d'endom\u00e9triose ?",
+      "text": "Quels professionnels de sant\u00e9 aller voir, si vous pensez souffrir d'endom\u00e9triose ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 688.0600000000001,
+            "r": 422.50648,
+            "b": 652.4314588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "Plusieurs professionnels de sant\u00e9 peuvent diagnostiquer l'endom\u00e9triose.",
+      "text": "Plusieurs professionnels de sant\u00e9 peuvent diagnostiquer l'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 628.5400000000001,
+            "r": 198.5492,
+            "b": 616.6714588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Le m\u00e9decin traitant.",
+      "text": "Le m\u00e9decin traitant.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 605.14288,
+            "r": 498.75688,
+            "b": 569.1514588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "C'est lui qui conna\u00eet le mieux l'\u00e9tat de sant\u00e9 de ses patientes. Il voit r\u00e9guli\u00e8rement d'autres femmes qui souffrent d'endom\u00e9triose.",
+      "text": "C'est lui qui conna\u00eet le mieux l'\u00e9tat de sant\u00e9 de ses patientes. Il voit r\u00e9guli\u00e8rement d'autres femmes qui souffrent d'endom\u00e9triose."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 545.23,
+            "r": 286.118,
+            "b": 533.3614588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "Le gyn\u00e9cologue ou la sage-femme.",
+      "text": "Le gyn\u00e9cologue ou la sage-femme.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.824,
+            "t": 509.47,
+            "r": 370.76919999999996,
+            "b": 473.8414588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose est une maladie gyn\u00e9cologique. Ces professionnels peuvent",
+      "text": "L'endom\u00e9triose est une maladie gyn\u00e9cologique. Ces professionnels peuvent"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 449.59000000000003,
+            "r": 392.72728,
+            "b": 413.8414588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "\u00b7 prescrire des examens m\u00e9dicaux pour v\u00e9rifier si c'est une endom\u00e9triose",
+      "text": "prescrire des examens m\u00e9dicaux pour v\u00e9rifier si c'est une endom\u00e9triose",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 401.47,
+            "r": 437.30536,
+            "b": 389.60145888594167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "\u00b7 prescrire des m\u00e9dicaments pour r\u00e9duire les douleurs",
+      "text": "prescrire des m\u00e9dicaments pour r\u00e9duire les douleurs",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.824,
+            "t": 377.21000000000004,
+            "r": 407.91639999999995,
+            "b": 341.5814588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "\u00b7 accompagner les femmes qui ont des difficult\u00e9s \u00e0 avoir des enfants",
+      "text": "accompagner les femmes qui ont des difficult\u00e9s \u00e0 avoir des enfants",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 293.81,
+            "t": 62.18399999999997,
+            "r": 301.586,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "9",
+      "text": "9"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 70.824,
+            "t": 768.24,
+            "r": 445.6792,
+            "b": 756.3714588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "Le diagnostic de l'endom\u00e9triose se fait en plusieurs \u00e9tapes :",
+      "text": "Le diagnostic de l'endom\u00e9triose se fait en plusieurs \u00e9tapes :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.824,
+            "t": 732.46,
+            "r": 483.95919999999995,
+            "b": 720.5914588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "1. Le professionnel de sant\u00e9 vous pose d'abord des questions :",
+      "text": "Le professionnel de sant\u00e9 vous pose d'abord des questions :",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 708.22,
+            "r": 343.52919999999995,
+            "b": 672.5914588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "\u00b7 Quels types de douleurs avez-vous, sont-elles tr\u00e8s intenses ?",
+      "text": "Quels types de douleurs avez-vous, sont-elles tr\u00e8s intenses ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 660.22,
+            "r": 515.73664,
+            "b": 648.3514588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "\u00b7 Avez-vous mal tous les mois, pendant vos r\u00e8gles par exemple ?",
+      "text": "Avez-vous mal tous les mois, pendant vos r\u00e8gles par exemple ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 635.86,
+            "r": 408.9292,
+            "b": 600.2314588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "\u00b7 A quel \u00e2ge avez-vous eu vos premi\u00e8res r\u00e8gles, sont-elles r\u00e9guli\u00e8res ?",
+      "text": "A quel \u00e2ge avez-vous eu vos premi\u00e8res r\u00e8gles, sont-elles r\u00e9guli\u00e8res ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 587.86,
+            "r": 516.45664,
+            "b": 575.9914588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "\u00b7 D'autres femmes de votre famille ont-elles aussi ces douleurs ?",
+      "text": "D'autres femmes de votre famille ont-elles aussi ces douleurs ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 563.59,
+            "r": 504.19527999999974,
+            "b": 480.44145888594164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            182
+          ]
+        }
+      ],
+      "orig": "\u00b7 Quelles sont les cons\u00e9quences sur votre vie de tous les jours, avec votre compagnon, au travail, \u2026 Par exemple, \u00eates-vous souvent absente de votre travail \u00e0 cause de ces douleurs ?",
+      "text": "Quelles sont les cons\u00e9quences sur votre vie de tous les jours, avec votre compagnon, au travail, \u2026 Par exemple, \u00eates-vous souvent absente de votre travail \u00e0 cause de ces douleurs ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 456.55,
+            "r": 462.96992,
+            "b": 420.92145888594166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "Des questionnaires sp\u00e9cifiques \u00e0 l'endom\u00e9triose existent pour mieux diagnostiquer la maladie.",
+      "text": "Des questionnaires sp\u00e9cifiques \u00e0 l'endom\u00e9triose existent pour mieux diagnostiquer la maladie."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 409.03000000000003,
+            "r": 387.3708799999999,
+            "b": 397.16145888594167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "On parle de questionnaires de qualit\u00e9 de vie.",
+      "text": "On parle de questionnaires de qualit\u00e9 de vie."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.824,
+            "t": 349.49,
+            "r": 471.90376,
+            "b": 290.2214588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "2. Ensuite, le professionnel de sant\u00e9 fait ce qu'on appelle un examen clinique, c'est-\u00e0-dire qu'il examine votre corps. Par exemple il v\u00e9rifie",
+      "text": "Ensuite, le professionnel de sant\u00e9 fait ce qu'on appelle un examen clinique, c'est-\u00e0-dire qu'il examine votre corps. Par exemple il v\u00e9rifie",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 277.85,
+            "r": 416.69607999999994,
+            "b": 265.9814588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "\u00b7 s'il y a de taches bleut\u00e9es sur la paroi du vagin,",
+      "text": "s'il y a de taches bleut\u00e9es sur la paroi du vagin,",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 106.22,
+            "t": 253.61,
+            "r": 514.0792,
+            "b": 194.1014588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            148
+          ]
+        }
+      ],
+      "orig": "\u00b7 s'il y a des douleurs pendant le toucher de l'int\u00e9rieur du vagin, Parfois, cet examen est compl\u00e9t\u00e9 par un toucher rectal, c'est-\u00e0-dire par l'anus.",
+      "text": "s'il y a des douleurs pendant le toucher de l'int\u00e9rieur du vagin, Parfois, cet examen est compl\u00e9t\u00e9 par un toucher rectal, c'est-\u00e0-dire par l'anus.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.224,
+            "t": 170.17999999999995,
+            "r": 342.69464000000005,
+            "b": 134.67145888594166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "Si le m\u00e9decin pense que c'est n\u00e9cessaire il vous prescrit d'autres examens.",
+      "text": "Si le m\u00e9decin pense que c'est n\u00e9cessaire il vous prescrit d'autres examens."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.224,
+            "t": 122.77999999999997,
+            "r": 366.40615999999994,
+            "b": 110.91145888594167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Par exemple une \u00e9chographie, un scanner, \u2026",
+      "text": "Par exemple une \u00e9chographie, un scanner, \u2026"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 290.81,
+            "t": 62.18399999999997,
+            "r": 304.58602,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 766.6800000000001,
+            "r": 392.52136,
+            "b": 731.0314588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "Pr\u00e9parez votre consultation, si possible 1 ou 2 mois avant le RDV avec votre m\u00e9decin.",
+      "text": "Pr\u00e9parez votre consultation, si possible 1 ou 2 mois avant le RDV avec votre m\u00e9decin.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 693.94,
+            "r": 380.00919999999996,
+            "b": 682.0714588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "Vous pouvez noter vos r\u00e9ponses \u00e0 ces questions :",
+      "text": "Vous pouvez noter vos r\u00e9ponses \u00e0 ces questions :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 106.22,
+            "t": 670.0628800000001,
+            "r": 392.0068,
+            "b": 634.0714588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "\u00b7 quelles sont vos douleurs, sont-elles fortes, quand avez-vous ces douleurs ?",
+      "text": "quelles sont vos douleurs, sont-elles fortes, quand avez-vous ces douleurs ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 106.22,
+            "t": 621.7,
+            "r": 453.33664,
+            "b": 609.8314588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "\u00b7 comment sont vos r\u00e8gles ? abondantes ? r\u00e9guli\u00e8res ?",
+      "text": "comment sont vos r\u00e8gles ? abondantes ? r\u00e9guli\u00e8res ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 106.22,
+            "t": 597.46,
+            "r": 484.41664,
+            "b": 561.6814588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "\u00b7 avez-vous des douleurs ailleurs que dans le bas-ventre ? comment sont-elles et quand apparaissent ces douleurs ?",
+      "text": "avez-vous des douleurs ailleurs que dans le bas-ventre ? comment sont-elles et quand apparaissent ces douleurs ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 106.22,
+            "t": 549.3100000000001,
+            "r": 447.5490399999999,
+            "b": 537.4414588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "\u00b7 avez-vous besoin d'aller plus souvent aux toilettes ?",
+      "text": "avez-vous besoin d'aller plus souvent aux toilettes ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 106.22,
+            "t": 525.07,
+            "r": 292.00664,
+            "b": 513.2014588859416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "\u00b7 avez-vous envie de vomir ?",
+      "text": "avez-vous envie de vomir ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 106.22,
+            "t": 500.83000000000004,
+            "r": 315.52664,
+            "b": 488.9614588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u00eates-vous fatigu\u00e9e, d\u00e9prim\u00e9e ?",
+      "text": "\u00eates-vous fatigu\u00e9e, d\u00e9prim\u00e9e ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 106.22,
+            "t": 476.59000000000003,
+            "r": 519.81664,
+            "b": 464.7214588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "\u00b7 avez-vous des douleurs pendant ou apr\u00e8s les rapports sexuels ?",
+      "text": "avez-vous des douleurs pendant ou apr\u00e8s les rapports sexuels ?",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 124.22,
+            "t": 452.83000000000004,
+            "r": 133.3568,
+            "b": 440.9614588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u2026",
+      "text": "\u2026"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 381.29,
+            "r": 401.97871999999984,
+            "b": 345.66145888594167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "Ces notes aident le m\u00e9decin \u00e0 rep\u00e9rer si les douleurs sont en particulier au moment des r\u00e8gles.",
+      "text": "Ces notes aident le m\u00e9decin \u00e0 rep\u00e9rer si les douleurs sont en particulier au moment des r\u00e8gles.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 333.77000000000004,
+            "r": 272.0588,
+            "b": 321.9014588859417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "Son diagnostic est plus efficace.",
+      "text": "Son diagnostic est plus efficace."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 151.82,
+            "t": 263.0,
+            "r": 513.7876,
+            "b": 199.03880636604777,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "Ce document accessible \u00e0 tous a \u00e9t\u00e9 transcrit par Com'access avec la m\u00e9thode du Facile \u00e0 Lire et \u00e0 Comprendre (FALC) Pour en savoir plus sur le FALC vous pouvez aller sur le site : www.inclusioneurope.eu/easy-to-read",
+      "text": "Ce document accessible \u00e0 tous a \u00e9t\u00e9 transcrit par Com'access avec la m\u00e9thode du Facile \u00e0 Lire et \u00e0 Comprendre (FALC) Pour en savoir plus sur le FALC vous pouvez aller sur le site : www.inclusioneurope.eu/easy-to-read"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 151.82,
+            "t": 189.89,
+            "r": 380.6510000000002,
+            "b": 180.76880636604767,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "\u00a9 Logo europ\u00e9en Facile \u00e0 lire : Inclusion Europe",
+      "text": "\u00a9 Logo europ\u00e9en Facile \u00e0 lire : Inclusion Europe"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.824,
+            "t": 153.40999999999997,
+            "r": 492.0331599999999,
+            "b": 107.68880636604774,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "Les pictogrammes sont tir\u00e9s d'une banque d'images libres de droit \u00a9Flaticon Nous remercions vivement Joanna, Julie et Tracy de l'ESAT Moskowa (association APTE) pour la relecture et la validation du document.",
+      "text": "Les pictogrammes sont tir\u00e9s d'une banque d'images libres de droit \u00a9Flaticon Nous remercions vivement Joanna, Julie et Tracy de l'ESAT Moskowa (association APTE) pour la relecture et la validation du document."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 291.65,
+            "t": 62.18399999999997,
+            "r": 303.63754,
+            "b": 50.315458885941666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "11",
+      "text": "11"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 528.622990820968,
+            "t": 619.4217328069328,
+            "r": 570.1737353474663,
+            "b": 574.568603434438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 524.3594282275719,
+            "t": 495.8168396720977,
+            "r": 561.2660633921784,
+            "b": 458.8025040245509,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 497.3844113896518,
+            "t": 536.6440149244729,
+            "r": 572.2187017453598,
+            "b": 481.89427344677847,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 515.6680619330695,
+            "t": 340.31672285573785,
+            "r": 560.7482222752924,
+            "b": 292.7838249239163,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 524.9524398291671,
+            "t": 771.864332228998,
+            "r": 569.48647105377,
+            "b": 728.3529409028912,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 70.10335085363197,
+            "t": 260.64857278058196,
+            "r": 142.8708948798468,
+            "b": 186.16065557266927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 507.2264713691866,
+            "t": 693.5365470396935,
+            "r": 542.008945926948,
+            "b": 652.2961420098167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.32,
+        "height": 841.92
+      },
+      "page_no": 3
+    }
+  }
+}

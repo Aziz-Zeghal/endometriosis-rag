@@ -1,0 +1,2762 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "endomind-fiche-symptomes",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 12271909921953730283,
+    "filename": "endomind-fiche-symptomes.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/pictures/9"
+      },
+      {
+        "$ref": "#/pictures/10"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/pictures/11"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/pictures/12"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/pictures/13"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/pictures/14"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/15"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/pictures/16"
+      },
+      {
+        "$ref": "#/pictures/17"
+      },
+      {
+        "$ref": "#/pictures/18"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 198.00929078275,
+            "t": 503.9153365540799,
+            "r": 397.48713171769725,
+            "b": 480.11871819733585,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "FICHE R\u00c9FLEXE - 1",
+      "text": "FICHE R\u00c9FLEXE - 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 137.20794670300205,
+            "t": 436.76218581534056,
+            "r": 465.9055809814621,
+            "b": 346.0641472744055,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "ENDOM\u00c9TRIOSE LES SYMPT\u00d4MES",
+      "text": "ENDOM\u00c9TRIOSE LES SYMPT\u00d4MES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 756.8249071308629,
+            "r": 144.05846053007784,
+            "b": 742.7484954548119,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "D\u00e9finition",
+      "text": "D\u00e9finition",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 733.2470440430448,
+            "r": 546.4052461998032,
+            "b": 671.7942025485725,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            303
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose est une maladie dans laquelle un tissu semblable \u00e0 celui qui tapisse l'ut\u00e9rus, appel\u00e9 l'endom\u00e8tre, se d\u00e9veloppe en dehors de celui-ci, principalement dans la r\u00e9gion pelvienne. Ce tissu peut \u00e9galement s'\u00e9tendre \u00e0 d'autres zones du corps, notamment au niveau digestif et/ou diaphragmatique.",
+      "text": "L'endom\u00e9triose est une maladie dans laquelle un tissu semblable \u00e0 celui qui tapisse l'ut\u00e9rus, appel\u00e9 l'endom\u00e8tre, se d\u00e9veloppe en dehors de celui-ci, principalement dans la r\u00e9gion pelvienne. Ce tissu peut \u00e9galement s'\u00e9tendre \u00e0 d'autres zones du corps, notamment au niveau digestif et/ou diaphragmatique."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 644.4237750142437,
+            "r": 187.16812462997268,
+            "b": 630.3473633381926,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Les sympt\u00f4mes",
+      "text": "Les sympt\u00f4mes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 620.845897526426,
+            "r": 546.4030938188367,
+            "b": 509.8743985752312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            508
+          ]
+        }
+      ],
+      "orig": "Les sympt\u00f4mes de la maladie comprennent des douleurs et divers troubles, avec un impact possible sur la fertilit\u00e9. Il existe autant de formes d'endom\u00e9triose que de personnes qui en souffrent. Ainsi, une personne peut pr\u00e9senter un ensemble de sympt\u00f4mes alors qu'une autre n'en manifeste qu'un seul, voire aucun. Pour autant, elles sont toutes deux atteintes de la maladie. Il n'existe actuellement aucun traitement curatif, mais des options sont disponibles pour soulager la douleur et am\u00e9liorer la fertilit\u00e9.",
+      "text": "Les sympt\u00f4mes de la maladie comprennent des douleurs et divers troubles, avec un impact possible sur la fertilit\u00e9. Il existe autant de formes d'endom\u00e9triose que de personnes qui en souffrent. Ainsi, une personne peut pr\u00e9senter un ensemble de sympt\u00f4mes alors qu'une autre n'en manifeste qu'un seul, voire aucun. Pour autant, elles sont toutes deux atteintes de la maladie. Il n'existe actuellement aucun traitement curatif, mais des options sont disponibles pour soulager la douleur et am\u00e9liorer la fertilit\u00e9."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 88.78318747320037,
+            "t": 434.15603497539985,
+            "r": 506.7132499923765,
+            "b": 420.0796232993488,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "LES SYMPT\u00d4MES PRINCIPAUX DE L'ENDOM\u00c9TRIOSE",
+      "text": "LES SYMPT\u00d4MES PRINCIPAUX DE L'ENDOM\u00c9TRIOSE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 98.77382997192358,
+            "t": 314.54197428909004,
+            "r": 261.10349348752976,
+            "b": 302.60779025134025,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Douleurs pendant les r\u00e8gles",
+      "text": "Douleurs pendant les r\u00e8gles"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 314.75647402014636,
+            "t": 318.5589981217141,
+            "r": 469.20122020074376,
+            "b": 290.11859493172335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Douleurs \u00e0 la d\u00e9f\u00e9cation & troubles digestifs",
+      "text": "Douleurs \u00e0 la d\u00e9f\u00e9cation & troubles digestifs"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 416.15709609762024,
+            "t": 240.13208938950208,
+            "r": 540.5136699778722,
+            "b": 211.69168619951142,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Douleurs pendant les rapports sexuels",
+      "text": "Douleurs pendant les rapports sexuels"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.1923871153171,
+            "t": 222.30652213223414,
+            "r": 176.10013152943932,
+            "b": 193.86611894224347,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Douleurs pelviennes chroniques",
+      "text": "Douleurs pelviennes chroniques"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 127.4721428161605,
+            "t": 110.51791079009308,
+            "r": 232.40125373872826,
+            "b": 98.5837267523433,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Troubles urinaires",
+      "text": "Troubles urinaires"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 369.65224745532237,
+            "t": 110.51791079009308,
+            "r": 499.07757999872786,
+            "b": 98.5837267523433,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Troubles de la fertilit\u00e9",
+      "text": "Troubles de la fertilit\u00e9"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 779.5650453833572,
+            "r": 437.5542267550383,
+            "b": 765.4886337073061,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Douleurs pendant les r\u00e8gles (dysm\u00e9norrh\u00e9es)",
+      "text": "Douleurs pendant les r\u00e8gles (dysm\u00e9norrh\u00e9es)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 750.5516457220197,
+            "r": 536.1474750947216,
+            "b": 672.5925850753065,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            316
+          ]
+        }
+      ],
+      "orig": "Il s'agit de l'un des sympt\u00f4mes les plus fr\u00e9quents de l'endom\u00e9triose : des douleurs particuli\u00e8rement invalidantes pendant les r\u00e8gles. Elles peuvent \u00eatre accompagn\u00e9es de saignements abondants. Ces douleurs rendent difficiles les activit\u00e9s quotidiennes, qu'elles soient scolaires, professionnelles, sociales ou autres.",
+      "text": "Il s'agit de l'un des sympt\u00f4mes les plus fr\u00e9quents de l'endom\u00e9triose : des douleurs particuli\u00e8rement invalidantes pendant les r\u00e8gles. Elles peuvent \u00eatre accompagn\u00e9es de saignements abondants. Ces douleurs rendent difficiles les activit\u00e9s quotidiennes, qu'elles soient scolaires, professionnelles, sociales ou autres."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 658.2544751677352,
+            "r": 138.6193132182582,
+            "b": 646.3202911299854,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/symptomes-de-lendometriose-les-regles-douloureuses",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 601.6006511985405,
+            "r": 506.5076512464479,
+            "b": 587.5242395224894,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "Douleurs pendant les rapports sexuels (dyspareunies)",
+      "text": "Douleurs pendant les rapports sexuels (dyspareunies)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 572.7722459294949,
+            "r": 536.1474752747893,
+            "b": 428.7883086738184,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            674
+          ]
+        }
+      ],
+      "orig": "Les femmes atteintes d'endom\u00e9triose peuvent \u00e9prouver des douleurs durant les rapports sexuels, en particulier lors de la p\u00e9n\u00e9tration. Ces douleurs, pouvant varier de l\u00e9g\u00e8res \u00e0 intenses, se manifestent par des sensations de br\u00fblure ou de tiraillement. Elles d\u00e9pendent des positions et peuvent rendre les relations intimes inconfortables, voire impossibles. Dans une \u00e9tude men\u00e9e aupr\u00e8s de 1 152 patientes atteintes d'endom\u00e9triose, pr\u00e8s de 98 % rapportent avoir d\u00e9j\u00e0 ressenti des douleurs lors des rapports sexuels. Parmi elles, 86,5 % estiment que leur vie sexuelle est r\u00e9duite en raison de l'endom\u00e9triose et 51,3 % qualifient l'impact de la maladie sur leur vie sexuelle de \u00ab",
+      "text": "Les femmes atteintes d'endom\u00e9triose peuvent \u00e9prouver des douleurs durant les rapports sexuels, en particulier lors de la p\u00e9n\u00e9tration. Ces douleurs, pouvant varier de l\u00e9g\u00e8res \u00e0 intenses, se manifestent par des sensations de br\u00fblure ou de tiraillement. Elles d\u00e9pendent des positions et peuvent rendre les relations intimes inconfortables, voire impossibles. Dans une \u00e9tude men\u00e9e aupr\u00e8s de 1 152 patientes atteintes d'endom\u00e9triose, pr\u00e8s de 98 % rapportent avoir d\u00e9j\u00e0 ressenti des douleurs lors des rapports sexuels. Parmi elles, 86,5 % estiment que leur vie sexuelle est r\u00e9duite en raison de l'endom\u00e9triose et 51,3 % qualifient l'impact de la maladie sur leur vie sexuelle de \u00ab"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 424.2162735593274,
+            "r": 158.20026498688924,
+            "b": 412.28208952157763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "tr\u00e8s important \u00bb.",
+      "text": "tr\u00e8s important \u00bb."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 401.8432426515372,
+            "r": 138.6193132182582,
+            "b": 389.90905861378735,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/la-dyspareunie-douleurs-lors-des-rapports-sexuels",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 378.71019561541414,
+            "r": 382.2202554858725,
+            "b": 366.7760115776643,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "L'\u00e9tude ENDOmind : Sexualit\u00e9, Couple et Endom\u00e9triose",
+      "text": "L'\u00e9tude ENDOmind : Sexualit\u00e9, Couple et Endom\u00e9triose",
+      "hyperlink": "https://www.endomind.org/etudes"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 57.602651999889396,
+            "t": 322.0548956462809,
+            "r": 294.19553811801126,
+            "b": 307.97848397022983,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Troubles urinaires (dysuries)",
+      "text": "Troubles urinaires (dysuries)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 57.602651999889396,
+            "t": 293.2265191772341,
+            "r": 536.1433361100364,
+            "b": 231.7736776827618,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            252
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut causer certains troubles urinaires, comme des douleurs lors de la miction, des envies fr\u00e9quentes d'uriner ou des difficult\u00e9s \u00e0 vider compl\u00e8tement la vessie. Dans certains cas, cela peut provoquer la pr\u00e9sence de sang dans les urines.",
+      "text": "L'endom\u00e9triose peut causer certains troubles urinaires, comme des douleurs lors de la miction, des envies fr\u00e9quentes d'uriner ou des difficult\u00e9s \u00e0 vider compl\u00e8tement la vessie. Dans certains cas, cela peut provoquer la pr\u00e9sence de sang dans les urines."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 57.602651999889396,
+            "t": 220.14241822240513,
+            "r": 136.6719676993976,
+            "b": 208.20823418465534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/symptomes-de-lendometriose-les-troubles-urinaires"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 57.602651999889396,
+            "t": 179.34829613210457,
+            "r": 509.25730719643974,
+            "b": 166.14959788920623,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Douleurs \u00e0 la d\u00e9f\u00e9cation (dysch\u00e9sies) et troubles digestifs",
+      "text": "Douleurs \u00e0 la d\u00e9f\u00e9cation (dysch\u00e9sies) et troubles digestifs",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 57.602651999889396,
+            "t": 154.16750097136025,
+            "r": 543.74022305702,
+            "b": 92.71465947688785,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            309
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut entra\u00eener des douleurs \u00e0 la d\u00e9f\u00e9cation. Elle peut \u00e9galement causer les troubles digestifs* suivants : douleurs pendant la digestion, constipation, diarrh\u00e9es ou ballonnements (...). Ces sympt\u00f4mes, similaires \u00e0 ceux du syndrome du c\u00f4lon irritable, tendent \u00e0 s'intensifier pendant les r\u00e8gles.",
+      "text": "L'endom\u00e9triose peut entra\u00eener des douleurs \u00e0 la d\u00e9f\u00e9cation. Elle peut \u00e9galement causer les troubles digestifs* suivants : douleurs pendant la digestion, constipation, diarrh\u00e9es ou ballonnements (...). Ces sympt\u00f4mes, similaires \u00e0 ceux du syndrome du c\u00f4lon irritable, tendent \u00e0 s'intensifier pendant les r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 78.53316012279117,
+            "r": 138.6193132182582,
+            "b": 66.59897608504139,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/symptomes-de-lendometriose-les-troubles-digestifs",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 779.5650453833572,
+            "r": 335.3005509430224,
+            "b": 765.4886337073061,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "Douleurs pelviennes chroniques*",
+      "text": "Douleurs pelviennes chroniques*",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 751.8326888686429,
+            "r": 536.1431248506526,
+            "b": 673.8736282219297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            364
+          ]
+        }
+      ],
+      "orig": "Les douleurs pelviennes li\u00e9es \u00e0 l'endom\u00e9triose peuvent devenir chroniques, se manifestant m\u00eame en dehors des r\u00e8gles ou apr\u00e8s la m\u00e9nopause. Elles peuvent s'installer durablement, provoquant une g\u00eane constante et rendant les activit\u00e9s quotidiennes difficiles, voire handicapantes. Ces douleurs peuvent fortement alt\u00e9rer la qualit\u00e9 de vie des femmes qui en souffrent.",
+      "text": "Les douleurs pelviennes li\u00e9es \u00e0 l'endom\u00e9triose peuvent devenir chroniques, se manifestant m\u00eame en dehors des r\u00e8gles ou apr\u00e8s la m\u00e9nopause. Elles peuvent s'installer durablement, provoquant une g\u00eane constante et rendant les activit\u00e9s quotidiennes difficiles, voire handicapantes. Ces douleurs peuvent fortement alt\u00e9rer la qualit\u00e9 de vie des femmes qui en souffrent."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 658.9403735391562,
+            "r": 138.6193132182582,
+            "b": 647.0061895014064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/symptomes-de-lendometriose-les-douleurs-pelviennes"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 590.7191932519346,
+            "r": 375.7376439564618,
+            "b": 576.6427815758835,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Ces symptomes peuvent occasionner :",
+      "text": "Ces symptomes peuvent occasionner :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 546.352447100549,
+            "r": 288.14168162355185,
+            "b": 532.276035424498,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Des troubles de la fertilit\u00e9 :",
+      "text": "Des troubles de la fertilit\u00e9 :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 520.6708617003861,
+            "r": 536.148345227567,
+            "b": 426.20558190143214,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            462
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut entra\u00eener des troubles de la fertilit\u00e9. Toutefois, contrairement aux id\u00e9es re\u00e7ues, toutes les personnes atteintes de la maladie ne sont pas concern\u00e9es. Environ 40 % pr\u00e9senteraient une infertilit\u00e9 (\u00e0 ne pas confondre avec la st\u00e9rilit\u00e9. L'infertilit\u00e9 n'a pas le caract\u00e8re irr\u00e9versible de la st\u00e9rilit\u00e9, qui est l'incapacit\u00e9 totale \u00e0 avoir un enfant.). Si une grossesse est souhait\u00e9e, une assistance m\u00e9dicale \u00e0 la procr\u00e9ation peut \u00eatre envisag\u00e9e.",
+      "text": "L'endom\u00e9triose peut entra\u00eener des troubles de la fertilit\u00e9. Toutefois, contrairement aux id\u00e9es re\u00e7ues, toutes les personnes atteintes de la maladie ne sont pas concern\u00e9es. Environ 40 % pr\u00e9senteraient une infertilit\u00e9 (\u00e0 ne pas confondre avec la st\u00e9rilit\u00e9. L'infertilit\u00e9 n'a pas le caract\u00e8re irr\u00e9versible de la st\u00e9rilit\u00e9, qui est l'incapacit\u00e9 totale \u00e0 avoir un enfant.). Si une grossesse est souhait\u00e9e, une assistance m\u00e9dicale \u00e0 la procr\u00e9ation peut \u00eatre envisag\u00e9e."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 411.59072224539216,
+            "r": 138.6193132182582,
+            "b": 399.6565382076423,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 244.42575061559327,
+            "t": 409.90798631550615,
+            "r": 271.78719891594875,
+            "b": 397.9738022777563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            15,
+            21
+          ]
+        }
+      ],
+      "orig": "En savoir plus Et ici",
+      "text": "En savoir plus Et ici"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 363.5956539154158,
+            "r": 275.25991300338546,
+            "b": 349.51924223936476,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "De la fatigue chronique* :",
+      "text": "De la fatigue chronique* :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 336.18517338729015,
+            "r": 536.1457350391097,
+            "b": 258.2261127405769,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            386
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut entra\u00eener de la fatigue chronique, laquelle est \u00e9puisante m\u00eame au repos. Elle s'ajoute aux douleurs et inflammations, provoquant un \u00e9puisement physique et mental. Cette fatigue intense persiste tout au long de la journ\u00e9e, rendant le quotidien difficile, voire handicapant, et peut \u00eatre aggrav\u00e9e par des nuits agit\u00e9es en raison des douleurs qui perturbent le sommeil.",
+      "text": "L'endom\u00e9triose peut entra\u00eener de la fatigue chronique, laquelle est \u00e9puisante m\u00eame au repos. Elle s'ajoute aux douleurs et inflammations, provoquant un \u00e9puisement physique et mental. Cette fatigue intense persiste tout au long de la journ\u00e9e, rendant le quotidien difficile, voire handicapant, et peut \u00eatre aggrav\u00e9e par des nuits agit\u00e9es en raison des douleurs qui perturbent le sommeil."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 240.96078535497315,
+            "r": 138.6193132182582,
+            "b": 229.02660131722325,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/symptomes-de-lendometriose-la-fatigue-chronique"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 194.72969295149778,
+            "r": 274.82785056249605,
+            "b": 180.65328127544672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Des douleurs lombaires* :",
+      "text": "Des douleurs lombaires* :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 168.8658683589282,
+            "r": 545.6879805861164,
+            "b": 74.40058855997404,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            453
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut causer des douleurs dans la r\u00e9gion lombaire, notamment en raison des adh\u00e9rences fibreuses et cicatricielles qui se d\u00e9veloppent parfois entre les organes touch\u00e9s. Ces douleurs peuvent \u00eatre exacerb\u00e9es par divers facteurs, comme la position assise prolong\u00e9e, certaines activit\u00e9s physiques ou des mouvements sp\u00e9cifiques. Elles affectent consid\u00e9rablement la qualit\u00e9 de vie des personnes et peuvent entra\u00eener des limitations de mouvements.",
+      "text": "L'endom\u00e9triose peut causer des douleurs dans la r\u00e9gion lombaire, notamment en raison des adh\u00e9rences fibreuses et cicatricielles qui se d\u00e9veloppent parfois entre les organes touch\u00e9s. Ces douleurs peuvent \u00eatre exacerb\u00e9es par divers facteurs, comme la position assise prolong\u00e9e, certaines activit\u00e9s physiques ou des mouvements sp\u00e9cifiques. Elles affectent consid\u00e9rablement la qualit\u00e9 de vie des personnes et peuvent entra\u00eener des limitations de mouvements."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 59.712264906995074,
+            "r": 138.6193132182582,
+            "b": 47.77808086924529,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.ameli.fr/assure/sante/themes/endometriose/symptomes-diagnostic-evolution#:~:text=Des%20douleurs%20abdominales%20et%20pelviennes,rythm%C3%A9es%20par%20les%20cycles%20menstruels."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 779.5650453833572,
+            "r": 312.22495905680495,
+            "b": 765.4886337073061,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Des douleurs neurologiques* :",
+      "text": "Des douleurs neurologiques* :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 752.8826672248938,
+            "r": 536.1431249106753,
+            "b": 658.4173874259399,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            385
+          ]
+        }
+      ],
+      "orig": "L'endom\u00e9triose peut provoquer des douleurs neurologiques, se manifestant par des sensations de br\u00fblure, des picotements, des coups de poignards ou des douleurs dans les jambes ou le bas du dos. Ces sympt\u00f4mes sont souvent dus \u00e0 des l\u00e9sions endom\u00e9triales exer\u00e7ant une pression sur les nerfs. Les douleurs peuvent \u00eatre intermittentes ou chroniques, impactant fortement la vie quotidienne.",
+      "text": "L'endom\u00e9triose peut provoquer des douleurs neurologiques, se manifestant par des sensations de br\u00fblure, des picotements, des coups de poignards ou des douleurs dans les jambes ou le bas du dos. Ces sympt\u00f4mes sont souvent dus \u00e0 des l\u00e9sions endom\u00e9triales exer\u00e7ant une pression sur les nerfs. Les douleurs peuvent \u00eatre intermittentes ou chroniques, impactant fortement la vie quotidienne."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 646.8520132428379,
+            "r": 138.6193132182582,
+            "b": 634.9178292050881,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/symptomes-de-lendometriose-les-douleurs-neurologiques"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 589.7129044938633,
+            "r": 481.62452084755097,
+            "b": 575.6364928178123,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Les sympt\u00f4mes moins r\u00e9pandus de l'endom\u00e9triose",
+      "text": "Les sympt\u00f4mes moins r\u00e9pandus de l'endom\u00e9triose",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 541.9253664850108,
+            "r": 468.6627724679066,
+            "b": 527.8489548089598,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Douleurs thoraciques et difficult\u00e9s respiratoires*",
+      "text": "Douleurs thoraciques et difficult\u00e9s respiratoires*",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 514.3655315631082,
+            "r": 536.1438115093696,
+            "b": 436.40647091639505,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            373
+          ]
+        }
+      ],
+      "orig": "Des douleurs thoraciques et des difficult\u00e9s respiratoires peuvent se manifester chez les femmes souffrant d'endom\u00e9triose thoracique. Ces sympt\u00f4mes peuvent s'aggraver pendant les r\u00e8gles, rendant la respiration inconfortable. Ils r\u00e9sultent de la pr\u00e9sence de tissus endom\u00e9triaux dans la cavit\u00e9 thoracique, entra\u00eenant parfois des complications graves telles qu'un pneumothorax.",
+      "text": "Des douleurs thoraciques et des difficult\u00e9s respiratoires peuvent se manifester chez les femmes souffrant d'endom\u00e9triose thoracique. Ces sympt\u00f4mes peuvent s'aggraver pendant les r\u00e8gles, rendant la respiration inconfortable. Ils r\u00e9sultent de la pr\u00e9sence de tissus endom\u00e9triaux dans la cavit\u00e9 thoracique, entra\u00eenant parfois des complications graves telles qu'un pneumothorax."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 422.9737777710981,
+            "r": 138.6193132182582,
+            "b": 411.0395937333483,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/lendometriose-thoracique-et-diaphragmatique"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 374.5731334580209,
+            "r": 248.10461930719984,
+            "b": 360.4967217819698,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Douleurs aux \u00e9paules*",
+      "text": "Douleurs aux \u00e9paules*",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 351.74698873888116,
+            "r": 536.1474750346988,
+            "b": 273.78792809216793,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            325
+          ]
+        }
+      ],
+      "orig": "Des douleurs aux \u00e9paules peuvent \u00e9galement \u00eatre un sympt\u00f4me d'endom\u00e9triose thoracique. Elles sont souvent li\u00e9es \u00e0 la pr\u00e9sence de tissus endom\u00e9triaux qui irritent la r\u00e9gion thoracique, provoquant une g\u00eane qui peut s'\u00e9tendre jusqu'aux \u00e9paules. Ces douleurs peuvent \u00eatre pr\u00e9sentes en permanence ou s'intensifier lors des r\u00e8gles.",
+      "text": "Des douleurs aux \u00e9paules peuvent \u00e9galement \u00eatre un sympt\u00f4me d'endom\u00e9triose thoracique. Elles sont souvent li\u00e9es \u00e0 la pr\u00e9sence de tissus endom\u00e9triaux qui irritent la r\u00e9gion thoracique, provoquant une g\u00eane qui peut s'\u00e9tendre jusqu'aux \u00e9paules. Ces douleurs peuvent \u00eatre pr\u00e9sentes en permanence ou s'intensifier lors des r\u00e8gles."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 58.4464511647311,
+            "t": 260.35525654687024,
+            "r": 137.5157668642393,
+            "b": 248.42107250912034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/lendometriose-thoracique-et-diaphragmatique"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 211.79201224056783,
+            "r": 255.70565107085227,
+            "b": 197.71560056451676,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Douleurs abdominales*",
+      "text": "Douleurs abdominales*",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 186.71502761521322,
+            "r": 536.1453229988629,
+            "b": 108.75596696849993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            397
+          ]
+        }
+      ],
+      "orig": "Les douleurs abdominales li\u00e9es \u00e0 l'endom\u00e9triose pari\u00e9tale se manifestent souvent par des crampes ou des sensations de tiraillement. Ces douleurs peuvent s'intensifier pendant les r\u00e8gles et se localiser dans la zone affect\u00e9e par des tissus endom\u00e9triaux. Il est parfois possible de palper des nodules ou des masses dans l'abdomen, indiquant l'implantation de l'endom\u00e8tre dans les parois abdominales.",
+      "text": "Les douleurs abdominales li\u00e9es \u00e0 l'endom\u00e9triose pari\u00e9tale se manifestent souvent par des crampes ou des sensations de tiraillement. Ces douleurs peuvent s'intensifier pendant les r\u00e8gles et se localiser dans la zone affect\u00e9e par des tissus endom\u00e9triaux. Il est parfois possible de palper des nodules ou des masses dans l'abdomen, indiquant l'implantation de l'endom\u00e8tre dans les parois abdominales."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 89.81733565261709,
+            "r": 138.6193132182582,
+            "b": 77.8831516148673,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "En savoir plus",
+      "text": "En savoir plus",
+      "hyperlink": "https://www.sante.fr/endometriose/quest-ce-que-lendometriose-parietale"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/pictures/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.1077482705104,
+            "t": 56.8677387612214,
+            "r": 536.0626324552603,
+            "b": 29.509867370148754,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            268
+          ]
+        }
+      ],
+      "orig": "Ces sympt\u00f4mes ne sont pas mentionn\u00e9es dans les principaux sympt\u00f4mes figurant dans les Recommandations de bonnes pratiques en endom\u00e9triose diffus\u00e9es en 2017 par la Haute Autorit\u00e9 de Sant\u00e9 (HAS) et le Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF) *",
+      "text": "Ces sympt\u00f4mes ne sont pas mentionn\u00e9es dans les principaux sympt\u00f4mes figurant dans les Recommandations de bonnes pratiques en endom\u00e9triose diffus\u00e9es en 2017 par la Haute Autorit\u00e9 de Sant\u00e9 (HAS) et le Coll\u00e8ge National des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF) *"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 59.549042318789795,
+            "t": 764.9938443904906,
+            "r": 216.13127914521198,
+            "b": 750.9174327144395,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Points de vigilance",
+      "text": "Points de vigilance",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 59.549042318789795,
+            "t": 729.214293011076,
+            "r": 536.1432687097918,
+            "b": 684.2676706688445,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "Certaines personnes peuvent avoir tendance \u00e0 minimiser leurs sympt\u00f4mes, surtout lorsque ces derniers sont pr\u00e9sents depuis des ann\u00e9es. Certains de ces sympt\u00f4mes peuvent \u00e9galement \u00eatre les signes \u00e9vocateurs :",
+      "text": "Certaines personnes peuvent avoir tendance \u00e0 minimiser leurs sympt\u00f4mes, surtout lorsque ces derniers sont pr\u00e9sents depuis des ann\u00e9es. Certains de ces sympt\u00f4mes peuvent \u00e9galement \u00eatre les signes \u00e9vocateurs :"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 79.94735291886015,
+            "t": 666.1905471570657,
+            "r": 536.1389180455648,
+            "b": 604.7377056625933,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            271
+          ]
+        }
+      ],
+      "orig": "d'une ad\u00e9nomyose, qui est de l'endom\u00e9triose intra ut\u00e9rine. Le tissu endom\u00e9trial se d\u00e9veloppe alors \u00e0 l'int\u00e9rieur de la paroi de l'ut\u00e9rus. Les sympt\u00f4mes incluent des douleurs pelviennes, des r\u00e8gles abondantes et des crampes. La taille de l'ut\u00e9rus peut \u00e9galement augmenter.",
+      "text": "d'une ad\u00e9nomyose, qui est de l'endom\u00e9triose intra ut\u00e9rine. Le tissu endom\u00e9trial se d\u00e9veloppe alors \u00e0 l'int\u00e9rieur de la paroi de l'ut\u00e9rus. Les sympt\u00f4mes incluent des douleurs pelviennes, des r\u00e8gles abondantes et des crampes. La taille de l'ut\u00e9rus peut \u00e9galement augmenter.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 79.94735291886015,
+            "t": 586.6605821508143,
+            "r": 444.7605909622441,
+            "b": 574.7263981130644,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "d'autres pathologies associ\u00e9es, que vous pouvez retrouver ici.",
+      "text": "d'autres pathologies associ\u00e9es, que vous pouvez retrouver ici.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 53.3467873772171,
+            "t": 501.0995199200431,
+            "r": 346.0822802992126,
+            "b": 465.7537321213714,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Si la personne pr\u00e9sente ce type de sympt\u00f4mes :",
+      "text": "Si la personne pr\u00e9sente ce type de sympt\u00f4mes :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 73.74509797728746,
+            "t": 437.18662853889595,
+            "r": 536.1436682214373,
+            "b": 350.2241756273241,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            348
+          ]
+        }
+      ],
+      "orig": "Je l'interroge sur l'endom\u00e9triose Par exemple : A-t-elle d\u00e9j\u00e0 entendu parler de cette pathologie ? A-t-elle d\u00e9j\u00e0 pass\u00e9 des examens en ce sens ? Attention, une \u00e9chographie et/ou une IRM n\u00e9gatives ne signifient pas absence d'endom\u00e9triose si ces examens n'ont pas \u00e9t\u00e9 r\u00e9alis\u00e9s par un professionnel form\u00e9 \u00e0 la lecture d'imageries pour cette pathologie.",
+      "text": "Je l'interroge sur l'endom\u00e9triose Par exemple : A-t-elle d\u00e9j\u00e0 entendu parler de cette pathologie ? A-t-elle d\u00e9j\u00e0 pass\u00e9 des examens en ce sens ? Attention, une \u00e9chographie et/ou une IRM n\u00e9gatives ne signifient pas absence d'endom\u00e9triose si ces examens n'ont pas \u00e9t\u00e9 r\u00e9alis\u00e9s par un professionnel form\u00e9 \u00e0 la lecture d'imageries pour cette pathologie.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 73.74509797728746,
+            "t": 343.4012924466184,
+            "r": 386.56222096663276,
+            "b": 331.4671084088686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Je la questionne sur sa qualit\u00e9 de vie (Fiche R\u00e9flexe 2).",
+      "text": "Je la questionne sur sa qualit\u00e9 de vie (Fiche R\u00e9flexe 2).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 73.74509797728746,
+            "t": 324.644225228163,
+            "r": 536.1373943575942,
+            "b": 293.9529739719576,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            136
+          ]
+        }
+      ],
+      "orig": "Je l'oriente vers un professionnel de sant\u00e9 sensibilis\u00e9 ou vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 l'endom\u00e9triose (Fiche R\u00e9flexe 3).",
+      "text": "Je l'oriente vers un professionnel de sant\u00e9 sensibilis\u00e9 ou vers la fili\u00e8re de soins r\u00e9gionale d\u00e9di\u00e9e \u00e0 l'endom\u00e9triose (Fiche R\u00e9flexe 3).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 73.74509797728746,
+            "t": 287.130090791252,
+            "r": 433.4197195117369,
+            "b": 275.1959067535021,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "Je l'informe sur les associations de patientes (Fiche R\u00e9flexe 3).",
+      "text": "Je l'informe sur les associations de patientes (Fiche R\u00e9flexe 3).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 73.74509797728746,
+            "t": 268.37302357279646,
+            "r": 536.1334949884039,
+            "b": 237.68177231659104,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "J'identifie s'il existe une ou d'autres causes expliquant ces sympt\u00f4mes (par exemple : une autre pathologie, etc.)",
+      "text": "J'identifie s'il existe une ou d'autres causes expliquant ces sympt\u00f4mes (par exemple : une autre pathologie, etc.)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 59.54999751875,
+            "t": 135.6753923018647,
+            "r": 167.3864539352066,
+            "b": 123.74120826411479,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        },
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 245.2859513797516,
+            "t": 135.6753923018647,
+            "r": 320.17964441858794,
+            "b": 123.74120826411479,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            19,
+            31
+          ]
+        },
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 423.310206362074,
+            "t": 135.6753923018647,
+            "r": 537.4489525819878,
+            "b": 123.74120826411479,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            32,
+            51
+          ]
+        }
+      ],
+      "orig": "Fiche produite par Financ\u00e9e par En partenariat avec",
+      "text": "Fiche produite par Financ\u00e9e par En partenariat avec"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 355.3671502234952,
+            "t": 842.2499787,
+            "r": 595.5,
+            "b": 540.8064382497795,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 57.13915038268838,
+            "t": 373.4893691885489,
+            "r": 541.2725207949645,
+            "b": 98.2547285543319,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 159.728832347281,
+            "t": 660.899081041118,
+            "r": 177.93864049207443,
+            "b": 640.1197639211989,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 159.48887574112655,
+            "t": 403.9089054306716,
+            "r": 178.11201786834923,
+            "b": 383.6695737637787,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 160.59128264612798,
+            "t": 222.71933261831498,
+            "r": 179.29527424805917,
+            "b": 201.91851974772476,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 160.42468973454214,
+            "t": 81.42633040774376,
+            "r": 178.9107551830727,
+            "b": 60.372690920750756,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 160.41668559080802,
+            "t": 661.1297716078938,
+            "r": 178.9878693907053,
+            "b": 641.3067562242093,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 160.12271244893938,
+            "t": 413.46204389483773,
+            "r": 178.39951146529026,
+            "b": 393.6832701199811,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 160.42665646700252,
+            "t": 245.70185746551965,
+            "r": 179.01714168779003,
+            "b": 225.18692283364055,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 160.32447785499113,
+            "t": 64.44438247338371,
+            "r": 178.35647204098285,
+            "b": 43.826878046813476,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 303.7275250326067,
+            "t": 412.0890904807033,
+            "r": 322.25164446734743,
+            "b": 391.9931247991368,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 159.98118394173233,
+            "t": 644.4859320128114,
+            "r": 178.60915904717157,
+            "b": 624.065212798767,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 159.92885971069336,
+            "t": 425.18808260236455,
+            "r": 178.49493610458885,
+            "b": 404.82325234006476,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 159.9237065667274,
+            "t": 262.651424566954,
+            "r": 178.57035800754625,
+            "b": 242.2631471666882,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 160.30566430571895,
+            "t": 92.00736212952825,
+            "r": 178.31277703918866,
+            "b": 71.75757224635151,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 464.37139109157073,
+            "t": 586.4464904882991,
+            "r": 480.2401777689889,
+            "b": 569.2421453831669,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 61.614446284786965,
+            "t": 95.87885354186926,
+            "r": 162.57240731924173,
+            "b": 59.989975087527455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 247.88368141891172,
+            "t": 106.05716771065715,
+            "r": 345.9034470679776,
+            "b": 36.95823869197807,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 435.896733610422,
+            "t": 92.38574832219092,
+            "r": 522.6816849164514,
+            "b": 50.135652190555334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.5,
+        "height": 842.2499787
+      },
+      "page_no": 6
+    }
+  }
+}

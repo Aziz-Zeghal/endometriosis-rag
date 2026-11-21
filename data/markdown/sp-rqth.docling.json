@@ -1,0 +1,2734 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.12.0",
+  "name": "page",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 6058904702748032892,
+    "filename": "page.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/groups/20"
+      },
+      {
+        "$ref": "#/groups/21"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/groups/22"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/groups/23"
+      },
+      {
+        "$ref": "#/groups/24"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/groups/25"
+      },
+      {
+        "$ref": "#/groups/26"
+      },
+      {
+        "$ref": "#/groups/27"
+      },
+      {
+        "$ref": "#/groups/28"
+      },
+      {
+        "$ref": "#/groups/29"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/groups/30"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/groups/31"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/texts/125"
+      },
+      {
+        "$ref": "#/groups/32"
+      },
+      {
+        "$ref": "#/texts/129"
+      },
+      {
+        "$ref": "#/texts/130"
+      },
+      {
+        "$ref": "#/texts/131"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/67"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/texts/67"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/texts/71"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Qu'est-ce que la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "text": "Qu'est-ce que la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "V\u00e9rifi\u00e9 le 24 mars 2026 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)",
+      "text": "V\u00e9rifi\u00e9 le 24 mars 2026 - Service Public / Direction de l'information l\u00e9gale et administrative (Premier ministre)"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) est une d\u00e9cision administrative qui ouvre droit \u00e0 un ensemble de mesures destin\u00e9es \u00e0 favoriser le maintien dans l'emploi ou l'acc\u00e8s \u00e0 un nouvel emploi. Vous \u00eates concern\u00e9 si vos possibilit\u00e9s d'obtenir ou de conserver votre emploi sont r\u00e9duites du fait de la d\u00e9gradation d'au moins une fonction physique, sensorielle, mentale ou psychique.",
+      "text": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) est une d\u00e9cision administrative qui ouvre droit \u00e0 un ensemble de mesures destin\u00e9es \u00e0 favoriser le maintien dans l'emploi ou l'acc\u00e8s \u00e0 un nouvel emploi. Vous \u00eates concern\u00e9 si vos possibilit\u00e9s d'obtenir ou de conserver votre emploi sont r\u00e9duites du fait de la d\u00e9gradation d'au moins une fonction physique, sensorielle, mentale ou psychique."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "\u00c0 quoi sert la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "text": "\u00c0 quoi sert la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La RQTH ouvre droit \u00e0 un ensemble de mesures pour acc\u00e9der \u00e0 un emploi, le conserver ou en envisager un nouveau.",
+      "text": "La RQTH ouvre droit \u00e0 un ensemble de mesures pour acc\u00e9der \u00e0 un emploi, le conserver ou en envisager un nouveau."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si ",
+      "text": "Si "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "vous avez un emploi",
+      "text": "vous avez un emploi",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " dans le secteur priv\u00e9 ou public, la RQTH peut donner acc\u00e8s \u00e0 des am\u00e9nagements de vos conditions ou de votre poste de travail, comme\u00a0:",
+      "text": " dans le secteur priv\u00e9 ou public, la RQTH peut donner acc\u00e8s \u00e0 des am\u00e9nagements de vos conditions ou de votre poste de travail, comme\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Des horaires de travail am\u00e9nag\u00e9s",
+      "text": "Des horaires de travail am\u00e9nag\u00e9s",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Une adaptation du poste avec du mat\u00e9riel sp\u00e9cifique (fauteuil ergonomique, t\u00e9l\u00e9phone adapt\u00e9, logiciels sp\u00e9cialis\u00e9s, ...).",
+      "text": "Une adaptation du poste avec du mat\u00e9riel sp\u00e9cifique (fauteuil ergonomique, t\u00e9l\u00e9phone adapt\u00e9, logiciels sp\u00e9cialis\u00e9s, ...).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si vous \u00eates en ",
+      "text": "Si vous \u00eates en "
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "recherche d\u2019emploi",
+      "text": "recherche d\u2019emploi",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", la RQTH permet d\u2019acc\u00e9der \u00e0 plusieurs aides et dispositifs, notamment\u00a0:",
+      "text": ", la RQTH permet d\u2019acc\u00e9der \u00e0 plusieurs aides et dispositifs, notamment\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Dispositifs d\u00e9di\u00e9s \u00e0 l'insertion professionnelle (par exemple, dispositif d'emploi accompagn\u00e9, stages de r\u00e9adaptation, contrat d'apprentissage, am\u00e9nagement de concours de la fonction publique ou recrutement contractuel sp\u00e9cifique)",
+      "text": "Dispositifs d\u00e9di\u00e9s \u00e0 l'insertion professionnelle (par exemple, dispositif d'emploi accompagn\u00e9, stages de r\u00e9adaptation, contrat d'apprentissage, am\u00e9nagement de concours de la fonction publique ou recrutement contractuel sp\u00e9cifique)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Prise en compte de l\u2019obligation d'emploi des travailleurs handicap\u00e9s (OETH).",
+      "text": "Prise en compte de l\u2019obligation d'emploi des travailleurs handicap\u00e9s (OETH).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 savoir",
+      "text": "\u00c0 savoir"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La RQTH n\u2019est ",
+      "text": "La RQTH n\u2019est "
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pas obligatoire",
+      "text": "pas obligatoire",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour travailler ou suivre une formation. Elle peut toutefois faciliter les conditions d\u2019exercice de votre emploi. La d\u00e9claration de la RQTH \u00e0 l\u2019employeur n\u2019est pas obligatoire. Cependant, si vous choisissez d\u2019en informer votre employeur, celui\u2011ci pourra mettre en place les am\u00e9nagements n\u00e9cessaires pour adapter votre poste de travail \u00e0 vos besoins.",
+      "text": " pour travailler ou suivre une formation. Elle peut toutefois faciliter les conditions d\u2019exercice de votre emploi. La d\u00e9claration de la RQTH \u00e0 l\u2019employeur n\u2019est pas obligatoire. Cependant, si vous choisissez d\u2019en informer votre employeur, celui\u2011ci pourra mettre en place les am\u00e9nagements n\u00e9cessaires pour adapter votre poste de travail \u00e0 vos besoins."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quels sont les crit\u00e8res d'attribution de la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "text": "Quels sont les crit\u00e8res d'attribution de la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour obtenir la RQTH, il faut respecter les ",
+      "text": "Pour obtenir la RQTH, il faut respecter les "
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "2 conditions",
+      "text": "2 conditions",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " suivantes\u00a0:",
+      "text": " suivantes\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vos possibilit\u00e9s d'obtenir ou de conserver votre emploi sont r\u00e9duites du fait de la d\u00e9gradation d'au moins une fonction physique, sensorielle, mentale ou psychique",
+      "text": "Vos possibilit\u00e9s d'obtenir ou de conserver votre emploi sont r\u00e9duites du fait de la d\u00e9gradation d'au moins une fonction physique, sensorielle, mentale ou psychique",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vous \u00eates \u00e2g\u00e9 de plus de 16 ans (voire 15 ans, si vous \u00eates autoris\u00e9 \u00e0 commencer un apprentissage).",
+      "text": "Vous \u00eates \u00e2g\u00e9 de plus de 16 ans (voire 15 ans, si vous \u00eates autoris\u00e9 \u00e0 commencer un apprentissage).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour les personnes \u00e2g\u00e9es de ",
+      "text": "Pour les personnes \u00e2g\u00e9es de "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "15 \u00e0 20 ans",
+      "text": "15 \u00e0 20 ans",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", les situations suivantes valent RQTH\u00a0:",
+      "text": ", les situations suivantes valent RQTH\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L'attribution de l'allocation d'\u00e9ducation de l'enfant handicap\u00e9 (AEEH)",
+      "text": "L'attribution de l'allocation d'\u00e9ducation de l'enfant handicap\u00e9 (AEEH)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L'attribution de la prestation de compensation du handicap (PCH)",
+      "text": "L'attribution de la prestation de compensation du handicap (PCH)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "La mise en place d'un projet personnalis\u00e9 de scolarisation (PPS)",
+      "text": "La mise en place d'un projet personnalis\u00e9 de scolarisation (PPS)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "L'orientation vers un \u00e9tablissement ou un service d'accompagnement par le travail (\u00c9sat) ou vers un \u00e9tablissement ou un service de r\u00e9adaptation professionnelle (ESRP).",
+      "text": "L'orientation vers un \u00e9tablissement ou un service d'accompagnement par le travail (\u00c9sat) ou vers un \u00e9tablissement ou un service de r\u00e9adaptation professionnelle (ESRP).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment obtenir la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "text": "Comment obtenir la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La demande de RQTH est une ",
+      "text": "La demande de RQTH est une "
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u00e9marche strictement personnelle",
+      "text": "d\u00e9marche strictement personnelle",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Elle doit \u00eatre faite directement par la personne concern\u00e9e, ou, si n\u00e9cessaire, par son ",
+      "text": ". Elle doit \u00eatre faite directement par la personne concern\u00e9e, ou, si n\u00e9cessaire, par son "
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "repr\u00e9sentant l\u00e9gal",
+      "text": "repr\u00e9sentant l\u00e9gal",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ": titleContent. Par exemple, l\u2019employeur ne peut pas faire la demande \u00e0 la place de la personne.",
+      "text": ": titleContent. Par exemple, l\u2019employeur ne peut pas faire la demande \u00e0 la place de la personne."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La d\u00e9marche diff\u00e8re selon que vous faites parall\u00e8lement une demande pour percevoir ou renouveler l'allocation aux adultes handicap\u00e9s (AAH) :",
+      "text": "La d\u00e9marche diff\u00e8re selon que vous faites parall\u00e8lement une demande pour percevoir ou renouveler l'allocation aux adultes handicap\u00e9s (AAH) :"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement",
+      "text": "R\u00e9pondez aux questions successives et les r\u00e9ponses s\u2019afficheront automatiquement"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "1re demande d'AAH ou demande de renouvellement",
+      "text": "1re demande d'AAH ou demande de renouvellement",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Une proc\u00e9dure de RQTH est syst\u00e9matiquement engag\u00e9e. Vous n'avez donc pas \u00e0 faire de demande pour obtenir la RQTH.",
+      "text": "Une proc\u00e9dure de RQTH est syst\u00e9matiquement engag\u00e9e. Vous n'avez donc pas \u00e0 faire de demande pour obtenir la RQTH."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "En l'absence de demande d'AAH",
+      "text": "En l'absence de demande d'AAH",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez faire votre demande de RQTH aupr\u00e8s de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement.",
+      "text": "Vous devez faire votre demande de RQTH aupr\u00e8s de la maison d\u00e9partementale des personnes handicap\u00e9es (MDPH) de votre d\u00e9partement."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La demande peut \u00eatre faite ",
+      "text": "La demande peut \u00eatre faite "
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "en ligne",
+      "text": "en ligne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par le biais d'un t\u00e9l\u00e9service, si la MDPH de votre lieu de r\u00e9sidence le propose\u00a0:",
+      "text": " par le biais d'un t\u00e9l\u00e9service, si la MDPH de votre lieu de r\u00e9sidence le propose\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez aussi faire votre demande ",
+      "text": "Vous pouvez aussi faire votre demande "
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "par courrier",
+      "text": "par courrier",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par le biais d'un formulaire\u00a0:",
+      "text": " par le biais d'un formulaire\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez joindre ",
+      "text": "Vous devez joindre "
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les documents justificatifs",
+      "text": "les documents justificatifs",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " mentionn\u00e9s \u00e0 l'occasion de votre demande en ligne ou sur le formulaire.",
+      "text": " mentionn\u00e9s \u00e0 l'occasion de votre demande en ligne ou sur le formulaire."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les documents doivent \u00eatre envoy\u00e9s (ou scann\u00e9s si vous faites votre demande en ligne) \u00e0 la MDPH de votre lieu de r\u00e9sidence.",
+      "text": "Les documents doivent \u00eatre envoy\u00e9s (ou scann\u00e9s si vous faites votre demande en ligne) \u00e0 la MDPH de votre lieu de r\u00e9sidence."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment est examin\u00e9e la demande de la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "text": "Comment est examin\u00e9e la demande de la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La commission des droits et de l\u2019autonomie des personnes handicap\u00e9es (CDAPH) de la ",
+      "text": "La commission des droits et de l\u2019autonomie des personnes handicap\u00e9es (CDAPH) de la "
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MDPH",
+      "text": "MDPH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ": titleContent instruit la demande.",
+      "text": ": titleContent instruit la demande."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sa r\u00e9ponse intervient dans ",
+      "text": "Sa r\u00e9ponse intervient dans "
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "un d\u00e9lai de 4 mois",
+      "text": "un d\u00e9lai de 4 mois",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019absence de r\u00e9ponse de la CDAPH pendant plus de 4 mois vaut ",
+      "text": "L\u2019absence de r\u00e9ponse de la CDAPH pendant plus de 4 mois vaut "
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "d\u00e9cision implicite de rejet",
+      "text": "d\u00e9cision implicite de rejet",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ": titleContent.",
+      "text": ": titleContent."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 savoir",
+      "text": "\u00c0 savoir"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Si la qualit\u00e9 de travailleur handicap\u00e9 ne vous est pas reconnue parce que la CDAPH estime que vos difficult\u00e9s professionnelles ou de recherches d\u2019emploi ne sont pas directement li\u00e9es \u00e0 un handicap, vous pouvez tout de m\u00eame acc\u00e9der aux dispositifs d\u2019accompagnement accessibles \u00e0 tous les demandeurs d\u2019emploi ou salari\u00e9s. Pour obtenir des pr\u00e9cisions ou \u00eatre orient\u00e9 vers les solutions adapt\u00e9es, vous pouvez vous rapprocher de votre conseiller France Travail (anciennement P\u00f4le emploi) ou du service des ressources humaines de votre employeur.",
+      "text": "Si la qualit\u00e9 de travailleur handicap\u00e9 ne vous est pas reconnue parce que la CDAPH estime que vos difficult\u00e9s professionnelles ou de recherches d\u2019emploi ne sont pas directement li\u00e9es \u00e0 un handicap, vous pouvez tout de m\u00eame acc\u00e9der aux dispositifs d\u2019accompagnement accessibles \u00e0 tous les demandeurs d\u2019emploi ou salari\u00e9s. Pour obtenir des pr\u00e9cisions ou \u00eatre orient\u00e9 vers les solutions adapt\u00e9es, vous pouvez vous rapprocher de votre conseiller France Travail (anciennement P\u00f4le emploi) ou du service des ressources humaines de votre employeur."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "O\u00f9 s\u2019adresser ?",
+      "text": "O\u00f9 s\u2019adresser ?",
+      "level": 5
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        },
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "France Travail pour demandeurs d'emploi - 3949 ",
+      "text": "France Travail pour demandeurs d'emploi - 3949 "
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Par t\u00e9l\u00e9phone 39 49",
+      "text": "Par t\u00e9l\u00e9phone 39 49",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Pour actualiser votre situation, signaler un changement de situation, vous informer d'un paiement : service automatis\u00e9 7 jours/7, 24 heures/24 - Service gratuit + prix appel",
+      "text": "Pour actualiser votre situation, signaler un changement de situation, vous informer d'un paiement : service automatis\u00e9 7 jours/7, 24 heures/24 - Service gratuit + prix appel",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pour \u00eatre mis en relation avec un conseiller pour vous inscrire, vous renseigner, modifier un rendez-vous : service accessible aux horaires fix\u00e9s par chaque agence France Travail (anciennement P\u00f4le emploi) - Service gratuit + prix appel",
+      "text": "Pour \u00eatre mis en relation avec un conseiller pour vous inscrire, vous renseigner, modifier un rendez-vous : service accessible aux horaires fix\u00e9s par chaque agence France Travail (anciennement P\u00f4le emploi) - Service gratuit + prix appel"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " Depuis l'\u00e9tranger\u00a0: + 33 1 77 86 39 49",
+      "text": " Depuis l'\u00e9tranger\u00a0: + 33 1 77 86 39 49",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque la RQTH est accord\u00e9e, vous recevez un courrier attestant que vous avez la qualit\u00e9 de travailleur handicap\u00e9 reconnue par la CDAPH.",
+      "text": "Lorsque la RQTH est accord\u00e9e, vous recevez un courrier attestant que vous avez la qualit\u00e9 de travailleur handicap\u00e9 reconnue par la CDAPH."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Ce courrier s'accompagne \u00e9galement d'une orientation vers le march\u00e9 du travail en milieu ordinaire ou vers un \u00e9tablissement ou service d'aide par le travail (\u00c9sat) ou vers un centre de r\u00e9\u00e9ducation professionnelle.",
+      "text": "Ce courrier s'accompagne \u00e9galement d'une orientation vers le march\u00e9 du travail en milieu ordinaire ou vers un \u00e9tablissement ou service d'aide par le travail (\u00c9sat) ou vers un centre de r\u00e9\u00e9ducation professionnelle."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La d\u00e9cision de refus de la CDAPH d\u2019attribuer la RQTH peut-elle faire l\u2019objet d\u2019un recours ?",
+      "text": "La d\u00e9cision de refus de la CDAPH d\u2019attribuer la RQTH peut-elle faire l\u2019objet d\u2019un recours ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Oui",
+      "text": "Oui",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", une d\u00e9cision de refus de la CDAPH peut faire l\u2019objet d\u2019un recours administratif pr\u00e9alable obligatoire (Rapo) aupr\u00e8s de la ",
+      "text": ", une d\u00e9cision de refus de la CDAPH peut faire l\u2019objet d\u2019un recours administratif pr\u00e9alable obligatoire (Rapo) aupr\u00e8s de la "
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MDPH",
+      "text": "MDPH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ": titleContent. Ce recours doit \u00eatre exerc\u00e9 ",
+      "text": ": titleContent. Ce recours doit \u00eatre exerc\u00e9 "
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "avant tout recours devant le tribunal",
+      "text": "avant tout recours devant le tribunal",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le RAPO doit \u00eatre d\u00e9pos\u00e9 dans un d\u00e9lai de ",
+      "text": "Le RAPO doit \u00eatre d\u00e9pos\u00e9 dans un d\u00e9lai de "
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "2 mois",
+      "text": "2 mois",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " \u00e0 partir de la r\u00e9ception de la d\u00e9cision contest\u00e9e. Cette d\u00e9cision doit \u00eatre jointe \u00e0 votre recours.",
+      "text": " \u00e0 partir de la r\u00e9ception de la d\u00e9cision contest\u00e9e. Cette d\u00e9cision doit \u00eatre jointe \u00e0 votre recours."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "L\u2019absence de r\u00e9ponse de la CDAPH pendant plus de 2 mois vaut d\u00e9cision implicite de rejet.",
+      "text": "L\u2019absence de r\u00e9ponse de la CDAPH pendant plus de 2 mois vaut d\u00e9cision implicite de rejet."
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 partir de cette d\u00e9cision, ",
+      "text": "\u00c0 partir de cette d\u00e9cision, "
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "explicite",
+      "text": "explicite",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ": titleContent ou implicite, vous avez ",
+      "text": ": titleContent ou implicite, vous avez "
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "2 mois",
+      "text": "2 mois",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " pour faire un recours devant le tribunal administratif du lieu de votre r\u00e9sidence.",
+      "text": " pour faire un recours devant le tribunal administratif du lieu de votre r\u00e9sidence."
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Combien de temps est attribu\u00e9e la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "text": "Combien de temps est attribu\u00e9e la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La RQTH est attribu\u00e9e pour une dur\u00e9e allant de ",
+      "text": "La RQTH est attribu\u00e9e pour une dur\u00e9e allant de "
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "1 \u00e0 10 ans",
+      "text": "1 \u00e0 10 ans",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". La RQTH est renouvelable.",
+      "text": ". La RQTH est renouvelable."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toutefois, elle peut \u00eatre ",
+      "text": "Toutefois, elle peut \u00eatre "
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "attribu\u00e9e \u00e0 vie",
+      "text": "attribu\u00e9e \u00e0 vie",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " si votre handicap ne peut pas \u00e9voluer favorablement.",
+      "text": " si votre handicap ne peut pas \u00e9voluer favorablement."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le courrier de la CDAPH vous accordant la RQTH pr\u00e9cise sa dur\u00e9e d'attribution (ou l'absence de limitation de dur\u00e9e).",
+      "text": "Le courrier de la CDAPH vous accordant la RQTH pr\u00e9cise sa dur\u00e9e d'attribution (ou l'absence de limitation de dur\u00e9e)."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Comment renouveler la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "text": "Comment renouveler la reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Le renouvellement n'est ",
+      "text": "Le renouvellement n'est "
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "pas automatique",
+      "text": "pas automatique",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Il faut en faire la demande sur le formulaire papier ou directement en ligne (comme pour la demande initiale de RQTH).",
+      "text": ". Il faut en faire la demande sur le formulaire papier ou directement en ligne (comme pour la demande initiale de RQTH)."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Lorsque la RQTH n\u2019est pas accord\u00e9e \u00e0 vie, il est n\u00e9cessaire d\u2019en demander le renouvellement ",
+      "text": "Lorsque la RQTH n\u2019est pas accord\u00e9e \u00e0 vie, il est n\u00e9cessaire d\u2019en demander le renouvellement "
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "4 mois avant sa date de fin d\u2019attribution",
+      "text": "4 mois avant sa date de fin d\u2019attribution",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "La demande peut \u00eatre faite ",
+      "text": "La demande peut \u00eatre faite "
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "en ligne",
+      "text": "en ligne",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par le biais d'un t\u00e9l\u00e9service, si la MDPH de votre lieu de r\u00e9sidence le propose\u00a0:",
+      "text": " par le biais d'un t\u00e9l\u00e9service, si la MDPH de votre lieu de r\u00e9sidence le propose\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous pouvez aussi faire votre demande ",
+      "text": "Vous pouvez aussi faire votre demande "
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "par courrier",
+      "text": "par courrier",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par le biais d'un formulaire\u00a0:",
+      "text": " par le biais d'un formulaire\u00a0:"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous devez joindre ",
+      "text": "Vous devez joindre "
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "les documents justificatifs",
+      "text": "les documents justificatifs",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " mentionn\u00e9s \u00e0 l'occasion de votre demande en ligne ou sur le formulaire.",
+      "text": " mentionn\u00e9s \u00e0 l'occasion de votre demande en ligne ou sur le formulaire."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Les documents doivent \u00eatre envoy\u00e9s (ou scann\u00e9s si vous faites votre demande en ligne) \u00e0 la MDPH de votre lieu de r\u00e9sidence.",
+      "text": "Les documents doivent \u00eatre envoy\u00e9s (ou scann\u00e9s si vous faites votre demande en ligne) \u00e0 la MDPH de votre lieu de r\u00e9sidence."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter",
+      "text": "\u00c0 noter"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Votre demande ",
+      "text": "Votre demande "
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "prolonge la RQTH",
+      "text": "prolonge la RQTH",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " jusqu'au rendu de la d\u00e9cision de la CDAPH portant sur son renouvellement, pour \u00e9viter toute interruption de vos droits.",
+      "text": " jusqu'au rendu de la d\u00e9cision de la CDAPH portant sur son renouvellement, pour \u00e9viter toute interruption de vos droits."
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) impacte-elle le salaire et le contrat de travail ?",
+      "text": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) impacte-elle le salaire et le contrat de travail ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Non",
+      "text": "Non",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", la RQTH ne modifie pas le salaire, la r\u00e9mun\u00e9ration ou les primes pr\u00e9vues par le contrat de travail.",
+      "text": ", la RQTH ne modifie pas le salaire, la r\u00e9mun\u00e9ration ou les primes pr\u00e9vues par le contrat de travail."
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Elle n\u2019entra\u00eene pas de changement de contrat, qui continue de s\u2019appliquer dans toutes ses dispositions.",
+      "text": "Elle n\u2019entra\u00eene pas de changement de contrat, qui continue de s\u2019appliquer dans toutes ses dispositions."
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u00c0 noter",
+      "text": "\u00c0 noter"
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "En cas de licenciement, le d\u00e9lai de pr\u00e9avis ",
+      "text": "En cas de licenciement, le d\u00e9lai de pr\u00e9avis "
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "est doubl\u00e9",
+      "text": "est doubl\u00e9",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": " par rapport \u00e0 celui pr\u00e9vu habituellement, sans pouvoir d\u00e9passer 3 mois.",
+      "text": " par rapport \u00e0 celui pr\u00e9vu habituellement, sans pouvoir d\u00e9passer 3 mois."
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ouvre-t-elle droit \u00e0 la retraite anticip\u00e9e ?",
+      "text": "La reconnaissance de la qualit\u00e9 de travailleur handicap\u00e9 (RQTH) ouvre-t-elle droit \u00e0 la retraite anticip\u00e9e ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Qui peut m'aider ?",
+      "text": "Qui peut m'aider ?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?",
+      "text": "Vous avez une question ? Vous souhaitez \u00eatre accompagn\u00e9(e) dans vos d\u00e9marches ?"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,3 +1,3 @@
-from endorag_ingestion.chunkers.markdown import MarkdownChunker
+from endorag_ingestion.chunkers.hybrid import HybridChunkerAdapter
 
-__all__ = ["MarkdownChunker"]
+__all__ = ["HybridChunkerAdapter"]
