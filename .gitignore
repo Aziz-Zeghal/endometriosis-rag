@@ -221,3 +221,42 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Project-specific
+# ---------------------------------------------------------------------------
+
+# Secrets: keep only the template
+.env.*
+!.env.example
+
+# Data: fetched content is not redistributable (see docs/sources.md)
+data/
+
+# Model and tool caches
+.hf_cache/
+huggingface/
+.docling/
+fastembed_cache/
+*.safetensors
+*.onnx
+
+# Evaluation: keep reports, drop raw run artefacts
+eval/runs/
+eval/.cache/
+
+# Frontend (front/)
+node_modules/
+front/dist/
+front/.vite/
+front/coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Presentation material (kept local)
+slides/
