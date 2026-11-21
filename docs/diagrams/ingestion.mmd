@@ -69,17 +69,6 @@ classDiagram
       _markdown(document)
       close()
     }
-    class BaseChunker {
-      <<abstract>>
-      chunk(ConvertedDocument)* list~Chunk~
-    }
-    class BaseHybridChunker {
-      concrete, used as is
-      docling HybridChunker, merge_peers
-      embedder tokenizer, 512 tokens
-      clean text, drop tiny chunks
-      _text_chunks(document) list~Chunk~
-    }
     class BaseVectorStore {
       <<abstract>>
       embedding: Embeddings
@@ -133,12 +122,16 @@ classDiagram
     class JatsConverter {
       docling JATS backend
     }
-    class OpenAICompatibleEmbedder {
-      batches of 16, retries
-      dimension
+    class HybridChunker {
+      single class, no base class
+      docling HybridChunker, merge_peers
+      embedder tokenizer, 512 tokens
+      clean text, drop tiny chunks
+      chunk(ConvertedDocument) list~Chunk~
     }
-    class SentenceTransformerEmbedder {
-      optional local models
+    class OpenAICompatibleEmbedder {
+      single class: EMBEDDER via the API
+      batches of 16, retries
       dimension
     }
     class EmbeddingCache {
@@ -164,15 +157,13 @@ classDiagram
   CleaningConverter <|-- HtmlConverter
   CleaningConverter <|-- PdfConverter
   CleaningConverter <|-- JatsConverter
-  BaseChunker <|-- BaseHybridChunker
   Embeddings <|-- OpenAICompatibleEmbedder
-  Embeddings <|-- SentenceTransformerEmbedder
   BaseVectorStore <|-- QdrantStore
 
   %% Composition
   BasePipeline o-- BaseConnector
   BasePipeline o-- BaseConverter
-  BasePipeline o-- BaseChunker
+  BasePipeline o-- HybridChunker : chunker
   BasePipeline o-- BaseVectorStore : storage
   CachedConverter o-- RoutingConverter : wraps
   RoutingConverter o-- "html / pdf / xml" BaseConverter

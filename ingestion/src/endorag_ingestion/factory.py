@@ -1,9 +1,10 @@
 """Composition root: the one place that decides which strategy implements each step."""
 
+from endorag_ingestion.chunker import HybridChunker
 from endorag_ingestion.connector import HttpConnector
 from endorag_ingestion.converter.cleaning import clean_text
-from endorag_ingestion.core import BaseHybridChunker, BasePipeline, Settings
-from endorag_ingestion.embedder import make_embedder
+from endorag_ingestion.core import BasePipeline, Settings
+from endorag_ingestion.embedder import OpenAICompatibleEmbedder
 from endorag_ingestion.vector_storage import QdrantStore
 
 
@@ -13,9 +14,16 @@ def build_storage(settings: Settings) -> QdrantStore:
     Needs no conversion dependencies. The caller calls `close()` (local Qdrant locks its
     directory).
     """
+    if not settings.llm_base_url or not settings.llm_api_key:
+        raise ValueError(
+            f"Embedder {settings.embedder!r} calls the API: set LLM_BASE_URL and LLM_API_KEY."
+        )
+    embedding = OpenAICompatibleEmbedder(
+        settings.embedder, settings.llm_base_url, settings.llm_api_key.get_secret_value()
+    )
     return QdrantStore(
         collection=settings.collection_name(),
-        embedding=make_embedder(settings),
+        embedding=embedding,
         path=settings.qdrant_path,
     )
 
@@ -40,7 +48,7 @@ def build_pipeline(settings: Settings, refresh: bool = False) -> BasePipeline:
     return BasePipeline(
         connector=HttpConnector(settings, refresh=refresh),
         converter=CachedConverter(RoutingConverter()),
-        chunker=BaseHybridChunker(
+        chunker=HybridChunker(
             settings.chunk_tokenizer,
             settings.chunk_max_tokens,
             settings.chunk_min_chars,

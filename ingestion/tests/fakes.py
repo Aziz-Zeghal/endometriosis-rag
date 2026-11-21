@@ -6,7 +6,6 @@ from pathlib import Path
 from docling_core.transforms.chunker.tokenizer.base import BaseTokenizer
 from docling_core.types.doc import DocItemLabel, DoclingDocument
 from endorag_ingestion.core import (
-    BaseChunker,
     BaseConnector,
     BaseConverter,
     BaseVectorStore,
@@ -64,7 +63,7 @@ class FakeConverter(BaseConverter):
         return document
 
 
-class FakeChunker(BaseChunker):
+class FakeChunker:
     def chunk(self, document: ConvertedDocument) -> list[Chunk]:
         e = document.entry
         parts = [p for p in document.markdown.split("\n\n")[1:] if p.strip()]

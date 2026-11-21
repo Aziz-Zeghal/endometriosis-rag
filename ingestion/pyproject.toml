@@ -26,8 +26,6 @@ ingest = [
     "torchvision>=0.24",
 ]
 dev = ["pytest>=8.3", "ruff>=0.9"]
-# Optional local embedding models for the benchmark (run on the CPU build of torch)
-local = ["sentence-transformers>=6.3"]
 
 [project.scripts]
 endorag-ingest = "endorag_ingestion.cli:app"

@@ -1,7 +1,20 @@
 classDiagram
+  class HybridChunker {
+    chunker : 'DoclingHybrid'
+    max_tokens : int
+    min_chars : int
+    text_cleaner
+    tokenizer : str
+    chunk(document: ConvertedDocument) list[Chunk]
+  }
+  style HybridChunker fill:#99DDFF
+  class MarkdownTables {
+    get_serializer(doc)
+  }
+  style MarkdownTables fill:#99DDFF
   class FetchError {
   }
-  style FetchError fill:#99DDFF
+  style FetchError fill:#44BB99
   class HttpConnector {
     client : httpx.Client
     clock
@@ -11,69 +24,52 @@ classDiagram
     user_agent : str
     close() None
   }
-  style HttpConnector fill:#99DDFF
+  style HttpConnector fill:#44BB99
   class CachedConverter {
     converter
     markdown_dir : Path
     close() None
     convert(raw: RawDocument) ConvertedDocument
   }
-  style CachedConverter fill:#44BB99
+  style CachedConverter fill:#BBCC33
   class CleaningConverter {
   }
-  style CleaningConverter fill:#44BB99
+  style CleaningConverter fill:#BBCC33
   class HtmlConverter {
   }
-  style HtmlConverter fill:#44BB99
+  style HtmlConverter fill:#BBCC33
   class JatsConverter {
   }
-  style JatsConverter fill:#44BB99
+  style JatsConverter fill:#BBCC33
   class PdfConverter {
   }
-  style PdfConverter fill:#44BB99
+  style PdfConverter fill:#BBCC33
   class RoutingConverter {
     converters : dict
     close() None
   }
-  style RoutingConverter fill:#44BB99
-  class BaseChunker {
-    chunk(document: ConvertedDocument)* list[Chunk]
-  }
-  style BaseChunker fill:#BBCC33
-  class BaseHybridChunker {
-    chunker : 'HybridChunker'
-    max_tokens : int
-    min_chars : int
-    text_cleaner
-    tokenizer : str
-    chunk(document: ConvertedDocument) list[Chunk]
-  }
-  style BaseHybridChunker fill:#BBCC33
-  class MarkdownTables {
-    get_serializer(doc)
-  }
-  style MarkdownTables fill:#BBCC33
+  style RoutingConverter fill:#BBCC33
   class BaseConnector {
     raw_dir : Path
     refresh : bool
     close()* None
     download(entry: ManifestEntry) RawDocument
   }
-  style BaseConnector fill:#BBCC33
+  style BaseConnector fill:#AAAA00
   class BaseConverter {
     close()* None
     convert(raw: RawDocument) ConvertedDocument
   }
-  style BaseConverter fill:#BBCC33
+  style BaseConverter fill:#AAAA00
   class BasePipeline {
-    chunker
+    chunker : str
     connector
     converter
     storage
     close() None
     run(entries: list[ManifestEntry]) RunSummary
   }
-  style BasePipeline fill:#BBCC33
+  style BasePipeline fill:#AAAA00
   class BaseVectorStore {
     embedding
     add_documents(chunks: list[Chunk])* list[str]
@@ -82,7 +78,7 @@ classDiagram
     search(query: str, k: int)* list[ScoredChunk]
     upsert_documents(chunks: list[Chunk], key_field: str) list[str]
   }
-  style BaseVectorStore fill:#BBCC33
+  style BaseVectorStore fill:#AAAA00
   class Chunk {
     audience : Literal
     chunk_index : int
@@ -103,7 +99,7 @@ classDiagram
     title : str
     url : str
   }
-  style Chunk fill:#BBCC33
+  style Chunk fill:#AAAA00
   class ConvertedDocument {
     document
     entry
@@ -111,14 +107,14 @@ classDiagram
     model_config
     retrieved : date
   }
-  style ConvertedDocument fill:#BBCC33
+  style ConvertedDocument fill:#AAAA00
   class DocumentResult {
     chunks : int
     doc_id : str
     error : str | None
     status : Literal['ok', 'failed', 'skipped']
   }
-  style DocumentResult fill:#BBCC33
+  style DocumentResult fill:#AAAA00
   class ManifestEntry {
     audience : Literal
     checked : date | None
@@ -135,7 +131,7 @@ classDiagram
     title : str
     url
   }
-  style ManifestEntry fill:#BBCC33
+  style ManifestEntry fill:#AAAA00
   class RawDocument {
     content_type : str | None
     entry
@@ -143,7 +139,7 @@ classDiagram
     path : Path
     retrieved : date
   }
-  style RawDocument fill:#BBCC33
+  style RawDocument fill:#AAAA00
   class RunSummary {
     failed : int
     ok : int
@@ -151,13 +147,13 @@ classDiagram
     skipped : int
     count(status: str) int
   }
-  style RunSummary fill:#BBCC33
+  style RunSummary fill:#AAAA00
   class ScoredChunk {
     chunk
     model_config
     score : float
   }
-  style ScoredChunk fill:#BBCC33
+  style ScoredChunk fill:#AAAA00
   class Settings {
     chunk_max_tokens : int
     chunk_min_chars : int
@@ -171,13 +167,13 @@ classDiagram
     user_agent : str
     collection_name() str
   }
-  style Settings fill:#BBCC33
+  style Settings fill:#AAAA00
   class EmbeddingCache {
     get_many(texts: list[str]) dict[str, list[float]]
     key(text: str) str
     put_many(texts: list[str], vectors: list[list[float]]) None
   }
-  style EmbeddingCache fill:#AAAA00
+  style EmbeddingCache fill:#EEDD88
   class OpenAICompatibleEmbedder {
     batch_size : int
     dimension : int
@@ -185,17 +181,7 @@ classDiagram
     embed_documents(texts: list[str]) list[list[float]]
     embed_query(text: str) list[float]
   }
-  style OpenAICompatibleEmbedder fill:#AAAA00
-  class SentenceTransformerEmbedder {
-    dimension : int
-    document_prefix : str
-    name : str
-    query_prefix : str
-    embed_documents(texts: list[str]) list[list[float]]
-    embed_query(text: str) list[float]
-    from_preset(model_id: str) 'SentenceTransformerEmbedder'
-  }
-  style SentenceTransformerEmbedder fill:#AAAA00
+  style OpenAICompatibleEmbedder fill:#EEDD88
   class QdrantStore {
     batch_size : int
     bm25 : SparseTextEmbedding
@@ -209,7 +195,7 @@ classDiagram
     delete_by_metadata(field: str, value: str) int
     search(query: str, k: int) list[ScoredChunk]
   }
-  style QdrantStore fill:#EEDD88
+  style QdrantStore fill:#EE8866
   HttpConnector --|> BaseConnector
   CachedConverter --|> BaseConverter
   CleaningConverter --|> BaseConverter
@@ -217,12 +203,10 @@ classDiagram
   JatsConverter --|> CleaningConverter
   PdfConverter --|> CleaningConverter
   RoutingConverter --|> CleaningConverter
-  BaseHybridChunker --|> BaseChunker
   QdrantStore --|> BaseVectorStore
   ScoredChunk --> Chunk : chunk
   ConvertedDocument --> ManifestEntry : entry
   RawDocument --> ManifestEntry : entry
-  BaseChunker --o BasePipeline : chunker
   BaseConnector --o BasePipeline : connector
   BaseConverter --o CachedConverter : converter
   BaseConverter --o BasePipeline : converter

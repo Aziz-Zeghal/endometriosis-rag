@@ -1,6 +1,5 @@
-"""Base classes for chunking strategies."""
+"""The chunker: docling's HybridChunker, with citation metadata on every chunk."""
 
-from abc import ABC, abstractmethod
 from collections.abc import Callable
 from typing import TYPE_CHECKING
 
@@ -9,14 +8,8 @@ from docling_core.types.doc import DocItemLabel, DoclingDocument, InlineGroup, T
 from endorag_ingestion.core.models import Chunk, ConvertedDocument
 
 if TYPE_CHECKING:
-    from docling_core.transforms.chunker.hybrid_chunker import HybridChunker
+    from docling_core.transforms.chunker.hybrid_chunker import HybridChunker as DoclingHybrid
     from docling_core.transforms.chunker.tokenizer.base import BaseTokenizer
-
-
-class BaseChunker(ABC):
-    @abstractmethod
-    def chunk(self, document: ConvertedDocument) -> list[Chunk]:
-        """Split a converted document into retrievable chunks carrying its citation metadata."""
 
 
 def _is_text_of(parent) -> bool:
@@ -49,8 +42,9 @@ def _join_inline_runs(document: DoclingDocument) -> DoclingDocument:
     return doc
 
 
-class BaseHybridChunker(BaseChunker):
-    """BaseChunker backed by docling's `HybridChunker`.
+class HybridChunker:
+    """Splits a `ConvertedDocument` with docling's `HybridChunker` (the only chunker: no base
+    class, since no other chunking strategy is explored).
 
     The chunker follows the DoclingDocument's structure (sections, paragraphs, list items,
     tables kept as Markdown tables), splits pieces that exceed `max_tokens` of the embedder's
@@ -62,8 +56,6 @@ class BaseHybridChunker(BaseChunker):
     path is prepended to the text only when embedding (`Chunk.embedding_text`).
 
     `tokenizer` is a Hugging Face model id, loaded on first use, or a ready tokenizer.
-    Concrete: text chunks only. A modality with its own chunks (e.g. video transcripts with
-    time offsets) would subclass it and override `chunk()` on top of `_text_chunks()`.
 
     docling's chunker modules need the `[ingest]` extra, so they are imported on first use:
     `core` stays importable by the backend's light install.
@@ -80,17 +72,19 @@ class BaseHybridChunker(BaseChunker):
         self.text_cleaner = text_cleaner or str.strip
         self.max_tokens = max_tokens
         self.min_chars = min_chars
-        self._chunker: HybridChunker | None = None
+        self._chunker: DoclingHybrid | None = None
 
     @property
-    def chunker(self) -> "HybridChunker":
+    def chunker(self) -> "DoclingHybrid":
         """docling's HybridChunker, built on first use (the tokenizer may be downloaded)."""
         if self._chunker is None:
             from docling_core.transforms.chunker.hierarchical_chunker import (
                 ChunkingDocSerializer,
                 ChunkingSerializerProvider,
             )
-            from docling_core.transforms.chunker.hybrid_chunker import HybridChunker
+            from docling_core.transforms.chunker.hybrid_chunker import (
+                HybridChunker as DoclingHybrid,
+            )
             from docling_core.transforms.chunker.tokenizer.huggingface import (
                 HuggingFaceTokenizer,
             )
@@ -111,12 +105,12 @@ class BaseHybridChunker(BaseChunker):
                 tokenizer = HuggingFaceTokenizer.from_pretrained(
                     tokenizer, max_tokens=self.max_tokens
                 )
-            self._chunker = HybridChunker(
+            self._chunker = DoclingHybrid(
                 tokenizer=tokenizer, merge_peers=True, serializer_provider=MarkdownTables()
             )
         return self._chunker
 
-    def _text_chunks(self, document: ConvertedDocument) -> list[Chunk]:
+    def chunk(self, document: ConvertedDocument) -> list[Chunk]:
         """Text chunks with their heading path, page and the entry's citation metadata."""
         e = document.entry
         titles = {
@@ -152,7 +146,3 @@ class BaseHybridChunker(BaseChunker):
             )
             for i, (path, text, page) in enumerate(pieces)
         ]
-
-    def chunk(self, document: ConvertedDocument) -> list[Chunk]:
-        """Default chunking is text only."""
-        return self._text_chunks(document)

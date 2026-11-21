@@ -114,7 +114,7 @@ class Block(MetaPathFinder):
 sys.meta_path.insert(0, Block())
 import endorag_ingestion.core
 from endorag_ingestion.cli import app
-from endorag_ingestion.embedder import make_embedder
+from endorag_ingestion.embedder import OpenAICompatibleEmbedder
 from endorag_ingestion.factory import build_storage
 from endorag_ingestion.vector_storage import QdrantStore
 """

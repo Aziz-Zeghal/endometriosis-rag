@@ -1,8 +1,8 @@
 """Base ingestion pipeline (Template Method pattern)."""
 
 import logging
+from typing import TYPE_CHECKING
 
-from endorag_ingestion.core.base_chunker import BaseChunker
 from endorag_ingestion.core.base_connector import BaseConnector
 from endorag_ingestion.core.base_converter import BaseConverter
 from endorag_ingestion.core.base_vector_store import BaseVectorStore
@@ -18,6 +18,10 @@ from endorag_ingestion.core.models import (
 logger = logging.getLogger(__name__)
 
 
+if TYPE_CHECKING:  # the one chunker implementation (no chunker base class)
+    from endorag_ingestion.chunker import HybridChunker
+
+
 class BasePipeline:
     """download -> convert -> chunk -> store, one manifest entry at a time.
 
@@ -30,7 +34,7 @@ class BasePipeline:
         self,
         connector: BaseConnector,
         converter: BaseConverter,
-        chunker: BaseChunker,
+        chunker: "HybridChunker",
         storage: BaseVectorStore,
     ) -> None:
         self.connector = connector

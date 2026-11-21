@@ -14,8 +14,8 @@ one-line justification.
 | Orchestration | **LangGraph** ≥ 1.2 | A linear LangChain chain | Safety routing and refuse-vs-clarify branches read naturally as a graph, and the graph is also the documentation. |
 | API | **FastAPI** ≥ 0.165 + uvicorn | Flask | Async streaming, typed models, OpenAPI docs for free. |
 | Streaming | `StreamingResponse` emitting the AI SDK UI message stream | `sse-starlette`, LangGraph Server | The protocol is a handful of `data:` lines, so no extra dependency or server is needed, and the frontend gets typed source parts. |
-| Embeddings | **Nemotron-3-Embed-1B through the OpenAI-compatible endpoint** (default, served by NVIDIA NIM); `gemini-embedding-001` as the API alternative; the same Nemotron weights locally (`[local]` extra) as the offline fallback | Local GPU models by default | Best French retrieval scores on the shortlist, no model download or GPU needed, identical locally and in a Codespace. Requests are batched (16 texts), retried with backoff and cached on disk, so an interrupted run resumes without re-embedding. |
-| Reranker | **None in v1**, behind a `Reranker` interface | A local cross-encoder by default | Hybrid search with RRF is a strong baseline for a few hundred chunks. If the benchmark shows a gap, `BAAI/bge-reranker-v2-m3` (Apache-2.0, `[local]` extra) is the candidate; jina-reranker-v3 is CC BY-NC. |
+| Embeddings | **Nemotron-3-Embed-1B through the OpenAI-compatible endpoint** (default, served by NVIDIA NIM); `gemini-embedding-001` as the alternative on the same endpoint; one embedder class, the model is a setting (`EMBEDDER`) | Local GPU models by default | Best French retrieval scores on the shortlist, no model download or GPU needed, identical locally and in a Codespace. Requests are batched (16 texts), retried with backoff and cached on disk, so an interrupted run resumes without re-embedding. Documents are embedded once and cached in `data/cache` (gitignored); a query still needs the endpoint. |
+| Reranker | **None in v1**, behind a `Reranker` interface | A local cross-encoder by default | Hybrid search with RRF is a strong baseline for a few hundred chunks. If the benchmark shows a gap, `BAAI/bge-reranker-v2-m3` (Apache-2.0) is the candidate; jina-reranker-v3 is CC BY-NC. |
 | Vector store | **Qdrant, local mode** (`QdrantClient(path=…)`) | Chroma, FAISS, Elasticsearch | Qdrant is the only embedded option with **native hybrid search** (dense + sparse BM25, RRF fusion). The same client code runs against a Qdrant server or Qdrant Cloud. Chroma has no hybrid search in local mode. FAISS is an index, not a database. Elasticsearch needs a JVM container, and its RRF retriever requires an Enterprise licence. |
 | Sparse retrieval | BM25 sparse vectors via `fastembed` (`Qdrant/bm25`, French stemming **(to verify)**) | No lexical search | Exact medical terms (diénogest, adénomyose, endométriome) are where dense retrieval fails. |
 | PDF conversion | **docling** ≥ 2.151 | pymupdf4llm, unstructured | A layout model recovers real section headings for heading-aware chunks. It needs PyTorch, installed as the CPU build: fast enough for a dozen PDFs. pymupdf4llm is AGPL **(to verify)**. |
@@ -26,7 +26,7 @@ one-line justification.
 | Frontend build | **Vite + React 19 + TypeScript** | Streamlit, Next.js | A single-page app with no server-side rendering needs. One frontend rather than Streamlit first and React later avoids building the UI twice. |
 | Chat UI | **assistant-ui** with its AI SDK runtime (`@assistant-ui/react-ai-sdk`) | Hand-written chat, CopilotKit, LangGraph `useStream` | Thread, streaming Markdown, auto-scroll, cancel and retry come ready-made. It reads a protocol our FastAPI can emit. `useStream` expects a LangGraph Server. |
 | UI kit | **shadcn/ui + Tailwind CSS v4** | MUI, Chakra | assistant-ui components are shadcn-based, so they need no theming work. |
-| Evaluation | **ragas** ≥ 0.4.4 (collections API) | A custom LLM judge | Standard metrics that people recognise, with a pluggable OpenAI-compatible judge and local embeddings. |
+| Evaluation | **ragas** ≥ 0.4.4 (collections API) | A custom LLM judge | Standard metrics that people recognise, with a pluggable OpenAI-compatible judge; it can reuse the ingestion embedder (a LangChain `Embeddings`). |
 | Tracing (optional) | LangSmith, enabled by environment variables only | None | Zero-code traces of every node for debugging and the demo. Self-hosted Langfuse is the production option (see [local-vs-production.md](local-vs-production.md)). |
 | Python env | **conda** (Python 3.12) + **uv pip** + **ruff** | `uv sync`, `.venv`, pip | conda supplies the interpreter and the CUDA-friendly environment. `uv pip install -e .` installs into the active conda env (it targets `CONDA_PREFIX`) and never creates `.venv`. ruff handles lint and format. |
 | Node tooling | npm | pnpm | Nothing extra to install for someone cloning a public repo with a single frontend package. |
@@ -44,17 +44,19 @@ one-line justification.
 
 ## Embedding shortlist
 
-The default is `nemotron-3-embed-1b` through the API. Local candidates are optional and run
-on the CPU build of PyTorch (a few hundred chunks take minutes); a GPU only speeds them up.
+The default is `nemotron-3-embed-1b` through the API. The table below is the research
+shortlist; only API models are run: the benchmark compares the models served by the same
+OpenAI-compatible endpoint (today `nemotron-3-embed-1b` and `gemini-embedding-001`) by
+changing `EMBEDDER`. Each model gets its own collection and embedding cache. The open-weight
+rows stay as references, to run only if the endpoint serves them.
 
 The endpoint sends the same `input_type` for documents and queries, so the embeddings are
-symmetric. The local fallback reproduces this by using the same prompt on both sides, which
-keeps API and local vectors in the same space.
+symmetric.
 
 | Model | Params | Dims | Max tokens | Memory (fp16, est.) | Licence | Why on the list |
 |---|---|---|---|---|---|---|
 | `Qwen/Qwen3-Embedding-4B` | 4B | 2560 (MRL) | 32k | ~8 GB | Apache-2.0 | Strongest open model that fits on Alloprof (65.4), Syntec (89.9) and MIRACL-HN fr (60.2) nDCG@10 (MTEB results repo). Instruction prefix on queries only. |
-| `nvidia/Nemotron-3-Embed-1B-BF16` (**default, via API**) | 1.1B | 2048 | 32k | ~2.3 GB | OpenMDW-1.1 (commercial OK) | 2026 NVIDIA model. Leads on the French RTEB tasks (French1 88.8, FrenchLegal1 94.6), even ahead of Qwen3-4B. Has no Alloprof or Syntec results. Needs recent sentence-transformers/transformers. `query:` / `passage:` prefixes. |
+| `nvidia/Nemotron-3-Embed-1B-BF16` (**default, via API**) | 1.1B | 2048 | 32k | ~2.3 GB | OpenMDW-1.1 (commercial OK) | 2026 NVIDIA model. Leads on the French RTEB tasks (French1 88.8, FrenchLegal1 94.6), even ahead of Qwen3-4B. Has no Alloprof or Syntec results. `query:` / `passage:` prefixes. |
 | `BAAI/bge-m3` | ~0.57B | 1024 | 8k | ~1.1 GB | MIT | Robust baseline, no prefixes, widely known. |
 | `gemini-embedding-001` (API) | API | 3072 (MRL) | 2k | 0 | Proprietary API | API alternative with strong French scores. Trade-off: data leaves the machine. |
 
@@ -72,7 +74,7 @@ and `torchvision` to the CPU wheel index through `[tool.uv.sources]`, so no CUDA
 downloaded.
 
 The ingestion package has a light base and an `ingest` extra. The base (Pydantic models,
-settings, `make_embedder`, `QdrantStore`, the `query` and `stats` commands) is what the
+settings, `OpenAICompatibleEmbedder`, `QdrantStore`, the `query` and `stats` commands) is what the
 backend installs; it includes plain `docling-core` for the `DoclingDocument` model, which
 pulls neither PyTorch nor transformers. The `ingest` extra adds what conversion and chunking
 need (`docling`, `trafilatura`, `docling-core[chunking]`, `torch`, `torchvision`); the `run`
@@ -83,7 +85,6 @@ need the extra.
 conda env create -f environment.yml        # python 3.12 only, env name: endorag
 conda activate endorag
 uv pip install -e "./ingestion[ingest,dev]" -e "./back[dev]"
-uv pip install -e "./ingestion[local]"     # optional: local embedding models
 uv pip install -r eval/requirements.txt    # ragas, only for evaluation
 ruff check . && ruff format --check .
 ```

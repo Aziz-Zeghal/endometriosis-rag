@@ -1,16 +1,11 @@
-import builtins
 import threading
 
 import httpx
 import openai
 import pytest
 from endorag_ingestion.core.settings import Settings
-from endorag_ingestion.embedder import (
-    OpenAICompatibleEmbedder,
-    SentenceTransformerEmbedder,
-    make_embedder,
-    openai_compatible,
-)
+from endorag_ingestion.embedder import OpenAICompatibleEmbedder, openai_compatible
+from endorag_ingestion.factory import build_storage
 
 
 def transient_error() -> Exception:
@@ -112,66 +107,42 @@ def test_dimension_known_or_probed_once(tmp_path):
     assert len(client.calls) == 1
 
 
-def settings(embedder: str) -> Settings:
-    return Settings(
-        _env_file=None, embedder=embedder, llm_base_url="http://test/v1", llm_api_key="fake"
-    )
-
-
-def test_factory_api_model(tmp_path, monkeypatch):
+def test_factory_builds_the_embedder_from_settings(tmp_path, monkeypatch):
     monkeypatch.setattr(openai_compatible, "CACHE_DIR", tmp_path)
-    embedder = make_embedder(settings("gemini-embedding-001"))
-    assert isinstance(embedder, OpenAICompatibleEmbedder)
-    assert embedder.name == "gemini-embedding-001"
-    assert embedder.dimension == 3072
-    assert (tmp_path / "embeddings" / "gemini-embedding-001.sqlite").exists()
+    settings = Settings(
+        _env_file=None,
+        embedder="gemini-embedding-001",
+        qdrant_path=tmp_path / "qdrant",
+        llm_base_url="http://test/v1",
+        llm_api_key="fake",
+    )
+    store = build_storage(settings)
+    try:
+        assert isinstance(store.embedding, OpenAICompatibleEmbedder)
+        assert store.embedding.name == "gemini-embedding-001"
+        assert store.embedding.dimension == 3072
+        assert (tmp_path / "embeddings" / "gemini-embedding-001.sqlite").exists()
+    finally:
+        store.close()
 
 
 @pytest.mark.parametrize(
     "missing",
     [{"llm_base_url": None}, {"llm_api_key": None}, {"llm_base_url": None, "llm_api_key": None}],
 )
-def test_factory_api_model_requires_endpoint_settings(missing):
+def test_factory_requires_endpoint_settings(missing):
     values = {"llm_base_url": "http://test/v1", "llm_api_key": "fake"} | missing
     with pytest.raises(ValueError, match="LLM_BASE_URL and LLM_API_KEY"):
-        make_embedder(Settings(_env_file=None, embedder="nemotron-3-embed-1b", **values))
-
-
-def test_factory_rejects_unknown_local_model(monkeypatch):
-    monkeypatch.setattr(SentenceTransformerEmbedder, "__init__", lambda self, *a: None)
-    with pytest.raises(ValueError, match="Unknown local embedder"):
-        make_embedder(settings("someone/untrusted-model"))
-
-
-@pytest.fixture
-def no_sentence_transformers(monkeypatch):
-    real_import = builtins.__import__
-
-    def fake_import(name, *args, **kwargs):
-        if name.startswith("sentence_transformers"):
-            raise ImportError(name)
-        return real_import(name, *args, **kwargs)
-
-    monkeypatch.setattr(builtins, "__import__", fake_import)
-
-
-@pytest.mark.parametrize("model_id", ["nvidia/Nemotron-3-Embed-1B-BF16", "BAAI/bge-m3"])
-def test_factory_local_model_without_extra(model_id, no_sentence_transformers):
-    with pytest.raises(ImportError, match=r"ingestion\[local\]"):
-        make_embedder(settings(model_id))
-
-
-def test_local_factory_uses_preset_prefixes(monkeypatch):
-    seen = {}
-    monkeypatch.setattr(SentenceTransformerEmbedder, "__init__", lambda self, *a: seen.update(a=a))
-    make_embedder(settings("nvidia/Nemotron-3-Embed-1B-BF16"))
-    assert seen["a"] == ("nvidia/Nemotron-3-Embed-1B-BF16", "query: ", "query: ")
+        build_storage(Settings(_env_file=None, embedder="nemotron-3-embed-1b", **values))
 
 
 @pytest.mark.live
 def test_live_endpoint_dimension(tmp_path, monkeypatch):
     monkeypatch.setattr(openai_compatible, "CACHE_DIR", tmp_path)
-    embedder = make_embedder(Settings(embedder="nemotron-3-embed-1b"))
+    settings = Settings(embedder="nemotron-3-embed-1b")
+    embedder = OpenAICompatibleEmbedder(
+        settings.embedder, settings.llm_base_url, settings.llm_api_key.get_secret_value()
+    )
     vectors = embedder.embed_documents(
         [
             "L'endométriose touche environ une femme sur dix.",

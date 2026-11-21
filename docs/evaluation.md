@@ -5,7 +5,7 @@ Three tiers, from cheapest and deterministic to most expensive and judgement-bas
 | Tier | What | Needs network | When |
 |---|---|---|---|
 | 1. Unit and guardrail tests | Safety gate keywords, router edges with a fake LLM, chunker, store | No | Every commit |
-| 2. Retrieval benchmark | Embedding comparison (API vs local models) on the golden set | API, optional local models | When retrieval changes |
+| 2. Retrieval benchmark | Embedding comparison (API models on the same endpoint) on the golden set | Embedding endpoint | When retrieval changes |
 | 3. RAGAS + live guardrails | Faithfulness, answer relevancy, context precision; answer-content safety checks | LLM endpoint | Before each release; nightly in production |
 
 ## Golden set
@@ -41,9 +41,11 @@ metrics without an LLM. `expected_route` and `expected_flags` enable routing acc
 
 ## Embedding benchmark
 
-For each candidate in [tech-stack.md](tech-stack.md#embedding-shortlist), we build a separate
-collection from the same chunks, run the golden questions that have
-`expected_route == "question"` and a non-empty `reference_doc_ids`, and report:
+For each API model served by the endpoint (see
+[tech-stack.md](tech-stack.md#embedding-shortlist); e.g. `nemotron-3-embed-1b` vs
+`gemini-embedding-001`), we set `EMBEDDER`, build a separate collection from the same
+chunks, run the golden questions that have `expected_route == "question"` and a non-empty
+`reference_doc_ids`, and report:
 
 - **Hit@5** and **MRR@10**, measured at document level against `reference_doc_ids`;
 - the same metrics with a reranker on, if the gap justifies one;

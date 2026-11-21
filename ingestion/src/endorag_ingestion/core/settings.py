@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     chunk_min_chars: int = 40  # chunks with fewer letters and digits are dropped
     user_agent: str = "endorag-research-bot/0.1 (non-commercial research demo)"
 
-    # Only needed by the OpenAI-compatible embedder; the backend makes them required.
+    # The embedding endpoint (needed by build_storage); the backend makes them required.
     llm_base_url: str | None = None
     llm_api_key: SecretStr | None = Field(
         default=None, validation_alias=AliasChoices("LLM_API_KEY", "FREELLMAPI_API_KEY")

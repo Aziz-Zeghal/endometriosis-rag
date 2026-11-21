@@ -7,8 +7,8 @@ def test_root_dir_is_repo_root():
 
 
 def test_collection_name_includes_profile_and_embedder():
-    s = Settings(_env_file=None, profile="gp", embedder="BAAI/bge-m3")
-    assert s.collection_name() == "gp__BAAI_bge-m3"
+    s = Settings(_env_file=None, profile="gp", embedder="nvidia/llama-nemotron-embed")
+    assert s.collection_name() == "gp__nvidia_llama-nemotron-embed"
 
 
 def test_api_key_alias(monkeypatch):
