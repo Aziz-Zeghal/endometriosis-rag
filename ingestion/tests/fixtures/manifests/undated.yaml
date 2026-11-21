@@ -1,0 +1,7 @@
+- id: doc-undated
+  url: https://example.org/undated
+  source: Example
+  title: "Document sans date"
+  audience: patient
+  format: html
+  licence: all-rights-reserved

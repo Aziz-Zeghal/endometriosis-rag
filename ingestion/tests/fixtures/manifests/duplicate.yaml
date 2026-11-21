@@ -1,0 +1,17 @@
+- id: doc-a
+  url: https://example.org/a
+  source: Example
+  title: "Document A"
+  published: 2026-01-01
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: doc-a
+  url: https://example.org/a-bis
+  source: Example
+  title: "Document A bis"
+  published: 2026-01-01
+  audience: patient
+  format: html
+  licence: all-rights-reserved
