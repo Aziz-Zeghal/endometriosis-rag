@@ -50,7 +50,11 @@ def run(
         entries = load_entries(profile, only or None)
     except ValueError as exc:
         raise typer.BadParameter(str(exc), param_hint="--only") from exc
-    pipeline = factory.build_pipeline(settings, refresh=refresh)
+    try:
+        pipeline = factory.build_pipeline(settings, refresh=refresh)
+    except ImportError as exc:
+        typer.echo(str(exc), err=True)
+        raise typer.Exit(code=1) from exc
     try:
         summary = pipeline.run(entries)
         total = pipeline.storage.count()
@@ -77,11 +81,11 @@ def query(
     embedder: EmbedderOpt = None,
 ) -> None:
     """Hybrid search (dense + BM25) and print the top chunks with their sources."""
-    pipeline = factory.build_pipeline(_settings(profile, embedder))
+    storage = factory.build_storage(_settings(profile, embedder))
     try:
-        hits = pipeline.storage.search(text, k=k)
+        hits = storage.search(text, k=k)
     finally:
-        pipeline.close()
+        storage.close()
     for rank, hit in enumerate(hits, 1):
         c = hit.chunk
         typer.echo(f"{rank}. [{hit.score:.4f}] {c.doc_id}  ({c.source}, {c.published})")
@@ -94,12 +98,12 @@ def query(
 def stats(profile: ProfileOpt = "patient", embedder: EmbedderOpt = None) -> None:
     """Collection name, number of points and chunks per document."""
     settings = _settings(profile, embedder)
-    pipeline = factory.build_pipeline(settings)
+    storage = factory.build_storage(settings)
     try:
-        total = pipeline.storage.count()
-        counts = pipeline.storage.chunk_counts()
+        total = storage.count()
+        counts = storage.chunk_counts()
     finally:
-        pipeline.close()
+        storage.close()
     typer.echo(f"collection: {settings.collection_name()}")
     typer.echo(f"points: {total}, documents: {len(counts)}")
     for doc_id, n in counts.items():

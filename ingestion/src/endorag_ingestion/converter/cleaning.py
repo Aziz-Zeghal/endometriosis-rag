@@ -1,4 +1,5 @@
-"""Clean-up shared by the converters (`BaseConverter._enrich`) and the chunker.
+"""Conversion clean-up: `CleaningConverter` (base of the format converters) and `clean_text`,
+which the factory also hands to the chunker.
 
 Structure is cleaned on the DoclingDocument (items removed by label or heading); what remains of the
 old Markdown clean-up runs on text: the Markdown snapshot and every chunk's text.
@@ -8,6 +9,8 @@ import html
 import re
 
 from docling_core.types.doc import DocItemLabel, DoclingDocument, NodeItem
+
+from endorag_ingestion.core import BaseConverter
 
 # "12", "- 12 -", "12/30", "Page 12", "Page 12 sur 30", "p. 12"
 _PAGE_NUMBER = re.compile(
@@ -104,3 +107,17 @@ def _compact_table_row(line: str) -> str:
     if not line.lstrip().startswith("|"):
         return line
     return re.sub(r"-{4,}", "---", re.sub(r" {2,}", " ", line))
+
+
+class CleaningConverter(BaseConverter):
+    """Base of the format converters: cleans the parsed document and its Markdown.
+
+    `_enrich` removes tables of contents, back matter and blank annex forms (by docling
+    labels); `_markdown` applies the text clean-up to the snapshot.
+    """
+
+    def _enrich(self, document: DoclingDocument) -> None:
+        clean_document(document)
+
+    def _markdown(self, document: DoclingDocument) -> str:
+        return clean_text(document.export_to_markdown(image_placeholder=""))

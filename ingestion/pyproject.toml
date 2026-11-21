@@ -8,11 +8,7 @@ dependencies = [
     "pydantic-settings>=2.16",
     "pyyaml>=6.0",
     "httpx>=0.28",
-    "trafilatura>=2.3",
-    "docling>=2.151",
-    "docling-core[chunking]>=2.108",  # HybridChunker and Hugging Face tokenizers
-    "torch>=2.9",  # pulled by docling; CPU build, see [tool.uv.sources]
-    "torchvision>=0.24",
+    "docling-core>=2.108",  # DoclingDocument model only (no torch, no transformers)
     "langchain-core>=1.8",  # Embeddings interface
     "langchain-openai>=1.8",
     "qdrant-client>=1.20",
@@ -21,6 +17,14 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+# Conversion and chunking (the `run` command). The backend installs the package without it.
+ingest = [
+    "trafilatura>=2.3",
+    "docling>=2.151",
+    "docling-core[chunking]>=2.108",  # HybridChunker and Hugging Face tokenizers
+    "torch>=2.9",  # pulled by docling; CPU build, see [tool.uv.sources]
+    "torchvision>=0.24",
+]
 dev = ["pytest>=8.3", "ruff>=0.9"]
 # Optional local embedding models for the benchmark (run on the CPU build of torch)
 local = ["sentence-transformers>=6.3"]

@@ -11,8 +11,8 @@ from docling_core.types.doc import DoclingDocument
 from lxml import etree
 from trafilatura.utils import load_html
 
-from endorag_ingestion.core import BaseConverter, RawDocument
-from endorag_ingestion.core.cleaning import clean_text, remove_web_trailer
+from endorag_ingestion.converter.cleaning import CleaningConverter, clean_text, remove_web_trailer
+from endorag_ingestion.core import RawDocument
 
 logger = logging.getLogger(__name__)
 
@@ -34,7 +34,7 @@ _CHROME = ".//nav|.//aside|.//form|.//img|.//picture|.//figure"
 _NS = {"re": "http://exslt.org/regular-expressions"}
 
 
-class HtmlConverter(BaseConverter):
+class HtmlConverter(CleaningConverter):
     """Drops navigation, footers and cookie banners; keeps headings, paragraphs and tables.
 
     Extraction runs in precision mode first. If that loses most headings or most of the

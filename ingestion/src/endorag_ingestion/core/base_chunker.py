@@ -1,16 +1,11 @@
 """Base classes for chunking strategies."""
 
 from abc import ABC, abstractmethod
+from collections.abc import Callable
 from typing import TYPE_CHECKING
 
-from docling_core.transforms.chunker.hierarchical_chunker import (
-    ChunkingDocSerializer,
-    ChunkingSerializerProvider,
-)
-from docling_core.transforms.serializer.markdown import MarkdownTableSerializer
 from docling_core.types.doc import DocItemLabel, DoclingDocument, InlineGroup, TextItem
 
-from endorag_ingestion.core.cleaning import clean_text
 from endorag_ingestion.core.models import Chunk, ConvertedDocument
 
 if TYPE_CHECKING:
@@ -24,14 +19,6 @@ class BaseChunker(ABC):
         """Split a converted document into retrievable chunks carrying its citation metadata."""
 
 
-class _MarkdownTables(ChunkingSerializerProvider):
-    """Serialize tables as Markdown tables. The default "row, header = cell" triplets take
-    the first row as the header and repeat it in every row of two-column glossaries."""
-
-    def get_serializer(self, doc):
-        return ChunkingDocSerializer(doc=doc, table_serializer=MarkdownTableSerializer())
-
-
 def _is_text_of(parent) -> bool:
     return isinstance(parent, InlineGroup) or (isinstance(parent, TextItem) and not parent.text)
 
@@ -43,6 +30,8 @@ def _join_inline_runs(document: DoclingDocument) -> DoclingDocument:
     ("une \\n**endométriose**\\n, un"). An inline group that is the whole text of its parent
     (a list item, a heading) is serialized whole already and stays as it is.
     """
+    from docling_core.transforms.chunker.hierarchical_chunker import ChunkingDocSerializer
+
     doc = document.model_copy(deep=True)
     serializer = ChunkingDocSerializer(doc=doc)
     groups = [
@@ -73,13 +62,22 @@ class BaseHybridChunker(BaseChunker):
     path is prepended to the text only when embedding (`Chunk.embedding_text`).
 
     `tokenizer` is a Hugging Face model id, loaded on first use, or a ready tokenizer.
-    Subclasses may add modality-specific chunks on top of _text_chunks().
+    Concrete: text chunks only. A modality with its own chunks (e.g. video transcripts with
+    time offsets) would subclass it and override `chunk()` on top of `_text_chunks()`.
+
+    docling's chunker modules need the `[ingest]` extra, so they are imported on first use:
+    `core` stays importable by the backend's light install.
     """
 
     def __init__(
-        self, tokenizer: "str | BaseTokenizer", max_tokens: int = 512, min_chars: int = 40
+        self,
+        tokenizer: "str | BaseTokenizer",
+        max_tokens: int = 512,
+        min_chars: int = 40,
+        text_cleaner: Callable[[str], str] | None = None,
     ) -> None:
         self.tokenizer = tokenizer
+        self.text_cleaner = text_cleaner or str.strip
         self.max_tokens = max_tokens
         self.min_chars = min_chars
         self._chunker: HybridChunker | None = None
@@ -88,10 +86,25 @@ class BaseHybridChunker(BaseChunker):
     def chunker(self) -> "HybridChunker":
         """docling's HybridChunker, built on first use (the tokenizer may be downloaded)."""
         if self._chunker is None:
+            from docling_core.transforms.chunker.hierarchical_chunker import (
+                ChunkingDocSerializer,
+                ChunkingSerializerProvider,
+            )
             from docling_core.transforms.chunker.hybrid_chunker import HybridChunker
             from docling_core.transforms.chunker.tokenizer.huggingface import (
                 HuggingFaceTokenizer,
             )
+            from docling_core.transforms.serializer.markdown import MarkdownTableSerializer
+
+            class MarkdownTables(ChunkingSerializerProvider):
+                """Serialize tables as Markdown tables. The default "row, header = cell"
+                triplets take the first row as the header and repeat it in every row of
+                two-column glossaries."""
+
+                def get_serializer(self, doc):
+                    return ChunkingDocSerializer(
+                        doc=doc, table_serializer=MarkdownTableSerializer()
+                    )
 
             tokenizer = self.tokenizer
             if isinstance(tokenizer, str):
@@ -99,7 +112,7 @@ class BaseHybridChunker(BaseChunker):
                     tokenizer, max_tokens=self.max_tokens
                 )
             self._chunker = HybridChunker(
-                tokenizer=tokenizer, merge_peers=True, serializer_provider=_MarkdownTables()
+                tokenizer=tokenizer, merge_peers=True, serializer_provider=MarkdownTables()
             )
         return self._chunker
 
@@ -113,7 +126,7 @@ class BaseHybridChunker(BaseChunker):
         }
         pieces: list[tuple[list[str], str, int | None]] = []
         for c in self.chunker.chunk(dl_doc=_join_inline_runs(document.document)):
-            text = clean_text(c.text)
+            text = self.text_cleaner(c.text)
             if sum(ch.isalnum() for ch in text) < self.min_chars:
                 continue
             path = list(c.meta.headings or [])

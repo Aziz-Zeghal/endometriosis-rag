@@ -2,10 +2,11 @@
 
 from docling_core.types.doc import DoclingDocument
 
-from endorag_ingestion.core import BaseConverter, RawDocument
+from endorag_ingestion.converter.cleaning import CleaningConverter
+from endorag_ingestion.core import RawDocument
 
 
-class PdfConverter(BaseConverter):
+class PdfConverter(CleaningConverter):
     """The docling converter loads models, so it is built on first use and then reused.
 
     OCR is off: the corpus PDFs have a text layer, and OCR is the slowest step. The

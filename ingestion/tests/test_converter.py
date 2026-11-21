@@ -5,11 +5,14 @@ from pathlib import Path
 import pytest
 from docling_core.types.doc import DocItemLabel, DoclingDocument, TableCell, TableData
 from endorag_ingestion.connector import HttpConnector
-from endorag_ingestion.converter import HtmlConverter, PdfConverter, RoutingConverter, routing
+from endorag_ingestion.converter import cached
 from endorag_ingestion.converter import html as html_converter
-from endorag_ingestion.converter.routing import CONVERTER_VERSION
+from endorag_ingestion.converter.cached import CONVERTER_VERSION, CachedConverter
+from endorag_ingestion.converter.cleaning import clean_document, clean_text
+from endorag_ingestion.converter.html import HtmlConverter
+from endorag_ingestion.converter.pdf import PdfConverter
+from endorag_ingestion.converter.routing import RoutingConverter
 from endorag_ingestion.core import RawDocument
-from endorag_ingestion.core.cleaning import clean_document, clean_text
 from endorag_ingestion.core.settings import RAW_DIR
 from endorag_ingestion.manifest import load_entries
 from fakes import TODAY, FakeConverter, make_entry
@@ -18,7 +21,7 @@ FIXTURES = Path(__file__).parent / "fixtures" / "converter"
 
 
 class MustNotConvert(FakeConverter):
-    def convert(self, raw):
+    def _parse(self, raw):
         raise AssertionError(f"{raw.entry.id}: cache miss")
 
 
@@ -27,13 +30,22 @@ def raw_doc(path: Path, fmt: str = "html", doc_id: str = "doc-a") -> RawDocument
 
 
 class CountingConverter(FakeConverter):
+    """Counts parses; its `_enrich` also drops the paragraphs, to show that it ran."""
+
     def __init__(self) -> None:
         super().__init__()
         self.calls = 0
+        self.closed = False
 
-    def convert(self, raw):
+    def _parse(self, raw):
         self.calls += 1
-        return super().convert(raw)
+        return super()._parse(raw)
+
+    def _enrich(self, document):
+        document.delete_items(node_items=document.texts[1:])
+
+    def close(self):
+        self.closed = True
 
 
 def test_convert_repairs_once_then_enriches(tmp_path):
@@ -53,6 +65,9 @@ def test_convert_repairs_once_then_enriches(tmp_path):
 
         def _repair(self, raw, error):
             return raw.model_copy(update={"path": tmp_path / "fixed.html"})
+
+        def _enrich(self, document):
+            clean_document(document)
 
     converter = Repairing()
     doc = converter.convert(raw_doc(tmp_path / "broken.html"))
@@ -304,74 +319,106 @@ def test_clean_document_drops_annexes_that_are_blank_forms():
         assert form not in md
 
 
-def test_routing_dispatches_on_format_and_writes_cache(tmp_path):
+def test_routing_dispatches_on_format_and_runs_its_hooks(tmp_path):
     raw_file = tmp_path / "doc-a.pdf"
     raw_file.write_bytes(b"%PDF fake")
     html, pdf = CountingConverter(), CountingConverter()
-    router = RoutingConverter({"html": html, "pdf": pdf}, markdown_dir=tmp_path / "md")
 
-    doc = router.convert(raw_doc(raw_file, fmt="pdf"))
+    doc = RoutingConverter({"html": html, "pdf": pdf}).convert(raw_doc(raw_file, fmt="pdf"))
 
     assert (html.calls, pdf.calls) == (0, 1)
-    assert (tmp_path / "md" / "doc-a.md").read_text(encoding="utf-8") == doc.markdown
-    cached = DoclingDocument.load_from_json(tmp_path / "md" / "doc-a.docling.json")
-    assert cached.export_to_markdown() == doc.document.export_to_markdown()
-    meta = json.loads((tmp_path / "md" / "doc-a.meta.json").read_text())
-    assert len(meta["source_sha256"]) == 64
-    assert meta["converter_version"] == CONVERTER_VERSION
+    assert doc.markdown == "# Title doc-a\n"  # the routed converter's _enrich ran
+    assert sorted(p.name for p in tmp_path.iterdir()) == ["doc-a.pdf"]  # no cache
+
+
+def test_routing_repairs_with_the_routed_converter(tmp_path):
+    class Repairing(CountingConverter):
+        def _parse(self, raw):
+            if raw.path.name == "broken.html":
+                raise KeyError("broken")
+            return super()._parse(raw)
+
+        def _repair(self, raw, error):
+            return raw.model_copy(update={"path": tmp_path / "fixed.html"})
+
+    html = Repairing()
+    doc = RoutingConverter({"html": html}).convert(raw_doc(tmp_path / "broken.html"))
+    assert html.calls == 1 and doc.markdown == "# Title doc-a\n"
 
 
 def test_routing_rejects_unknown_format(tmp_path):
     raw_file = tmp_path / "doc-a.html"
     raw_file.write_bytes(b"<html></html>")
-    router = RoutingConverter({"html": CountingConverter()}, markdown_dir=tmp_path / "md")
+    router = RoutingConverter({"html": CountingConverter()})
     with pytest.raises(ValueError, match="video"):
         router.convert(raw_doc(raw_file, fmt="video"))
 
 
-def test_routing_reuses_cache_until_raw_file_changes(tmp_path):
+def test_cache_writes_the_wrapped_converter_output(tmp_path):
+    raw_file = tmp_path / "doc-a.pdf"
+    raw_file.write_bytes(b"%PDF fake")
+    converter = CachedConverter(FakeConverter(), markdown_dir=tmp_path / "md")
+
+    doc = converter.convert(raw_doc(raw_file, fmt="pdf"))
+
+    assert (tmp_path / "md" / "doc-a.md").read_text(encoding="utf-8") == doc.markdown
+    cached_doc = DoclingDocument.load_from_json(tmp_path / "md" / "doc-a.docling.json")
+    assert cached_doc.export_to_markdown() == doc.document.export_to_markdown()
+    meta = json.loads((tmp_path / "md" / "doc-a.meta.json").read_text())
+    assert len(meta["source_sha256"]) == 64
+    assert meta["converter_version"] == CONVERTER_VERSION
+
+
+def test_cache_reused_until_raw_file_changes(tmp_path):
     raw_file = tmp_path / "doc-a.html"
     raw_file.write_bytes(b"<html>v1</html>")
     html = CountingConverter()
-    router = RoutingConverter({"html": html}, markdown_dir=tmp_path / "md")
+    converter = CachedConverter(html, markdown_dir=tmp_path / "md")
 
-    first = router.convert(raw_doc(raw_file))
-    second = router.convert(raw_doc(raw_file))
+    first = converter.convert(raw_doc(raw_file))
+    second = converter.convert(raw_doc(raw_file))
     assert html.calls == 1
     assert second.markdown == first.markdown
     assert second.document.export_to_dict() == first.document.export_to_dict()
 
     raw_file.write_bytes(b"<html>v2</html>")
-    router.convert(raw_doc(raw_file))
+    converter.convert(raw_doc(raw_file))
     assert html.calls == 2
 
 
-def test_routing_redoes_cache_when_converter_version_changes(tmp_path, monkeypatch):
+def test_cache_redone_when_converter_version_changes(tmp_path, monkeypatch):
     raw_file = tmp_path / "doc-a.html"
     raw_file.write_bytes(b"<html>v1</html>")
     html = CountingConverter()
-    router = RoutingConverter({"html": html}, markdown_dir=tmp_path / "md")
+    converter = CachedConverter(html, markdown_dir=tmp_path / "md")
 
-    router.convert(raw_doc(raw_file))
-    monkeypatch.setattr(routing, "CONVERTER_VERSION", CONVERTER_VERSION + 1)
-    router.convert(raw_doc(raw_file))
+    converter.convert(raw_doc(raw_file))
+    monkeypatch.setattr(cached, "CONVERTER_VERSION", CONVERTER_VERSION + 1)
+    converter.convert(raw_doc(raw_file))
     assert html.calls == 2
 
 
-def test_routing_cache_hit_runs_no_converter(tmp_path):
+def test_cache_hit_calls_no_wrapped_converter(tmp_path):
     raw_file = tmp_path / "doc-a.html"
     raw_file.write_bytes(b"<html>v1</html>")
-    RoutingConverter({"html": CountingConverter()}, markdown_dir=tmp_path / "md").convert(
-        raw_doc(raw_file)
-    )
+    CachedConverter(FakeConverter(), markdown_dir=tmp_path / "md").convert(raw_doc(raw_file))
+    doc = CachedConverter(MustNotConvert(), markdown_dir=tmp_path / "md").convert(raw_doc(raw_file))
+    assert doc.document.texts[0].text == "Title doc-a"
+
     (tmp_path / "md" / "doc-a.docling.json").unlink()  # a partial cache is redone
     html = CountingConverter()
-    RoutingConverter({"html": html}, markdown_dir=tmp_path / "md").convert(raw_doc(raw_file))
+    CachedConverter(html, markdown_dir=tmp_path / "md").convert(raw_doc(raw_file))
     assert html.calls == 1
 
     # The default converters are never called on a hit: an offline rebuild needs no docling.
-    doc = RoutingConverter(markdown_dir=tmp_path / "md").convert(raw_doc(raw_file))
-    assert doc.document.texts[0].text == "Title doc-a"
+    converter = CachedConverter(RoutingConverter(), markdown_dir=tmp_path / "md")
+    assert converter.convert(raw_doc(raw_file)).document.texts[0].text == "Title doc-a"
+
+
+def test_close_propagates_through_cache_and_routing():
+    html, pdf = CountingConverter(), CountingConverter()
+    CachedConverter(RoutingConverter({"html": html, "pdf": pdf, "xml": html})).close()
+    assert html.closed and pdf.closed
 
 
 @pytest.mark.parametrize("profile", ["patient", "gp"])
@@ -379,10 +426,12 @@ def test_committed_snapshot_is_a_cache_hit_for_every_entry(profile):
     """The offline (Codespace) rebuild converts nothing: re-run the conversion and commit
     data/markdown whenever a raw file or CONVERTER_VERSION changes."""
     # A cache miss raises instead of converting (and overwriting the snapshot).
-    router = RoutingConverter({fmt: MustNotConvert() for fmt in ("html", "pdf", "xml")})
+    converter = CachedConverter(
+        RoutingConverter({fmt: MustNotConvert() for fmt in ("html", "pdf", "xml")})
+    )
     for entry in load_entries(profile):
         raw = HttpConnector(raw_dir=RAW_DIR).download(entry)  # cached raw file, no network
-        assert router.convert(raw).document.texts, entry.id
+        assert converter.convert(raw).document.texts, entry.id
 
 
 @pytest.mark.live  # docling downloads its layout models on first use

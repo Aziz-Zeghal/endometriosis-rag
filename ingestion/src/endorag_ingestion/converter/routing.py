@@ -1,87 +1,50 @@
-"""Dispatch on the manifest format, with a document cache in front of the converters."""
-
-import hashlib
-import json
-import logging
-from pathlib import Path
+"""Dispatch on the manifest format."""
 
 from docling_core.types.doc import DoclingDocument
 
+from endorag_ingestion.converter.cleaning import CleaningConverter
 from endorag_ingestion.converter.html import HtmlConverter
 from endorag_ingestion.converter.jats import JatsConverter
 from endorag_ingestion.converter.pdf import PdfConverter
-from endorag_ingestion.core import BaseConverter, ConvertedDocument, RawDocument
-from endorag_ingestion.core.settings import MARKDOWN_DIR
-
-logger = logging.getLogger(__name__)
-
-# Bump when a converter or the cleaning changes its output, so the cache is redone.
-CONVERTER_VERSION = 10
+from endorag_ingestion.core import BaseConverter, RawDocument
 
 
-class RoutingConverter(BaseConverter):
-    """Picks the converter for `entry.format` and caches its output in `MARKDOWN_DIR`.
+class RoutingConverter(CleaningConverter):
+    """Picks the converter for `entry.format`; it only routes (the cache is `CachedConverter`).
 
-    The cache holds `<doc_id>.docling.json` (the DoclingDocument, which the chunker reads)
-    and `<doc_id>.md` (a readable snapshot). Both are reused when `<doc_id>.meta.json`
-    records the sha256 of the same raw file and the current `CONVERTER_VERSION`, so the
-    index can be rebuilt from the committed files without running trafilatura or docling.
-    Each leaf converter runs its own full lifecycle (_parse, _repair, _enrich) in convert().
+    `BaseConverter.convert()` runs its template through the router. `_parse` and `_repair`
+    receive the raw document, so they route to the format's converter. `_enrich` receives
+    only the DoclingDocument and could not route, so `_parse` runs the routed converter's
+    `_enrich` (cleaning, plus e.g. the HTML trailer removal) and the router's own `_enrich`
+    does nothing. `_markdown` is the shared clean snapshot of `CleaningConverter`.
     """
 
-    def __init__(
-        self,
-        converters: dict[str, BaseConverter] | None = None,
-        markdown_dir: Path = MARKDOWN_DIR,
-    ) -> None:
+    def __init__(self, converters: dict[str, BaseConverter] | None = None) -> None:
         self.converters = converters or {
             "html": HtmlConverter(),
             "pdf": PdfConverter(),
             "xml": JatsConverter(),
         }
-        self.markdown_dir = markdown_dir
 
-    def convert(self, raw: RawDocument) -> ConvertedDocument:
-        doc_id = raw.entry.id
-        md_path = self.markdown_dir / f"{doc_id}.md"
-        json_path = self.markdown_dir / f"{doc_id}.docling.json"
-        meta_path = self.markdown_dir / f"{doc_id}.meta.json"
-        meta = {
-            "source_sha256": hashlib.sha256(raw.path.read_bytes()).hexdigest(),
-            "converter_version": CONVERTER_VERSION,
-        }
-
-        if md_path.exists() and json_path.exists() and self._cached_meta(meta_path) == meta:
-            logger.info("%s: reusing cached conversion", doc_id)
-            return ConvertedDocument(
-                entry=raw.entry,
-                document=DoclingDocument.load_from_json(json_path),
-                markdown=md_path.read_text(encoding="utf-8"),
-                retrieved=raw.retrieved,
-            )
-
+    def _route(self, raw: RawDocument) -> BaseConverter:
         converter = self.converters.get(raw.entry.format)
         if converter is None:
-            raise ValueError(f"{doc_id}: no converter for format {raw.entry.format!r}")
-        doc = converter.convert(raw)
-
-        self.markdown_dir.mkdir(parents=True, exist_ok=True)
-        md_path.write_text(doc.markdown, encoding="utf-8")
-        doc.document.save_as_json(json_path)
-        meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
-        return doc
+            raise ValueError(f"{raw.entry.id}: no converter for format {raw.entry.format!r}")
+        return converter
 
     def _parse(self, raw: RawDocument) -> DoclingDocument:
-        # Never called: convert() delegates to a leaf converter's own convert().
-        raise NotImplementedError("RoutingConverter dispatches in convert()")
+        converter = self._route(raw)
+        document = converter._parse(raw)
+        converter._enrich(document)
+        return document
+
+    def _repair(self, raw: RawDocument, error: Exception) -> RawDocument:
+        return self._route(raw)._repair(raw, error)
+
+    def _enrich(self, document: DoclingDocument) -> None:
+        """Nothing: the routed converter's `_enrich` already ran in `_parse`."""
 
     def close(self) -> None:
-        """Close each distinct leaf converter once."""
+        """Close each distinct routed converter once."""
         for converter in set(self.converters.values()):
             converter.close()
-
-    @staticmethod
-    def _cached_meta(meta_path: Path) -> dict | None:
-        if not meta_path.exists():
-            return None
-        return json.loads(meta_path.read_text(encoding="utf-8"))

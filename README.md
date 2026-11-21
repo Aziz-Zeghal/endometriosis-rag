@@ -14,12 +14,14 @@ emergencies to 15 / 112.
 
 Python runs in a conda environment; packages are installed with `uv pip` (no `.venv`).
 No GPU is needed: embeddings and generation use an OpenAI-compatible API, and PyTorch
-(for PDF conversion) is installed as the CPU build.
+(for PDF conversion) is installed as the CPU build. The conversion dependencies (docling,
+trafilatura, PyTorch) are in the `ingest` extra: the backend installs the ingestion package
+without them.
 
 ```bash
 conda env create -f environment.yml
 conda activate endorag
-uv pip install -e "./ingestion[dev]" -e "./back[dev]"
+uv pip install -e "./ingestion[ingest,dev]" -e "./back[dev]"
 cp .env.example .env   # then fill in LLM_BASE_URL and LLM_API_KEY
 
 ruff check . && ruff format --check .

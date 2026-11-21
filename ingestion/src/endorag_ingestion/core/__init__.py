@@ -7,7 +7,6 @@ from . import (
     base_converter,
     base_pipeline,
     base_vector_store,
-    cleaning,
     models,
     settings,
 )
@@ -47,7 +46,6 @@ __all__ = [
     "base_converter",
     "base_pipeline",
     "base_vector_store",
-    "cleaning",
     "models",
     "settings",
 ]

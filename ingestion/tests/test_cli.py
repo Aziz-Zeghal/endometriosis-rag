@@ -27,7 +27,7 @@ class StatsStore(InMemoryStore):
 
 @pytest.fixture
 def built(monkeypatch, tmp_path):
-    """Replaces build_pipeline with fakes; records the settings it was called with."""
+    """Replaces build_pipeline and build_storage with fakes; records build_pipeline calls."""
     state = {"store": StatsStore(), "failing": set(), "calls": []}
 
     def fake_build(settings, refresh=False):
@@ -40,6 +40,7 @@ def built(monkeypatch, tmp_path):
         )
 
     monkeypatch.setattr(factory, "build_pipeline", fake_build)
+    monkeypatch.setattr(factory, "build_storage", lambda settings: state["store"])
     return state
 
 
@@ -93,3 +94,29 @@ def test_stats_prints_collection_and_counts(built):
     assert result.exit_code == 0, result.output
     assert "collection: patient__other-model" in result.output
     assert "points: 4, documents: 2" in result.output
+
+
+def test_light_install_imports_without_conversion_dependencies():
+    """core, the embedder, the store and build_storage load without the [ingest] extra
+    (also guards converter/__init__.py staying import-free: core imports converter.cleaning)."""
+    import subprocess
+    import sys
+
+    code = """
+import sys
+from importlib.abc import MetaPathFinder
+
+class Block(MetaPathFinder):
+    def find_spec(self, name, path=None, target=None):
+        if name.split(".")[0] in {"docling", "trafilatura", "torch", "torchvision", "transformers"}:
+            raise ImportError(f"blocked: {name}")
+
+sys.meta_path.insert(0, Block())
+import endorag_ingestion.core
+from endorag_ingestion.cli import app
+from endorag_ingestion.embedder import make_embedder
+from endorag_ingestion.factory import build_storage
+from endorag_ingestion.vector_storage import QdrantStore
+"""
+    result = subprocess.run([sys.executable, "-c", code], capture_output=True, text=True)
+    assert result.returncode == 0, result.stderr

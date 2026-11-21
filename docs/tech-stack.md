@@ -71,10 +71,18 @@ docling is the only dependency that needs PyTorch. `ingestion/pyproject.toml` pi
 and `torchvision` to the CPU wheel index through `[tool.uv.sources]`, so no CUDA wheels are
 downloaded.
 
+The ingestion package has a light base and an `ingest` extra. The base (Pydantic models,
+settings, `make_embedder`, `QdrantStore`, the `query` and `stats` commands) is what the
+backend installs; it includes plain `docling-core` for the `DoclingDocument` model, which
+pulls neither PyTorch nor transformers. The `ingest` extra adds what conversion and chunking
+need (`docling`, `trafilatura`, `docling-core[chunking]`, `torch`, `torchvision`); the `run`
+command stops with an "install endorag-ingestion[ingest]" message without it. The tests
+need the extra.
+
 ```bash
 conda env create -f environment.yml        # python 3.12 only, env name: endorag
 conda activate endorag
-uv pip install -e "./ingestion[dev]" -e "./back[dev]"
+uv pip install -e "./ingestion[ingest,dev]" -e "./back[dev]"
 uv pip install -e "./ingestion[local]"     # optional: local embedding models
 uv pip install -r eval/requirements.txt    # ragas, only for evaluation
 ruff check . && ruff format --check .

@@ -2,10 +2,11 @@
 
 from docling_core.types.doc import DoclingDocument
 
-from endorag_ingestion.core import BaseConverter, RawDocument
+from endorag_ingestion.converter.cleaning import CleaningConverter
+from endorag_ingestion.core import RawDocument
 
 
-class JatsConverter(BaseConverter):
+class JatsConverter(CleaningConverter):
     def __init__(self) -> None:
         self._docling = None
 
