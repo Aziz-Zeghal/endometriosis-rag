@@ -19,6 +19,8 @@ not code.
 
 ## Primary user: patients
 
+The deployment scenario, personas and demo storyline are in [scenario.md](scenario.md).
+
 - People diagnosed with, or suspecting, endometriosis, and their relatives.
 - Typical needs: understand a symptom, prepare a consultation, understand a treatment,
   know their rights (ALD, work accommodations), fertility questions.
@@ -36,7 +38,7 @@ configuration differs. See [architecture.md](architecture.md#profiles).
 
 | Rule | Behaviour |
 |---|---|
-| **Emergency first** | Any sign of a medical emergency or of suicidal thoughts short-circuits everything: a fixed message pointing to **15 / 112**, **114** (by SMS, for deaf and hard-of-hearing people) or **3114** (suicide prevention). There is no retrieval and no LLM generation. Urgent but non-life-threatening situations also mention **116 117** (out-of-hours GP). |
+| **Emergency first** | Any sign of a medical emergency or of suicidal thoughts short-circuits everything: a fixed message pointing to **15 / 112**, **114** (by SMS, for deaf and hard-of-hearing people) **3114** (suicide prevention) or **119** (children and young people in danger). There is no retrieval and no LLM generation. Urgent but non-life-threatening situations also mention **116 117** (out-of-hours GP). |
 | **No diagnosis** | The assistant never says whether the user has (or does not have) endometriosis. It may describe what the sources say about symptoms and always refers to a health professional. |
 | **No prescription** | No dosage, no treatment choice for the user. General information about treatment classes only, from the sources. |
 | **Grounded or silent** | Answers only from retrieved passages. If retrieval is insufficient, the assistant either asks a clarifying question or declines and points to a professional. |
@@ -49,6 +51,7 @@ configuration differs. See [architecture.md](architecture.md#profiles).
 > Ce que vous décrivez peut nécessiter une prise en charge urgente.
 > **Appelez le 15 (SAMU) ou le 112.** Si vous êtes sourde, malentendante ou ne pouvez pas
 > parler : **114** (SMS). Si vous avez des pensées suicidaires : **3114**, gratuit, 24 h/24.
+> Si vous êtes mineure et en danger, ou inquiète pour un enfant : **119**, gratuit, 24 h/24.
 > Je suis un assistant d'information et je ne peux pas évaluer une urgence.
 
 ## Regulatory position

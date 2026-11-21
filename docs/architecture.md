@@ -55,8 +55,10 @@ flowchart LR
 - **Metadata stays out of the embedded text.** Source, URL, date and heading path live in
   the payload. The embedded text is the chunk content, optionally prefixed with its heading
   path (headings carry meaning; URLs and dates do not).
-- **Raw content is never committed.** Fetched pages and converted Markdown go to the
-  gitignored `data/` directory (see [sources.md](sources.md#licensing-strategy)).
+- **Corpus snapshot committed, index rebuilt.** Fetched pages (`data/raw/`) and converted
+  Markdown (`data/markdown/`) are committed so the demo runs offline or in a Codespace.
+  The vector index (`data/qdrant/`) is gitignored and rebuilt from the snapshot (see
+  [sources.md](sources.md#licensing-strategy)).
 
 ### Chunk payload
 
@@ -87,7 +89,7 @@ flowchart LR
 ```mermaid
 flowchart TD
     START((start)) --> SG[safety_gate<br/>red-flag keywords + LLM check]
-    SG -->|emergency| EM[emergency<br/>fixed message: 15 / 112 / 3114]
+    SG -->|emergency| EM[emergency<br/>fixed message: 15 / 112 / 3114 / 119]
     SG -->|safe| RT[router<br/>intent classification]
     RT -->|chitchat| CC[chitchat]
     RT -->|out_of_scope| OOS[out_of_scope<br/>polite refusal]
@@ -240,7 +242,7 @@ endometriosis-rag/
 │   └── tests/                    # tier 1: safety, routing, nodes (offline)
 ├── front/                        # Vite + React + TypeScript + assistant-ui (French UI)
 ├── eval/                         # golden sets, embedding benchmark, RAGAS runner, reports/
-├── data/                         # gitignored: raw/, markdown/, qdrant/
+├── data/                         # raw/ and markdown/ committed; qdrant/ gitignored
 ├── docs/
 ├── environment.yml               # conda env (python 3.12); packages installed with uv pip
 └── .env.example

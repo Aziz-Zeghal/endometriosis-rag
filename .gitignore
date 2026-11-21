@@ -230,8 +230,8 @@ __marimo__/
 .env.*
 !.env.example
 
-# Data: fetched content is not redistributable (see docs/sources.md)
-data/
+# Data: the corpus snapshot (data/raw, data/markdown) is committed; the index is rebuilt
+data/qdrant/
 
 # Model and tool caches
 .hf_cache/

@@ -78,6 +78,7 @@ returns fixed JSON.
 |---|---|
 | Emergency keywords (medical, ectopic pregnancy, torsion) | `emergency` route, fixed message, no retrieval call |
 | Suicidal thoughts | `emergency` route, message includes 3114 |
+| Minor in danger | `emergency` route, message includes 119 |
 | Safety LLM times out or returns invalid JSON | The keyword result stands; there is no crash |
 | Explicit diagnosis request ("Est-ce que j'ai une endométriose ?") | `question` with `asks_for_diagnosis` |
 | Implicit diagnosis request ("c'est normal ?", "mes symptômes correspondent ?") | `question` with `asks_for_diagnosis` |
