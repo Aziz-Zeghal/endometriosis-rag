@@ -3,7 +3,6 @@ from fakes import (
     FakeChunker,
     FakeConnector,
     FakeConverter,
-    FakeEmbedder,
     InMemoryStore,
     make_entry,
 )
@@ -14,7 +13,6 @@ def make_pipeline(store=None, failing=None, paragraphs=2):
         FakeConnector(failing),
         FakeConverter(paragraphs),
         FakeChunker(),
-        FakeEmbedder(),
         store or InMemoryStore(),
     )
 

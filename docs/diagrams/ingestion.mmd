@@ -1,0 +1,156 @@
+classDiagram
+  direction LR
+
+  namespace config {
+    class Settings {
+      profile: patient | gp
+      embedder: str
+      qdrant_path: Path
+      chunk_size / chunk_overlap / chunk_min_chars
+      llm_base_url / llm_api_key
+      collection_name() str
+    }
+  }
+
+  namespace models {
+    class ManifestEntry {
+      id / url / fetch_url
+      source / title / licence
+      published / checked
+      audience / format / enabled
+      citation_date
+    }
+    class RawDocument {
+      entry: ManifestEntry
+      path: Path
+      content_type / retrieved
+    }
+    class ConvertedDocument {
+      entry: ManifestEntry
+      markdown: str
+      retrieved
+    }
+    class Chunk {
+      doc_id / chunk_index / text
+      heading_path
+      source / title / url / published
+      point_id
+      embedding_text
+    }
+    class ScoredChunk {
+      chunk: Chunk
+      score: float
+    }
+    class RunSummary {
+      results: list~DocumentResult~
+      ok / failed / skipped
+    }
+    class DocumentResult {
+      doc_id / status / chunks / error
+    }
+  }
+
+  namespace interfaces {
+    class Connector {
+      <<abstract>>
+      fetch(ManifestEntry) RawDocument
+    }
+    class Converter {
+      <<abstract>>
+      convert(RawDocument) ConvertedDocument
+    }
+    class Chunker {
+      <<abstract>>
+      chunk(ConvertedDocument) list~Chunk~
+    }
+    class Embedder {
+      <<abstract>>
+      name / dimension
+      embed_documents(texts) vectors
+      embed_query(text) vector
+    }
+    class VectorStore {
+      <<abstract>>
+      embedder: Embedder
+      add(chunks) int
+      delete_by_doc_id(doc_id)
+      search(query, limit) list~ScoredChunk~
+    }
+  }
+
+  namespace implementations {
+    class HttpConnector {
+      robots.txt + per-host delay
+      retries, offline disk cache
+    }
+    class RoutingConverter {
+      dispatch on entry.format
+      Markdown cache (sha256 + version)
+    }
+    class HtmlConverter {
+      trafilatura, docling fallback
+    }
+    class PdfConverter {
+      docling, CPU, no OCR
+    }
+    class JatsConverter {
+      docling JATS backend
+    }
+    class MarkdownChunker {
+      headers h1-h3, then recursive split
+    }
+    class OpenAICompatibleEmbedder {
+      batches of 16, retries
+    }
+    class SentenceTransformerEmbedder {
+      optional local models
+    }
+    class EmbeddingCache {
+      sqlite, sha256(text) to vector
+    }
+    class QdrantStore {
+      dense + BM25 sparse, RRF fusion
+      chunk_counts() / count() / close()
+    }
+  }
+
+  class Pipeline {
+    <<template method>>
+    run(entries) RunSummary
+    process(entry) int
+    fetch / convert / chunk / index
+  }
+  class build_pipeline {
+    <<factory>>
+    build_pipeline(settings) Pipeline
+  }
+
+  %% Strategy: implementations of each interface
+  Connector <|.. HttpConnector
+  Converter <|.. RoutingConverter
+  Converter <|.. HtmlConverter
+  Converter <|.. PdfConverter
+  Converter <|.. JatsConverter
+  Chunker <|.. MarkdownChunker
+  Embedder <|.. OpenAICompatibleEmbedder
+  Embedder <|.. SentenceTransformerEmbedder
+  VectorStore <|.. QdrantStore
+
+  %% Composition
+  Pipeline o-- Connector
+  Pipeline o-- Converter
+  Pipeline o-- Chunker
+  Pipeline o-- VectorStore
+  RoutingConverter o-- "html / pdf / xml" Converter
+  VectorStore *-- Embedder : same model for documents and queries
+  OpenAICompatibleEmbedder *-- EmbeddingCache
+  RunSummary *-- DocumentResult
+
+  %% Data flow between models
+  RawDocument --> ManifestEntry
+  ConvertedDocument --> ManifestEntry
+  ScoredChunk --> Chunk
+
+  %% Wiring
+  build_pipeline ..> Settings : reads
+  build_pipeline ..> Pipeline : creates

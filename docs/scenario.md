@@ -31,8 +31,15 @@ reusing any real campaign, name, slogan or creative.
 - **Campaign:** undated. Posters and flyers with a QR code in universities, high schools
   (through school health services), pharmacies and GP waiting rooms, plus short social
   media videos. No logo and no slogan.
-- **Entry points:** the QR code opens an anonymous mobile web chat (no account, no stored
-  conversation text) with the **patient profile**. A second entry point, « Espace
+- **Product: a chat widget.** The assistant is built as a small chat box that a host site
+  embeds with one script tag: a bubble in the corner that opens a panel and points the
+  reader to the right information, always linking back to the source pages. The campaign
+  site is the first host; any health information site could embed the same widget. This
+  repository is the proof of concept: it ships the widget and a fictional campaign page
+  that hosts it.
+- **Entry points:** the QR code opens the campaign page with the widget already open, as an
+  anonymous mobile chat (no account, no stored conversation text) with the
+  **patient profile**. A second entry point, « Espace
   professionnels », loads the **GP profile**, for the GPs and midwives the posters send
   people to.
 - **UI banner, always visible:** « Scénario fictif – démonstrateur technique sans lien avec

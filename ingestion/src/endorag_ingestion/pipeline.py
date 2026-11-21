@@ -1,4 +1,4 @@
-"""Template method: fetch -> convert -> chunk -> embed -> upsert, one document at a time."""
+"""Template method: fetch -> convert -> chunk -> index, one document at a time."""
 
 import logging
 
@@ -9,7 +9,6 @@ from endorag_ingestion.core import (
     ConvertedDocument,
     Converter,
     DocumentResult,
-    Embedder,
     ManifestEntry,
     RawDocument,
     RunSummary,
@@ -23,7 +22,7 @@ class Pipeline:
     """Owns the sequence and the error handling. Steps are injected strategies.
 
     A document that fails at any step is recorded and skipped; the run continues.
-    Before upserting, the document's existing points are deleted, so re-running never
+    Before indexing, the document's existing points are deleted, so re-running never
     leaves stale or duplicate chunks.
     """
 
@@ -32,13 +31,11 @@ class Pipeline:
         connector: Connector,
         converter: Converter,
         chunker: Chunker,
-        embedder: Embedder,
         store: VectorStore,
     ) -> None:
         self.connector = connector
         self.converter = converter
         self.chunker = chunker
-        self.embedder = embedder
         self.store = store
 
     def run(self, entries: list[ManifestEntry]) -> RunSummary:
@@ -65,8 +62,7 @@ class Pipeline:
         chunks = self.chunk(doc)
         if not chunks:
             raise ValueError(f"{entry.id}: conversion produced no chunks")
-        vectors = self.embed(chunks)
-        return self.store_chunks(entry.id, chunks, vectors)
+        return self.index(entry.id, chunks)
 
     # Steps, overridable one by one.
     def fetch(self, entry: ManifestEntry) -> RawDocument:
@@ -78,9 +74,7 @@ class Pipeline:
     def chunk(self, doc: ConvertedDocument) -> list[Chunk]:
         return self.chunker.chunk(doc)
 
-    def embed(self, chunks: list[Chunk]) -> list[list[float]]:
-        return self.embedder.embed_documents([c.embedding_text for c in chunks])
-
-    def store_chunks(self, doc_id: str, chunks: list[Chunk], vectors: list[list[float]]) -> int:
+    def index(self, doc_id: str, chunks: list[Chunk]) -> int:
+        """Replace the document's chunks in the store (which embeds them)."""
         self.store.delete_by_doc_id(doc_id)
-        return self.store.upsert(chunks, vectors)
+        return self.store.add(chunks)

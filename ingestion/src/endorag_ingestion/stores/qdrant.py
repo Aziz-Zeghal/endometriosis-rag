@@ -6,7 +6,7 @@ from pathlib import Path
 from fastembed import SparseEmbedding, SparseTextEmbedding
 from qdrant_client import QdrantClient, models
 
-from endorag_ingestion.core import Chunk, ScoredChunk, VectorStore
+from endorag_ingestion.core import Chunk, Embedder, ScoredChunk, VectorStore
 from endorag_ingestion.settings import CACHE_DIR
 
 DENSE = "dense"
@@ -23,7 +23,7 @@ def fold_accents(text: str) -> str:
 
 
 class QdrantStore(VectorStore):
-    """Stores chunks with a named dense vector and a BM25 sparse vector computed here.
+    """Stores chunks with a dense vector (from its embedder) and a BM25 sparse vector.
 
     Local mode locks its directory: only one client per path at a time, so call `close()`.
     Pass `client` (e.g. `QdrantClient(":memory:")`) instead of `path` in tests.
@@ -32,7 +32,7 @@ class QdrantStore(VectorStore):
     def __init__(
         self,
         collection: str,
-        dimension: int,
+        embedder: Embedder,
         path: Path | None = None,
         client: QdrantClient | None = None,
         batch_size: int = 128,
@@ -41,9 +41,10 @@ class QdrantStore(VectorStore):
             raise ValueError("pass exactly one of 'path' or 'client'")
         self.client = client or QdrantClient(path=str(path))
         self.collection = collection
+        self.embedder = embedder
         self.batch_size = batch_size
         self._bm25: SparseTextEmbedding | None = None
-        self._ensure_collection(dimension)
+        self._ensure_collection(embedder.dimension)
 
     def _ensure_collection(self, dimension: int) -> None:
         if self.client.collection_exists(self.collection):
@@ -88,7 +89,8 @@ class QdrantStore(VectorStore):
             indices=embedding.indices.tolist(), values=embedding.values.tolist()
         )
 
-    def upsert(self, chunks: list[Chunk], vectors: list[list[float]]) -> int:
+    def add(self, chunks: list[Chunk]) -> int:
+        vectors = self.embedder.embed_documents([c.embedding_text for c in chunks])
         if len(chunks) != len(vectors):
             raise ValueError(f"{len(chunks)} chunks but {len(vectors)} vectors")
         for start in range(0, len(chunks), self.batch_size):
@@ -119,7 +121,8 @@ class QdrantStore(VectorStore):
             ),
         )
 
-    def search(self, query: str, query_vector: list[float], limit: int) -> list[ScoredChunk]:
+    def search(self, query: str, limit: int) -> list[ScoredChunk]:
+        query_vector = self.embedder.embed_query(query)
         sparse = self._sparse(next(iter(self.bm25.query_embed(fold_accents(query)))))
         response = self.client.query_points(
             self.collection,

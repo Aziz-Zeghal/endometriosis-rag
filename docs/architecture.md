@@ -11,7 +11,7 @@ Three parts, one direction of data flow:
                                                             │ SSE
                                                             ▼
                                              ┌───────────────────────────────────┐
-                                             │ Frontend (React chat, sources)     │
+                                             │ Frontend (chat widget, sources)    │
                                              └───────────────────────────────────┘
 ```
 
@@ -26,8 +26,7 @@ flowchart LR
     M[Manifest<br/>YAML: id, url, source, title,<br/>published, licence, audience, format] --> C[Connector<br/>fetch + cache]
     C --> V[Converter<br/>HTML/PDF → Markdown]
     V --> K[Chunker<br/>heading-aware split]
-    K --> E[Embedder<br/>dense vectors]
-    E --> S[(Store<br/>Qdrant collection)]
+    K --> S[(Store<br/>embeds with its Embedder,<br/>then indexes in Qdrant)]
 ```
 
 | Step | Interface (`core/`) | Input → Output | Default implementation |
@@ -36,7 +35,7 @@ flowchart LR
 | Converter | `Converter` | raw file → `ConvertedDocument` (Markdown + metadata) | `HtmlConverter` (trafilatura), `PdfConverter` (docling), routed by `format` |
 | Chunker | `Chunker` | `ConvertedDocument` → `list[Chunk]` | `MarkdownChunker` (header split, then recursive split) |
 | Embedder | `Embedder` | `embed_documents(list[str])` and `embed_query(str)` → dense vectors. They are separate because some models need different query and passage prefixes. | `OpenAICompatibleEmbedder` (default: `nemotron-3-embed-1b` through the LLM endpoint; batched, retried, cached on disk); `SentenceTransformerEmbedder` (optional local models, `[local]` extra) |
-| Store | `VectorStore` | `list[Chunk]` + vectors → upserted ids; query → scored chunks | `QdrantStore` (local mode). It computes the BM25 sparse vectors itself with fastembed and fuses dense and sparse results with RRF. |
+| Store | `VectorStore` | `add(list[Chunk])` → count; `search(query, k)` → scored chunks | `QdrantStore` (local mode). It **owns its `Embedder`**, so documents and queries are always embedded by the same model and callers pass text, never vectors. It computes the BM25 sparse vectors itself with fastembed and fuses dense and sparse results with RRF. |
 
 ### Design rules
 
@@ -45,7 +44,7 @@ flowchart LR
   pipeline factory. Nothing else changes. This is how the GP profile and the production
   deployment reuse the same code.
 - **Template method.** `Pipeline.run()` owns the sequence and the error handling:
-  fetch → convert → chunk → embed → upsert, one document at a time.
+  fetch → convert → chunk → index (the store embeds), one document at a time.
 - **Per-document fault isolation.** A document that fails to fetch or convert is logged and
   skipped; the run continues.
 - **Idempotent re-ingestion.** Before upserting a document, the store deletes the existing
@@ -84,6 +83,24 @@ flowchart LR
 `doc_id` is the manifest `id`. The golden set references documents by this id.
 `start_seconds` is only used by the optional video connector
 (see [sources.md](sources.md#optional-videos-with-french-captions)).
+
+## Frontend: an embeddable chat widget
+
+The frontend is built as a **widget**, not a full application: a floating chat bubble that
+any host page can embed, plus a demo host page (the fictional campaign site).
+
+```html
+<!-- On the host site -->
+<script src="https://<widget-host>/widget.js" data-api="https://<api-host>" data-profile="patient" defer></script>
+```
+
+| Concern | Choice |
+|---|---|
+| Embedding | One script tag mounts the React widget into a Shadow DOM, so the host page's CSS and the widget's CSS never interfere. An iframe build is the fallback for hosts with a strict Content Security Policy. |
+| Configuration | `data-*` attributes: API URL, profile (`patient` or `gp`), initial open state, accent colour. |
+| Behaviour | Bubble → panel with banner, disclaimer, streamed answers and source cards linking to the original pages. On a phone the panel goes full screen. |
+| Backend contract | Unchanged: the widget calls `POST /api/chat` (AI SDK UI message stream). CORS allows the host origins listed in the backend settings. |
+| Demo | `front/` builds both the widget bundle and a fictional campaign page that embeds it. |
 
 ## 2. Conversation graph (LangGraph)
 
@@ -241,7 +258,7 @@ endometriosis-rag/
 │   │   ├── graph/                # state.py, nodes/, builder.py
 │   │   └── api/                  # app.py, routes/chat.py (SSE), routes/health.py, stream.py
 │   └── tests/                    # tier 1: safety, routing, nodes (offline)
-├── front/                        # Vite + React + TypeScript + assistant-ui (French UI)
+├── front/                        # Vite + React + TypeScript + assistant-ui: chat widget + demo host page (French UI)
 ├── eval/                         # golden sets, embedding benchmark, RAGAS runner, reports/
 ├── data/                         # raw/ and markdown/ committed; qdrant/ gitignored
 ├── docs/

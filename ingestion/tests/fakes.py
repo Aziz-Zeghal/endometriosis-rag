@@ -93,10 +93,12 @@ class FakeEmbedder(Embedder):
 
 
 class InMemoryStore(VectorStore):
-    def __init__(self) -> None:
+    def __init__(self, embedder: Embedder | None = None) -> None:
+        self.embedder = embedder or FakeEmbedder()
         self.points: dict[str, tuple[Chunk, list[float]]] = {}
 
-    def upsert(self, chunks: list[Chunk], vectors: list[list[float]]) -> int:
+    def add(self, chunks: list[Chunk]) -> int:
+        vectors = self.embedder.embed_documents([c.embedding_text for c in chunks])
         for c, v in zip(chunks, vectors, strict=True):
             self.points[c.point_id] = (c, v)
         return len(chunks)
@@ -104,6 +106,6 @@ class InMemoryStore(VectorStore):
     def delete_by_doc_id(self, doc_id: str) -> None:
         self.points = {k: p for k, p in self.points.items() if p[0].doc_id != doc_id}
 
-    def search(self, query: str, query_vector: list[float], limit: int) -> list[ScoredChunk]:
+    def search(self, query: str, limit: int) -> list[ScoredChunk]:
         hits = [ScoredChunk(chunk=c, score=1.0) for c, _ in self.points.values()]
         return hits[:limit]

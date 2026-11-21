@@ -15,10 +15,9 @@ def build_pipeline(settings: Settings, refresh: bool = False) -> Pipeline:
     Nothing heavy happens here: the HTTP client, docling and BM25 models load on first use.
     The caller closes `pipeline.store` (local Qdrant locks its directory).
     """
-    embedder = make_embedder(settings)
     store = QdrantStore(
         collection=settings.collection_name(),
-        dimension=embedder.dimension,
+        embedder=make_embedder(settings),
         path=settings.qdrant_path,
     )
     return Pipeline(
@@ -27,6 +26,5 @@ def build_pipeline(settings: Settings, refresh: bool = False) -> Pipeline:
         chunker=MarkdownChunker(
             settings.chunk_size, settings.chunk_overlap, settings.chunk_min_chars
         ),
-        embedder=embedder,
         store=store,
     )

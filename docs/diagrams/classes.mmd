@@ -1,0 +1,220 @@
+classDiagram
+  class MarkdownChunker {
+    min_chars : int
+    chunk(doc: ConvertedDocument) list[Chunk]
+  }
+  style MarkdownChunker fill:#99DDFF
+  class FetchError {
+  }
+  style FetchError fill:#44BB99
+  class HttpConnector {
+    client : httpx.Client
+    clock
+    default_delay_s : float
+    raw_dir
+    refresh : bool
+    retries : int
+    sleep
+    user_agent : str
+    fetch(entry: ManifestEntry) RawDocument
+  }
+  style HttpConnector fill:#44BB99
+  class HtmlConverter {
+    convert(raw: RawDocument) ConvertedDocument
+  }
+  style HtmlConverter fill:#BBCC33
+  class JatsConverter {
+    convert(raw: RawDocument) ConvertedDocument
+  }
+  style JatsConverter fill:#BBCC33
+  class PdfConverter {
+    convert(raw: RawDocument) ConvertedDocument
+  }
+  style PdfConverter fill:#BBCC33
+  class RoutingConverter {
+    converters : dict
+    markdown_dir : Path
+    convert(raw: RawDocument) ConvertedDocument
+  }
+  style RoutingConverter fill:#BBCC33
+  class Chunker {
+    chunk(doc: ConvertedDocument)* list[Chunk]
+  }
+  style Chunker fill:#AAAA00
+  class Connector {
+    fetch(entry: ManifestEntry)* RawDocument
+  }
+  style Connector fill:#AAAA00
+  class Converter {
+    convert(raw: RawDocument)* ConvertedDocument
+  }
+  style Converter fill:#AAAA00
+  class Embedder {
+    dimension : int
+    name : str
+    embed_documents(texts: list[str])* list[list[float]]
+    embed_query(text: str)* list[float]
+  }
+  style Embedder fill:#AAAA00
+  class VectorStore {
+    embedder
+    add(chunks: list[Chunk])* int
+    delete_by_doc_id(doc_id: str)* None
+    search(query: str, limit: int)* list[ScoredChunk]
+  }
+  style VectorStore fill:#AAAA00
+  class Chunk {
+    audience : Literal
+    chunk_index : int
+    doc_id : str
+    embedding_text : str
+    format : Literal
+    heading_path : list[str]
+    licence : str
+    model_config
+    point_id : str
+    published : date
+    retrieved : date
+    source : str
+    start_seconds : float | None
+    text : str
+    title : str
+    url : str
+  }
+  style Chunk fill:#AAAA00
+  class ConvertedDocument {
+    entry
+    markdown : str
+    model_config
+    retrieved : date
+  }
+  style ConvertedDocument fill:#AAAA00
+  class DocumentResult {
+    chunks : int
+    doc_id : str
+    error : str | None
+    status : Literal['ok', 'failed', 'skipped']
+  }
+  style DocumentResult fill:#AAAA00
+  class ManifestEntry {
+    audience : Literal
+    checked : date | None
+    citation_date : date
+    crawl_delay_s : float | None
+    enabled : bool
+    fetch_url : HttpUrl | None
+    format : Literal
+    id : str
+    licence : str
+    model_config
+    published : date | None
+    source : str
+    title : str
+    url
+  }
+  style ManifestEntry fill:#AAAA00
+  class RawDocument {
+    content_type : str | None
+    entry
+    model_config
+    path : Path
+    retrieved : date
+  }
+  style RawDocument fill:#AAAA00
+  class RunSummary {
+    failed : int
+    ok : int
+    results : list[DocumentResult]
+    skipped : int
+    count(status: str) int
+  }
+  style RunSummary fill:#AAAA00
+  class ScoredChunk {
+    chunk
+    model_config
+    score : float
+  }
+  style ScoredChunk fill:#AAAA00
+  class EmbeddingCache {
+    get_many(texts: list[str]) dict[str, list[float]]
+    key(text: str) str
+    put_many(texts: list[str], vectors: list[list[float]]) None
+  }
+  style EmbeddingCache fill:#EEDD88
+  class OpenAICompatibleEmbedder {
+    batch_size : int
+    dimension : int
+    name : str
+    embed_documents(texts: list[str]) list[list[float]]
+    embed_query(text: str) list[float]
+  }
+  style OpenAICompatibleEmbedder fill:#EEDD88
+  class SentenceTransformerEmbedder {
+    dimension : int
+    document_prefix : str
+    name : str
+    query_prefix : str
+    embed_documents(texts: list[str]) list[list[float]]
+    embed_query(text: str) list[float]
+    from_preset(model_id: str) 'SentenceTransformerEmbedder'
+  }
+  style SentenceTransformerEmbedder fill:#EEDD88
+  class Pipeline {
+    chunker
+    connector
+    converter
+    store
+    chunk(doc: ConvertedDocument) list[Chunk]
+    convert(raw: RawDocument) ConvertedDocument
+    fetch(entry: ManifestEntry) RawDocument
+    index(doc_id: str, chunks: list[Chunk]) int
+    process(entry: ManifestEntry) int
+    run(entries: list[ManifestEntry]) RunSummary
+  }
+  style Pipeline fill:#77AADD
+  class Settings {
+    chunk_min_chars : int
+    chunk_overlap : int
+    chunk_size : int
+    embedder : str
+    llm_api_key : SecretStr | None
+    llm_base_url : str | None
+    model_config
+    profile : Literal
+    qdrant_path : Path
+    user_agent : str
+    collection_name() str
+  }
+  style Settings fill:#77AADD
+  class QdrantStore {
+    batch_size : int
+    bm25 : SparseTextEmbedding
+    client
+    collection : str
+    embedder
+    add(chunks: list[Chunk]) int
+    chunk_counts() dict[str, int]
+    close() None
+    count() int
+    delete_by_doc_id(doc_id: str) None
+    search(query: str, limit: int) list[ScoredChunk]
+  }
+  style QdrantStore fill:#EE8866
+  MarkdownChunker --|> Chunker
+  HttpConnector --|> Connector
+  HtmlConverter --|> Converter
+  JatsConverter --|> Converter
+  PdfConverter --|> Converter
+  RoutingConverter --|> Converter
+  OpenAICompatibleEmbedder --|> Embedder
+  SentenceTransformerEmbedder --|> Embedder
+  QdrantStore --|> VectorStore
+  VectorStore --> Embedder : embedder
+  ScoredChunk --> Chunk : chunk
+  ConvertedDocument --> ManifestEntry : entry
+  RawDocument --> ManifestEntry : entry
+  Chunker --o Pipeline : chunker
+  Connector --o Pipeline : connector
+  Converter --o Pipeline : converter
+  Embedder --o QdrantStore : embedder
+  VectorStore --o Pipeline : store

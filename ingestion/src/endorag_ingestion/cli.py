@@ -79,7 +79,7 @@ def query(
     """Hybrid search (dense + BM25) and print the top chunks with their sources."""
     pipeline = factory.build_pipeline(_settings(profile, embedder))
     try:
-        hits = pipeline.store.search(text, pipeline.embedder.embed_query(text), limit=k)
+        hits = pipeline.store.search(text, limit=k)
     finally:
         pipeline.store.close()
     for rank, hit in enumerate(hits, 1):

@@ -1,7 +1,7 @@
 import pytest
 from endorag_ingestion import cli, factory
 from endorag_ingestion.pipeline import Pipeline
-from fakes import FakeChunker, FakeConnector, FakeConverter, FakeEmbedder, InMemoryStore
+from fakes import FakeChunker, FakeConnector, FakeConverter, InMemoryStore
 from typer.testing import CliRunner
 
 runner = CliRunner()
@@ -36,7 +36,6 @@ def built(monkeypatch):
             FakeConnector(state["failing"]),
             FakeConverter(),
             FakeChunker(),
-            FakeEmbedder(),
             state["store"],
         )
 

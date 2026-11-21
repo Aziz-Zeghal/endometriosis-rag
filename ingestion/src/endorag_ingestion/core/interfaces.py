@@ -49,13 +49,20 @@ class Embedder(ABC):
 
 
 class VectorStore(ABC):
-    """Stores chunks with their vectors and searches them."""
+    """Indexes chunks and searches them.
+
+    The store owns its `Embedder`, so documents and queries are always embedded by the same
+    model: callers pass text, never vectors.
+    """
+
+    embedder: Embedder
 
     @abstractmethod
-    def upsert(self, chunks: list[Chunk], vectors: list[list[float]]) -> int: ...
+    def add(self, chunks: list[Chunk]) -> int:
+        """Embed the chunks and store them. Returns the number stored."""
 
     @abstractmethod
     def delete_by_doc_id(self, doc_id: str) -> None: ...
 
     @abstractmethod
-    def search(self, query: str, query_vector: list[float], limit: int) -> list[ScoredChunk]: ...
+    def search(self, query: str, limit: int) -> list[ScoredChunk]: ...
