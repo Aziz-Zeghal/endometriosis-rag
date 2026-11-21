@@ -8,7 +8,7 @@ from typing import Literal, Self
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl, model_validator
 
 Audience = Literal["patient", "gp", "both"]
-Format = Literal["html", "pdf", "video"]
+Format = Literal["html", "pdf", "xml", "video"]  # xml = JATS full text
 
 # Fixed namespace so point ids are stable across runs and machines.
 POINT_NAMESPACE = uuid.UUID("6f1c4f7e-2d1a-4b8e-9a43-0e5b1f2c7d10")
@@ -20,7 +20,8 @@ class ManifestEntry(BaseModel):
     model_config = ConfigDict(frozen=True, extra="forbid")
 
     id: str = Field(pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-    url: HttpUrl
+    url: HttpUrl  # shown in citations
+    fetch_url: HttpUrl | None = None  # downloaded instead of `url` (e.g. an open-access XML API)
     source: str
     title: str
     published: date | None = None
