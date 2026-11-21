@@ -11,6 +11,7 @@ DATA_DIR = ROOT_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"  # fetched HTML/PDF snapshot (committed)
 MARKDOWN_DIR = DATA_DIR / "markdown"  # converted documents (committed)
 QDRANT_DIR = DATA_DIR / "qdrant"  # local vector database (gitignored, rebuilt)
+CACHE_DIR = DATA_DIR / "cache"  # embedding cache (gitignored)
 MANIFESTS_DIR = ROOT_DIR / "ingestion" / "manifests"
 
 Profile = Literal["patient", "gp"]
@@ -22,6 +23,9 @@ class Settings(BaseSettings):
     profile: Profile = "patient"
     embedder: str = "nemotron-3-embed-1b"
     qdrant_path: Path = QDRANT_DIR
+    chunk_size: int = 1200
+    chunk_overlap: int = 150
+    chunk_min_chars: int = 40
     user_agent: str = "endorag-research-bot/0.1 (non-commercial research demo)"
 
     # Only needed by the OpenAI-compatible embedder; the backend makes them required.
