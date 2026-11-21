@@ -1,7 +1,7 @@
 # Sources
 
-Corpus, validated on 2026-11-20 and 2026-11-21: every URL below was fetched (HTTP 200), and the
-legal pages of the main publishers were read. Rows marked **(to verify)** were not checked. The machine-readable versions
+Corpus, validated on 2026-11-20 and 2026-11-21: every URL below was fetched (HTTP 200), the ESHRE
+article through its open-access XML (see the GP corpus), and the legal pages of the main publishers were read. Rows marked **(to verify)** were not checked. The machine-readable versions
 live in `ingestion/manifests/patient.yaml` and `ingestion/manifests/gp.yaml`.
 
 ## Licensing strategy
@@ -62,9 +62,14 @@ recent one is preferred, and every answer shows the source date.
 | Qu'est-ce que l'endométriose ? | 2026-02-12 | https://www.sante.fr/endometriose/quest-ce-que-lendometriose |
 | Je ressens des symptômes : quelle prise en charge ? | 2025-02-24 | https://www.sante.fr/endometriose/parcours-prise-en-charge |
 | En quoi consiste le test salivaire de l'endométriose ? | 2025-03-26 | https://www.sante.fr/endometriose/endometriose-en-quoi-consiste-le-test-salivaire-de-lendometriose |
-| Trouver la filière Endométriose la plus proche de chez moi (third-party cards stripped; link out to the directory) | 2025-11-24 | (URL to confirm in the manifest) |
-| Easy-to-read (FALC): Quels sont les symptômes d'une endométriose ? | 2026-04 | https://www.sante.fr/dam/sites/default/files/2026-04/Quels_sont_les%20sympt%C3%B4mes_d_une_endom%C3%A9triose%20_FALC.pdf |
-| Easy-to-read (FALC): Qu'est-ce que l'endométriose ; Quels professionnels de santé aller voir ; Pourquoi les douleurs d'une endométriose sont différentes | 2026-04 | (URLs to confirm in the manifest) |
+| Trouver la filière Endométriose la plus proche de chez moi (third-party cards stripped; link out to the directory) | 2025-11-24 | https://www.sante.fr/endometriose/trouver-la-filiere-endometriose-la-plus-proche-de-chez-moi |
+| Easy-to-read (FALC): Qu'est-ce que l'endométriose ? | 2022-12 (checked 2026-05-04) | https://www.sante.fr/dam/sites/default/files/2026-04/Qu%27est-ce_que_l_endom%C3%A9triose_FALC.pdf |
+| Easy-to-read (FALC): Quels sont les symptômes d'une endométriose ? | 2022-12 (checked 2026-05-04) | https://www.sante.fr/dam/sites/default/files/2026-04/Quels_sont_les%20sympt%C3%B4mes_d_une_endom%C3%A9triose%20_FALC.pdf |
+| Easy-to-read (FALC): Quels professionnels de santé aller voir ? | 2022-12 (checked 2026-05-04) | https://www.sante.fr/dam/sites/default/files/2026-04/Quels_professionnels_de_sant%C3%A9_aller_voir_FALC.pdf |
+| Easy-to-read (FALC): Pourquoi les douleurs d'une endométriose sont différentes ? | 2022-12 (checked 2026-05-04) | https://www.sante.fr/dam/sites/default/files/2026-04/Pourquoi_les%20douleurs_d_une%20endom%C3%A9triose%20sont_diff%C3%A9rentes_FALC.pdf |
+
+The FALC PDFs are byte-identical to the versions first published in 2022-12; the Santé.fr
+sheet pages were republished on 04/05/2026. The recency rule uses the 2022-12 date.
 
 The Santé.fr theme pages (`/symptomes`, `/diagnostic-et-examens/…`, `/droits-des-patients/…`)
 mostly aggregate cards from other publishers and carry no page-level date. They are
@@ -124,7 +129,12 @@ assistant declines and points to the school nurse.
 | HAS (label) | Actualisation de la place des examens d'imagerie pour le diagnostic (supersedes the 2017 imaging section) | 2025-05 | https://www.has-sante.fr/upload/docs/application/pdf/2025-05/reco492_label_endometriose_imagerie_recommandations_ca.pdf |
 | ESHRE | ESHRE guideline: endometriosis (Hum Reprod Open 2022, CC BY-NC) | 2022 | https://europepmc.org/article/PMC/PMC8951218 |
 | ENDOmind France | Fiche réflexe 1: les symptômes (for first-line actors, including clinicians) | 2025-09 | https://www.sante.fr/sites/default/files/2025-09/ENDOM%C3%89TRIOSE%20FICHE%20REFLEXE%201%20-%20LES%20SYMPT%C3%94MES.pdf |
-| ENDOmind France | Fiche réflexe 3: ressources pour l'accompagnement et la prise en charge | 2025-09 | (URL to confirm in the manifest) |
+| ENDOmind France | Fiche réflexe 3: ressources pour l'accompagnement et la prise en charge | 2025-09 | https://www.sante.fr/sites/default/files/2025-09/ENDOM%C3%89TRIOSE%20FICHE%20REFLEXE%203%20-%20LES%20RESSOURCES%20POUR%20ACCOMPAGNEMENT%20ET%20UNE%20PRISE%20EN%20CHARGE%20DE%20L%27ENDOMETRIOSE.pdf |
+
+Europe PMC serves the ESHRE article page behind a JavaScript challenge (HTTP 403 for a plain
+client). The same CC BY-NC article is fetched as JATS XML from the Europe PMC REST API
+(`fetch_url` in the manifest, `format: xml`, converted by docling's JATS backend), while
+citations link to the article page.
 
 Excluded: the HAS evidence report (several hundred pages), the national strategy report and press kit
 (policy content with little Q&A value), and the English CNGOF version (TDM opt-out, and it

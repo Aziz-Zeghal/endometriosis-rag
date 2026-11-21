@@ -1,0 +1,82 @@
+# GP corpus (generalization profile). See docs/sources.md.
+# Month-only dates use the first day of the month.
+
+- id: has-messages-cles-mg
+  url: https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendiometriose_-_messages_cles_destines_au_medecin_generaliste.pdf
+  source: HAS
+  title: "Prise en charge de l'endométriose : messages clés destinés au médecin généraliste"
+  published: 2017-12-01
+  audience: gp
+  format: pdf
+  licence: has-reuse-with-attribution
+
+- id: has-recommandations-2017
+  url: https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendometriose_-_recommandations.pdf
+  source: HAS
+  title: "Prise en charge de l'endométriose : recommandations"
+  published: 2017-12-01
+  audience: gp
+  format: pdf
+  licence: has-reuse-with-attribution
+
+# HAS summary sheets, shared with the patient corpus (same ids and fields in patient.yaml).
+- id: has-fiche-diagnostic
+  url: https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendiometriose_-_demarche_diagnostique_et_traitement_medical_-_fiche_de_synthese.pdf
+  source: HAS
+  title: "Prise en charge de l'endométriose : démarche diagnostique et traitement médical (fiche de synthèse)"
+  published: 2017-12-01
+  audience: both
+  format: pdf
+  licence: has-reuse-with-attribution
+
+- id: has-fiche-chirurgie
+  url: https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendiometriose_-_traitement_chirurgical_et_fertilite_-_fiche_de_synthese.pdf
+  source: HAS
+  title: "Prise en charge de l'endométriose : traitement chirurgical et fertilité (fiche de synthèse)"
+  published: 2017-12-01
+  audience: both
+  format: pdf
+  licence: has-reuse-with-attribution
+
+# HAS-labelled update; supersedes the imaging section of the 2017 documents.
+- id: has-imagerie-2025
+  url: https://www.has-sante.fr/upload/docs/application/pdf/2025-05/reco492_label_endometriose_imagerie_recommandations_ca.pdf
+  source: HAS
+  title: "Endométriose : actualisation de la place des examens d'imagerie pour le diagnostic"
+  published: 2025-05-01
+  audience: gp
+  format: pdf
+  licence: has-reuse-with-attribution
+
+# Disabled: Europe PMC (and PMC) put the article behind a browser challenge, so HttpConnector
+# gets a 403. Fetchable alternatives need an owner decision, see docs/sources.md.
+# The article page is behind a bot challenge; the same CC BY-NC article is fetched as JATS
+# XML from the Europe PMC REST API, and citations link to the article page.
+- id: eshre-guideline-2022
+  url: https://europepmc.org/article/PMC/PMC8951218
+  fetch_url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8951218/fullTextXML
+  source: ESHRE
+  title: "ESHRE guideline: endometriosis (Human Reproduction Open, 2022)"
+  published: 2022-02-26
+  audience: gp
+  format: xml
+  licence: cc-by-nc-4.0
+
+# ENDOmind France sheets for first-line actors, hosted on Santé.fr.
+- id: endomind-fiche-symptomes
+  url: https://www.sante.fr/sites/default/files/2025-09/ENDOM%C3%89TRIOSE%20FICHE%20REFLEXE%201%20-%20LES%20SYMPT%C3%94MES.pdf
+  source: ENDOmind France
+  title: "Endométriose, fiche réflexe 1 : les symptômes"
+  published: 2025-09-01
+  audience: gp
+  format: pdf
+  licence: all-rights-reserved
+
+- id: endomind-fiche-ressources
+  url: https://www.sante.fr/sites/default/files/2025-09/ENDOM%C3%89TRIOSE%20FICHE%20REFLEXE%203%20-%20LES%20RESSOURCES%20POUR%20ACCOMPAGNEMENT%20ET%20UNE%20PRISE%20EN%20CHARGE%20DE%20L%27ENDOMETRIOSE.pdf
+  source: ENDOmind France
+  title: "Endométriose, fiche réflexe 3 : les ressources pour un accompagnement et une prise en charge"
+  published: 2025-09-01
+  audience: gp
+  format: pdf
+  licence: all-rights-reserved

@@ -1,0 +1,246 @@
+# Patient corpus. See docs/sources.md for the selection and licensing rules.
+# `published` is the date the publisher shows (last update when the page only shows that);
+# month-only dates use the first day of the month. `checked` is a "vérifié le" date.
+
+# Ameli (Assurance Maladie): all rights reserved, robots.txt asks for Crawl-delay: 10.
+- id: ameli-definition
+  url: https://www.ameli.fr/assure/sante/themes/endometriose/definition-facteurs-favorisants
+  source: Ameli
+  title: "Endométriose : définition et facteurs favorisants"
+  published: 2026-04-09
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-symptomes
+  url: https://www.ameli.fr/assure/sante/themes/endometriose/symptomes-diagnostic-evolution
+  source: Ameli
+  title: "Endométriose : symptômes, diagnostic et évolution"
+  published: 2026-04-09
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-traitement
+  url: https://www.ameli.fr/assure/sante/themes/endometriose/traitement
+  source: Ameli
+  title: "Traitement de l'endométriose"
+  published: 2026-04-09
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-suivi
+  url: https://www.ameli.fr/assure/sante/themes/endometriose/suivi-medical-vie-quotidienne
+  source: Ameli
+  title: "Endométriose : suivi médical et vie quotidienne"
+  published: 2026-04-09
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+- id: ameli-grossesse
+  url: https://www.ameli.fr/assure/sante/themes/endometriose/desir-de-grossesse-et-endometriose
+  source: Ameli
+  title: "Désir de grossesse et endométriose"
+  published: 2025-12-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  crawl_delay_s: 10
+
+# Santé.fr: dated articles and easy-to-read (FALC) sheets.
+# FALC sheets: the PDFs are byte-identical to the 2022-12 versions, so `published` is
+# 2022-12-01 (used by the recency rule) and `checked` is the page's republication date.
+- id: santefr-endometriose
+  url: https://www.sante.fr/endometriose/quest-ce-que-lendometriose
+  source: Santé.fr
+  title: "Qu'est-ce que l'endométriose ?"
+  published: 2026-02-12
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-parcours
+  url: https://www.sante.fr/endometriose/parcours-prise-en-charge
+  source: Santé.fr
+  title: "Je ressens des symptômes : quelle prise en charge ?"
+  published: 2025-02-24
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-test-salivaire
+  url: https://www.sante.fr/endometriose/endometriose-en-quoi-consiste-le-test-salivaire-de-lendometriose
+  source: Santé.fr
+  title: "En quoi consiste le test salivaire de l'endométriose ?"
+  published: 2025-03-26
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-filieres
+  url: https://www.sante.fr/endometriose/trouver-la-filiere-endometriose-la-plus-proche-de-chez-moi
+  source: Santé.fr
+  title: "Trouver la filière Endométriose la plus proche de chez moi"
+  published: 2025-11-24
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: santefr-falc-definition
+  url: https://www.sante.fr/dam/sites/default/files/2026-04/Qu%27est-ce_que_l_endom%C3%A9triose_FALC.pdf
+  source: Santé.fr
+  title: "Facile à lire : Qu'est-ce que l'endométriose ?"
+  published: 2022-12-01
+  checked: 2026-05-04
+  audience: patient
+  format: pdf
+  licence: all-rights-reserved
+
+- id: santefr-falc-symptomes
+  url: https://www.sante.fr/dam/sites/default/files/2026-04/Quels_sont_les%20sympt%C3%B4mes_d_une_endom%C3%A9triose%20_FALC.pdf
+  source: Santé.fr
+  title: "Facile à lire : Quels sont les symptômes d'une endométriose ?"
+  published: 2022-12-01
+  checked: 2026-05-04
+  audience: patient
+  format: pdf
+  licence: all-rights-reserved
+
+- id: santefr-falc-professionnels
+  url: https://www.sante.fr/dam/sites/default/files/2026-04/Quels_professionnels_de_sant%C3%A9_aller_voir_FALC.pdf
+  source: Santé.fr
+  title: "Facile à lire : Quels professionnels de santé aller voir ?"
+  published: 2022-12-01
+  checked: 2026-05-04
+  audience: patient
+  format: pdf
+  licence: all-rights-reserved
+
+- id: santefr-falc-douleurs
+  url: https://www.sante.fr/dam/sites/default/files/2026-04/Pourquoi_les%20douleurs_d_une%20endom%C3%A9triose%20sont_diff%C3%A9rentes_FALC.pdf
+  source: Santé.fr
+  title: "Facile à lire : Pourquoi les douleurs d'une endométriose sont différentes ?"
+  published: 2022-12-01
+  checked: 2026-05-04
+  audience: patient
+  format: pdf
+  licence: all-rights-reserved
+
+# EndoFrance (patient association): dates are the pages' last update.
+- id: endofrance-faq
+  url: https://www.endofrance.org/la-maladie-endometriose/faq-foire-aux-questions/
+  source: EndoFrance
+  title: "FAQ : foire aux questions"
+  published: 2026-01-13
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-diagnostic
+  url: https://www.endofrance.org/diagnostic-endometriose/
+  source: EndoFrance
+  title: "Le diagnostic de l'endométriose"
+  published: 2025-12-18
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-douleur
+  url: https://www.endofrance.org/la-maladie-endometriose/lutter-contre-la-douleur/
+  source: EndoFrance
+  title: "Lutter contre la douleur"
+  published: 2026-09-09
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-travail
+  url: https://www.endofrance.org/la-maladie-endometriose/travailler-avec-lendometriose/
+  source: EndoFrance
+  title: "Travailler avec l'endométriose"
+  published: 2026-11-19
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-amp
+  url: https://www.endofrance.org/la-maladie-endometriose/lassistance-medicale-a-la-procreation-amp-ou-pma/
+  source: EndoFrance
+  title: "L'assistance médicale à la procréation (AMP/PMA)"
+  published: 2025-12-18
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+- id: endofrance-vocabulaire
+  url: https://www.endofrance.org/la-maladie-endometriose/vocabulaire-endometriose/
+  source: EndoFrance
+  title: "Vocabulaire de l'endométriose"
+  published: 2026-07-05
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+
+# Rights and work: open government licence.
+- id: sp-ald
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F34068
+  source: Service-Public
+  title: "Prise en charge d'une affection de longue durée (ALD)"
+  checked: 2026-10-15
+  audience: patient
+  format: html
+  licence: etalab-2.0
+
+- id: sp-rqth
+  url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1650
+  source: Service-Public
+  title: "Reconnaissance de la qualité de travailleur handicapé (RQTH)"
+  checked: 2026-03-24
+  audience: patient
+  format: html
+  licence: etalab-2.0
+
+- id: mph-travail
+  url: https://www.monparcourshandicap.gouv.fr/actualite/comment-adapter-votre-travail-avec-une-endometriose
+  source: Mon Parcours Handicap
+  title: "Endométriose : quels aménagements au travail ?"
+  published: 2026-03-26
+  audience: patient
+  format: html
+  licence: etalab-2.0
+
+# HAS summary sheets, shared with the GP corpus (same ids and fields in gp.yaml).
+- id: has-fiche-diagnostic
+  url: https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendiometriose_-_demarche_diagnostique_et_traitement_medical_-_fiche_de_synthese.pdf
+  source: HAS
+  title: "Prise en charge de l'endométriose : démarche diagnostique et traitement médical (fiche de synthèse)"
+  published: 2017-12-01
+  audience: both
+  format: pdf
+  licence: has-reuse-with-attribution
+
+- id: has-fiche-chirurgie
+  url: https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendiometriose_-_traitement_chirurgical_et_fertilite_-_fiche_de_synthese.pdf
+  source: HAS
+  title: "Prise en charge de l'endométriose : traitement chirurgical et fertilité (fiche de synthèse)"
+  published: 2017-12-01
+  audience: both
+  format: pdf
+  licence: has-reuse-with-attribution
+
+# Optional, off by default: no reproduction without written permission.
+- id: inserm-dossier
+  url: https://www.inserm.fr/dossier/endometriose/
+  source: Inserm
+  title: "Endométriose : une maladie gynécologique fréquente mais encore mal connue"
+  published: 2017-07-05
+  audience: patient
+  format: html
+  licence: all-rights-reserved
+  enabled: false
