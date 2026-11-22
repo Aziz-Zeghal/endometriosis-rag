@@ -2,6 +2,11 @@
 
 export type Profile = "patient" | "gp";
 
+/** A profile from a `data-profile` attribute or a `?profile=` parameter: `gp`, else `patient`. */
+export function parseProfile(value: string | null | undefined): Profile {
+  return value === "gp" ? "gp" : "patient";
+}
+
 export type Route = "emergency" | "chitchat" | "out_of_scope" | "question" | "clarify" | "refuse";
 export type Flag = "asks_for_diagnosis" | "asks_for_prescription";
 

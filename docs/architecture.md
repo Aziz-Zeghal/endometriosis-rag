@@ -11,7 +11,7 @@ Three parts, one direction of data flow:
                                                             │ SSE
                                                             ▼
                                              ┌───────────────────────────────────┐
-                                             │ Frontend (chat widget, sources)    │
+                                             │ Frontend (single page; widget ext.)│
                                              └───────────────────────────────────┘
 ```
 
@@ -107,25 +107,47 @@ headings, with the manifest title prepended when the document has no title of it
 `start_seconds` is only used by the optional video connector
 (see [sources.md](sources.md#optional-videos-with-french-captions)).
 
-## Frontend: an embeddable chat widget
+## Frontend: a single-page assistant, and the widget as an extension
 
-The frontend is built as a **widget**, not a full application: a floating chat bubble that
-any host page can embed, plus a demo host page (the fictional campaign site).
+The product is a **single-page assistant** (`front/index.html`): the campaign's assistant
+homepage that the QR codes open, holding one conversation. The same chat core is also
+packaged as an **embeddable widget** (`widget.js`), an extension that partner sites can add
+with one script tag; `front/widget-demo.html` is a fictional partner page that shows it.
+Both shells reuse one chat core (`front/src/chat/`) and call the same backend, which serves
+both profiles.
+
+| Concern | Single page (`src/app/`) | Widget extension (`src/widget/`) |
+|---|---|---|
+| Layout | Full-height page (`100dvh`): header (fictional body, assistant name, profile switch « Grand public » / « Professionnels de santé », « Nouvelle conversation »), the always-visible banner, the conversation in a reading column of about 70 characters, the composer at the bottom. The fictional-scenario and source-ownership notices, and a discreet link to the widget demo, follow the messages. | Bubble (« Poser une question ») → panel with the banner and the same conversation; full screen below 640 px. |
+| Profile | The switch, or `?profile=gp` (kept in the URL), sets the request body's `profile`; changing it starts a new conversation (the runtime is remounted). | `data-profile`, or `window.EndoRAG.open(profile)`; changing it starts a new conversation. |
+| Empty state | What the assistant does and refuses (sources only, no diagnosis or prescription, emergency numbers as `tel:` / `sms:` links), then the profile's suggested questions. | Short intro and the suggested questions. |
+| API URL | `VITE_API_URL` at build time (default `http://localhost:8000`). | `data-api`. |
+| Styles | Tailwind on the page (`app.css`). | Tailwind compiled into `widget.js` and injected into a Shadow DOM. |
+
+Shared chat core (`front/src/chat/`): `runtime.tsx` (assistant-ui's AI SDK runtime,
+`useChatRuntime` + `AssistantChatTransport`, body `{"profile", "messages", …}`),
+`Thread.tsx` (messages, route badges, source cards, emergency card and actions, composer,
+suggestions; a `column` prop for the page's reading width, `empty` and `footer` slots),
+`Banner.tsx`, `parts.ts` (pure helpers, vitest tests), `icons.tsx` and `theme.css`
+(tokens, motion, the answers' Markdown). Visual tokens and layout decisions:
+[front/DESIGN.md](../front/DESIGN.md).
+
+### Widget extension
 
 ```html
-<!-- On the host site -->
+<!-- On a partner site -->
 <script src="https://<widget-host>/widget.js" data-api="https://<api-host>" data-profile="patient" defer></script>
 ```
 
 | Concern | Choice |
 |---|---|
 | Embedding | One script tag mounts the React widget into a Shadow DOM, so the host page's CSS and the widget's CSS never interfere. The shadow host is a custom `<endorag-widget>` element (host rules on `div` do not match it) with an inline `all: initial !important` reset, and the widget's CSS uses px only (Tailwind's rem values are converted when the CSS is injected), so the host's root font size does not resize it. The compiled Tailwind CSS is bundled into `widget.js` as a string and injected into the shadow root; only Tailwind's `@property` rules (which a shadow root ignores) are added to the document, and they only declare `--tw-*` custom properties. The host page's fonts apply if it loads Atkinson Hyperlegible Next; otherwise the system sans-serif is used. `widget.js` is ASCII only (French text as `\u` escapes, rolldown `charset: "ascii"`), so it reads correctly on host pages that do not declare UTF-8. An iframe build is the fallback for hosts with a strict Content Security Policy. |
-| Configuration | `data-*` attributes: `data-api` (API base URL), `data-api-gp` (API base URL of the `gp` backend, default `data-api`, since one backend serves one profile, D-24), `data-profile` (`patient` or `gp`), `data-open` (`true` opens the panel on load), `data-accent` (any CSS colour, used for fills; text on it switches to dark ink for light hex colours; links, citation numbers and the focus ring, drawn on white, use the accent mixed 40/60 with the dark ink, which stays above 4.5:1 on white for any colour). Host pages can also call `window.EndoRAG.open(profile?)` and `window.EndoRAG.close()` (an `endorag:ready` event fires once it is mounted); changing the profile starts a new conversation. |
-| Behaviour | Bubble (« Poser une question ») → panel with the always-visible banner, streamed Markdown answers, source cards, a route badge, stop and retry. On a phone (< 640 px) the panel goes full screen. |
-| Backend contract | Unchanged: the widget calls `POST {api}/api/chat` (AI SDK UI message stream) through assistant-ui's AI SDK runtime (`useChatRuntime` + `AssistantChatTransport`, body `{"profile", "messages", …}`; the backend ignores the extra fields). CORS allows the host origins listed in the backend settings (Vite dev and preview ports by default). |
-| Demo | `front/` builds both the widget bundle and a fictional campaign page that embeds it. |
+| Configuration | `data-*` attributes: `data-api` (API base URL; one backend serves both profiles, so the former `data-api-gp` is gone), `data-profile` (`patient` or `gp`), `data-open` (`true` opens the panel on load), `data-accent` (any CSS colour, used for fills; text on it switches to dark ink for light hex colours; links, citation numbers and the focus ring, drawn on white, use the accent mixed 40/60 with the dark ink, which stays above 4.5:1 on white for any colour). Host pages can also call `window.EndoRAG.open(profile?)` and `window.EndoRAG.close()` (an `endorag:ready` event fires once it is mounted); changing the profile starts a new conversation. |
+| Backend contract | The same as the single page: `POST {api}/api/chat` with the profile in the body. CORS allows the host origins listed in the backend settings (Vite dev and preview ports by default). |
 
-How the widget renders the stream parts (`front/src/widget/Thread.tsx`, helpers in
+### Rendering the stream parts
+
+How both shells render the stream parts (`front/src/chat/Thread.tsx`, helpers in
 `parts.ts` with vitest tests):
 
 | Part | Rendering |
@@ -135,25 +157,29 @@ How the widget renders the stream parts (`front/src/widget/Thread.tsx`, helpers 
 | `data-sources` | Source cards (« Sources citées ») under the answer, only for the passages the answer cites as `[n]` (the backend sends every passage given to generation, cited or not), so they appear as the citations stream in: publisher, date (month and year), title linking to the source in a new tab. Chunks of the same document (same URL without `#page=N`) share one card, which lists every citation number and one link per distinct page. |
 | `source-url` | Not rendered (the cards come from `data-sources`). |
 
-Accessibility basics: the open panel is a `role="dialog"` (`aria-modal` only in the full-screen phone layout, since on desktop the host page stays usable beside it) with a focus trap (Tab cycles
-inside, Escape closes and gives focus back to the bubble), the question field gets focus on
-open, the conversation is a `role="log"` marked `aria-busy` while an answer streams (so a
-screen reader reads it once complete), buttons and links carry French labels (new-tab
-links say so), visible focus rings, and text colours meet WCAG AA on their backgrounds,
-including with a custom `data-accent` (see Configuration). A failed request (backend down,
-or HTTP 400 when the profile does not match the backend's) shows « La réponse n'a pas pu
-être obtenue. Réessayez dans un instant. » with the retry button.
+Accessibility basics, both shells: the conversation is a `role="log"` marked `aria-busy`
+while an answer streams (so a screen reader reads it once complete), buttons and links
+carry French labels (new-tab links say so), visible focus rings, and text colours meet
+WCAG AA on their backgrounds, including with a custom `data-accent`. A failed request
+(backend down, or HTTP 422 for an unknown profile) shows « La réponse n'a pas pu être
+obtenue. Réessayez dans un instant. » with the retry button. Single page: a skip link to
+the question field, a `<main>` landmark, the profile switch as two `aria-pressed` buttons,
+and a polite live region announcing the new conversation. Widget: the open panel is a
+`role="dialog"` (`aria-modal` only in the full-screen phone layout, since on desktop the
+host page stays usable beside it) with a focus trap (Tab cycles inside, Escape closes and
+gives focus back to the bubble), and the question field gets focus on open.
 
-Build: `vite build` writes the demo page (`index.html`, plain CSS, it plays the
-third-party site), then `vite build -c vite.widget.config.ts` writes `dist/widget.js`
-(library mode, one IIFE with React, assistant-ui and the CSS: about 1.2 MB, 355 kB
-gzipped; lazy-loading the panel is on the backlog). In dev, `/widget.js` is a one-line
-loader that imports the widget source, so the page embeds it with the same script tag.
-`front/dev/mock-server.mjs` replays the backend's part sequence (sourced answer with two
-chunks of one PDF, emergency, refusal, out of scope, chitchat, clarify, a mid-answer error)
-without the index or a model; its template answers are read from the backend's prompt files.
-It listens on 8000 and 8001, the patient and gp API URLs of the demo page's script tag
-(`data-api`, `data-api-gp`), the same ports as the two real backends.
+Build (`npm run build`): `vite build` writes both pages (`index.html`, the single page, and
+`widget-demo.html`, the partner page, plain CSS, it plays the third-party site), then
+`vite build -c vite.widget.config.ts` writes `dist/widget.js` (library mode, one IIFE
+with React, assistant-ui and the CSS: about 1.2 MB, 360 kB gzipped; lazy-loading the panel
+is on the backlog). The single page's bundle has the same size (the same chat core). In
+dev, `/widget.js` is a one-line loader that imports the widget source, so the partner page
+embeds it with the same script tag. `front/dev/mock-server.mjs` replays the backend's part
+sequence (sourced answer with two chunks of one PDF, emergency, refusal, out of scope,
+chitchat, clarify, a mid-answer error) without the index or a model; its template answers
+are read from the backend's prompt files. Like the real backend, it listens on one port
+(8000) and answers for the profile named in the request body.
 
 ## 2. Conversation graph (LangGraph)
 
@@ -260,18 +286,19 @@ Request body, as sent by the AI SDK transport:
 `{"id": "...", "messages": [{"id": "...", "role": "user", "parts": [{"type": "text", "text": "..."}]}], "profile": "patient"}`.
 Only `text` parts are read (the source and data parts the client sends back with assistant
 messages are ignored), system messages and messages without text are dropped, and the last
-message must be a user message with text (422 otherwise). `profile` is optional: one server
-answers for one profile, so a value other than `PROFILE` is rejected with 400.
+message must be a user message with text (422 otherwise). `profile` (`patient` or `gp`)
+picks the graph: one server answers for both profiles, `PROFILE` is used when the field is
+absent, and any other value is rejected with 422.
 The latest message plus at most `HISTORY_MESSAGES` past messages (user and assistant,
 default 6) are converted to
 LangChain `HumanMessage` / `AIMessage`. The response sets
 the header `x-vercel-ai-ui-message-stream: v1` (plus `Cache-Control: no-cache` and
 `X-Accel-Buffering: no`, so no proxy buffers the tokens). CORS allows `CORS_ORIGINS`.
 
-`routes/chat/chat.py` gets the chat service through a FastAPI dependency
-(`get_chat_service`, overridden by the tier-1 tests with a fake) and turns its events into
+`routes/chat/chat.py` gets the chat services, one per profile, through a FastAPI dependency
+(`get_chat_services`, overridden by the tier-1 tests with fakes), picks the request's one and turns its events into
 the parts above (`ui_message_stream`). Any exception that still escapes the chat service
-ends the text with the profile's `error.md`; no traceback reaches the client.
+ends the text with the request profile's `error.md`; no traceback reaches the client.
 
 `ChatService.astream(messages)` (`services/chat_service.py`) runs the graph with
 `graph.astream(stream_mode=["custom", "updates"])` and yields Pydantic events (`RouteEvent`,
@@ -321,7 +348,11 @@ A **profile** bundles what changes between use cases:
 | Prompts | `back/src/endorag_back/prompts/patient/` (plain language, empathetic) | `back/src/endorag_back/prompts/gp/` (clinical register, red flags, referral criteria) |
 | Refusal and emergency wording | Patient-facing | Practitioner-facing |
 
-The profile is selected by configuration (`PROFILE=patient`). The code is identical.
+One backend serves both profiles: each request names its profile (`profile` in the chat
+body; `PROFILE`, default `patient`, when it is absent). The code is identical; each profile
+has its own collection, prompts, safety patterns and graph, built at startup.
+The store creates a missing collection empty, so startup logs a warning for any profile
+whose collection has no points (ingest both profiles first).
 The collection name includes the embedder id, so changing models never mixes vector spaces.
 
 ## Backend design patterns
@@ -334,7 +365,7 @@ research or new deployments, never for a single implementation.
 | **Strategy** | `SafetyCheck` (keyword, LLM) and `Reranker` (no-op default in v1; a cross-encoder or a managed reranker is a research point) | Two safety checks exist, and rerankers are to be compared, so both get a small protocol. The chat model (`services/llm.py: chat_model(settings, "large" | "small")`), the search repository and the chat service have one implementation each, so they are plain classes or functions. |
 | **Composite** | `CompositeSafetyCheck([KeywordSafetyCheck(profile), LlmSafetyCheck(model, prompt, timeout_s)])` | Each check stays small and testable. The checks run in order and the first trigger returns at once, so a keyword hit never waits for the model; a failing check returns a non-emergency `llm-error` decision instead of raising, so it never disables the others. |
 | **Node factories (closures)** | `services/nodes/<node>.py: make_<node>_node(...)` returns the node function, with its model and prompt captured; the four fixed answers (`emergency`, `chitchat`, `out_of_scope`, `refuse`) share `nodes/template.py: make_template_node(text)` | Nodes are plain functions LangGraph can call, tested with fake models; no base class to inherit from. |
-| **Composition root** | `services/graph.py`: `build_graph(profile, safety, repo, large, small)` wires the nodes and edges from injected parts (tests pass scripted models and a fake repository); `build_graph_from_settings(settings, repo)` and `build_safety_check(...)` pick the real ones; `ChatService.from_settings(settings, store)` is what the app calls once at startup | One place decides which implementations are used. |
+| **Composition root** | `services/graph.py`: `build_graph(profile, safety, repo, large, small)` wires the nodes and edges from injected parts (tests pass scripted models and a fake repository); `build_graph_from_settings(settings, repo)` and `build_safety_check(...)` pick the real ones; `ChatService.from_settings(settings, store)` is what the app calls once per profile at startup | One place decides which implementations are used. |
 
 All data crossing a boundary is a **Pydantic model**: manifest entries, converted documents,
 chunks, scored chunks, route and safety decisions, API requests and responses, and stream
@@ -344,9 +375,13 @@ events. Raw dicts are not passed between modules.
 
 `uvicorn endorag_back.routes.entrypoint:create_app --factory` builds the app when the server
 starts, so importing the module reads no settings (tests build their own app with explicit
-settings). The FastAPI lifespan opens the vector store once with `build_storage(settings)`,
-builds the chat service on it (`ChatService.from_settings`), and closes the store at shutdown: local Qdrant locks its directory, so the lock is held only while
-the server runs. `GET /api/health` returns `{"status", "profile", "collection", "points"}`.
+settings). One process serves both profiles. Local Qdrant locks its directory, not a
+collection, so the FastAPI lifespan opens **one** `QdrantClient(path=QDRANT_PATH)` and
+builds, for each profile, a `QdrantStore` on that shared client (`build_storage(settings,
+client)`, with the profile's collection), its `SearchRepository`, graph and chat service
+(`ChatService.from_settings`); the client is closed at shutdown, so the lock is held only
+while the server runs. `GET /api/health` returns `{"status", "default_profile", "profiles":
+{"patient": {"collection", "points"}, "gp": {…}}}`.
 
 ### Chat models
 
@@ -408,13 +443,18 @@ endometriosis-rag/
 │                                 # and calibration; golden-set suite in eval/)
 │                                 # tier3/ (live storyline), each with a README
 ├── front/                        # Vite + React + TypeScript + assistant-ui (French UI), npm
-│   ├── index.html                # demo host page: fictional campaign, embeds widget.js
-│   ├── src/widget/               # main.tsx (Shadow DOM mount), Widget.tsx (bubble, panel,
-│   │                             # focus trap), Thread.tsx (messages, sources, composer),
-│   │                             # parts.ts (+ tests), config.ts (data-* attributes), widget.css
-│   ├── src/page/                 # host page CSS and script (entries, ?chat=open&profile=…)
-│   ├── dev/mock-server.mjs       # mock /api/chat replaying the backend's stream parts
-│   └── vite.config.ts, vite.widget.config.ts   # page build, widget.js library build
+│   ├── index.html                # the product: single-page assistant (src/app/)
+│   ├── widget-demo.html          # extension demo: fictional partner page embedding widget.js
+│   ├── src/chat/                 # shared chat core: Thread.tsx (messages, sources, emergency,
+│   │                             # composer, suggestions), Banner.tsx, runtime.tsx,
+│   │                             # parts.ts (+ tests), icons.tsx, theme.css
+│   ├── src/app/                  # single page: main.tsx, App.tsx (header, profile switch,
+│   │                             # empty state, footer), app.css
+│   ├── src/widget/               # extension: main.tsx (Shadow DOM mount), Widget.tsx (bubble,
+│   │                             # panel, focus trap), config.ts (data-* attributes), widget.css
+│   ├── src/page/                 # partner page CSS and script (entries, ?chat=open&profile=…)
+│   ├── dev/mock-server.mjs       # mock /api/chat (both profiles, one port) replaying the stream
+│   └── vite.config.ts, vite.widget.config.ts   # two-page build, widget.js library build
 ├── eval/                         # evaluation package (python -m eval.<report>), docs/evaluation.md
 │   ├── golden/                   # patient.yaml, gp.yaml; loaded and validated by golden.py
 │   ├── retrieval.py              # Hit@5 / MRR@10 per embedder and wording → reports/retrieval.md

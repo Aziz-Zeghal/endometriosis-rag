@@ -93,6 +93,16 @@ a {
   color: var(--notice-ink);
   font-size: 0.875rem;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+/* Back to the single-page assistant, the product this page only demonstrates as a widget. */
+.strip a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  font-weight: 700;
 }
 
 .masthead {
@@ -421,6 +431,13 @@ a {
 
 .footer p + p {
   margin-top: 0.75rem;
+}
+
+/* Phones: the end of the page clears the widget's floating launcher (48 px + 16 px margin). */
+@media (max-width: 639.98px) {
+  body {
+    padding-bottom: 5rem;
+  }
 }
 
 @media (min-width: 768px) {

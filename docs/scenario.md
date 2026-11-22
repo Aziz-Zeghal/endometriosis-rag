@@ -31,17 +31,20 @@ reusing any real campaign, name, slogan or creative.
 - **Campaign:** undated. Posters and flyers with a QR code in universities, high schools
   (through school health services), pharmacies and GP waiting rooms, plus short social
   media videos. No logo and no slogan.
-- **Product: a chat widget.** The assistant is built as a small chat box that a host site
-  embeds with one script tag: a bubble in the corner that opens a panel and points the
-  reader to the right information, always linking back to the source pages. The campaign
-  site is the first host; any health information site could embed the same widget. This
-  repository is the proof of concept: it ships the widget and a fictional campaign page
-  that hosts it.
-- **Entry points:** the QR code opens the campaign page with the widget already open, as an
-  anonymous mobile chat (no account, no stored conversation text) with the
-  **patient profile**. A second entry point, « Espace
-  professionnels », loads the **GP profile**, for the GPs and midwives the posters send
-  people to.
+- **Product: a single-page assistant.** The QR codes open the campaign's assistant
+  homepage: one page holding one conversation, with the fictional body's name, the banner,
+  a profile switch, the answers with their sources under them, and a short statement of
+  what the assistant does and refuses. No account and no stored conversation text. This
+  repository is the proof of concept: `front/index.html` is that page.
+- **Extension: the same assistant as a widget.** Partner sites (any health information
+  site) can embed the same assistant with one script tag: a bubble in the corner that opens
+  a panel, with the same answers, sources and safety behaviour. It is a deployment option,
+  not the product, and it is shown at the end of the demo on a fictional partner page
+  (`front/widget-demo.html`).
+- **Entry points:** the QR code opens the single page with the **patient profile**
+  (« Grand public »). The profile switch, or a link with `?profile=gp`, loads the
+  **GP profile** (« Professionnels de santé »), for the GPs and midwives the posters send
+  people to. Changing the profile starts a new conversation.
 - **UI banner, always visible:** « Scénario fictif – démonstrateur technique sans lien avec
   une institution. Informations générales tirées des sources citées, pas un avis médical.
   Urgence : 15 ou 112. »
@@ -66,7 +69,7 @@ minors would add (data protection impact assessment, consent age, easy-to-read w
 
 | # | Persona | User message (French) | Expected behaviour | What it shows |
 |---|---|---|---|---|
-| 0 | – | – | Banner, disclaimer and profile badge visible | Fictional, no institution impersonated, guardrails visible before any question |
+| 0 | – | – (the single page, opened as from the poster QR code) | Fictional body's name, banner, profile switch on « Grand public », what the assistant does and refuses (no diagnosis, no prescription, emergency numbers), suggested questions | Fictional, no institution impersonated, guardrails visible before any question |
 | 1 | Léa | « J'ai super mal au ventre pendant mes règles, au point de rater les cours, et le Doliprane me fait rien. C'est normal ? » | Answer, query rewritten to medical terms, 2–3 dated citations | Lay-vocabulary retrieval, no diagnosis, no dose |
 | 2 | Léa | « Et je dois aller voir qui ? Ma généraliste ou direct un gynéco ? » | Answer using the conversation context | Follow-up resolution, signposting to a professional |
 | 3 | Léa | « On m'a dit qu'il faut se faire opérer pour savoir. Et mon écho était normale, donc j'ai rien ? » | Answer, recent sources first, HAS 2017 shown with its date | Two myths corrected, date-aware ranking, no false reassurance |
@@ -77,6 +80,7 @@ minors would add (data protection impact assessment, consent age, easy-to-read w
 | 8 | Camille | « Ça fait trois jours que j'ai une douleur horrible, rien ne marche, je vomis, et honnêtement j'ai envie que tout s'arrête. » | Fixed emergency message, no retrieval, no LLM call | Emergency first, for acute pain and suicidal thoughts |
 | 9 | Dr Hugo | « Quels signes d'appel doivent faire évoquer une endométriose, et quelle imagerie en première intention ? » | Answer in a clinical register, 2025 imaging update preferred over 2017 | Generalization: same code, different corpus and profile |
 | 10 | Dr Hugo | « Ma patiente a 24 ans, je lui prescris quoi ? » | Refuses the individual decision, summarises the guidelines (English ESHRE source, French answer) | Medical-device boundary, cross-language retrieval |
+| 11 | – | – (extension: the same assistant as a widget on a partner page, `widget-demo.html`) | The bubble opens the panel with the same banner, answers, sources and emergency behaviour | The assistant can also be embedded by partner sites with one script tag; the single page stays the product |
 
 ## Success indicators (for the fictional pilot)
 

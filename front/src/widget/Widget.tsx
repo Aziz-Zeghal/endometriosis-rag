@@ -1,10 +1,10 @@
-import { AssistantRuntimeProvider, useAuiState } from "@assistant-ui/react";
-import { AssistantChatTransport, useChatRuntime } from "@assistant-ui/react-ai-sdk";
-import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type CSSProperties, type KeyboardEvent, type ReactNode } from "react";
+import { useEffect, useRef, useSyncExternalStore, type CSSProperties, type KeyboardEvent } from "react";
+import { Banner } from "../chat/Banner";
+import { ChatIcon, CloseIcon } from "../chat/icons";
+import type { Profile } from "../chat/parts";
+import { ChatRuntime } from "../chat/runtime";
+import { Thread } from "../chat/Thread";
 import type { WidgetConfig } from "./config";
-import { ChatIcon, ChevronIcon, CloseIcon, InfoIcon } from "./icons";
-import type { Profile } from "./parts";
-import { Thread } from "./Thread";
 
 // Open state and profile live outside React so host pages can drive them (window.EndoRAG).
 type UiState = { open: boolean; profile: Profile | null };
@@ -31,73 +31,12 @@ const PROFILE_LABELS: Record<Profile, string> = {
   gp: "Pro santé",
 };
 
-// The banner text of docs/scenario.md (French spacing: no-break space before « : »).
-const BANNER =
-  "Scénario fictif – démonstrateur technique sans lien avec une institution. " +
-  "Informations générales tirées des sources citées, pas un avis médical. ";
-const BANNER_SHORT = "Scénario fictif · pas un avis médical · ";
-
-const call = (n: string) => (
-  <a
-    href={`tel:${n}`}
-    aria-label={`Appeler le ${n}`}
-    className="relative underline underline-offset-2 after:absolute after:-inset-x-1 after:-inset-y-3 after:content-['']"
-  >
-    {n}
-  </a>
-);
-
-/** Full banner before the first question; afterwards one line, with a toggle for the rest,
- * so the conversation keeps the room (the emergency numbers stay visible either way). */
-function Banner() {
-  const empty = useAuiState((s) => s.thread.isEmpty);
-  const [more, setMore] = useState(false);
-  const full = empty || more;
-  return (
-    <div role="note" className="flex items-start gap-2 border-b border-notice-ink/15 bg-notice px-4 py-2 text-[13px] leading-snug text-notice-ink">
-      <span className="mt-px shrink-0">
-        <InfoIcon />
-      </span>
-      <p id="endorag-banner" className="min-w-0 flex-1">
-        {full ? BANNER : BANNER_SHORT}
-        <strong className="whitespace-nowrap">
-          Urgence&nbsp;: {call("15")} {full ? "ou" : "/"} {call("112")}
-          {full && "."}
-        </strong>
-      </p>
-      {!empty && (
-        <button
-          type="button"
-          onClick={() => setMore(!more)}
-          aria-expanded={more}
-          aria-controls="endorag-banner"
-          aria-label={more ? "Réduire l'avertissement" : "Afficher l'avertissement complet"}
-          className="-my-2.5 -mr-3 grid size-11 shrink-0 place-items-center rounded-full transition-colors duration-150 hover:bg-notice-ink/10"
-        >
-          <span className={`transition-transform duration-150 ${more ? "-rotate-90" : "rotate-90"}`}>
-            <ChevronIcon />
-          </span>
-        </button>
-      )}
-    </div>
-  );
-}
-
 /** Text colour readable on the accent: ink on light accents, white on dark ones. */
 function accentInk(color: string): string {
   const m = /^#([0-9a-f]{6})$/i.exec(color);
   if (!m) return "#ffffff";
   const [r, g, b] = [0, 2, 4].map((i) => parseInt(m[1].slice(i, i + 2), 16) / 255);
   return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.55 ? "#0f172a" : "#ffffff";
-}
-
-function ChatRuntime({ api, profile, children }: { api: string; profile: Profile; children: ReactNode }) {
-  const transport = useMemo(
-    () => new AssistantChatTransport({ api: `${api}/api/chat`, body: { profile } }),
-    [api, profile],
-  );
-  const runtime = useChatRuntime({ transport });
-  return <AssistantRuntimeProvider runtime={runtime}>{children}</AssistantRuntimeProvider>;
 }
 
 // The panel covers the page only on phones (Tailwind's sm breakpoint): only there is it modal.
@@ -159,7 +98,7 @@ export function Widget({ config }: { config: WidgetConfig }) {
           Poser une question
         </button>
       )}
-      <ChatRuntime key={profile} api={profile === "gp" ? config.apiGp : config.api} profile={profile}>
+      <ChatRuntime key={profile} api={config.api} profile={profile}>
         <section
           ref={panel}
           role="dialog"
@@ -167,12 +106,12 @@ export function Widget({ config }: { config: WidgetConfig }) {
           aria-labelledby="endorag-title"
           hidden={!open}
           onKeyDown={onKeyDown}
-          className="fixed inset-0 z-[2147483000] flex animate-panel-in flex-col overflow-hidden bg-paper sm:inset-auto sm:right-6 sm:bottom-6 sm:h-[min(720px,calc(100dvh-48px))] sm:w-[420px] sm:rounded-[20px] sm:border sm:border-line sm:shadow-[0_24px_64px_-16px_rgb(15_23_42/0.35)]"
+          className="fixed inset-0 z-[2147483000] flex animate-panel-in flex-col overflow-hidden bg-paper sm:inset-auto sm:right-6 sm:bottom-6 sm:h-[min(720px,calc(100dvh-144px))] sm:w-[420px] sm:rounded-[20px] sm:border sm:border-line sm:shadow-[0_24px_64px_-16px_rgb(15_23_42/0.35)]"
         >
-          <header className="flex items-start gap-3 bg-accent px-4 pt-[max(14px,env(safe-area-inset-top))] pb-3 text-accent-ink sm:pt-3.5">
+          <header data-on-accent className="flex items-start gap-3 bg-accent px-4 pt-[max(14px,env(safe-area-inset-top))] pb-3 text-accent-ink sm:pt-3.5">
             <div className="min-w-0 flex-1">
               <h2 id="endorag-title" className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-base leading-tight font-bold">
-                Assistant d'information
+                Assistant d’information
                 <span className="rounded-full bg-paper px-2 text-xs leading-6 font-bold text-accent-text">
                   {PROFILE_LABELS[profile]}
                 </span>
@@ -182,7 +121,7 @@ export function Widget({ config }: { config: WidgetConfig }) {
             <button
               type="button"
               onClick={close}
-              aria-label="Fermer l'assistant"
+              aria-label="Fermer l’assistant"
               className="-mt-1 -mr-1.5 grid size-11 shrink-0 place-items-center rounded-full transition-colors duration-150 hover:bg-white/15 active:bg-white/25"
             >
               <CloseIcon />

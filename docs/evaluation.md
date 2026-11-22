@@ -231,9 +231,9 @@ These tests run against the real models.
 
 ## Frontend checks
 
-The widget is checked offline, without the backend or the index:
+The single page and the widget are checked offline, without the backend or the index:
 
-- `npm test` (vitest, `front/src/widget/parts.test.ts`): grouping of several chunks of one
+- `npm test` (vitest, `front/src/chat/parts.test.ts`): grouping of several chunks of one
   document into one source card (one link per distinct page), cards kept only for the
   passages the answer cites, citation links (`[n]` → card `n`), helpline links (`tel:`
   for 15, 112, 3114, 119, 116 117; `sms:` for 114; other numbers untouched), French source

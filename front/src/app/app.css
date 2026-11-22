@@ -1,0 +1,45 @@
+/* The single-page assistant (index.html): the widget's Tailwind theme on a whole page.
+   Design tokens and layout decisions: front/DESIGN.md. */
+@import "tailwindcss";
+@import "../chat/theme.css";
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+}
+
+/* No host page here: sizes in rem, so the reader's default font size applies (16 px by
+   default; the widget keeps 16 px in theme.css, insulated from its host page). */
+.endorag {
+  font-size: 1rem;
+}
+
+/* Skip link: a 44 px pill, off screen until focused. */
+.skip {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1rem;
+  border-radius: 9999px;
+  background: var(--color-paper);
+  color: var(--color-accent-text);
+  font-weight: 700;
+  box-shadow: 0 4px 16px -4px rgb(15 23 42 / 0.35);
+  transform: translateY(-200%);
+}
+.skip:focus {
+  transform: none;
+}
+
+/* Long French answers read at 17 px with a 1.6 line height once there is room; phones keep
+   1rem, so iOS does not zoom on the question field. */
+@media (min-width: 640px) {
+  .endorag {
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+}

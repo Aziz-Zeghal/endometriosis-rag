@@ -1,5 +1,7 @@
 """Composition root: the one place that decides which strategy implements each step."""
 
+from qdrant_client import QdrantClient
+
 from endorag_ingestion.chunker import HybridChunker
 from endorag_ingestion.connector import HttpConnector
 from endorag_ingestion.converter.cleaning import clean_text
@@ -8,11 +10,13 @@ from endorag_ingestion.embedder import OpenAICompatibleEmbedder
 from endorag_ingestion.vector_storage import QdrantStore
 
 
-def build_storage(settings: Settings) -> QdrantStore:
+def build_storage(settings: Settings, client: QdrantClient | None = None) -> QdrantStore:
     """The vector store and its embedder only: what `query`, `stats` and the backend need.
 
-    Needs no conversion dependencies. The caller calls `close()` (local Qdrant locks its
-    directory).
+    Needs no conversion dependencies. Without `client`, the store opens its own client on
+    `settings.qdrant_path` and the caller calls `close()` (local Qdrant locks its directory).
+    With `client` (one shared by several collections, as the backend does for both
+    profiles), the caller closes that client instead.
     """
     if not settings.llm_base_url or not settings.llm_api_key:
         raise ValueError(
@@ -24,7 +28,8 @@ def build_storage(settings: Settings) -> QdrantStore:
     return QdrantStore(
         collection=settings.collection_name(),
         embedding=embedding,
-        path=settings.qdrant_path,
+        path=None if client else settings.qdrant_path,
+        client=client,
     )
 
 

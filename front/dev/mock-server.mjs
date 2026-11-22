@@ -4,14 +4,14 @@
 // Template answers (emergency, refuse, out_of_scope, chitchat) are read from the backend's
 // prompt files, so the wording is the real one; generated answers are marked as simulated.
 //
-// Usage: node dev/mock-server.mjs [port...]   (default 8000 and 8001, the patient and gp
-// backends of the demo page; unlike the real backend, each port answers for both profiles)
+// Usage: node dev/mock-server.mjs [port]   (default 8000; like the real backend, one server
+// answers for both profiles, picked by the request body's `profile`)
 
 import { readFileSync } from "node:fs";
 import { createServer } from "node:http";
 import { randomUUID } from "node:crypto";
 
-const PORTS = process.argv.length > 2 ? process.argv.slice(2).map(Number) : [8000, 8001];
+const PORT = Number(process.argv[2] ?? 8000);
 const PROMPTS = new URL("../../back/src/endorag_back/prompts/", import.meta.url);
 
 const prompt = (profile, node) => readFileSync(new URL(`${profile}/${node}.md`, PROMPTS), "utf8").trim();
@@ -143,14 +143,20 @@ const CORS = {
 function handle(req, res) {
   if (req.method === "OPTIONS") return res.writeHead(204, CORS).end();
   if (req.method === "GET" && req.url === "/api/health") {
-    return res.writeHead(200, { ...CORS, "content-type": "application/json" }).end(JSON.stringify({ status: "ok", mock: true }));
+    return res.writeHead(200, { ...CORS, "content-type": "application/json" }).end(JSON.stringify({
+        status: "ok",
+        default_profile: "patient",
+        profiles: { patient: { collection: "mock", points: 0 }, gp: { collection: "mock", points: 0 } },
+        mock: true,
+      }));
   }
   if (req.method !== "POST" || req.url !== "/api/chat") return res.writeHead(404, CORS).end();
   let raw = "";
   req.on("data", (c) => (raw += c));
   req.on("end", () => {
     const body = JSON.parse(raw || "{}");
-    const profile = body.profile === "gp" ? "gp" : "patient";
+    const profile = body.profile ?? "patient";
+    if (!(profile in SOURCES)) return res.writeHead(422, CORS).end();
     const text = lastUserText(body);
     if (!text) return res.writeHead(422, CORS).end();
     console.log(`[${profile}] ${text}`);
@@ -164,6 +170,4 @@ function handle(req, res) {
   });
 }
 
-for (const port of PORTS) {
-  createServer(handle).listen(port, () => console.log(`Mock chat API on http://localhost:${port}/api/chat`));
-}
+createServer(handle).listen(PORT, () => console.log(`Mock chat API on http://localhost:${PORT}/api/chat`));

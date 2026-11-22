@@ -5,6 +5,8 @@ server-sent events, one JSON part per `data:` line, in this order:
 `start`, `data-route` (one per route decision), one `source-url` per source then a
 `data-sources` part for the widget's source cards, `text-start`, `text-delta`…, `text-end`,
 `finish`, then `[DONE]`. See https://ai-sdk.dev/docs/ai-sdk-ui/stream-protocol.
+
+One app serves both profiles: the body's `profile` (default `PROFILE`) picks the graph.
 """
 
 import json
@@ -42,7 +44,7 @@ class UIMessage(BaseModel):
 class ChatRequest(BaseModel):
     id: str = ""
     messages: list[UIMessage] = Field(min_length=1)
-    profile: Profile | None = None  # must match the server's profile when given
+    profile: Profile | None = None  # graph to answer with; the server's `PROFILE` when absent
 
 
 class SourceCard(BaseModel):
@@ -56,8 +58,9 @@ class SourceCard(BaseModel):
     page: int | None = None
 
 
-def get_chat_service(request: Request) -> ChatService:
-    return request.app.state.chat_service
+def get_chat_services(request: Request) -> dict[Profile, ChatService]:
+    """One chat service per profile, built at startup."""
+    return request.app.state.chat_services
 
 
 def to_chat_messages(messages: list[UIMessage]) -> list[ChatMessage]:
@@ -123,16 +126,14 @@ async def ui_message_stream(events: AsyncIterator[ChatEvent], error_message: str
 async def chat(
     body: ChatRequest,
     request: Request,
-    service: Annotated[ChatService, Depends(get_chat_service)],
+    services: Annotated[dict[Profile, ChatService], Depends(get_chat_services)],
 ) -> StreamingResponse:
-    profile = request.app.state.settings.profile
-    if body.profile is not None and body.profile != profile:
-        raise HTTPException(400, f"This server answers for the {profile!r} profile")
+    profile = body.profile or request.app.state.settings.profile
     messages = to_chat_messages(body.messages)
     if not messages or messages[-1].role != "user":
         raise HTTPException(422, "The last message must be a user message with text")
     return StreamingResponse(
-        ui_message_stream(service.astream(messages), load_prompt(profile, "error")),
+        ui_message_stream(services[profile].astream(messages), load_prompt(profile, "error")),
         media_type="text/event-stream",
         headers={
             "x-vercel-ai-ui-message-stream": "v1",

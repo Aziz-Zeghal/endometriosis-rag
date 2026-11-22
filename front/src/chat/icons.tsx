@@ -101,3 +101,9 @@ export const SmsIcon = () => (
     <path d="M8 10.5h.01M12 10.5h.01M16 10.5h.01" />
   </svg>
 );
+
+export const PlusIcon = () => (
+  <svg {...props}>
+    <path d="M12 5v14M5 12h14" />
+  </svg>
+);

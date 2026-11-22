@@ -7,7 +7,7 @@ import pytest
 from endorag_back.config.settings import Settings
 from endorag_back.prompts import load_prompt
 from endorag_back.routes import entrypoint
-from endorag_back.routes.chat.chat import get_chat_service
+from endorag_back.routes.chat.chat import get_chat_services
 from endorag_back.services.chat_service import ChatMessage, ChatService
 from endorag_back.services.state import Citation, RouteEvent, SourcesEvent, TokenEvent
 from fastapi.testclient import TestClient
@@ -40,6 +40,11 @@ class FakeStore:
     def count(self) -> int:
         return 0
 
+
+class FakeClient:
+    def __init__(self, path: str) -> None:
+        pass
+
     def close(self) -> None:
         pass
 
@@ -60,10 +65,12 @@ class FakeChatService:
 
 @pytest.fixture
 def client_for(monkeypatch):
-    monkeypatch.setattr(entrypoint, "build_storage", lambda s: FakeStore())
+    monkeypatch.setattr(entrypoint, "QdrantClient", FakeClient)
+    monkeypatch.setattr(entrypoint, "build_storage", lambda s, client: FakeStore())
     clients = []
 
-    def make(service) -> TestClient:
+    def make(service, gp=None) -> TestClient:
+        """One app for both profiles: `service` answers patient, `gp` (default the same) gp."""
         app = entrypoint.create_app(
             Settings(
                 _env_file=None,
@@ -75,7 +82,8 @@ def client_for(monkeypatch):
                 cors_origins=["https://host.test"],
             )
         )
-        app.dependency_overrides[get_chat_service] = lambda: service
+        services = {"patient": service, "gp": gp or service}
+        app.dependency_overrides[get_chat_services] = lambda: services
         clients.append(TestClient(app).__enter__())
         return clients[-1]
 
@@ -202,10 +210,26 @@ def test_rejects_a_request_without_a_final_user_text(client_for, request_body):
     assert client_for(service).post("/api/chat", json=request_body).status_code == 422
 
 
-def test_profile_from_the_request_must_match_the_server(client_for):
+def test_the_request_profile_picks_the_graph(client_for):
+    patient = FakeChatService([TokenEvent(text="patient")])
+    gp = FakeChatService([TokenEvent(text="gp")])
+    client = client_for(patient, gp)
+    assert text_of(parts(client.post("/api/chat", json=body("Q", profile="gp")))) == "gp"
+    assert text_of(parts(client.post("/api/chat", json=body("Q", profile="patient")))) == "patient"
+    assert text_of(parts(client.post("/api/chat", json=body("Q")))) == "patient"  # PROFILE
+
+
+def test_an_unknown_profile_is_rejected(client_for):
     client = client_for(FakeChatService([TokenEvent(text="ok")]))
-    assert client.post("/api/chat", json=body("Bonjour", profile="patient")).status_code == 200
-    assert client.post("/api/chat", json=body("Bonjour", profile="gp")).status_code == 400
+    assert client.post("/api/chat", json=body("Bonjour", profile="nurse")).status_code == 422
+
+
+def test_the_error_text_is_the_one_of_the_request_profile(client_for):
+    failing = FakeChatService([], fail=True)
+    response = client_for(FakeChatService([]), failing).post(
+        "/api/chat", json=body("Salut", profile="gp")
+    )
+    assert text_of(parts(response)) == load_prompt("gp", "error")
 
 
 def text_of(got: list) -> str:
@@ -240,6 +264,23 @@ def test_emergency_streams_the_fixed_message_without_sources(client_for):
     assert not any(isinstance(p, dict) and p["type"] == "data-sources" for p in got)
     assert text_of(got) == load_prompt("patient", "emergency")
     assert repo.queries == [] and small.calls == [] and large.calls == []
+
+
+def test_each_profile_answers_an_emergency_with_its_own_fixed_message(client_for):
+    # Both real graphs in one app: the keyword check of each profile answers, no model call.
+    services, calls = {}, []
+    for profile in ("patient", "gp"):
+        large, small = models(profile)
+        repo = FakeRepository(STRONG)
+        services[profile] = ChatService(graph_for(profile, repo, large, small), profile, 6)
+        calls += [repo.queries, small.calls, large.calls]
+    client = client_for(services["patient"], services["gp"])
+    message = "honnêtement j'ai envie que tout s'arrête"
+    for profile in ("patient", "gp"):
+        got = parts(client.post("/api/chat", json=body(message, profile=profile)))
+        assert got[1]["data"]["route"] == "emergency"
+        assert text_of(got) == load_prompt(profile, "emergency")
+    assert all(c == [] for c in calls)
 
 
 def test_route_flags_and_sources_come_from_the_graph_before_the_text(client_for):

@@ -1,5 +1,5 @@
-"""The real app of one profile per test module (`PROFILE`); the app, and so the local
-Qdrant lock, lives for the module."""
+"""The real app (both profiles) per test module, with the module's `PROFILE` as default and
+in every request; the app, and so the local Qdrant lock, lives for the module."""
 
 import pytest
 from endorag_back.config.settings import Settings

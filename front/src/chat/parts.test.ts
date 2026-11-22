@@ -6,6 +6,7 @@ import {
   groupSources,
   linkCitations,
   linkHelplines,
+  parseProfile,
   type SourceCard,
 } from "./parts";
 
@@ -16,6 +17,16 @@ const card = (id: number, url: string, page: number | null = null): SourceCard =
   date: "2017-12-01",
   url,
   page,
+});
+
+describe("parseProfile", () => {
+  it("reads gp, and falls back to patient for anything else", () => {
+    expect(parseProfile("gp")).toBe("gp");
+    expect(parseProfile("patient")).toBe("patient");
+    expect(parseProfile("GP")).toBe("patient");
+    expect(parseProfile(null)).toBe("patient");
+    expect(parseProfile(undefined)).toBe("patient");
+  });
 });
 
 describe("groupSources", () => {

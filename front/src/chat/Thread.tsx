@@ -37,29 +37,30 @@ import {
   type SourceCard,
 } from "./parts";
 
-const SUGGESTIONS: Record<Profile, { intro: string; prompts: string[] }> = {
+export const SUGGESTIONS: Record<Profile, { intro: string; prompts: string[] }> = {
   patient: {
     intro:
-      "Posez votre question sur les règles douloureuses ou l'endométriose. Chaque réponse cite ses sources, avec leur date.",
+      "Posez votre question sur les règles douloureuses ou l’endométriose. Chaque réponse cite ses sources, avec leur date.",
     prompts: [
-      "J'ai très mal pendant mes règles, au point de rater les cours. C'est normal\u202f?",
+      "J’ai très mal pendant mes règles, au point de rater les cours. C’est normal\u202f?",
       "Qui consulter en premier\u00a0: mon médecin généraliste ou un gynécologue\u202f?",
-      "Comment se passe le diagnostic de l'endométriose\u202f?",
+      "Comment se passe le diagnostic de l’endométriose\u202f?",
     ],
   },
   gp: {
     intro:
       "Recherchez dans les recommandations de bonne pratique (HAS, ESHRE). Chaque réponse cite la page de la recommandation.",
     prompts: [
-      "Quels signes d'appel doivent faire évoquer une endométriose\u202f?",
+      "Quels signes d’appel doivent faire évoquer une endométriose\u202f?",
       "Quelle imagerie demander en première intention\u202f?",
       "Quels traitements médicaux sont proposés en première intention\u202f?",
     ],
   },
 };
 
-/** When an answer ends and is taller than the conversation, shows its start (badge and first
- * lines, the emergency instructions included) instead of its end. */
+/** When an answer ends with its start above the view (a long answer, or content after it such
+ * as the page footer), scrolls back to that start: badge and first lines, the emergency
+ * instructions included, instead of the end of the conversation. */
 function useShowAnswerStart(running: boolean) {
   const log = useRef<HTMLDivElement>(null);
   const wasRunning = useRef(running);
@@ -68,17 +69,44 @@ function useShowAnswerStart(running: boolean) {
     wasRunning.current = running;
     const view = log.current;
     const answer = [...(view?.querySelectorAll<HTMLElement>("[data-message]") ?? [])].pop();
-    if (!ended || !view || !answer || answer.offsetHeight <= view.clientHeight) return;
-    // Next frame, after the viewport's own scroll to the bottom, so it does not undo this.
-    requestAnimationFrame(() => {
-      view.scrollTop += answer.getBoundingClientRect().top - view.getBoundingClientRect().top - 12;
-    });
+    if (!ended || !view || !answer) return;
+    const align = () => {
+      const above = answer.getBoundingClientRect().top - view.getBoundingClientRect().top - 12;
+      if (above < 0) view.scrollTop += above;
+    };
+    // Next frame, after the viewport's own scroll to the bottom; then again while the text
+    // still grows (smooth streaming catches up after the stream ends and the viewport follows
+    // the bottom), until the reader scrolls or after 3 s.
+    let frame = requestAnimationFrame(align);
+    const grows = new ResizeObserver(() => (cancelAnimationFrame(frame), (frame = requestAnimationFrame(align))));
+    grows.observe(answer);
+    const stop = () => (grows.disconnect(), cancelAnimationFrame(frame));
+    const timer = setTimeout(stop, 3000);
+    const events = ["wheel", "touchstart", "keydown", "pointerdown"] as const;
+    events.forEach((e) => view.addEventListener(e, stop, { once: true }));
+    return () => {
+      stop();
+      clearTimeout(timer);
+      events.forEach((e) => view.removeEventListener(e, stop));
+    };
   }, [running]);
   return log;
 }
 
-export function Thread({ profile }: { profile: Profile }) {
+type ThreadProps = {
+  profile: Profile;
+  /** Classes of the reading column (messages and composer); the widget panel uses its width. */
+  column?: string;
+  /** Replaces the default empty state (intro and suggestions). */
+  empty?: ReactNode;
+  /** Shown after the messages, inside the scrolling conversation. */
+  footer?: ReactNode;
+};
+
+/** The conversation: messages, sources and composer, shared by the page and the widget. */
+export function Thread({ profile, column = "", empty, footer }: ThreadProps) {
   const running = useAuiState((s) => s.thread.isRunning);
+  const isEmpty = useAuiState((s) => s.thread.isEmpty);
   const log = useShowAnswerStart(running);
   return (
     <ThreadPrimitive.Root className="flex min-h-0 flex-1 flex-col bg-canvas">
@@ -87,30 +115,41 @@ export function Thread({ profile }: { profile: Profile }) {
         role="log"
         aria-label="Conversation"
         aria-busy={running}
+        autoScroll={!isEmpty} // the empty state is read from its top
         className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pt-4 pb-2"
       >
-        <AuiIf condition={(s) => s.thread.isEmpty}>
-          <EmptyState profile={profile} />
-        </AuiIf>
-        <ThreadPrimitive.Messages>
-          {({ message }) => (message.role === "user" ? <UserMessage /> : <AssistantMessage />)}
-        </ThreadPrimitive.Messages>
+        <div className={column}>
+          <AuiIf condition={(s) => s.thread.isEmpty}>{empty ?? <EmptyState profile={profile} />}</AuiIf>
+          <ThreadPrimitive.Messages>
+            {({ message }) => (message.role === "user" ? <UserMessage /> : <AssistantMessage />)}
+          </ThreadPrimitive.Messages>
+          {footer}
+        </div>
       </ThreadPrimitive.Viewport>
-      <Composer />
+      <Composer column={column} />
     </ThreadPrimitive.Root>
   );
 }
 
 function EmptyState({ profile }: { profile: Profile }) {
-  const { intro, prompts } = SUGGESTIONS[profile];
   return (
     <div className="pt-1 pb-4">
       <div className="flex gap-3">
         <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-accent-soft text-accent-text">
           <BookIcon />
         </span>
-        <p className="text-[17px] leading-relaxed">{intro}</p>
+        <p className="text-lead leading-relaxed">{SUGGESTIONS[profile].intro}</p>
       </div>
+      <Suggestions profile={profile} />
+    </div>
+  );
+}
+
+/** « Par exemple » and the profile's suggested questions; one tap sends it. */
+export function Suggestions({ profile }: { profile: Profile }) {
+  const { prompts } = SUGGESTIONS[profile];
+  return (
+    <>
       <p id="endorag-suggestions" className="mt-6 mb-2 text-sm font-bold text-muted">
         Par exemple&nbsp;:
       </p>
@@ -120,7 +159,7 @@ function EmptyState({ profile }: { profile: Profile }) {
             <ThreadPrimitive.Suggestion
               prompt={prompt}
               send
-              className="flex min-h-12 w-full items-center gap-3 rounded-xl border border-line bg-paper py-2.5 pr-2.5 pl-3.5 text-left leading-snug transition-colors duration-150 hover:border-accent hover:bg-accent-soft active:bg-accent-soft"
+              className="flex min-h-12 w-full items-center gap-3 rounded-xl border border-line-strong bg-paper py-2.5 pr-2.5 pl-3.5 text-left leading-snug transition-colors duration-150 hover:border-accent hover:bg-accent-soft active:bg-accent-soft"
             >
               <span className="flex-1">{prompt}</span>
               <span className="shrink-0 text-accent-text">
@@ -130,7 +169,7 @@ function EmptyState({ profile }: { profile: Profile }) {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 }
 
@@ -164,6 +203,8 @@ function cardClass(route: Route | undefined): string {
   return base;
 }
 
+const FIXED_ROUTES: Route[] = ["emergency", "refuse", "out_of_scope", "chitchat"];
+
 function AssistantMessage() {
   const parts = useAuiState((s) => s.message.content) as readonly Part[];
   const status = useAuiState((s) => s.message.status);
@@ -175,6 +216,8 @@ function AssistantMessage() {
   const text = parts.map((p) => (p.type === "text" ? (p.text ?? "") : "")).join("");
   const cited = sources ? citedSources(sources, text) : [];
   const emergency = route?.route === "emergency";
+  // Fixed templates: retrying gives the same text, so « Réessayer » is not offered.
+  const fixed = route && FIXED_ROUTES.includes(route.route);
   const badge = route && ROUTE_LABELS[route.route];
   const badgeStyle = route && BADGE_STYLES[route.route];
   const failed = status?.type === "incomplete" && status.reason === "error";
@@ -221,7 +264,7 @@ function AssistantMessage() {
             <span className="mt-1 shrink-0">
               <AlertIcon />
             </span>
-            La réponse n'a pas pu être obtenue. Réessayez dans un instant.
+            La réponse n’a pas pu être obtenue. Réessayez dans un instant.
           </p>
         )}
         {stopped && (
@@ -232,8 +275,8 @@ function AssistantMessage() {
         )}
         {cited.length > 0 && <Sources cards={cited} />}
       </div>
-      {/* No « Réessayer » under the fixed emergency message: it must not invite dismissal. */}
-      {isLast && !running && !emergency && (
+      {/* No « Réessayer » under the fixed emergency message either: it must not invite dismissal. */}
+      {isLast && !running && !fixed && (
         <ActionBarPrimitive.Root className="mt-1 flex">
           <ActionBarPrimitive.Reload className="-ml-1 flex min-h-11 items-center gap-1.5 rounded-full px-3 text-sm font-bold text-muted transition-colors duration-150 hover:bg-ink/5 hover:text-ink active:bg-ink/10">
             <RetryIcon />
@@ -271,7 +314,7 @@ const EMERGENCY_ACTIONS = [
 
 function EmergencyActions() {
   return (
-    <ul aria-label="Numéros d'urgence" className="mt-3 grid grid-cols-2 gap-2">
+    <ul aria-label="Numéros d’urgence" className="mt-3 grid grid-cols-2 gap-2">
       {EMERGENCY_ACTIONS.map((a, i) => (
         <li key={a.href}>
           <a
@@ -353,7 +396,7 @@ function Sources({ cards }: { cards: SourceCard[] }) {
             key={g.key}
             tabIndex={-1}
             data-cite={g.refs.map((r) => r.id).join(" ")}
-            className="flex overflow-hidden rounded-xl border border-line bg-paper text-[15px] transition-[border-color,box-shadow] duration-200 focus:border-accent focus:ring-2 focus:ring-accent/30 focus:outline-none"
+            className="flex overflow-hidden rounded-xl border border-line bg-paper text-card transition-[border-color,box-shadow] duration-200 focus:border-accent focus:ring-2 focus:ring-accent/30 focus:outline-none"
           >
             <div
               aria-label={`Source${g.refs.length > 1 ? "s" : ""} ${g.refs.map((r) => r.id).join(", ")}`}
@@ -404,38 +447,41 @@ function Sources({ cards }: { cards: SourceCard[] }) {
   );
 }
 
-function Composer() {
+function Composer({ column }: { column: string }) {
   return (
-    <ComposerPrimitive.Root className="border-t border-line bg-paper px-3 pt-3 pb-[max(12px,env(safe-area-inset-bottom))]">
-      <div className="flex items-end gap-2 rounded-2xl border border-line-strong bg-paper py-1 pr-1 pl-3.5 transition-[border-color,box-shadow] duration-150 focus-within:border-accent focus-within:ring-2 focus-within:ring-accent/30">
-        <ComposerPrimitive.Input
-          rows={1}
-          maxRows={5}
-          aria-label="Votre question"
-          placeholder="Écrivez votre question…"
-          className="min-h-11 flex-1 resize-none bg-transparent py-2.5 text-base leading-normal placeholder:text-muted focus-visible:outline-none"
-        />
-        <AuiIf condition={(s) => !s.thread.isRunning}>
-          <ComposerPrimitive.Send
-            aria-label="Envoyer"
-            className="grid size-11 shrink-0 place-items-center rounded-full bg-accent text-accent-ink transition-[background-color,transform] duration-150 hover:bg-accent-strong active:scale-95 disabled:cursor-not-allowed disabled:bg-ink/15 disabled:text-ink/45"
-          >
-            <SendIcon />
-          </ComposerPrimitive.Send>
-        </AuiIf>
-        <AuiIf condition={(s) => s.thread.isRunning}>
-          <ComposerPrimitive.Cancel
-            aria-label="Arrêter la réponse"
-            className="grid size-11 shrink-0 place-items-center rounded-full bg-ink text-white transition-[background-color,transform] duration-150 hover:bg-ink-2 active:scale-95"
-          >
-            <StopIcon />
-          </ComposerPrimitive.Cancel>
-        </AuiIf>
+    <ComposerPrimitive.Root className="border-t border-line bg-paper px-3 pt-3 pb-[max(12px,env(safe-area-inset-bottom))] short:pt-2 short:pb-[max(8px,env(safe-area-inset-bottom))]">
+      <div className={column}>
+        <div className="flex items-end gap-2 rounded-2xl border border-line-strong bg-paper py-1 pr-1 pl-3.5 transition-[border-color,box-shadow] duration-150 focus-within:border-accent focus-within:ring-2 focus-within:ring-accent/30">
+          <ComposerPrimitive.Input
+            id="endorag-question"
+            rows={1}
+            maxRows={5}
+            aria-label="Votre question"
+            placeholder="Écrivez votre question…"
+            className="min-h-11 flex-1 resize-none bg-transparent py-2.5 text-base leading-normal placeholder:text-muted focus-visible:outline-none"
+          />
+          <AuiIf condition={(s) => !s.thread.isRunning}>
+            <ComposerPrimitive.Send
+              aria-label="Envoyer"
+              className="grid size-11 shrink-0 place-items-center rounded-full bg-accent text-accent-ink transition-[background-color,transform] duration-150 hover:bg-accent-strong active:scale-95 disabled:cursor-not-allowed disabled:bg-ink/15 disabled:text-ink/45"
+            >
+              <SendIcon />
+            </ComposerPrimitive.Send>
+          </AuiIf>
+          <AuiIf condition={(s) => s.thread.isRunning}>
+            <ComposerPrimitive.Cancel
+              aria-label="Arrêter la réponse"
+              className="grid size-11 shrink-0 place-items-center rounded-full bg-ink text-white transition-[background-color,transform] duration-150 hover:bg-ink-2 active:scale-95"
+            >
+              <StopIcon />
+            </ComposerPrimitive.Cancel>
+          </AuiIf>
+        </div>
+        <p className="mt-1.5 flex items-center gap-1.5 px-1 short:mt-1 text-note leading-snug text-muted">
+          <ShieldIcon />
+          Ne donnez pas d’informations qui permettent de vous identifier.
+        </p>
       </div>
-      <p className="mt-1.5 flex items-center gap-1.5 px-1 text-[13px] leading-snug text-muted">
-        <ShieldIcon />
-        Ne donnez pas d'informations qui permettent de vous identifier.
-      </p>
     </ComposerPrimitive.Root>
   );
 }

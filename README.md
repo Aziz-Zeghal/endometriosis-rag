@@ -27,26 +27,32 @@ cp .env.example .env   # then fill in LLM_BASE_URL and LLM_API_KEY
 ruff check . && ruff format --check .
 pytest
 
-uvicorn endorag_back.routes.entrypoint:create_app --factory   # backend on :8000
+uvicorn endorag_back.routes.entrypoint:create_app --factory   # backend on :8000, both profiles
 ```
 
-### Frontend (chat widget and demo page)
+Ingest both profiles (`patient` and `gp`) before starting the backend: it opens both
+collections at startup, creates a missing one empty, logs a warning for it and reports
+`points: 0` in `/api/health`; questions on that profile are then refused.
 
-Node 24 and npm. `front/` builds the embeddable widget (`widget.js`) and the fictional
-campaign page that hosts it.
+### Frontend (single-page assistant, widget extension)
+
+Node 24 and npm. `front/` builds the product, a single-page assistant (the campaign's
+assistant homepage, opened by the poster QR codes), and an extension: the same assistant as
+an embeddable widget (`widget.js`), shown on a fictional partner page.
 
 ```bash
 cd front
 npm install
-npm run mock    # optional: mock chat API on :8000 and :8001 (replayed streams, no backend needed)
-npm run dev     # campaign page with the widget on http://localhost:5173
-npm test && npm run build   # helper tests; dist/ with widget.js and the page
+npm run mock    # optional: mock chat API on :8000 for both profiles (replayed streams, no backend needed)
+npm run dev     # the single-page assistant on http://localhost:5173
+npm test && npm run build   # helper tests; dist/ with both pages and widget.js
 ```
 
-`?chat=open&profile=patient` opens the widget directly (the poster QR code). One backend
-serves one profile, so the « Espace professionnels » entry needs a second backend
-(`PROFILE=gp ... --port 8001`); the demo page's script tag already sets
-`data-api-gp="http://localhost:8001"`.
+One backend serves both profiles: the page's « Grand public » / « Professionnels de santé »
+switch (or `?profile=gp`) sets the profile sent with each question. The widget extension
+runs on http://localhost:5173/widget-demo.html (linked from the page footer;
+`?chat=open&profile=gp` opens it directly). The page calls `http://localhost:8000` unless
+`VITE_API_URL` is set at build time.
 
 ## Documentation
 
