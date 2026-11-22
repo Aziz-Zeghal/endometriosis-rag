@@ -107,3 +107,23 @@ export const PlusIcon = () => (
     <path d="M12 5v14M5 12h14" />
   </svg>
 );
+
+/** Generic mark drawn for the fictional body (not a real logo): a cross in a rounded square. */
+export const Mark = ({ className = "size-10", tone = "accent" }: { className?: string; tone?: "accent" | "paper" }) => (
+  <svg viewBox="0 0 32 32" aria-hidden="true" className={`shrink-0 ${className}`}>
+    <rect width="32" height="32" rx="9" className={tone === "accent" ? "fill-accent" : "fill-paper"} />
+    <path
+      d="M16 9v14M9 16h14"
+      className={tone === "accent" ? "stroke-accent-ink" : "stroke-accent"}
+      strokeWidth="3.5"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+
+export const AskIcon = () => (
+  <svg {...props} width={22} height={22}>
+    <path d="M4 5h16v11H9l-5 4z" />
+    <path d="M8.5 9.5h7M8.5 12.5h4" />
+  </svg>
+);

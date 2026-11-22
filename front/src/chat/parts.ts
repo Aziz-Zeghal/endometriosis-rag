@@ -100,3 +100,13 @@ export function frenchSpacing(markdown: string): string {
     .replace(/(\d) h\b/g, "$1 h")
     .replace(/ \[(\d{1,2})\]/g, " [$1]");
 }
+
+/** Short publisher label for the round badge of a source card: an acronym as is (HAS, ESHRE),
+ * the initials of a multi-word name (Service-Public → SP), else the first two letters. */
+export function sourceInitials(source: string): string {
+  const words = source.split(/[\s.\-–]+/).filter((w) => /^\p{Lu}/u.test(w));
+  const acronym = words.find((w) => w.length <= 6 && w === w.toUpperCase());
+  if (words.length === 1 && acronym) return acronym;
+  if (words.length > 1) return words.map((w) => w[0]).join("").slice(0, 3);
+  return source.slice(0, 2);
+}

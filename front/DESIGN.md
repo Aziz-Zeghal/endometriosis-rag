@@ -49,17 +49,30 @@ The same values are used everywhere: the shared chat theme (`src/chat/theme.css`
 (`src/widget/widget.css`, inside the shadow root), and the partner page
 (`src/page/page.css`, custom properties).
 
+### Assistant (single page and widget), 2026-11-22
+
+The assistant moved from the teal palette to the look of French healthcare booking
+platforms: a navy header and welcome band, blue actions, and white cards with soft shadows
+on a cool grey page, with no borders. The welcome band holds a large question field, like
+the search field of those sites. Answers are white cards under a small « Assistant » label,
+and sources look like directory entries: a round publisher badge, the title as a blue link,
+then the publisher, the date and the cited pages as chips. The partner page
+(`src/page/page.css`) keeps its own teal: it stands for a different site.
+
 | Role | Value | Use | Contrast |
 |---|---|---|---|
-| `ink` | `#0F172A` | body text | 17.8:1 on white |
-| `ink-2` | `#334155` | secondary text, publishers | 10.3:1 |
-| `muted` | `#475569` | hints, dates, helper text | 7.6:1 on white, 7.0:1 on canvas, 6.6:1 on tint |
-| `line` | `#DCE3E8` | decorative dividers only | n/a |
+| `ink` | `#102A43` | body text | 14.4:1 on white, 13.1:1 on canvas |
+| `ink-2` | `#334E68` | secondary text, publishers | 8.6:1 |
+| `muted` | `#4A5F75` | hints, dates, helper text | 6.6:1 on white, 5.9:1 on canvas |
+| `line` | `#D9E2EC` | decorative dividers only | n/a |
 | `line-strong` | `#7A8A9C` | control boundaries (composer field) | 3.5:1 (non-text, ≥ 3:1) |
-| `canvas` | `#F3F7F8` | conversation background, footer | n/a |
-| `accent` | `#0E6A75` deep teal (`data-accent` overrides it) | bubble, header, user bubbles, send button, links | 6.3:1 with white |
-| `accent-strong` | accent mixed 80 % with black (`#0B5563` on the page) | hover states | 8.4:1 with white |
-| `accent-soft` | accent at 10 % on white | citation chips, clarify badge, suggestion hover | accent text on it 5.6:1 |
+| `canvas` | `#EEF3F8` | page background under the white cards | n/a |
+| `navy` / `navy-2` | `#0B2A4A` / `#16406B` | page header, welcome band / profile switch track | white text 14.5:1 / 10.6:1 |
+| `on-navy-2` | `#B9CDE3` | secondary text on navy | 8.9:1 |
+| `accent` | `#0B6CB8` medical blue (`data-accent` overrides it) | user bubbles, send button, links, source titles | 5.5:1 with white, 4.9:1 on canvas |
+| `accent-strong` | accent mixed 80 % with black | hover states | ≥ 7:1 with white |
+| `accent-soft` | accent at 9 % on white | citation and page chips, icon circles | accent text on it 4.8:1 |
+| `shadow-card` / `shadow-raised` / `shadow-bar` | navy-tinted shadows | cards / welcome field and card hover / bottom composer | n/a |
 | `notice` / `notice-ink` | `#FFF6DB` / `#713F12` | fictional-scenario banner, recoverable errors | 8.0:1 |
 | `danger` / `danger-soft` | `#B91C1C` / `#FEF2F2` | **emergency only**: route badge, alert card, helpline links and actions | 6.5:1 with white, 5.9:1 on soft |
 
@@ -108,11 +121,11 @@ shape drawn for the fictional body.
 | Header | Accent background, 16 px title, solid white profile badge with accent text (« Grand public » / « Pro santé », short enough to stay on the title line down to 375 px), 44 px close button whose focus ring takes the header's text colour |
 | Banner | Amber note with an info icon. Before the first question: the full scenario text, with « Urgence : 15 ou 112. » in bold. After it, and from the start on short viewports (`max-height: 500px`, phone landscape): one line, « Scénario fictif · pas un avis médical · Urgence : 15 / 112 », with a 44 px toggle (`aria-expanded`) for the full text. 15 and 112 are `tel:` links in both forms |
 | Empty state | Open-book icon and the intro text, then three suggestions as 48 px cards with a chevron and a 3:1 border (`line-strong`) |
-| User / assistant | User: accent bubble on the right. Assistant: white card with a border on the canvas |
-| Citations `[n]` | Small teal chip (inline, so it stays with the word and the punctuation around it), with a hit area of about 28 × 32 px; activating it scrolls to the source card and focuses it (ring) |
+| User / assistant | User: blue bubble on the right. Assistant: « Assistant » label with the mark, then a white card with a soft shadow on the canvas |
+| Citations `[n]` | Small blue chip (inline, so it stays with the word and the punctuation around it), with a hit area of about 28 × 32 px; activating it scrolls to the source card and focuses it (ring) |
 | Source cards | Grouped by document: a column with the citation numbers, then publisher, date (month and year), title link with an external icon, and page links |
-| Route badges | Emergency: red with an alert icon. Clarification: teal with a question icon. Not covered by the sources and off-topic: neutral with an info icon. Flags: outlined, with a shield icon |
-| Clarify / refusal | Card with a 4 px left rule (teal for clarify, slate for refusals): calm, never alarming |
+| Route badges | Emergency: red with an alert icon. Clarification: blue with a question icon. Not covered by the sources and off-topic: neutral with an info icon. Flags: outlined, with a shield icon |
+| Clarify / refusal | Card with a 4 px left rule (blue for clarify, grey for refusals): calm, never alarming |
 | Emergency | 2 px red border on a soft red card, `role="alert"`. Helpline numbers in the text are red links. Below them, a 2 × 3 grid of 48 px actions, one per number of the fixed message: 15 SAMU (filled), 112, 114 by SMS (`sms:`), 3114, 119, 116 117. No « Réessayer » under it. Once it has arrived, the thread shows the start of the message (badge and « Appelez le 15 »), not its end |
 | Loading | Pulsing dots with « Recherche dans les sources… », then « Rédaction de la réponse… » once the sources have arrived |
 | Composer | Field with a 3:1 border and a focus ring, 44 px send button (accent) or stop button (ink), privacy helper text with a shield icon |

@@ -4,6 +4,7 @@ import {
   formatSourceDate,
   frenchSpacing,
   groupSources,
+  sourceInitials,
   linkCitations,
   linkHelplines,
   parseProfile,
@@ -108,5 +109,17 @@ describe("frenchSpacing", () => {
   it("leaves URLs, Markdown links and the 116 117 number alone", () => {
     const text = "[1](https://x.fr/a:b) **116 117** 2 heures";
     expect(frenchSpacing(text)).toBe(text);
+  });
+});
+
+describe("sourceInitials", () => {
+  it("keeps acronyms, takes initials of several words, else two letters", () => {
+    expect(sourceInitials("HAS")).toBe("HAS");
+    expect(sourceInitials("ESHRE")).toBe("ESHRE");
+    expect(sourceInitials("Service-Public")).toBe("SP");
+    expect(sourceInitials("Mon Parcours Handicap")).toBe("MPH");
+    expect(sourceInitials("ENDOmind France")).toBe("EF");
+    expect(sourceInitials("Santé.fr")).toBe("Sa");
+    expect(sourceInitials("Ameli")).toBe("Am");
   });
 });

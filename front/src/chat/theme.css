@@ -11,21 +11,31 @@
   --text-card: 0.9375rem; /* 15 px: source cards, page rules */
   --text-lead: 1.0625rem; /* 17 px: widget intro */
 
-  /* Neutrals (slate): text, surfaces, lines. */
-  --color-ink: #0f172a; /* 17.8:1 on white */
-  --color-ink-2: #334155; /* 10.3:1 */
-  --color-muted: #475569; /* 7.6:1 on white, 7.0:1 on canvas */
-  --color-line: #dce3e8; /* decorative dividers only */
+  /* Neutrals (cool navy greys): text, surfaces, lines. */
+  --color-ink: #102a43; /* 14.4:1 on white, 13.1:1 on canvas */
+  --color-ink-2: #334e68; /* 8.6:1 */
+  --color-muted: #4a5f75; /* 6.6:1 on white, 5.9:1 on canvas */
+  --color-line: #d9e2ec; /* decorative dividers only */
   --color-line-strong: #7a8a9c; /* control boundaries, 3.5:1 */
-  --color-canvas: #f3f7f8; /* conversation background */
+  --color-canvas: #eef3f8; /* page background: cool grey, white cards sit on it */
   --color-paper: #ffffff;
 
-  /* Brand accent (deep teal by default, overridable with data-accent). */
+  /* Navy: page header and the welcome band (white text 14.5:1, --color-on-navy-2 8.9:1). */
+  --color-navy: #0b2a4a;
+  --color-navy-2: #16406b; /* raised surfaces on navy: the profile switch track */
+  --color-on-navy-2: #b9cde3; /* secondary text on navy */
+
+  /* Brand accent (medical blue by default, overridable with data-accent). */
   --color-accent: var(--endorag-accent);
   --color-accent-strong: color-mix(in oklab, var(--endorag-accent) 80%, black); /* hover */
   --color-accent-ink: var(--endorag-accent-ink);
   --color-accent-text: var(--endorag-accent-text); /* accent as text or outline on white */
-  --color-accent-soft: color-mix(in srgb, var(--endorag-accent) 10%, white);
+  --color-accent-soft: color-mix(in srgb, var(--endorag-accent) 9%, white);
+
+  /* Elevation: white cards on the canvas (no borders), the sticky composer, the welcome input. */
+  --shadow-card: 0 1px 2px rgb(16 42 67 / 0.06), 0 2px 10px -2px rgb(16 42 67 / 0.08);
+  --shadow-raised: 0 2px 4px rgb(16 42 67 / 0.08), 0 12px 32px -8px rgb(16 42 67 / 0.22);
+  --shadow-bar: 0 -1px 0 rgb(16 42 67 / 0.06), 0 -6px 20px -10px rgb(16 42 67 / 0.18);
 
   /* Notice (amber): fictional-scenario banner and recoverable errors. */
   --color-notice: #fff6db;
@@ -69,12 +79,12 @@
   }
 }
 
-/* Default accent: on :host in the widget's shadow root, on :root in the single page. */
+/* Default accent (medical blue): on :host in the widget's shadow root, on :root in the single page. */
 :root,
 :host {
-  --endorag-accent: #0e6a75; /* 6.3:1 with white */
+  --endorag-accent: #0b6cb8; /* 5.5:1 with white, 4.9:1 on the canvas */
   --endorag-accent-ink: #ffffff;
-  --endorag-accent-text: #0e6a75;
+  --endorag-accent-text: #0b6cb8;
 }
 
 .endorag {
@@ -102,6 +112,10 @@
   /* On an accent surface (the widget header) the ring takes its text colour, or it would vanish. */
   .endorag [data-on-accent] :focus-visible {
     outline-color: var(--endorag-accent-ink);
+  }
+  /* Same on the navy header and welcome band, except inside the white question field. */
+  .endorag [data-on-navy] :focus-visible {
+    outline-color: #ffffff;
   }
   .endorag button,
   .endorag a {
