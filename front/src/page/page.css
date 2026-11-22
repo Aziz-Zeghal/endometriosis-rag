@@ -1,0 +1,457 @@
+/* Demo host page. Plain CSS on purpose: it plays a third-party site, separate from the
+   widget's Tailwind styles (which live in the widget's shadow root). Same tokens as the
+   widget (front/DESIGN.md). */
+:root {
+  --ink: #0f172a;
+  --ink-2: #334155;
+  --muted: #475569;
+  --line: #dce3e8;
+  --canvas: #f3f7f8;
+  --tint: #e7f1f2; /* hero background, accent at ~10% */
+  --accent: #0e6a75;
+  --accent-strong: #0b5563;
+  --notice: #fff6db;
+  --notice-ink: #713f12;
+  --danger: #b91c1c;
+  --danger-soft: #fef2f2;
+  --radius: 16px;
+  --measure: 66ch;
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
+  font-family: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Noto Sans", sans-serif;
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-size: 1.0625rem;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+  touch-action: manipulation;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* Inline SVG icons: 24px grid, stroke follows the text colour. */
+.icon {
+  width: 1.15em;
+  height: 1.15em;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.skip {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 10;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+
+.skip:focus {
+  transform: none;
+}
+
+.strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--notice);
+  color: var(--notice-ink);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+}
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.wordmark em {
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mark {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  fill: var(--accent);
+  stroke: #fff;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+}
+
+.masthead nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+  font-size: 0.9375rem;
+}
+
+.masthead nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--ink-2);
+  font-weight: 700;
+}
+
+.masthead nav a:hover {
+  color: var(--accent);
+}
+
+/* Hero: the campaign's question, large on a light tint; one primary action. */
+.hero {
+  display: grid;
+  gap: 2rem;
+  padding: 2.5rem 1rem 3rem;
+  background: var(--tint);
+}
+
+.eyebrow {
+  color: var(--accent-strong);
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.hero h1 {
+  max-width: 17ch;
+  margin-top: 0.75rem;
+  font-size: clamp(2.1rem, 1.3rem + 3.6vw, 3.75rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.lead {
+  max-width: 46ch;
+  margin-top: 1.25rem;
+  color: var(--ink-2);
+  font-size: 1.1875rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 48px;
+  margin-top: 1.75rem;
+  padding: 0.75rem 1.4rem;
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    background-color 150ms var(--ease-out),
+    border-color 150ms var(--ease-out),
+    transform 120ms var(--ease-out);
+}
+
+.button:hover {
+  border-color: var(--accent-strong);
+  background: var(--accent-strong);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.hint {
+  max-width: 46ch;
+  margin-top: 0.85rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.poster {
+  max-width: 22rem;
+  padding: 1.25rem 1.25rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: 0 12px 32px -18px rgb(15 23 42 / 0.35);
+}
+
+.qr {
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--ink);
+}
+
+.poster h2 {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+
+.poster p {
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.poster a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  margin-top: 0.25rem;
+  font-weight: 700;
+}
+
+/* Awareness content: one readable column. */
+.content {
+  max-width: calc(var(--measure) + 2rem);
+  margin: 0 auto;
+  padding: 3rem 1rem 1rem;
+}
+
+.content section + section {
+  margin-top: 2.5rem;
+}
+
+.content h2,
+.entry h2 {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.content p,
+.content ul {
+  margin-top: 0.75rem;
+}
+
+.checks {
+  padding: 0;
+  list-style: none;
+}
+
+.checks li {
+  position: relative;
+  padding-left: 2rem;
+}
+
+/* Check mark drawn with CSS borders: decorative, the text carries the meaning. */
+.checks li::before {
+  content: "";
+  position: absolute;
+  top: 0.45em;
+  left: 0.3rem;
+  width: 0.45rem;
+  height: 0.8rem;
+  border: solid var(--accent);
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checks li + li {
+  margin-top: 0.5rem;
+}
+
+.urgent {
+  padding: 1.25rem;
+  border: 2px solid var(--danger);
+  border-radius: var(--radius);
+  background: var(--danger-soft);
+}
+
+.urgent h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--danger);
+  font-size: 1.25rem;
+}
+
+/* Emergency numbers as 48 px call buttons, like the widget's emergency actions. */
+.calls {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 48px;
+  height: 100%;
+  padding: 0.4rem 0.9rem;
+  border: 2px solid var(--danger);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--danger);
+  font-size: 0.9375rem;
+  line-height: 1.25;
+  text-decoration: none;
+  transition: background-color 150ms var(--ease-out);
+}
+
+.call strong {
+  font-size: 1.125rem;
+}
+
+.call:hover {
+  background: var(--danger-soft);
+}
+
+.call-main {
+  background: var(--danger);
+  color: #fff;
+}
+
+.call-main:hover {
+  border-color: #991b1b;
+  background: #991b1b;
+}
+
+/* The two entries into the assistant: patient and professionals. */
+.entries {
+  display: grid;
+  gap: 1rem;
+  max-width: 72rem;
+  margin: 3rem auto 0;
+  padding: 0 1rem;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  background: var(--tint);
+}
+
+.entry p {
+  margin: 0.6rem 0 1.25rem;
+  color: var(--ink-2);
+}
+
+.entry .button {
+  margin-top: auto; /* aligns both buttons when the texts differ in length */
+}
+
+.entry-pro {
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.button-outline {
+  background: #fff;
+  color: var(--accent-strong);
+}
+
+.button-outline:hover {
+  background: var(--tint);
+  color: var(--accent-strong);
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 2rem 1rem 7rem; /* room for the widget bubble */
+  border-top: 1px solid var(--line);
+  background: var(--canvas);
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.footer p {
+  max-width: var(--measure);
+  margin: 0 auto;
+}
+
+.footer strong {
+  color: var(--ink);
+}
+
+.footer p + p {
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  /* The poster sits mid-height, clear of the widget bubble in the bottom-right corner. */
+  .hero {
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    align-items: center;
+    gap: 3rem;
+    padding: 4.5rem max(2rem, calc((100vw - 70rem) / 2)) 4.5rem;
+  }
+
+  .masthead {
+    padding: 0.75rem 2rem;
+  }
+
+  .entries {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+    max-width: 74rem;
+  }
+
+  .entry {
+    padding: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

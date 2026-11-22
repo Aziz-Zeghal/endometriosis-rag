@@ -1,0 +1,33 @@
+{
+  "name": "endorag-front",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "mock": "node dev/mock-server.mjs",
+    "build": "tsc --noEmit && vite build && vite build -c vite.widget.config.ts",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ai-sdk/react": "^4.0.183",
+    "@assistant-ui/react": "^0.15.37",
+    "@assistant-ui/react-ai-sdk": "^1.4.24",
+    "@assistant-ui/react-markdown": "^0.14.26",
+    "ai": "^7.0.179",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}

@@ -6,7 +6,7 @@ from langchain_core.messages import AnyMessage
 def transcript(messages: list[AnyMessage]) -> str:
     """The past turns, then the latest message, in one text.
 
-    The router and rewrite send this as a single human message instead of the chat turns:
+    The router, rewrite and clarify send this as a single human message instead of the chat turns:
     in JSON mode the gateway's Nemotron 3 Ultra answered `{"": ""}` to 4 of 6 identical
     multi-turn router calls, and 0 of 6 with the same turns as a transcript.
     """

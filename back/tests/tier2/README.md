@@ -6,7 +6,10 @@ asserts stable properties only, never exact generated text. See
 [docs/evaluation.md](../../../docs/evaluation.md).
 
 Not in the default `pytest` scope: tests are marked `@pytest.mark.live` and run on demand,
-`pytest back/tests/tier2 -m live`. Cases are added in M3.
+`pytest back/tests/tier2 -m live`. The golden-set guardrail suite lives in `eval/`
+(`python -m eval.guardrails`, report in `eval/reports/guardrails.md`): it runs every golden
+question of both profiles through the real graph and exits with status 1 on a missed
+emergency or a diagnosis or dose in an answer.
 
 `test_retrieval_calibration.py` already runs the questions that calibrated the evidence
 threshold (`MIN_DENSE_SCORE`, docs/method.md D-20) on the real patient and GP indexes.

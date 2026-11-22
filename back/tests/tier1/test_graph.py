@@ -11,6 +11,7 @@ from endorag_back.services import graph as graph_module
 from endorag_back.services.nodes.generate import DIAGNOSIS_MARKER, PRESCRIPTION_MARKER
 from endorag_back.services.state import RouteDecision, RouteEvent, SourcesEvent, TokenEvent
 from graph_fakes import STRONG, WEAK, FakeRepository, conversation, graph_for, models, run
+from langchain_core.messages import HumanMessage, SystemMessage
 
 QUESTION = '{"route": "question", "asks_for_diagnosis": false, "asks_for_prescription": false}'
 DIAGNOSIS = '{"route": "question", "asks_for_diagnosis": true, "asks_for_prescription": false}'
@@ -350,11 +351,16 @@ async def test_clarify_streams_one_question_from_the_conversation():
     )
     large.replies = {"clarify": "De quel examen parlez-vous ?"}
     _, events, state = await run(
-        graph_for("patient", FakeRepository(WEAK), large, small), conversation("Et ça ?")
+        graph_for("patient", FakeRepository(WEAK), large, small),
+        conversation("J'ai fait des examens.", "Lesquels ?", "Et ça ?"),
     )
     assert large.nodes_called() == ["clarify"]
     assert answer_text(events) == state["answer"] == "De quel examen parlez-vous ?"
     assert events[:2] == [RouteEvent(route="question"), RouteEvent(route="clarify")]
+    # One labelled transcript, not chat turns (D-29).
+    system, human = large.messages_of("clarify")
+    assert isinstance(system, SystemMessage) and isinstance(human, HumanMessage)
+    assert "Historique :" in human.text and "Dernier message :\nEt ça ?" in human.text
 
 
 @pytest.mark.asyncio

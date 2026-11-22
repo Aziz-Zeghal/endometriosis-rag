@@ -119,11 +119,41 @@ any host page can embed, plus a demo host page (the fictional campaign site).
 
 | Concern | Choice |
 |---|---|
-| Embedding | One script tag mounts the React widget into a Shadow DOM, so the host page's CSS and the widget's CSS never interfere. An iframe build is the fallback for hosts with a strict Content Security Policy. |
-| Configuration | `data-*` attributes: API URL, profile (`patient` or `gp`), initial open state, accent colour. |
-| Behaviour | Bubble → panel with banner, disclaimer, streamed answers and source cards linking to the original pages. On a phone the panel goes full screen. |
-| Backend contract | Unchanged: the widget calls `POST /api/chat` (AI SDK UI message stream). CORS allows the host origins listed in the backend settings. |
+| Embedding | One script tag mounts the React widget into a Shadow DOM, so the host page's CSS and the widget's CSS never interfere. The shadow host is a custom `<endorag-widget>` element (host rules on `div` do not match it) with an inline `all: initial !important` reset, and the widget's CSS uses px only (Tailwind's rem values are converted when the CSS is injected), so the host's root font size does not resize it. The compiled Tailwind CSS is bundled into `widget.js` as a string and injected into the shadow root; only Tailwind's `@property` rules (which a shadow root ignores) are added to the document, and they only declare `--tw-*` custom properties. The host page's fonts apply if it loads Atkinson Hyperlegible Next; otherwise the system sans-serif is used. `widget.js` is ASCII only (French text as `\u` escapes, rolldown `charset: "ascii"`), so it reads correctly on host pages that do not declare UTF-8. An iframe build is the fallback for hosts with a strict Content Security Policy. |
+| Configuration | `data-*` attributes: `data-api` (API base URL), `data-api-gp` (API base URL of the `gp` backend, default `data-api`, since one backend serves one profile, D-24), `data-profile` (`patient` or `gp`), `data-open` (`true` opens the panel on load), `data-accent` (any CSS colour, used for fills; text on it switches to dark ink for light hex colours; links, citation numbers and the focus ring, drawn on white, use the accent mixed 40/60 with the dark ink, which stays above 4.5:1 on white for any colour). Host pages can also call `window.EndoRAG.open(profile?)` and `window.EndoRAG.close()` (an `endorag:ready` event fires once it is mounted); changing the profile starts a new conversation. |
+| Behaviour | Bubble (« Poser une question ») → panel with the always-visible banner, streamed Markdown answers, source cards, a route badge, stop and retry. On a phone (< 640 px) the panel goes full screen. |
+| Backend contract | Unchanged: the widget calls `POST {api}/api/chat` (AI SDK UI message stream) through assistant-ui's AI SDK runtime (`useChatRuntime` + `AssistantChatTransport`, body `{"profile", "messages", …}`; the backend ignores the extra fields). CORS allows the host origins listed in the backend settings (Vite dev and preview ports by default). |
 | Demo | `front/` builds both the widget bundle and a fictional campaign page that embeds it. |
+
+How the widget renders the stream parts (`front/src/widget/Thread.tsx`, helpers in
+`parts.ts` with vitest tests):
+
+| Part | Rendering |
+|---|---|
+| `data-route` | A badge above the answer for `emergency` (« Urgence »), `out_of_scope` (« Hors sujet »), `clarify` (« Clarification ») and `refuse` (« Non couvert par les sources »); ordinary answers and chitchat get none. The router's flags add a neutral badge (« Pas de diagnostic individuel », « Pas de prescription individuelle »). |
+| `text-*` | Markdown. Each `[n]` becomes a small link that scrolls to and focuses source card `n`. When the route is `emergency`, the answer sits in a red-bordered alert box (`role="alert"`) and every helpline number becomes a tappable link: `tel:` for 15, 112, 3114, 119 and 116 117, `sms:` for 114. Large call buttons for 15, 112, 114 (SMS) and 3114 follow the text. Visual tokens: [front/DESIGN.md](../front/DESIGN.md). |
+| `data-sources` | Source cards (« Sources citées ») under the answer, only for the passages the answer cites as `[n]` (the backend sends every passage given to generation, cited or not), so they appear as the citations stream in: publisher, date (month and year), title linking to the source in a new tab. Chunks of the same document (same URL without `#page=N`) share one card, which lists every citation number and one link per distinct page. |
+| `source-url` | Not rendered (the cards come from `data-sources`). |
+
+Accessibility basics: the open panel is a `role="dialog"` (`aria-modal` only in the full-screen phone layout, since on desktop the host page stays usable beside it) with a focus trap (Tab cycles
+inside, Escape closes and gives focus back to the bubble), the question field gets focus on
+open, the conversation is a `role="log"` marked `aria-busy` while an answer streams (so a
+screen reader reads it once complete), buttons and links carry French labels (new-tab
+links say so), visible focus rings, and text colours meet WCAG AA on their backgrounds,
+including with a custom `data-accent` (see Configuration). A failed request (backend down,
+or HTTP 400 when the profile does not match the backend's) shows « La réponse n'a pas pu
+être obtenue. Réessayez dans un instant. » with the retry button.
+
+Build: `vite build` writes the demo page (`index.html`, plain CSS, it plays the
+third-party site), then `vite build -c vite.widget.config.ts` writes `dist/widget.js`
+(library mode, one IIFE with React, assistant-ui and the CSS: about 1.2 MB, 355 kB
+gzipped; lazy-loading the panel is on the backlog). In dev, `/widget.js` is a one-line
+loader that imports the widget source, so the page embeds it with the same script tag.
+`front/dev/mock-server.mjs` replays the backend's part sequence (sourced answer with two
+chunks of one PDF, emergency, refusal, out of scope, chitchat, clarify, a mid-answer error)
+without the index or a model; its template answers are read from the backend's prompt files.
+It listens on 8000 and 8001, the patient and gp API URLs of the demo page's script tag
+(`data-api`, `data-api-gp`), the same ports as the two real backends.
 
 ## 2. Conversation graph (LangGraph)
 
@@ -161,7 +191,7 @@ flowchart TD
 | `retrieve` | `SearchRepository.retrieve`: hybrid search (dense + BM25, RRF fusion) for `RETRIEVE_CANDIDATES` (20) candidates, near-duplicate removal (word-set Jaccard ≥ `DEDUP_SIMILARITY`, 0.95: the same box repeated on several pages is kept once, at its best rank, from the most recent copy, carrying the highest dense score of the group), at most `MAX_CHUNKS_PER_DOC` (2) chunks per document, an optional rerank (`NoReranker` in v1), then the top `RETRIEVE_TOP_K` (5). Evidence is sufficient when the best raw dense cosine similarity of those chunks reaches `MIN_DENSE_SCORE` (0.45, calibrated in [method.md](method.md#decision-log)). | No | `Retrieval`: chunks, `best_dense_score`, `sufficient` |
 | `generate` | Emits the chunks it was given as sources (`Citation`: number, title, organisation, date, link with `#page=N` for PDFs), then answers **only** from them, in French, with numbered citations `[1]`, `[2]`. The model gets the numbered passages, each headed by organisation, title, date and page, then the user's message, the rewritten query when it differs, and a marker per router flag (`[demande de diagnostic]`, `[demande de prescription]`). The prompt says what each marker requires: general information, never "vous avez / vous n'avez pas une endométriose", no dose or treatment choice for a person, an explicit referral to a professional (for `gp`: no individual prescription decision, the guideline options instead). It also asks for source years where dates matter (patient: a warning that products, reimbursements and rights may have changed since the source date, and no statement that the user is eligible for a right, since decisions are case by case), the most recent source when sources disagree, and a fixed closing disclaimer. Patient profile: always « vous », even when the user says « tu »; a sentence giving the source year and the official site to check, only for products, tests, reimbursements and rights; no « oui » / « non » to « j'ai droit à… ? », each right (ALD included) decided case by case; on a diagnosis request, no self-assessment questionnaire, score or app, even when a passage describes one; when no passage answers, one sentence saying so instead of summarising unrelated passages. GP profile: the guideline options as written, never mapped to the patient's age or history, and no reference list at the end. | Main model (Nemotron 3 Ultra) | Streamed text, `citations` |
 | `triage` | Runs when evidence is weak (no chunk above threshold). Decides between *ambiguous question* and *not in the corpus*, from the standalone query and the three closest passages. An unparsable reply or a failed call refuses (grounded or silent). | Small model, JSON mode | `TriageDecision`: `clarify | refuse` |
-| `clarify` | Asks one precise follow-up question, from the conversation; no sources are emitted. | Main model | Streamed text |
+| `clarify` | Asks one precise follow-up question, from the conversation sent as one labelled transcript (like the router); the reply is only a question, never « oui » / « non », since no passage supports an answer. No sources are emitted. Given the chat turns instead, the model answered the question it should have clarified (« Oui, c'est possible »; D-29). | Main model | Streamed text |
 | `refuse` | States the information is not in the sources, then refers the user to a professional and to reliable sites (`refuse.md`). | No (template) | Text |
 
 **Right-sized models.** Classification nodes can use a smaller model (`LLM_SMALL_MODEL`).
@@ -374,10 +404,25 @@ endometriosis-rag/
 │   │   ├── repositories/         # search_repository.py: SearchRepository over the ingestion
 │   │   │                         # QdrantStore (dedup, per-doc cap, rerank hook, evidence verdict)
 │   │   └── prompts/              # load_prompt(); {patient,gp}/<node>.md (French)
-│   └── tests/                    # tier1/ (offline, default pytest scope), tier2/ (golden set,
-│                                 # live), tier3/ (storyline guardrails, RAGAS; live), each with a README
-├── front/                        # Vite + React + TypeScript + assistant-ui: chat widget + demo host page (French UI)
-├── eval/                         # golden sets, embedding benchmark, RAGAS runner, reports/
+│   └── tests/                    # tier1/ (offline, default pytest scope), tier2/ (live smoke
+│                                 # and calibration; golden-set suite in eval/)
+│                                 # tier3/ (live storyline), each with a README
+├── front/                        # Vite + React + TypeScript + assistant-ui (French UI), npm
+│   ├── index.html                # demo host page: fictional campaign, embeds widget.js
+│   ├── src/widget/               # main.tsx (Shadow DOM mount), Widget.tsx (bubble, panel,
+│   │                             # focus trap), Thread.tsx (messages, sources, composer),
+│   │                             # parts.ts (+ tests), config.ts (data-* attributes), widget.css
+│   ├── src/page/                 # host page CSS and script (entries, ?chat=open&profile=…)
+│   ├── dev/mock-server.mjs       # mock /api/chat replaying the backend's stream parts
+│   └── vite.config.ts, vite.widget.config.ts   # page build, widget.js library build
+├── eval/                         # evaluation package (python -m eval.<report>), docs/evaluation.md
+│   ├── golden/                   # patient.yaml, gp.yaml; loaded and validated by golden.py
+│   ├── retrieval.py              # Hit@5 / MRR@10 per embedder and wording → reports/retrieval.md
+│   ├── graph_run.py              # golden items through the real graph, in process (final state)
+│   ├── ragas_eval.py, judge.py   # RAGAS collections API, judge model → reports/ragas.md
+│   ├── guardrails.py             # routes, flags, refusals, diagnosis/dose → reports/guardrails.md
+│   ├── tests/                    # offline (tier 1): golden-set validity, metric helpers
+│   └── requirements.txt          # ragas (installed only for evaluation)
 ├── data/                         # raw/ and markdown/ (.md + .docling.json) committed; qdrant/ gitignored
 ├── docs/
 ├── environment.yml               # conda env (python 3.12); packages installed with uv pip

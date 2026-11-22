@@ -30,6 +30,24 @@ pytest
 uvicorn endorag_back.routes.entrypoint:create_app --factory   # backend on :8000
 ```
 
+### Frontend (chat widget and demo page)
+
+Node 24 and npm. `front/` builds the embeddable widget (`widget.js`) and the fictional
+campaign page that hosts it.
+
+```bash
+cd front
+npm install
+npm run mock    # optional: mock chat API on :8000 and :8001 (replayed streams, no backend needed)
+npm run dev     # campaign page with the widget on http://localhost:5173
+npm test && npm run build   # helper tests; dist/ with widget.js and the page
+```
+
+`?chat=open&profile=patient` opens the widget directly (the poster QR code). One backend
+serves one profile, so the « Espace professionnels » entry needs a second backend
+(`PROFILE=gp ... --port 8001`); the demo page's script tag already sets
+`data-api-gp="http://localhost:8001"`.
+
 ## Documentation
 
 See [docs/](docs/README.md): scenario, scope, architecture, tech stack, sources,
